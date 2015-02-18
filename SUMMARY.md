@@ -6,5 +6,4 @@
    * Currency
 * Products
    * Creating your first product
-* currency
 
