@@ -28,6 +28,6 @@
     
 * Default Currency
 
-    >The 
+    >The currency that has been a legal tender in the country. To be selected from the given list.
 
     
