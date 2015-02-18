@@ -21,3 +21,14 @@ This is a basic inventory management system offered by j2store.
     2. Show only when stock reaches low stock threshold. e.g., only 2 left in stock.
     3. Never show stock.
 
+* Min Sale Quantity
+
+    This global setting default value is 1 and it can be overwritten for user's desired quantity in products view.
+
+* Max Sale Quantity
+
+    Global setting. By default, it is left empty. It can also be overwritten.
+
+* Notify if stock goes below
+
+    The global setting for this field is empty and it can be overwritten for the user's desired quantity. And when the stock goes beyond the preset level it will be notified.
