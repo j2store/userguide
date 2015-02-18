@@ -12,4 +12,4 @@ This is a basic inventory management system offered by j2store.
 
 * Hold stock for (in minutes) before cancelling
 
-    If the previous option is set to yes, this option will be enabled for entering the allowed time for order confirmation. If not, it will stay disabled.
+    If the previous option is set to yes, this option will be enabled for entering the allowed time for order confirmation, else, it will stay disabled.
