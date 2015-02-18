@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * Set up
+   * Configuration
    * Currency
    * Configuration
 
