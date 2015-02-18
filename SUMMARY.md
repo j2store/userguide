@@ -11,7 +11,7 @@
        * [Inventory](inventory.md)
        * [Tax](tax.md)
        * [Discount](discount.md)
-       * Cart
+       * [Cart](cart.md)
    * [Currency](currency.md)
 * Products
    * Creating your first product
