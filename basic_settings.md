@@ -7,7 +7,7 @@
       >Template style can be customized by adding the component's *j2store.css* file to the template's css folder. Enabling this option will search for the template's css folder for _j2store.css_ file. It will be included if it exists in the folder or else the component's default j2store.css file will be loaded.
 
 * Load jQuery
-*(For joomla 2.5 or later)*
+*(Only for joomla 2.5)*
     
     >If your template or your extensions load jQuery by default and you do not want jQuery to be loaded, then you can avoid it by choosing *NO* in this option. Otherwise, you can load jQuery either locally or from a remote area, for eg. google.com
     
