@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * Set up
-   * Configuration
+   * [Configuration](configuration.md)
    * Currency
 * Products
    * Creating your first product
