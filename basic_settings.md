@@ -20,3 +20,10 @@
 
     >If the template is loaded with bootstrap, and if the user does not want it to be loaded, the user may choose NO, otherwise choose YES to load the default Bootstrap CSS packed with j2store.
 
+* Who can see 'add to cart'
+ 
+    >This is an option for the user to add his/her product of choice to the cart to proceed for billing. This can be set to be viewed by 'anyone' or for 'registered users only'.
+
+* Date Format
+
+    >Here one can choose the display format of date from several [available options](http://php.net/manual/en/datetime.formats.date.php). 
