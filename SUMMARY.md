@@ -9,6 +9,7 @@
        * [Store](store.md)
        * [Product](product.md)
        * [Inventory](inventory.md)
+       * Tax
    * [Currency](currency.md)
 * Products
    * Creating your first product
