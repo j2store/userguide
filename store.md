@@ -32,5 +32,5 @@ In this tab, the store details are collected in a number of text fields, select 
 
 * Auto Update Currency
 
-    Being self explanatory with its caption, one can select either *YES* or *NO*
+    Setting this option to *Yes* will automatically update the latest exchange values for the currency that is being dealt with. For e.g., the daily exchange values of INR against US $ will be updated automatically.
     
