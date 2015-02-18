@@ -10,7 +10,7 @@
        * [Product](product.md)
        * [Inventory](inventory.md)
        * [Tax](tax.md)
-       * Discount
+       * [Discount](discount.md)
    * [Currency](currency.md)
 * Products
    * Creating your first product
