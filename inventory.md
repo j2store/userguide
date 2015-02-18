@@ -17,7 +17,7 @@ This is a basic inventory management system offered by j2store.
 * Stock Display Format    
 
     This option is used to display the available stock. There are three formats available for the view.
-    1. Always Show Stock E.g., 12 in stock.
+    1. Always Show Stock e.g., 12 in stock.
     2. Show only when stock reaches low stock threshold. e.g., only 2 left in stock.
     3. Never show stock.
 
