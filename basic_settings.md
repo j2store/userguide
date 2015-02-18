@@ -27,3 +27,8 @@
 * Date Format
 
     >Here one can choose the display format of date from several [available options](http://php.net/manual/en/datetime.formats.date.php). 
+    
+* Folder path for digital goods
+
+    >The relative path to the folder with your corresponding files. 
+
