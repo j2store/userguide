@@ -1,2 +1,3 @@
+#Currency
 Configuration
 =============
