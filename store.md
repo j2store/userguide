@@ -34,3 +34,11 @@ In this tab, the store details are collected in a number of text fields, select 
 
     Setting this option to *Yes* will automatically update the latest exchange values for the currency that is being dealt with. For e.g., the daily exchange values of INR against US $ will be updated automatically.
     
+* Default Weight Measurement
+
+    Select the default weight measurement in use for any country from the available options. (Kilograms, Grams, Ounce, Pounds)
+    
+* Default Length Measurement
+
+    Select the default length measurement in use for any country from the available options. (Centimetre, Inch, Millimetre)
+    
