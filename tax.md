@@ -22,11 +22,11 @@ The price entered initially will be the one till the end. Later alterations will
     
 * Price Display Options
 
-    Price of a product can be displayed in three formats.
-        1. Only the price of the product.
-        2. Price inclusive of relevant tax, as a single figure.
-        3. Price and Tax separately.
-    One of these options can be selected here.
+Price of a product can be displayed in three formats.
+    1. Only the price of the product.
+    2. Price inclusive of relevant tax, as a single figure.
+    3. Price and Tax separately.
+One of these options can be selected here.
 
 * Apply Discounts
 
