@@ -7,4 +7,5 @@
 * Products
    * Creating your first product
 * System Requirements
+* Installation
 
