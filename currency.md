@@ -1,2 +1,4 @@
 # Currency
+Currency Settings
+==================
 
