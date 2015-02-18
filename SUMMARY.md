@@ -4,4 +4,5 @@
 * Set up
    * Configuration
    * Currency
+* Products
 
