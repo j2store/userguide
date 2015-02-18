@@ -1,6 +1,6 @@
 # Basic Settings
 
->Some basic settings need to be done before you proceed. This will be handled by the following options.
+Some basic settings need to be done before you proceed. This will be handled by the following options.
 
  * Enable J2Store CSS
  
