@@ -4,5 +4,4 @@
 * Set up
    * Configuration
    * Currency
-   * Configuration
 
