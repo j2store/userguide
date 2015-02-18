@@ -1,6 +1,6 @@
 # Store
 
-    >In this tab, the store details are collected in a number of text fields, select lists and option buttons. The fields in this tab marked with a * are mandatory.
+In this tab, the store details are collected in a number of text fields, select lists and option buttons. The fields in this tab marked with a * are mandatory.
     
 * Store Administrator Email(s)
 
