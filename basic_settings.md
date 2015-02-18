@@ -30,5 +30,5 @@ Some basic settings need to be done before you proceed. This will be handled by 
     
 * Folder path for digital goods
 
-    The relative path to the folder with your corresponding files. 
+    The relative path to the folder with your corresponding files. Eg., '/media/myfiles/xyz.css'
 
