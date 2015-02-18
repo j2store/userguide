@@ -6,4 +6,5 @@
    * [Currency](currency.md)
 * Products
    * Creating your first product
+* System Requirements
 
