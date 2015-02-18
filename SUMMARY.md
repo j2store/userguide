@@ -7,7 +7,7 @@
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
        * [Store](store.md)
-       * Product
+       * [Product](product.md)
    * [Currency](currency.md)
 * Products
    * Creating your first product
