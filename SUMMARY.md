@@ -5,4 +5,5 @@
    * Configuration
    * Currency
 * Products
+   * Creating your first product
 
