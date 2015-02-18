@@ -30,4 +30,7 @@ In this tab, the store details are collected in a number of text fields, select 
 
     The currency that has been a legal tender in the country. To be selected from the given list.
 
+* Auto Update Currency
+
+    Being self explanatory with its caption, one can select either *YES* or *NO*
     
