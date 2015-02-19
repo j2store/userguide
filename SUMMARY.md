@@ -17,6 +17,7 @@
        * [Update](update.md)
        * [Others](others.md)
    * [Currency](currency.md)
+       * New
 * Products
    * Creating your first product
 * Store
