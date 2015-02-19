@@ -12,6 +12,7 @@
        * [Tax](tax.md)
        * [Discount](discount.md)
        * [Cart](cart.md)
+       * Checkout Layout
    * [Currency](currency.md)
 * Products
    * Creating your first product
