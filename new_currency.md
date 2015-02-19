@@ -16,7 +16,7 @@ A currency can be created and added to the database using this option.
 
 * Symbol Position
 
-    The symbol is placed on anyone side of the currency name, according to the standards of the country that currency belongs to. For e.g., the $ is always prefixed(before currency name) like this: $ 500.00 and some currencies may also be suffixed(after currency name), tentatively like this: 500.00 $.
+    The symbol is placed on anyone side of the currency name, according to the standards of the country that currency belongs to. For e.g., the $ is always prefixed (before currency name) like this: $ 500.00 and some currencies may also be suffixed (after currency name), tentatively like this: 500.00 $.
 
 * Decimal Places
 
@@ -24,4 +24,13 @@ A currency can be created and added to the database using this option.
 
 * Decimal Separator
 
-    By default, a period or dot(.), serves the purpose of a decimal separator accross the globe. Some countries may also use comma(,) as separator. In any of the case, based on the separator only, the price entered in product page will be processed for checkout and payment procedure.
+    By default, a period or dot(.), serves the purpose of a decimal separator across the globe. Some countries may also use comma(,) as separator. In any of the case, based on the separator only, the price entered in product page will be processed for checkout and payment procedures.
+
+* Thousands Separator
+
+    A comma is the thousands separator worldwide. This separator is also referred for payment process.
+
+* Value
+
+    This option is used to set the default currency. If the value is set be 1.00000 for a particular currency, it will serve as the default currency.
+
