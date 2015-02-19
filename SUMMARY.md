@@ -14,7 +14,7 @@
        * [Cart](cart.md)
        * [Checkout Layout](checkout_layout.md)
        * [Order](order.md)
-       * Update
+       * [Update](update.md)
    * [Currency](currency.md)
 * Products
    * Creating your first product
