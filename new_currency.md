@@ -21,3 +21,7 @@ A currency can be created and added to the database using this option.
 * Decimal Places
 
     This indicates the number of decimal places after the '.' in the currency value. Usually, decimal places are 2.
+
+* Decimal Separator
+
+    By default, a period or dot(.), serves the purpose of a decimal separator accross the globe. Some countries may also use comma(,) as separator. In any of the case, based on the separator only, the price entered in product page will be processed for checkout and payment procedure.
