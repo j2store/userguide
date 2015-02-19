@@ -23,6 +23,7 @@
    * [Shipping Methods](shipping_methods.md)
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
+   * Reports
 * Products
    * Creating your first product
 * Store
