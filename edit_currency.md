@@ -6,7 +6,7 @@ All the fields in this option are identical to **New** option. One can edit the 
 
 This option is Publish or Enable the currency to be used in the cart. Unless a currency is published or enabled, it could not be availed for payment process.
 
-# UnPublish
+# Unpublish
 
 This is the opposite of Publish. To refrain a currency from payment process, simply unpublish it. It will not be availed for payment, but it will remain in the database.
 
