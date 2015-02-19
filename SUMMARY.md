@@ -19,7 +19,7 @@
    * [Currency](currency.md)
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
-   * Payment Methods
+   * [Payment Methods](payment_methods.md)
 * Products
    * Creating your first product
 * Store
