@@ -65,3 +65,7 @@ This tab is dealing with the cart options.
 * Show Customer Note
 
     Customer note is allowed and will be displayed in the checkout process pages but if it needs to be eliminated, then set this option to **No**.
+
+* Show Tax and Shipping estimation tool
+
+    There is a facility to estimate the probable tax and shipping cost based on some preliminary details and this can be enabled by setting the option to **Yes**.
