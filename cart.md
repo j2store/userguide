@@ -57,3 +57,7 @@ This tab is dealing with the cart options.
 * Allow Quick New User Registration
 
     If a customer is not registered before adding the products to the cart and checks out, a quick **new user registration** is possible by enabling this option to **Yes**.
+
+* Allow Guest Checkout
+
+    Guests are usually not allowed to checkout in shopping but if it is required, it can be set by enabling this option to **Yes**.
