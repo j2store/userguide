@@ -33,3 +33,23 @@ This tab is dealing with the cart options.
     2. Redirect to a menu
     
     3. Redirect to a custom URL
+
+* Add to cart button class
+
+    This option is used to set the CSS class for the **add to cart** button.
+
+* Product Thumbnail
+
+    Enabling this by selecting **Show** will show the thumbnail image of the product in the cart view.
+
+* Show Tax for each cart item
+
+    If **Show** is selected in this option, tax levied for each cart item will be shown separately near each item. 
+
+* Enable Shipping address fields
+
+    If the product has to be shipped to an address different from the customer's original address, it can be added by selecting this option to **Yes**.
+
+* Show login form during checkout
+
+    Enabling this option to **Yes** will show the login form during the checkout process.
