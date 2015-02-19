@@ -53,3 +53,7 @@ This tab is dealing with the cart options.
 * Show login form during checkout
 
     Enabling this option to **Yes** will show the login form during the checkout process.
+
+* Allow Quick New User Registration
+
+    If a customer is not registered before adding the products to the cart and checks out, a quick new user registration is possible by enabling this option to **Yes**.
