@@ -21,7 +21,7 @@
        * [Other Options](edit_currency.md)
    * [Payment Methods](payment_methods.md)
    * [Shipping Methods](shipping_methods.md)
-   * Custom Fields
+   * [Custom Fields](custom_fields.md)
 * Products
    * Creating your first product
 * Store
