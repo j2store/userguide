@@ -9,7 +9,7 @@ In this tab, the checkout layout can be set.
 		<div class="span6">[first_name] [last_name] [phone_1] [phone_2] [company] [tax_number]</div>
 		<div class="span6">[address_1] [address_2] [city] [zip] [country_id] [zone_id]</div>
 		</div>
-    Like this any <html> code can be added here for one's desired layout.
+    Like this any html code can be added here for one's desired layout.
     
 * Checkout Shipping Address Layout
 
