@@ -23,6 +23,6 @@ In this tab, the checkout layout can be set.
 
     This is a button, that restores the default setting of all the three options given above, when clicked.
     
-For a better understanding, check the ![image](j2store_checkout_layout.png) below:    
+For a better understanding, check the ![image](j2store_checkout_layout.png)    
     
     
