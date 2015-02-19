@@ -23,4 +23,13 @@ This tab is dealing with the cart options.
     
     2. Redirect to default view of the cart
     
+
+* Continue Shopping URL
+
+    After a product is added to the cart, the customer has been offered with three options to choose from, if the customer wishes to continue shopping.
     
+    1. Redirect to the previous page where he added the product
+    
+    2. Redirect to a menu
+    
+    3. Redirect to a custom URL
