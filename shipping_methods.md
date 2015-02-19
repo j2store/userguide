@@ -8,6 +8,16 @@ In this section, you can understand the functionality of shipping methods with s
 
 This is shipping plugin which is available in J2Store by default. It has seven shipping types. They are:
 
-**1. Flat Rate per Order**
+**1. Flat rate per order**
 
 A fixed rate will be charged for every order. For e.g., if the shipping cost is levied at $ 50.00 for every order, then the shipping cost is set to $ 0.00. This type of shipping can be termed as Store Pickup Method or Free Shipping Method.
+
+**2. Quantity based per order**
+
+The total number of products that are to be shipped will determine the shipping cost. For e.g., the shipping cost will be $ 20.00 per order if the total number of products is up to 5 and $ 25.00 per order if the total number of products is from 6 upto 10.
+
+**3. Price based per order**
+
+In this type of shipping, the total order value will be considered for calculation of shipping cost. For e.g., if the order value is upto $ 1000.00, the shipping cost may be fixed at $ 30.00 and for order values from $ 1001.00 to $ 2000.00 may be fixed at $ 25.00 and so on.
+
+
