@@ -56,4 +56,4 @@ This tab is dealing with the cart options.
 
 * Allow Quick New User Registration
 
-    If a customer is not registered before adding the products to the cart and checks out, a quick new user registration is possible by enabling this option to **Yes**.
+    If a customer is not registered before adding the products to the cart and checks out, a quick **new user registration** is possible by enabling this option to **Yes**.
