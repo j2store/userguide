@@ -23,7 +23,7 @@ In this type of shipping, the total order value will be considered for calculati
 **4. Flat rate per item**
 
 A fixed rate of say, $ 5.00 is applicable for each and every item in the cart. Then it will be multiplied with the total number of products i.e., if the total number of products purchased is 10 nos, then shipping cost will be $ 5.00 X 10 which is $ 50.00.
-
+N.B.: In this type, only one rate can be configured per geozone and weight will not be considered for shipping cost.
 **5. Weight based per item**
 
 In this shipping type, the cost of shipping depends upon the weight of an item that is to be shipped. If an item weighs between 1 and 50 kilograms, the shipping cost may be fixed at $ 15.00 for that item and if it weighs between 51 and 100 kilograms, it's shipping cost may be fixed at $ 25.00 for that item.
