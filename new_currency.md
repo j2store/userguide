@@ -32,7 +32,7 @@ A currency can be created and added to the database using this option.
 
 * Value
 
-    This option is used to set the default currency. If the value is set be 1.00000 for a particular currency, it will serve as the default currency.
+    This option is used to set the default currency. If the value is set be **1.00000** for a particular currency, it will serve as the default currency.
 
 * Status
 
