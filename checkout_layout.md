@@ -12,7 +12,7 @@ In this tab, the checkout layout can be set.
     
 * Checkout Payment Method Layout
 
-    This option is to decide which fields are required for the Payment Method while checking out.
+    This option is to decide which fields are required in the layout for the Payment Method while checking out.
     
 * Pre-populate / Restore
 
