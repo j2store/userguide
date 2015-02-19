@@ -13,6 +13,7 @@
        * [Discount](discount.md)
        * [Cart](cart.md)
        * [Checkout Layout](checkout_layout.md)
+       * Order
    * [Currency](currency.md)
 * Products
    * Creating your first product
