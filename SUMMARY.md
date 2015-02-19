@@ -22,6 +22,7 @@
    * [Payment Methods](payment_methods.md)
    * [Shipping Methods](shipping_methods.md)
    * [Custom Fields](custom_fields.md)
+   * Tools
 * Products
    * Creating your first product
 * Store
