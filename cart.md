@@ -61,3 +61,7 @@ This tab is dealing with the cart options.
 * Allow Guest Checkout
 
     Guests are usually not allowed to checkout in shopping but if it is required, it can be set by enabling this option to **Yes**.
+
+* Show Customer Note
+
+    Customer note is allowed and will be displayed in the checkout process pages but if it needs to be eliminated, then set this option to **No**.
