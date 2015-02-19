@@ -28,6 +28,6 @@ A fixed rate of say, $ 5.00 is applicable for each and every item in the cart. T
 
 In this shipping type, the cost of shipping depends upon the weight of an item that is to be shipped. If an item weighs between 1 and 50 kilograms, the shipping cost may be fixed at $ 15.00 for that item and if it weighs between 51 and 100 kilograms, it's shipping cost may be fixed at $ 25.00 for that item.
 
-**6. **
+**6. Weight based per order**
 
-
+This type of shipping is calculating the cost based on the total weight of the order itme
