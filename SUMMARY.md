@@ -30,6 +30,6 @@
        * [Variable Product](variable_product.md)
        * [Configurable Product](configurable_product.md)
        * [Downloadable Product](downloadable_product.md)
-   * Options
+   * [Options](options.md)
 * Store
 
