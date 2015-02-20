@@ -35,5 +35,6 @@
    * [Vendors](vendors.md)
    * [Manufacturers](manufacturers.md)
 * [Sales](sales.md)
+   * Orders
 * Store
 
