@@ -24,7 +24,7 @@
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
    * [Reports](reports.md)
-* Catalog
+* [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
 * Store
