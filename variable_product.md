@@ -9,4 +9,4 @@ There are several tabs in which the details of the product have to be given unde
 * First select whether the product is to be displayed in front of the store
 * Select the brand or manufacturer of the product from the available list
 * Select the vendor from whom the product is available for purchase
-* Specify whether the product is taxable and if so select the taxprofile relevant to the product
+* Specify whether the product is taxable and if it is, select the taxprofile relevant to the product
