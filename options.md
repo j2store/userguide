@@ -25,7 +25,7 @@ There are 9 types of options available in J2Store. Of the 9, 3 options have mult
 
 **Checkbox** This option provides facility to select multiple options at a time.
 
-* E.g., if a person is asked to give multiple choices for summer vacation, multiple check boxes can be checked simultaneously.
+* E.g., if asked to give more than one choice for summer vacation, multiple check boxes can be checked simultaneously.
 
 If these options are selected from the list, then a new row of fields will appear to enter the option values for the selected option. Any number of option values can be added to the selected option.
 
