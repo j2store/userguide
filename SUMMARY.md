@@ -30,6 +30,6 @@
    * Configurable Product
    * Downloadable Product
 * Catalog
-   * Products
+   * [Products](products.md)
 * Store
 
