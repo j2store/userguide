@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Catalog
 * System Requirements
 * Installation
 * Set up
