@@ -38,26 +38,3 @@ Other available options are:
 * DateTime
 
 For these options, setting up of option values is not possible.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
