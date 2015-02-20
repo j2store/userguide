@@ -36,7 +36,7 @@
    * [Manufacturers](manufacturers.md)
 * [Sales](sales.md)
    * [Orders](sales_orders.md)
-   * Customers
+   * [Customers](sales_customers.md)
    * Coupons
    * Vouchers
    * Promotions
