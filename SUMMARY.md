@@ -3,6 +3,16 @@
 * [Introduction](README.md)
 * System Requirements
 * Installation
+* [Catalog](catalog.md)
+   * [Products](products.md)
+       * [Simple Product](simple_product.md)
+       * [Variable Product](variable_product.md)
+       * [Configurable Product](configurable_product.md)
+       * [Downloadable Product](downloadable_product.md)
+   * [Options](options.md)
+   * [Product Filters](product_filters.md)
+   * [Vendors](vendors.md)
+   * [Manufacturers](manufacturers.md)
 * Set up
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
@@ -24,16 +34,6 @@
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
    * [Reports](reports.md)
-* [Catalog](catalog.md)
-   * [Products](products.md)
-       * [Simple Product](simple_product.md)
-       * [Variable Product](variable_product.md)
-       * [Configurable Product](configurable_product.md)
-       * [Downloadable Product](downloadable_product.md)
-   * [Options](options.md)
-   * [Product Filters](product_filters.md)
-   * [Vendors](vendors.md)
-   * [Manufacturers](manufacturers.md)
 * Store
 * Sales
 
