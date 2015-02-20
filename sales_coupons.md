@@ -17,12 +17,3 @@ Coupons hold the following information required for a successful process of purc
 * Product Categories (coupon usage applicable product categories, separated by commas, empty for entire cart products)
 * ID of list of users for whom the coupon should apply, empty for all customers
 * Minimum order subtotal - minimum value required to avail the coupon privilege
-
-
-
-
-
-
-
-
-
