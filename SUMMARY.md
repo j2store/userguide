@@ -31,6 +31,6 @@
        * [Configurable Product](configurable_product.md)
        * [Downloadable Product](downloadable_product.md)
    * [Options](options.md)
-   * Product Filters
+   * [Product Filters](product_filters.md)
 * Store
 
