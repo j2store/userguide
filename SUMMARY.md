@@ -25,6 +25,5 @@
    * [Tools](tools.md)
    * [Reports](reports.md)
 * [Products](products.md)
-   * [Creating your first product](creating_your_first_product.md)
 * Store
 
