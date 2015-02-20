@@ -24,11 +24,11 @@
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
    * [Reports](reports.md)
-* Catalog
 * [Products](products.md)
    * [Simple Product](simple_product.md)
    * [Variable Product](variable_product.md)
    * Configurable Product
    * Downloadable Product
+* Catalog
 * Store
 
