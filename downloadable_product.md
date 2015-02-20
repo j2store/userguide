@@ -21,24 +21,3 @@ This determines the maximum number of copies allowed to be downloaded by a singl
 This will set a deadline for the product link to be active to download the product. If the deadline set to be 15 days, for instance, the link goes inactive on the start of 16th day.
 
 All other options are same as simple product.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
