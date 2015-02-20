@@ -26,5 +26,6 @@
    * [Reports](reports.md)
 * [Products](products.md)
    * [Simple Product](simple_product.md)
+   * Variable Product
 * Store
 
