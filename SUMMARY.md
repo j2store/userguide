@@ -26,7 +26,7 @@
    * [Reports](reports.md)
 * [Products](products.md)
    * [Simple Product](simple_product.md)
-   * Variable Product
+   * [Variable Product](variable_product.md)
    * Configurable Product
    * Downloadable Product
 * Store
