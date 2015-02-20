@@ -28,5 +28,6 @@
    * [Products](products.md)
        * [Simple Product](simple_product.md)
        * Variable Product
+       * Configurable Product
 * Store
 
