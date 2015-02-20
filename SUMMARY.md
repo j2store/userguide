@@ -35,7 +35,7 @@
    * [Vendors](vendors.md)
    * [Manufacturers](manufacturers.md)
 * [Sales](sales.md)
-   * Orders
+   * [Orders](sales_orders.md)
    * Customers
    * Coupons
    * Vouchers
