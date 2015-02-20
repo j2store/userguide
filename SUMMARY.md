@@ -35,4 +35,5 @@
    * [Vendors](vendors.md)
    * [Manufacturers](manufacturers.md)
 * Store
+* Sales
 
