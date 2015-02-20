@@ -20,6 +20,8 @@ There are several tabs in which the details of the product have to be given unde
 * It may be SKU no, price, stock level or color
 * It can be searched for and added
 
+#### Filters
+* Add any filters to narrow up the search for products
 
 
 
