@@ -29,5 +29,6 @@
        * [Simple Product](simple_product.md)
        * Variable Product
        * Configurable Product
+       * Downloadable Product
 * Store
 
