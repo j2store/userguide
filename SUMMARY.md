@@ -30,4 +30,5 @@
    * Configurable Product
    * Downloadable Product
 * Store
+* Catalog
 
