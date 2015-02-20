@@ -1,10 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-   * Catalog
 * System Requirements
 * Installation
 * Set up
+   * Catalog
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
        * [Store](store.md)
