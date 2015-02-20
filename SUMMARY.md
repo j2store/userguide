@@ -39,5 +39,6 @@
    * Customers
    * Coupons
    * Vouchers
+   * Promotions
 * Store
 
