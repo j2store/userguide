@@ -24,7 +24,7 @@
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
    * [Reports](reports.md)
-* Products
+* [Products](products.md)
    * Creating your first product
 * Store
 
