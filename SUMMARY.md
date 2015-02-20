@@ -13,6 +13,7 @@
    * [Product Filters](product_filters.md)
    * [Vendors](vendors.md)
    * [Manufacturers](manufacturers.md)
+* Sales
 * Set up
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
@@ -35,5 +36,4 @@
    * [Tools](tools.md)
    * [Reports](reports.md)
 * Store
-* Sales
 
