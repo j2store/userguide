@@ -34,6 +34,6 @@
    * [Product Filters](product_filters.md)
    * [Vendors](vendors.md)
    * [Manufacturers](manufacturers.md)
-* Sales
+* [Sales](sales.md)
 * Store
 
