@@ -31,5 +31,6 @@
    * Downloadable Product
 * Catalog
    * [Products](products.md)
+       * Simple Product
 * Store
 
