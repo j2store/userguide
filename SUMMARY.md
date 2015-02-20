@@ -32,5 +32,6 @@
        * [Downloadable Product](downloadable_product.md)
    * [Options](options.md)
    * [Product Filters](product_filters.md)
+   * Vendors
 * Store
 
