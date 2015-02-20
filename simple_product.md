@@ -53,20 +53,3 @@ There are several tabs in which the details of the product have to be given unde
     * 4GB/500GB-> $550 - Upsell, same product family, more expensive
     * 4GB/1TB -> $700  - Upsell, same product family, more expensive
     * Laptop Bag -> $25 - Cross sell, related product, additional sell
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
