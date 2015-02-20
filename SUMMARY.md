@@ -25,6 +25,6 @@
    * [Tools](tools.md)
    * [Reports](reports.md)
 * [Products](products.md)
-   * Simple Product
+   * [Simple Product](simple_product.md)
 * Store
 
