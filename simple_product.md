@@ -17,7 +17,7 @@ There are several tabs in which the details of the product have to be given unde
 * Enter the regular price for the product
 * There is an option to set advanced pricing if any discounts or privileges are exercised for the customers and that settings are done here. A time period, quantity limitation, user group and discounted price can be set for availing any discounts
 * Pricing calculator can also be selected provided one or more pricing calculators should be predefined
-* A handy tip is also available in the tab itself regarding price format and advanced pricing
+* A handy quick help is also available in the tab itself regarding price format and advanced pricing
 
 
 
