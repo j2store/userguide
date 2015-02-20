@@ -15,4 +15,14 @@ Coupons hold the following information required for a successful process of purc
 * Uses per coupon (limit of using the coupon for privileges by any user, empty value is for unlimited use)
 * Uses per customer (limit of using the coupon for privileges by one customer, empty value for unlimited use)
 * Product Categories (coupon usage applicable product categories, separated by commas, empty for entire cart products)
-* 
+* ID of list of users for whom the coupon should apply, empty for all customers
+* Minimum order subtotal - minimum value required to avail the coupon privilege
+
+
+
+
+
+
+
+
+
