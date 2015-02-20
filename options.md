@@ -27,9 +27,17 @@ There are 9 types of options available in J2Store. Of the 9, 3 options have mult
 
 * E.g., if a person is asked to give multiple choices for summer vacation, multiple check boxes can be checked simultaneously.
 
+If these options are selected from the list, then a new row of fields will appear to enter the option values for the selected option. Any number of option values can be added to the selected option.
 
+Other available options are: 
+* Text
+* Textarea
+* File
+* Date
+* Time
+* DateTime
 
-
+For these options, setting up of option values is not possible.
 
 
 
