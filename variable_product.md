@@ -14,3 +14,28 @@ There are several tabs in which the details of the product have to be given unde
 #### Images
 * Select the main and thumbnail images for the products
 * Add more images if necessary
+
+#### Variants
+* A variant defines how this product differs from other products of same type. It may SKU no, price, stock level or color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
