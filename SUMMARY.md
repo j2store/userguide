@@ -38,5 +38,6 @@
    * Orders
    * Customers
    * Coupons
+   * Vouchers
 * Store
 
