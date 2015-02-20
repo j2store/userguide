@@ -33,5 +33,6 @@
    * [Options](options.md)
    * [Product Filters](product_filters.md)
    * [Vendors](vendors.md)
+   * Manufacturers
 * Store
 
