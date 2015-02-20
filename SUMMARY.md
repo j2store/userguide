@@ -37,5 +37,6 @@
 * [Sales](sales.md)
    * Orders
    * Customers
+   * Coupons
 * Store
 
