@@ -41,6 +41,6 @@
    * [Vouchers](sales_vouchers.md)
    * [Promotions](sales_promotions.md)
 * Localisation
-* Store
 * Design
+* Store
 
