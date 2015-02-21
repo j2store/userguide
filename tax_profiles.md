@@ -37,7 +37,9 @@ Now you can map the taxrates by assigning one to an address type as described be
 
 **Associated Address** - select 'Billing Address' from the list.
 
+Check the image below:
 
+![Tax Profile](Tax_Profile.png)
 
 
 
