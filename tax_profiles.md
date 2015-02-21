@@ -33,6 +33,10 @@ Now click the green button 'Save' only and no other button.
 
 Now you can map the taxrates by assigning one to an address type.
 
+**Rate** - select the added 'Value Added Tax' from the list.
+**Associated Address** - select 'Billing Address' from the list.
+
+
 
 
 
