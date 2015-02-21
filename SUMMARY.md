@@ -40,7 +40,7 @@
    * [Coupons](sales_coupons.md)
    * [Vouchers](sales_vouchers.md)
    * [Promotions](sales_promotions.md)
-* Localisation
+* [Localisation](localisation.md)
    * [Countries](countries.md)
    * Zones
 * Design
