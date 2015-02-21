@@ -1,7 +1,7 @@
 Welcome to J2Store
 =======
 
-J2Store is a modern, flexible and native ecommerce solution for Joomla Content Management System. 
+J2Store is a native, flexible and modern ecommerce solution for Joomla Content Management System. 
 
 J2Store uses the default Joomla articles as its products. It can also be integrated with other content construction kits like K2, Sebold, Zoo, SobiPro, directory extensions, event managers like RSEvents, JEvents, Gallery extensions and many more.
 
