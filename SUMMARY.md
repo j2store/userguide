@@ -42,7 +42,7 @@
    * [Promotions](sales_promotions.md)
 * [Localisation](localisation.md)
    * [Countries](countries.md)
-   * Zones
+   * [Zones](zones.md)
 * Design
 * Store
 
