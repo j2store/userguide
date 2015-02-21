@@ -21,8 +21,17 @@ Now create a tax rate in that page by entering the sample data.
 * Geozone     : 14.2 (Select the geozone from the list)
 * Status      : Published
 
+Now check the Tax Rate image
 
+![Tax Rate](Tax_Rate.png)
 
+Now go to tax profiles and add a new profile.
+
+* Taxprofile Name  : Profile 14.2 (any name of your choice)
+
+Now click the green button 'Save' only and no other button.
+
+Now you can map the taxrates by assigning one to an address type.
 
 
 
