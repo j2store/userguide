@@ -42,4 +42,5 @@
    * [Promotions](sales_promotions.md)
 * Localisation
 * Store
+* Design
 
