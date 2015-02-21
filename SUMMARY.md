@@ -43,7 +43,7 @@
 * [Localisation](localisation.md)
    * [Countries](countries.md)
    * [Zones](zones.md)
-   * Geozones
+   * [Geozones](geozones.md)
 * Design
 * Store
 
