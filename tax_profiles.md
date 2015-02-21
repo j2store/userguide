@@ -42,16 +42,3 @@ Check the image below:
 ![Tax Profile](Tax_Profile.png)
 
 Thats it. You have added a tax profile successfully.
-
-
-
-
-
-
-
-
-
-
-
-
-
