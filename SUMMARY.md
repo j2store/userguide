@@ -44,6 +44,7 @@
    * [Countries](countries.md)
    * [Zones](zones.md)
    * [Geozones](geozones.md)
+   * Tax Rate
 * Design
 * Store
 
