@@ -45,7 +45,7 @@
    * [Zones](zones.md)
    * [Geozones](geozones.md)
    * [Tax Rate](tax_rate.md)
-   * Tax Profiles
+   * [Tax Profiles](tax_profiles.md)
 * Design
 * Store
 
