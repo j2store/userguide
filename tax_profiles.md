@@ -6,3 +6,10 @@ Generally, tax is calculated for billing address. But there are odd cases, where
 
 Let an example help understand how it works.
 This example assumes that the store is located in the state of California, US.
+
+* In the configuration page, go to **Store** tab and create a profile with United States in the country field and California as state
+* Now go to geozone pae and create one with a meaningful name of your choice. In this example, it is 'Tax 14'
+* Map the country and zone in the fields show below with United States and California
+
+See the image
+![Geozone](Geozone.png)
