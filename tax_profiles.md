@@ -13,3 +13,29 @@ This example assumes that the store is located in the state of California, US.
 
 See the image
 ![Geozone](Geozone.png)
+
+Now create a tax rate in that page by entering the sample data.
+
+Name        : Value Added Tax
+Tax Percent : 14.2 (Enter only numbers and a single . for decimal. No other symbols should be used)
+Geozone     : 14.2 (Select the geozone from the list)
+Status      : Published
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
