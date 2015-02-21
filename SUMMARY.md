@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* System Requirements
+* [System Requirements](system_requirements.md)
 * Installation
 * Set up
    * [Configuration](configuration.md)
