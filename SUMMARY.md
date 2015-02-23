@@ -47,6 +47,7 @@
    * [Tax Rate](tax_rate.md)
    * [Tax Profiles](tax_profiles.md)
    * [Lengths](lengths.md)
+   * Weights
 * Design
 * Store
 
