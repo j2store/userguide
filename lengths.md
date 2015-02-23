@@ -5,7 +5,7 @@ Length classes are used to assign length specifications to products in J2Store c
 This class needs the following details: 
 
 #### Length Title
-Formal name of the length measurement. (e.g. Centimetre)
+Formal name of measurement unit for base quantity length. (e.g. Centimetre)
 
 #### Length Unit
-Measurement unit of length. (e.g. cm)
+Short form of measurement unit. (e.g. cm)
