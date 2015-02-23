@@ -35,6 +35,8 @@ The facilities that are available in the editor are:
 * Insert tables
 * Insert source code etc
 
+Full articles can also be added to the content, from other external sources.
+
 
 
 
