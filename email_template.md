@@ -19,10 +19,21 @@ Here the user group from which the email can be sent is selected.
 #### Payment Methods
 The payment methods that are covered for emails can be selected here.
 
+#### Enabled
+It has to be enabled first to send email.
 
+#### Subject
+A short one line info about the content of the email.
 
-
-
+Now, Advanced.
+### Advanced
+In advanced settings, we have the email body content. The content of the email body can be designed here. There are so many options available to customize the content. There is a rich text editor to neatly customize the content.
+The facilities that are available in the editor are:
+* Cut, Copy, Paste
+* Insert links or images
+* Formatting the text in the body like, bold, italicize, line spacing, underlining, and much more
+* Insert tables
+* Insert source code etc
 
 
 
