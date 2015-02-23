@@ -49,6 +49,6 @@
    * [Lengths](lengths.md)
    * [Weights](weights.md)
    * [Order Statuses](order_statuses.md)
-* Design
+* [Design](design.md)
 * Store
 
