@@ -9,3 +9,6 @@ Formal name of measurement unit for base quantity length. (e.g. Centimetre)
 
 #### Length Unit
 Short form of measurement unit. (e.g. cm)
+
+#### Length Value
+This is set to be 1 for default. All other measuring units for base quantity length are relative the given example unit and the value entered for those units must be in correlation to this unit.
