@@ -51,4 +51,5 @@
    * [Order Statuses](order_statuses.md)
 * Design
 * Store
+* Design
 
