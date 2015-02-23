@@ -51,5 +51,6 @@
    * [Order Statuses](order_statuses.md)
 * [Design](design.md)
    * [Email Template](email_template.md)
+   * Invoice Template
 * Store
 
