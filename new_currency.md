@@ -32,7 +32,7 @@ A currency can be created and added to the database using this option.
 
 * Value
 
-    This option is used to set the default currency. If the value is set be **1.00000** for a particular currency, it will serve as the default currency. All other currencies will be in relation with this. For e.g., if US $ is been set the value 1, it will be the default currency and the corresponding value will be 0.81 for Euro.
+    This option is used to set the default currency. If the value is set be **1.00000** for a particular currency, it will serve as the default currency. All other currencies will be in relation with this. For e.g., if US $ is been set the value 1, it will be the default currency and the corresponding value will be 0.81 for Euro. In this way J2Store will calculate the prices for products based on currency transitions.
 
 * Status
 
