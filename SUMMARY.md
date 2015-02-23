@@ -50,5 +50,6 @@
    * [Weights](weights.md)
    * [Order Statuses](order_statuses.md)
 * [Design](design.md)
+   * Email Template
 * Store
 
