@@ -48,6 +48,7 @@
    * [Tax Profiles](tax_profiles.md)
    * [Lengths](lengths.md)
    * [Weights](weights.md)
+   * Order Statuses
 * Design
 * Store
 
