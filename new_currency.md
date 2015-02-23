@@ -4,11 +4,11 @@ A currency can be created and added to the database using this option.
 
 * Currency Title
 
-    Title is very important and it should be given in a proper way. E.g., Indian Rupees.
+    Title is very important and it should be given in a proper way. E.g., US Dollars.
     
 * Currency Code
 
-    The currency code must be selected from the list given. A new code of users choice cannot be added to the list.
+    The currency code must be selected from the list given. A new code of users choice cannot be added to the list. E.g. USD
 
 * Currency Symbol
 
@@ -32,7 +32,7 @@ A currency can be created and added to the database using this option.
 
 * Value
 
-    This option is used to set the default currency. If the value is set be **1.00000** for a particular currency, it will serve as the default currency.
+    This option is used to set the default currency. If the value is set be **1.00000** for a particular currency, it will serve as the default currency. All other currencies will be in relation with this. For e.g., if US $ is been set the value 1, it will be the default currency and the corresponding value will be 0.81 for Euro.
 
 * Status
 
