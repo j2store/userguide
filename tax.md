@@ -29,6 +29,6 @@ Price of a product can be displayed in three formats.
 
 One of these options can be selected here.
 
-* Apply Discounts
+* ***Apply Discounts***
 
-    Since discounts are usually applied before calculating the tax, the default selection of this option is 'Before Tax', but if it is desired to be applied after tax calculation, then select option 'After Tax'.
+    Since discounts are usually applied before calculating the tax, the default selection of this option is **'Before Tax'**, but if it is desired to be applied after tax calculation, then select option **'After Tax'**.
