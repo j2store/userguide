@@ -38,16 +38,3 @@ The facilities that are available in the editor are:
 Full articles can also be added to the content, from other external sources.
 
 There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content.
-
-
-
-
-
-
-
-
-
-
-
-
-
