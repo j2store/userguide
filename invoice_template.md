@@ -45,29 +45,3 @@ Check the image below for how an ivoice template can be designed for our needs. 
 ![Create Invoice Template](invoice template.png)
 
 Full articles can also be added to the content, from other external sources.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
