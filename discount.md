@@ -2,10 +2,10 @@
 
 This is for discounts that are offered to customers.
 
-* Enable Coupons
+* ***Enable Coupons***
 
-    If discount is offered based on coupons, this option can be set to Yes. Otherwise, leave it to 'No'.
+    If discount is offered based on coupons, this option can be set to **Yes**. Otherwise, leave it to **No**.
     
-* Enable Gift Vouchers
+* ***Enable Gift Vouchers***
 
     By enabling this option with a 'Yes', the customers can be offered gift vouchers with fixed value, which in turn, can be applied during the checkout.
