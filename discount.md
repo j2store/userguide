@@ -8,4 +8,4 @@ This is for discounts that are offered to customers.
     
 * ***Enable Gift Vouchers***
 
-    By enabling this option with a 'Yes', the customers can be offered gift vouchers with fixed value, which in turn, can be applied during the checkout.
+    By enabling this option with a '**Yes**', the customers can be offered gift vouchers with fixed value, say **$ 25.00**, which in turn, can be applied during the checkout.
