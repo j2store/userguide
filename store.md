@@ -18,6 +18,10 @@ In this tab, the store details are collected in a number of text fields, select 
 
     Enter a valid postal code for the store. This field can not be empty.
     
+Check the image below to understand how to enter emails, store name and address etc.
+![](Store_config.png)
+
+    
 * ***Country Name***
 
     Name of the country in which the store exists. To be selected from the given list.
