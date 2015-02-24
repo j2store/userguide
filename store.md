@@ -24,7 +24,7 @@ In this tab, the store details are collected in a number of text fields, select 
 
 * Zone Name
 
-    Name of the zone in the country. To be selected from the list given list.
+    Name of the zone in the country. To be selected from the given list.
     
 * Default Currency
 
