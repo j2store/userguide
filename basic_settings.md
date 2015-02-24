@@ -4,7 +4,7 @@ Some basic settings need to be done before you proceed. This will be handled by 
 
  * ***Enable J2Store CSS***
  
-    Template style can be customized by adding the component's *j2store.css* file to the template's css folder. Enabling this option will search for the template's css folder for _j2store.css_ file. It will be included if it exists in the folder or else the component's default j2store.css file will be loaded.
+    Template style can be customized by adding the component's ***j2store.css*** file to the template's css folder. Enabling this option will search for the template's css folder for **_j2store.css_** file. It will be included if it exists in the folder or else the component's default **j2store.css** file will be loaded.
 
 * ***Load jQuery***
 ***(Only for joomla 2.5)***
@@ -18,11 +18,11 @@ Some basic settings need to be done before you proceed. This will be handled by 
 * ***Load Bootstrap***
  ***(Only for joomla 2.5)***
 
-    If the template is loaded with bootstrap, and if the user does not want it to be loaded, the user may choose NO, otherwise choose YES to load the default Bootstrap CSS packed with j2store.
+    If the template is loaded with bootstrap, and if the user does not want it to be loaded, the user may choose **NO**, otherwise choose **YES** to load the default Bootstrap CSS packed with **j2store**.
 
 * ***Who can see 'add to cart'***
  
-    This is an option for the user to add his/her product of choice to the cart to proceed for billing. This can be set to be viewed by 'anyone' or for 'registered users only'.
+    This is an option for the user to add his/her product of choice to the cart to proceed for billing. This can be set to be viewed by **'anyone'** or for **'registered users only'**.
 
 * ***Date Format***
 
@@ -30,5 +30,5 @@ Some basic settings need to be done before you proceed. This will be handled by 
     
 * ***Folder path for digital goods***
 
-    The relative path to the folder with your corresponding files. Eg., '/media/myfiles/xyz.css'
+    The relative path to the folder with your corresponding files. Eg., **'/media/myfiles/xyz.css'**
 
