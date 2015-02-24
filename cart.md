@@ -72,3 +72,7 @@ Check the image for more clarification.
 * ***Show Tax and Shipping estimation tool***
 
     There is a facility to estimate the probable tax and shipping cost based on some preliminary details and this can be enabled by setting the option to **Yes**.
+    
+Check the image below for more clear understanding.
+
+![Cart Configuration1](Cart_config1.png)
