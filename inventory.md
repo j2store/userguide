@@ -32,3 +32,7 @@ This is a basic inventory management system offered by j2store.
 * ***Notify if stock goes below***
 
     The global setting for this field is empty and it can be overwritten for the user's desired quantity. And when the stock goes beyond the preset level it will be notified.
+    
+Check the image below for a clear understanding.
+
+![Inventory Setup](Inventory_setup.png)
