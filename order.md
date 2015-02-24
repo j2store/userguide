@@ -16,7 +16,7 @@ Likewise, in ***RBC-2015-S-000***, all are same and the extra 2015 may be added 
 Now the system generated invoice number, say 1, will be appended with this prefix, and will be displayed as **RBC/S/0001** in the invoice.
 
 For a better understanding, check the image below.
-
+![Order Configuration](Order_Config.png)
 
 * ***Show Link to Order History after payment***
     
