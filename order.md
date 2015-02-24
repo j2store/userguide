@@ -17,8 +17,6 @@ Now the system generated invoice number, say 1, will be appended with this prefi
 
 For a better understanding, check the image below.
 
-
-    
 * ***Show Link to Order History after payment***
     
     Enabling this will show the user a link which will take to the user's order history page. This will be done only after payment.
