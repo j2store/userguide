@@ -2,7 +2,7 @@
 
 In this tab, the checkout layout can be set.
 
-* Checkout Billing Address Layout
+* ***Checkout Billing Address Layout***
 
     This option helps to include/exclude the required fields in the layout of Billing Address. For e.g.,
     <div class="row-fluid">
@@ -11,20 +11,20 @@ In this tab, the checkout layout can be set.
 		</div>
     Like this any html code can be added here for one's desired layout.
     
-* Checkout Shipping Address Layout
+* ***Checkout Shipping Address Layout***
 
     This option helps to include/exclude the required fields in the layout of Shipping Address.
     
-* Checkout Payment Method Layout
+* ***Checkout Payment Method Layout***
 
     This option is to decide which fields are required in the layout for the Payment Method while checking out.
     
-* Pre-populate / Restore
+* ***Pre-populate / Restore***
 
     This is a button, that restores the default setting of all the three options given above, when clicked.
     
 For a better understanding, check the image below:
 
-![image](j2store_checkout_layout.png)    
+![Checkout Layout](checkout_layout.png)
     
     
