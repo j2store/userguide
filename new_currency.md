@@ -39,3 +39,6 @@ A currency can be created and added to the database using this option.
     This option sets the status of publication of the currency. If it is set to be **Published**, then it will be available for payment process. Otherwise, it will not be available for payments.
     
 ![Add/Edit Currency](Currency_Add.png)
+
+The image above clearly indicates how to add or edit a currency.
+
