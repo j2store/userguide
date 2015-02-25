@@ -8,7 +8,7 @@ This option is Publish or Enable the currency to be used in the cart. Unless a c
 
 # Unpublish
 
-This is the opposite of Publish. To refrain a currency from payment process, simply unpublish it. It will not be availed for payment, but it will remain in the database.
+This is the opposite of Publish. To refrain a currency from payment process, simply unpublish it. It can not be availed for payment, but it will remain in the database.
 
 # Delete
 
