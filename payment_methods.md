@@ -12,9 +12,16 @@ This, as everyone knows, paying at the time of purchase, in cash. This can be ei
 
 * ***Money Order***
 
-This is sending money for the 
+A money order is a payment order for a pre-specified amount of money. As it is required that the funds be prepaid for the amount shown on it, it is a more trusted method of payment than a cheque.
+
 * ***Paymill***
 * ***Paypal Standard for J2Store***
 * ***SagePay Direct***
 
-These methods can be enabled or disabled according to user's choice.
+These methods are payment gateways provided online to facilitate users for a secure and swift money transaction for both selling and buying.
+
+
+
+
+
+
