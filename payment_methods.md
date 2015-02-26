@@ -21,3 +21,11 @@ A money order is a payment order for a pre-specified amount of money. As it is r
 * ***SagePay Direct***
 
 These methods are payment gateways provided online to facilitate users for a secure and swift money transaction for both selling and buying.
+
+Select a payment method to customize as you wish. Check the images below to understand how it will be.
+
+![Customize 1](pay_method1.png)
+
+![Customize 2](pay_method2.png)
+
+
