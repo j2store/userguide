@@ -28,10 +28,18 @@ A money order is a payment order for a pre-specified amount of money. As it is r
 
 ![Pay MO](paymethod_mo.png)
 
+These methods are payment gateways provided on-line to facilitate users for a secure and swift money transaction for both selling and buying. For all the methods listed below, customer needs to create an account with the service providers.
+
 * ***Paymill***
+
+You need an account with ***Paymill*** to choose this method. If you have/create one, you will be provided with private and public keys for facilitating payments. You need to enter them in the respective fields.
+
+
+
 * ***Paypal Standard for J2Store***
 * ***SagePay Direct***
 
-These methods are payment gateways provided online to facilitate users for a secure and swift money transaction for both selling and buying.
+
 
 Select a payment method to customize as you wish. Check the images below to understand how it will be
+
