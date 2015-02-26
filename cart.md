@@ -10,10 +10,10 @@ This tab is dealing with the cart options.
         If this option is selected, the add to cart button will be shown at the bottom of the page.
     2. ***Within Article using Tag***
     
-        A tag can be added with article id (e.g., **{j2storecart 5}**) inside the text in a desired location, and j2store will place the **add to cart** button in that location.
+        A tag can be added with article id (e.g., **{j2store}5|cart{/j2store}**) inside the text in a desired location, and j2store will place the **add to cart** button in that location.
     3. ***Both***
     
-        Selecting this option will display the **add to cart** both at the bottom and also parse the tag, provided one(e.g., **j2storecart 5**) is added in the article text.
+        Selecting this option will display the **add to cart** both at the bottom and also parse the tag, provided one(e.g., **{j2store}5|cart{/j2store}**) is added in the article text.
         
 * ***Add to cart action***
 
