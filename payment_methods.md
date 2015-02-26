@@ -41,6 +41,9 @@ In these payment types, unlike Bank Transfer or Money order methods, the custome
 ![Paymill 2](pay_paymill2.png)
 
 * ***Paypal Standard for J2Store***
+ 
+In this method also, you need to have an account for making payments. 
+
 * ***SagePay Direct***
 
 
