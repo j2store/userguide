@@ -4,4 +4,4 @@ This is another payment gateway that can be used for online payments. This secti
 
 See the image below:
 
-![Sage Pay 1](pay_sage1.png)
+![Sagepay Direct 1](pay_sage1.png))
