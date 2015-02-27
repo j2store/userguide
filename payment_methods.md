@@ -42,7 +42,12 @@ In these payment types, unlike Bank Transfer or Money order methods, the custome
 
 * ***Paypal Standard for J2Store***
  
-In this method also, you need to have an account for making payments. 
+In this method also, you need to have an account for making payments.
+
+The email id associated with Paypal needs to be given for further proceedings. For testing the integration with Paypal, one cannot use the live Paypal account. a separate sandbox has to be created for testing purposes.
+You have the option to use **SSL**(Secure Socket Layers) which ensures online data security between the browser and the website.
+
+![Paypal 1](pay_paypal1.png)
 
 * ***SagePay Direct***
 
