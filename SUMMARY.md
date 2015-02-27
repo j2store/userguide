@@ -24,6 +24,7 @@
        * Cash on Delivery
        * Money Order
        * Paymill
+       * Paypal
    * [Shipping Methods](shipping_methods.md)
        * Bank Transfer
        * Cash on Delivery
