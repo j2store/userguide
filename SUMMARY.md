@@ -25,6 +25,7 @@
        * Money Order
        * Paymill
        * Paypal
+       * Sagepay Direct
    * [Shipping Methods](shipping_methods.md)
        * Bank Transfer
        * Cash on Delivery
