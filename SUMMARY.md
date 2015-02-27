@@ -19,14 +19,14 @@
    * [Currency](currency.md)
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
-   * [Payment Methods](payment_methods.md)
+   * [Shipping Methods](shipping_methods.md)
        * Bank Transfer
        * Cash on Delivery
        * Money Order
-   * [Shipping Methods](shipping_methods.md)
-       * Bank Transfer
    * [Custom Fields](custom_fields.md)
+       * Bank Transfer
    * [Tools](tools.md)
+   * [Reports](reports.md)
    * [Reports](reports.md)
    * [Reports](reports.md)
 * [Catalog](catalog.md)
