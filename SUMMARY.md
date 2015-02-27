@@ -33,6 +33,7 @@
        * Paymill
        * Paypal
        * Sagepay Direct
+       * Standard Shipping Methods
    * [Custom Fields](custom_fields.md)
        * Bank Transfer
        * Cash on Delivery
