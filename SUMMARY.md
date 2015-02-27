@@ -41,6 +41,7 @@
    * [Reports](reports.md)
    * [Reports](reports.md)
    * Payment Methods
+       * Bank Transfers
 * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
