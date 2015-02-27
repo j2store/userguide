@@ -23,6 +23,7 @@
        * Bank Transfer
        * Cash on Delivery
        * Money Order
+       * Paymill
    * [Shipping Methods](shipping_methods.md)
        * Bank Transfer
        * Cash on Delivery
