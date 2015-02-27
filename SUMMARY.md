@@ -19,22 +19,22 @@
    * [Currency](currency.md)
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
-   * [Payment Methods](payment_methods.md)
+   * [Shipping Methods](shipping_methods.md)
        * Bank Transfer
        * Cash on Delivery
        * Money Order
        * Paymill
        * Paypal
        * Sagepay Direct
-   * [Shipping Methods](shipping_methods.md)
-       * Bank Transfer
-       * Cash on Delivery
-       * Money Order
    * [Custom Fields](custom_fields.md)
        * Bank Transfer
        * Cash on Delivery
        * Money Order
    * [Tools](tools.md)
+       * Bank Transfer
+       * Cash on Delivery
+       * Money Order
+   * [Reports](reports.md)
        * Bank Transfer
    * [Reports](reports.md)
    * [Reports](reports.md)
