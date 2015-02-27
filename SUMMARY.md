@@ -20,37 +20,21 @@
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
    * [Payment Methods](payment_methods.md)
-       * Bank Transfers
+       * [Bank Transfers](https://www.gitbook.com/book/j2store/user-guide/edit#/edit/master/bank_transfers.md?)
        * Cash on Delivery
        * Money Order
        * Paymill
        * Paypal
        * Sagepay Direct
    * [Shipping Methods](shipping_methods.md)
-       * Bank Transfer
-       * Cash on Delivery
-       * Money Order
-       * Paymill
-       * Paypal
-       * Sagepay Direct
        * Standard Shipping Methods
    * [Custom Fields](custom_fields.md)
-       * Bank Transfer
-       * Cash on Delivery
-       * Money Order
+       
    * [Tools](tools.md)
-       * Bank Transfer
-       * Cash on Delivery
-       * Money Order
+       
    * [Reports](reports.md)
-       * Bank Transfer
-   * [Reports](reports.md)
-   * [Reports](reports.md)
-   * [Reports](reports.md)
-       * Bank Transfers
-   * [Reports](reports.md)
-       * Bank Transfers
-* [Catalog](catalog.md)
+      
+   * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
        * [Variable Product](variable_product.md)
