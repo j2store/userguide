@@ -20,6 +20,7 @@
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
    * [Payment Methods](payment_methods.md)
+       * Bank Transfer
    * [Shipping Methods](shipping_methods.md)
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
