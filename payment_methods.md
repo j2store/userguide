@@ -59,5 +59,7 @@ For successful payment, or if an error occurs or if the customer cancels the pay
 
 * ***SagePay Direct***
 
+
+
 Select a payment method to customize as you wish. Check the images below to understand how it will be
 
