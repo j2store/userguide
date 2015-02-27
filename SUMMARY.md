@@ -34,6 +34,7 @@
    * [Reports](reports.md)
    * [Reports](reports.md)
    * Payment Methods
+* Payment Methods
 * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
