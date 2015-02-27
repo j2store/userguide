@@ -49,6 +49,11 @@ You have the option to use **SSL**(Secure Socket Layers) which ensures online da
 
 ![Paypal 1](pay_paypal1.png)
 
+You can display the 'Thanks' message in your desired location. Check the image below.
+
+![Paypal 2](pay_paypal2.png)
+
+
 * ***SagePay Direct***
 
 
