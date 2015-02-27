@@ -24,6 +24,7 @@
        * Cash on Delivery
        * Money Order
    * [Payment Methods](payment_methods.md)
+       * Bank Transfer
    * [Shipping Methods](shipping_methods.md)
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
