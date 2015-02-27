@@ -20,7 +20,7 @@
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
    * [Payment Methods](payment_methods.md)
-       * [Bank Transfers](https://www.gitbook.com/book/j2store/user-guide/edit#/edit/master/bank_transfers.md?)
+       * [Bank Transfers](bank_transfers.md)
        * Cash on Delivery
        * Money Order
        * Paymill
