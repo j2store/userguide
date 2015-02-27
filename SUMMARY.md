@@ -21,6 +21,7 @@
        * [Other Options](edit_currency.md)
    * [Payment Methods](payment_methods.md)
        * Bank Transfer
+       * Cash on Delivery
    * [Shipping Methods](shipping_methods.md)
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
