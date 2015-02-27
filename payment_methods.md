@@ -53,6 +53,7 @@ You can display the 'Thanks' message in your desired location. Check the image b
 
 ![Paypal 2](pay_paypal2.png)
 
+For successful payment, or if an error occurs or if the customer cancels the payment, you can set appropriate messages to alert the customer. See the image below.
 
 * ***SagePay Direct***
 
