@@ -21,13 +21,13 @@
        * [Other Options](edit_currency.md)
    * [Payment Methods](payment_methods.md)
        * [Bank Transfers](bank_transfers.md)
-       * Cash on Delivery
-       * Money Order
-       * Paymill
-       * Paypal
-       * Sagepay Direct
+       * [Cash on Delivery](cash_on_delivery.md)
+       * [Money Order](money_order.md)
+       * [Paymill](paymill.md)
+       * [Paypal](paypal.md)
+       * [Sagepay Direct](sagepay_direct.md)
    * [Shipping Methods](shipping_methods.md)
-       * Standard Shipping Methods
+       * [Standard Shipping Methods](standard_shipping_methods.md)
    * [Custom Fields](custom_fields.md)
        
    * [Tools](tools.md)
