@@ -4,6 +4,15 @@ This page lists all the payment methods currently available for payment process,
 
 ![Payment Method](Payment_Methods.png)
 
+The available payment methods are as follows:
+
+* Bank Transfer
+* Cash on Delivery
+* Money Order
+* Paymill
+* Paypal standard for J2Store
+* Sagepay Direct
+
 * ***Money Order***
 
 
