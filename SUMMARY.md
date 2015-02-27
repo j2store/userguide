@@ -19,6 +19,10 @@
    * [Currency](currency.md)
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
+   * Payment Methods
+       * Bank Transfer
+       * Cash on Delivery
+       * Money Order
    * [Shipping Methods](shipping_methods.md)
        * Bank Transfer
        * Cash on Delivery
@@ -29,7 +33,6 @@
    * [Reports](reports.md)
    * [Reports](reports.md)
    * [Reports](reports.md)
-   * Payment Methods
 * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
