@@ -30,6 +30,10 @@
        * Bank Transfer
        * Cash on Delivery
        * Money Order
+   * Payment Methods
+       * Bank Transfers
+       * Cash on Delivery
+       * Money Order
    * [Tools](tools.md)
        * Bank Transfer
        * Cash on Delivery
@@ -40,7 +44,6 @@
    * [Reports](reports.md)
    * [Reports](reports.md)
    * [Reports](reports.md)
-   * Payment Methods
        * Bank Transfers
 * [Catalog](catalog.md)
    * [Products](products.md)
