@@ -19,7 +19,7 @@
    * [Currency](currency.md)
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
-   * [Payment Methods](payment_methods.md)
+   * [Payment Method](payment_methods.md)
        * Bank Transfer
        * Cash on Delivery
        * Money Order
