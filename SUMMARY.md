@@ -27,6 +27,7 @@
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
    * [Reports](reports.md)
+   * Payment Methods
 * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
