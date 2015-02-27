@@ -19,6 +19,13 @@
    * [Currency](currency.md)
        * [New](new_currency.md)
        * [Other Options](edit_currency.md)
+   * Payment Methods
+       * Bank Transfers
+       * Cash on Delivery
+       * Money Order
+       * Paymill
+       * Paypal
+       * Sagepay Direct
    * [Shipping Methods](shipping_methods.md)
        * Bank Transfer
        * Cash on Delivery
@@ -30,10 +37,6 @@
        * Bank Transfer
        * Cash on Delivery
        * Money Order
-   * Payment Methods
-       * Bank Transfers
-       * Cash on Delivery
-       * Money Order
    * [Tools](tools.md)
        * Bank Transfer
        * Cash on Delivery
@@ -43,6 +46,7 @@
    * [Reports](reports.md)
    * [Reports](reports.md)
    * [Reports](reports.md)
+       * Bank Transfers
    * [Reports](reports.md)
        * Bank Transfers
 * [Catalog](catalog.md)
