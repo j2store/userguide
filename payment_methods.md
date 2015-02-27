@@ -2,7 +2,7 @@
 
 This page lists all the payment methods currently available for payment process, as listed below:
 
-![Payment Methods](Payment_Methods.png)
+![Payment Method](Payment_Methods.png)
 
 * ***Bank Transfer***
 
