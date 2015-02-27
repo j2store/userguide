@@ -6,7 +6,7 @@ This page lists all the payment methods currently available for payment process,
 
 The available payment methods are as follows:
 
-* Bank Transfer
+* [Bank Transfer](http://j2store.gitbooks.io/user-guide/content/bank_transfer.html)
 * Cash on Delivery
 * Money Order
 * Paymill
