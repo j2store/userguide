@@ -32,7 +32,9 @@
            * [Quantity based per order](quantity_based_per_order.md)
            * [Price based per order](price_based_per_order.md)
            * [Flat rate per item](flat_rate_per_item.md)
-           * 
+           * [Weight based per order](weight_based_per_order.md)
+           * [Weight based per item](weight_based_per_item.md)
+           * [Price based per item](price_based_per_item.md)
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
    * [Reports](reports.md)
