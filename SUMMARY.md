@@ -29,11 +29,8 @@
    * [Shipping Methods](shipping_methods.md)
        * [Standard Shipping Methods](standard_shipping_methods.md)
    * [Custom Fields](custom_fields.md)
-       
    * [Tools](tools.md)
-       
    * [Reports](reports.md)
-      
    * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
