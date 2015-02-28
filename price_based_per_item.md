@@ -4,5 +4,4 @@ The shipping cost in this type of method is calculated with price of the individ
 
 For configuration of this shipping method, refer the image below.
 
-
 ![Price per item](price_per_item.png)
