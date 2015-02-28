@@ -4,6 +4,10 @@ J2Store implements multiple, geozone based shipping methods. This view lists out
 
 In this section, you can understand the functionality of shipping methods with some examples.
 
+The shipping methods screen will look like this:
+
+![Shipping](ship_1.png)
+
 ### Standard Shipping Methods
 
 This is shipping plugin which is available in J2Store by default. It has seven shipping types. They are:
