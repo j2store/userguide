@@ -11,3 +11,5 @@ For e.g., order value > $ 5000, $ 10.00 will be collected as shipping cost. This
 Check the image below to understand the shipping method configuration.
 
 ![Price based per Order](price_based_per_order.png)
+
+Alike the previous methods, the shipping type option has to be set appropriately for this method, as '**Price based per order**'.
