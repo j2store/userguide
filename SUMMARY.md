@@ -4,6 +4,7 @@
 * [Server Requirements](system_requirements.md)
 * Installation
 * [Catalog](catalog.md)
+   * Options
 * [Sales](sales.md)
    * [Orders](sales_orders.md)
    * [Customers](sales_customers.md)
