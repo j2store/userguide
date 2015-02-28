@@ -38,7 +38,7 @@ In this shipping type, the cost of shipping depends upon the weight of an item t
 
 **7. Price based per item**
 
-The shipping cost in this type is calculated using the price of each item. So, price ranges are predefined and for every price range, a specific shipping cost can be charged.
+
 
 
 
