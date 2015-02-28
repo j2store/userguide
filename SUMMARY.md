@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Server Requirements](system_requirements.md)
 * Installation
+* [Catalog](catalog.md)
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
@@ -62,7 +63,6 @@
    * [Coupons](sales_coupons.md)
    * [Vouchers](sales_vouchers.md)
    * [Promotions](sales_promotions.md)
-* [Catalog](catalog.md)
 * [Reports](reports.md)
 * [Localisation](localisation.md)
    * [Countries](countries.md)
