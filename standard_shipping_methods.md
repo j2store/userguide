@@ -19,4 +19,5 @@ When you click on the shipping method name, you will be directed to this screen.
 When you click 'set rates', you will be presented with this view:
 ![Set Rates 1](set_rate_ship1.png)
 
-After entering the data, click on the 
+After entering the data, click on the 'Create' button and you will get this:
+![Set Rates 2](set_rate_ship2.png)
