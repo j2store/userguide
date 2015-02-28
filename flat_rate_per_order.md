@@ -6,7 +6,7 @@ See the image below on how to configure this shipping type.
 
 ![Flat rate per order](flat_per_order.png)
 
-You can a meaningful name for the method so that the customer understands it easily.
+You can give a meaningful name for the method so that the customer understands it easily.
 
 Select a suitable tax profile from the available list.
 
@@ -14,6 +14,6 @@ For any shipping method, to make it available for selection, always ensure that 
 
 Select the Flat rate per order in the list.
 
-If the shipping address need to be overridden with store address, you can select it here.
+If the shipping address needs to be overridden with store address, you can select it here.
 
 Finally, set the minimum and maximum subtotals that are required for availing this shipping type.
