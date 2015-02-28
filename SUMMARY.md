@@ -19,6 +19,9 @@
    * [Lengths](lengths.md)
    * [Weights](weights.md)
    * [Order Statuses](order_statuses.md)
+* [Design](design.md)
+   * [Email Template](email_template.md)
+   * [Invoice Template](invoice_template.md)
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
@@ -73,8 +76,5 @@
    * [Manufacturers](manufacturers.md)
    * [Manufacturers](manufacturers.md)
 * [Reports](reports.md)
-* [Design](design.md)
-   * [Email Template](email_template.md)
-   * [Invoice Template](invoice_template.md)
 * Store
 
