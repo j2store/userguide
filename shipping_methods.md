@@ -8,46 +8,7 @@ The shipping methods screen will look like this:
 
 ![Shipping](ship_1.png)
 
-### Standard Shipping Methods
+#### [Standard Shipping Methods](http://j2store.gitbooks.io/user-guide/content/standard_shipping_methods.html)
 
-This is shipping plugin which is available in J2Store by default. It has seven shipping types. They are:
-
-**1. Flat rate per order**
-
-
-
-**2. Quantity based per order**
-
-
-**3. Price based per order**
-
-In this type of shipping, the total order value will be considered for calculation of shipping cost. For e.g., if the order value is upto $ 1000.00, the shipping cost may be fixed at $ 30.00 and for order values from $ 1001.00 to $ 2000.00, the shipping cost may be fixed at $ 25.00 and so on.
-
-**4. Flat rate per item**
-
-A fixed rate of say, $ 5.00 is applicable for each and every item in the cart. Then it will be multiplied with the total number of products i.e., if the total number of products purchased is 10 nos, then shipping cost will be $ 5.00 X 10 which is $ 50.00.
-
-N.B.: In this type, only one rate can be configured per geozone and weight will not be considered for shipping cost.
-
-**5. Weight based per item**
-
-
-**6. Weight based per order**
-
-
-**7. Price based per item**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This is shipping plugin which is available in J2Store by default. It has seven shipping types. They are individually explained in detail.
 
