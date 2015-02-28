@@ -18,7 +18,6 @@ This is shipping plugin which is available in J2Store by default. It has seven s
 
 **2. Quantity based per order**
 
-The total number of products that are to be shipped will determine the shipping cost. For e.g., the shipping cost will be $ 20.00 per order if the total number of products is up to 5 and $ 25.00 per order if the total number of products is from 6 upto 10.
 
 **3. Price based per order**
 
