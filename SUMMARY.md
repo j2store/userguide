@@ -28,6 +28,7 @@
        * [Sagepay Direct](sagepay_direct.md)
    * [Shipping Methods](shipping_methods.md)
        * [Standard Shipping Methods](standard_shipping_methods.md)
+        *  [Flat rate per order](flat_rate_per_order.md)
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
    * [Reports](reports.md)
