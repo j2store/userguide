@@ -2,4 +2,4 @@
 
 The operations related to currencies are described below.
 
-* **New**
+* **[New](http://j2store.gitbooks.io/user-guide/content/new_currency.html)**
