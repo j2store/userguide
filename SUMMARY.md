@@ -31,6 +31,7 @@
            * [Flat rate per order](flat_rate_per_order.md)
            * [Quantity based per order](quantity_based_per_order.md)
            * [Price based per order](price_based_per_order.md)
+           * [Flat rate per item](flat_rate_per_item.md)
            * 
    * [Custom Fields](custom_fields.md)
    * [Tools](tools.md)
