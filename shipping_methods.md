@@ -31,7 +31,6 @@ N.B.: In this type, only one rate can be configured per geozone and weight will 
 
 **5. Weight based per item**
 
-In this shipping type, the cost of shipping depends upon the weight of an item that is to be shipped. If an item weighs between 1 and 50 kilograms, the shipping cost may be fixed at $ 15.00 for that item and if it weighs between 51 and 100 kilograms, it's shipping cost may be fixed at $ 25.00 for that item.
 
 **6. Weight based per order**
 
