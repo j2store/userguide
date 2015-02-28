@@ -4,3 +4,7 @@ This method of shipping charges a flat shipping for every item, irrespective of 
 
 Consider the image below:
 ![Flat rate per item](flat_per_item.png)
+
+Enter the necessary details as in other shipping methods, and enable the method to be listed in shipping types.
+
+For this shipping method, you need to select **Flat rate per item** in shipping options type list.
