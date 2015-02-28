@@ -9,4 +9,4 @@ For configuration refer the image below.
 
 Enter all the values necessary as in other shipping methods, as shown in the image.
 
-Select the shipping type to be '**Weight based per item**'
+Select the shipping type to be '**Weight based per item**' for this item to be listed in the shipping methods.
