@@ -15,3 +15,8 @@ See the image below:
 
 When you click on the shipping method name, you will be directed to this screen.
 ![Add/Edit Shipping Methods](std_ship_add1.png)
+
+When you click 'set rates', you will be presented with this view:
+![Set Rates 1](set_rate_ship1.png)
+
+After entering the data, click on the 
