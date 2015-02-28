@@ -10,4 +10,5 @@ This is shipping plugin which is available in J2Store by default. It has seven s
 * **Weight based per order**
 * **Price based per item**
 
-On selecting the 
+See the image below:
+![Standard Shipping Method](std_ship.png)
