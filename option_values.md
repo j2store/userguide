@@ -4,3 +4,4 @@ The option values are the choices that are associated with a particular option t
 
 This can be understood from the image below.
 
+![Add Option Values](option_values1.png)
