@@ -1,6 +1,12 @@
 # Products
 
+J2Store implements an innovative concept in creating products. It uses the Joomla articles as products. So to create a product is  create an article.
+
 This page describes about the product types, how to create them etc.
+
+See the image below:
+
+![](product_create_1.png)
 
 In J2Store, products are classified into four types namely,
 
