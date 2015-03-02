@@ -12,6 +12,10 @@ Select the submenu item, '**Add New Article**'. You will get a screen as it is i
 
 ![Create Product 1](product_create_2.png)
 
+If you click 'Save and Continue', you will get this screen. 
+
+![Create Product 1](product_create_3.png)
+
 In J2Store, products are classified into four types namely,
 
 1. **[Simple](http://j2store.gitbooks.io/user-guide/content/simple_product.html)**
