@@ -20,9 +20,9 @@ Select the customer group to which you offer this special price.
 
 Now enter the new price and click create.
 
-The price will be added and displayed below. You can edit that if you need, and click save all prices.
+The price will be added and displayed below. You can edit that if you need, and click **Save all prices**.
 
-If you want remove that, you can do it by clicking the remove button.
+If you want to remove that, you can do it by clicking the **Remove** button.
 
 
 
