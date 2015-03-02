@@ -17,7 +17,7 @@ There are 9 types of options available in J2Store. Of the 9, 3 options have mult
 
 **Dropdown** will have a select list and the available options will be listed. Usually only one option is selected from the list.
 
-* E.g., if a country is to be selected from a list, one can select only one from the list for nationality.
+* E.g., if a country is to be selected from a list, one can select only one from the list.
 
 **Radio** In this option, all the available options will be shown in the screen and only one option can be selected.
 
