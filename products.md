@@ -8,7 +8,9 @@ See the image below:
 
 ![Add Product](product_create_1.png)
 
-Select the submenu item, '**Add New Article**'
+Select the submenu item, '**Add New Article**'. You will get a screen as it is in the image below:
+
+![Create Product 1](product_create_2.png)
 
 In J2Store, products are classified into four types namely,
 
