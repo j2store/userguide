@@ -10,4 +10,4 @@ As illustrated in the image, you can set the regular pricing by entering the val
 
 Let us see how it happens. Check the image below:
 
-![Simple Product Add Pricing](product_simple_add_pricing.png)
+![](product_simple_add_pricing.png)
