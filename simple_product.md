@@ -1,9 +1,10 @@
 # Simple Product
 
-A simple product is one which is has the following options to be set.
+A simple product has the following options to be set in various tabs.
 
-### Create a simple product
-There are several tabs in which the details of the product have to be given under various classifications as explained below.
+See the image below:
+
+
 #### General
 * First select whether the product is to be displayed in front of the store
 * Enter the SKU number
