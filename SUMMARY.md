@@ -23,7 +23,7 @@
        * [Configurable Product](configurable_product.md)
        * [Downloadable Product](downloadable_product.md)
    * [Options](options.md)
-       * Option Values
+       * [Option Values](option_values.md)
    * [Vendors](vendors.md)
    * [Manufacturers](manufacturers.md)
    * [Product Filters](product_filters.md)
