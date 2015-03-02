@@ -15,7 +15,12 @@ There are 9 types of options available in J2Store. Of the 9, 3 options have mult
 2. Radio
 3. Checkbox
 
-**Dropdown** will have a select list and the available options will be listed. Usually only one option is selected from the list. 
+**Dropdown** will have a select list and the available options will be listed. Usually only one option is selected from the list. For e.g., to create a product, you will be provided a list with options viz.,
+    1. Simple
+    2. Variable
+    3. Configurable
+    4. Downloadable
+    
 
 * E.g., if a country is to be selected from a list, one can select only one from the list for nationality.
 
@@ -25,7 +30,7 @@ There are 9 types of options available in J2Store. Of the 9, 3 options have mult
 
 **Checkbox** This option provides facility to select multiple options at a time.
 
-* E.g., if asked to give more than one choice for summer vacation, multiple check boxes can be checked simultaneously to list the places.
+* E.g., if the products are listed and asked to select, multiple check boxes can be checked simultaneously to select the products.
 
 If these options are selected from the list, then a new row of fields will appear to enter the option values for the selected option. Any number of option values can be added to the selected option.
 
