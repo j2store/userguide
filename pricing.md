@@ -11,3 +11,28 @@ As illustrated in the image, you can set the regular pricing by entering the val
 Let us see how it happens. Check the image below:
 
 ![Simple Product Add Pricing](product_simple_add_pricing.png)
+
+First select the dates, between which you wish to set the advanced price. 
+
+Then enter the minimum quantity required to avail this special price.
+
+Select the customer group to which you offer this special price.
+
+Now enter the new price and click create.
+
+The price will be added and displayed below. You can edit that if you need, and click save all prices.
+
+If you want remove that, you can do it by clicking the remove button.
+
+
+
+
+
+
+
+
+
+
+
+
+
