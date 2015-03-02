@@ -6,7 +6,9 @@ This page describes about the product types, how to create them etc.
 
 See the image below:
 
-![](product_create_1.png)
+![Add Product](product_create_1.png)
+
+Select the submenu item, '**Add New Article**'
 
 In J2Store, products are classified into four types namely,
 
