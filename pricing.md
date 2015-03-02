@@ -4,4 +4,4 @@ In this section you will understand how to set regular pricing and advanced pric
 
 Now, see the image below:
 
-![Simple Product Pricing](product_simple_pricing.png)
+![Simple Product Pricing](product_simple_add_pricing.png)
