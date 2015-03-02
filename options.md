@@ -20,7 +20,7 @@ There are 9 types of options available in J2Store. Of the 9, 3 options have mult
     2. Variable
     3. Configurable
     4. Downloadable
-    
+and from the list you can select any of the options to create a product.
 
 * E.g., if a country is to be selected from a list, one can select only one from the list for nationality.
 
