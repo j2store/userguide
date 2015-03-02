@@ -18,7 +18,7 @@ Then enter the minimum quantity required to avail this special price.
 
 Select the customer group to which you offer this special price.
 
-Now enter the new price and click create.
+Now enter the new price and click **Create**.
 
 The price will be added and displayed below. You can edit that if you need, and click **Save all prices**.
 
