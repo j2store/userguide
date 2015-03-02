@@ -4,7 +4,7 @@ A simple product has the following options to be set in various tabs.
 
 See the image below:
 
-
+![Simple Product](product_simple_general.png)
 #### General
 * First select whether the product is to be displayed in front of the store
 * Enter the SKU number
