@@ -5,14 +5,7 @@ A simple product has the following options to be set in various tabs.
 See the image below:
 
 ![Simple Product](product_simple_general.png)
-#### General
-* First select whether the product is to be displayed in front of the store
-* Enter the SKU number
-* Enter ***UPC/EAN/JAN/ISBN*** code for the product whichever is relevant
-* Select the brand or manufacturer of the product from the available list
-* Select the vendor from whom the product is available for purchase
-* Specify whether the product is taxable and if so select the taxprofile relevant to the product
-* Enter the text to be displayed in the cart button
+
 
 #### Pricing
 * Enter the regular price for the product
