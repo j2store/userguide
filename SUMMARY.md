@@ -23,6 +23,7 @@
            * [Pricing](pricing.md)
            * [Inventory](simple_inventory.md)
            * [Images](simple_images.md)
+           * [Shipping](simple_shipping.md)
        * [Variable Product](variable_product.md)
        * [Configurable Product](configurable_product.md)
        * [Downloadable Product](downloadable_product.md)
