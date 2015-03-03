@@ -5,3 +5,7 @@ In this tab, you can set your preferred options for a particular product like, c
 See the image on how to set the option for a product.
 
 ![Simple Options](product_simple_options.png)
+
+In the image, you have a text field to enter the option name like colour, size etc. Just enter that in the text field. It will be set as preferred option.
+
+If an option is created and set already, you can also import it here rather create a new option. Click the button and it will direct you to the predefined options, if any.
