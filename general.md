@@ -6,7 +6,7 @@ Have a look at the image below:
 
 ![Simple Product General](product_simple_general.png)
 
-* **Visible in Storefront** - First select whether the product is to be displayed in front of the store
+* **Visible in Storefront** - First select whether the product is to be displayed in front of the store and this is a mandatory option to be selected
 * **SKU** - Enter the SKU number of the product
 * ***UPC/EAN/JAN/ISBN*** - Enter ***UPC/EAN/JAN/ISBN*** code for the product whichever is relevant
     * **UPC** - Universal Product Code (In US/North America)
