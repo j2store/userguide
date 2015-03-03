@@ -14,9 +14,6 @@ There are several tabs in which the details of the product have to be given unde
 * **[Relations](http://j2store.gitbooks.io/user-guide/content/variable_relations.html)**
 
 
-#### Images
-* Select the main and thumbnail images for the products
-* Add more images if necessary
 
 #### Variants
 * A variant defines how this product differs from other products of same type
