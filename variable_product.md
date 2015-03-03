@@ -10,7 +10,8 @@ There are several tabs in which the details of the product have to be given unde
 * **[General](http://j2store.gitbooks.io/user-guide/content/variable_general.html)**
 * **[Images](http://j2store.gitbooks.io/user-guide/content/variable_images.html)**
 * **[Variants](http://j2store.gitbooks.io/user-guide/content/variable_variants.html)**
-* **[Filters](http://j2store.gitbooks.io/user-guide/content/variable_relations.html)**
+* **[Filters](http://j2store.gitbooks.io/user-guide/content/variable_filters.html)**
+* **[Relations](http://j2store.gitbooks.io/user-guide/content/variable_relations.html)**
 
 * First select whether the product is to be displayed in front of the store
 * Select the brand or manufacturer of the product from the available list
