@@ -4,4 +4,14 @@ This tab has the configuration setting for shipping. Any product that has been p
 
 Consider the image below:
 
-![](product_simple_shipping.png)
+![Simple Shipping](product_simple_shipping.png)
+
+As shown in the image, you need to do the following activities to configure shipping:
+
+* Select **Yes** to enable shipping
+* Enter the dimensions of the packed product in Length x Width x Height
+* Choose a length class from the list e.g., cm, mm, inch, etc.
+* Enter the net weight of the product when packed in the field provided
+* Select the weight class from the list like Kg, grams, pounds, etc.
+
+Now you have configured shipping.
