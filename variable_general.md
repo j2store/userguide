@@ -1,6 +1,6 @@
 # General
 
-Variable product is a complex product and one need to be careful in configuring this product. In this general tab lets see how it goes with the help of an image.
+Variable product is a complex product and one need to be careful in configuring this product. In this general tab, lets see how it goes with the help of an image.
 
 ![Variable General](product_variable_general.png)
 
