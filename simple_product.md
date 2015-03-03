@@ -4,7 +4,7 @@ A simple product has the following options to be set in various tabs.
 
 See the image below:
 
-![Simple Product](product_simple_general.png)
+![Simple Product](product_simple.png)
 
 
 #### Pricing
