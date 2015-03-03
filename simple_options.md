@@ -4,3 +4,4 @@ In this tab, you can set your preferred options for a particular product like, c
 
 See the image on how to set the option for a product.
 
+![](product_simple_options.png)
