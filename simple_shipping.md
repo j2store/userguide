@@ -4,3 +4,4 @@ This tab has the configuration setting for shipping. Any product that has been p
 
 Consider the image below:
 
+![](product_simple_shipping.png)
