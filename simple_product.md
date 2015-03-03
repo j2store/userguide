@@ -13,13 +13,7 @@ See the image below:
 * Pricing calculator can also be selected provided one or more pricing calculators should be predefined
 * A handy quick help is also available in the tab itself regarding price format and advanced pricing
 
-#### Inventory
-* Manage Stock - Select **Yes** or **No**
-* Enter the stock quantity
-* Choose from the options whether or not to allow backorders
-* Select stock status
-* Set threshold for notification of low stock
-* Choose whether quantity is restricted and if Yes, set the limits for minimum and maximum quantity for a purchase
+
 
 #### Images
 * Select the main and thumbnail images for the products
