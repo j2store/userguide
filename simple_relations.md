@@ -1,6 +1,6 @@
 # Relations
 
-![](product_simple_relations.png)
+![Simple Product Relations](product_simple_relations.png)
 
 
 * In this tab page relations set for Upsells and Cross sells
