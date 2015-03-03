@@ -25,6 +25,7 @@
            * [Images](simple_images.md)
            * [Shipping](simple_shipping.md)
            * [Options](simple_options.md)
+           * [Filters](simple_filters.md)
        * [Variable Product](variable_product.md)
        * [Configurable Product](configurable_product.md)
        * [Downloadable Product](downloadable_product.md)
