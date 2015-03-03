@@ -4,4 +4,3 @@ In this tab you can add images that can help the customer in more clear understa
 
 See the image below:
 
-![Simple Image](product_simple_image.png)
