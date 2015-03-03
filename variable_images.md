@@ -1,6 +1,6 @@
 # Images
 
-
+![](product_variable_images_1.png)
 
 This feature is available for native Joomla articles and in J2Store Product Layouts
 
