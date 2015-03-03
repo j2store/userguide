@@ -4,7 +4,7 @@ Variable product is a complex product and one need to be careful in configuring 
 
 ![Variable General](product_variable_general.png)
 
-* First select whether the product is to be displayed in front of the store
-* Select the brand or manufacturer of the product from the available list
-* Select the vendor from whom the product is available for purchase
-* Specify whether the product is taxable and if it is, select the taxprofile relevant to the product
+* **Visible in Storefront** - First select whether the product is to be displayed in front of the store
+* **Brand or Manufacturer** - Select the brand or manufacturer of the product from the available list
+* **Vendor** - Select the vendor from whom the product is available for purchase - ***This is J2Store PRO feature***
+* **Tax Profile** - Specify whether the product is taxable and if it is, select the taxprofile relevant to the product
