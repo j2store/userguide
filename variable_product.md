@@ -2,7 +2,7 @@
 
 A variable product has some features varying from other items of the same product, for e.g., a T-Shirt is a variable product, by color, size, stock, price, etc. Each variation can have different properties and prices.
 
-
+![Variable Product](product_variable.png)
 
 ### Create a variable product
 There are several tabs in which the details of the product have to be given under various classifications as explained below.
