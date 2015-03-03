@@ -12,4 +12,4 @@ From the image you can understand the following:
 * Select stock status i.e., **In stock** or **Out of stock**
 * Set minimum stock level for notification of low stock
 * Choose whether purchase quantity is restricted and if Yes, set the limits for minimum and maximum quantity for a purchase
-* If you select 'Use store configuration', you cannot enter max and min quantity fields, as they will be disabled
+* If you select '**Use store configuration**', you cannot enter max and min quantity fields, as they will be disabled
