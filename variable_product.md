@@ -13,10 +13,6 @@ There are several tabs in which the details of the product have to be given unde
 * **[Filters](http://j2store.gitbooks.io/user-guide/content/variable_filters.html)**
 * **[Relations](http://j2store.gitbooks.io/user-guide/content/variable_relations.html)**
 
-* First select whether the product is to be displayed in front of the store
-* Select the brand or manufacturer of the product from the available list
-* Select the vendor from whom the product is available for purchase
-* Specify whether the product is taxable and if it is, select the taxprofile relevant to the product
 
 #### Images
 * Select the main and thumbnail images for the products
