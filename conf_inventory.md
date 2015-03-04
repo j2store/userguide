@@ -4,7 +4,7 @@
 
 This tab has the configuration setup facility for inventory management. Here you can set the following details with respect to inventory. Check the image below:
 
-
+![](product_conf_inventory.png)
 
 From the image you can understand the following:
 
