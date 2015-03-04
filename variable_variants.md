@@ -51,6 +51,5 @@ If you want to edit the properties of the variants, click the respective edit bu
 
 ![Variant 6](product_variable_variant_6.png)
 
-
-
+Now you know how to deal with variants, options, attributes, properties and how to edit them.
 
