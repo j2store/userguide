@@ -4,7 +4,7 @@ This tab has the configuration setting for shipping. Any product that has been p
 
 See the below image:
 
-
+![](product_conf_shipping.png)
 
 As shown in the image, you need to do the following activities to configure shipping:
 
