@@ -37,7 +37,7 @@ You can see '**Set Values**' near the option name **Colour** and click it. You w
 
 Once you are done, save changes and close the pop-up window to get back to the main window. Now you have set the values for the variants to be generated. Why wait, just go and generate the variants like this:
 
-
+![variant 7](product_variable_variant_7.png)
 
 
 
