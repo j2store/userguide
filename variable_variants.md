@@ -25,7 +25,7 @@ Lets discuss it with some image illustrations:
 
 If you select 'Colour' from the list, your screen will look like this:
 
-
+![Variant 2](product_variable_variant_2.png)
 
 
 
