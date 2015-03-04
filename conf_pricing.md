@@ -10,7 +10,7 @@ As illustrated in the image, you can set the regular pricing by entering the val
 
 Let us see how it happens. Check the image below:
 
-
+![](product_configurable_pricing_2.png)
 
 * First select the dates, between which you wish to set the advanced price. 
 
