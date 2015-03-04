@@ -33,7 +33,7 @@ You can see the option you have selected from the list added down there. Now, sa
 
 You can see '**Set Values**' near the option name **Colour** and click it. You will get a pop-up window to add attributes as illustrated below:
 
-
+![Variant 4](product_variable_variant_4.png)
 
 
 
