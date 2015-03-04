@@ -29,8 +29,10 @@ If you select 'Colour' from the list, your screen will look like this:
 
 You can see the option you have selected from the list added down there. Now, save the form to proceed.
 
-
 ![Variant 3](product_variable_variant_3.png)
+
+You can see '**Set Values**' near the option name **Colour** and click it. You will get a pop-up window to add attributes as illustrated below:
+
 
 
 
