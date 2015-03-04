@@ -2,6 +2,8 @@
 
 This tab has the configuration setup facility for inventory management. Here you can set the following details with respect to inventory. Check the image below:
 
+#### * This is J2Store PRO exclusive feature *
+
 ![Simple Inventory](product_simple_inventory.png)
 
 From the image you can understand the following:
