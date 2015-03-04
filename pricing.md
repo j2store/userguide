@@ -12,13 +12,13 @@ Let us see how it happens. Check the image below:
 
 ![Simple Product Add Pricing](product_simple_add_pricing.png)
 
-First select the dates, between which you wish to set the advanced price. 
+* First select the dates, between which you wish to set the advanced price. 
 
-Then enter the minimum quantity required to avail this special price.
+* Then enter the minimum quantity required to avail this special price.
 
-Select the customer group to which you offer this special price.
+* Select the customer group to which you offer this special price.
 
-Now enter the new price and click **Create**.
+* Now enter the new price and click **Create**.
 
 The price will be added and displayed below. You can edit that if you need, and click **Save all prices**.
 
