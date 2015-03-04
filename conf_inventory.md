@@ -18,5 +18,4 @@ From the image you can understand the following:
 
 If you are using the **J2Store CORE version**, your **Inventory** screen will look like this.
 
-![](product_conf_inventory_core.png)
-
+![Inventory Core Version](product_conf_inventory_core.png)
