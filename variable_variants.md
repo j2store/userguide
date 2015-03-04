@@ -39,7 +39,11 @@ Once you are done, save changes and close the pop-up window to get back to the m
 
 ![variant 7](product_variable_variant_7.png)
 
-The button you have clicked for variant generation will adjust itself to show you a message, 'Generating variants... Please wait' and that's it. You have your variants generated! Wonder how? Just check the image below for a surprise...
+The button you have clicked for variant generation will adjust itself to show you a message, 'Generating variants... Please wait' and that's it. 
+
+
+
+You have your variants generated! Wonder how? Just check the image below for a surprise...
 
 ![Variant 5](product_variable_variant_5.png)
 
