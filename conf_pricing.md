@@ -10,11 +10,11 @@ As illustrated in the image, you can set the regular pricing by entering the val
 
 Let us see how it happens. Check the image below:
 
-![](product_configurable_pricing_2.png)
+![Advanced Pricing](product_configurable_pricing_2.png)
 
 * First select the dates, between which you wish to set the advanced price. 
 
-* Then enter the minimum quantity required to avail this special price.
+* Then enter the minimum quantity required to avail this special price. This is optional and if there is no minimum quantity required, just leave it as empty.
 
 * Select the customer group to which you offer this special price.
 
