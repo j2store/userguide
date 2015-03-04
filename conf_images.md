@@ -4,7 +4,7 @@ In this tab you can add images that can help the customer in more clear understa
 
 See the image below:
 
-![](product_conf_images.png)
+![Configurable Images](product_conf_images.png)
 
 Let us understand this with an example. 
 
