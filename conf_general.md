@@ -13,6 +13,6 @@ In general tab, we configure the basic details of a product, like, SKU, brand et
     * **ISBN** - International Standard Book Number (Globally)
     * **MPN** - Manufacturer Part Number (Globally)
 * **Brand or Manufacturer** - Select the brand or manufacturer of the product from the available list
-* **Vendor** - Select the vendor from whom the product is available for purchase ***Note: This feature is available in J2Store PRO version only***
+* **Vendor** - Select the vendor from whom the product is available for purchase - ***Note: This feature is available in J2Store PRO version only***
 * **Tax Profile** - Specify whether the product is taxable and if so select the taxprofile relevant to the product
 * **Cart Button Text** - Enter the text to be displayed in the cart button
