@@ -14,4 +14,4 @@ As shown in the image, you need to do the following activities to configure ship
 * **Weight** - Enter the net weight of the product when packed in the field provided
 * **Weight Class** - Select the weight class from the list like **Kg, grams, pounds**, etc.
 
-Now you have configured shipping.
+These configuration will be loaded when shipping is selected.
