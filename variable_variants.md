@@ -21,7 +21,7 @@ For both the items, brand and model name may be same, but the attributes like co
 
 Lets discuss it with some image illustrations:
 
-
+![](product_variable_variant_1.png)
 
 
 
