@@ -45,7 +45,7 @@ The button you have clicked for variant generation will adjust itself to show yo
 
 If you want to edit the properties of the variants, click the respective edit button of the property you wish to edit to get a pop-up window like this:
 
-
+![Variant 6](product_variable_variant_6.png)
 
 
 
