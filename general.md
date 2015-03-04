@@ -4,7 +4,7 @@ The general tab has several fields to be set to configure the product.
 
 Have a look at the image below:
 
-![](product_simple_general.png)
+![Simple Product General](product_simple_general.png)
 
 * **Visible in Storefront** - First select whether the product is to be displayed in front of the store and this is a mandatory option to be selected
 * **SKU** - Enter the SKU number of the product
