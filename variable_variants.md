@@ -21,7 +21,9 @@ For both the items, brand and model name may be same, but the attributes like co
 
 Lets discuss it with some image illustrations:
 
-![](product_variable_variant_1.png)
+![Variant 1](product_variable_variant_1.png)
+
+If you select 'Colour' from the list, your screen will look like this:
 
 
 
