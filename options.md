@@ -40,3 +40,5 @@ Other available options are:
 * DateTime
 
 For these options, setting up of option values is not possible.
+
+**Important Note:** Except options ***Dropdown*** and ***Radio***, all other options are available only in J2Store PRO version.
