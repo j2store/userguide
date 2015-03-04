@@ -15,11 +15,6 @@ There are several tabs in which the details of the product have to be given unde
 
 
 
-#### Variants
-* A variant defines how this product differs from other products of same type
-* It may be SKU no, price, stock level or color
-* It can be searched for and added
-
 #### Filters
 * Add any filters to narrow up the search for products
 
