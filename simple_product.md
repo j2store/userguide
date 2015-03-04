@@ -12,8 +12,8 @@ Lets explore through the tabs for how to create and set up the configurations fo
 
 The tabs that are available in configuring a simple product are:
 
-* **[General](http://j2store.gitbooks.io/user-guide/content/simple_general.html)**
-* **[Pricing](http://j2store.gitbooks.io/user-guide/content/simple_pricing.html)**
+* **[General](http://j2store.gitbooks.io/user-guide/content/general.html)**
+* **[Pricing](http://j2store.gitbooks.io/user-guide/content/pricing.html)**
 * **[Inventory](http://j2store.gitbooks.io/user-guide/content/simple_inventory.html)**
 * **[Images](http://j2store.gitbooks.io/user-guide/content/simple_images.html)**
 * **[Shipping](http://j2store.gitbooks.io/user-guide/content/simple_shipping.html)**
