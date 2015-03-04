@@ -12,6 +12,3 @@ There are several tabs in which the details of the product have to be given unde
 * **[Variants](http://j2store.gitbooks.io/user-guide/content/variable_variants.html)**
 * **[Filters](http://j2store.gitbooks.io/user-guide/content/variable_filters.html)**
 * **[Relations](http://j2store.gitbooks.io/user-guide/content/variable_relations.html)**
-
-
-
