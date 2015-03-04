@@ -19,4 +19,4 @@ The tabs that are available in configuring a simple product are:
 * **[Shipping](http://j2store.gitbooks.io/user-guide/content/conf_shipping.html)**
 * **[Options](http://j2store.gitbooks.io/user-guide/content/conf_options.html)**
 * **[Filters](http://j2store.gitbooks.io/user-guide/content/conf_filters.html)**
-* **[](http://j2store.gitbooks.io/user-guide/content/conf_relations.html)**
+* **[Relations](http://j2store.gitbooks.io/user-guide/content/conf_relations.html)**
