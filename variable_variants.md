@@ -27,7 +27,7 @@ If you select 'Colour' from the list, your screen will look like this:
 
 ![Variant 2](product_variable_variant_2.png)
 
-
+You can see the option you have selected from the list added down there. Now, save the form to proceed.
 
 
 
