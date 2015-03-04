@@ -18,3 +18,16 @@ For both the items, brand and model name may be same, but the attributes like co
 
 * A variant defines how this product differs from other products of same type
 * It may be SKU no, price, stock level or color
+
+Lets discuss it with some image illustrations:
+
+
+
+
+
+
+
+
+
+
+
