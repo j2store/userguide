@@ -10,4 +10,6 @@ Once you select the option from the dropdown list, it will be added as you can s
 
 ![Configurable Options 1](product_conf_options_1.png)
 
-Now, save the image and your option will be saved. Now, you will get a link '**Set option values**' near the option name. Click this link to get a pop-up window, where you can set values specific for the newly created options.
+Now, save the image and your option will be saved. Now, you will get a link '**Set option values**' near the option name. Click this link to get a pop-up window, where you can set values specific for the newly created options. Here is how it happens, as shown below:
+
+
