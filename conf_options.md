@@ -14,4 +14,4 @@ Now, save the image and your option will be saved. Now, you will get a link '**S
 
 ![Configurable Options 3](product_conf_options_3.png)
 
-
+Like this, you can add as many options and values for the options as you wish.
