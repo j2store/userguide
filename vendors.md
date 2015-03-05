@@ -21,3 +21,7 @@ Vendors are listed with the following details:
 * Tax Number
 * Country
 * Zone
+
+See the image below on adding a new vendor.
+
+![Vendor Add New](vendor_add_new.png)
