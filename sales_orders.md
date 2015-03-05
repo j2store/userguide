@@ -1,6 +1,6 @@
 # Orders
 
-Orders are listed here according to their statuses. They are as follows:
+A customer views the product and completes the checkout process, it is transformed into an order. Orders are listed here according to their statuses. They are as follows:
 * Confirmed
 * Failed
 * Processed
@@ -15,23 +15,3 @@ Every order will posses some important information that explains about it. They 
 * **Amount** - The total value of the order after billing
 * **Payment Method** - The method in which the customer has paid for the order viz., bank transfer, paypal, moneyorder, etc
 * **Status** - Completed or still in process - like information
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
