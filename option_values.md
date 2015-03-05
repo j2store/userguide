@@ -11,3 +11,7 @@ Here, under the option 'Electronics', you have the values as
 * Laptop
 * CD Player
 * Mobile
+
+For better understanding, refer the image below:
+
+![Options Add New](options_add_new.png) 
