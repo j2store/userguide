@@ -2,7 +2,7 @@
 
 As in all other product types, downloadable product type also has a general tab, where the basic settings are made. Check the image below:
 
-
+![Downloadable General](product_down_general.png)
 
 * **Visible in Storefront** - First select whether the product is to be displayed in front of the store and this is a mandatory option to be selected
 * **SKU** - Enter the SKU number of the product
