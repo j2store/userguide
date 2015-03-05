@@ -11,6 +11,6 @@
 
 You can suggest the customer with these options, so that the customer may be convinced to buy one of your options, thus promoting a higher sale for you.
 
-    * 4GB/500GB-> $550 - Upsell, same product family, more expensive
-    * 4GB/1TB -> $700  - Upsell, same product family, more expensive
-    * Laptop Bag -> $25 - Cross sell, related product, additional sell
+   * 4GB/500GB-> $550 - Upsell, same product family, more expensive
+   * 4GB/1TB -> $700  - Upsell, same product family, more expensive
+   * Laptop Bag -> $25 - Cross sell, related product, additional sell
