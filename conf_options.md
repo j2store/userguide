@@ -10,6 +10,4 @@ Once you select the option from the dropdown list, it will be added as you can s
 
 ![Configurable Options 1](product_conf_options_1.png)
 
-In the image, you have a text field to enter the option name like colour, size etc. Just enter that in the text field. It will be set as preferred option.
-
-If an option is created and set already, you can also import it here rather create a new option. Click the button and it will direct you to the predefined options, if any.
+Now, save the image and your option will be saved. Now, you will get a link '**Set option values**' near the option name. Click this link to get a pop-up window, where you can set values specific for the newly created options.
