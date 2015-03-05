@@ -14,4 +14,4 @@ Manufacturers are listed with the following details:
 
 Image shown below is how a manufacturer is added.
 
-![](manufacturer_add_new.png)
+![Manufacturer Add New](manufacturer_add_new.png)
