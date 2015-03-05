@@ -11,3 +11,7 @@ Manufacturers are listed with the following details:
 * Phone and Mobile
 * Country
 * Zone
+
+Image shown below is how a manufacturer is added.
+
+![](manufacturer_add_new.png)
