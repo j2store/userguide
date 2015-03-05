@@ -15,3 +15,7 @@ Every order will posses some important information that explains about it. They 
 * **Amount** - The total value of the order after billing
 * **Payment Method** - The method in which the customer has paid for the order viz., bank transfer, paypal, moneyorder, etc
 * **Status** - Completed or still in process - like information
+
+
+Check the image below to understand clearly.
+
