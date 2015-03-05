@@ -41,4 +41,8 @@ Other available options are:
 
 For these options, setting up of option values is not possible.
 
+For better understanding, refer the image below:
+
+![Options Add New](options_add_new.png)
+
 **Important Note:** Except ***Dropdown*** and ***Radio***, all other options are available only in **J2Store PRO** version.
