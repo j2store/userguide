@@ -1,6 +1,6 @@
 # Relations
 
-Relations are used to promote sales by suggesting the customer with higher value options and additional options to be bought with a particular product
+Relations are used to promote sales by suggesting the customer with higher value options and additional options to be bought with a particular product.
 
 
 ![Configurable Relations](product_conf_relations.png)
