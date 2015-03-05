@@ -9,3 +9,7 @@ In this page, first Fiter Groups are created and in each group some Filter Names
         * Mens
         * Womens
         * Kids
+
+This is illustrated in the image below:
+
+![Product Filtes Add New](product_filters_add_new.png)
