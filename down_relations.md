@@ -4,7 +4,6 @@ Relations are used to promote sales by suggesting the customer with higher value
 
 ![Downloadable Relations](product_down_relations.png)
 
-
 * In this tab page, relations are set for Upsells and Cross sells
 * An ***upsell*** is to get the customer to spend more money – buy a more expensive model of the same type of product, or add features / warranties that relate to the product in question.
 * A ***cross-sell*** is to get the customer to spend more money buy adding more products from other categories than the product being viewed or purchased.
