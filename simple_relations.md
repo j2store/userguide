@@ -1,5 +1,7 @@
 # Relations
 
+Relations are used to promote sales by suggesting the customer with higher value options and additional options to be bought with a particular product.
+
 ![Simple Product Relations](product_simple_relations.png)
 
 
