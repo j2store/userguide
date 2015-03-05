@@ -8,4 +8,4 @@ Check the image for a more clear understanding.
 
 * **Product Files** - In the image, the button captioned '**Set product files**' is clicked to bring out a pop-up window for setting up the downloadable product and the path where it resides.
 * **Download Limit** - This is set for the number of times the file can be downloaded from the source.
-* **Download Expires (in days)** - This is the time limit entered in days, for how long the product will be available for download.
+* **Download Expires (in days)** - This is the time limit entered in days, for how long the product will be available for downloading.
