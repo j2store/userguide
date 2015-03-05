@@ -1,2 +1,5 @@
 # Filters
 
+Filters are certain attributes that help narrow the search of a particular product.
+
+For e.g., assume that a customer searches for vegetarian pizza in the store. Pizza, is classified in foods category. So, the productfilter is set to be Foods > Veg, to narrow the search. See the image below:
