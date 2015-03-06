@@ -11,3 +11,7 @@ The entries are:
 * **Maximum required quantity** - The maximum quantity upto which the discount can be applicable
 * **Products** - list of products come under the promotion category
 * **Users** - Users eligible to avail the promotion. A list of user types are available from which desired types can be selected. Multiple selection possible.
+
+This is illustrated in the image below.
+
+![Promotions](promotions_custom.png)
