@@ -1,5 +1,7 @@
 # Discount
 
+#### *This is a J2Store PRO exclusive feature*
+
 This is for discounts that are offered to customers.
 
 * ***Enable Coupons***
