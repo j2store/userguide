@@ -7,6 +7,7 @@ This tab deals with all activities that are related to tax.
     This is a very important option which deserves careful attention when entering the price of a product. The two options are:
     1. ***Yes***, I will enter prices inclusive of tax
     2. ***No***, I will enter prices exclusive of tax
+    
 The price entered initially will be the one till the end. Later alterations will not reflect in the product price.
 
 * ***Calculate Tax based on***
