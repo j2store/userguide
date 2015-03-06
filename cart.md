@@ -36,7 +36,7 @@ This tab is dealing with the cart options.
 
 * ***Add to cart button class***
 
-    This option is used to set the CSS class for the **add to cart** button.
+    This option is used to set the **CSS class** for the **add to cart** button.
 
 * ***Product Thumbnail***
 
@@ -52,7 +52,7 @@ This tab is dealing with the cart options.
 
 * ***Show login form during checkout***
 
-    Enabling this option to **Yes** will show the login form during the checkout process, if a customer is not previously logged in during shopping.
+    Enabling this option to **Yes** will show the login form during the checkout process, if a customer is not previously logged in during shopping. Without logging in the customer cannot checkout.
     
 Check the image for more clarification.
 ![Cart Configuration](Cart_config.png)
