@@ -61,7 +61,7 @@
    * [Coupons](sales_coupons.md)
    * [Promotions](sales_promotions.md)
    * [Vouchers](sales_vouchers.md)
-* [Localisation](localisation.md)
+* [Localization](localisation.md)
    * [Countries](countries.md)
    * [Zones](zones.md)
    * [Geozones](geozones.md)
