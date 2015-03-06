@@ -8,7 +8,7 @@ This tab contains the options that are related to products.
 
 * ***Show SKU?***
 
-    If this option is set to **'No'**, the SKU will become hidden in both product and cart views.
+    SKU stands for **Stock Keeping Unit**. If this option is set to **'No'**, the SKU will become hidden in both product and cart views.
     
 * ***Show Quantity Field***
 
