@@ -4,7 +4,7 @@ This tab has some options that are related to terms and conditions of the store.
 
 * ***Show Terms and Conditions during Checkout***
 
-    If this option set with a **Yes**, a checkbox with a link to the article that contains the Terms and Coditions will be shown. 
+    If this option is set with a **Yes**, a checkbox with a link to the article that contains the Terms and Coditions will be shown. 
 
 * ***Terms and Conditions Display Type***
 
@@ -12,4 +12,4 @@ This tab has some options that are related to terms and conditions of the store.
 
 * ***Article ID of the Terms and Conditions***
 
-    The ID of the article that holds the Terms and condition is to be given here.
+    The ID of the article that holds the Terms and conditions is to be given here.
