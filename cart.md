@@ -17,7 +17,7 @@ This tab is dealing with the cart options.
         
 * ***Add to cart action***
 
-    This option helps the customer to decide on what has to be done when the **add to cart** button is clicked. Two options has been provided.
+    This option helps to decide on what has to be done when the **add to cart** button is clicked by the customer. Two options has been provided.
     
     1. Stay in the same page and show an inline link to a predefined location
     
