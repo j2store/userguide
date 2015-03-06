@@ -6,8 +6,8 @@ Relations are used to promote sales by suggesting the customer with higher value
 ![Configurable Relations](product_conf_relations.png)
 
 * In this tab page, relations are set for Upsells and Cross sells
-* An ***upsell*** is to get the customer to spend more money – buy a more expensive model of the same type of product, or add features / warranties that relate to the product in question.
-* A ***cross-sell*** is to get the customer to spend more money buy adding more products from other categories than the product being viewed or purchased.
+* An ***upsell*** is to get the customer to spend more money – buy a more expensive model of the same type of product considered for purchase.
+* A ***cross-sell*** is to get the customer to spend more money buy adding more products from other categories, additionally, along with the product intended for purchase.
 * **Example**:
     The terms cross-sell and upsell are often used interchangeably because, let’s face it, this gets confusing. Say the customer is viewing a plain veg pizza for $5.
 
