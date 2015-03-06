@@ -13,3 +13,7 @@ This tab has some options that are related to terms and conditions of the store.
 * ***Article ID of the Terms and Conditions***
 
     The ID of the article that holds the Terms and conditions is to be given here.
+    
+Check the image below for a better idea.
+
+![Others](configuration_others.png)
