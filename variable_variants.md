@@ -7,7 +7,7 @@ Variants are products of same type and nature but with different attributes. For
 * **HDD    - 500 GB**
 * **SKU    - MTG8620**
 
-and so on. Now, the same product with same brand, will be a variant from this with some attributes changed, like
+and so on. This is a variant of the particular brand. Now, the same product with same brand, will be another variant with some attributes changed, like
 * **Colour - Black**
 * **Screen - 15.6 inches**
 * **RAM    - 2 GB**
