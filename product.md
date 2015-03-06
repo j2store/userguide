@@ -28,7 +28,7 @@ This tab contains the options that are related to products.
 
 * ***Product Option Price***
 
-    If this option is set to **'Show'**, a modifier '+/-' will be shown in the view, to modify the product price.
+    If this option is set to **'Show'**, a modifier '**+/-**' will be shown in the view, to modify the product price.
 
 * ***Product Option Price Prefix***
 
