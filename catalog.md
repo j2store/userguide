@@ -1,6 +1,6 @@
 # Catalog
 
-In this section we have the following sections that are dealt separately with information specific to each section.
+In this chapter, we have the following sections that are dealt separately with information specific to each section.
 
 * **[Products](http://j2store.gitbooks.io/user-guide/content/products.html)**
 * **[Options](http://j2store.gitbooks.io/user-guide/content/options.html)**
