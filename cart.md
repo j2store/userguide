@@ -52,7 +52,7 @@ This tab is dealing with the cart options.
 
 * ***Show login form during checkout***
 
-    Enabling this option to **Yes** will show the login form during the checkout process, if a customer is not previously logged in during shopping. Without logging in the customer cannot checkout.
+    Enabling this option to **Yes** will show the login form during the checkout process, if a customer is not previously logged in during shopping. Without logging in, the customer cannot checkout, if this option is set to **Yes**.
     
 Check the image for more clarification.
 ![Cart Configuration](Cart_config.png)
