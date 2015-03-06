@@ -1,5 +1,7 @@
 # Inventory
 
+#### *This is a J2Store PRO exclusive feature*
+
 This is a basic inventory management system offered by j2store.
 
 * ***Enable Inventory***
