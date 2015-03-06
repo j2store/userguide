@@ -59,7 +59,7 @@ Check the image for more clarification.
 
 * ***Allow Quick New User Registration***
 
-    If a customer is not registered before adding the products to the cart and checks out, a quick **new user registration** is possible by enabling this option to **Yes**.
+    If a customer is not registered before adding the products to the cart and checks out, a quick **new user registration** is possible by enabling this option to **Yes**. The customer will also be added to your customer database.
 
 * ***Allow Guest Checkout***
 
