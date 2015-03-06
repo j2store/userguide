@@ -1,6 +1,6 @@
 # General
 
-The general tab has several fields to be set to configure the product.
+The general tab has several fields, in which we need to enter the necessary and relevant details, attached with the product.
 
 Have a look at the image below:
 
@@ -16,5 +16,5 @@ Have a look at the image below:
     * **MPN** - Manufacturer Part Number (Globally)
 * **Brand or Manufacturer** - Select the brand or manufacturer of the product from the available list
 * **Vendor** - Select the vendor from whom the product is available for purchase - ***Note: This feature is available in J2Store PRO version only***
-* **Tax Profile** - Specify whether the product is taxable and if so select the taxprofile relevant to the product
+* **Tax Profile** - Specify whether the product is taxable and if so, select the tax profile relevant to the product
 * **Cart Button Text** - Enter the text to be displayed in the cart button
