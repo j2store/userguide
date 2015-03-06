@@ -1,6 +1,6 @@
 # Simple Product
 
-A simple product has the following options to be set in various tabs.
+There are many tab pages with lot of options that need to be addressed to configure the **simple** product type.
 
 See the image below:
 
