@@ -1,6 +1,10 @@
 # Coupons
 
+#### ***This is J2Store PRO exclusive feature***
+
 Coupons are vouchers preloaded with specific values and discount credentials that enable customers to shop online with extra privileges.
+
+
 
 Coupons hold the following information required for a successful process of purchase.
 * Coupon Name
