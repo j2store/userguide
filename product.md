@@ -12,11 +12,11 @@ This tab contains the options that are related to products.
     
 * ***Show Quantity Field***
 
-    If it is set to 'Yes', the manual input for quantity will be visible else quantity can not given manually.
+    If it is set to 'Yes', the manual input for quantity will be visible, else quantity can not be given manually.
     
 * ***Show Quantity Spinner***
 
-    If this option is set to **'Yes'**, a **'+'** and **'-'** signs will be displayed by which one can increase or decrease the quantity of selected product.
+    If this option is set to **'Yes'**, a **'+'** and **'-'** signs will be displayed, by which, one can increase or decrease the quantity of selected product.
     
 * ***Show Price***
 
