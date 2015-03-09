@@ -60,7 +60,7 @@ To add a custom field, we need to enter the following details. They are given be
     * DateTime
     * Custom Text
 
-The remaining fields after the **Field Type** is selected, will be varying according to the type
+The remaining fields after the **Field Type** is selected, will be varying according to the type and the details have to fed according to the changed fields
 * **Required** - Whether the field is required or not - select 'Yes' or 'No'
 * **Custom Error Message** - If it is required field and left empty on data entry, this message will be displayed to alert the user
 * **Default Value** - What is given here will be the content displayed, if the user do not give any input to the field
