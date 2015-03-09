@@ -15,3 +15,6 @@ The default value for kg is set to be 1. This should be in relativity with other
 ![Weight List](weight_list.png)
 
 If you want to add a new meausring unit for weight, you can do it as illustrated below:
+
+
+![Weight Add New](weight_addnew.png)
