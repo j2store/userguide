@@ -63,4 +63,15 @@ The remaining fields after the **Field Type** is selected, will be varying accor
 * **Default Value** - What is given here will be the content displayed, if the user do not give any input to the field
 * **Input Filtering** - If you want to filter out the input to this field, you can select this to 'Yes' and set the conditions
 * **Maximum Length** - The no of characters that are allowed to enter in the field
-* 
+* **Rows** - No of rows that are allowed in the field
+* **Columns** - No of columns that are allowed in the field
+* **Read-only** - If it is set to '**Yes**', it is only readable and the content cannot be changed
+
+### Status
+* **Published** - The field has to be published by setting this to '**Yes**' to be displayed
+
+### Display Settings
+You can choose the layouts to display the field. You can select all the three layouts or any combination of layouts or only one layout. The layouts:
+* **Checkout Billing Address Layout**
+* **Checkout Shipping Address Layout**
+* **Checkout Payment Method Layout**
