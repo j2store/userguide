@@ -33,3 +33,5 @@ The available orderstatus messages are as shown in the image:
 ![Orderstatus List](orderstatuses_list.png)
 
 You can a new one as illustrated in figure below:
+
+![Order Status Add New](orderstatus_addnew.png)
