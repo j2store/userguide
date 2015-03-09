@@ -30,4 +30,6 @@ This status shows the cancellation of order by the customer.
 
 The available orderstatus messages are as shown in the image:
 
+![Orderstatus List](orderstatuses_list.png)
+
 
