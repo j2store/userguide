@@ -8,7 +8,7 @@ For example, VAT is a tax class which is globally accepted and when creating it,
 
 Value Added Tax - the globally accepted and practiced tax system. Percentage may vary as and when it is revised by the countries or authorities concerned.
 
-* VAT has to given while creating a Tax Rate
+* VAT is the name given to the tax rate while creating it
 * Percentage of VAT is also set
 * This tax rate is attached to a geozone which will include all the zones/countries that practice this tax rate
 * Finally it is enabled for use by the customer
