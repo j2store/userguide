@@ -1,6 +1,8 @@
 # Tax Rate
 
-Tax Rate is a certain percentage of order value that has to be collected along with the order value and paid to the government.
+A tax rate is the percentage of an individual's taxable income or a corporation's earning that is owed to the state, federal and in some cases, municipal governments.
+
+For example, VAT is a tax class which is globally accepted and when creating it, you need to give the following details associated with it.
 
 #### VAT
 
@@ -10,3 +12,5 @@ Value Added Tax - the globally accepted and practiced tax system. Percentage may
 * Percentage of VAT is also set
 * This tax rate is attached to a geozone which will include all the zones/countries that practice this tax rate
 * Finally it is enabled for use by the customer
+
+![Tax rate add new](taxrate_addnew.png)
