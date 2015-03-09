@@ -12,4 +12,6 @@ The short form of measurement unit. (e.g., kg)
 The default value for kg is set to be 1. This should be in relativity with other units of measurement.
 * For e.g., there are 1000 grams in 1 Kg, and hence the grams should be set to 1000 when Kg is set to 1.
 
-![Weight List](weight_list.png) 
+![Weight List](weight_list.png)
+
+If you want to add a new meausring unit for weight, you can do it as illustrated below:
