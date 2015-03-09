@@ -37,7 +37,7 @@ Let us see how to create a custom field.
 
 In the custom field list view, click the **New** button. You will the get a screen as shown in the image below.
 
-### Add a Custom Field
+#### Add a Custom Field
 
 ![Custom Field Add New](custom_field_addnew.png)
 
@@ -70,10 +70,10 @@ The remaining fields after the **Field Type** is selected, will be different bas
 * **Columns** - No of columns that are allowed in the field
 * **Read-only** - If it is set to '**Yes**', it is only readable and the content cannot be changed
 
-### Status
+#### Status
 * **Published** - The field has to be published by setting this to '**Yes**' to be displayed
 
-### Display Settings
+#### Display Settings
 You can choose the layouts to display the field. You can select all the three layouts or any combination of layouts or only one layout. The layouts:
 * **Checkout Billing Address Layout**
 * **Checkout Shipping Address Layout**
