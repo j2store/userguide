@@ -6,6 +6,8 @@ This page lists the available tools for specific actions. They are:
 * J2Store Tool Localization Data
 
 #### Diagnostics Tool
+**System Informations**
+
 | Settings | Value |
 | -- | -- |
 | **Web Server** | Apache/2.2.22 (Ubuntu) Linux joomlatools 3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012 x86_64  |
