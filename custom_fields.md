@@ -32,3 +32,8 @@ For example, if you want to add a custom note for your reference, you can create
 Check the image for a list of custom fields:
 
 ![Custom Fields List](custom_fields_list.png)
+
+Let us see how to create a custom field.
+
+In the custom field list view, click the **New** button. You will the get a screen as shown in the image below.
+
