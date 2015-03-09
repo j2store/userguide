@@ -38,3 +38,29 @@ Let us see how to create a custom field.
 In the custom field list view, click the **New** button. You will the get a screen as shown in the image below.
 
 ![Custom Field Add New](custom_field_addnew.png)
+
+To add a custom field, we need to enter the following details. They are given below on by one:
+
+* **Label** - Name of the custom field that is displayed in the layout
+* **Table** - The table where the custom field is created - this is default and you can not change it
+* **Field Column Name** - name of the column that is created in the table
+* **Field Type** - This is the type of the field you are about to create and there are 12 types available to choose from - they are:
+    * Text
+    * Email
+    * Textarea
+    * wysiwyg editor (what you see is what you get)
+    * Radio
+    * Checkbox
+    * Single Dropdown
+    * Zone/Country List
+    * Date
+    * Time
+    * DateTime
+    * Custom Text
+The remaining fields after the **Field Type** is selected, will be varying according to the type
+* **Required** - Whether the field is required or not - select 'Yes' or 'No'
+* **Custom Error Message** - If it is required field and left empty on data entry, this message will be displayed to alert the user
+* **Default Value** - What is given here will be the content displayed, if the user do not give any input to the field
+* **Input Filtering** - If you want to filter out the input to this field, you can select this to 'Yes' and set the conditions
+* **Maximum Length** - The no of characters that are allowed to enter in the field
+* 
