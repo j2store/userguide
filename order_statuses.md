@@ -27,3 +27,7 @@ This is a new order.
 
 #### CANCELLED
 This status shows the cancellation of order by the customer.
+
+The available orderstatus messages are as shown in the image:
+
+
