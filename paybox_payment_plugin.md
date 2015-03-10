@@ -38,7 +38,14 @@ you need to follow the procedure to generate your own secret key. For test accou
 
 A public encryption key provided in the form a certificate. You can download it from the paybox site. We have also attached the certificate downloaded from paybox. Open the file and copy its content to this field.
 
+**Show other currencies in the payment page (info only)**
 
+Set this to yes if you want to show other currencies in the Paybox payment page. Just the information only.
+
+**Use Paybox Sandbox**
+
+Set this to **Yes**, if you want to test the integration with the Paybox pre-production/test server.
+>IMPORTANT: Never, ever, set this to Yes when your site is Live.
 
 
 
