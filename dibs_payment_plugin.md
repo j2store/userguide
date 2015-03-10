@@ -83,6 +83,12 @@ The text entered here will be displayed to the customer at the order summary scr
 
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
+**Display text after payment/order**
+
+The text entered here will be displayed to the customer after he makes the payment.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
 
 
 
