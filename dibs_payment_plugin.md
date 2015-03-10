@@ -35,9 +35,21 @@ The Unique Merchant ID number provided by the DIBS
 
 You can collect a percent of the total order value as surcharge / fee from your customers using this option. You can enter a value here. ( for example: 2 ) If you enter 2 here, then 2% of the total order value will be added as a handling cost to the order.
 
+This is an optional parameter.
+
 >NOTE: DO NOT enter any symbol like % here. Leave empty if you dont want to charge.
 
+**Surcharge Fixed**
 
+You can collect a fixed surcharge / fee from your customers in addition to the order value. You can enter a value here (for example: 2 ). If you enter 2 here, then 2 will be added as a
+handling cost to the order. Leave empty if you dont want to charge.
+
+This is an optional parameter.
+
+**Currency Code**
+
+Currency code provided by DIBS refer:
+http://www.dibs.se/toolbox/currency_codes/ eg: 208 for DKK
 
 
 
