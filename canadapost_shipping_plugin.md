@@ -39,7 +39,21 @@ You can enter an amount here (without any symbols or letters). It will be added 
 
 Set this to Yes, if you want to show the expected delivery time to the customers.
 
+**Test mode**
 
+If you would like to test the API, set this to **Yes**. Otherwise, you can set this to **No**.
+
+**Weight Unit**
+
+Valid Units are: Kilogram (KG), Pound (LB).
+
+**IMPORTANT**
+
+Make sure to set your default weight class to either KG or LB in your storeprofile. All your products should be using the same weight class
+
+**Length Unit**
+
+The length unit. The plugin will not convert the length unit. Make sure that you are using the same length unit for all your products.
 
 
 
