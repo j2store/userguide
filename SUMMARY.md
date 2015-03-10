@@ -92,7 +92,7 @@
    * [DIBS Payment Plugin](dibs_payment_plugin.md)
    * [DIBS Payment Window Plugin](dibs_payment_window_plugin.md)
    * DirecPay Payment Plugin
-   * EBS Payment Plugin
+   * [EBS Payment Plugin](ebs_payment_plugin.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
