@@ -47,8 +47,7 @@ If you would like to test the API, set this to **Yes**. Otherwise, you can set t
 
 Valid Units are: Kilogram (KG), Pound (LB).
 
-**IMPORTANT**
-
+>**IMPORTANT**
 Make sure to set your default weight class to either KG or LB in your storeprofile. All your products should be using the same weight class
 
 **Length Unit**
