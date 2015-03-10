@@ -19,7 +19,25 @@ Prior to configuring the plugin, you should have an active account with the Cana
 4. Make sure that you have set the Enable Shipping to YES in your products
 5. Open the Canada Shipping Plugin and set the Following Parameters
 
+**API Username**
 
+Your CanadaPost username
+
+**API Password**
+
+Your CanadaPost password
+
+**Customer Number**
+
+The customer number provided by the CanadaPost.
+
+**Handling cost**
+
+You can enter an amount here (without any symbols or letters). It will be added as a handling cost in addition to the shipping cost.
+
+**Show delivery time**
+
+Set this to Yes, if you want to show the expected delivery time to the customers.
 
 
 
