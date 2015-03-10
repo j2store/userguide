@@ -14,7 +14,14 @@ This plugin integrates J2Store with Heartland Payment Gateway enabling you to ac
 4. Enter the parameters (read the explanation about each parameter given below).
 5. Save and close it.
 
+#### Parameters
+**Payment option title**
 
+Enter a title for this payment method. This text will be displayed while listing the payment methods during checkout. This is an optional parameter.
+
+**API Key**
+
+This is your **Heartland Account API Key**.
 
 
 
