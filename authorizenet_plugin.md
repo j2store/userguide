@@ -61,11 +61,3 @@ You can create a Joomla Article to say thanks to the users, who purchased in you
 Still have questions? You can reach us in ***support@j2store.org*** or post in our support forum: http://j2store.org/forum/index.html
 
 Thank you for using our extension.
-
-
-
-
-
-
-
-
