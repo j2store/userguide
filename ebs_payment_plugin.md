@@ -25,10 +25,22 @@ You can enable the use of a secret key to ensure sure transaction. Login to your
 If you set this to Yes, you can test your integration with the EBS.
 
 Use the following test credentials
+* **Account Id : 5880**
+* **secret key : ebskey**
 
+Following Card no can only be used for testing phase:
+* **Card No: 4111 1111 1111 1111**
+* **Exp Date: 07/2016**
+* **CVV: 123**
 
+**Joomla Article ID for custom thank you message**
 
+You can create a joomla article with a custom message and display when the customer returns to the site after making
+payment at EBS.
 
+**Support**
+
+You can post your questions in our community forums or contact us via the contact form in our website http://j2store.org
 
 
 
