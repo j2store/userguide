@@ -89,6 +89,7 @@
    * [Authorize.Net Plugin](authorizenet_plugin.md)
    * [Canadapost Shipping Plugin](canadapost_shipping_plugin.md)
    * [CCAvenue Payment Plugin](ccavenue_payment_plugin.md)
+   * DIBS Payment Plugin
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
