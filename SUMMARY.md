@@ -84,7 +84,7 @@
    * [Paypal](paypal.md)
    * [Sagepay Direct](sagepay_direct.md)
    * [ETS Payment Plugin](ets_payment_plugin.md)
-   * Heartland Payment Plugin
+   * [Heartland Payment Plugin](heartland_payment_plugin.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
