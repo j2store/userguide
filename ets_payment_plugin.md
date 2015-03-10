@@ -11,7 +11,7 @@ The minimum requirements for this plugin to be installed is as follows:
 
 #### Installation Instructions
 1. Use the Joomla installer to install the plugin.
-2. In the backend, go to Extensions->Plugin Manager and open the ETS Payments plugin. (type = **j2store**).
+2. In the backend, go to Extensions->Plugin Manager and open the ETS Payment plugin. (type = **j2store**).
 3. Enable the plugin.
 4. Enter the parameters (read the explanation about each parameter given below).
 5. Save and close it. 
