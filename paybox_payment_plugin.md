@@ -11,13 +11,23 @@ This plugin integrates Paybox Payment gateway with J2Store.
 
 #### Configuration
 
+The plugin has the following parameters need to be addressed.
 
+**Payment option title**
 
+The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.
 
+**Site Number (PBX_SITE)**
 
+The site number provided by the Paybox
 
+**Rank Number (PBX_R ANG)**
 
+Rank number provided by Paybox
 
+**Rank Number (PBX_IDENTIFIANT)**
+
+Identifier provided by Paybox
 
 
 
