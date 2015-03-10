@@ -59,7 +59,7 @@ If you want to charge tax for shipping cost, choose a tax class here. Otherwise,
 
 **Geozone**
 
-You can select a geozone and restrict the availability of this shipping method to the countries/zones in that geozone. Leave empty/un selected for making this shipping method available to customers from all regions.
+You can select a geozone and restrict the availability of this shipping method to the countries/zones in that geozone. Leave empty/unselected for making this shipping method available to customers from all regions.
 
 **Debug**
 
