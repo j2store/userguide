@@ -68,16 +68,3 @@ Set this to **No** in Live websites.
 
 #### Support
 You can contact ***support@j2store.org*** if you have any questions.
-
-
-
-
-
-
-
-
-
-
-
-
-
