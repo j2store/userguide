@@ -28,7 +28,7 @@ Transaction key provided by the authorize.net
 **Authorize.net MD5 Hash**
 
 This is an additional security feature of Authorize.net. But use with care. If you dont know what you are doing, please 
-leave this blank.
+leave this blank. This is optional parameter.
 
 
 
