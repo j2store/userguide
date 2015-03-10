@@ -55,7 +55,7 @@ Make sure to set your default weight class to either KG or LB in your storeprofi
 The length unit. The plugin will not convert the length unit. Make sure that you are using the same length unit for all your products.
 
 **Tax Class**
-If you want to charge tax for shipping cost, choose a tax class here. Otherwise, leave this field empty/do not select any option.
+If you want to charge tax for shipping cost, choose a tax class here. Otherwise, leave this field empty/donot select any option.
 
 **Geozone**
 
