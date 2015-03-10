@@ -87,6 +87,7 @@
    * [Heartland Payment Plugin](heartland_payment_plugin.md)
    * [2Checkout Plugin](2checkout_plugin.md)
    * [Authorize.Net Plugin](authorizenet_plugin.md)
+   * Canadapost Shipping Plugin
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
