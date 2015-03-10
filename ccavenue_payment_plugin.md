@@ -24,6 +24,13 @@ You can create an article with a thank you or instructions or information to the
 
 **Display text on selection**
 
+The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below
 
+>Tip - ONLY FOR MULTI-LINGUAL SITES
 
+For example, enter a language constant:
+
+J2STORE_TEXT_TO_DISPLAY_ON_SELECTION.
+
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
