@@ -93,7 +93,7 @@
    * [DIBS Payment Window Plugin](dibs_payment_window_plugin.md)
    * DirecPay Payment Plugin
    * [EBS Payment Plugin](ebs_payment_plugin.md)
-   * IcePay Payment Plugin
+   * [IcePay Payment Plugin](icepay_payment_plugin.md)
    * [Paybox Payment Plugin](paybox_payment_plugin.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
