@@ -21,3 +21,33 @@ Now you will see the payment Methods available for your IcePay account.
 Choose the methods that you want to offer to your customers. You can choose all of them as well.
 
 Save
+
+#### Configuring IcePay
+Login to your IcePay dashboard.
+
+Go to My Websites → Your website → Configure URL tab
+
+Copy paste the following url in Thank you page, Error URL and PostBack Url fields
+
+http://<yourdomain.com>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_icepay&paction=process
+
+NOTE: replace <yourdomain.com> with your domain name.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
