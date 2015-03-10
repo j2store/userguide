@@ -51,7 +51,7 @@ Set this to **Yes** to skip the order review page on the 2Checkout payment scree
 
 **Joomla Article ID for custom thank you message**
 
-You can create an Article ID with a message 'Enter the article ID here' to show it to the customer after completion of the purchase.
+You can create an Article ID with a message 'Enter the article ID here', to show it to the customer after completion of the purchase.
 
 #### Support
 You can contact ***support@j2store.org*** if you have any questions.
