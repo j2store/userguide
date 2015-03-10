@@ -76,3 +76,26 @@ For example, enter a language constant:
 J2STORE_TEXT_TO_DISPLAY_ON_SELECTION.
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
+
+**Display text before payment**
+
+The text entered here will be displayed to the customer at the order summary screen before he makes the payment.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
