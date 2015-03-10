@@ -29,7 +29,12 @@ You can create more custom fields for the users to fill in while emailing the ba
 
 It can either be based on the Guest display layout or the register layout.
 
+**Empty cart after sending email**
 
+If you set this to YES, the plugin will empty the cart after emailing the cart items to store owner.
+
+**Time delay in milliseconds to empty the cart**
+You can set a delay for emptying the cart. Default is 2 seconds.
 
 
 
