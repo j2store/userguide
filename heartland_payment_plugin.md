@@ -23,7 +23,9 @@ Enter a title for this payment method. This text will be displayed while listing
 
 This is your **Heartland Account API Key**.
 
+**Version Number**
 
+This is your Heartland Account Version Number
 
 
 
