@@ -59,15 +59,15 @@ If you want to charge tax for shipping cost, choose a tax class here. Otherwise,
 
 **Geozone**
 
-You can select a geozone and restrict the availability of this shipping method to the countries/zones in that geozone. Leave empty / un selected for making this shipping method available to customers from all regions.
+You can select a geozone and restrict the availability of this shipping method to the countries/zones in that geozone. Leave empty/un selected for making this shipping method available to customers from all regions.
 
 **Debug**
 
-If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory.
-Set this to NO in Live websites.
+If you set this to **Yes**, then debug messages will be logged and saved in the cache folder in your Joomla root directory.
+Set this to **No** in Live websites.
 
 #### Support
-You can contact support@j2store.org if you have any questions.
+You can contact ***support@j2store.org*** if you have any questions.
 
 
 
