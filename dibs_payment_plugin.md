@@ -27,7 +27,7 @@ The plugin has the following parameters need to be addressed:
 
 The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.
 
-**DIBS Merchant Name**
+**DIBS Merchant ID**
 
 The Unique Merchant ID number provided by the DIBS
 
