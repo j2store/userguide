@@ -51,7 +51,13 @@ This is an optional parameter.
 Currency code provided by DIBS refer:
 http://www.dibs.se/toolbox/currency_codes/ eg: 208 for DKK
 
+**Use DIBS Sandbox**
 
+>Important: If you are testing, please set this to **Yes**. IT SHOULD BE SET TO "**NO**" IN LIVE SYSTEMS.
+
+**Thanks Message Joomla Article ID**
+
+You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
 
 
 
