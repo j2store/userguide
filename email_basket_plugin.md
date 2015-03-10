@@ -19,7 +19,15 @@ plugin. (type=**j2store**).
 
 Now you can see the Email Basket button in the cart page.
 
+#### Parameters
+**Custom fields display type**
 
+You can get the name and address of the customer, while he
+emails you the cart. If you need some more input from the customer, go to j2store –> set up –> custom fields.
+
+You can create more custom fields for the users to fill in while emailing the basket.
+
+It can either be based on the Guest display layout or the register layout.
 
 
 
