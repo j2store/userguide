@@ -53,12 +53,26 @@ http://www.dibs.se/toolbox/currency_codes/ eg: 208 for DKK
 
 **Use DIBS Sandbox**
 
->Important: If you are testing, please set this to **Yes**. IT SHOULD BE SET TO "**NO**" IN LIVE SYSTEMS.
+For testing purposes, set this parameter to **Yes**.
+
+>Important: IT SHOULD BE SET TO "**NO**" IN LIVE SYSTEMS.
 
 **Thanks Message Joomla Article ID**
 
 You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
 
+**Display text on selection**
 
+The text entered here will be displayed when customer selects this payment method.
 
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. 
 
+Refer the tips below
+
+>Tip - ONLY FOR MULTI-LINGUAL SITES
+
+For example, enter a language constant:
+
+J2STORE_TEXT_TO_DISPLAY_ON_SELECTION.
+
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
