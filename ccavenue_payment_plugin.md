@@ -1,6 +1,6 @@
 # CCAvenue Payment Plugin
 
-This plugin integrates 2Checkout payment gateway with J2Store.
+This plugin integrates CCAvenue payment gateway with J2Store.
 
 #### Installation
 You can install the plugin through the standard Joomla installer.
