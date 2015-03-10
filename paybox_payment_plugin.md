@@ -29,7 +29,14 @@ Rank number provided by Paybox
 
 Identifier provided by Paybox
 
+**Secret key**
 
+A secret hash provided by Paybox. The value to put in this field can be found in the merchant back office in the information tab in the menu. For individual merchant accounts
+you need to follow the procedure to generate your own secret key. For test account, the secret key is fixed and can be obtained from *Paybox*
+
+**Public Key**
+
+A public encryption key provided in the form a certificate. You can download it from the paybox site. We have also attached the certificate downloaded from paybox. Open the file and copy its content to this field.
 
 
 
