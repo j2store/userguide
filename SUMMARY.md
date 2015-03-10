@@ -83,6 +83,7 @@
    * [Paymill](paymill.md)
    * [Paypal](paypal.md)
    * [Sagepay Direct](sagepay_direct.md)
+   * ETS Payment Plugin
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
