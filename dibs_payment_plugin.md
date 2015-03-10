@@ -21,9 +21,21 @@ Now you can see the DIBS Payments as an option during the Check out process.
 
 #### Configuration
 
+The plugin has the following parameters need to be addressed:
 
+**Payment option title**
 
+The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.
 
+**DIBS Merchant Name**
+
+The Unique Merchant ID number provided by the DIBS
+
+**Surcharge Percentage**
+
+You can collect a percent of the total order value as surcharge / fee from your customers using this option. You can enter a value here. ( for example: 2 ) If you enter 2 here, then 2% of the total order value will be added as a handling cost to the order.
+
+>NOTE: DO NOT enter any symbol like % here. Leave empty if you dont want to charge.
 
 
 
