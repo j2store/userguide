@@ -28,14 +28,18 @@ Go to **Service Settings -> Hosted Checkout Pages -> Set Up**, and make the foll
 
 2. Under the Billing Information
 
-Make these fields required: **Check CSC box**
+**Make these fields required:** Check CSC box
 
-Make these fields editable: **Check CSC box** 
+**Make these fields editable:** Check CSC box
 
 See the picture below
 
 ![Billing Information](billing_information_paypal_advanced.png)
 
+
+3. Under the Payment Confirmation, set
+Show confirmation page: On my website
+Return URL Method: POST  (This is very IMPORTANT)
 
 
 
