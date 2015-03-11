@@ -39,12 +39,12 @@ to do with your Joomla installation. If no language is given en_US will be the d
 
 ***SHA1-IN Signature***
 
-This is the SHA­1 IN signature set up by you in the Ogone 
-settings (see below for the required settings to be done at your Ogone account). This ensure security of your transaction. 
+**This is the SHA­1 IN signature set up by you in the Ogone 
+settings (see below for the required settings to be done at your Ogone account). This ensure security of your transaction.**
 
 ***SHA1-OUT Signature***
 
-This is the SHA­1 OUT signature set up by you in the Ogone settings (see below for the required settings to be done at your Ogone account) 
+**This is the SHA­1 OUT signature set up by you in the Ogone settings (see below for the required settings to be done at your Ogone account)** 
 
 ***Ogone Test Account***
 
@@ -52,7 +52,19 @@ Ogone offers a testing suite. Before going live, it is advised to test your stor
 
 >NOTE:  IN LIVE SITE, THIS SHOULD BE SET TO NO. 
 
+***Thanks Msg Joomla Article ID***
 
+You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
+
+#### Required Ogone settings
+##### Default operation code
+**Sale**: This will enable you to receive instant payment  
+**Authorisation**: This you have to either manually or automatically capture it.
+
+For Sale, a successful payment will return Status code 9 and for Successful Authorisation, the status code is 5. Both the cases will be treated as Success and Confirmed by the 
+Ogone plugin.
+
+>NOTE: If you are selling digital goods, it is advised to use SALE as operation 
 
 
 
