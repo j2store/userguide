@@ -106,7 +106,7 @@
    * [Paypal PRO Payment Plugin](paypal_pro_payment_plugin.md)
    * [Payseal Payment Plugin](payseal_payment_plugin.md)
    * [Payson Payment Plugin](payson_payment_plugin.md)
-   * Payson Invoice Payment Plugin
+   * [Payson Invoice Payment Plugin](payson_invoice_payment_plugin.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
