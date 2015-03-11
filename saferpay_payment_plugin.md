@@ -67,22 +67,3 @@ The text of the payment button. The button will be displayed at the final checko
 Still have questions? You can reach us in ***support@j2store.org***.
 
 Thank you for using our extension. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
