@@ -58,7 +58,7 @@ You can create a Joomla Article to say thanks to the users, who purchased in you
 
 #### Required Ogone settings
 ##### Default operation code
-**Sale**: This will enable you to receive instant payment  
+**Sale**: This will enable you to receive instant payment.  
 **Authorisation**: This you have to either manually or automatically capture it.
 
 For Sale, a successful payment will return Status code 9 and for Successful Authorisation, the status code is 5. Both the cases will be treated as Success and Confirmed by the 
