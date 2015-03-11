@@ -112,7 +112,7 @@
    * Sagepay Form Payment Plugin
    * Sermepa Payment Plugin
    * Sisow Payment Plugin
-   * Stipe Payment Plugin
+   * Stripe Payment Plugin
    * Telecash Payment Plugin
    * Tranzila Payment Plugin
 * [Shipping Methods](shipping_methods.md)
