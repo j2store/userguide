@@ -47,7 +47,7 @@ See the picture below
 
 * 4 - Under Security options, set
 
-![](security_options_paypal_advanced.png)
+![Security Options](security_options_paypal_advanced.png)
 
 
 
