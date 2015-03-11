@@ -31,6 +31,9 @@ Set this to YES if you want to test the plugin with the Test server of Payson.
 
 >Never set this to YES, when your site is live.
 
+##### Invoice Fee
+You can collect a fee from the customers as Invoice Fee. Enter the fee amount here.
+
 ##### Show Receipt
 If you set this to Yes, payson will show a receipt to the customer after they made the payment and then returned to your site.
 
