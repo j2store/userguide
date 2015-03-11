@@ -36,6 +36,12 @@ Set this to yes if you want to test the integration with a Paypal Sandbox accoun
 ##### Geozone
 By selecting a geozone here, you can restrict this payment method from showing to customers from only that geo-region. Choose All geozones to show this method to all customers
 
+##### Article ID for Thanks Message
+You can create an article and enter its ID here to show to the customer after the transaction is completed.
 
+##### Display Text on Selection
+The text entered here will be displayed when customer selects this payment method. 
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below 
 
 
