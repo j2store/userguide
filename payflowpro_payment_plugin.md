@@ -38,7 +38,11 @@ Your PayPal partner ID. By default, it will be PayPal.
 
 The type of transaction. If you choose SALE, then the payment will be captured immediately after a customer makes the payment. If you choose Authorization, then Payment will not be captured. You will have to capture it manually by going to Paypal Manager. Default value: Sale
 
+**Use sandbox for testing**
 
+Set this to YES, only if your account is in TEST mode. 
+
+>IN LIVE SITE, THIS SHOULD BE SET TO NO.
 
 
 
