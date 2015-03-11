@@ -14,7 +14,7 @@ PayPal Payments Advanced is available only for merchants in US and Canada.
 Use the Joomla installer to install the plugin like you do for other extensions
 
 #### Configuration
-**Step 1: Configure Your PayPal Account**
+##### Step 1: Configure Your PayPal Account
 
 Before you begin, you must configure your PayPal Payments Advanced account on the PayPal website. 
 
@@ -55,13 +55,15 @@ See the picture below
 
 Save the settings.
 
-**Step 2: Customise the Layout**
+##### Step 2: Customise the Layout
 
 In J2Store Paypal advanced plugin settings, you can choose the Payment window type.
 
 **If you chose, Payment window type as: Your Website (Using iFrame):**
 
+In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Choose the Layout C. 
 
+See the screenshot below
 
 
 
