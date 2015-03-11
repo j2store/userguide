@@ -24,7 +24,37 @@ The secret word set up in your Payfast Merchant Account.
 
 To set up the secret word please log in to your Payfast account and click the EDIT button under Settings → Salt Pass Pharse.
 
+**Surcharge percentage**
 
+This is an optional field. Use this field if you require. Otherwise leave it empty.
+
+If you want to charge a percentage of Total Order Value as additional fee to the customers who choose this payment method, then you can enter the fee here. Enter only a numeric value. DO NOT enter % or any other symbols.
+
+**Surcharge Fixed**
+
+This is optional field. Use this field if you require. Otherwise leave empty.
+
+If you want to charge a Fixed amount as additional fee to the customers who choose this payment method, then you can enter the fee here. Enter only a numeric value. DO NOT enter % or any other symbols.
+
+**Order Description**
+
+You can enter a text here, which will be sent as a description for the order. 
+
+**Use Sandbox**
+
+Setting this yes will make the plugin to use the Payfast sandbox server.
+
+>NEVER EVER set this to YES, when your site is live.
+
+**Enable Payfast Email Notifications**
+
+Set this to Yes, if you want Payfast to send you notifications after a customer makes payment.
+
+**Restrict this payment method to selected geozones**
+
+Leave this to All geozones if you dont know what you are doing.
+If you want to restrict showing Payfast only to a region, then you can create a geozone and choose it here. Customers from that region alone will see the Payfast as payment method
+in the checkout steps.
 
 
 
