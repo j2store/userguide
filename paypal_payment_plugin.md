@@ -46,4 +46,19 @@ If you are using SSL certificate (https), enable this with a **Yes**. If you don
 
 **Use Paypal Sandbox**
 
-Paypal offers a testing suite called Sandbox. Before going live, you can test your store.
+Paypal offers a testing suite called Sandbox. Before going live, you can test your store using the Paypal's sandbox feature. Read more about Paypal Sandbox at developer.paypal.com.
+
+>IN LIVE SITE, THIS SHOULD BE SET TO NO. 
+
+**Paypal Sandbox Merchant Email**
+
+Your paypal sandbox email. 
+
+**Article ID for Thanks you message**
+
+You can create an article to say thanks, provide some information or instructions to the customers, who purchased in your online store. Enter the Article ID here. This will show, 
+when customers return from the paypal. 
+
+**Geozone**
+
+By selecting a geozone here, you can restrict this payment method to only customers of that geo-region. Choose All geozones to show this method to all customers.
