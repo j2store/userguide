@@ -27,7 +27,13 @@ To log into the MRC test environment go to https://esqa.moneris.com/mpg and use 
 | Store 2 | demouser | password |
 | Store 3 | demouser | password |
 
+**Step 2**: Navigate to Admin -> Hosted Config
 
+Once you have successfully logged in, click on the “ADMIN” menu item on the left and then in the submenu that appears click on “HOSTED CONFIG”.
+
+**Step 3**: Create Hosted Paypage configuration:
+
+To create a new Hosted Paypage configuration, click on “Generate a New Configuration”.
 
 
 
