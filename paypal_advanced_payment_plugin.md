@@ -16,15 +16,22 @@ Use the Joomla installer to install the plugin like you do for other extensions
 #### Configuration
 **Step 1: Configure Your PayPal Account**
 
-Before you begin, you must configure your PayPal Payments Advanced account on the PayPal website. Log in to your PayPal Advanced account at manager.paypal.com. 
+Before you begin, you must configure your PayPal Payments Advanced account on the PayPal website. 
 
-Go to Service Settings -> Hosted Checkout Pages -> Set Up, and make the following settings:
+**Log in to your PayPal Advanced account at manager.paypal.com. **
+
+Go to **Service Settings -> Hosted Checkout Pages -> Set Up**, and make the following settings:
 
 1. Set Transaction Process mode to TEST or LIVE depending on your requirement.
 
 ![Setup Paypal Advanced](setup_paypal_advanced.png)
 
+2. Under the Billing Information
 
+Make these fields required: Check CSC box
+
+Make these fields editable: Check CSC box. 
+See the picture below
 
 
 
