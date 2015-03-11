@@ -31,6 +31,7 @@ Go to **Service Settings -> Hosted Checkout Pages -> Set Up**, and make the foll
 Make these fields required: Check CSC box
 
 Make these fields editable: Check CSC box. 
+
 See the picture below
 
 ![Billing Information](billing_information_paypal_advanced.png)
