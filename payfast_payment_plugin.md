@@ -8,7 +8,7 @@ You can install the plugin through the standard Joomla installer.
 #### Configuration
 **Payment Option title**
 
-Enter a name that will be shown in the payment methods selection during the checkout process. Default - 2Checkout
+Enter a name that will be shown in the payment methods selection during the checkout process. Default - Payfast
 
 **Merchant ID**
 
