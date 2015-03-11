@@ -98,6 +98,7 @@
    * [Barclays ePDQ Payment Plugin](barclays_epdq_payment_plugin.md)
    * [Moneris Payment Plugin](moneris_payment_plugin.md)
    * [Ogone Payment Plugin](ogone_payment_plugin.md)
+   * [Payfast Payment Plugin](payfast_payment_plugin.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
