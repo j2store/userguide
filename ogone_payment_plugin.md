@@ -92,8 +92,8 @@ Request method: POST
 
 ![Transaction Feedback](transaction_feedback_ogone.png)
 
-Still have questions? You can reach us in support@j2store.org or post in our 
-support forum: http://j2store.org/forum/index.html 
+Still have questions? You can reach us in support@j2store.org or post in our support forum: http://j2store.org/forum/index.html 
+
 Thank you for using our extension.
 
 
