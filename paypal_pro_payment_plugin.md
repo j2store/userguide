@@ -22,7 +22,11 @@ The API password provided by Paypal. You can get this under the options in Profi
 ##### API Signature
 The unique signature provided by Paypal. You can get this under the options in Profile settings.
 
+##### Card Types
+Select the allowed card types for your store. Paypal has some regional differences. In USA< it accepts all card types, while in Canada only Visa and Mastercard are accepted. Check the regional differences here: https://developer.paypal.com/docs/classic/paypal-payments-pro/integration-guide/WPWebsitePaymentsPro/#id25a6cc16-bbc4-4070-a575-9fad358f2b95
 
+##### Payment Action
+Set the type of payment you wanted to take. The default and RECOMMENDED setting is Sale. This will enable you to get the payment instantly credited to your account.
 
 
 
