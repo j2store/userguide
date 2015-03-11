@@ -49,6 +49,28 @@ See the picture below
 
 ![Security Options](security_options_paypal_advanced.png)
 
+• AVS: No
+• CSC: No
+• Enable Secure Token: Yes
+
+Save the settings.
+
+**Step 2: Customise the Layout**
+
+In J2Store Paypal advanced plugin settings, you can choose the Payment window type.
+
+**If you chose, Payment window type as: Your Website (Using iFrame):**
+
+
+
+
+
+
+
+
+
+
+
 
 
 
