@@ -70,7 +70,7 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 For example, enter a language constant:
 
-*J2STORE_TEXT_TO_DISPLAY_ON_SELECTION.*
+***J2STORE_TEXT_TO_DISPLAY_ON_SELECTION.***
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
