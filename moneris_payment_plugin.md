@@ -35,15 +35,27 @@ Once you have successfully logged in, click on the “ADMIN” menu item on the 
 
 To create a new Hosted Paypage configuration, click on “Generate a New Configuration”.
 
+![Eselect Plus](eselectplus.png)
 
+You will be assigned a Hosted Paypage ID (**ps_store_id** ). 
 
+This is the identifier for this unique configuration. You will also be assigned a Hosted Paypage Key (**hpp_key**). Note down the **ps_store_id** and **hpp_key** . You will need these while setting up the plugin.
 
+**Step 3.1**: Set Transaction Type to Purchase (default).
 
+**Step 3.2**: Under Payment Methods, ensure Credit Cards is enabled, all others disabled.
 
+**Step 4**: Response Method
 
+Set Response Method to Sent to your server as a POST.
 
+Set Approved URL and Declined URL to:
 
+https://YOUR_HOST/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_moneris&paction=process
 
+See the screenshot below
+
+![Response Method](response_method.png)
 
 
 
