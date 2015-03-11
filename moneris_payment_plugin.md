@@ -57,7 +57,22 @@ See the screenshot below
 
 ![Response Method](response_method.png)
 
+**Step 4.1**: Choose "Use Enhanced Cancel"if you want to return a full response to decline url. Click the *Save Changes* button.
 
+**Step 5**: Configure Response Fields
 
+Click on the Configure Response Fields button.
+**Enable Return the txn_number.** 
 
+This field is used to perform follow-ons and leave all others disabled.
+
+Click *Save Response settings*.
+
+Then Click the Return to Main Configuration.
+
+**Step 6**: Configure Security
+
+Click the Configure security button. In the Transaction Verification section, Enable Transaction Verification.
+
+Set the Response Method to: Sent to your server as a POST
 
