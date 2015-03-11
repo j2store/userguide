@@ -1,0 +1,2 @@
+# Payseal Payment Plugin
+
