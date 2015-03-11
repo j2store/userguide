@@ -67,9 +67,11 @@ See the screenshot below
 
 ![Custom Layout](custom_layout_paypal_advanced.png)
 
+**If you chose, payment window type as Redirect :**
 
+In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Choose the Layout B
 
-
+![](custom_layout_b_paypal_advanced.png)
 
 
 
