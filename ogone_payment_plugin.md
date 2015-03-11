@@ -25,4 +25,50 @@ Payments plugin (type=**j2store**).
 4. Enter the parameters (read the explanation about each parameter given below) 
 5. Save and close it. 
 
-Now you can see the Ogone Payments as an option during the Check out process. 
+Now you can see the Ogone Payments as an option during the Check out process.
+
+**Parameters**
+***Ogone Vendor PSPID***
+
+This is your Unique Merchant ID provided by the Ogone
+
+***Client language***
+
+This will set the language of the Ogone Payment Page. (Nothing 
+to do with your Joomla installation. If no language is given en_US will be the default.
+
+***SHA1-IN Signature***
+
+This is the SHA­1 IN signature set up by you in the Ogone 
+settings (see below for the required settings to be done at your Ogone account). This ensure security of your transaction. 
+
+***SHA1-OUT Signature***
+
+This is the SHA­1 OUT signature set up by you in the Ogone settings (see below for the required settings to be done at your Ogone account) 
+
+***Ogone Test Account***
+
+Ogone offers a testing suite. Before going live, it is advised to test your store using the Ogone test server. Read more about Ogone test account at the Ogone's official website
+
+>NOTE:  IN LIVE SITE, THIS SHOULD BE SET TO NO. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
