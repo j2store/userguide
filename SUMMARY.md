@@ -116,6 +116,7 @@
    * Telecash Payment Plugin
    * Tranzila Payment Plugin
    * WorldPay Payment Plugin
+   * Yandex Money Payment Plugin
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
