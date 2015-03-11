@@ -84,7 +84,7 @@ See the screenshot below
 
 ![Configure Security](configure_security.png)
 
-
+In the above image, click **Save Verification Settings** and then return to **Main Configuration**.
 
 
 
