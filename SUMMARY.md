@@ -91,7 +91,7 @@
    * [CCAvenue Payment Plugin](ccavenue_payment_plugin.md)
    * [DIBS Payment Plugin](dibs_payment_plugin.md)
    * [DIBS Payment Window Plugin](dibs_payment_window_plugin.md)
-   * DirecPay Payment Plugin
+   * [DirecPay Payment Plugin](direcpay_payment_plugin.md)
    * [EBS Payment Plugin](ebs_payment_plugin.md)
    * [IcePay Payment Plugin](icepay_payment_plugin.md)
    * [Paybox Payment Plugin](paybox_payment_plugin.md)
