@@ -83,7 +83,7 @@ PayPal recommends that you set up an additional user on your account. To set up 
 3. set "Select a Predefined Role:" as "FULL_TRANSACTIONS"
 4. Save the changes. 
 
-![](account_admin_paypal_advanced.png)
+![Account Administration](account_admin_paypal_advanced.png)
 
 
 
