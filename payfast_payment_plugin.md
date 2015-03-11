@@ -20,4 +20,32 @@ The Merchant Key provided by PayFast
 
 **Pass Phrase (Md5 Secret)**
 
-The secret word set up in your Payfast Merchant Account. To set up the secret word please log in to your Payfast account and click the EDIT button under Settings → Salt Pass Pharse.
+The secret word set up in your Payfast Merchant Account. 
+
+To set up the secret word please log in to your Payfast account and click the EDIT button under Settings → Salt Pass Pharse.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
