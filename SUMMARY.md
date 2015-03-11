@@ -109,6 +109,7 @@
    * [Payson Invoice Payment Plugin](payson_invoice_payment_plugin.md)
    * Saferpay Payment Plugin
    * Sagepay Payment Plugin
+   * Sagepay Form Payment Plugin
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
