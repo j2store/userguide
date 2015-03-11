@@ -81,3 +81,14 @@ Enter the following url in the Response URL field:
 https://YOUR_DOMAIN/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_moneris&paction=verify
 
 See the screenshot below
+
+![Configure Security](configure_security.png)
+
+
+
+
+
+
+
+
+
