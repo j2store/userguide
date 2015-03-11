@@ -1,2 +1,39 @@
 # Barclays ePDQ Payment Plugin
 
+This plugin integrates the Barclays ePDQ payment gateway with the J2Store shopping cart.
+
+#### Requirements
+* PHP 5.3 or higher
+* Joomla 2.5.x/3.0x
+* J2Store 2.7.3 + (Note the plugin will not work with earlier versions of J2Store)
+
+#### Required ePDQ settings
+Login to your ePDQ Barclayscard merchant account.
+Go to Confgurations → Technical Information
+
+#### Global Transaction Parameters
+##### Default operation code
+
+You have two default operation code, **Sale** and **Authorization**. The brief description of both is given below.
+
+**Sale**
+
+This will enable you to receive instant payment
+
+**Authorization**
+
+This you have to either manually or automatically capture it.
+For Sale, a successful payment will return Status code 9 and for Successful Authorisation 5. Both the cases will be treated as Success and Confrmed by the ePDQ plugin.
+
+
+
+
+
+
+
+
+
+
+
+
+
