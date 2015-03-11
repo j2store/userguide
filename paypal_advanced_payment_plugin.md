@@ -43,7 +43,7 @@ See the picture below
 
 **Return URL Method:** POST  (This is very IMPORTANT)
 
-![](payment_confirmation_paypal_advanced.png)
+![Payment Confirmation](payment_confirmation_paypal_advanced.png)
 
 
 
