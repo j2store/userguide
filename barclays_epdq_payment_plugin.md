@@ -87,5 +87,69 @@ Optional setting. Enter a text that will be displayed as the title of the paymen
 Optional setting. Enter a url (https) pointing to your logo image.
 >NOTE: DO NOT enter an unsecure url (one that starts with http://) here. It will result in an error
 
+**Custom Background Colour**
+
+Enter a hex colour code here to change the background colour of the payment page. *Example: #ff0000*
+
+**Use Barclays ePDQ Test Account**
+
+ePDQ offers a testing suite. Before going live, it is advised to test your store using the ePDQ test server. Read more about ePDQ test account at the ePDQ's official website
+
+>NOTE: IN LIVE SITE, THIS SHOULD BE SET TO NO
+
+**Display text on selection**
+
+The text entered here will be displayed when customer selects this payment method.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. 
+
+Refer the tips below
+
+>Tip - ONLY FOR MULTI-LINGUAL SITES
+
+For example, enter a language constant:
+
+J2STORE_TEXT_TO_DISPLAY_ON_SELECTION.
+
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
+
+**Display text before payment**
+
+The text entered here will be displayed to the customer at the order summary screen before he makes the payment.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+**Display text after payment/order**
+
+The text entered here will be displayed to the customer after he makes the payment.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+**Display text on error in payment**
+
+The text entered here will be displayed to the customer when there is an error in the payment process.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+**Display text on cancel payment**
+
+The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+**Payment Button Text**
+
+The text of the payment button. The button will be displayed at the final checkout step.
+
+#### Support
+
+Still have questions? You can reach us in ***support@j2store.org*** or post in our support
+forum: http://j2store.org/forum/index.html
+
+Thank you for using our extension.
+
+
+
+
 
 
