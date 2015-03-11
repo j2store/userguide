@@ -108,4 +108,12 @@ Your PayPal partner ID. By default, it will be PayPal.
 ##### Transaction Type:
 The type of transaction. If you choose SALE, then the payment will be captured immediately after a customer makes the payment. If you choose Authorization, then Payment will not be captured. You will have to capture it manually by going to Paypal Manager. Default value: Sale
 
+##### Test mode: 
+Set this to YES, only if you have set the Transaction Process Mode to TEST in the Service Settings->Hosted Checkout pages → Set up. 
+
+>IN LIVE SITE, THIS SHOULD BE SET TO NO. 
+
+##### Article ID for Thanks you message: 
+You can create an article to say thanks, provide some information or instructions to the customers, who purchased in your online store. Enter the Article ID here. This will show, 
+when customers return from the paypal. 
 
