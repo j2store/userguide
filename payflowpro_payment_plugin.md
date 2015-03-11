@@ -18,3 +18,44 @@ Go to Joomla admin → Extensions → Plugin Manager → Paypal Payflow PRO.
 **Payment option title**
 
 The value entered here will be used as the title for this payment method. Customer will see this value when he checks out. Default: Payflow PRO
+
+**Vendor/Merchant Login**
+
+The Merchant Login with which you login to Paypal Manager
+
+**User**
+
+Your User ID. If you created a new user, then enter that user id here. If not, then this field should carry the same value as the Vendor/Merchant Login.
+
+**Password**
+
+Your password with which you login to Paypal manager
+
+**Partner**
+Your PayPal partner ID. By default, it will be PayPal.
+
+**Transaction Type**
+
+The type of transaction. If you choose SALE, then the payment will be captured immediately after a customer makes the payment. If you choose Authorization, then Payment will not be captured. You will have to capture it manually by going to Paypal Manager. Default value: Sale
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
