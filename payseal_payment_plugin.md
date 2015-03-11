@@ -63,17 +63,3 @@ The text of the payment button. The button will be displayed at the final checko
 
 #### Support
 If you encounter any issues with the plugin, please contact the support team at ***support@j2store.org***.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
