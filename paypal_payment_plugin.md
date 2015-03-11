@@ -73,7 +73,7 @@ This is an optional parameter.
 
 The URL to your logo so. This image will be displayed on the top of PayPal's checkout page instead of your merchant name. 
 
->WARNING! It must be an HTTPS URL or your clients will 
+>WARNING! It must be an HTTPS URL, otherwise your clients will 
 receive warnings about insecure content. 
 
 This is an optional parameter.
