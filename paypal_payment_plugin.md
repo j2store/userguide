@@ -78,8 +78,29 @@ receive warnings about insecure content.
 
 This is an optional parameter.
 
+**Header Background Colour**
 
+The hex-code of your PayPal checkout page's header, e.g. FFFFFF for white (note: place no # in front the hex value) 
 
+This is an optional setting.
+
+**Header Background Colour**
+
+The hex-code of your PayPal checkout page's header, e.g. FFFFFF for white (note: place no # in front the hex value) 
+
+This is an optional setting.
+
+**Header Border Color** 
+
+The hex-code of your PayPal checkout page's header border, e.g. FFFFFF for white (note: place no # in front the hex value) 
+
+This is an optional setting.
+
+**Logo Image for display in Paypal**
+
+The URL of the 150x50-pixel image displayed as your logo in the upper left corner of PayPal’s pages. Default: your business name (if you have a Business account) or your email address (if you have Premier account). If this is not working, try using the Custom Header Image param above. 
+
+This is an optional setting.
 
 
 
