@@ -94,13 +94,13 @@ Go to Joomla admin → Extensions → Plugin Manager → Paypal Payments Advance
 The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.  Default: Paypal Payments Advanced
 
 ##### Vendor/Merchant Login:
-The Merchant Login with which you login to Paypal Manager
+The Merchant Login with which you login to Paypal Manager.
 
 ##### User:
 Your User ID. If you created a new user, then enter that user id here. If not, then this  field should carry the same value as the Vendor/Merchant Login.
 
 ##### Password:
-Your password with which you login to Paypal manager
+Your password with which you login to Paypal manager.
 
 ##### Partner:
 Your PayPal partner ID. By default, it will be PayPal. 
