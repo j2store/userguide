@@ -1,2 +1,20 @@
 # Payflow PRO Payment Plugin
 
+This plugin integrates the Payflow PRO gateway with J2Store. Accepted cards include Visa, MasterCard, Switch/Maestro, and Solo credit cards in the United States.
+
+Payflow PRO is available only for merchants in US, Canada, Australia, New Zealand.
+
+#### Requirements
+* PHP 5.3 or higher
+* Joomla 2.5.x
+* J2Store 2.6.3
+
+#### Installation Instructions
+Use the Joomla installer to install the plugin like you do for other extensions.
+
+#### Configuring the Plugin
+Go to Joomla admin → Extensions → Plugin Manager → Paypal Payflow PRO.
+
+**Payment option title**
+
+The value entered here will be used as the title for this payment method. Customer will see this value when he checks out. Default: Payflow PRO
