@@ -117,3 +117,68 @@ Set this to YES, only if you have set the Transaction Process Mode to TEST in th
 You can create an article to say thanks, provide some information or instructions to the customers, who purchased in your online store. Enter the Article ID here. This will show, 
 when customers return from the paypal. 
 
+##### Display text on selection
+The text entered here will be displayed when customer selects this payment method.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below 
+
+>Tip - ONLY FOR MULTI-LINGUAL SITES
+
+For example, enter a language constant: 
+
+J2STORE_TEXT_TO_DISPLAY_ON_SELECTION. 
+
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages. 
+
+##### Display text before payment
+The text entered here will be displayed to the customer at the order summary screen before he makes the payment. 
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter. 
+
+##### Display text after payment/order
+The text entered here will be displayed to the customer after he makes the payment. 
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter. 
+
+##### Display text on error in payment
+The text entered here will be displayed to the customer when there is an error in the payment process.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+##### Display text on cancel payment
+The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+##### Payment Button Text
+
+	The text of the payment button. The button will be displayed at the final checkout step
+
+
+Testing the plugin
+
+When you first start testing you will most likely keep getting response code 126 (at least if you're testing with a credit card) meaning your transaction triggered a fraud filter.  
+
+This will cause orders to be saved in J2Store as FAILED.  This happens because PayPal Manager has AVS fraud protection turned on by default and it will always fail since you're using test credit card numbers.  If you want to pass the AVS check and see orders saving as Approved / Confirmed in J2Store, you'll have to temporarily disable AVS fraud filters.  To do that click on Service Settings inside your PayPal Manager account.  Then click Fraud Protection.  When the page load, click on Test Setup. Go to Edit Standard Filters.  Uncheck all the checkboxes and hit Deploy at the bottom.
+
+Testing with a credit card
+
+Follow these guidelines for testing:
+
+1.     While testing, use only the credit card numbers for testing. Other numbers produce an error.
+2.     Expiration date must be a valid date in the future.
+3.     If you're getting an authorization error in test mode, try lowering the charge amount.
+
+Test Card Numbers
+
+
+American Express 	
+378282246310005
+
+American Express 	
+371449635398431
+
+American Express Corporate 	378734493671000
+
+Diners Club 	
+38520000023237
