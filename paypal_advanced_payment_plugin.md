@@ -65,7 +65,7 @@ In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Ch
 
 See the screenshot below
 
-
+![](custom_layout_paypal_advanced.png)
 
 
 
