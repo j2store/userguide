@@ -22,11 +22,11 @@ Before you begin, you must configure your PayPal Payments Advanced account on th
 
 Go to **Service Settings -> Hosted Checkout Pages -> Set Up**, and make the following settings:
 
-1. Set Transaction Process mode to TEST or LIVE depending on your requirement.
+* 1 - Set Transaction Process mode to TEST or LIVE depending on your requirement.
 
 ![Setup Paypal Advanced](setup_paypal_advanced.png)
 
-2. Under the Billing Information
+* 2 - Under the Billing Information
 
 **Make these fields required:** Check CSC box
 
@@ -37,9 +37,10 @@ See the picture below
 ![Billing Information](billing_information_paypal_advanced.png)
 
 
-3. Under the Payment Confirmation, set
+* 3 - Under the Payment Confirmation, set
 
 **Show confirmation page:** On my website
+
 **Return URL Method:** POST  (This is very IMPORTANT)
 
 
