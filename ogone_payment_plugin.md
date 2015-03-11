@@ -66,7 +66,13 @@ Ogone plugin.
 
 >NOTE: If you are selling digital goods, it is advised to use SALE as operation 
 
+The following parameters in your Ogone account (Technical Information) should be set as instructed below.
 
+##### Hashing method (Tab: Global security parameters)
+
+Should be set to SHA­1. The plugin will not work with the other methods. Refer the image below.
+
+![Ogone Hashing Method](hashing_method_ogone.png)
 
 
 
