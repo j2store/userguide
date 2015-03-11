@@ -10,6 +10,12 @@ Paypal allows you to add multiple emails in an account to accept payments. With 
 
 ![Paypal Primary Email](paypal_primary_email1.png)
 
+### 2. Currency is wrong. Paypal payment screen shows USD while my currency is different
+
+Paypal supports multiple currencies. However, it does not support all currencies of the world. Please ensure that your currency is supported by checking this page: https://www.paypal.com/multicurrency
+
+If your currency is not supported, Paypal will automatically assume the currency as USD.
+
 
 
 
