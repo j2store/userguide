@@ -45,9 +45,9 @@ See the picture below
 
 ![Payment Confirmation](payment_confirmation_paypal_advanced.png)
 
+* 4 - Under Security options, set
 
-
-
+![](security_options_paypal_advanced.png)
 
 
 
