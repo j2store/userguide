@@ -22,7 +22,7 @@ Go to Service Settings -> Hosted Checkout Pages -> Set Up, and make the followin
 
 1. Set Transaction Process mode to TEST or LIVE depending on your requirement.
 
-![](setup_paypal_advanced.png)
+![Setup Paypal Advanced](setup_paypal_advanced.png)
 
 
 
