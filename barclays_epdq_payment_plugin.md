@@ -55,7 +55,7 @@ http://yourdomain.com/index.php?option=com_j2store&view=callback&method=payment_
 ##### Request method: POST
 **(see the picture below with example urls)**
 
-
+![Server Request 1](server_request_1.png)
 
 
 
