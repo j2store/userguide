@@ -102,6 +102,7 @@
    * [Paymill Payment Plugin](paymill_payment_plugin.md)
    * [Paypal Payment Plugin](paypal_payment_plugin.md)
        * [Troubleshooting Paypal Related Issues](troubleshooting_paypal_related_issues.md)
+   * [Paypal Advanced Payment Plugin](paypal_advanced_payment_plugin.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
