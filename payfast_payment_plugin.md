@@ -1,0 +1,2 @@
+# Payfast Payment Plugin
+
