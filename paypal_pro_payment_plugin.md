@@ -8,7 +8,7 @@ You can use the standard Joomla installer for installing the plugin. Go to Exten
 #### Configuration
 Go to Joomla Administraton->Extensions->Plugin Manager Open the Paypal Pro plugin.
 
-TIP: Set the type filter to J2Store to quickly get to the plugin
+>TIP: Set the type filter to J2Store to quickly get to the plugin
 
 ##### Payment Option Title
 Enter a title for this payment option. Customers can see this title while selecting the payment.
