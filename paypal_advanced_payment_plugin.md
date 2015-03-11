@@ -113,7 +113,7 @@ Set this to YES, only if you have set the Transaction Process Mode to TEST in th
 
 >IN LIVE SITE, THIS SHOULD BE SET TO NO. 
 
-##### Article ID for Thanks you message: 
+##### Article ID for Thank You message: 
 You can create an article to say thanks, provide some information or instructions to the customers, who purchased in your online store. Enter the Article ID here. This will show, 
 when customers return from the paypal. 
 
