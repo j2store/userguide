@@ -37,9 +37,6 @@ You can collect a fee from the customers as Invoice Fee. Enter the fee amount he
 ##### Show Receipt
 If you set this to Yes, payson will show a receipt to the customer after they made the payment and then returned to your site.
 
-##### Choose payment methods
-Payson offers Credit card and bank payments. You can choose both or either one.
-
 ##### Article ID for Thank you message: 
 You can create an article with a thank you or instructions or information to the customer and enter its ID here. This will be displayed to the customer when he returns to the site after making payment.
 
