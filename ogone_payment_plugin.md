@@ -74,9 +74,12 @@ Should be set to SHA­1. The plugin will not work with the other methods. Refer 
 
 ![Ogone Hashing Method](hashing_method_ogone.png)
 
+##### Checks for E­Commerce (Tab: Data and origin verification)
+URL of the merchant page containing the payment form that will call the page: orderstandard.asp: 
 
+This should be set to http://www.yourdomain.com
 
-
+![Ogone Ecommerce Check](ecommerce_check_ogone.png)
 
 
 
