@@ -1,2 +1,0 @@
-# [Paypal PRO Payment Plugin]
-
