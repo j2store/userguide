@@ -62,3 +62,27 @@ when customers return from the paypal.
 **Geozone**
 
 By selecting a geozone here, you can restrict this payment method to only customers of that geo-region. Choose All geozones to show this method to all customers.
+
+**PayPal Callback Text**
+
+What the button on the PayPal site reads after the user has completed his transaction. Leave empty for the default 'Return to the merchant website' text. 
+
+This is an optional parameter.
+
+**Custom Header Image **
+
+The URL to your logo so. This image will be displayed on the top of PayPal's checkout page instead of your merchant name. 
+
+>WARNING! It must be an HTTPS URL or your clients will 
+receive warnings about insecure content. 
+
+This is an optional parameter.
+
+
+
+
+
+
+
+
+
