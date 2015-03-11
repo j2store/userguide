@@ -1,5 +1,6 @@
 # Troubleshooting Paypal Related Issues
 
+There could be several reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
 
 ### 1. Order status Failed
 
