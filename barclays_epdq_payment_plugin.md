@@ -22,8 +22,9 @@ This will enable you to receive instant payment
 
 **Authorization**
 
-This you have to either manually or automatically capture it.
-For Sale, a successful payment will return Status code 9 and for Successful Authorisation 5. Both the cases will be treated as Success and Confrmed by the ePDQ plugin.
+You have to capture this either manually or automatically.
+
+For Sale, a successful payment will return Status code 9 and for a Successful Authorisation, the status code is 5. Both the cases will be treated as Success and Confrmed by the **ePDQ** plugin.
 
 
 
