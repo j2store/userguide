@@ -112,6 +112,7 @@
    * Sagepay Form Payment Plugin
    * Sermepa Payment Plugin
    * Sisow Payment Plugin
+   * Stipe Payment Plugin
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
