@@ -39,9 +39,12 @@ This should be set to SHA-1, as the plugin will not function with other methods.
 
 ![Hashing Method](hashing_method.png)
 
+##### Checks for E-Commerce (Tab: Data and origin verifcation)
+URL of the merchant page containing the payment form that will call the page: orderstandard.asp - This should be set to http://www.yourdomain.com
 
+Also enter a SHA-IN pass pharse here. The same should be entered in the plugin as well.
 
-
+![Technical Information](tech_info.png)
 
 
 
