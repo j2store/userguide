@@ -76,3 +76,8 @@ Click the Configure security button. In the Transaction Verification section, En
 
 Set the Response Method to: Sent to your server as a POST
 
+Enter the following url in the Response URL field:
+
+https://YOUR_DOMAIN/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_moneris&paction=verify
+
+See the screenshot below
