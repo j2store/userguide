@@ -183,3 +183,34 @@ Follow these guidelines for testing:
 
 ***Diners Club***  
 38520000023237
+
+***Discover*** 	
+6011111111111117
+
+***Discover*** 	
+6011000990139424
+
+***JCB*** 	
+3530111333300000
+
+***JCB*** 	
+3566002020360505
+
+***MasterCard*** 	
+5555555555554444
+
+***MasterCard*** 	
+5105105105105100
+
+***Visa*** 	
+4111111111111111
+
+***Visa*** 	
+4012888888881881
+
+
+#### Support
+
+Still have questions? You can reach us in support@j2store.org 
+
+Thank you for using our extension. 
