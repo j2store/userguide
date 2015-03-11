@@ -81,7 +81,14 @@ This should be set to http://www.yourdomain.com
 
 ![Ogone Ecommerce Check](ecommerce_check_ogone.png)
 
+##### Post sale configuration : (Tab: Transaction feedback)
+This is required to update our database after the payment is done. Under the heading “Direct HTTP server­to­server request”, set both the URLs of the merchant's post­payment page as below:
 
+http://www.yourdomain.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_ogone&paction=process&tmpl=component
+
+Request method: POST
+
+(see the picture below with example urls.)
 
 
 
