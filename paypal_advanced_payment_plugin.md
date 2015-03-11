@@ -73,7 +73,15 @@ In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Ch
 
 ![Custom Layout B](custom_layout_b_paypal_advanced.png)
 
+Click Save and publish.
 
+##### Step 3 (Optional): Create a user
+
+PayPal recommends that you set up an additional user on your account. To set up an additional user, do the following:
+1. Go to manager.paypal.com and log in to your account. 
+2. Follow the instructions to set up an additional user. 
+3. set "Select a Predefined Role:" as "FULL_TRANSACTIONS"
+4. Save the changes. 
 
 
 
