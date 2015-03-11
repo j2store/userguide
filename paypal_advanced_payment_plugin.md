@@ -33,7 +33,7 @@ Make these fields required: Check CSC box
 Make these fields editable: Check CSC box. 
 See the picture below
 
-
+![](billing_information_paypal_advanced.png)
 
 
 
