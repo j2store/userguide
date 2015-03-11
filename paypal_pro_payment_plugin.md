@@ -42,6 +42,36 @@ You can create an article and enter its ID here to show to the customer after th
 ##### Display Text on Selection
 The text entered here will be displayed when customer selects this payment method. 
 
-You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below 
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below.
+
+>Tip - ONLY FOR MULTI-LINGUAL SITES
+
+For example, enter a language constant: 
+
+J2STORE_TEXT_TO_DISPLAY_ON_SELECTION 
+
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages. 
+
+##### Display Text before Payment
+The text entered here will be displayed to the customer at the order summary screen before he makes the payment. 
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter. 
+
+##### Display Text after Payment/Order
+The text entered here will be displayed to the customer after he makes the payment. 
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+##### Display Text on Error in Payment
+The text entered here will be displayed to the customer when there is an error in the payment process.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+
+
+
+
+
+
 
 
