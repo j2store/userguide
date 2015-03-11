@@ -59,4 +59,33 @@ http://yourdomain.com/index.php?option=com_j2store&view=callback&method=payment_
 
 ![Server Request 2](server_request_2.png)
 
+#### Installation Instructions
+
+1. Use the Joomla installer to install the plugin.
+2. In the backend, go to J2Store → Set up → Payment → ePDQ Barclays → Edit Parameters
+3. Enable the plugin4. Enter the parameters (read the explanation about each parameter given below)
+5. Save and close it.
+
+#### Parameters
+**ePDQ Account PSPID**
+
+This is your Unique Merchant ID provided by the Barclays ePDQ
+
+**SHA1-IN Signature**
+
+This is the SHA-1 IN signature set up by you in the **ePDQ** settings (see below for the required settings to be done at your **ePDQ** account). This ensure security of your transaction.
+
+**SHA1-OUT Signature**
+This is the SHA-1 OUT signature set up by you in the **ePDQ** settings. (see below for the required settings to be done at your **ePDQ** account)
+
+**Title Header of Payment Page**
+
+Optional setting. Enter a text that will be displayed as the title of the payment page.
+
+**Custom Logo**
+
+Optional setting. Enter a url (https) pointing to your logo image.
+>NOTE: DO NOT enter an unsecure url (one that starts with http://) here. It will result in an error
+
+
 
