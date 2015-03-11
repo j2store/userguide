@@ -38,6 +38,7 @@ See the picture below
 
 
 3. Under the Payment Confirmation, set
+
 **Show confirmation page:** On my website
 **Return URL Method:** POST  (This is very IMPORTANT)
 
