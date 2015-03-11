@@ -46,5 +46,17 @@ Also enter a SHA-IN pass pharse here. The same should be entered in the plugin a
 
 ![Technical Information](tech_info.png)
 
+##### Post sale confguration : (Tab: Transaction feedback)
+This is required to update our database after the payment is done.
+
+Under the heading “Direct HTTP server-to-server request”, set both the URLs of the merchant's post-payment page as below:
+http://yourdomain.com/index.php?option=com_j2store&view=callback&method=payment_epdq&paction=process
+
+##### Request method: POST
+**(see the picture below with example urls)**
+
+
+
+
 
 
