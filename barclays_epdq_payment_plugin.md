@@ -57,6 +57,6 @@ http://yourdomain.com/index.php?option=com_j2store&view=callback&method=payment_
 
 ![Server Request 1](server_request_1.png)
 
-
+![Server Request 2](server_request_2.png)
 
 
