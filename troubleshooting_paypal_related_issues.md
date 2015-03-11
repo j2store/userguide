@@ -1,5 +1,6 @@
 # Troubleshooting Paypal Related Issues
 
+
 ### 1. Order status Failed
 
 Are you using your Primary Paypal Email as your merchant email? If your order status is failed, then chances are that you are using a secondary email of your Paypal account.
