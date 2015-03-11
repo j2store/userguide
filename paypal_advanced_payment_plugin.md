@@ -152,33 +152,34 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 ##### Payment Button Text
 
-	The text of the payment button. The button will be displayed at the final checkout step
+The text of the payment button. The button will be displayed at the final checkout step
 
 
-Testing the plugin
+##### Testing the plugin
 
 When you first start testing you will most likely keep getting response code 126 (at least if you're testing with a credit card) meaning your transaction triggered a fraud filter.  
 
 This will cause orders to be saved in J2Store as FAILED.  This happens because PayPal Manager has AVS fraud protection turned on by default and it will always fail since you're using test credit card numbers.  If you want to pass the AVS check and see orders saving as Approved / Confirmed in J2Store, you'll have to temporarily disable AVS fraud filters.  To do that click on Service Settings inside your PayPal Manager account.  Then click Fraud Protection.  When the page load, click on Test Setup. Go to Edit Standard Filters.  Uncheck all the checkboxes and hit Deploy at the bottom.
 
-Testing with a credit card
+##### Testing with a credit card
 
 Follow these guidelines for testing:
 
-1.     While testing, use only the credit card numbers for testing. Other numbers produce an error.
-2.     Expiration date must be a valid date in the future.
-3.     If you're getting an authorization error in test mode, try lowering the charge amount.
+1. While testing, use only the credit card numbers for testing. Other numbers produce an error.
+2. Expiration date must be a valid date in the future.
+3. If you're getting an authorization error in test mode, try lowering the charge amount.
 
-Test Card Numbers
+##### Test Card Numbers
 
 
-American Express 	
+***American Express*** 	
 378282246310005
 
-American Express 	
+***American Express*** 	
 371449635398431
 
-American Express Corporate 	378734493671000
+***American Express Corporate***  
+378734493671000
 
-Diners Club 	
+***Diners Club***  
 38520000023237
