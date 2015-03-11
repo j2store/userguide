@@ -95,7 +95,7 @@
    * [EBS Payment Plugin](ebs_payment_plugin.md)
    * [IcePay Payment Plugin](icepay_payment_plugin.md)
    * [Paybox Payment Plugin](paybox_payment_plugin.md)
-   * Barclays ePDQ Payment Plugin
+   * [Barclays ePDQ Payment Plugin](barclays_epdq_payment_plugin.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
