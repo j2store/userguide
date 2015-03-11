@@ -33,6 +33,8 @@ Set the type of payment you wanted to take. The default and RECOMMENDED setting 
 ##### Use Paypal Sandbox
 Set this to yes if you want to test the integration with a Paypal Sandbox account. To create a sandbox account you need to sign up for it at http://developer.paypal.com
 
+##### Geozone
+By selecting a geozone here, you can restrict this payment method from showing to customers from only that geo-region. Choose All geozones to show this method to all customers
 
 
 
