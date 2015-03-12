@@ -22,3 +22,22 @@ Remaining are premium versions. You can choose any of the four and get a copy of
 In your Joomla control panel top menu, go to Extensions -> Extension Manager, as illustrated below.
 ![Installation 1](install_j2store_1.png)
 
+When you click here, you will be directed to the screen where you can select the downloaded/purchased packaged. See the image below:
+
+![Installation 2](install_j2store_2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
