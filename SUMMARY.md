@@ -4,6 +4,7 @@
 * [Server Requirements](system_requirements.md)
 * [Installation](installation.md)
 * Migration from 2.x
+   * Pre-requisites
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
