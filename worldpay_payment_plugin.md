@@ -70,7 +70,3 @@ Title of the return link displayed in the shopper response.
 
 #### Support
 Please contact us at ***support@j2store.org*** if you have any questions or trouble in setting up the plugin.
-
-
-
-
