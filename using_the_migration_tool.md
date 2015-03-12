@@ -44,12 +44,29 @@ Once backup is done, you can see the Start Migration button
 #### 5. Start Migration
 
 Click the Start Migration button and wait. 
-The tool will migrate the data, remove old modules, uninstall old J2Store version 2.x.
+The tool will migrate the data, remove old modules, install the new tables / db schema for J2Store version and uninstall old J2Store version 2.x.
 
 If the migration is successful, you can will see a success message. If there is an error, it will display the error.
 
-If an error occured, please post the error at the forum http://j2store.org/forum/j2store-version-3-feedback.html
+##### 5.1 What should i do if an error occured
+Please post the error at the forum http://j2store.org/forum/j2store-version-3-feedback.html
 
+
+#### 6 Post migration
+Once migration is successful, download the latest J2Store Version 3 from our site and install it.
+
+Then Go to Joomla administrator -> Components -> J2Store
+
+- Go to Set up - Configurations
+- Review the parameters and set them up as per your requirements.
+- Go to Catalog - Products - Open a product
+- Check if everything is right and save it.
+
+
+#### 7. Know issues
+
+##### 7.1 Quantity box, price are not appearing
+Open a product in the backend and save it. It should fix the issue.
 
 
 
