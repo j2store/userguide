@@ -26,7 +26,9 @@ When you click here, you will be directed to the screen where you can select the
 
 ![Installation 2](install_j2store_2.png)
 
+As illustrated, select the package file and click 'Upload and Install'.
 
+![Installation 3](install_j2store_4.png)
 
 
 
