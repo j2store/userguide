@@ -63,9 +63,9 @@ This might not necessarily mean it isn't working.
 
 You can check it in two places:
 
-1) In the tranzila account go to Transactions >> Today >> All, and see if your order was registered. If so, it means it worked ok on your settings are correct. The fact that it didn't return "000" (Payment accepted) as a response. Perform some more test purchases. If the problem persists, contact the Tranzila Support.
+1) In the **Tranzila** account go to Transactions >> Today >> All, and see if your order was registered. If so, it means it worked ok on your settings are correct. The fact that it didn't return "000" (Payment accepted) as a response. Perform some more test purchases. If the problem persists, contact the **Tranzila** Support.
 
-2) If your order was not registered in your Tranzila, then it means wrong settings. Check your server IP and make sure your entered the IP correctly.
+2) If your order was not registered in your **Tranzila**, then it means wrong settings. Check your server IP and make sure your entered the IP correctly.
 
 #### Support
 If you encounter any issues with the plugin, please contact the support team at ***support@j2store.org***.
