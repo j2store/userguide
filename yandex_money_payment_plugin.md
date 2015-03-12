@@ -16,24 +16,24 @@ Save the plugin and enable it.
 Enter a name. This will be displayed in the Payment selection page on checkout.
 
 ##### Account Type
-Choose your Yandex Account type. Yandex offers two account types. Personal and Business.
+Choose your Yandex Account type. Yandex offers two account types, Personal and Business.
 
-##### Parameters for Personal Account Type
+#### Parameters for Personal Account Type
 
-###### Yandex Purse
+##### Yandex Purse
 Your Yandex Purse ID
 
 ##### Payment Methods
 You can choose two methods here: 
 1. Yandex Money
-2. Credit Cards VISA, MasterCard, Maestro
+2. Credit Cards - VISA, MasterCard, Maestro
 
 ##### Parameters to be filed in your Yandex Personal Account
 You will have to submit a technical form provided by Yandex when you open an account. 
 
 In the form where it asks for HTTP Notifications URL (paymentAvisoURL), enter the url displayed here.
 
-##### Parameters for Business Account Type
+##### Parameters for Yandex Business Account Type
 ##### Shop ID
 Shop id provided by Yandex
 
@@ -42,7 +42,7 @@ Scid provided by Yandex
 
 ##### Payment Methods ( Choose your methods )
 1. Yandex Money
-2. Credit Cards VISA, MasterCard, Maestro
+2. Credit Cards - VISA, MasterCard, Maestro
 3. Cash on hands
 4. Payment from the account of a Mobile Phone
 5. Webmoney e-currency 
