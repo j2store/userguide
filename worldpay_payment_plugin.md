@@ -26,16 +26,17 @@ Check this check box. Only then the order status will be updated automatically, 
 ##### Payment response password
 DO NOT fill anything here. Leave it empty.
 
-##### MD5 secret for transactions field 
+##### MD5 Secret for transactions field 
 Enter a password / Key here. Remeber this as you have to enter this in the plugin setup as well.
 
 ##### Signature Fields
 Enter the following value to SignatureFields field in the Integration Setup in WorldPay: instId : cartId : amount : currency 
 
-##### Plugin configuration
-Go to Joomla admin->Plugin manager->WorldPay and open the plugin Fill in the params (refer the explanations below) Save the plugin and enable it.
+#### Plugin configuration
+Go to Joomla admin->Plugin manager->WorldPay and open the plugin, fill in the params (refer the explanations below), save the plugin and enable it.
 
-Payment option title Enter a name. This will be displayed in the Payment selection page (during checkout).
+##### Payment option title
+Enter a name here. This will be displayed in the Payment selection page (during checkout).
 
 ##### WorldPay Installation ID
 Installation ID provided by the WorldPay. Login to your Merchant Interface and Go to Installations->test or production environment to see the Installation ID.
