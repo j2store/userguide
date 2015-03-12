@@ -50,7 +50,11 @@ Here, you can add the images for your product. The main product image, thumbnail
 
 ![Simple image popup](add_simple_image1.png)
 
+You need to load the image in the top window to select an image. To load an image, select the source by the browse button, up load it and insert it.
 
+Now, shipping. Check the image below:
+
+![Simple Shipping](add_simple_shipping.png)
 
 
 
