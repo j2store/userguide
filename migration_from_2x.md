@@ -1,4 +1,4 @@
-# Migrating from old 2.x versions to 3.x
+# Migrating from old 2.7.x versions to 3.x
 
 We have created a tool for migrating your 2.x store to the latest 3.x store.
 Please read the documentation carefully before you attempt the migration.
