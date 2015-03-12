@@ -109,7 +109,7 @@
    * [Payson Invoice Payment Plugin](payson_invoice_payment_plugin.md)
    * [Saferpay Payment Plugin](saferpay_payment_plugin.md)
    * [Sagepay Payment Plugin](sagepay_payment_plugin.md)
-   * Sagepay Form Payment Plugin
+   * [Sagepay Form Payment Plugin](sagepay_form_payment_plugin.md)
    * Sermepa Payment Plugin
    * Sisow Payment Plugin
    * Stripe Payment Plugin
