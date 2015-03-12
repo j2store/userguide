@@ -32,7 +32,14 @@ Once generated, click Edit against each variant and then enter the SKU, Price an
 The tool will migrate all the data of your downlodable products. There are few changes in the structure of the downlodable products in J2Store Version 3.
 
 ##### 3.2.1 Download Limit
-Earlier, download limits were set
+Earlier, download limit was set against each file. But now, the limit is set per product. Plus, there is an expiry control.
+You can set the download availability to expire XX days after the order is confirmed.
+
+The limit and the expiry control has to be set by opening all your products. Otherwise, J2Store v3 will not limit the number of downloads per user.
+
+
+
+
 
 
 
