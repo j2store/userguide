@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Server Requirements](system_requirements.md)
 * [Installation](installation.md)
+* Migration from 2.x
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
@@ -61,7 +62,6 @@
    * [Coupons](sales_coupons.md)
    * [Promotions](sales_promotions.md)
    * [Vouchers](sales_vouchers.md)
-* Migration from 2.x
 * [Localization](localisation.md)
    * [Countries](countries.md)
    * [Zones](zones.md)
