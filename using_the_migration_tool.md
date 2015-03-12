@@ -37,7 +37,8 @@ The limit and the expiry control has to be set by opening all your products. Oth
 
 #### 4. Prepare for migration
 
-
+Once all checks passed, the tool will display the Prepare for Migration button.
+Click the button. It will backup all your J2Store 2.x tables
 
 
 
