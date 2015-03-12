@@ -6,7 +6,7 @@ This plugin integrates J2Store with the Yandex Money payment gateway.
 Go to Extensions Manager and Install the plugin by choosing the plugin file.
 
 #### Configuration
-Go to Joomla admin->J2Store – > Set up → Payments → Yandex Money.
+Go to Joomla admin → J2Store → Set up → Payments → Yandex Money.
 
 Click Edit plugin params and Fill in the params (refer the explanations below) .
 
