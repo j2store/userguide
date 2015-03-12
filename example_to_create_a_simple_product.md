@@ -34,7 +34,9 @@ In general tab of the simple product, you can set up the basic information about
 
 Here, enter the price of the product. If you want to set advanced prices, like special discounts, click the 'Set Prices' button ant you will get a pop-up window, where you can set the special prices. See image below to understand how it is done.
 
+![Simple Set Pricing](add_simple_pricing_setpricing.png)
 
+Enter the dates between which the special price is offered, the minimum quantity to avail the special price, the user group eligible, the special price and click 'Create'. Now, the new price is listed as a row below. You can further edit and save or delete if you want. Lets move to Inventory, to understand stock management.
 
 
 
