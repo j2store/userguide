@@ -35,6 +35,8 @@ You can set the download availability to expire XX days after the order is confi
 
 The limit and the expiry control has to be set by opening all your products. Otherwise, J2Store v3 will not limit the number of downloads per user.
 
+#### 4. Prepare for migration
+
 
 
 
