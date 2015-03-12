@@ -30,20 +30,20 @@ Enable this to test your integration with the TPV Redsys / Servired /Sermepa tes
 
 First turn this on and test your integration. Once you are ready, contact with your Bank and once you are live, disable this.
 
+##### Customer Currency (optional)
+If a currency in your store is not supported by the gateway, Then the order will be converted to this currency automatically. Default is EURO.
 
+##### Customer language
+The language of the payment screen displayed to the customer (at the TPV Redsys / servired / sermepa end)
 
+##### Transaction Type
+The transaction type: It can be either Authorization or 
+Pre-Authorisation.
 
+>IMPORTANT: Some banks will not allow pre-authorisation. So you have to make sure that your account can accept pre-authorisation transactions. 
 
-
-
-
-
-
-
-
-
-
-
+##### Article ID for Thank you message: 
+	You can create an article with a thank you or instructions or information to the customer and enter its ID here. This will be displayed to the customer when he returns to the site after making payment
 
 ##### Display Text on Selection
 The text entered here will be displayed when customer selects this payment method. 
