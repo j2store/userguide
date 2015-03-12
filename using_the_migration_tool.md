@@ -14,10 +14,8 @@ If you proceed without taking a BACKUP, you will not be able to recover your dat
 The Tool will not allow you to proceed if you do not have the Akeeba Backup component installed. 
 We had to force this check because some Joomla web masters do not have the habit of taking regular backup of their site.
 
-### 3. Read the instruction
-Go to Joomla administrator -> Components -> Migration Tool for J2Store
-
-Read the on-screen instruction. 
+### 3. Important points to note down
+J2Store Version 3 is completely re-written from scratch. We have made quite a lot of structural changes. So some of the product types require additional inputs after the migration.
 
 #### 3.1 Variant stock
 If you are maintain stock for product options (aka Variable product), the tool will migrate all the data except SKU, Price and Stock.
