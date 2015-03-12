@@ -8,6 +8,7 @@
    * [Things to do before migrating](things_to_do_before_migrationg.md)
    * [Download Migration Tool](download_migration_tool.md)
    * [Using the migration tool](using_the_migration_tool.md)
+   * Reverting back to 2.x after the migration
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
