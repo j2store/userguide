@@ -46,13 +46,23 @@ The text entered here will be displayed to the customer when he cancels the paym
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 ##### Testing Information
-You may use a dummy number which simulates a ***Visa card*** number – 4444333322221111
-The CVV should be any three digit number, for example - 333
-Another dummy number to simulate ***Isracard*** is 12312312
+You may use a dummy number which simulates a ***Visa card*** number – 4444333322221111.
+
+The CVV should be any three digit number, for example - 333.
+
+Another dummy number to simulate ***Isracard*** is 12312312.
+
 Contact **Tranzilla** for more information on test credit cards.
 
 ##### Troubleshooting
-When submitting an order, J2Store may return an error about "Credit cart could not be processed..." This might not necessarily mean it isn't working. You can check in two places:
+When submitting an order, J2Store may return an error about
+
+"**Credit cart could not be processed...**" 
+
+This might not necessarily mean it isn't working. 
+
+You can check it in two places:
+
 1) In the tranzila account go to Transactions >> Today >> All, and see if your order was registered. If so, it means it worked ok on your settings are correct. The fact that it didn't return "000" (Payment accepted) as a response. Perform some more test purchases. If the problem persists, contact the Tranzila Support.
 
 2) If your order was not registered in your Tranzila, then it means wrong settings. Check your server IP and make sure your entered the IP correctly.
