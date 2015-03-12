@@ -6,6 +6,7 @@
 * [Migration from 2.x](migration_from_2x.md)
    * [Pre-requisites](pre-requisites.md)
    * [Things to do before migrationg](things_to_do_before_migrationg.md)
+   * Migration Tool
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
