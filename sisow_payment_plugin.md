@@ -24,7 +24,8 @@ You can set this to Yes to test the integration with Sisow.
 
 >IMPORTANT: This requires the option ‘Test with Simulator’ to be selected in the Sisow account configuration section ‘My Profile – Connection’ (true/false; yes/no) 
 
-##### Article ID for Thanks MSG You can create an article and enter its ID here to show a message or instructions to your customers after they complete the payment. 
+##### Article ID for Thanks MSG
+You can create an article and enter its ID here to show a message or instructions to your customers after they complete the payment. 
 
 #### Support
 You can post your quests in our support forum or send an email to ***support@j2store.org*** 
