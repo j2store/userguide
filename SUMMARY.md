@@ -61,6 +61,7 @@
    * [Coupons](sales_coupons.md)
    * [Promotions](sales_promotions.md)
    * [Vouchers](sales_vouchers.md)
+* Migration from 2.x
 * [Localization](localisation.md)
    * [Countries](countries.md)
    * [Zones](zones.md)
@@ -130,5 +131,4 @@
 * [Tools](tools.md)
 * [Reports](reports.md)
 * Store
-* Migration from 2.x
 
