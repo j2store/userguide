@@ -43,7 +43,7 @@ Pre-Authorisation.
 >IMPORTANT: Some banks will not allow pre-authorisation. So you have to make sure that your account can accept pre-authorisation transactions. 
 
 ##### Article ID for Thank you message: 
-	You can create an article with a thank you or instructions or information to the customer and enter its ID here. This will be displayed to the customer when he returns to the site after making payment
+You can create an article with a thank you or instructions or information to the customer and enter its ID here. This will be displayed to the customer when he returns to the site after making payment
 
 ##### Display Text on Selection
 The text entered here will be displayed when customer selects this payment method. 
