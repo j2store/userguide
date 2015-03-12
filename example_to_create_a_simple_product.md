@@ -14,6 +14,34 @@ As given in the above illustration, click in the top menu or in the left pane of
 
 ![Add Article](add_simple_cart.png)
 
+* Enter a name for the product you want to create.
+* Select the 'J2Store Cart' tab below.
+* Select 'Yes' in the option 'Treat as product'.
+* The next option is product type. From the available list, select 'Simple', as shown in the image. 
+* Now click the button, 'save and continue'.
+
+Your product will be saved, and it will continue to configure the product. See the image below:
+
+![Add Article](add_simple_content.png)
+
+Now, add a description to your product in the editor. Lets add the other primary details of the product. See the image below.
+
+![General Tab](add_simple_general.png)
+
+In general tab of the simple product, you can set up the basic information about the product like SKU, Universal Product Identifier, Brand etc and you can decide whether the product is to be displayed in store front. Next is pricing tab.
+
+![Simple Pricing](add_simple_pricing.png)
+
+Here, enter the price of the product. If you want to set advanced prices, like special discounts, click the 'Set Prices' button ant you will get a pop-up window, where you can set the special prices. See image below to understand how it is done.
+
+
+
+
+
+
+
+
+
 
 
 
