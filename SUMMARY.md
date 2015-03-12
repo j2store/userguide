@@ -115,7 +115,7 @@
    * [Stripe Payment Plugin](stripe_payment_plugin.md)
    * [Telecash Payment Plugin](telecash_payment_plugin.md)
    * [Tranzila Payment Plugin](tranzila_payment_plugin.md)
-   * WorldPay Payment Plugin
+   * [WorldPay Payment Plugin](worldpay_payment_plugin.md)
    * Yandex Money Payment Plugin
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
