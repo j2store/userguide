@@ -1,16 +1,40 @@
 # Tranzila Payment Plugin
 
+This plugin integrates Tranzila payment gateway with J2Store.
 
+#### Installation
+You can install the plugin through the standard Joomla installer.
 
+#### Configuration
+Before you set up the plugin, you need to configure your Tranzila system.
 
+#### Tranzila setup
+1) Login to your Tranzila testing / live account.
+2) Setup the "Server IP" to match your machine IP, under the "Respond to a User Agent object including http headers", and make sure that radio is checked.
+3) We'll add some keys that will allow us to send J2Store specific data, such as the order ID, the product description.
+4) Goto Settings >> Config 2 >> Section 3 (User Defined Fields).
+5) Under "Field name on Form" and "Field name on Screen" add:
+order_id | Order ID 
 
+description | Description 
 
+#### Plugin Set up
+Go to Joomla admin → J2Store → Set up → Payment → Tranzila Payments → Edit
 
+#### Parameters
+##### Payment Option title
+Enter a name that will be shown in the payment methods
+selection during the checkout process. Default Tranzila
 
+##### Supplier ID
+Your Tranzilla Supplied ID
 
+##### Tranzila System URL
+Choose the Tranzila System url, which was provided to you. This
+will normally be secure5.tranzila.com
 
-
-
+##### Joomla Article ID for custom thank you message
+You can create an Article ID with a message enter its ID here to show it to the customer after completion of the purchase.
 
 ##### Display Text on Selection
 The text entered here will be displayed when customer selects this payment method. 
