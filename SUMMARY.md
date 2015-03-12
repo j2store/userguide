@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Server Requirements](system_requirements.md)
 * [Installation](installation.md)
-* Migration from 2.x
+* [Migration from 2.x](migration_from_2x.md)
    * [Pre-requisites](pre-requisites.md)
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
