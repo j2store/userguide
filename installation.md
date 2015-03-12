@@ -30,6 +30,10 @@ As illustrated, select the package file and click 'Upload and Install'.
 
 ![Installation 3](install_j2store_4.png)
 
+J2Store will be installed and you can explore the extension as shown below.
+
+![Installation 4](install_j2store_5.png)
+
 
 
 
