@@ -13,7 +13,7 @@ Click Edit plugin params and Fill in the params (refer the explanations below) .
 Save the plugin and enable it.
 
 ##### Payment option title
-Enter a name. This will be displayed in the Payment selection page (during checkout).
+Enter a name. This will be displayed in the Payment selection page on checkout.
 
 ##### Account Type
 Choose your Yandex Account type. Yandex offers two account types. Personal and Business.
