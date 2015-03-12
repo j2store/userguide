@@ -32,7 +32,7 @@
            * [Options](simple_options.md)
            * [Filters](simple_filters.md)
            * [Relations](simple_relations.md)
-           * [How to create a simple product](how_to_create_a_simple_product.md)
+           * [Example to create a simple product](example_to_create_a_simple_product.md)
        * [Variable Product](variable_product.md)
            * [General](variable_general.md)
            * [Images](variable_images.md)
