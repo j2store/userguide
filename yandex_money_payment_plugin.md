@@ -25,8 +25,8 @@ Your Yandex Purse ID
 
 ##### Payment Methods
 You can choose two methods here: 
-	1. Yandex Money
-	2. Credit Cards VISA, MasterCard, Maestro
+1. Yandex Money
+2. Credit Cards VISA, MasterCard, Maestro
 
 ##### Parameters to be filed in your Yandex Personal Account
 You will have to submit a technical form provided by Yandex when you open an account. 
