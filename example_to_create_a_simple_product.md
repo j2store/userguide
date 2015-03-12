@@ -38,9 +38,17 @@ Here, enter the price of the product. If you want to set advanced prices, like s
 
 Enter the dates between which the special price is offered, the minimum quantity to avail the special price, the user group eligible, the special price and click 'Create'. Now, the new price is listed as a row below. You can further edit and save or delete if you want. Lets move to Inventory, to understand stock management.
 
+![Simple Inventory](add_simple_inventory.png)
 
+***This is a J2Store PRO exclusive feature***
 
+Select 'Yes' if you want inventory management. Enter all the fields as required. They are fairly self explanatory, still assisted in the image. And move on to images.
 
+![simple images](add_simple_images.png)
+
+Here, you can add the images for your product. The main product image, thumbnail image, and additional images for the product are added here. To add an image, click the green button, 'Select an image', which will bring up a pop-up window, where you can select the product image. See the image below:
+
+![Simple image popup](add_simple_image1.png)
 
 
 
