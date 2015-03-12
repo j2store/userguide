@@ -7,7 +7,7 @@
    * [Pre-requisites](pre-requisites.md)
    * [Things to do before migrationg](things_to_do_before_migrationg.md)
    * Download Migration Tool
-   * Using the migration tool
+   * [Using the migration tool](using_the_migration_tool.md)
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
