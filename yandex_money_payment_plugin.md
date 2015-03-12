@@ -1,0 +1,2 @@
+# Yandex Money Payment Plugin
+
