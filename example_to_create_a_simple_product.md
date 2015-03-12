@@ -56,7 +56,20 @@ Now, shipping. Check the image below:
 
 ![Simple Shipping](add_simple_shipping.png)
 
+Enter the options with details according to your needs to enable shipping, the dimensions and weight of the product, classes for length and weight. Next is options. 
+
+![Simple Options](add_simple_options.png)
+
+You can add options for your product, as illustrated in the image. If you have already set an option for some other product, and wish to import the same option to this product, you can do so by clicking the import product options button, which will bring out a popup window, like this.
+
+![Simple Import Options](add_simple_import_options.png)
+
+Next comes filters. You can filter the products, with their name or type to narrow the search. For e.g., if give 'Electronics' as filter, only electronics goods will be searched for your product, thus saving time. You can set filters as shown in the image.
+
+![Simple Product Filters](add_simple_prod_filters.png)
+
+Then comes Relations. This is to promote sales by higher value products and additional products relative to the product being considered for purchase. 
 
 
 
-
+For more details on this topic, see the exclusive article, detailing the tab 'Relations'.
