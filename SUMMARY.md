@@ -112,7 +112,7 @@
    * [Sagepay Form Payment Plugin](sagepay_form_payment_plugin.md)
    * [Sermepa Payment Plugin](sermepa_payment_plugin.md)
    * [Sisow Payment Plugin](sisow_payment_plugin.md)
-   * Stripe Payment Plugin
+   * [Stripe Payment Plugin](stripe_payment_plugin.md)
    * Telecash Payment Plugin
    * Tranzila Payment Plugin
    * WorldPay Payment Plugin
