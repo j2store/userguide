@@ -1,11 +1,7 @@
 # Migrating from old 2.x versions to 3.x
 
-
-
-### Migration tool
-We have created a simple migration tool that will help you migrate your 2.x store data to J2Store 3.x 
-You can download the migration tool at our website or directly from the following url: 
-https://dl.dropboxusercontent.com/u/4717837/com_j2migration-1.0-beta.zip
+We have created a tool for migrating your 2.x store to the latest 3.x store.
+Please read the documentation carefully before you attempt the migration.
 
 ### Actions to be taken before migration
 
