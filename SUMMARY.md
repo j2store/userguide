@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Server Requirements](system_requirements.md)
-* Installation
+* [Installation](installation.md)
 * [Set up](set_up.md)
    * [Configuration](configuration.md)
        * [Basic Settings](basic_settings.md)
