@@ -39,15 +39,3 @@ And here is the J2Store Dashboard.
 ![Dashboard](j2store_dashboard.png)
 
 Now, you are powered with j2store. Build your online store, within minutes and happy selling!
-
-
-
-
-
-
-
-
-
-
-
-
