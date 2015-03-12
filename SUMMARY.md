@@ -113,7 +113,7 @@
    * [Sermepa Payment Plugin](sermepa_payment_plugin.md)
    * [Sisow Payment Plugin](sisow_payment_plugin.md)
    * [Stripe Payment Plugin](stripe_payment_plugin.md)
-   * Telecash Payment Plugin
+   * [Telecash Payment Plugin](telecash_payment_plugin.md)
    * Tranzila Payment Plugin
    * WorldPay Payment Plugin
    * Yandex Money Payment Plugin
