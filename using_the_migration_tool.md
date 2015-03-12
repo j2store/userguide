@@ -39,6 +39,21 @@ The limit and the expiry control has to be set by opening all your products. Oth
 
 Once all checks passed, the tool will display the Prepare for Migration button.
 Click the button. It will backup all your J2Store 2.x tables
+Once backup is done, you can see the Start Migration button
+
+#### 5. Start Migration
+
+Click the Start Migration button and wait. 
+The tool will migrate the data, remove old modules, uninstall old J2Store version 2.x.
+
+If the migration is successful, you can will see a success message. If there is an error, it will display the error.
+
+If an error occured, please post the error at the forum http://j2store.org/forum/j2store-version-3-feedback.html
+
+
+
+
+
 
 
 
