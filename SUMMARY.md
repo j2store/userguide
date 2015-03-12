@@ -110,7 +110,7 @@
    * [Saferpay Payment Plugin](saferpay_payment_plugin.md)
    * [Sagepay Payment Plugin](sagepay_payment_plugin.md)
    * [Sagepay Form Payment Plugin](sagepay_form_payment_plugin.md)
-   * Sermepa Payment Plugin
+   * [Sermepa Payment Plugin](sermepa_payment_plugin.md)
    * Sisow Payment Plugin
    * Stripe Payment Plugin
    * Telecash Payment Plugin
