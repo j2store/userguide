@@ -9,11 +9,12 @@ You can install the plugin through the standard Joomla installer.
 Before you set up the plugin, you need to configure your Tranzila system.
 
 #### Tranzila setup
-1) Login to your Tranzila testing / live account.
-2) Setup the "Server IP" to match your machine IP, under the "Respond to a User Agent object including http headers", and make sure that radio is checked.
-3) We'll add some keys that will allow us to send J2Store specific data, such as the order ID, the product description.
-4) Goto Settings >> Config 2 >> Section 3 (User Defined Fields).
-5) Under "Field name on Form" and "Field name on Screen" add:
+1. Login to your Tranzila testing / live account.
+2. Setup the "Server IP" to match your machine IP, under the "Respond to a User Agent object including http headers", and make sure that radio is checked.
+3. We'll add some keys that will allow us to send J2Store specific data, such as the order ID, the product description.
+4. Goto Settings >> Config 2 >> Section 3 (User Defined Fields).
+5. Under "Field name on Form" and "Field name on Screen" add:
+
 order_id | Order ID 
 
 description | Description 
