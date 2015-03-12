@@ -130,4 +130,5 @@
 * [Tools](tools.md)
 * [Reports](reports.md)
 * Store
+* Migration from 2.x
 
