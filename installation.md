@@ -28,11 +28,19 @@ When you click here, you will be directed to the screen where you can select the
 
 As illustrated, select the package file and click 'Upload and Install'.
 
-![Installation 3](install_j2store_4.png)
+![Installation 3](install_j2store_package.png)
 
-J2Store will be installed and you can explore the extension as shown below.
+J2Store is now installed and you will get this success message, as illustrated below.
 
-![Installation 4](install_j2store_5.png)
+![Installation Successful](j2store-installation-success.png)
+
+Now go to the topmenu->components->j2store, you will get the configuration screen as shown below:
+
+![Configuration](j2store-config-page.png)
+
+Enter the details for your online store as shown below.
+
+![Config 2](config-2.png)
 
 And here is the J2Store Dashboard.
 
