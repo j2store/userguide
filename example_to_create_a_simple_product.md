@@ -72,3 +72,8 @@ Then comes Relations. This is to promote sales by higher value products and addi
 
 For more details on this topic, see the exclusive article in previous section, detailing the tab 'Relations'.
 
+The next tab is Relations. Here, you can add products of higher value than the one being viewed by the customer and recommend the customer to buy that product, citing its advantages and additional features. This is an upsell.
+
+Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
+
+For more detailed explanation, refer to the **Relations** section of the **Simple Product**.
