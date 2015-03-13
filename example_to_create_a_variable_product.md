@@ -70,9 +70,9 @@ Now, as shown in the image, click on the 'Generate Variants', a green colored bu
 
 As you click the buttons to generate variants, the buttons adjusts itself to display the message 'Generating variants... please wait'. Now its done. See the variants listed below, as shown in the image.
 
+![Generated Variants](create_variable_cart_variants_generated.png.png)
 
-
-
+Once the variants are generated, you can edit the variants and add necessary details to the variant. When you edit a variant, you will have all the tabs in cart except variant tab. Fill in the required details for the product variant.
 
 
 
