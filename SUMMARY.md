@@ -40,6 +40,7 @@
            * [Variants](variable_variants.md)
            * [Filters](variable_filters.md)
            * [Relations](variable_relations.md)
+           * [Example to Create a Variable Product](example_to_create_a_variable_product.md)
        * [Configurable Product](configurable_product.md)
            * [General](conf_general.md)
            * [Pricing](conf_pricing.md)
