@@ -32,9 +32,13 @@ Now you need to configure your product with necessary details. Begin with genera
 * Select the vendor to order the product
 * Select the taxprofile that mathces the product profile
 
+Now switch to Images tab.
 
+![Images](create_variable_cart_images.png)
 
+You can add main, thumbnail and additional images relevant to your product in this tab. Click the 'select an image' button to get a pop-up window to select the image.
 
+![Images Select](create_variable_cart_images_select.png)
 
 
 
