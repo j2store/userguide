@@ -52,4 +52,7 @@ In the image, as you can see, you have added the option color. Now, save the con
 
 ![Variants 3](create_variable_cart_variants_3.png)
 
+You can see the blue link, 'Set Values' adjacent to the option 'Color'. Click this link to set some values for the option 'Color'. Then only you can generate variants. Go ahead with setting values and see what happens...
+
+![Set Values 1](create_variable_cart_variants_setvalues.png)
 
