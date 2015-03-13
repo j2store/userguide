@@ -103,3 +103,7 @@ For more detailed explanation, refer to the **Relations** section of the **Varia
 ![Apps](create_variable_cart_apps.png)
 
 In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
+
+Now, lets have a look on how your product is viewed in your online store. Check the image below:
+
+![Poloshirt on cart](poloshirt_on_cart.png)
