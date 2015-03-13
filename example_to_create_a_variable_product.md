@@ -40,7 +40,9 @@ You can add main, thumbnail and additional images relevant to your product in th
 
 ![Images Select](create_variable_cart_images_select.png)
 
+Move on to variants tab.
 
+![Variants 1](create_variable_cart_variants_1.png)
 
 
 
