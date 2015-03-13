@@ -68,12 +68,16 @@ Next comes filters. You can filter the products, with their name or type to narr
 
 ![Simple Product Filters](add_simple_prod_filters.png)
 
-Then comes Relations. This is to promote sales by higher value products and additional products relative to the product being considered for purchase. 
-
-For more details on this topic, see the exclusive article in previous section, detailing the tab 'Relations'.
-
 The next tab is Relations. Here, you can add products of higher value than the one being viewed by the customer and recommend the customer to buy that product, citing its advantages and additional features. This is an upsell.
+
+Refer the image below:
+
+![Relations](create_simple_relations.png)
 
 Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
 
 For more detailed explanation, refer to the **Relations** section of the **Simple Product**.
+
+The next tab is Apps.
+
+In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
