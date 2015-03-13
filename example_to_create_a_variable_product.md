@@ -59,3 +59,25 @@ You can see the blue link, 'Set Values' adjacent to the option 'Color'. Click th
 If you select the value for the option and click the create button, you will get the resulting screen like this.
 
 ![Set values 2](create_variable_cart_variants_setvalues_1.png)
+
+Close the window using the X in the top right corner and return to the tabs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
