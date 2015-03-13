@@ -68,7 +68,7 @@ Now, as shown in the image, click on the 'Generate Variants', a green colored bu
 
 ![Generating Variants](create_variable_cart_genrating_variants.png.png)
 
-
+As you click the buttons to generate variants, the buttons adjusts itself to display the message 'Generating variants... please wait'. Now its done. See the variants listed below, as shown in the image.
 
 
 
