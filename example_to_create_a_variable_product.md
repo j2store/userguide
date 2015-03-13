@@ -88,6 +88,12 @@ Here, you can set the filters to narrow product search. When you set filter valu
 
 ![Filters](create_variable_cart_variants_filters.png)
 
+#### Relations
 
+The next tab is Relations. Here, you can add products of higher value than the one being viewed by the customer and recommend the customer to buy that product, citing its advantages and additional features. This is an upsell.
+
+Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
+
+For more detailed explanation, refer to the **Relations** section of the **Variable Product**.
 
 
