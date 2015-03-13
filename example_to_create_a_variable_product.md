@@ -74,7 +74,7 @@ As you click the buttons to generate variants, the buttons adjusts itself to dis
 
 Once the variants are generated, you can edit the variants and add necessary details to the variant. When you edit a variant, you will have all the tabs in cart except variant tab. Fill in the required details for the product variant.
 
-
+![Edit Variants](editing_variants.png)
 
 
 
