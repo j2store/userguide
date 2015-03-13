@@ -64,7 +64,9 @@ Close the window using the X in the top right corner and return to the tabs.
 
 ![Generate Variants](create_variable_cart_generate_variants.png.png)
 
+Now, as shown in the image, click on the 'Generate Variants', a green colored button, to generate variants for the products.
 
+![Generating Variants](create_variable_cart_genrating_variants.png.png)
 
 
 
