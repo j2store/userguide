@@ -90,6 +90,8 @@ Here, you can set the filters to narrow product search. When you set filter valu
 
 #### Relations
 
+![Relations](create_variable_cart_relations.png)
+
 The next tab is Relations. Here, you can add products of higher value than the one being viewed by the customer and recommend the customer to buy that product, citing its advantages and additional features. This is an upsell.
 
 Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
@@ -97,5 +99,7 @@ Also, you can add some other products to convince the customer to buy theses pro
 For more detailed explanation, refer to the **Relations** section of the **Variable Product**.
 
 #### Apps
+
+![Apps](create_variable_cart_apps.png)
 
 In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
