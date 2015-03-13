@@ -50,6 +50,7 @@
            * [Options](conf_options.md)
            * [Filters](conf_filters.md)
            * [Relations](conf_relations.md)
+           * [Example to Create a Configurable Product](example_to_create_a_configurable_product.md)
        * [Downloadable Product](downloadable_product.md)
            * [General](down_general.md)
            * [Pricing](down_pricing.md)
