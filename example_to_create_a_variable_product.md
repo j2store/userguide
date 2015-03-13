@@ -96,4 +96,6 @@ Also, you can add some other products to convince the customer to buy theses pro
 
 For more detailed explanation, refer to the **Relations** section of the **Variable Product**.
 
+#### Apps
 
+In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
