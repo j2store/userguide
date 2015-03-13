@@ -62,7 +62,7 @@ If you select the value for the option and click the create button, you will get
 
 Close the window using the X in the top right corner and return to the tabs.
 
-
+![Generate Variants](create_variable_cart_generate_variants.png.png)
 
 
 
