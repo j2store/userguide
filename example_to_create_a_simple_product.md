@@ -71,3 +71,4 @@ Next comes filters. You can filter the products, with their name or type to narr
 Then comes Relations. This is to promote sales by higher value products and additional products relative to the product being considered for purchase. 
 
 For more details on this topic, see the exclusive article in previous section, detailing the tab 'Relations'.
+
