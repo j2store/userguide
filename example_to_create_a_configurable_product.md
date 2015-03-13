@@ -12,4 +12,4 @@ Have a look at the image below:
 
 As given in the above illustration, click in the top menu or in the left pane of the control panel. You will get a new screen like this.
 
-![Create ](conf_create_cart.png)
+![Create a Configurable Product](conf_create_cart.png)
