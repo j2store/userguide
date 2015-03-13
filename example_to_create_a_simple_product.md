@@ -80,4 +80,6 @@ For more detailed explanation, refer to the **Relations** section of the **Simpl
 
 The next tab is Apps.
 
+![Apps](create_simple_apps.png)
+
 In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
