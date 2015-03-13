@@ -44,7 +44,9 @@ Move on to variants tab.
 
 ![Variants 1](create_variable_cart_variants_1.png)
 
+If you select the option, then you need to set values for the option.
 
+![Variants 2](create_variable_cart_variants_2.png)
 
 
 
