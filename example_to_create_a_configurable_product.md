@@ -16,4 +16,4 @@ As given in the above illustration, click in the top menu or in the left pane of
 
 Enter all the details and necessary selections to create a new product and save it in the cart tab. Your product will be created and the screen will look like this.
 
-![](conf_create_success.png)
+![Configurable Created](conf_create_success.png)
