@@ -23,6 +23,7 @@ Your product is successfully created and a message will be displayed like this.
 
 ![Create Variable 2](create_variable_cart_2.png)
 
+#### General
 Now you need to configure your product with necessary details. Begin with general tab.
 
 ![General](create_variable_cart_general.png)
@@ -34,6 +35,8 @@ Now you need to configure your product with necessary details. Begin with genera
 
 Now switch to Images tab.
 
+#### Images
+
 ![Images](create_variable_cart_images.png)
 
 You can add main, thumbnail and additional images relevant to your product in this tab. Click the 'select an image' button to get a pop-up window to select the image.
@@ -41,6 +44,7 @@ You can add main, thumbnail and additional images relevant to your product in th
 ![Images Select](create_variable_cart_images_select.png)
 
 Move on to variants tab.
+#### Variants
 
 ![Variants 1](create_variable_cart_variants_1.png)
 
