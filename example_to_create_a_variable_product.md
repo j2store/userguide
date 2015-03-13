@@ -48,6 +48,6 @@ If you select the option, then you need to set values for the option.
 
 ![Variants 2](create_variable_cart_variants_2.png)
 
-
+In the image, as you can see, you have added the option color. Now, save the configuration by clicking ONLY the green coloured button 'Save'. DO NOT press any other button.
 
 
