@@ -82,7 +82,11 @@ Once the variants are generated, you can edit the variants and add necessary det
 
 Having completed variants tab, now move on to filtes tab.
 
+#### Filters
 
+Here, you can set the filters to narrow product search. When you set filter value as 'Mens', all mens T-Shirts will be displayed. Likewise, women and kids. See the illustration below:
+
+![Filters](create_variable_cart_variants_filters.png)
 
 
 
