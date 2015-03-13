@@ -14,6 +14,17 @@ As given in the above illustration, click in the top menu or in the left pane of
 
 ![Create a Configurable Product](conf_create_cart.png)
 
-Enter all the details and necessary selections to create a new product and save it in the cart tab. Your product will be created and the screen will look like this.
+* Enter the name for your product. 
+* Since you are creating article, you need to tell that the article be treated as product. So, select 'Yes'. 
+* Select the type of the product, i.e., 'Configurable'.
+* Now, click the 'Save and Continue' button.
+
+Your product is successfully created and a message will be displayed like this.
 
 ![Configurable Created](conf_create_success.png)
+
+#### General
+Now you need to configure your product with necessary details. Begin with general tab.
+
+
+
