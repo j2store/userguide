@@ -76,7 +76,7 @@ Once the variants are generated, you can edit the variants and add necessary det
 
 ![Edit Variants](editing_variants.png)
 
-
+Having completed variants tab, now move on to filtes tab.
 
 
 
