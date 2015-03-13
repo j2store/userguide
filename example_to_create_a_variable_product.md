@@ -23,7 +23,9 @@ Your product is successfully created and a message will be displayed like this.
 
 ![Create Variable 2](create_variable_cart_2.png)
 
+Now you need to configure your product with necessary details. Begin with general tab.
 
+![General](create_variable_cart_general.png)
 
 
 
