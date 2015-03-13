@@ -25,3 +25,16 @@ Your product is successfully created and a message will be displayed like this.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
