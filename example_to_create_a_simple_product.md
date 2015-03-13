@@ -1,4 +1,4 @@
-# Example to create a simple product
+# Example to Create a Simple Product
 
 **J2Store** implements an innovative concept in creating products. It uses the Joomla articles as products. So to create a product is to create an article.
 
