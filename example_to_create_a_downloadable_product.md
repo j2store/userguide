@@ -79,7 +79,7 @@ Now, unlike other products, you donot have options and shipping tabs for a downl
 
 The tab will look like this:
 
-
+![Files](down_files.png)
 
 
 
