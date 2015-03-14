@@ -14,6 +14,8 @@ As given in the above illustration, click in the top menu or in the left pane of
 
 ![Create a Configurable Product](conf_create_cart.png)
 
+A configurable product is the one that can be configured by the customer who intends to purchase the product. A suitable example is, Pizza. This basic pizza is displayed as a configurable product, and the user is allowed to add toppings over the basic product. The price of the product will be changing according to the toppings added by the customer. Follow the steps to create a configurable product.
+
 * Enter the name for your product. 
 * Since you are creating article, you need to tell that the article be treated as product. So, select 'Yes'. 
 * Select the type of the product, i.e., 'Configurable'.
@@ -28,6 +30,13 @@ Now you need to configure your product with necessary details. Begin with genera
 
 See the image below:
 
-![](conf_create_general.png)
+![General](conf_create_general.png)
+
+Enter the details as required by the fields in the tab, like, SKU, UPC/EAN, brand, vendor, tax profile and the caption for the cart button. Once you enter them now navigate to the next tab, pricing.
+
+#### Pricing
+In Pricing you can set the price for your product. You have the option to set up advanced prices, like discount offers, as shown in the following images.
+
+![Pricing](conf_create_pricing.png)
 
 
