@@ -75,7 +75,9 @@ When you click on the 'select an image' button, you will see a pop-up window, wh
 
 ![Select Images](conf_create_image_select.png)
 
+#### Shipping
 
+Move on to shipping tab. Here you set up the shipping configuration for the product.
 
 
 
