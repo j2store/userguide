@@ -124,5 +124,11 @@ Also, you can add some other products to convince the customer to buy theses pro
 
 For more detailed explanation, refer to the **Relations** section of the **Configurable Product**.
 
+#### Apps
 
+In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
+
+![Apps](conf_create_apps.png)
+
+Now, lets have a look on how your product is viewed in your online store. Check the image below:
 
