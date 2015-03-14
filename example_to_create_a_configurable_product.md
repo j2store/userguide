@@ -91,7 +91,11 @@ In this tab, you empower the customer to configure the product. See how it is...
 
 ![Options 1](conf_create_options_tab.png)
 
-When you type the characters, the available options will be listed and you can select one from the list. Now, click only the green colored 'Save' button to get this options added and a link will appear near the options like shown below.
+When you type the characters, the available options will be listed and you can select one from the list. The options are selected and addet to the tab, as shown in the image below.
+
+![Options](conf_create_options.png)
+
+Now, click only the green colored 'Save' button to get this options added and a link will appear near the options like shown below.
 
 ![Options 2](conf_create_options_set.png)
 
