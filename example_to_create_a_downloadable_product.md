@@ -90,3 +90,26 @@ And select the file and click the create button, and you will get the product li
 
 ![Set Files 2](down_files_set_2.png)
 
+#### Filters
+The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'music', the search will display only music files.
+
+See the image below:
+
+![Filters](down_filters.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
