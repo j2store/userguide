@@ -45,6 +45,12 @@ In Pricing you can set the price for your product. You have the option to set up
 
 In the above image you set up the regular price for the E-Book. Click the set prices button to set advanced/special prices. It will pop-up a window to set the special prices, like this.
 
+![Set Price 1](down_add_price_1.png)
+
+It will be created and saved like this.
+
+![Set Price 2](down_add_price_2.png)
+
 
 
 
