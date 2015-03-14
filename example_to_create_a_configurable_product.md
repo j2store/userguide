@@ -95,4 +95,6 @@ When you type the characters, the available options will be listed and you can s
 
 ![Options 2](conf_create_options_set.png)
 
+Click on the link now to set values for the options.
+
 
