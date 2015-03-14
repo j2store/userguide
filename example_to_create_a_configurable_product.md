@@ -77,7 +77,11 @@ When you click on the 'select an image' button, you will see a pop-up window, wh
 
 #### Shipping
 
-Move on to shipping tab. Here you set up the shipping configuration for the product.
+Move on to shipping tab. Here you set up the shipping configuration for the product. Enter the dimensions, a class for dimensions, weight of the product and its class. All in packed condition.
+
+Check the image below.
+
+![Shipping](conf_create_shipping.png)
 
 
 
