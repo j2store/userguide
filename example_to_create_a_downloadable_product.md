@@ -37,9 +37,13 @@ Enter the details as required by the fields in the tab, like, SKU, UPC/EAN, bran
 
 ![General Tab](down_general.png)
 
+#### Pricing
 
+In Pricing you can set the price for your product. You have the option to set up advanced prices, like discount offers, as shown in the following images.
 
+![Pricing](down_pricing.png)
 
+In the above image you set up the regular price for the E-Book. Click the set prices button to set advanced/special prices. It will pop-up a window to set the special prices, like this.
 
 
 
