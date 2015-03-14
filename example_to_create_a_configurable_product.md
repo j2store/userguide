@@ -120,6 +120,9 @@ Refer the image below:
 
 ![Relations](conf_create_relations.png)
 
+Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
+
+For more detailed explanation, refer to the **Relations** section of the **Configurable Product**.
 
 
 
