@@ -73,7 +73,7 @@ Here is how it can be done.
 
 When you click on the 'select an image' button, you will see a pop-up window, where you can select the image for your product.
 
-
+![Select Images](conf_create_image_select.png)
 
 
 
