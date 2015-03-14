@@ -117,7 +117,7 @@ In this tab, you can add third party tools or plugins, that are available, to en
 
 Now, lets have a look on how your product is viewed in your online store. Check the image below:
 
-
+![E-Book cart View](down_product_on_cart.png)
 
 
 
