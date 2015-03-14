@@ -59,6 +59,7 @@
            * [Files](down_files.md)
            * [Filters](down_filters.md)
            * [Relations](down_relations.md)
+           * [Example to Create a Downloadable Product](example_to_create_a_downloadable_product.md)
    * [Options](options.md)
        * [Option Values](option_values.md)
    * [Vendors](vendors.md)
