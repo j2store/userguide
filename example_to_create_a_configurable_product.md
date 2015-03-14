@@ -26,5 +26,8 @@ Your product is successfully created and a message will be displayed like this.
 #### General
 Now you need to configure your product with necessary details. Begin with general tab.
 
+See the image below:
+
+![](conf_create_general.png)
 
 
