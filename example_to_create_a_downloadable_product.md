@@ -29,5 +29,7 @@ Add a description for the product, as illustrated below.
 
 ![Add Description](down_create_content.png)
 
+The Configuration process follows:
+
 
 
