@@ -95,10 +95,13 @@ When you type the characters, the available options will be listed and you can s
 
 ![Options](conf_create_options.png)
 
-Now, click only the green colored 'Save' button to get this options added and a link will appear near the options like shown below.
+Now, click only the green colored 'Save' button in the top left corner to get this options saved and a link will appear near the options as shown below.
 
 ![Options 2](conf_create_options_set.png)
 
 Click on the link now to set values for the options.
 
+![Veg Topping](conf_create_option_set_veg.png)
+
+![Non Veg Topping](conf_create_options_set_nonveg.png)
 
