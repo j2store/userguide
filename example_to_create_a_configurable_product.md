@@ -83,6 +83,12 @@ Check the image below.
 
 ![Shipping](conf_create_shipping.png)
 
+Next is options tab.
 
+#### Options
+
+In this tab, you empower the customer to configure the product. See how it is...
+
+![Options 1](conf_create_options_tab.png)
 
 
