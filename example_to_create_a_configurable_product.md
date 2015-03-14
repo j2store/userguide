@@ -63,9 +63,13 @@ Check the image below:
 
 ![Inventory](conf_create_inventory.png)
 
+#### Images
 
+Now, add relevant images for your product display in the cart. 
 
+Here is how it can be done.
 
+![Images](conf_create_images.png)
 
 
 
