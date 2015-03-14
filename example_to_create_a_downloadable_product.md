@@ -67,6 +67,8 @@ When you select the images tab, you will get a screen like this.
 
 ![Images](down_images.png)
 
+Click on the select an image button. You will get a pop-up window, where you can select suitable image for your ebook, as shown below:
+
 
 
 
