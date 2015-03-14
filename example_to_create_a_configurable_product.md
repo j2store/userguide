@@ -71,6 +71,8 @@ Here is how it can be done.
 
 ![Images](conf_create_images.png)
 
+When you click on the 'select an image' button, you will see a pop-up window, where you can select the image for your product.
+
 
 
 
