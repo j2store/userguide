@@ -15,3 +15,5 @@ As given in the above illustration, click in the top menu or in the left pane of
 ![Create Downloadable Product](down_create_cart.png)
 
 Add a description for the product, as illustrated below.
+
+![Add Description](down_create_content.png)
