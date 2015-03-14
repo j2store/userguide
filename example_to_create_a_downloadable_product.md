@@ -71,7 +71,9 @@ Click on the select an image button. You will get a pop-up window, where you can
 
 ![Select an Image](down_image_select.png)
 
+Once you finish the selection, your tab will be like this.
 
+![Images Selected](down_images_selected.png)
 
 
 
