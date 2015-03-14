@@ -42,3 +42,5 @@ In Pricing you can set the price for your product. You have the option to set up
 In the above image you set up the regular price for the basic pizza. Click the set prices button to set advanced/special prices. It will pop-up a window to set the special prices.
 
 Check the image below:
+
+![Set Price 1](conf_create_set_price.png)
