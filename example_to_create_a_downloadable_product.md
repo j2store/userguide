@@ -75,6 +75,7 @@ Once you finish the selection, your tab will be like this.
 
 ![Images Selected](down_images_selected.png)
 
+Now, unlike other products, you donot have options and shipping tabs for a downloadable product. But there is a unique tab, **Files** is present here. Configure the tab.
 
 
 
