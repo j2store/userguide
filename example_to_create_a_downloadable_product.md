@@ -31,5 +31,25 @@ Add a description for the product, as illustrated below.
 
 The Configuration process follows:
 
+#### General
+
+Enter the details as required by the fields in the tab, like, SKU, UPC/EAN, brand, vendor, tax profile and the caption for the cart button. Once you enter them, you can navigate to the next tab, pricing.
+
+![General Tab](down_general.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
