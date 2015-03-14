@@ -25,6 +25,10 @@ Your product is successfully created and a message will be displayed like this.
 
 ![Configurable Created](conf_create_success.png)
 
+You can enter the description of your product as shown below:
+
+![Add Content](conf_add_content.png)
+
 #### General
 Now you need to configure your product with necessary details. Begin with general tab.
 
