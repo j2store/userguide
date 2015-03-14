@@ -81,7 +81,9 @@ The tab will look like this:
 
 ![Files](down_files.png)
 
+When you click the set files button, you will get a pop-window to select the file to be downloaded. See the picture.
 
+![Set Files 1](down_files_set_1.png)
 
 
 
