@@ -51,8 +51,13 @@ If the migration is successful, you can will see a success message. If there is 
 ##### 5.1 What should i do if an error occured
 Please post the error at the forum http://j2store.org/forum/j2store-version-3-feedback.html
 
+#### 6. Install Version 3
+Download J2Store Version 3 latest version from the site and install it. 
+Free users can download from http://j2store.org/download.html
 
-#### 6 Post migration
+PRO users can download the PRO version from http://j2store.org/my-downloads.html
+
+#### 7. Post migration
 Once migration is successful, download the latest J2Store Version 3 from our site and install it.
 
 Then Go to Joomla administrator -> Components -> J2Store
@@ -63,9 +68,9 @@ Then Go to Joomla administrator -> Components -> J2Store
 - Check if everything is right and save it.
 
 
-#### 7. Know issues
+#### 8. Know issues
 
-##### 7.1 Quantity box, price are not appearing
+##### 8.1 Quantity box, price are not appearing
 Open a product in the backend and save it. It should fix the issue.
 
 
