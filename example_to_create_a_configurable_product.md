@@ -53,7 +53,15 @@ In the above image, you can set a date range for the special price, otherwise, y
 
 ![Set Price 2](conf_create_set_price_2.png)
 
+#### Inventory
 
+Now, configure the Inventory tab.
+
+In this tab you set the initial stock, whether or not to allow backorders(order placement even if stock is not available), low stock alert quantity, purchase quantity restriction for any customer etc. 
+
+Check the image below:
+
+![Inventory](conf_create_inventory.png)
 
 
 
