@@ -47,11 +47,19 @@ In the above image you set up the regular price for the E-Book. Click the set pr
 
 ![Set Price 1](down_add_price_1.png)
 
-It will be created and saved like this.
+In the above image, you can set a date range for the special price, otherwise, you can leave it empty for the special price to be applied always. For example, if a customer buys 2 or more copies of the E-Book, you can offer a discount in price, throughout the year. Now, you have entered the values, and click the blue 'Create' button and you will get the special price listed below, as shown in the image.
 
 ![Set Price 2](down_add_price_2.png)
 
+#### Inventory
 
+Now, configure the Inventory tab.
+
+In this tab you set the initial stock, whether or not to allow backorders(order placement even if stock is not available), low stock alert quantity, purchase quantity restriction for any customer etc. 
+
+Consider the below image:
+
+![Inventory](down_inventory.png)
 
 
 
