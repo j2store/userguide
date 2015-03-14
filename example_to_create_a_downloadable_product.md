@@ -61,7 +61,11 @@ Consider the below image:
 
 ![Inventory](down_inventory.png)
 
+#### Images
 
+When you select the images tab, you will get a screen like this.
+
+![Images](down_images.png)
 
 
 
