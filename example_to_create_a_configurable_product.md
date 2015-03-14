@@ -105,3 +105,21 @@ Click on the link now to set values for the options.
 
 ![Non Veg Topping](conf_create_options_set_nonveg.png)
 
+Now, go to filtes tab. 
+
+#### Filters
+The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'Veg', the search will display only veg pizzas.
+
+![Filters](conf_create_filters.png)
+
+#### Relations
+
+The next tab is Relations. Here, you can add products of higher value than the one being viewed by the customer and recommend the customer to buy that product, citing its advantages and additional features. This is an upsell.
+
+Refer the image below:
+
+![Relations](conf_create_relations.png)
+
+
+
+
