@@ -34,3 +34,5 @@ All the plugins come with a geozone filter setting.
 If you choose a geozone, then this shipping plugin will apply only to customers coming from the countries/zones added under the chosen geozone.
 
 During testing, make sure that this parameter is set to All geozones.
+
+![](shipping_geozone_setting.png)
