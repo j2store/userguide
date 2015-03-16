@@ -22,3 +22,15 @@ IMPORTANT for those using UPS: Only KG (Kilogram) and LB (Pound) are supported b
 Also, make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
 
 ![Weight and Dimensions](weight_and_dimensions.png)
+
+#### API credentials
+
+All shipping carriers have a web service and provide credentials to access their Rate API. Some of the carriers like USPS offer TEST accounts as well.  Make sure you enter these credentials correctly in the Plugin. Some of the carriers provide Customer number ( like Canada Post ) and a few other parameters as well. Refer the documentation PDF that come with each plugin for more information.
+
+#### Geozone
+
+All the plugin come with a geozone filter setting.
+
+If you choose a geozone, then this shipping plugin will apply to only to customers coming from the countries/zones added under it.
+
+During testing, make sure that this param is set All geozones
