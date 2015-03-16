@@ -39,12 +39,14 @@ $ 250.00 (This is the advanced price)
 
 * ***Product Option Price***
 
-    If this option is set to **'Show'**, a modifier '**+/-**' will be shown in the view, to modify the product price.
+    If this option is set to **'Show'**, product option price will displayed along with the option name.
 
 * ***Product Option Price Prefix***
 
-    Setting this option to **'Show'**, will show the prefix for price modifier.
-    
+This option will work when the previous option is enabled.
+
+Setting this option to **'Show'**, will show the prefix for price modifier. i.e., a modifier '+/-' will be shown in the view, to modify the product price.
+ 
 * ***Show Image for Product Options***
     
     This will be applicable for radio button option only. Setting this will show an image near the options in products page.
