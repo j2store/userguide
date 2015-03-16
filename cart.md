@@ -8,7 +8,7 @@ This tab is dealing with the cart options.
     
     1. ***Default Position***
     
-        If this option is selected, the add to cart button will be shown at the bottom of the page.
+        If this option is selected, the add to cart button will be shown at the bottom of the product.
         
     2. ***Within Article using Tag***
     
