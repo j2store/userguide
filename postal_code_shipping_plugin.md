@@ -123,7 +123,7 @@ Cost Brackets:
 - Weight Start: 0.000  To : 0 .000,
 - Qty From: 0 To:0
 
-Note: You could also enter AB0000 and CX0000 for the "From" postcodes.
+>Note: You could also enter AB0000 and CX0000 for the "From" postcodes.
 
 #### Debug
 If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. 
