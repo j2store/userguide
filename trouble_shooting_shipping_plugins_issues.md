@@ -45,3 +45,6 @@ The log is stored in the /cache folder of your Joomla Root. You can use your Hos
 
 >VERY IMPORTANT: Debug mode SHOULD NOT be enabled in LIVE / PRODUCTION sites.
 
+![](debug_mode.png)
+
+Still not working, please create a private ticket or email us the log file. We will help you troubleshoot the plugin.
