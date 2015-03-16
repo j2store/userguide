@@ -35,4 +35,4 @@ If you choose a geozone, then this shipping plugin will apply only to customers 
 
 During testing, make sure that this parameter is set to All geozones.
 
-![](shipping_geozone_setting.png)
+![Geozone Setting](shipping_geozone_setting.png)
