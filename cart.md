@@ -51,7 +51,7 @@ This tab is dealing with the cart options.
 
 * ***Enable Shipping address fields***
 
-    If the product has to be shipped to an address different from the customer's original address, it can be added by selecting this option to **Yes**.
+    If the product has to be shipped to an address different from the customer's billing address, it can be added by selecting this option to **Yes**.
 
 * ***Show login form during checkout***
 
