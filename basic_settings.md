@@ -4,7 +4,7 @@ Some basic settings need to be done before you proceed. This will be handled by 
 
  * ***Enable J2Store CSS***
  
-    Template style can be customized by adding the component's ***j2store.css*** file to the template's css folder. Enabling this option will search for the template's css folder for **_j2store.css_** file. It will be included if it exists in the folder or else the component's default **j2store.css** file will be loaded.
+    If this option is enabled, J2store loads the **j2store.css** file for customizing the template style. First, this will look in to the template CSS file. If it is not included, then J2Store loads it own **J2Store.css** file.
 
 * ***Load jQuery***
 ***(Only for joomla 2.5)***
