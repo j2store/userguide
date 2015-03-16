@@ -29,8 +29,8 @@ All shipping carriers have a web service and provide credentials to access their
 
 #### Geozone
 
-All the plugin come with a geozone filter setting.
+All the plugins come with a geozone filter setting.
 
-If you choose a geozone, then this shipping plugin will apply to only to customers coming from the countries/zones added under it.
+If you choose a geozone, then this shipping plugin will apply only to customers coming from the countries/zones added under the chosen geozone.
 
-During testing, make sure that this param is set All geozones
+During testing, make sure that this parameter is set to All geozones.
