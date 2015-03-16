@@ -47,7 +47,7 @@ This tab is dealing with the cart options.
 
 * ***Show Tax for each cart item***
 
-    If **Show** is selected in this option, tax levied for each cart item will be shown separately near each item. 
+    If this option is set to **Yes**, tax will be levied for each item in the cart.
 
 * ***Enable Shipping address fields***
 
