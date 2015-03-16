@@ -54,7 +54,7 @@ Valid Units are: Kilogram (KGS), Pound (LBS).
 Product A – Weight is 5 KG , Product B – Weight 7 Pounds.
 
 You have set the Pound as the weight unit in the plugin params.
-Then the Product A weight will be converted to pound, according to the values provided at the Weight Classes section (J2Store admin – set up – weight classes)
+Then the Product A weight will be converted to pound, according to the values provided at the Weight Classes section (J2Store admin –> set up –> weight classes)
 
 #### Show Weight Total
 Set this to yes to show the total weight of the products in the
