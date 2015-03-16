@@ -139,6 +139,7 @@
    * [Shipping Plugins](shipping_plugins.md)
        * [Timed Shipping Plugins](timed_shipping_plugins.md)
        * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
+       * [UPS Shipping Plugin](ups_shipping_plugin.md)
 * [Custom Fields](custom_fields.md)
 * [Tools](tools.md)
 * [Reports](reports.md)
