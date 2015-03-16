@@ -1,6 +1,6 @@
 # Postal Code Shipping Plugin
 
-The plugin integrates a postal code based shipping method for J2Store
+The plugin integrates a postal code based shipping method for J2Store. It will calculate the shipping cost based on the postal code range, weight range and quantity range. You can use all three or just one of them.
 
 ### Requirements 
 * PHP 5.3+ 
@@ -13,8 +13,28 @@ You can install the plugin through the standard Joomla installer.
 
 ### Configuration 
 
-#### Method name
+#### Shipping Method name
 Enter a name for this shipping method. This is what your customers will see at the checkout.
+
+#### Tax Class 
+The value selected will be used in calculating tax rates.
+
+#### Enabled
+The value  selected  yes will enable the shipping plugin while displaying in the checkout.
+
+#### Geo zones
+Choose geozones for which this shipping method is available. Choose at least one.
+
+#### Override Shipping Method
+If you set this to Store address, then the shipping address provided by the customer will be ignored for calculating rates and shipping rates will be calculated based on store address.
+
+#### Min SubTotal
+If you enter a value here, then this method will apply only if the order subtotal is greater than or equal to the value.
+	
+#### Max SubTotal
+The shipping method will apply only if the order subtotal is less than or equal to the value entered here. 
+>Enter -1 to turn off this filter
+
 
 #### Postal codes and rates
 You can enter the postal codes and rate in a comma separated format. **Example**: 95100=10.00, 95101=15.00 i.e., postcode=rate, postcode=rate
