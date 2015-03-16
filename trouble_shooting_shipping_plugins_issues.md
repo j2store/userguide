@@ -36,3 +36,12 @@ If you choose a geozone, then this shipping plugin will apply only to customers 
 During testing, make sure that this parameter is set to All geozones.
 
 ![Geozone Setting](shipping_geozone_setting.png)
+
+#### Debug Mode
+
+In your plugin settings, set the Debug mode to **YES**. This will allow the plugin to log the responses sent by the APIs of the shipping carriers.
+
+The log is stored in the /cache folder of your Joomla Root. You can use your Hosting CPanel's file manager or an FTP program like FileZilla to access the log file. The log should give you a lot of information.
+
+>VERY IMPORTANT: Debug mode SHOULD NOT be enabled in LIVE / PRODUCTION sites.
+
