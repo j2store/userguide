@@ -26,7 +26,7 @@ Some basic settings need to be done before you proceed. This will be handled by 
 
 * ***Who can see 'add to cart'***
  
-    This is an option for the user to add his/her product of choice to the cart to proceed for billing. This can be set to be viewed by **'anyone'** or for **'registered users only'**.
+    This is an option for the user to add his/her product of choice to the cart to proceed for billing. This can be set to be viewed by **'everyone'** or for **'registered users only'**.
 
 * ***Date Format***
 
