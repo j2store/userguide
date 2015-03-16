@@ -43,7 +43,7 @@ This tab is dealing with the cart options.
 
 * ***Product Thumbnail***
 
-    Enabling this by choosing **Show** will display the thumbnail image of the product in the cart view.
+    Enabling this option by choosing **Show** will display the thumbnail image of the product in the cart view.
 
 * ***Show Tax for each cart item***
 
