@@ -21,4 +21,4 @@ IMPORTANT for those using UPS: Only KG (Kilogram) and LB (Pound) are supported b
 
 Also, make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
 
-![](weight_and_dimensions.png)
+![Weight and Dimensions](weight_and_dimensions.png)
