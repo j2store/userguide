@@ -40,7 +40,22 @@ The image below illustrates how a timed shipping method plugin will look like.
 
 ![Timed Shipping Method](timed_shipping_methods.png)
 
+### Set Time Slot
+#### Select Days
+Choose a day
 
+#### Time From
+Set start time in 24 hour format . Eg:- 13:30
+
+#### Time To
+Set End time in 24 hour format . Eg:- 18:30
+
+#### Shipping Cost
+Enter shipping cost.
+
+#### SUPPORT
+Still have questions? You can reach us in support@j2store.org
+Thank you for using our plugin.
 
 
 
