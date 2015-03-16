@@ -6,7 +6,7 @@ This is a basic inventory management system offered by j2store.
 
 * ***Enable Inventory***
 
-    Set this option to **'Yes'** to enable inventory management. Provide the available quantity when a product is added and it will be kept in track whenever an order is processed. Upon successful completion of an order, the order quantity will be deducted from the available quantity and the result will be the new available quantity and when available quantity becomes zero, the add to cart button will be disabled. Also, the user cannot enter a quantity greater than available quantity.
+    Set this option to **'Yes'** to enable inventory management. Provide the available quantity when a product is added and it will be kept in track whenever an order is processed. Upon successful completion of an order, the product quantity will be deducted from the available quantity and the result will be the new available quantity and when available quantity for a particular product becomes zero, the add to cart button will be disabled. Also, the user cannot enter a quantity greater than available quantity.
     
 * ***Cancel New/Pending orders to release stock***
 
