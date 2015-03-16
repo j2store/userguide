@@ -25,6 +25,11 @@ This tab contains the options that are related to products.
 * ***Show Base/Regular Price***
 
     If advanced pricing option is used, i.e., a discount is offered on base price, it can be displayed using this option by setting it to **'Yes'**. It will show the base price in **~~strikedout~~** format.
+    
+Example:
+In J2Store we can set the base price for the product and we can also offer some discount on base price. This discount on baseprice is called advanced price. If this option is **Enabled**(set to yes), it will show the base price in strikedout format and display the advanced price.
+Base Price : ~~300.00~~
+Advanced Price : 250.00
 
 * ***Product Option Price***
 
