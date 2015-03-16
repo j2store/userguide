@@ -17,7 +17,7 @@ You can install the plugin through the standard Joomla installer.
 Enter a name for this shipping method. This is what your customers will see at the checkout.
 
 #### Postal codes and rates
-You can enter the postal codes and rate in a comma separated format. **Example**: 95100=10.00,95101=15.00 i.e., postcode=rate,postcode=rate
+You can enter the postal codes and rate in a comma separated format. **Example**: 95100=10.00, 95101=15.00 i.e., postcode=rate, postcode=rate
 
 Geozone
 You can select a geozone and restrict the availability of this shipping method 
