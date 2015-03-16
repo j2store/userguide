@@ -5,7 +5,7 @@ This plugin integrates UPS Shipping Rate API with J2Store.
 ### Requirements
 * PHP 5.3+
 * Joomla 2.5 / 3.x +
-* J2Store 2.6.7 +
+* J2Store 2.6.8 +
 
 ### Installation
 You can install the plugin through the standard Joomla installer.
