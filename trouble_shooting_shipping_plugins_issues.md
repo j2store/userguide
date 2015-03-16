@@ -9,3 +9,4 @@ You have installed the shipping plugin but it doesn't show up during the checkou
 
 Well, this might sound trivial. But some of us often forget to turn on the ***Enable Shipping Switch*** while creating the product. Make sure that Enable shipping is set to YES.
 
+![Enable Shi](enable_shipping.png)
