@@ -20,3 +20,5 @@ You should select the weight and the length measurement unit from the drop down 
 IMPORTANT for those using UPS: Only KG (Kilogram) and LB (Pound) are supported by UPS as the weight measurement units.  Similarly, only IN (Inch) and CM (Centimetres) are supported as length measurement units. There is a lot more to be taken care of.  If you use Pounds (Lbs) as the weight measurement, then the length measurement should be Inch (In). Similarly, if Kgs (Kilograms) is used, then Centimetre (cm) should be the measurement.
 
 Also, make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
+
+![](weight_and_dimensions.png)
