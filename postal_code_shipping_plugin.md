@@ -33,12 +33,20 @@ If you enter a value here, then this method will apply only if the order subtota
 	
 #### Max SubTotal
 The shipping method will apply only if the order subtotal is less than or equal to the value entered here. 
+
 >Enter -1 to turn off this filter
 
 
-#### Postal codes and rates
-You can enter the postal codes and rate in a comma separated format. **Example**: 95100=10.00, 95101=15.00 i.e., postcode=rate, postcode=rate
+#### Postal Code Format
 
+Choose the postal code format. Most of the countries follow the US based zip codes.
+**Example**: 95100 to 95300
+
+Quite a few commonwealth countries including **UK**, follow a different post code system. 
+
+If you are not sure about post code, do not select any format here.
+
+After saving the plugin, click Set Rates link to set the rates.
 #### Geozone
 You can select a geozone and restrict the availability of this shipping method to the countries/zones in that geozone. Leave empty / un-selected for making this shipping method available to customers from all regions. 
 
