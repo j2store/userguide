@@ -11,16 +11,16 @@ This plugin integrates UPS Shipping Rate API with J2Store.
 You can install the plugin through the standard Joomla installer.
 
 ### Configuration
-Prior to configuring the plugin, you should have an active account with the UPS and received API keys. Contact UPS to register and get API keys
+Prior to configuring the plugin, you should have an active account with the UPS and received API keys. Contact UPS to register and get API keys.
 
 #### Access Key
 Enter the access key provided by the UPS.
 
 #### Username
-Your UPS username
+Your UPS username.
 
 #### Password
-Your UPS password
+Your UPS password.
 
 #### Shipper Number
 This is actually the shipping account number provided by the UPS.
@@ -35,7 +35,7 @@ Choose the shipping services that you would like to provide to the customers.
 destination at the checkout.
 
 #### Pickup Type
-Choose your Pickup type
+Choose your Pickup type.
 
 #### Packaging
 Choose your packaging option. Default: Package
@@ -43,7 +43,7 @@ Choose your packaging option. Default: Package
 #### Customer classification
 Wholesale - If you are billing to a UPS account and have a
 daily UPS pickup, Occasional - If you do not have a UPS account or you are billing to a UPS account but do not have a daily pickup, Retail - If you are shipping from a retail outlet (only
-used when origin is US)
+used when origin is US).
 
 #### Weight Unit
 Valid Units are: Kilogram (KGS), Pound (LBS).
@@ -54,11 +54,11 @@ Valid Units are: Kilogram (KGS), Pound (LBS).
 Product A – Weight is 5 KG , Product B – Weight 7 Pounds.
 
 You have set the Pound as the weight unit in the plugin params.
-Then the Product A weight will be converted to pound, according to the values provided at the Weight Classes section (J2Store admin –> set up –> weight classes)
+Then the Product A weight will be converted to pound, according to the values provided at the Weight Classes section (J2Store admin –> set up –> weight classes).
 
 #### Show Weight Total
 Set this to yes to show the total weight of the products in the
-order to the customer during the checkout. The weight will appear next to the shipping method name
+order to the customer during the checkout. The weight will appear next to the shipping method name.
 
 #### Length Unit
 The length unit.
