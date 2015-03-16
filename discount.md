@@ -6,7 +6,7 @@ This is for discounts that are offered to customers.
 
 * ***Enable Coupons***
 
-    If discount is offered based on coupons, this option can be set to **Yes**. Otherwise, leave it to **No**.
+    By default this option is set to **No**. If the product has some discounts based on the coupons, then set this option to **Yes**.
     
 * ***Enable Gift Vouchers***
 
