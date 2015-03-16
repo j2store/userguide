@@ -31,9 +31,9 @@ In J2Store we can set the base price for the product and we can also offer some 
 
 It will be displayed as below:
 
-Base Price : ~~300.00~~
+~~$ 300.00~~ (This is the base price)
 
-Advanced Price : 250.00
+$ 250.00 (This is the advanced price)
 
 * ***Product Option Price***
 
