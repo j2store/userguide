@@ -19,6 +19,38 @@ The Timed Shipping Plugin for J2Store allows you to charge shipping based on day
 9. Close Popup.
 10. Click "Save".
 
+### Parameters
+#### Shipping Method Name
+This will be displayed to the customer (Eg: Parcel Post).
+
+#### Tax Profile
+If you DO NOT want to charge tax on the shipping/postage cost, then dont select anything here. If you want to charge tax, then select a tax profile.
+
+#### Extra Cost
+It will be added to the shipping cost. Set 0 if you dont want to charge anything extra.
+
+#### Time Slots
+You can add, edit time slots by clicking the link.
+
+Check the image below to understand how to set to time slots.
+
+![Set Time Slot](set_time_slot.png)
+
+The image below illustrates how a timed shipping method plugin will look like.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
