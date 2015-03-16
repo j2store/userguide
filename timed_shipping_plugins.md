@@ -53,7 +53,7 @@ Set End time in 24 hour format . Eg:- 18:30
 #### Shipping Cost
 Enter shipping cost.
 
-#### SUPPORT
+#### Support
 Still have questions? You can reach us in support@j2store.org
 Thank you for using our plugin.
 
