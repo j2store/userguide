@@ -38,7 +38,7 @@ Check the image below to understand how to set to time slots.
 
 The image below illustrates how a timed shipping method plugin will look like.
 
-
+![Timed Shipping Method](timed_shipping_methods.png)
 
 
 
