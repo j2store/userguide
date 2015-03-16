@@ -46,6 +46,8 @@ $ 250.00 (This is the advanced price)
 This option will work when the previous option is enabled.
 
 Setting this option to **'Show'**, will show the prefix for price modifier. i.e., a modifier '+/-' will be shown in the view, to modify the product price.
+
+> Note: The options, ***Product Option Price*** and ***Product Option Price Prefix***, are applicable to **Simple** and **Configurable** product types only and not for **Variable** and **Downloadable** product types.
  
 * ***Show Image for Product Options***
     
