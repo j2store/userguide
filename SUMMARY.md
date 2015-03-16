@@ -136,6 +136,7 @@
        * [Flat rate per item](flat_rate_per_item.md)
        * [Weight based per item](weight_based_per_item.md)
        * [Price based per item](price_based_per_item.md)
+   * Shipping Plugins
 * [Custom Fields](custom_fields.md)
 * [Tools](tools.md)
 * [Reports](reports.md)
