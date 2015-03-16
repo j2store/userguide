@@ -13,7 +13,11 @@ Some basic settings need to be done before you proceed. This will be handled by 
     
 * ***Load jQuery UI***
     
-    This option is same as the previous one. Here, there are four options available for selection. Either it can be avoided from loading, or it can be selected for frontend or backend or for both.
+    This option is same as the previous one. Here, there are four options available for selection. 
+1. **No** -> Do not load jQuery UI
+2. **Only Frontend** -> Load jQuery UI for frontend only
+3. **Only Backend** -> Load jQuery UI for backend only
+4. **Both frontend and backend** -> Load jQuery UI for frontend and backend
 
 * ***Load Bootstrap***
  ***(Only for joomla 2.5)***
