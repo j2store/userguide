@@ -77,7 +77,33 @@ Go to J2Store Cart tab -> General tab
 **IMPORTANT** If you do not choose the tax profile, then tax will not apply in the store front.
 
 
+### Step 6 Selling in multiple countries with multiple tax rates
 
+If you are selling your products to other countries in Europe, then there are three scenarios
+
+* Charge the same VAT rate for customers from certain countries 
+
+    In this case, you will just have to open the Base Geozone and add the countries / zones to which you want to charge 19%. Then all customers from all those countries will be charged with the 19% tax rate.
+    
+* Charge different VAT rate for customers from certain countries
+
+    Let us say, you want to charge 12 % tax for customers from Switzerland and France
+    
+    1. Create a new Geozone and include Switzerland and France
+    
+    2. Create a new tax rate and set the tax percent to 12 %
+    
+    3. Go to Localisation -> Tax Profiles -> Open Base tax profiles
+    Under Tax rules, Click add
+    Choose your New tax rate and associate it to the Shipping address.
+    Save.
+    
+    Now customer from Switzerland and France will be charged with 12 % of tax instead of your base rate of 19 %
+    
+    
+    
+
+    
 
 
 
