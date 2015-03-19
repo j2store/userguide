@@ -122,11 +122,11 @@ The tab will look like this:
 
 When you click the set files button, you will get a pop-window to select the file to be downloaded. See the picture.
 
-![Set Files 1](down_files_set_1.png)
+![set files 1](down_set_files_1.png)
 
 And select the file and click the create button, and you will get the product listed below as shown in the picture.
 
-![Set Files 2](down_files_set_2.png)
+![set files 2](down_set_files_2.png)
 
 #### Filters
 The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'music', the search will display only music files.
