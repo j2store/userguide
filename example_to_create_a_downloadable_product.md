@@ -128,6 +128,10 @@ And select the file and click the create button, and you will get the product li
 
 ![set files 2](down_set_files_2.png)
 
+Set the download limit and expiry of the download, in days, as shown in the picture below:
+
+![Files](down_files_1.png)
+
 #### Filters
 The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'music', the search will display only music files.
 
