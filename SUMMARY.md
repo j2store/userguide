@@ -82,7 +82,7 @@
    * [Lengths](lengths.md)
    * [Weights](weights.md)
    * [Order Statuses](order_statuses.md)
-* Tax Configuration
+* [Tax Configuration](tax_configuration.md)
 * [Design](design.md)
    * [Email Template](email_template.md)
    * [Invoice Template](invoice_template.md)
