@@ -2,34 +2,35 @@
 
 This is an example setting for stores in United States. This also applies to many other countries that follow a US style of tax system. For detailed information on tax, please consult an expert.
 
-This guide will walk you through the configuration of tax 
+
+**Note:** Current US law requires you to collect taxes where you have an interest/ongoing concern — that is, where you have physical stores, distribution centers, headquarters, and so on. For many online stores this is only one location. However if you have stores that operate in many states or countries, or if you have revenues exceeding approximately $2M per year, we recommend that you use a third-party tax provider because there can be a considerable number of tax rules and tax zones to manage.
 
 **Important:** No guarantee is offered with respect to any of the information given here. Please contact an expert before you take any decisions about tax matters
 
-NOTES:
+**NOTES:**
 
 The example assumes you have a store in Texas and you charge 8.5% tax on the goods sold to customers in Texas. All customers coming from other states are NOT taxed
 
 
-#### Step 1 : Create a geozone for base rates (home country tax)
+#### Step 1 : Create a geozone for Texas
 
 Go to Localisation -> Geozones -> New
 
-**Geozone Name:** Base rates
+**Geozone Name:** Texas Zone
 
-**Country :** Germany
+**Country :** United States
 
-**Zones :** All
+**Zones :** Texas
 
 #### Step 2: Create a tax rate
 
 Go to Localisation -> Tax Rates -> New
 
-**Name :**  VAT
+**Name :**  Sales Tax (you can give any name here)
 
-**Tax Percent :** 19
+**Tax Percent :** 8.25
 
-**Geozone :** Base rates
+**Geozone :** Texas Zone
 
 **Status :** Published
 
@@ -37,29 +38,27 @@ Go to Localisation -> Tax Rates -> New
 
 Go to Localisation -> Tax Profiles -> New
 
-**Name:** Base Tax Profile
+**Name:** Default Tax Class
 **Enabled:** Yes
 
 **Tax rules**
 
 Click Add 
 
-**Rate:** VAT
-**Associated Address: ** Shipping
-
-![taxprofile](Selection_033.png)
+**Rate:** Sales Tax
+**Associated Address: ** Billing
 
 
 Step 4: Configure tax settings
 
 Go to Set up -> Configuration -> Tax
 
-**Prices Entered with Tax:** Yes, I will enter prices with tax
+**Prices Entered with Tax:** No, i will enter prices EXCLUSIVE of tax
 **Calculate tax based on:** Shipping address
 **Default Customer address:** Store address
-**Display prices in product pages:** Including tax
-**Display prices in cart / checkout :** Including tax
-**Apply discounts :** After tax
+**Display prices in product pages:** Excluding tax
+**Display prices in cart / checkout :** Excluding tax
+**Apply discounts :** Before tax
 
 Save.
 
@@ -72,40 +71,6 @@ Here let us just see how to choose the tax profile
 
 Go to J2Store Cart tab -> General tab 
 
-**Tax Profile :** Base tax profile
-![](Selection_035.png)
+**Tax Profile :** Default tax class
+![](Selection_036.png)
 **IMPORTANT** If you do not choose the tax profile, then tax will not apply in the store front.
-
-
-### Step 6 Selling in multiple countries with multiple tax rates
-
-If you are selling your products to other countries in Europe, then there are three scenarios
-
-* Charge the same VAT rate for customers from certain countries 
-
-    In this case, you will just have to open the Base Geozone and add the countries / zones to which you want to charge 19%. Then all customers from all those countries will be charged with the 19% tax rate.
-    
-* Charge different VAT rate for customers from certain countries
-
-    Let us say, you want to charge 12 % tax for customers from Switzerland and France
-    
-    1. Create a new Geozone and include Switzerland and France
-    
-    2. Create a new tax rate and set the tax percent to 12 %
-    
-    3. Go to Localisation -> Tax Profiles -> Open Base tax profiles
-    Under Tax rules, Click add
-    Choose your New tax rate and associate it to the Shipping address.
-    Save.
-    
-    Now customer from Switzerland and France will be charged with 12 % of tax instead of your base rate of 19 %
-    
-    
-    
-
-    
-
-
-
-
-
