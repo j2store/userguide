@@ -1,2 +1,3 @@
-# Tax configuration for EU
+# Recommended Tax configuration for EU Stores
+
 
