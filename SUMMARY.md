@@ -75,9 +75,9 @@
    * [Countries](countries.md)
    * [Zones](zones.md)
    * [Geozones](geozones.md)
+   * Basic set up
    * [Tax Rate](tax_rate.md)
    * [Tax Profiles](tax_profiles.md)
-       * Basic set up
        * Tax configuration for EU
        * Tax Configuration for US Stores
    * [Lengths](lengths.md)
