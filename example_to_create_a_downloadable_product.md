@@ -96,7 +96,7 @@ Create a file called htaccess.txt in your computer and open it with your favorit
 
     deny from all
 
-Save the file. Now upload it to the folder we just have created in our web root. In our example, it is myfiles
+Save the file. Now upload it to the folder we just have created in our web root. In our example, it is myfiles.
 
 >**IMPORTANT**: Rename the file as ***.htaccess*** 
 
@@ -112,9 +112,9 @@ Check the image below:
 
 ![Set folder to place downloadable Products](down_upload_folder_config.png)
 
-Save the configuration.
+Finally, save the configuration. You have created a folder to upload your digital products like ebook, pdf files, image files etc., set up protection mechanism from unauthorized access and configured the folder in your configuration page.
 
-Configure the tab.
+Now, Configure your **Files** tab in your downloadable product creation.
 
 The tab will look like this:
 
