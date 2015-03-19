@@ -124,13 +124,28 @@ When you click the set files button, you will get a pop-window to select the fil
 
 ![set files 1](down_set_files_1.png)
 
-And select the file and click the create button, and you will get the product listed below as shown in the picture.
+And select the file and click the create button, and you will get the product listed below as shown in the picture. You can add as many files as you can to the folder. When a customer purchases the product, all the files associated with the product will be available for download.
 
 ![set files 2](down_set_files_2.png)
 
 Set the download limit (-1 for unlimited downloads) and expiry of the download, in days, as shown in the picture below:
 
 ![Files](down_files_1.png)
+
+##### Let us create a Downloads Area for the customers
+
+* Go to Joomla admin -> Menus -> YOUR MENU
+* Click New to create a new menu
+* Enter a Name
+* Click Select against the Menu Item Type. You will get a popup
+* Choose J2Store -> Downloads
+* Save
+
+Check the image below.
+
+![my profile](down_my_profile.png)
+
+You just have to tell the customers to visit this menu to get their files after the purchase.
 
 #### Filters
 The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'music', the search will display only music files.
