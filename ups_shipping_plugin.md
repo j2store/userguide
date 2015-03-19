@@ -15,7 +15,7 @@ Prior to configuring the plugin, you should have an active account with the UPS 
 
 Refer the image below:
 
-![](UPS_shipping_image_1.png)
+![UPS Shipping Config 1](UPS_shipping_image_1.png)
 
 #### Access Key
 Enter the access key provided by the UPS.
@@ -40,6 +40,8 @@ destination at the checkout.
 
 #### Pickup Type
 Choose your Pickup type.
+
+![UPS Shipping Config 2](UPS_shipping_image_2.png)
 
 #### Packaging
 Choose your packaging option. Default: Package
