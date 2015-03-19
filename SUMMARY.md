@@ -83,6 +83,7 @@
    * [Weights](weights.md)
    * [Order Statuses](order_statuses.md)
 * [Tax Configuration](tax_configuration.md)
+   * Tax Configuration for Canadian Stores
 * Tax configuration for EU
 * [Design](design.md)
    * [Email Template](email_template.md)
