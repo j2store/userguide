@@ -79,6 +79,7 @@
    * [Tax Profiles](tax_profiles.md)
        * Basic set up
        * Tax configuration for EU
+       * Tax Configuration for US Stores
    * [Lengths](lengths.md)
    * [Weights](weights.md)
    * [Order Statuses](order_statuses.md)
