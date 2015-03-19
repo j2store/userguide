@@ -71,7 +71,7 @@
    * [Coupons](sales_coupons.md)
    * [Promotions](sales_promotions.md)
    * [Vouchers](sales_vouchers.md)
-* Basic set up
+* [Basic set up](basic_set_up.md)
 * [Localization](localisation.md)
    * [Countries](countries.md)
    * [Zones](zones.md)
