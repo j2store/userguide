@@ -104,7 +104,7 @@ All the files uploaded to this folder, are now protected.
 
 ##### Step 3: Point J2Store to use the files in this folder.
 
-Go to Joomla admin -> j2store -> options -> Basic settings
+Go to Joomla admin -> j2store Dashboard -> Set up -> Configuration -> Basic settings
 
 In File attachment path field, enter the name of the folder that contains your files. In our example, it is: **myfiles**.
 
