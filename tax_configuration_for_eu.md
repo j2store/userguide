@@ -50,5 +50,36 @@ Click Add
 ![taxprofile](Selection_033.png)
 
 
+Step 4: Configure tax settings
+
+Go to Set up -> Configuration -> Tax
+
+**Prices Entered with Tax:** Yes, I will enter prices with tax
+**Calculate tax based on:** Shipping address
+**Default Customer address:** Store address
+**Display prices in product pages:** Including tax
+**Display prices in cart / checkout :** Including tax
+**Apply discounts :** After tax
+
+Save.
+
+Step 5: Create a product and choose the tax profile
+
+J2Store uses Joomla articles as products. So go to Article Manager and create a New Article / Product (If you sue any other catalog source like Zoo or Sebold, you should head there). 
+
+Product creation steps are explained under the topic **Products**
+Here let us just see how to choose the tax profile
+
+Go to J2Store Cart tab -> General tab 
+
+Tax Profile : Base tax profile
+
+**IMPORTANT** If you do not choose the tax profile, then tax will not apply in the store front.
+
+
+
+
+
+
 
 
