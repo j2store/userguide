@@ -37,17 +37,18 @@ Go to Localisation -> Tax Rates -> New
 
 Go to Localisation -> Tax Profiles -> New
 
-Name: Base Tax Profile
-Enabled: Yes
+**Name:** Base Tax Profile
+**Enabled:** Yes
 
-Tax rules
+**Tax rules**
 
 Click Add 
 
-Rate: VAT
-Associated Address: Shipping
+**Rate:** VAT
+**Associated Address: ** Shipping
 
 ![taxprofile](Selection_033.png)
+
 
 
 
