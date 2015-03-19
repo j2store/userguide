@@ -1,8 +1,6 @@
 # Recommended Tax configuration for EU Stores
 
-This is an example setting for stores in Europe. For detailed information on tax, please consult an expert.
-
-This guide will walk you through the configuration of tax in J2Store for EU stores.
+This guide will walk you through the configuration of tax in J2Store for EU stores. This is an example configuration for stores in Europe. For detailed information on tax, please consult an expert.
 
 **Important:** No guarantee is offered with respect to any of the information given here. Please contact an expert before you take any decisions about tax matters
 
