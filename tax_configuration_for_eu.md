@@ -25,6 +25,14 @@ Go to Localisation -> Geozones -> New
 
 Go to Localisation -> Tax Rates -> New
 
-**Name :**  
+**Name :**  VAT
+
+**Tax Percent :** 19
+
+**Geozone :** Base rates
+
+**Status :** Published
+
+#### Step 3: 
 
 
