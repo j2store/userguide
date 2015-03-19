@@ -76,7 +76,7 @@ Once you finish the selection, your tab will be like this.
 ![Images Selected](down_images_selected.png)
 
 #### Files
-Now, unlike other products, you donot have options and shipping tabs for a downloadable product. But there is a unique tab, **Files** is present here. You must have a separate folder or directory in your site to place the downloadable products. From that folder, the product will be downloaded, when the buyer fulfills the requirements for the download.
+Unlike other products, you do not have options and shipping tabs for a downloadable product. But there is a unique tab, **Files** is present here. You must have a separate folder or directory in your site to place the downloadable products. From that folder, the product will be downloaded, when the buyer fulfills the requirements for the download.
 
 The following steps will guide you to set up a folder with downloadable product.
 
