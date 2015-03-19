@@ -143,10 +143,17 @@ Set the download limit (0 for unlimited downloads) and expiry of the download, i
 
 Check the image below.
 
-
 ![my profile](down_my_profile.png)
 
 You just have to tell the customers to visit this menu to get their files after the purchase.
+
+When the customer purchases the downloadable product, and finishes the checkout process, the order is completed and the status become 'Confirmed'. If My Profile is clicked, the orders will be listed as shown below:
+
+![My Profile](down_my_profile_front_end.png)
+
+And when 'Downloads' tab is clicked, it will show the download link like this:
+
+![Downloads](down_downloads_front_end.png)
 
 #### Filters
 The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'music', the search will display only music files.
