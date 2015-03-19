@@ -84,6 +84,7 @@
    * [Order Statuses](order_statuses.md)
 * [Tax Configuration](tax_configuration.md)
    * [Tax configuration for EU](tax_configuration_for_eu.md)
+   * Tax Configuration for US Stores
    * [Tax Configuration for Canadian Stores](tax_configuration_for_canadian_stores.md)
 * [Design](design.md)
    * [Email Template](email_template.md)
