@@ -76,7 +76,32 @@ Once you finish the selection, your tab will be like this.
 ![Images Selected](down_images_selected.png)
 
 #### Files
-Now, unlike other products, you donot have options and shipping tabs for a downloadable product. But there is a unique tab, **Files** is present here. Configure the tab.
+Now, unlike other products, you donot have options and shipping tabs for a downloadable product. But there is a unique tab, **Files** is present here. You must have a separate folder or directory in your site to place the downloadable products. From that folder, the product will be downloaded, when the buyer fulfills the requirements for the download.
+
+The following steps will guide you to set up a folder with downloadable product.
+
+##### Step 1 : Create a folder on your site to upload the files
+
+You can use your Hosting Provider's CPanel File manager or an FTP client like FileZilla, to access your web root (public_html / www / httpdocs ).
+
+Once you are in the web root, you can create a folder. Name it as: myfiles.
+
+##### Step 2: Protect the folder from outside access
+
+We do not want people to access this folder using their browser and download files. So let us protect this folder using a **.htaccess** file.
+
+Create a file called htaccess.txt in your computer and open it with your favorite text editor. Add the following lines to it.
+
+    order deny, allow
+
+    deny from all
+
+Save the file. Now upload it to the folder we just have created in our web root. In our example, it is myfiles
+
+>**IMPORTANT**: Rename the file as ***.htaccess*** 
+
+All the files uploaded to this folder is now protected
+Configure the tab.
 
 The tab will look like this:
 
