@@ -100,7 +100,20 @@ Save the file. Now upload it to the folder we just have created in our web root.
 
 >**IMPORTANT**: Rename the file as ***.htaccess*** 
 
-All the files uploaded to this folder is now protected
+All the files uploaded to this folder is now protected.
+
+##### Step 3: Point J2Store to use the files in this folder.
+
+Go to Joomla admin -> j2store -> options -> Basic settings
+
+In File attachment path field, enter the name of the folder that contains your files. In our example, it is: **myfiles**.
+
+Check the image below:
+
+![Set folder to place downloadable Products](down_upload_folder_config.png)
+
+Save the configuration.
+
 Configure the tab.
 
 The tab will look like this:
