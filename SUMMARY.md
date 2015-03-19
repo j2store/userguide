@@ -145,6 +145,7 @@
        * [UPS Shipping Plugin](ups_shipping_plugin.md)
    * [Trouble Shooting Shipping Plugins Issues](trouble_shooting_shipping_plugins_issues.md)
 * [Custom Fields](custom_fields.md)
+   * Basic tax set up
 * [Tools](tools.md)
 * [Reports](reports.md)
 * Store
