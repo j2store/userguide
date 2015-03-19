@@ -100,7 +100,7 @@ Save the file. Now upload it to the folder we just have created in our web root.
 
 >**IMPORTANT**: Rename the file as ***.htaccess*** 
 
-All the files uploaded to this folder is now protected.
+All the files uploaded to this folder, are now protected.
 
 ##### Step 3: Point J2Store to use the files in this folder.
 
