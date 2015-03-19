@@ -82,7 +82,6 @@
    * [Lengths](lengths.md)
    * [Weights](weights.md)
    * [Order Statuses](order_statuses.md)
-* [Basic set up](basic_set_up.md)
 * [Design](design.md)
    * [Email Template](email_template.md)
    * [Invoice Template](invoice_template.md)
