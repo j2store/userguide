@@ -13,6 +13,10 @@ You can install the plugin through the standard Joomla installer.
 ### Configuration
 Prior to configuring the plugin, you should have an active account with the UPS and received API keys. Contact UPS to register and get API keys.
 
+Refer the image below:
+
+![](UPS_shipping_image_1.png)
+
 #### Access Key
 Enter the access key provided by the UPS.
 
