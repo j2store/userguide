@@ -72,8 +72,8 @@ Here let us just see how to choose the tax profile
 
 Go to J2Store Cart tab -> General tab 
 
-Tax Profile : Base tax profile
-
+**Tax Profile :** Base tax profile
+![](Selection_035.png)
 **IMPORTANT** If you do not choose the tax profile, then tax will not apply in the store front.
 
 
