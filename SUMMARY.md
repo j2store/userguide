@@ -71,11 +71,11 @@
    * [Coupons](sales_coupons.md)
    * [Promotions](sales_promotions.md)
    * [Vouchers](sales_vouchers.md)
+* Basic set up
 * [Localization](localisation.md)
    * [Countries](countries.md)
    * [Zones](zones.md)
    * [Geozones](geozones.md)
-   * Basic set up
    * [Tax Rate](tax_rate.md)
    * [Tax Profiles](tax_profiles.md)
        * Tax configuration for EU
