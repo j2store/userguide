@@ -28,29 +28,35 @@ Administration Installation Instructions (refer attached screenshot)
 ![](step_2.png)
 	
  now click on the element , you can see Jtwostore element added article element list (see Left Side) .
+ 
 ![](step_3_up.png)
 
 You have to enter the name of the element to display in the article item. Now save the changes.	
 
 4. Click on the new button -> Click Article ->
 
+![](create_new_article.png)
 
 
 
+
+![](step_4.png)
 
 5.Enter the Title to the article and other required fields .
 
+![](new_item_before_save.png)
 
-
-	6. Enter the required fields Save once. After successfull save you can see the Jtwostore Element added to your item.
+6.Enter the required fields Save once. After successfull save, you can see the Jtwostore Element added to your item.
+![](new_item_after_save.png)
 
 	
 7.Now choose Treat as Product :” Yes “ -> select the Type of the product Save the
  Changes.
+ ![](enable_product_choose_product_type.png)
 
 
 After save you can able to see  JtwoStore cart  Tabs there, you can enter the details about the product. 
-
+ ![](step_6.png)
 
  Save changes.
 
