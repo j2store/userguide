@@ -62,15 +62,13 @@ After save you can able to see  JtwoStore cart  Tabs there, you can enter the de
 
 Frontend Customization Instructions
 	1.In the backend, go to Components->Zoo Click on the Setting Icon on
-
 	 ![](ctrl_manager.png)
-	 
-	 ![](app_config.png)
 
+	 
  2.Now edit the Blog -> 
 
     2. Article - > your template layout-> click the Full layout   
-
+  ![](front_end_adding_element_layout.png)
 
 
 3.Now you can see J2Store Cart in the layout list , you have to drag the J2storecart from the right to left side in your desired area.Save changes.
@@ -78,7 +76,8 @@ Frontend Customization Instructions
 
 
 4. To see Cart at front end, create Zoo Menu Item for the Zoo Articles.
-   click on the article that you have enabled as product, you can able to see J2store Cart. 	
+   click on the article that you have enabled as product, you can able to see J2store Cart. 
+![![](step_7.png)](step_final.png)
 	
 		
 		
