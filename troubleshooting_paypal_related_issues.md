@@ -52,7 +52,37 @@ Save now.
 You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD. 
 J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
 
+### 3. Paypal duplicate invoice ID and how to solve it
+Paypal by default does not allow duplicate invoices. When you try to pay for a duplicate invoice id, Paypal will produce the following error:
 
+>**The transaction was refused as a result of a duplicate invoice ID supplied. Attempt with a new invoice ID**
+
+If this were to happen, one of the reasons could be that the configuration in Paypal is set to not accept duplicate invoices. You may receive orders from various places and if the invoice numbers are the same, Paypal recognises there is an invoice duplication.
+
+There are two ways, by which you can fix this.
+
+Solution 1: Set the Invoice Prefix
+
+Please follow the steps:
+
+1) From your J2Store Dashboard, go to - Set Up -> Configuration.
+
+2) You will get several tabs in the Configuration page. Go to 'Order' tab.
+
+3) Set the Invoice Prefix in the texbox provided.
+
+4) Save & Close.
+
+ 
+
+Solution 2: Change settings in Paypal
+
+Please try the following:
+1)Log-in to your Paypal sandbox account
+2)Click Profile
+3)Under Selling Preferences, click Payment Receiving Preferences
+4)Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
+Save.
 
 
 
