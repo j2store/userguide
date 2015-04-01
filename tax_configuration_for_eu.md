@@ -34,6 +34,7 @@ Go to Localisation -> Tax Rates -> New
 Go to Localisation -> Tax Profiles -> New
 
 **Name:** Base Tax Profile
+
 **Enabled:** Yes
 
 **Tax rules**
@@ -41,6 +42,7 @@ Go to Localisation -> Tax Profiles -> New
 Click Add 
 
 **Rate:** VAT
+
 **Associated Address: ** Shipping
 
 ![taxprofile](Selection_033.png)
@@ -51,10 +53,15 @@ Click Add
 Go to Set up -> Configuration -> Tax
 
 **Prices Entered with Tax:** Yes, I will enter prices with tax
+
 **Calculate tax based on:** Shipping address
+
 **Default Customer address:** Store address
+
 **Display prices in product pages:** Including tax
+
 **Display prices in cart / checkout :** Including tax
+
 **Apply discounts :** After tax
 
 Save.
@@ -63,15 +70,17 @@ Save.
 
 J2Store uses Joomla articles as products. So go to Article Manager and create a New Article / Product (If you sue any other catalog source like Zoo or Sebold, you should head there). 
 
-Product creation steps are explained under the topic **Products**
-Here let us just see how to choose the tax profile
+Product creation steps are explained under the topic **Products**.
+
+Here let us just see how to choose the tax profile:
 
 Go to J2Store Cart tab -> General tab 
 
 **Tax Profile :** Base tax profile
+
 ![](Selection_035.png)
 
-**IMPORTANT**: If you do not choose the tax profile, then tax will not apply in the store front.
+>**IMPORTANT**: If you do not choose the tax profile, then tax will not apply in the store front.
 
 
 ### Step 6: Selling in multiple countries with multiple tax rates
@@ -84,14 +93,15 @@ If you are selling your products to other countries in Europe, then there are th
     
 * Charge different VAT rate for customers from certain countries
 
-    Let us say, you want to charge 12 % tax for customers from Switzerland and France
+    Let us say, you want to charge 12% tax for customers from Switzerland and France
     
     1. Create a new Geozone and include Switzerland and France
     
-    2. Create a new tax rate and set the tax percent to 12 %
+    2. Create a new tax rate and set the tax percent to 12%
     
-    3. Go to Localisation -> Tax Profiles -> Open Base tax profiles
-    Under Tax rules, Click add
+    3. Go to Localisation -> Tax Profiles -> Open Base tax profiles.
+    
+    Under Tax rules, Click add,
     Choose your New tax rate and associate it to the Shipping address.
     Save.
     
