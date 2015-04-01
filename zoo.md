@@ -2,32 +2,32 @@
 
 ### J2Store Item Zoo  Plugin 
 
+The JtwoStore Item Zoo Plugin for J2Store enables you to integrates the Zoo content builder. 
 
-                        J2Store Item Zoo  Plugin
+#### Requirements
+* PHP 5.2 or higher
+* Joomla 3.x
+* J2Store 3 or above
+* Zoo 
 
-The JtwoStore Item  Zoo Plugin for J2Store enables you to  integrates the Zoo content  builder. 
-Requirements
-PHP 5.2 or higher 
-Joomla 3.x 
-J2Store 3 or above 
-Zoo 
-Administration Installation Instructions (refer attached screenshot)
+#### Administration Installation Instructions (refer attached screenshot)
 1. Use the Joomla installer to install the plugin. 
 
-2. In the backend, go to Components->Zoo Click on the Setting Icon.
- ![](ctrl_manager.png)
+2. In the backend, go to Components -> Zoo. Click on the Setting Icon.
+ 
+![Control Manager](ctrl_manager.png)
 
-3. Edit the Blog->Article->Click Edit Elements->
+3. Edit the Blog -> Article -> Click Edit Elements
 
 ![](app_config.png)
 ![](step_1.png)
 
 	
-  Here you can see “Jtwostore” Element the list,
+Here you can see **JTwoStore** element in the list.
   
 ![](step_2.png)
 	
- now click on the element , you can see Jtwostore element added article element list (see Left Side) .
+Now click on the element, you can see JTwoStore element added to the article element list(see Left Side).
  
 ![](step_3_up.png)
 
