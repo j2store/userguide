@@ -4,9 +4,7 @@ This guide will walk you through the configuration of tax in J2Store for EU stor
 
 **Important:** No guarantee is offered with respect to any of the information given here. Please contact an expert before you take any decisions about tax matters
 
-NOTES:
-
-The example assumes you have a store in Germany and you charge 19% tax on the goods. All customers coming originating from Germany are charged with 19 % of tax.
+>NOTE:The example assumes you have a store in Germany and you charge 19% tax on the goods. All customers coming originating from Germany are charged with 19 % of tax.
 
 
 #### Step 1 : Create a geozone for base rates (home country tax)
@@ -48,7 +46,7 @@ Click Add
 ![taxprofile](Selection_033.png)
 
 
-Step 4: Configure tax settings
+#### Step 4: Configure tax settings
 
 Go to Set up -> Configuration -> Tax
 
@@ -61,7 +59,7 @@ Go to Set up -> Configuration -> Tax
 
 Save.
 
-Step 5: Create a product and choose the tax profile
+#### Step 5: Create a product and choose the tax profile
 
 J2Store uses Joomla articles as products. So go to Article Manager and create a New Article / Product (If you sue any other catalog source like Zoo or Sebold, you should head there). 
 
@@ -72,10 +70,11 @@ Go to J2Store Cart tab -> General tab
 
 **Tax Profile :** Base tax profile
 ![](Selection_035.png)
-**IMPORTANT** If you do not choose the tax profile, then tax will not apply in the store front.
+
+**IMPORTANT**: If you do not choose the tax profile, then tax will not apply in the store front.
 
 
-### Step 6 Selling in multiple countries with multiple tax rates
+### Step 6: Selling in multiple countries with multiple tax rates
 
 If you are selling your products to other countries in Europe, then there are three scenarios
 
@@ -97,13 +96,3 @@ If you are selling your products to other countries in Europe, then there are th
     Save.
     
     Now customer from Switzerland and France will be charged with 12 % of tax instead of your base rate of 19 %
-    
-    
-    
-
-    
-
-
-
-
-
