@@ -153,5 +153,5 @@
 * [Reports](reports.md)
 * Store
 * [Integrations](integrations.md)
-   * Zoo
+   * [Zoo](zoo.md)
 
