@@ -33,54 +33,45 @@ Now click on the element, you can see JTwoStore element added to the article ele
 
 You have to enter the name of the element to display in the article item. Now save the changes.	
 
-4. Click on the new button -> Click Article ->
+4. Click on the new button -> Click Article
 
 ![](create_new_article.png)
 
-
-
-
 ![](step_4.png)
 
-5.Enter the Title to the article and other required fields .
+5. Enter the Title to the article and other required fields .
 
 ![](new_item_before_save.png)
 
-6.Enter the required fields Save once. After successfull save, you can see the Jtwostore Element added to your item.
+6. Enter the required fields and Save once. After successfully saved, you can see the Jtwostore Element added to your item.
+
 ![](new_item_after_save.png)
 
-	
-7.Now choose Treat as Product :” Yes “ -> select the Type of the product Save the
- Changes.
+7.Now in Treat as Product, select **Yes** -> select the type of the product -> Save the changes.
+
  ![](enable_product_choose_product_type.png)
 
+After save, you will able to see JtwoStore cart tabs there and you can enter the details about the product.
 
-After save you can able to see  JtwoStore cart  Tabs there, you can enter the details about the product. 
  ![](step_6.png)
 
- Save changes.
+Save changes.
 
-Frontend Customization Instructions
-	1.In the backend, go to Components->Zoo Click on the Setting Icon on
-	 ![](ctrl_manager.png)
+#### Frontend Customization Instructions
+1. In the backend, go to Components -> Zoo, click on the Setting Icon on
 
-	 
- 2.Now edit the Blog -> 
+![](ctrl_manager.png)
 
-    2. Article - > your template layout-> click the Full layout   
+2. Now edit the Blog -> Article - > your template layout-> click the Full layout   
+
   ![](front_end_adding_element_layout.png)
 
+3. Now you can see J2Store Cart in the layout list, you have to drag the J2storecart from the right to the left side in your desired area. 
 
-3.Now you can see J2Store Cart in the layout list , you have to drag the J2storecart from the right to left side in your desired area.Save changes.
+4. Save changes.
 		
+5. To see Cart at front end, create Zoo Menu Item for the Zoo Articles.
 
+Click on the article that you have enabled as product, you can able to see J2store Cart. 
 
-4. To see Cart at front end, create Zoo Menu Item for the Zoo Articles.
-   click on the article that you have enabled as product, you can able to see J2store Cart. 
 ![![](step_7.png)](step_final.png)
-	
-		
-		
-
-
-
