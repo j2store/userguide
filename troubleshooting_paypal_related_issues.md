@@ -16,7 +16,7 @@ Paypal supports multiple currencies. However, it does not support all currencies
 
 If your currency is not supported, Paypal will automatically assume the currency as USD.
 
-A workaround to this problem is : Allow customers to shop in your currency and convert it to USD when they are redirected to paypal for payment.
+A workaround to this problem : Allow customers to shop in your currency and convert it to USD when they are redirected to paypal for payment.
 
 Here is a step by step guide to set up auto conversion of your currency to USD.
 
