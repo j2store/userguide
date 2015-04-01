@@ -83,8 +83,7 @@ Please try the following:
 2. Click Profile
 3. Under Selling Preferences, click Payment Receiving Preferences
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
-
-Save.
+5. Save.
 
 
 
