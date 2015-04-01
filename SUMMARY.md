@@ -152,4 +152,5 @@
 * [Tools](tools.md)
 * [Reports](reports.md)
 * Store
+* Integrations
 
