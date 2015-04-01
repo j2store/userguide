@@ -67,7 +67,7 @@ Please follow the steps:
 
 1. From your J2Store Dashboard, go to - Set Up -> Configuration -> Order
 
->Note: This step is for V3. If you are using v2, they you go to Set Up -> Store Profiles -> your store profile
+>Note: This step is for V3. If you are using v2, then you go to Set Up -> Store Profiles -> your store profile
 
 2. Set the Invoice Prefix in the textbox provided, for e.g., INV-2015- or INV/2015/
 
