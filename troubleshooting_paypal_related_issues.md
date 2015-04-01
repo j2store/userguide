@@ -61,27 +61,29 @@ If this were to happen, one of the reasons could be that the configuration in Pa
 
 There are two ways, by which you can fix this.
 
-Solution 1: Set the Invoice Prefix
+#### Solution 1: Set the Invoice Prefix
 
 Please follow the steps:
 
-1) From your J2Store Dashboard, go to - Set Up -> Configuration.
+1. From your J2Store Dashboard, go to - Set Up -> Configuration.
 
-2) You will get several tabs in the Configuration page. Go to 'Order' tab.
+2. You will get several tabs in the Configuration page. Go to 'Order' tab.
 
-3) Set the Invoice Prefix in the texbox provided.
+3. Set the Invoice Prefix in the texbox provided.
 
-4) Save & Close.
+4. Save & Close.
 
  
 
-Solution 2: Change settings in Paypal
+#### Solution 2: Change settings in Paypal
 
 Please try the following:
-1)Log-in to your Paypal sandbox account
-2)Click Profile
-3)Under Selling Preferences, click Payment Receiving Preferences
-4)Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
+
+1. Log-in to your Paypal sandbox account
+2. Click Profile
+3. Under Selling Preferences, click Payment Receiving Preferences
+4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
+
 Save.
 
 
