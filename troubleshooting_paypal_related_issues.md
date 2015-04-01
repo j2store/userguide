@@ -25,6 +25,7 @@ Let us assume, your store is located in India and your currency is INR. But Payp
 Here is how you can overcome the issue.
 
 Step 1: Enable Auto currency update
+![currency_auto_update](Selection_048.png)
 Go to Joomla admin - j2store - set up - > configuration -> Store tab
 Set your Default Currency as INR
 Set Auto update currency to YES
@@ -35,6 +36,7 @@ Go to Joomla admin - j2store - set up - currencies
 You might have already created the INR currency. Open it and make sure its value is set to 1
 
 Now, create a new currency
+![currency_creation](Selection_050.png)
 Currency Name: USD
 Currency Code: USD
 Currency Symbol: $
@@ -45,7 +47,7 @@ Value: 0.061 (You can enter any value less than 1. Once saved, J2Store will auto
 Status: Published
 
 Save now.
-
+![currency_management](Selection_049.png)
 You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD. 
 J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
 
