@@ -65,13 +65,13 @@ There are two ways, by which you can fix this.
 
 Please follow the steps:
 
-1. From your J2Store Dashboard, go to - Set Up -> Configuration.
+1. From your J2Store Dashboard, go to - Set Up -> Configuration -> Order
 
-2. You will get several tabs in the Configuration page. Go to 'Order' tab.
+>Note: This step is for V3. If you are using v2, they you go to Set Up -> Store Profiles
 
-3. Set the Invoice Prefix in the texbox provided.
+2. Set the Invoice Prefix in the textbox provided, for e.g., INV-2015- or INV/2015/
 
-4. Save & Close.
+3. Save & Close.
 
  
 
