@@ -12,6 +12,8 @@ Install the plugin via the Joomla Extension Manager.
 
 ####Configuration
 
+Go to Joomla admin - J2Store - Set up - Payments -> Sofort banking
+
 **Payment option title:**
 
 A title for the method. This will show up in the checkout steps. Default: Sofort
