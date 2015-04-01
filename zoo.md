@@ -1,8 +1,8 @@
 # Zoo
 
-### J2Store Item Zoo  Plugin 
+### Introduction
 
-The JtwoStore Item Zoo Plugin for J2Store enables you to integrates the Zoo content builder. 
+The plugin integrates Zoo content construction kit with J2Store, thus adding ecommerce capability to zoo. 
 
 #### Requirements
 * PHP 5.2 or higher
@@ -10,12 +10,14 @@ The JtwoStore Item Zoo Plugin for J2Store enables you to integrates the Zoo cont
 * J2Store 3 or above
 * Zoo 
 
-#### Administration Installation Instructions (refer attached screenshot)
-1. Use the Joomla installer to install the plugin. 
+#### Installation Instructions 
+1. Use the Joomla Extension manager to install the plugin. 
 
 2. In the backend, go to Components -> Zoo. Click on the Setting Icon.
  
 ![Control Manager](ctrl_manager.png)
+
+Let us say, you want to treat a Blog item as product. (Zoo has a number of other content types as well. Blog content type is taken as an example )
 
 3. Edit the Blog -> Article -> Click Edit Elements
 
@@ -23,7 +25,7 @@ The JtwoStore Item Zoo Plugin for J2Store enables you to integrates the Zoo cont
 ![](step_1.png)
 
 	
-Here you can see **JTwoStore** element in the list.
+Here you can see **JTwoStore**  element in the list. (Numbers seems not working. That is why J2Store has become JTwoStore:-) )
   
 ![](step_2.png)
 	
@@ -31,7 +33,7 @@ Now click on the element, you can see JTwoStore element added to the article ele
  
 ![](step_3_up.png)
 
-You have to enter the name of the element to display in the article item. Now save the changes.	
+You have to enter the name of the element to display in the article item. Enter as J2Store as the name and Shopping cart as the description. Now save the changes.	
 
 4. Click on the new button -> Click Article
 
@@ -47,11 +49,13 @@ You have to enter the name of the element to display in the article item. Now sa
 
 ![](new_item_after_save.png)
 
-7.Now in Treat as Product, select **Yes** -> select the type of the product -> Save the changes.
+7.Now in Treat as Product, select **Yes** -> select the type of the product 
+
+IMPORTANT: Click **Save**. Only then you can see the product related fields.
 
  ![](enable_product_choose_product_type.png)
 
-After save, you will able to see JtwoStore cart tabs there and you can enter the details about the product.
+After save, you will able to see **J2Store cart** tab there and you can enter the details about the product.
 
  ![](step_6.png)
 
@@ -68,10 +72,11 @@ Save changes.
 
 3. Now you can see J2Store Cart in the layout list, you have to drag the J2storecart from the right to the left side in your desired area. 
 
+![![](step_7.png)](step_final.png)
+
 4. Save changes.
 		
 5. To see Cart at front end, create Zoo Menu Item for the Zoo Articles.
 
 Click on the article that you have enabled as product, you can able to see J2store Cart. 
 
-![![](step_7.png)](step_final.png)
