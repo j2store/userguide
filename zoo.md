@@ -63,7 +63,11 @@ After save you can able to see  JtwoStore cart  Tabs there, you can enter the de
 Frontend Customization Instructions
 	1.In the backend, go to Components->Zoo Click on the Setting Icon on
 
-2. Now edit the Blog -> 
+	 ![](ctrl_manager.png)
+	 
+	 ![](app_config.png)
+
+ 2.Now edit the Blog -> 
 
     2. Article - > your template layout-> click the Full layout   
 
