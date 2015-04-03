@@ -134,7 +134,7 @@
    * [Tranzila Payment Plugin](tranzila_payment_plugin.md)
    * [WorldPay Payment Plugin](worldpay_payment_plugin.md)
    * [Yandex Money Payment Plugin](yandex_money_payment_plugin.md)
-   * Gestpay
+   * [Gestpay](gestpay.md)
 * [Shipping Methods](shipping_methods.md)
    * [Standard Shipping Methods](standard_shipping_methods.md)
        * [Flat rate per order](flat_rate_per_order.md)
