@@ -40,8 +40,7 @@ payment at EBS.
 
 **Support**
 
-You can post your questions in our community forums or contact us via the contact form in our website http://j2store.org
-
+You can post your questions, if any, in http://j2store.org/forum/index.html.
 
 
 
