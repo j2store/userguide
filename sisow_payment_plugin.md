@@ -28,4 +28,4 @@ You can set this to Yes to test the integration with Sisow.
 You can create an article and enter its ID here to show a message or instructions to your customers after they complete the payment. 
 
 #### Support
-You can post your quests in our support forum or send an email to ***support@j2store.org*** 
+Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
