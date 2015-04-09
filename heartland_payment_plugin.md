@@ -76,7 +76,7 @@ The text of the payment button. The button will be displayed at the final checko
 
 #### Support
 
-Still have questions? You can reach us in ***support@j2store.org***.
+Still have questions? You can reach us in .
 
 Thank you for using our extension.
 
