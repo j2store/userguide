@@ -69,4 +69,4 @@ This message will be displayed if payment failed.
 Title of the return link displayed in the shopper response.
 
 #### Support
-Please contact us at ***support@j2store.org*** if you have any questions or trouble in setting up the plugin.
+Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
