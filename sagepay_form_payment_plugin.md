@@ -80,4 +80,4 @@ You can enter a language constant as a value here if you are using a multi-lingu
 The text of the payment button. The button will be displayed at the final checkout step.
 
 #### Support
-If you encounter any issues with the plugin, please contact the support team at ***support@j2store.org***.
+Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
