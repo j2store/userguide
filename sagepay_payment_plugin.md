@@ -43,7 +43,7 @@ SagePay offers a testing suite called Simulator. Before going live, it is advise
 You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
 
 #### Support
-Still have questions? You can reach us in ***support@j2store.org*** or post in our support forum: http://j2store.org/forum/index.html 
+Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
 
 Thank you for using our extension.
 
