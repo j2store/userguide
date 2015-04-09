@@ -54,4 +54,4 @@ Set this to **Yes** to skip the order review page on the 2Checkout payment scree
 You can create an Article ID with a message 'Enter the article ID here', to show it to the customer after completion of the purchase.
 
 #### Support
-You can contact  if you have any questions.
+You can contact http://j2store.org/forum/index.html if you have any questions.
