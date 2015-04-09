@@ -211,6 +211,6 @@ Follow these guidelines for testing:
 
 #### Support
 
-Still have questions? You can reach us in ***support@j2store.org***  
+Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html 
 
 Thank you for using our extension. 
