@@ -58,6 +58,6 @@ Md5 has provided in sandbox.
 
 You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
 
-Still have questions? You can reach us in ***support@j2store.org*** or post in our support forum: http://j2store.org/forum/index.html
+Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 
 Thank you for using our extension.
