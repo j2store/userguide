@@ -93,5 +93,5 @@ You can check it in two places:
 2) If your order was not registered in your **Tranzila**, then it means wrong settings. Check your server IP and make sure your entered the IP correctly.
 
 #### Support
-If you encounter any issues with the plugin, please contact the support team at ***support@j2store.org***.
+Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
 
