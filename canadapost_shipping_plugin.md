@@ -67,4 +67,4 @@ If you set this to **Yes**, then debug messages will be logged and saved in the 
 Set this to **No** in Live websites.
 
 #### Support
-You can contact ***support@j2store.org*** if you have any questions.
+You can post your questions, if any, in http://j2store.org/forum/index.html.
