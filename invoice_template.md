@@ -1,6 +1,8 @@
-# Invoice Template
+# Invoice Template  (PRO Feature)
 
-This is a default layout or design for how an invoice should be looking. There are many details in the invoice that need to be carefully arranged in order to understand the invoice clearly both by the customer and the seller.
+You can design how your invoice looks here. You can add  a company address, logo, and some additional information in the invoice. You can also show various order information by adding the short tags.
+
+The tags will be replaced with relevant information from the order table.
 
 Like email template, here too we have two settings pages to be filled up for creating an invoice template. They are
 * Basic
@@ -30,17 +32,11 @@ This defines the payment methods that are accepted for selling. Some payment opt
 For a template to be used for invoicing, it has to be published prior to that. This field will notify that status.
 
 ### Advanced
-In advanced settings, we have the invoice content. The content of the invoice can be designed here. There are so many options available to customize the content. There is a rich text editor to neatly customize the content. The facilities that are available in the editor are:
-* Cut, Copy, Paste
-* Insert links or images
-* Formatting the text in the body like, bold,
- italicize, line spacing, underlining, and much more
-* Insert tables
-* Insert source code etc
+In advanced settings, we have the invoice content. The content of the invoice can be designed here. You can include a lot of information. There is a rich text editor to neatly customize the content. 
 
-By using these, an invoice can be designed like, placement of customer name, order no, order date, payment details, shipping details, product details etc. This is can be accomplished by adding suitable tags listed in the extreme right area of the page.
+Using the short codes, you can add customer name, order no, order date, payment details, shipping details, product details etc. This is can be accomplished by adding suitable tags listed in the extreme right area of the page.
 
-Check the image below for how an ivoice template can be designed for our needs. This is for example purpose only and the user can design his/her own template.
+Check the image below for how an invoice template can be designed for our needs. This is for example purpose only and the user can design his/her own template.
 
 ![Create Invoice Template](invoice template.png)
 
