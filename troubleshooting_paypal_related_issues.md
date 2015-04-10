@@ -2,7 +2,44 @@
 
 There could be many reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
 
-### 1. Order status Failed
+### 1. Orders not confirmed. Status shows as incomplete or new
+
+It means you are not getting the Instant Payment Notification (IPN) from Paypal.
+The IPN may not reach your site, if :
+ 1. The Site is offline
+ * The Site is in local server / local host / live in your local machine
+ * You have created a menu for the Checkout and set its access level to Registered or Special or Something other than public. 
+ * You have a firewall installed either in your site or by your host
+ * You have disabled IPN in your Paypal account.
+
+ 
+##### Solutions to above issues :
+
+1. Go to Joomla admin - Global configuration. Set **Site Offline** to No
+2. Host your site
+3. Set the Checkout menu access level to Public
+4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host
+5. Enable the IPN in your Paypal account. 
+
+Login to your Paypal account
+
+Click Profile on the My Account tab.
+
+Click Instant Payment Notification Preferences in the Selling Preferences column.
+
+Click Choose IPN Settings to specify your listener's URL and activate the listener.
+
+In the Listener's url enter the following url
+
+```
+http://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
+```
+
+NOTE: Replace <YOUR_DOMAIN> with your website. E.g: www.example.com
+
+
+
+### 2. Order status Failed
 
 Are you using your Primary Paypal Email as your merchant email? If your order status says failed, then chances are that you are using a secondary email of your Paypal account.
 
@@ -10,7 +47,7 @@ Paypal allows you to add multiple emails in an account to accept payments. With 
 
 ![Paypal Primary Email](paypal_primary_email1.png)
 
-### 2. Currency is wrong. Paypal payment screen shows USD while my currency is different
+### 3. Currency is wrong. Paypal payment screen shows USD while my currency is different
 
 Paypal supports multiple currencies. However, it does not support all currencies of the world. Please ensure that your currency is supported by checking this page: https://www.paypal.com/multicurrency
 
@@ -52,7 +89,7 @@ Save now.
 You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD. 
 J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
 
-### 3. Paypal duplicate invoice ID and how to solve it
+### 4. Paypal duplicate invoice ID and how to solve it
 Paypal by default does not allow duplicate invoices. When you try to pay for a duplicate invoice id, Paypal will produce the following error:
 
 >**The transaction was refused as a result of a duplicate invoice ID supplied. Attempt with a new invoice ID**
@@ -84,12 +121,3 @@ Please try the following:
 3. Under Selling Preferences, click Payment Receiving Preferences
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
 5. Save.
-
-
-
-
-
-
-
-
-
