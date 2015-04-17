@@ -38,7 +38,7 @@ IN LIVE SITE, THIS SHOULD BE SET TO NO.
 Logo Image for display in Voguepay
 The URL of the 150x50-pixel image displayed as your logo in the upper left corner of Voguepay’s pages. Default: your business name (if you have a Business account) or your email address (if you have Premier account). If this is not working, try using the Custom Header Image param above. 
 This is an optional setting.
-**Display text on selection**
+#Display text on selection
 
 The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below
 Tip - ONLY FOR MULTI-LINGUAL SITES
@@ -46,17 +46,19 @@ For example, enter a language constant:
 J2STORE_TEXT_TO_DISPLAY_ON_SELECTION.
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
-**Display text before payment**
+#Display text before payment
 
 The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display text after payment/order**
+#Display text after payment/order
 
     The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
-**Display text on error in payment**
+    
+#Display text on error in payment
 
      The text entered here will be displayed to the customer when there is an error in the payment process.
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
 **Display text on customers cancel payment ** 
     The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
