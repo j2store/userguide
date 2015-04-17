@@ -62,5 +62,5 @@ The text entered here will be displayed to the customer when he cancels the paym
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 Payment Button Text
 	The text of the payment button. The button will be displayed at the final checkout step.
-Debug :
+**Debug:**
    Set  Yes to enable to debugging.NEVER AND EVER set this in Live site.
