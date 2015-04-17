@@ -79,7 +79,6 @@ Set  Yes to enable to debugging. NEVER AND EVER set this in Live site.
 This is Screen shot Will help you to Enable Test Mode, To test Your Store before going live.
 
 
-
 **Support**
 
 Still have questions?  Post in our support forum: http://j2store.org/forum/index.html
