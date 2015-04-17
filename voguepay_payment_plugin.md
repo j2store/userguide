@@ -73,7 +73,10 @@ Payment Button Text
 Set  Yes to enable to debugging. NEVER AND EVER set this in Live site.
 
 **Relevant Screen Shot **
+
 ![](paymenvoguepay.png)
+
+This is Screen shot Will help you to Enable Test Mode, To test Your Store.
 
 
 
