@@ -33,6 +33,7 @@ IN LIVE SITE, THIS SHOULD BE SET TO NO.
     You can create an article to say thanks, provide some information or instructions to the customers, who purchased in your online store. Enter the Article ID here. This will show, when customers return from the Voguepay. 
     
 **Geozone**
+
     By selecting a geozone here, you can restrict this payment method to only customers of that geo-region. Choose All geozones to show this method to all customers.
 Logo Image for display in Voguepay
 The URL of the 150x50-pixel image displayed as your logo in the upper left corner of Voguepay’s pages. Default: your business name (if you have a Business account) or your email address (if you have Premier account). If this is not working, try using the Custom Header Image param above. 
@@ -48,10 +49,13 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 **Display text before payment**
 
 The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
-Display text after payment/order
-The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
-Display text on error in payment
-The text entered here will be displayed to the customer when there is an error in the payment process.
+
+**Display text after payment/order**
+
+    The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text on error in payment**
+
+     The text entered here will be displayed to the customer when there is an error in the payment process.
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 Display text on customers cancel payment  
 The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
