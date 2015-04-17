@@ -58,8 +58,7 @@ The text entered here will be displayed to the customer at the order summary scr
      The text entered here will be displayed to the customer when there is an error in the payment process.
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 **Display text on customers cancel payment ** 
-
-The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
+    The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 Payment Button Text
 	The text of the payment button. The button will be displayed at the final checkout step.
