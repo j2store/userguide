@@ -39,7 +39,7 @@ Logo Image for display in Voguepay
 The URL of the 150x50-pixel image displayed as your logo in the upper left corner of Voguepay’s pages. Default: your business name (if you have a Business account) or your email address (if you have Premier account). If this is not working, try using the Custom Header Image param above. 
 This is an optional setting.
 
-#Display text on selection
+**Display text on selection**
 
 The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below
 Tip - ONLY FOR MULTI-LINGUAL SITES
