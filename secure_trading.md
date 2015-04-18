@@ -82,14 +82,14 @@ To set-up a notification you should perform the following steps:
   **Security Algorithm:**
      sha256
 
-  F**ields:**
-     errorcode
-     orderreference
-     securityresponseaddress
-     securityresponsepostcode
-     securityresponsesecuritycode
-     status
-     transactionreference
+  **Fields:**
+* errorcode
+* orderreference
+* securityresponseaddress
+* securityresponsepostcode
+* securityresponsesecuritycode
+* status
+* transactionreference
 
   **Custom Fields:**
      None
@@ -139,11 +139,11 @@ the following, in this order:
     * sitereference
     * settlestatus
     * settleduedate
-    * PASSWORD
+    * PASSWORD *
 
 'Site Security' is now enabled.  Remember to never tell any other individuals your Site Security Password.  Do not store hard copies of this password anywhere.
 
-* The last field, 'PASSWORD', is to be the combination of characters you entered into the 'Site Security Password'.
+*The last field, 'PASSWORD', is to be the combination of characters you entered into the 'Site Security Password'.
 
 ----------------------
 2.6. Notification Hash
