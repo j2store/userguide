@@ -76,23 +76,23 @@ To set-up a notification you should perform the following steps:
 
 >NOTE: replace your_domain_name.com in the url with your domain name.
 
-  **Security Password:**
+**Security Password:**
      This is the field that you will enter your chosen notification password into.  See section 2.6 for more information.
 
-    **Security Algorithm:**
+**Security Algorithm:**
      sha256
 
-    **Fields:**
-        * errorcode
-        * orderreference
-        * securityresponseaddress
-        * securityresponsepostcode
-        * securityresponsesecuritycode
-        * status
-        * transactionreference
+**Fields:**
+* errorcode
+* orderreference
+* securityresponseaddress
+* securityresponsepostcode
+* securityresponsesecuritycode
+* status
+* transactionreference
 
-    **Custom Fields:**
-     None
+**Custom Fields:**
+None
 
 5. Click 'Save'.
 6. Select the filter and destination you have just created from the two initially blank select menus (under 'Current Notifications').
