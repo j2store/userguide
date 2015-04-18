@@ -79,19 +79,19 @@ To set-up a notification you should perform the following steps:
   **Security Password:**
      This is the field that you will enter your chosen notification password into.  See section 2.6 for more information.
 
-  **Security Algorithm:**
+    **Security Algorithm:**
      sha256
 
-  **Fields:**
-* errorcode
-* orderreference
-* securityresponseaddress
-* securityresponsepostcode
-* securityresponsesecuritycode
-* status
-* transactionreference
+    **Fields:**
+        * errorcode
+        * orderreference
+        * securityresponseaddress
+        * securityresponsepostcode
+        * securityresponsesecuritycode
+        * status
+        * transactionreference
 
-  **Custom Fields:**
+    **Custom Fields:**
      None
 
 5. Click 'Save'.
