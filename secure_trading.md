@@ -62,7 +62,7 @@ To set-up a notification you should perform the following steps:
   **Error Codes:** All Error Codes
 
 3. Click 'Save'.
-4. Select 'Add Destination and enter the following information:
+4. Select 'Add Destination' and enter the following information:
 
 ##### DESTINATIONS
 
