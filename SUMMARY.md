@@ -156,4 +156,5 @@
 * Store
 * [Integrations](integrations.md)
    * [Zoo](zoo.md)
+* Secure Trading
 
