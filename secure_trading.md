@@ -1,4 +1,4 @@
-# Secure Trading
+# Secure Trading Plugin
 
 The J2Store SecureTrading Plugin (Payment Pages) requires:
 
@@ -20,23 +20,23 @@ Use the default Joomla installer to install it
 
 To configure the plugin you should perform the following steps:
 
-1 - Head again to 'Joomla Admin' - 'Extensions Manager' - 'Plugin Manager'.
-2 - Locate 'SecureTrading Payments' and open it.
-3 - A list of options will now appear.  Configure these to your liking and then click 'Save'.
+1. Head again to 'Joomla Admin' - 'Extensions Manager' - 'Plugin Manager'.
+2. Locate 'SecureTrading Payments' and open it.
+3. A list of options will now appear.  Configure these to your liking and then click 'Save'.
 
-Payment option title - Enter a name that will appear in the payment option section in the checkout.
+**Payment option title** - Enter a name that will appear in the payment option section in the checkout.
 
-SecureTrading Site Reference - Site reference provided by the Secure Trading. 
+**SecureTrading Site Reference** - Site reference provided by the Secure Trading. 
 
-Settlement Status - This is the settlement status that will be applied to all successful transactions.  The default status is "0".
+**Settlement Status** - This is the settlement status that will be applied to all successful transactions.  The default status is "0".
 
-Settlement Due Date - This is the number of days you wish to wait before retrieving funds from your customers' account.  The default value is "Process Immediately".
+**Settlement Due Date** - This is the number of days you wish to wait before retrieving funds from your customers' account.  The default value is "Process Immediately".
 
-Site Security Password - This is used to generate the Site Security hash.  This option is discussed further in section 2.5.
+**Site Security Password** - This is used to generate the Site Security hash.  This option is discussed further in section 2.5.
 
-Use Notification service - Select this option to enable the notification service.  This option is discussed further in section 2.6.
+**Use Notification service** - Select this option to enable the notification service.  This option is discussed further in section 2.6.
 
-Notification Password - This is the notification hash.  This option is discussed further in section 2.6.
+**Notification Password** - This is the notification hash.  This option is discussed further in section 2.6.
 
 ------------------
 2.3.  Notification
@@ -48,48 +48,41 @@ This feature is responsible for updating order information in the J2Store back-e
 
 To set-up a notification you should perform the following steps:
 
-1 - Login to MyST and select "Notifications".
-2 - Select 'Add Filter' and then enter the following information:
+1. Login to MyST and select "Notifications".
+2. Select 'Add Filter' and then enter the following information:
 
-FILTERS
+##### FILTERS
 
-  Description:
-     Enter a recognizable name of your choice here.
+  **Description:** Enter a recognizable name of your choice here.
 
-  Requests:
-     Auth
+  **Requests:** Auth
 
-  Payment Types:
-     Select all card types that you will be accepting here.
+  **Payment Types:** Select all card types that you will be accepting here.
 
-  Error Codes:
-     All Error Codes
+  **Error Codes:** All Error Codes
 
-3 - Click 'Save'.
-4 - Select 'Add Destination and enter the following information:
+3. Click 'Save'.
+4. Select 'Add Destination and enter the following information:
 
-DESTINATIONS
+##### DESTINATIONS
 
-  Description:
-     Enter a recognizable name of your choice here.
+  **Description:** Enter a recognizable name of your choice here.
 
-  Notification Type:
-     URL
+  **Notification Type:** URL
 
-  Process Notification:
-     Online
+  **Process Notification:** Online
 
-  Destination:
-     http://your_domain_name.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_securetrading&paction=process
-     NOTE: replace your_domain_name.com in the url with your domain name.
+  **Destination:** http://your_domain_name.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_securetrading&paction=process
 
-  Security Password:
+>NOTE: replace your_domain_name.com in the url with your domain name.
+
+  **Security Password:**
      This is the field that you will enter your chosen notification password into.  See section 2.6 for more information.
 
-  Security Algorithm:
+  **Security Algorithm:**
      sha256
 
-  Fields:
+  F**ields:**
      errorcode
      orderreference
      securityresponseaddress
@@ -98,12 +91,12 @@ DESTINATIONS
      status
      transactionreference
 
-  Custom Fields:
+  **Custom Fields:**
      None
 
-5 - Click 'Save'.
-6 - Select the filter and destination you have just created from the two initially blank select menus (under 'Current Notifications').
-7 - Click 'Save'.
+5. Click 'Save'.
+6. Select the filter and destination you have just created from the two initially blank select menus (under 'Current Notifications').
+7. Click 'Save'.
 
 The notification will now have been enabled.
 
@@ -119,15 +112,13 @@ The Redirect Form can be downloaded here: http://securetrading.com/sites/default
 
 The following information should be inserted into the redirect form:
 
-Redirect URL:
+**Redirect URL:**
     http://your_domain_name.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_securetrading&paction=display_message
-	NOTE: replace your_domain_name.com in the url with your domain name.
+>NOTE: replace your_domain_name.com in the url with your domain name.
 	
-Fields:
-     None
+**Fields:** None
 
-Custom Fields:
-     None
+**Custom Fields:** None
 
 ------------------
 2.5. Site Security
@@ -137,18 +128,18 @@ A security code will prevent malicious users from modifying sensitive payment in
 
 This feature can be enabled by following these steps:
 
-1 - Head to the Securetrading plugin configuration ('Joomla Admin' - 'Extensions Manager' - 'Plugin Manager' - 'SecureTraing Payments'  - 'Edit').
-2 - Enter a hard to guess combination of letters and numbers into the 'Site Security Password' field.  This combination should be at least 8 characters long.
-3 - Click 'save'.
-5  - You must now contact Support by emailing support@securetrading.com.  Inform them that you have "enabled the Site Security Password Hash".  When prompted for a list of "enabled fields", you must tell them
+1. Head to the Securetrading plugin configuration ('Joomla Admin' - 'Extensions Manager' - 'Plugin Manager' - 'SecureTraing Payments'  - 'Edit').
+2. Enter a hard to guess combination of letters and numbers into the 'Site Security Password' field.  This combination should be at least 8 characters long.
+3. Click 'save'.
+4. You must now contact Support by emailing support@securetrading.com.  Inform them that you have "enabled the Site Security Password Hash".  When prompted for a list of "enabled fields", you must tell them
 the following, in this order:
 
-     currencyiso3a
-     mainamount
-     sitereference
-     settlestatus
-     settleduedate
-     PASSWORD *
+    * currencyiso3a
+    * mainamount
+    * sitereference
+    * settlestatus
+    * settleduedate
+    * PASSWORD
 
 'Site Security' is now enabled.  Remember to never tell any other individuals your Site Security Password.  Do not store hard copies of this password anywhere.
 
