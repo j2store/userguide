@@ -125,6 +125,7 @@
    * [Saferpay Payment Plugin](saferpay_payment_plugin.md)
    * [Sagepay Payment Plugin](sagepay_payment_plugin.md)
    * [Sagepay Form Payment Plugin](sagepay_form_payment_plugin.md)
+   * [Secure Trading Plugin](secure_trading.md)
    * [Sermepa Payment Plugin](sermepa_payment_plugin.md)
    * [Sisow Payment Plugin](sisow_payment_plugin.md)
    * [Sofort Banking](sofort_banking.md)
@@ -156,5 +157,5 @@
 * Store
 * [Integrations](integrations.md)
    * [Zoo](zoo.md)
-* [Secure Trading Plugin](secure_trading.md)
+
 
