@@ -157,5 +157,5 @@
 * Store
 * [Integrations](integrations.md)
    * [Zoo](zoo.md)
-   * SobiPro
+   * [SobiPro](sobipro.md)
 
