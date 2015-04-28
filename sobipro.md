@@ -33,9 +33,9 @@ The plugin integrates Sobipro directory component with J2Store, thus adding ecom
 
 ![](step_12.png)
 
+* Now J2Store application is ready.
 ![](step_13.png)
 
-* Now J2Store application is ready.
 * You can start adding new entry and also treat them as J2Store product using enabling "Treat as product" from the J2Store Tab. 
 
 
