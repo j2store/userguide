@@ -10,7 +10,7 @@ The plugin integrates Sobipro directory component with J2Store, thus adding ecom
 * Sobipro
 
 #### Installation Instructions 
-1.Go to site backend Components  Menu->Sobipro->Application Manager-> Here you can find an input for installing application  “Select Application”
+1.In the backend, go to Components->SobiPro->Application Manager-> Here you can find an input for installing application  “Select Application”
 
 ![](sobipro_step_1.png)
 
@@ -20,4 +20,9 @@ The plugin integrates Sobipro directory component with J2Store, thus adding ecom
 ![](sobipro_step_3.png)
 2.After successful installation, you can now see the list displaying the j2store application.
 
-3.Now select on the j2store application radio and choose the section you want implement the application.
+![](step_6.png)
+
+![](step_7.png)
+
+3.Now choose the section you want enable j2store application.
+
