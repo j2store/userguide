@@ -52,8 +52,16 @@ Now set "Treat as Product" to Yes and choose the type of the product and "Save a
 Now open the Entry you can see the J2Store Tab having all the fields.Now you product is ready and you can enter the details.
 ![](step_17_d.png)
 
+Save the changes .
 
-![](step_18_a.png)
+####Displaying Front end
+1.Go to admin Menu Manager-> Menu items -> Add -> Choose the "Menu type" -> Sobipro -> 
+
+
+![](final_product_display.png)
+
+
+
 
 
 
