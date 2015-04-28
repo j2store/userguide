@@ -144,6 +144,9 @@ If you set this to yes, then debug messages will be logged and saved in the cach
   
 ###Frontend
  ***Listing postcode shipping method***
+ 
+Finally you can see the shipping  postcode method listed.
+ 
  ![](step_final.png)
  
 #### Support 
