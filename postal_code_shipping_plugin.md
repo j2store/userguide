@@ -16,6 +16,7 @@ You can install the plugin through the standard Joomla installer.
 #### Shipping Method name
 Enter a name for this shipping method. This is what your customers will see at the checkout.
 
+
 #### Tax Class 
 The value selected will be used in calculating tax rates.
 
@@ -45,10 +46,17 @@ Choose the postal code format. Most of the countries follow the US based zip cod
 Quite a few commonwealth countries including **UK**, follow a different post code system. 
 
 If you are not sure about post code, do not select any format here.
+![](creating_method.png)
 
-Now, **Save** the plugin and click **Set Rates** link to set the rates.
+Now, **Save&Close** the method.
+
+
 
 #### Set Rates 
+**To Set Rates** click on the link  "set rates" of the postcode Shipping method.
+
+![](to_set_rate.png) 
+
 
 ##### Postcode From
 The starting range of the zip code
@@ -127,7 +135,16 @@ Cost Brackets:
 #### Debug
 If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. 
 
+
 >Set this to NO in Live websites. 
 
+*** Sample rates *** 
+  ![](setting_rates.png)
+  
+  
+###Frontend
+ ***Listing of shipping method***
+ ![](step_final.png)
+ 
 #### Support 
 You can contact ***support@j2store.org*** if you have any questions. 
