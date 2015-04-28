@@ -33,7 +33,7 @@ The plugin integrates Sobipro directory component with J2Store, thus adding ecom
 
 ![](step_12.png)
 
-
+![](step_13.png)
 
 
 
