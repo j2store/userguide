@@ -29,9 +29,11 @@ The plugin integrates Sobipro directory component with J2Store, thus adding ecom
 ![](step_8.png)
 
 ###Enabling Application in the section
-* Click on the Application sections Tab -> Applications ,   you can see the list of application.Enable the J2Store   Application. 
+* Click on the Application Sections Tab -> Applications ,   you can see the list of application.Enable the J2Store   Application. 
 
 ![](step_12.png)
+
+
 
 
 
