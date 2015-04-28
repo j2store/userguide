@@ -55,8 +55,10 @@ Now open the Entry you can see the J2Store Tab having all the fields.Now you pro
 Save the changes .
 
 ####Displaying Front end
-1.Go to admin Menu Manager-> Menu items -> Add -> Choose the "Menu type" -> Sobipro -> 
+1.Go to Menus > Main Menu > Add New Menu Item and add a menu item. Choose SobiPro Section or Category->Choose functionality and set other menu parameters, then save.
 
+
+2.Go to your Home page and click on the menu item you created. You'll see a category page similar to this, depending on what choices you made and what template you are using.Go to the category and click on the entries detail view finally you can see the J2Store Cart.
 
 ![](final_product_display.png)
 
