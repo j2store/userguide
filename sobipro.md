@@ -1,8 +1,7 @@
 # SobiPro
 
 ### Introduction
-
-The plugin integrates Sobipro content construction kit with J2Store, thus adding ecommerce capability to Sobipro. 
+The plugin integrates Sobipro directory component with J2Store, thus adding ecommerce capability to Sobipro. 
 
 #### Requirements
 * PHP 5.2 or higher
@@ -18,7 +17,7 @@ The plugin integrates Sobipro content construction kit with J2Store, thus adding
 
 ![](sobipro_step_2.png)
 
-
+![](sobipro_step_3.png)
 2.After successful installation, you can now see the list displaying the j2store application.
 
 3.Now select on the j2store application radio and choose the section you want implement the application.
