@@ -5,14 +5,12 @@ In addition to the primary short code, you can also use the following additional
 
 **Example:**
     
-    {j2store}10|upsells|crosssells{/j2store}
+    {j2store}xx|upsells|crosssells{/j2store}
     
-    {j2store}price|thumbnail|mainimage|mainadditional|upsells|crosssells{/j2store}
     
-
 These additional short codes will work in all **Add to cart** placement modes. Please use these codes judiciously and wisely for better performance.
 
-### List of shortcodes and their description
+### List of shortcodes available and their description
 
 * **cart** - Full cart with price, options and add to cart button
 * **price** - This short code indicates both regular price and selling price
