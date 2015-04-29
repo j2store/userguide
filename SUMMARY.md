@@ -158,5 +158,5 @@
 * [Integrations](integrations.md)
    * [Zoo](zoo.md)
    * [SobiPro](sobipro.md)
-* Short Codes
+* [Short Codes](short_codes.md)
 
