@@ -122,4 +122,6 @@ In this image, you can see that the new menu item created is listed in the top w
 
 In this page, you can see the product layout features. The filters are positioned in the right side as per the selected choice. You have the option to filt by price, brand, vendor etc. The regular and special prices are also displayed along with discount percentage variation. 
 
+Like this, you can set different product layouts according to your wish and needs.
+
 
