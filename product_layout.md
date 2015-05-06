@@ -19,4 +19,29 @@ First you need to enter the title of the item you create. For example, it is ent
 
 Then, you have several tabs in this page. Let us see one by one. First is the **Details** tab.
 
-Here, 
+Here, you choose the **Menu Item Type** by clicking on the 'Select' button. You will get a pop-up window like this:
+
+![Choose_item_type](product_layout_create_item_type.png)
+
+In this pop-up window, select **J2Store** and you will get a list to choose from. From the list, select **Products List View** and close the window. You will see your selection as shown in the below image.
+
+![details_tab](product_layout_create_details_tab.png)
+
+Your menu item is selected and the link is also created automatically. click on the **Choose a Category** text box to choose the product categories under the name Apparel, viz., T-Shirt, Kids Wear, etc. You can add many categories in this box. Refer the image below.
+
+![Choose_category](product_layout_create_choose_category.png)
+
+Now, go to next tab, **Common Options**.
+
+
+
+
+
+
+
+
+
+
+
+
+
