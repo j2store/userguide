@@ -11,4 +11,12 @@ You will get the list of menus that are already present as shown in the image be
 
 ![main_menu](product_layout_main_menu.png)
 
-To create a new item, click on the new
+To create a new item, click on the **New** button and you will get this page.
+
+![product_layout_title](product_layout_create_title.png)
+
+First you need to enter the title of the item you create. For example, it is entered with **Apparel**. The alias will be automatically generated based on the title.
+
+Then, you have several tabs in this page. Let us see one by one. First is the **Details** tab.
+
+Here, 
