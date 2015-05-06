@@ -39,9 +39,9 @@ This tab has the common settings for all items. If you want to show images for p
 
 Next tab is 'Item View options in category listings'. Check the image below:
 
+![View_category_listing](product_layout_view_category_1.png)
 
-
-
+In this tab, you are setting the configuration for how to display the product in the cart and what are the features and options to display with the product.
 
 
 
