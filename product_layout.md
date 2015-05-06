@@ -35,9 +35,11 @@ Your menu item is selected and the link is also created automatically. click on 
 Now, go to next tab, **Common Options**.
 
 #### Common Options Tab
-![Common_Options](product_layout_create_common_options.png)
+![Common Options Tab](product_layout_create_common_options_1.png)
 
 This tab has the common settings for all items. If you want to show images for product options or if you want to add some custom CSS code, you can do that here. Otherwise, you can leave them as they are.
+
+>Note: In Sub-Template option, you have to choose **bootstrap3** if your bootstrap version is 3x. Leave it as **--Default--** if bootstrap version is 2x
 
 #### Item View options in category listings
 Check the image below:
@@ -103,6 +105,14 @@ This image shows the options you have to set the configuration for a product on 
 ![Item View Options](product_layout_item_view_options_2.png)
 
 Using this parameters, you can determine what are the details and how they should be displayed in the online shop.
+
+Apart from these four tabs, there are four more tabs and they should be left with the default settings. You need not worry about that.
+
+Now, Save the item by clicking the **Save & Close** button. You will get the screen as shown in the image below.
+
+![Product Layout Create Success](product_layout_create_success.png)
+
+Now, let us see how this is viewed in the shopping page. 
 
 
 
