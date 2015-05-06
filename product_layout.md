@@ -33,6 +33,13 @@ Your menu item is selected and the link is also created automatically. click on 
 
 Now, go to next tab, **Common Options**.
 
+![Common_Options](product_layout_create_common_options.png)
+
+This tab has the common settings for all items. If you want to show images for product options or if you want to add some custom CSS code, you can do that here. Otherwise, you can leave them as they are.
+
+Next tab is 'Item View options in category listings'. Check the image below:
+
+
 
 
 
