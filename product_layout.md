@@ -46,7 +46,13 @@ In this tab, you are setting the configuration for how to display the product in
 You can display any number of products as you like in the shop. Enter the no of products to be displayed in the text box provided and the number of columns in which the product display is divided.
 As the no of products increases, the image display size will be decreased. 
 
+Also, select all other options as per your choice. Refer the next image.
 
+![view_category_listing](product_layout_view_category_2.png)
+
+From the image you can see that there are many options available to set the price, image, size of the image and many more attributes.
+
+Next image shows the filters. 
 
 
 
