@@ -114,8 +114,12 @@ Now, Save the item by clicking the **Save & Close** button. You will get the scr
 
 Now, let us see how this is viewed in the shopping page. 
 
+![Home page](product_layout_frontend_home.png)
 
+In this image, you can see that the new menu item created is listed in the top with the other menu items. You can click that to see the products of your store, like the image below.
 
+![Shopping page](product_layout_frontend_apparel.png)
 
+In this page, you can see the product layout features. The filters are positioned in the right side as per the selected choice. You have the option to filt by price, brand, vendor etc. The regular and special prices are also displayed along with discount percentage variation. 
 
 
