@@ -52,7 +52,21 @@ Also, select all other options as per your choice. Refer the next image.
 
 From the image you can see that there are many options available to set the price, image, size of the image and many more attributes.
 
-Next image shows the filters. 
+Next image shows the filters.
+
+![View_category_listing](product_layout_view_category_3.png)
+
+Filters help narrow the search for a particular product. There are many filters available for the search. 
+
+* Sort Filter
+* Search Box
+* Category Filter
+* Price Filter
+* Product Filter
+* Manufacturer / Brand Filter
+* Vendor Filter
+
+One or more filters can be applied as per the needs of the customer.
 
 
 
