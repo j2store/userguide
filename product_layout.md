@@ -41,8 +41,10 @@ Next tab is 'Item View options in category listings'. Check the image below:
 
 ![View_category_listing](product_layout_view_category_1.png)
 
-In this tab, you are setting the configuration for how to display the product in the cart and what are the features and options to display with the product.
+In this tab, you are setting the configuration for how to display the product in the cart and the features and options to display with the product.
 
+You can display any number of products as you like in the shop. Enter the no of products to be displayed in the text box provided and the number of columns in which the product display is divided.
+As the no of products increases, the image display size will be decreased. 
 
 
 
