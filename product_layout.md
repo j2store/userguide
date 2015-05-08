@@ -53,7 +53,7 @@ As the no of products increases, the image display size will be decreased.
 
 Also, select all other options as per your choice. Refer the next image.
 
-![view_category_listing](product_layout_view_category_2.png)
+![View Category Listing](product_layout_view_category_2.png)
 
 From the image you can see that there are many options available to set the price, image, size of the image and many more attributes.
 
