@@ -159,6 +159,6 @@
 * [Integrations](integrations.md)
    * [Zoo](zoo.md)
    * [SobiPro](sobipro.md)
-   * K2
+   * [K2](k2.md)
 * [Short Codes](short_codes.md)
 
