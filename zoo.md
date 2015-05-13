@@ -57,8 +57,6 @@ IMPORTANT: Click **Save**. Only then you can see the product related fields.
 
 After save, you will able to see **J2Store cart** tab there and you can enter the details about the product.
 
- ![](step_6.png)
-
 Save changes.
 
 #### Frontend Customization Instructions
