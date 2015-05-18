@@ -1,4 +1,4 @@
-# Skrill Payment Plugin for J2Store
+# Skrill Payment Plugin
 
 #### Introduction
 The Skrill Payment Plugin for J2store to pay online transaction amount for a product.
