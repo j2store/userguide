@@ -130,6 +130,7 @@
    * [Secure Trading Plugin](secure_trading.md)
    * [Sermepa Payment Plugin](sermepa_payment_plugin.md)
    * [Sisow Payment Plugin](sisow_payment_plugin.md)
+   * [Skrill Payment Plugin](skrill_payment_plugin.md)
    * [Sofort Banking](sofort_banking.md)
    * [Stripe Payment Plugin](stripe_payment_plugin.md)
    * [Telecash Payment Plugin](telecash_payment_plugin.md)
