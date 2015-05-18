@@ -1,0 +1,2 @@
+# Skrill Payment Plugin
+
