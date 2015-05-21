@@ -122,11 +122,19 @@ In this image, you can see that the new menu item created is listed in the top w
 
 In this page, you can see the product layout features. The filters are positioned in the right side as per the selected choice. You have the option to filt by price, brand, vendor etc. The regular and special prices are also displayed along with discount percentage variation. 
 
+Let us see how images are added in the backend and how they are displayed in frontend view.
+
+Consider the image below:
+
+![add images](salad_add_images.png)
+
+In the image, you can see Main and Additional images added to the product configuration. When you configure your product, you will add images of the product for its view in the cart. You add main image of the product for the main view supported with additional images.
+
 Check the image below: 
 
 ![additional images](prod_layout_addnl_images.png)
 
-When you configure your product, you will add images of the product for its view in the cart. You add main image of the product for the main view supported with additional images. When you click on the product, it will be displayed with large image and additional images displayed below in small size. When you hover over the small images, you can see them in place of the main image. The below image explains this activity.
+When you click on the product, it will be displayed with large image and additional images displayed below in small size. When you hover over the small images, you can see them in place of the main image. The below image explains this activity.
 
 ![additional image 1](prod_layout_addnl_images_1.png)
 
