@@ -148,7 +148,7 @@
        * [Weight based per item](weight_based_per_item.md)
        * [Price based per item](price_based_per_item.md)
    * [Shipping Plugins](shipping_plugins.md)
-       * DHL Shipping Plugin
+       * [DHL Shipping Plugin](dhl_shipping_plugin.md)
        * [Timed Shipping Plugins](timed_shipping_plugins.md)
        * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
        * [UPS Shipping Plugin](ups_shipping_plugin.md)
