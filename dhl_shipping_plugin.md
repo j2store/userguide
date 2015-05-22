@@ -26,18 +26,19 @@ This plugin integrates DHL Shipping Rate API with J2Store.
 	This is your DHL Account Number associated with your DHL accout.
 
 4. **Test Mode:**
-	1. NO for “live Account” 
-	2. Yes for “Test Account” 
-		Before going live, you can test your store using the Test mode. IN LIVE SITE , THIS	SHOULD BE SET TO “NO”.
+	Before going live, you can test your store using the Test mode. If you want to test, set this option to **Yes**, otherwise set it to **No.**
+
+>IN LIVE SITE , THIS	SHOULD BE SET TO “NO”.
 
 5. Show Date/Time:
-	Set to Yes for display delivery Date/Time in DHL service.
+	To display the delivery Date/Time in DHL Service, set this option to **Yes.**
 
 6. Tax class:
-	If you want to add tax rate for your shipping, Select tax profile.
+	To apply tax on your shipping cost, please select the relevant Tax profile. If there is no tax applicable on shipping cost, you can ignore this field or leave it blank.
+
 
 7. Geo Zone:
-	By selecting a geozone here, you can restrict this Shipping method from showing to customers from only that geo-region. Choose All geozones to show this method to all customers.
+    You can restrict the use of this shipping plugin to a particular geozone by selecting it in this option. Choose All geozones to show this method to all customers.
 
 8. Handling cost:
 	If you need to charge an additional handling fee, enter the handling cost in this field.
