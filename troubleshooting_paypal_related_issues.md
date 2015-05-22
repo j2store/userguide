@@ -19,6 +19,15 @@ The IPN may not reach your site, if :
 2. Host your site
 3. Set the Checkout menu access level to Public
 4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host
+
+if your site or your hosting server has a firewall (you can check with your host), then you may have to whitelist the Paypal's server IPs
+
+Here you can get a list of IPs used by the Paypal servers
+https://ppmts.custhelp.com/app/answers/detail/a_id/92
+
+Paypal makes a remote post (IPN) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
+
+
 5. Enable the IPN in your Paypal account. 
 
 Login to your Paypal account
@@ -37,7 +46,9 @@ http://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPaym
 
 NOTE: Replace <YOUR_DOMAIN> with your website. E.g: www.example.com
 
-
+**Still no luck, check the IPN History**
+Login to your paypal account and go to History -> IPN history. Check the recent IPN history and check the status.
+If possible take a screenshot and contact our support team.
 
 ### 2. Order status Failed
 
@@ -116,7 +127,7 @@ Please follow the steps:
 
 Please try the following:
 
-1. Log-in to your Paypal sandbox account
+1. Log-in to your Paypal account
 2. Click Profile
 3. Under Selling Preferences, click Payment Receiving Preferences
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
