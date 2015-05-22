@@ -28,12 +28,12 @@ This plugin integrates DHL Shipping Rate API with J2Store.
 4. **Test Mode:**
 	Before going live, you can test your store using the Test mode. If you want to test, set this option to **Yes**, otherwise set it to **No.**
 
->IN LIVE SITE , THIS	SHOULD BE SET TO “NO”.
+    >IN LIVE SITE , THIS	SHOULD BE SET TO “NO”.
 
 5. **Show Date/Time:**
 	To display the delivery Date/Time in DHL Service, set this option to **Yes.**
 
-6. **Tax class:**
+6. **Tax Profile:**
 	To apply tax on your shipping cost, please select the relevant Tax profile. If there is no tax applicable on shipping cost, you can ignore this field or leave it blank.
 
 7. **Geo Zone:**
@@ -42,9 +42,11 @@ This plugin integrates DHL Shipping Rate API with J2Store.
 8. **Handling cost:**
 	If handling charges need to be applied, it can be done by entering the amount in this field.
 
-9.** Debug Mode:**
-	Enable/Disable Log file for Debug DHL Shipping Plugin. This Must set to “NO” in Live Site.
+9. ** Debug Mode:**
+	Enable/Disable Log file to Debug DHL Shipping Plugin.     
+    >Set this to **NO** in Live Site.
 
-Support
-	Still have questions? You can reach us in support@j2store.org 
+### Support
+Still have questions? You can reach us in **support@j2store.org** 
+
 Thank you for using our extension.
