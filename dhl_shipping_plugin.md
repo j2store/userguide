@@ -30,20 +30,19 @@ This plugin integrates DHL Shipping Rate API with J2Store.
 
 >IN LIVE SITE , THIS	SHOULD BE SET TO “NO”.
 
-5. Show Date/Time:
+5. **Show Date/Time:**
 	To display the delivery Date/Time in DHL Service, set this option to **Yes.**
 
-6. Tax class:
+6. **Tax class:**
 	To apply tax on your shipping cost, please select the relevant Tax profile. If there is no tax applicable on shipping cost, you can ignore this field or leave it blank.
 
-
-7. Geo Zone:
+7. **Geo Zone:**
     You can restrict the use of this shipping plugin to a particular geozone by selecting it in this option. Choose All geozones to show this method to all customers.
 
-8. Handling cost:
-	If you need to charge an additional handling fee, enter the handling cost in this field.
+8. **Handling cost:**
+	If handling charges need to be applied, it can be done by entering the amount in this field.
 
-9. Debug Mode:
+9.** Debug Mode:**
 	Enable/Disable Log file for Debug DHL Shipping Plugin. This Must set to “NO” in Live Site.
 
 Support
