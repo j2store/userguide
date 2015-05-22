@@ -18,15 +18,14 @@ The IPN may not reach your site, if :
 1. Go to Joomla admin - Global configuration. Set **Site Offline** to No
 2. Host your site
 3. Set the Checkout menu access level to Public
-4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host
-
+4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host. 
+ 
 if your site or your hosting server has a firewall (you can check with your host), then you may have to whitelist the Paypal's server IPs
 
 Here you can get a list of IPs used by the Paypal servers
 https://ppmts.custhelp.com/app/answers/detail/a_id/92
 
 Paypal makes a remote post (IPN) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
-
 
 5. Enable the IPN in your Paypal account. 
 
