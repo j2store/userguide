@@ -148,10 +148,10 @@
        * [Weight based per item](weight_based_per_item.md)
        * [Price based per item](price_based_per_item.md)
    * [Shipping Plugins](shipping_plugins.md)
+       * DHL Shipping Plugin
        * [Timed Shipping Plugins](timed_shipping_plugins.md)
        * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
        * [UPS Shipping Plugin](ups_shipping_plugin.md)
-       * DHL Shipping Plugin
    * [Trouble Shooting Shipping Plugins Issues](trouble_shooting_shipping_plugins_issues.md)
 * [Custom Fields](custom_fields.md)
    * Basic tax set up
