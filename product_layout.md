@@ -128,7 +128,7 @@ Consider the image below:
 
 ![add images](salad_add_images.png)
 
-In the image, you can see Main and Additional images added to the product configuration. When you configure your product, you will add images of the product for its view in the cart. You add main image of the product for the main view supported with additional images.
+In the image, you can see Main and Additional images added to the product configuration. When you configure your product, you will add images of the product for its view in the cart. You add main image of the product for the main view supported with additional images. Let us now check how it is viewed in the front end.
 
 Check the image below: 
 
