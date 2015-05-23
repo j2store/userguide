@@ -18,7 +18,7 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 ### Add Custom Field 
 1. In the backend, go to Components -> Seblod.
 
-2.Click on the icon "Forms & Content Type". Click on the 
+2.Click on the icon "Forms & Content Type". Click on the admin menu link "Construction" then "Forms & Content Types".
 
 3. In the "Form & Content Type Manager", you should click on the item "Article".
 
