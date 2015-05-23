@@ -59,9 +59,9 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 1.  Go to Jooml admin Control panel -> Choose the Menu -> Menus ->Menu Manager -> Menu Item ->New 
     
    a.Enter the Menu Title.
-    
+![Step 1.a ](step-16-a.png)    
    b.Choose the Menu Item type "Seblod" -> choose " List & Search" .
-![](step-16-a.png)
+
    c. You will see Search Type input, select Articles from the  List.
   d. Save the changes.
 
