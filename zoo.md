@@ -70,7 +70,11 @@ Save changes.
 
 3. Now you can see J2Store Cart in the layout list, you have to drag the J2storecart from the right to the left side in your desired area. 
 
-![![](step_7.png)](step_final.png)
+![](front_end_drag_the_element.png)
+
+![](front-step_7.png)
+
+
 
 4. Save changes.
 		
