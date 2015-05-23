@@ -25,7 +25,10 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 
 3. Now we have to add j2store custom field to the "Article" content type, click on the "+" (button is placed at the right of the "Contruction"  block).A Form in window popup appears.
 
-4. 
+4. To add a "Text" field to an "Article" content type:
+5. Choose App Folde "Seblod": then choose type "J2store" field.
+6. Save the changes.Now J2store field will appear under the Fulltext field (at the bottom of your form on the first tab) 
+
 
 
  
