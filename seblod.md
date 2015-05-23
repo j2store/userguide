@@ -47,5 +47,8 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 
 10. Add New Article->, Enter the title and other required fields, Save the article Once.You can Click the J2Store cart Tab -> Set "Yes" to Treat as Product and choose the type of the product Save the changes.
 
+ 
+
+
 
  
