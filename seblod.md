@@ -45,5 +45,7 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 ![Step 8](step-10.png)
 
 
+9.
+
 
  
