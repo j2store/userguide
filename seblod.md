@@ -14,8 +14,7 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 #### Installation Instructions 
 1. Use the Joomla Extension manager to install the plugin.
 
-
-### Adding J2Store Field 
+#### Adding J2Store Field 
 1. In the backend, go to Components -> Seblod, as shown in the image below:
 
 ![step 1](step-1.png)
@@ -43,7 +42,10 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 
 8. Now save and close the article.Click on the Add Content Button at the bottom of the page.
  ![Step 8](step-10.png)
-9. 
+9. Now Choose the article Icon from the  pop up window.
+![Step 9](step-11.png)
+
+10. Add New Article->, Enter the title and other required fields, Save the article Once.You can Click the J2Store cart Tab -> Set "Yes" to Treat as Product and choose the type of the product Save the changes.
 
 
  
