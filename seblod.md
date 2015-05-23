@@ -15,19 +15,18 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 1. Use the Joomla Extension manager to install the plugin.
 
 
-### Add Custom Field 
-1. In the backend, go to Components -> Seblod.
-
 ### Adding J2Store Field 
-1. Click on the icon "Forms & Content Type". Click on the admin menu link "Construction" then "Forms & Content Types".
+1. In the backend, go to Components -> Seblod.
+2. Click on the icon "Forms & Content Type". Click on the admin menu link "Construction" then "Forms & Content Types".
+3. In the "Form & Content Type Manager", you should click on the item "Article".
 
-2. In the "Form & Content Type Manager", you should click on the item "Article".
+4. Now we have to add j2store custom field to the "Article" content type, click on the "+" (button is placed at the right of the "Contruction"  block).A Form in window popup appears.
 
-3. Now we have to add j2store custom field to the "Article" content type, click on the "+" (button is placed at the right of the "Contruction"  block).A Form in window popup appears.
+5. To add a "Text" field to an "Article" content type:
 
-4. To add a "Text" field to an "Article" content type:
-5. Choose App Folde "Seblod": then choose type "J2store" field.
-6. Save the changes.Now J2store field will appear under the Fulltext field (at the bottom of your form on the first tab) 
+6. Choose App Folde "Seblod": then choose type "J2store" field.
+
+7. Save the changes.Now J2store field will appear under the Fulltext field (at the bottom of your form on the first tab) .
 
 
 
