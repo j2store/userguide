@@ -46,6 +46,12 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 ![Step 9](step-11.png)
 
 10. Add New Article->, Enter the title and other required fields, Save the article Once.You can Click the J2Store cart Tab -> Set "Yes" to Treat as Product and choose the type of the product Save the changes.
+ 
+
+
+11. Now you can Configure your product,Set "Yes" for Visible in store to view at frontend.
+
+![Step 11](step-12.png)
 
  
 
