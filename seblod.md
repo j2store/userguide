@@ -40,5 +40,10 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 7. Save the changes.Now J2store field will appear under the Fulltext field (at the bottom of your form on the first tab) .
 ![Step 7](step-9.png)
 
-###
+8. Now save and close the article.Click on the Add Content.
+
+![Step 8](step-10.png)
+
+
+
  
