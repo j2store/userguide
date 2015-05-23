@@ -1,0 +1,2 @@
+# Standard Shipping Method examples
+
