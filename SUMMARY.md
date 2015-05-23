@@ -147,6 +147,7 @@
        * [Flat rate per item](flat_rate_per_item.md)
        * [Weight based per item](weight_based_per_item.md)
        * [Price based per item](price_based_per_item.md)
+    * [Standard Shipping Method examples](standard_shipping_method_examples.md)
    * [Shipping Plugins](shipping_plugins.md)
        * [DHL Shipping Plugin](dhl_shipping_plugin.md)
        * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
