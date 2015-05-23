@@ -50,7 +50,6 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 ![Step 12](step-add-product.png)
 
 11. Now you can Configure your product,Set "Yes" for Visible in store to view at frontend.
-
 ![Step 11](step-12.png)
 
  
