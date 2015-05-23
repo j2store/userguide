@@ -81,7 +81,7 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 
 4.Now you can add the product to the cart. Finally you can see Item added to the Cart .
 
-
+![Step 15](step-15.png)
 
  
 
