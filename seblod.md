@@ -71,7 +71,9 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 
   d. Save the changes.
   
-  
+2. Finally you can see the list of articles from Menu you created and frontend.  
+
+
 
 
  
