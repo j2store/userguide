@@ -164,6 +164,6 @@
    * [Zoo](zoo.md)
    * [SobiPro](sobipro.md)
    * [K2](k2.md)
-   * [seblod](seblod.md)
+   * [Seblod](seblod.md)
 * [Short Codes](short_codes.md)
 
