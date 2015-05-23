@@ -67,12 +67,13 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 ![Step 2.a](step-16-b.png)
 
    c. You will see Search Type input, select Articles from the  List.
-![](step-16-c.png)
+![Step 2.c](step-16-c.png)
 
   d. Save the changes.
   
 2. Finally you can see the list of articles from Menu you created and frontend.  
 
+![Step 13](step-13.png)
 
 
 
