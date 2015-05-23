@@ -61,8 +61,9 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
    a.Enter the Menu Title.
 ![Step 1.a ](step-16-a.png)    
    b.Choose the Menu Item type "Seblod" -> choose " List & Search" .
-
+![Step 2.a](step-16-b.png)
    c. You will see Search Type input, select Articles from the  List.
+
   d. Save the changes.
 
 
