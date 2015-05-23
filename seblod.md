@@ -29,5 +29,5 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 7. Save the changes.Now J2store field will appear under the Fulltext field (at the bottom of your form on the first tab) .
 
 
-
+###
  
