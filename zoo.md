@@ -74,8 +74,6 @@ Save changes.
 
 ![](front-step_7.png)
 
-
-
 4. Save changes.
 		
 5. To see Cart at front end, create Zoo Menu Item for the Zoo Articles.
