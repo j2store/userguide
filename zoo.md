@@ -9,7 +9,7 @@ The plugin integrates Zoo content construction kit with J2Store, thus adding eco
 * Joomla 3.x
 * J2Store 3 or above
 * Zoo 
-* j2store_zoo_unzip_first
+* j2store_zoo_unzip_first(Extract this package to get installation packages )
     1. Item J2Store ( plg_itemjtwostore )
     2. System Zoo J2Store ( plg_system_zooj2store ) 
 
