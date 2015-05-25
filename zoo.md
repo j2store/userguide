@@ -9,8 +9,11 @@ The plugin integrates Zoo content construction kit with J2Store, thus adding eco
 * Joomla 3.x
 * J2Store 3 or above
 * Zoo 
+* Item J2Store ( plg_itemjtwostore )
+* System Zoo J2Store ( plg_system_zooj2store ) 
 
 #### Installation Instructions 
+1. Unzip the Package download from the site .
 1. Use the Joomla Extension manager to install the plugin. 
 
 2. In the backend, go to Components -> Zoo. Click on the Setting Icon.
