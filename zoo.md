@@ -18,7 +18,7 @@ The plugin integrates Zoo content construction kit with J2Store, thus adding eco
 2. Use the Joomla Extension manager to install both the  plugins one by one. 
  
 ### Enable System Zoo J2Store Plugin
-3. Go to Extensions->Plugin Manager -> Select the Plugin and enable the System Plugin.
+3. Go to Extensions->Plugin Manager -> Select the Plugin "System Zoo J2Store"  and enable the System Plugin.
 
 2. In the backend, go to Components -> Zoo. Click on the Setting Icon.
  
