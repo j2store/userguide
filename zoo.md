@@ -13,6 +13,10 @@ The plugin integrates Zoo content construction kit with J2Store, thus adding eco
 * System Zoo J2Store ( plg_system_zooj2store ) 
 
 #### Installation Instructions 
+
+###Note:
+When you download the Zoo Plugin You will have the package named "j2store_zoo_unzip_first", if you unzip the package you will find to zipped package .These two package are most important and need to be installed and to be enabled.
+
 1. Unzip the Package "j2store_zoo_unzip_first.tar.gz" download from the site.Now, you will have two packages plg_itemjtwostore.tar.gz, plg_system_zooj2store.tar.gz.
  
 2. Use the Joomla Extension manager to install both the  plugins one by one. 
