@@ -8,12 +8,20 @@ This plugin integrates SobiPro directory component with J2Store, thus adding eco
 * Joomla 3.x
 * J2Store 3 or above
 * Sobipro
+* Application_j2store_sobipro
+* plg_system_spj2store
 
 #### Installation Instructions 
+* Note: When you download the Sobipro Plugin You will have the package named "j2store_sobipro_unzip",if you unzip the package you will find to zipped package .These two package are most important and need to be installed and t be enabled.
+    
+##### Installing System Plugin
+
+1.Go to Joomla backend -> got Joomla Extension manager ->
+
+##### Installing J2Store Application
 1. In the backend, go to Components -> SobiPro -> Application Manager -> Here you can find an input for installing application  “Select Application”
 
 ![](sobipro_step_1.png)
-
 
 ![](sobipro_step_2.png)
 
