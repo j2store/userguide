@@ -14,7 +14,7 @@ This plugin integrates SobiPro directory component with J2Store, thus adding eco
 
 #### Installation Instructions 
 ####Note: 
-When you download the Sobipro Plugin You will have the package named "j2store_sobipro_unzip", if you unzip the package you will find to zipped package .These two package are most important and need to be installed and t be enabled.
+When you download the Sobipro Plugin,you will have the package named "j2store_sobipro_unzip", if you unzip the package you will find two zipped package .These two package are most important and need to be installed and t be enabled.
     
 ##### Installing System Plugin
 
