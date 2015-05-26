@@ -31,5 +31,5 @@ Enter the name for the geozone as **Default Geozone** and select country and zon
 ![new std ship method](std_ship_mthds_list.png)
 
 9. You will get a pop-up window to set the rates for the shipping method, as shown below.
-![Set Rates](std_ship_method_set_rate.png)
+
 
