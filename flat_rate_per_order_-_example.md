@@ -9,7 +9,7 @@ To create a shipping method of type **Flat rate per Order**, follow the steps gi
 
 2. Go to **J2Store Dashboard -> Localization -> Geozones** and click on the **New** button in the top left corner to create new geozone, as shown in the image. 
 ![Create Geozone](create_geozone.png)
-Enter the name for the geozone as **Default Geozone** and select country and zone as **United States** and **California** respectively, as shown below.
+Enter the name for the geozone as **Default Geozone** and select country and zone as **United States** and **California** respectively, as shown below. Click **Save & Close**.
 ![geozone](geozone_creation.png)
 
 3. Go to **J2Store Dashboard -> Setup**
