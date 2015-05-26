@@ -25,11 +25,16 @@ Enter the name for the geozone as **Default Geozone** and select country and zon
 ![create new](std_ship_methods_create.png)
 
 7. You will get the form to add a new shipping method
-![details](std_ship_method_details.png)
+![Shipping Method Details](ship_method_add_values.png)
+>IMPORTANT NOTE: The Shipping address is over-ridden with store address for a flat rate of shipping cost. If over-ride option is set to **No**, then customers in **California** only can avail this method and customers in rest of the country will not be charged with shipping cost.
 
 8. **Save & Close** window. Now you can see the created shipping method in the list as show in the image below. Now, you need to set the rate for the shipping method. To do that, click on the link **Set Rates**.
 ![new std ship method](std_ship_mthds_list.png)
 
-9. You will get a pop-up window to set the rates for the shipping method, as shown below.
+9. You will get a pop-up window to set the rates for the shipping method, as shown below. 
+![Set Rate](std_ship_method_set_rate.png)
 
+Now all are set and your shipping method is ready.
+
+ 
 
