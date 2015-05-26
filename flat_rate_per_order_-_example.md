@@ -16,4 +16,10 @@ To create a shipping method of type **Flat rate per Order**, follow the steps gi
 
 5. You will get the form to add a new shipping method
 ![details](std_ship_method_details.png)
-6. 
+
+6. **Save & Close** window. Now you can see the created shipping method in the list as show in the image below.
+![new std ship method](std_ship_mthds_list.png)
+
+Now, you need to set the rate for the shipping method. To do that, click on the link **Set Rates**.
+
+7. 
