@@ -6,7 +6,7 @@
 You have installed the shipping plugin but it doesn't show up during the checkout. Here are a list of reasons that might be preventing the plugin from fetching shipping cost real-time from the APIs of the Shipping carrier.
 
 #### Currency
-In USPS shipping plugin, if the shipping server is queried, the server will return the list of options and their corresponding rates in US $. The shipping plugin will not work if you have configured a currency other than the US $, like CAD or AUD. To get rid of this problem, you should create a  currency as USD in your list of currencies. This will solve the issue.
+In USPS shipping plugin, if the shipping server is queried, the server will return the list of options and their corresponding rates in US $. The shipping plugin may not show the rates if USD is not present in your list of currencies and you have configured a currency other than the US $, like CAD or AUD. To avoid this issue, you must have USD as a currency  in your list of currencies. This will solve the issue.
 
 #### Enable Shipping
 
