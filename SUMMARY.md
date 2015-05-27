@@ -147,7 +147,7 @@
        * [Flat rate per item](flat_rate_per_item.md)
        * [Weight based per item](weight_based_per_item.md)
        * [Price based per item](price_based_per_item.md)
-   * [Standard Shipping Method examples](standard_shipping_method_examples.md)
+   * [Examples for Standard Shipping Methods](standard_shipping_method_examples.md)
        * [Flat Rate per Order - Example](flat_rate_per_order_-_example.md)
        * Quantity based per Order
    * [Shipping Plugins](shipping_plugins.md)
