@@ -1,6 +1,6 @@
 # Products
 
-**J2Store** implements an **innovative concept** in creating products. It uses the ***Joomla articles as products***. So, to ***create a product is to create an article.***
+**J2Store** implements an **innovative concept** in creating products. It uses the ***Joomla articles as products***. So, to ***create an article is to create a product.***
 
 This page describes about the different product types, how to create them etc.
 
