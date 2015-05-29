@@ -2,11 +2,6 @@
 
 Let us see some examples for creating Standard Shipping Methods. 
 
-* **Flat rate per order**
-* **Quantity based per order**
-* **Weight based per order**
-* **Price based per order**
-* **Flat rate per item**
-* **Weight based per item**
-* **Price based per item**
-
+* **[Flat rate per order](http://j2store.gitbooks.io/user-guide/content/flat_rate_per_order_-_example.html)**
+* **[Quantity based per order](http://j2store.gitbooks.io/user-guide/content/quantity_based_per_order_-_example.html)**
+* **[Weight based per order](http://j2store.gitbooks.io/user-guide/content/weight_based_per_order_-_example.html)**
