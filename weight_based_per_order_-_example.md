@@ -21,4 +21,16 @@ Enter the name for the geozone as **Default Geozone** and select country and zon
 5. From the list, click on the **Create / Edit / Link** in the **Standard Shipping Methods** category
 ![list of methods](list _of_shipping_methods.png)
 
-6. From the obtained window, click on the **New** button
+6. From the window you get after you follow the previous step, click on the **New** button in the right side, as indicated in the image below.
+![shipping methods](ship_methods_list.png)
+
+7. You will get the form to create new shipping method. Fill in the details as shown in the image.
+![Add shipping method](add_weight_ship_mthd.png)
+
+8. **Save & Close** window. Now you can see the created shipping method in the list as show in the image below. Now, you need to set the rate for the shipping method. To do that, click on the link **Set Rates**.
+![list of methods](add_weight_ship_mthd_list.png)
+
+9. You will get a pop-up window to set the rates for the shipping method, as shown below. 
+![Set shipping rate](weight_ship_set_rate.png)
+
+Now all are set and your shipping method is ready for use.
