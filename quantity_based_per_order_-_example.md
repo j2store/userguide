@@ -33,7 +33,7 @@ Enter the name for the geozone as **Default Geozone** and select country and zon
 9. You will get a pop-up window to set the rates for the shipping method, as shown below. 
 ![Set rate](set_rate_qty_based.png)
 
-Now all are set and your shipping method is ready.
+Now all are set and your shipping method is ready for use.
 
 
 
