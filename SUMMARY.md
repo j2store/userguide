@@ -150,7 +150,7 @@
    * [Examples for Standard Shipping Methods](standard_shipping_method_examples.md)
        * [Flat Rate per Order - Example](flat_rate_per_order_-_example.md)
        * [Quantity based per Order - Example](quantity_based_per_order_-_example.md)
-       * Weight based per order - Example
+       * Weight based per Order - Example
    * [Shipping Plugins](shipping_plugins.md)
        * [DHL Shipping Plugin](dhl_shipping_plugin.md)
        * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
