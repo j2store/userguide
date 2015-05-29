@@ -34,12 +34,3 @@ Enter the name for the geozone as **Default Geozone** and select country and zon
 ![Set rate](set_rate_qty_based.png)
 
 Now all are set and your shipping method is ready for use.
-
-
-
-
-
-
-
-
-
