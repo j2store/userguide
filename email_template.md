@@ -53,13 +53,20 @@ The facilities that are available in the editor:
 
 Full articles can also be added to the content, from other external sources.
 
-There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content. See the image below for an example.
-
-![Email Template](email_template.png)
-
 In **Template List**, you can have a list of templates in the form of .php files. You can select from the available one in the advanced tab.
 
 ### Advanced
-In **Advanced Tab**, you can select the **Template File** and you can see the **Source** of the file, as shown below.
+If you have selected **Simple Editor** in the **Basic Tab**, then the **Advanced Tab** will look like the below image.
 
+![Email Template](email_template.png)
+
+There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content.
+
+If you have selected **Template Files** in the **Basic Tab**, then in the **Advanced Tab**, you can select the **Template File** and you can see the **Source** of the file, as shown below.
+
+![](email_template_advanced.png)
+
+The source code of the template file is shown below in the editor and if the user wants to make any changes, they can make as they wish.
+
+![](email_template_advanced_1.png)
 
