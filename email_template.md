@@ -27,8 +27,12 @@ A short one line info about the content of the email.
 
 Now, Advanced.
 ### Advanced
-In advanced settings, we have the email body content. The content of the email body can be designed here. There are so many options available to customize the content. There is a rich text editor to neatly customize the content.
-The facilities that are available in the editor are:
+**Advanced** has two options to select from.
+1. **Simple Editor**
+2. **Template List**
+
+In **Simple Editor**, we have the email body content. The content of the email body can be designed here. There are so many options available to customize the content. There is a rich text editor that helps formatting the content.
+The facilities that are available in the editor:
 * Cut, Copy, Paste
 * Insert links or images
 * Formatting the text in the body like, bold, italicize, line spacing, underlining, and much more
