@@ -2,12 +2,23 @@
 
 A template, or in other terms, a predefined layout, is necessary to make things easy when you're about to email a customer about the status of the order, or the invoice generated for the order, etc. The fields that are required for an email template are explained briefly here.
 
-There are two settings pages to be filled up for creating an email template. They are 
+To create an email template, follow the steps as shown with the help of images.
+
+![new](email_template_create_new.png)
+
+From the resulting page, click on **New** in the top left corner.
+
+![](email_template_create_new_1.png)
+
+You will get two settings tabs to be filled up for creating an email template. They are 
 * Basic
 * Advanced
 
 ### Basic
 The fundamental requirements of a template. Let us see one by one.
+
+![](email_template_create_basic.png)
+
 #### Language
 The languages for which the template is compliant, is set here. You can select **All** for all languages.
 #### Order Status
@@ -25,13 +36,14 @@ It has to be enabled first to send email.
 #### Subject
 A short one line info about the content of the email.
 
-Now, Advanced.
-### Advanced
-**Advanced** has two options to select from.
+#### Template Body Source
+The source used to design the email template is selected here. There are two options to choose from. They are:
 1. **Simple Editor**
 2. **Template List**
 
-In **Simple Editor**, we have the email body content. The content of the email body can be designed here. There are so many options available to customize the content. There is a rich text editor that helps formatting the content.
+After you select an option from the list, you have to **Save** once. Then only you can set the advanced tab.
+
+In **Simple Editor**, the content of the email body can be designed here. There are so many options available to customize the content. There is a rich text editor that helps formatting the content.
 The facilities that are available in the editor:
 * Cut, Copy, Paste
 * Insert links or images
@@ -44,3 +56,10 @@ Full articles can also be added to the content, from other external sources.
 There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content. See the image below for an example.
 
 ![Email Template](email_template.png)
+
+In **Template List**, you can have a list of templates in the form of .php files. You can select from the available one in the advanced tab.
+
+### Advanced
+In **Advanced Tab**, you can select the **Template File** and you can see the **Source** of the file, as shown below.
+
+
