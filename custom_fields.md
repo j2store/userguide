@@ -2,7 +2,7 @@
 
 These are created for additional details to be used in checkout processes that involves billing, payment, shipping etc. For instance, 'last name' of a customer is not required for billing but it is required for shipment. So, it is created as a custom field and made to be displayed in shipping address.
 
-There are two types of custom fields, namely, **Core custome fields** and **Non-Core custom fields**.
+There are two types of custom fields, namely, **Core custom fields** and **Non-Core custom fields**.
 
 Custom fields that are in J2Store by default are **Core** custom fields and that are created by users are **Non-Core** custom fields.
 
