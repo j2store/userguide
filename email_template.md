@@ -1,6 +1,6 @@
 # Email Template
 
-A template, or in other terms, a predefined layout, is necessary to make things easy when you're about to email a customer about the status of the order, or the invoice generated for the order, etc. The fields that are required for an email template are explained briefly here.
+A template, or in other terms, a predefined layout, is necessary to make things easy when you're about to email a customer, the status of the order, or the invoice generated for the order, etc. The fields required for an email template are explained briefly here.
 
 To create an email template, follow the steps as shown with the help of images.
 
