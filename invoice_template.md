@@ -2,12 +2,12 @@
 
 You can design how your invoice looks here. You can add  a company address, logo, and some additional information in the invoice. You can also show various order information by adding the short tags. The tags will be replaced with relevant information from the order table.
 
-NOTE: In free version, the template comes from the language file.
+>NOTE: In free version, the template comes from the language file.
 In the language file, you can find this constant that holds the invoice template: 
 
-**J2STORE_DEFAULT_INVOICE_TEMPLATE_TEXT**
+>**J2STORE_DEFAULT_INVOICE_TEMPLATE_TEXT**
 
-The constant's value has short tags and html. You can override the text by writing a language override.
+>The constant's value has short tags and html. You can override the text by writing a language override.
 
 #### Creating / Editing Invoice template
 Like email template, here too we have two settings pages to be filled up for creating an invoice template. They are
