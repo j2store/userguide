@@ -47,3 +47,19 @@ Check the image below for how an invoice template can be designed for our needs.
 ![Create Invoice Template](invoice template.png)
 
 Full articles can also be added to the content, from other external sources.
+
+Also, you can add custom fields you have created in the editor. To add a custom field in the editor for display, you need to follow the format given below:
+
+[CUSTOM_BILLING_FIELD:FIELDNAME]
+
+Keep in mind, the following, when you add a custom field to the editor:
+
+* The custom field should be enclosed in []
+* All the letters should be in CAPITAL letters
+* 'CUSTOM' is the first word inside the []
+* Next, the section in which you have created the field, like, 'BILLING_FIELD'
+* And finally, the field name
+
+Refer the image below for more clear understanding.
+
+![](guide-to-add-custom-field.png)
