@@ -74,7 +74,7 @@ The remaining fields after the **Field Type** is selected, will be different bas
 * **Published** - The field has to be published by setting this to '**Yes**' to be displayed
 
 #### Display Settings
-You can choose the layouts to display the field. You can select all the three layouts or any combination of layouts or only one layout. The layouts:
+You can choose the layouts to display the field. You can select all the three layouts or any combination of layouts or only one layout. The layouts are:
 * **Checkout Billing Address Layout**
 * **Checkout Shipping Address Layout**
 * **Checkout Payment Method Layout**
