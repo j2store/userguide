@@ -62,6 +62,22 @@ If you have selected **Simple Editor** in the **Basic Tab**, then the **Advanced
 
 There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content.
 
+Also, you can add custom fields you have created in the editor. To add a custom field in the editor for display, you need to follow the format given below:
+
+[CUSTOM_BILLING_FIELD:FIELDNAME]
+
+Keep in mind, the following, when you add a custom field to the editor:
+
+* The custom field should be enclosed in []
+* All the letters should be in CAPITAL letters
+* 'CUSTOM' is the first word inside the []
+* Next, the section in which you have created the field, like, 'BILLING_FIELD'
+* And finally, the field name
+
+Refer the image below for more clear understanding.
+
+![](guide-to-add-custom-field.png)
+
 If you have selected **Template Files** in the **Basic Tab**, then in the **Advanced Tab**, you can select the **Template File** and you can see the **Source** of the file, as shown below.
 
 ![](email_template_advanced.png)
