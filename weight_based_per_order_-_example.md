@@ -22,6 +22,7 @@ Like this, you can set different rates for shipping outside California, by creat
 | 251 - 500 | 40 | 50 | 50 |
 | 501 - 1000 | 50 | 60 | 65 |
 
+Now, we will see how to create a shipping method based on the weight of the order itmes.
 
 1. Go to **J2Store Dashboard -> Setup -> Configuration** and select the **Store** tab, as shown in the image. Enter the details and ensure that **United States** and **California**, are selected for country and zone, respectively.
 ![Store Details](store_details.png)
