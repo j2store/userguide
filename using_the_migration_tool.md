@@ -27,7 +27,7 @@ Once the migration process is completed, go to Article manager and open these ar
 Once generated, click Edit against each variant and then enter the SKU, Price and Stock.
 
 #### 3.2 Downloadable products
-The tool will migrate all the data of your downlodable products. There are few changes in the structure of the downlodable products in J2Store Version 3.
+The tool will migrate all the data of your downloadable products. There are few changes in the structure of the downloadable products in J2Store Version 3.
 
 ##### 3.2.1 Download Limit
 Earlier, download limit was set against each file. But now, the limit is set per product. Plus, there is an expiry control.
