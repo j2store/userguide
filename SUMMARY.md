@@ -153,7 +153,7 @@
        * [Quantity based per Order - Example](quantity_based_per_order_-_example.md)
        * [Weight based per Order - Example](weight_based_per_order_-_example.md)
    * [Shipping Plugins](shipping_plugins.md)
-       * Bring Shipping Plugin
+       * [Bring Shipping Plugin](bring_shipping_plugin.md)
        * [DHL Shipping Plugin](dhl_shipping_plugin.md)
        * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
        * [Timed Shipping Plugins](timed_shipping_plugins.md)
