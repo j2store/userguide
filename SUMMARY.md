@@ -170,6 +170,6 @@
    * [SobiPro](sobipro.md)
    * [K2](k2.md)
    * [Seblod](seblod.md)
-* Apps
+* [Apps](apps.md)
 * [Short Codes](short_codes.md)
 
