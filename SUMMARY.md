@@ -153,11 +153,11 @@
        * [Quantity based per Order - Example](quantity_based_per_order_-_example.md)
        * [Weight based per Order - Example](weight_based_per_order_-_example.md)
    * [Shipping Plugins](shipping_plugins.md)
+       * Bring Shipping Plugin
        * [DHL Shipping Plugin](dhl_shipping_plugin.md)
        * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
        * [Timed Shipping Plugins](timed_shipping_plugins.md)
        * [UPS Shipping Plugin](ups_shipping_plugin.md)
-       * Bring Shipping Plugin
    * [Trouble Shooting Shipping Plugins Issues](trouble_shooting_shipping_plugins_issues.md)
    * [Common mistakes to avoid when setting up Standard Shipping methods in J2Store](common_mistakes_to_avoid_when_setting_up_standard_shipping_methods_in_j2store.md)
 * [Custom Fields](custom_fields.md)
