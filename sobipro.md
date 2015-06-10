@@ -78,15 +78,16 @@ Save the changes .
 
 ![](final_product_display.png)
 
-#### Controlling Add to cart placement in entry view
+#### Controlling Add to Cart placement in entry view
 
 You can move the J2Store cart block anywhere in the SobiPro entry (Thanks to Radek for the awesome help. He implemented it in fact)
 
-Step 1: Go to Joomla Administrator - J2Store - Set up - Configuration - Cart settings tab
+**Step 1:** Go to Joomla Administrator -> J2Store -> Set up -> Configuration -> Cart settings tab
 Set Add to cart placement to Within Article using tag
 Save and close it.
 
-Step 2: Now go to Sobipro Backend -> Your section ->  Section Templates -> Entry -> details.xsl 
+**Step 2:** Now go to Sobipro Backend -> Your section ->  Section Templates -> Entry -> details.xsl 
+
 This will open the xsl file.
 
 There you can add the following XSL snippet 
