@@ -171,6 +171,6 @@
    * [K2](k2.md)
    * [Seblod](seblod.md)
 * [Apps](apps.md)
-   * Google An
+   * Google Analytics ECommerce Tracking
 * [Short Codes](short_codes.md)
 
