@@ -61,7 +61,7 @@ Fill the required fields and click "Save and exit". After saving the entry you c
 
 ![](step_17_b.png)
 
-Now set "Treat as Product" to 'Yes' and choose the type of the product and click "Save and Exit" once.
+Now set "Treat as Product" to 'Yes' and choose the type of the product and click "Save". If you do not see the page loading the J2Store product editing area, then click "Save and Exit" once.
 
 ![](step_17_c.png)
 
@@ -77,6 +77,26 @@ Save the changes .
 2. Go to your Front end and click on the menu item you have created. You'll see a category page like this, depending on what choices you have made and what template you are using. Go to the category and click on the entries detail view. You can see the J2Store Cart.
 
 ![](final_product_display.png)
+
+#### Controlling Add to cart placement in entry view
+
+You can move the J2Store cart block anywhere in the SobiPro entry (Thanks to Radek for the awesome help. He implemented it in fact)
+
+Step 1: Go to Joomla Administrator - J2Store - Set up - Configuration - Cart settings tab
+Set Add to cart placement to Within Article using tag
+Save and close it.
+
+Step 2: Now go to Sobipro Backend -> Your section ->  Section Templates -> Entry -> details.xsl 
+This will open the xsl file.
+
+There you can add the following XSL snippet 
+```
+<xsl:copy-of select="j2store"/>```
+
+
+
+
+
 
 
 
