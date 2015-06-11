@@ -25,6 +25,6 @@ In this tab, the checkout layout can be set.
     
 For a better understanding, check the image below:
 
-![Checkout Layout](checkout_layout.png)
+![](checkout_layout.png)
     
     
