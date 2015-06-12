@@ -12,11 +12,10 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 * Plguin plg_cck_field_j2store
 
 #### Installation Instructions 
-1. Use the Joomla Extension manager to install the plugin.
+Use the Joomla Extension manager to install the plugin.
 
 #### Adding J2Store Field 
 1. In the backend, go to Components -> Seblod, as shown in the image below:
-
 ![step 1](step-1.png)
 
 2. Click on the icon "Forms & Content Type". Click on the admin menu link "Construction" then "Forms & Content Types".
@@ -26,13 +25,10 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 ![Step 3](step-5.png)
 
 4. Now we have to add j2store custom field to the "Article" content type, click on the "+" (button is placed at the right of the "Contruction"  block).A Form in window popup appears.
-
 ![Step 4](step-6.png)
-
 
 5. To add a "Text" field to an "Article" content type:
 ![Step 5](step-7.png)
-
 
 6. Choose App Folde "Seblod": then choose type "J2store" field.
 ![Step 6](step-8.png)
@@ -42,22 +38,21 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 
 8. Now save and close the article.Click on the Add Content Button at the bottom of the page.
  ![Step 8](step-10.png)
+
 9. Now Choose the article Icon from the  pop up window.
 ![Step 9](step-11.png)
 
 10. Add New Article->, Enter the title and other required fields, Save the article Once.You can Click the J2Store cart Tab -> Set "Yes" to Treat as Product and choose the type of the product Save the changes.
- 
 ![Step 12](step-add-product.png)
 
 11. Now you can Configure your product,Set "Yes" for Visible in store to view at frontend.
-
 ![Step 11](step-12.png)
 
 12. Save the changes.
 
 ### Displaying Products at Front end
 
-1.Go to Jooml admin Control panel -> Choose the Menu -> Menus ->Menu Manager -> Menu Item ->New 
+1. Go to Jooml admin Control panel -> Choose the Menu -> Menus ->Menu Manager -> Menu Item ->New 
 
    a.Enter the Menu Title.
 
@@ -72,15 +67,12 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
   d. Save the changes.
   
 2. Finally you can see the list of articles from Menu you created at frontend.  
-
 ![Step 13](step-13.png)
 
 3. click on the Article title to view the product. 
-
 ![Step 14](step-14.png)
 
-4.Now you can add the product to the cart. Finally you can see Item added to the Cart .
-
+4. Now you can add the product to the cart. Finally you can see Item added to the Cart .
 ![Step 15](step-15.png)
 
  
