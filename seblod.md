@@ -46,8 +46,12 @@ Now scroll down. You will see the integrated j2store product type as shown below
 10. The J2Store element appears at the bottom because, it is placed below the End of the Tab in the construction layout. So we need to rearrange the element to appear in the tabs. Consider the below image:
 ![](rearrange-j2store-element.png)
 
-11. Add New Article->, Enter the title and other required fields, Save the article Once. You can Click the J2Store cart Tab -> Set **Yes** to Treat as Product and choose the type of the product Save the changes.
-![Step 12](step-add-product.png)
+11. We need to add the J2Store element in the tab. To create a tab panel, click on the + sign in the right side and follow the procedure as shown in the image:
+![](create-tab-panel.png)
+In the above image, enter the details as shown and click **Save & Close**. The tab panel will be created. You need to rearrange the tab, as shown below:
+![](replace-j2storetab.png)
+
+You will get the screen as shown below:
 
 12. Now you can Configure your product, Set **Yes** for Visible in store to view at frontend.
 ![Step 11](step-12.png)
