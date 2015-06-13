@@ -36,19 +36,23 @@ Use the Joomla Extension manager to install the plugin.
 7. Save the changes. Now J2store field will appear under the Fulltext field (at the bottom of your form on the first tab).
 ![](create-article-step-4.png)
 
-8. Now save and close the article. Click on the Add Content Button at the bottom of the page.
- ![Step 8](step-10.png)
+8. Save and close the article. 
 
-9. Now Choose the article Icon from the  pop up window.
+9. Go to the menu, **Content** -> **Article Manager** -> **Add New Article**. You will get the screen as shown below:
+![](add-new-article-1.png)
+Now scroll down. You will see the integrated j2store product type as shown below:
+![](add-new-article-2.png)
+
+10. Now Choose the article Icon from the  pop up window.
 ![Step 9](step-11.png)
 
-10. Add New Article->, Enter the title and other required fields, Save the article Once. You can Click the J2Store cart Tab -> Set **Yes** to Treat as Product and choose the type of the product Save the changes.
+11. Add New Article->, Enter the title and other required fields, Save the article Once. You can Click the J2Store cart Tab -> Set **Yes** to Treat as Product and choose the type of the product Save the changes.
 ![Step 12](step-add-product.png)
 
-11. Now you can Configure your product, Set **Yes** for Visible in store to view at frontend.
+12. Now you can Configure your product, Set **Yes** for Visible in store to view at frontend.
 ![Step 11](step-12.png)
 
-12. Save the changes.
+13. Save the changes.
 
 ### Displaying Products at Front end
 
