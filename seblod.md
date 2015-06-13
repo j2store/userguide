@@ -15,7 +15,7 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 Use the Joomla Extension manager to install the plugin.
 
 #### Adding J2Store Field 
-1. In the backend, go to Components -> Seblod, as shown in the image below:
+1. In the backend, go to Components -> SEBLOD 3.x, as shown in the image below:
 ![step 1](step-1.png)
 
 2. Click on the icon "Forms & Content Type". Click on the admin menu link "Construction" then "Forms & Content Types".
