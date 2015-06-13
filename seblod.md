@@ -42,7 +42,7 @@ Use the Joomla Extension manager to install the plugin.
 9. Now Choose the article Icon from the  pop up window.
 ![Step 9](step-11.png)
 
-10. Add New Article->, Enter the title and other required fields, Save the article Once.You can Click the J2Store cart Tab -> Set "Yes" to Treat as Product and choose the type of the product Save the changes.
+10. Add New Article->, Enter the title and other required fields, Save the article Once. You can Click the J2Store cart Tab -> Set "Yes" to Treat as Product and choose the type of the product Save the changes.
 ![Step 12](step-add-product.png)
 
 11. Now you can Configure your product,Set "Yes" for Visible in store to view at frontend.
