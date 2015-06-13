@@ -43,8 +43,8 @@ Use the Joomla Extension manager to install the plugin.
 Now scroll down. You will see the integrated j2store product type as shown below:
 ![](add-new-article-2.png)
 
-10. Now Choose the article Icon from the  pop up window.
-![Step 9](step-11.png)
+10. The J2Store element appears at the bottom because, it is placed below the End of the Tab in the construction layout. So we need to rearrange the element to appear in the tabs. Consider the below image:
+![](rearrange-j2store-element.png)
 
 11. Add New Article->, Enter the title and other required fields, Save the article Once. You can Click the J2Store cart Tab -> Set **Yes** to Treat as Product and choose the type of the product Save the changes.
 ![Step 12](step-add-product.png)
