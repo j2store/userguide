@@ -50,13 +50,15 @@ Now scroll down. You will see the integrated j2store product type as shown below
 ![](create-tab-panel.png)
 In the above image, enter the details as shown and click **Save & Close**. The tab panel will be created. You need to rearrange the tab, as shown below:
 ![](replace-j2storetab.png)
+By clicking on the rounded icon, you can confirm the tab panel details and close it.
 
-You will get the screen as shown below:
+12. Now, add a new product. You will see the screen like this:
+![](create-new-product.png)
 
-12. Now you can Configure your product, Set **Yes** for Visible in store to view at frontend.
+13. Now you can Configure your product, Set **Yes** for Visible in store to view at frontend.
 ![Step 11](step-12.png)
 
-13. Save the changes.
+14. Save the changes.
 
 ### Displaying Products at Front end
 
