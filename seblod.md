@@ -114,6 +114,10 @@ Still you need to follow some more steps to complete the procedure. Arrange the 
 ![](form-article-final-setting.png)
 
 11. Now, **Save** the page and create an article of type **Form_Article** and you will have the product creation page like this: 
+![](form-article-new-product-details.png)
+![](form-article-j2store-tab.png)
+
+12. 
 
 
 
