@@ -74,7 +74,7 @@ By clicking on the rounded icon, you can confirm the tab panel details and close
 
 5. After that, in the right side, near the '+' sign, choose 'All App Folders' in the select list and you can see a list of items displayed below. Scroll down to locate **J2Store_Cart** and add it to the construction layout, by cliking in the '<' arrow seen in the extreme right of the item. All these actions are illustrated in the image below:
 ![](show-in-frontend-6.png)
-Place the **J2Store Tab** and **J2Store_Cart** items as shown in the image by drag and drop.
+Place the **J2Store Tab** and **J2Store_Cart** items in the positions, as depicted in the image by drag and drop.
 
 6. Go to Joomla admin Control panel -> Choose the Menu -> Menus -> Menu Manager -> Menu Item -> New 
 
