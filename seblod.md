@@ -94,11 +94,26 @@ Place the **J2Store Tab** and **J2Store_Cart** items as shown in the image by dr
 ![](form-content-type-new-1.png)
 
 8. You will get the screen like this, after you have rearranged J2Store Tab. Now, click **Save**
+![](form-content-type-new-2.png)
+
+9. Thats it. You have successfully created a SEBLOD article. You can choose it in the following ways.
+    
+    I. Click on the **Add Content** as shown in the following image. 
+![](new-form-content-type-listed.png)
+If you click on the **Add Content** you will get this pop-up window:
+![](add-content-clicked.png)
+
+  II. In main menu, go to **Content -> Article Manager** and click on the **New** button as shown below:
+![](article-manager-list.png)
+You will get the pop-up like this:
+![](article-manager-list-new.png)
+
+10. But before you add an article in this type, you need to do edit the article you have created further. Open it for editing.
+![](edit-form-article.png)
 
 
 
-3. click on the Article title to view the product. 
-![Step 14](step-14.png)
+
 
 4. Now you can add the product to the cart. Finally you can see Item added to the Cart.
 ![Step 15](step-15.png)
