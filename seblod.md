@@ -30,7 +30,7 @@ Use the Joomla Extension manager to install the plugin.
 5. To add a **Text** field to an **Article** content type:
 ![Step 5](step-7.png)
 
-6. Choose App Folder **Seblod**: then choose type **J2store** field.
+6. Choose App Folder **Quick Folder**: then choose type **J2store** field.
 ![](create-article-step-3.png)
 
 7. Save the changes. Now J2store field will appear under the Fulltext field (at the bottom of your form on the first tab).
