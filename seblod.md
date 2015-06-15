@@ -58,7 +58,23 @@ By clicking on the rounded icon, you can confirm the tab panel details and close
 13. Now you can Configure your product, Set **Yes** for Visible in store to view at frontend.
 ![Step 11](step-12.png)
 
-14. Save the changes.
+14. To show the product in the frontend, follow the procedure, illustrated with the help of images. In the Control Panel menu, go to **Construction** -> **Forms & Content Types**
+![](show-in-frontend-1.png)
+
+15. Now, from the resulting screen, choose **Article** as shown below:
+![](show-in-frontend-2.png)
+
+16. Click on the **Site Form** as shown in the image below:
+![](show-in-frontend-3.png)
+
+17. In the right hand side, click on the '<' symbol, next to the **J2Store Tab** and it will be added to the form as shown in the below image.
+![](show-in-frontend-5.png)
+
+18. After that, in the right side, near the '+' sign, choose 'All App Folders' in the select list and you can see a list of items displayed below. Scroll down to spot **J2Store_Cart** and add it the construction layout, by cliking in the '<' arrow seen in the extreme right of the item. All these actions are illustrated in the image below:
+![](show-in-frontend-6.png)
+Place the **J2Store Tab** and **J2Store_Cart** items as shown in the image by drag and drop.
+
+19. 
 
 ### Displaying Products at Front end
 
