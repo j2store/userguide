@@ -85,7 +85,7 @@ Place the **J2Store Tab** and **J2Store_Cart** items in the positions, as depict
    b.Choose the Menu Item type **SEBLOD** -> choose **Forms**.
 ![](seblod-new-menu-item-1.png)
 
-   c.You will see Search Type input, select **Article** from the  List.
+   c.From **Content Type (Form)** input, select **Article** from the  List.
 ![](seblod-new-menu-item-2.png)
 
   d. Save the changes.
