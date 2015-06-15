@@ -76,21 +76,17 @@ By clicking on the rounded icon, you can confirm the tab panel details and close
 ![](show-in-frontend-6.png)
 Place the **J2Store Tab** and **J2Store_Cart** items as shown in the image by drag and drop.
 
-6. 
-
-
-
-1. Go to Joomla admin Control panel -> Choose the Menu -> Menus -> Menu Manager -> Menu Item -> New 
+6. Go to Joomla admin Control panel -> Choose the Menu -> Menus -> Menu Manager -> Menu Item -> New 
 
    a.Enter the Menu Title.
 
-  ![Step 1.a ](step-16-a.png)    
+  ![](seblod-new-menu-item-0.png)   
 
-   b.Choose the Menu Item type "Seblod" -> choose "List & Search" .
-![Step 2.a](step-16-b.png)
+   b.Choose the Menu Item type **SEBLOD** -> choose **Forms**.
+![](seblod-new-menu-item-1.png)
 
-   c.You will see Search Type input, select Articles from the  List.
-![Step 2.c](step-16-c.png)
+   c.You will see Search Type input, select **Article** from the  List.
+![](seblod-new-menu-item-2.png)
 
   d. Save the changes.
   
