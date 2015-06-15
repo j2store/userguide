@@ -58,7 +58,7 @@ By clicking on the rounded icon, you can confirm the tab panel details and close
 13. Now you can Configure your product, Set **Yes** for Visible in store to view at frontend.
 ![Step 11](step-12.png)
 
-### Displaying Products at Front end
+### Product Creation in Front end
 
 1. To show the product in the frontend, follow the procedure, illustrated with the help of images. In the Control Panel menu, go to **Construction** -> **Forms & Content Types**
 ![](show-in-frontend-1.png)
