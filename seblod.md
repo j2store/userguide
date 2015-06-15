@@ -90,8 +90,12 @@ Place the **J2Store Tab** and **J2Store_Cart** items as shown in the image by dr
 
   d. Save the changes.
   
-2. Finally you can see the list of articles from Menu you created at frontend.  
-![Step 13](step-13.png)
+7. In control panel, go to **Construction -> Forms & Content Types** and click on **New**. In the resulting screen, enter the details as shown in the image below:
+![](form-content-type-new-1.png)
+
+8. You will get the screen like this, after you have rearranged J2Store Tab. Now, click **Save**
+
+
 
 3. click on the Article title to view the product. 
 ![Step 14](step-14.png)
