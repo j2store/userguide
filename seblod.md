@@ -76,7 +76,7 @@ By clicking on the rounded icon, you can confirm the tab panel details and close
 ![](show-in-frontend-6.png)
 Place the **J2Store Tab** and **J2Store_Cart** items in the positions, as depicted in the image by drag and drop.
 
-6. Go to Joomla admin Control panel -> Choose the Menu -> Menus -> Menu Manager -> Menu Item -> New 
+6. Go to Joomla admin Control panel -> Menus -> Menu Manager -> Add New Menu
 
    a.Enter the Menu Title.
 
