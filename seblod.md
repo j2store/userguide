@@ -117,15 +117,3 @@ Still you need to follow some more steps to complete the procedure. Arrange the 
 ![](form-article-new-product-details.png)
 ![](form-article-j2store-tab.png)
 
-12. 
-
-
-
-4. Now you can add the product to the cart. Finally you can see Item added to the Cart.
-![Step 15](step-15.png)
-
- 
-
-*** --- CONTENT ADDITION IS UNDERWAY --- ***
-
- 
