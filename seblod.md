@@ -110,8 +110,10 @@ You will get the pop-up like this:
 
 10. But before you add an article in this type, you need to do edit the article you have created further. Open it for editing.
 ![](edit-form-article.png)
+Still you need to follow some more steps to complete the procedure. Arrange the items in the construction layout as shown in the image below:
+![](form-article-final-setting.png)
 
-
+11. Now, **Save** the page and create an article of type **Form_Article** and you will have the product creation page like this: 
 
 
 
