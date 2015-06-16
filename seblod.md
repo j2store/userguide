@@ -117,3 +117,17 @@ Still you need to follow some more steps to complete the procedure. Arrange the 
 ![](form-article-new-product-details.png)
 ![](form-article-j2store-tab.png)
 
+
+**The images below illustrates how to create a product in your frontend**
+
+In your site frontend, you can see the newly created SEBLOD article, listed in the top right. See the image:
+
+![](frontend-article-creation-1.png)
+
+As shown in the image, click on the **New Artilce** and you will get the product creation page as shown in the next image. Enter a name for the new product and content for the product. This is **Contents** tab. Now, go to **J2Store** tab. Here, select **Yes** to ***Treat as a product*** option and now click on **Save**. 
+
+![](frontend-article-creation-2.png)
+
+![](frontend-article-creation-3.png)
+
+Your product is created and you can configure the product with the product specific details, change the product type, set prices, etc.
