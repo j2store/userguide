@@ -124,7 +124,7 @@ In your site frontend, you can see the newly created SEBLOD article, listed in t
 
 ![](frontend-article-creation-1.png)
 
-As shown in the image, click on the **New Artilce** and you will get the product creation page as shown in the next image. Enter a name for the new product and content for the product. This is **Contents** tab. Now, go to **J2Store** tab. Here, select **Yes** to ***Treat as a product*** option and now click on **Save**. 
+As shown in the image, click on the **New Article** and you will get the product creation page as shown in the next image. Enter a name for the new product and content for the product. This is **Contents** tab. Now, go to **J2Store** tab. Here, select **Yes** to ***Treat as a product*** option and now click on **Save**. 
 
 ![](frontend-article-creation-2.png)
 
