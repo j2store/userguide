@@ -18,7 +18,7 @@ We had to force this check because some Joomla web masters do not have the habit
 J2Store Version 3 is completely re-written from scratch. We have made quite a lot of structural changes. So some of the product types require additional inputs after the migration.
 
 #### 3.1 Variant stock
-If you are maintain stock for product options (aka Variable product), the tool will migrate all the data except SKU, Price and Stock.
+If you are to maintain stock for product options (aka Variable product), the tool will migrate all the data except SKU, Price and Stock.
 
 These products will be treated as Variable Product types.
 The tool will list the products that fall under the variable product type. Please note down the Article IDs.
