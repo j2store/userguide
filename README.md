@@ -14,5 +14,5 @@ You can sell anything with J2Store. Be it is a physical, downloadable or virtual
 
 It is light-weight and more importantly, it lets you use native content as product. This gives you a lot of benefits like  flexibility.
 
-NOTE: This use guide is a work in progress. We are continuously updating it. If you find any issues or bugs, please report to us.
+>NOTE: This user guide is a work in progress. We are continuously updating it. If you find any issues or bugs, please report to us.
 
