@@ -13,6 +13,6 @@ Vouchers contain Basic and advanced information entries.
 * **Message Subject** - message briefing the voucher benefits
  
 #### Advanced
-* **Voucher email body** - the text body of the email sent along with voucher to the customer. A rich text editor is available to add the text with necessary formatting
+* **Voucher email body** - the text body of the email sent along with voucher to the customer. A rich text editor is available to add the text with necessary formatting.
  
 ![Vouchers](voucher_add.png)
