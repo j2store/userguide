@@ -1,14 +1,14 @@
 # Server Requirements
 
-Technical requirements for J2Store
+Technical requirements for J2Store:
 
-PHP 5.3.10 or greater
+* PHP 5.3.10 or greater
 
-MySQL 5 or greater
+* MySQL 5 or greater
 
-Joomla 3.3.x or greater
+* Joomla 3.3.x or greater
 
-cURL and JSON modules enabled
+* cURL and JSON modules enabled
 
 Thats it !
 
