@@ -8,7 +8,7 @@ Technical requirements for J2Store:
 
 * Joomla 3.3.x or greater
 
-* cURL and JSON modules enabled
+* CURL and JSON modules enabled
 
 Thats it !
 
