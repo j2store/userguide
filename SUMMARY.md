@@ -71,7 +71,6 @@
        * [Voguepay Payment Plugin](voguepay_payment_plugin.md)
        * [WorldPay Payment Plugin](worldpay_payment_plugin.md)
        * [Yandex Money Payment Plugin](yandex_money_payment_plugin.md)
-
 * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
