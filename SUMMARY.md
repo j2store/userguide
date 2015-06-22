@@ -171,7 +171,7 @@
    * [K2](k2.md)
    * [Seblod](seblod.md)
        * [Configure J2Store in admin](configure_j2store_in_admin.md)
-       * Show J2Store content in Front-end
+       * [Show J2Store content in Front-end](show_j2store_content_in_front-end.md)
 * [Apps](apps.md)
    * [Google Analytics ECommerce Tracking](google_analytics_ecommerce_tracking.md)
 * [Short Codes](short_codes.md)
