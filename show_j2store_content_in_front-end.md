@@ -31,14 +31,14 @@ As shown in the image, click on the **Articles** and you will get a list down th
 After you have finished, go to **Components -> SEBLOD 3.x** and in the screen that is delivered, choose **Form & Content Type Manager**. It will give you the screen that is shown in the following image:
 ![](seblod-j2s-frontend-1.png)
 
-As shown in the image, select the **Intro** tab. Select **All App Folders** and locate **J2Store_Cart**. Add it by clicking on the **<** symbol. Now, click on the *pencil* symbol to edit the cart options, as shown in the image below:
+As shown in the image, select the **Intro** tab. Select **All App Folders** and locate **J2Store_Cart**. Add it by clicking on the **'<'** symbol. Now, click on the *pencil* symbol to edit the cart options, as shown in the image below:
 ![](seblod-j2s-frontend-2.png)
 You can edit the cart options by changing the text in the field as per your wish, for time being **mainimage|cart**. Save the settings.
 
 Now, go to the front end view of the site. You will get the home page as shown below:
 ![](seblod-cat-blog-view-1.png)
 
-Your home page will display the products in your online store. Note that the new menu item, **Categort Blog View** you have created is listed in the main menu list. Click on that and you will get the view as shown in the below image:
+Your home page will display the products in your online store. Note that the new menu item, **Category Blog View** you have created is listed in the main menu list. Click on that and you will get the view as shown in the below image:
 ![](seblod-cat-blog-view-2.png)
 
 
