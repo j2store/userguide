@@ -9,7 +9,13 @@ The display can be achieved in the following methods:
 
 To display SEBLOD articles in the frontend, you need to create a menu exclusively and then you can display it. 
 
-### Create a Menu Item
+### Category Blog View
+Before you proceed to view the article in frontend, you need to check one thing. Go to **Components -> J2Store -> Setup -> Configuration**. Go to **Cart** tab. Now, check the setting of **Add to cart placement** option. Ensure it is selected with **Within article using tag** as shown in the image below.
+![](seblod-cat-blog-cart-tab.png)
+
+To achieve front end category blog view, we need to follow a few procedures as explained below:
+
+#### Create a Menu Item
 In the backend main menu, go to **Menus -> Main Menu**. You will get the **Main Menu Items** list, as shown in the image below:
 ![](seblod-menu-items.png)
 
@@ -22,8 +28,12 @@ Enter a name for the new menu item and click on the **Select** button to select 
 As shown in the image, click on the **Articles** and you will get a list down the option. From the new list, select **Category Blog**. Now, you will get a new option below the menu item type, named ***Choose a category***. From that option, select **Product** as illustrated in the next image.
 ![](seblod-create-new-menu-item-3.png)
 
-Before you proceed to view the article in frontend, you need to check one thing. Go to **Components -> J2Store -> Setup -> Configuration**. Go to **Cart** tab. Now, check the setting of **Add to cart placement** option. Ensure it is selected with **Within article using tag** as shown in the image below.
-![](seblod-cat-blog-cart-tab.png)
+After you have finished, go to **Components -> SEBLOD 3.x** and in the screen that is delivered, choose **Form & Content Type Manager**. It will give you the screen that is shown in the following image:
+![](seblod-j2s-frontend-1.png)
+
+As shown in the image, select the **Intro** tab. Select **All App Folders** and locate **J2Store_Cart**. Add it by clicking on the **<** symbol. Now, click on the *pencil* symbol to edit the cart options, as shown in the image below:
+![](seblod-j2s-frontend-2.png)
+You can edit the cart options by changing the text in the field as per your wish, for time being **mainimage|cart**. Save the settings.
 
 Now, go to the front end view of the site. You will get the home page as shown below:
 ![](seblod-cat-blog-view-1.png)
