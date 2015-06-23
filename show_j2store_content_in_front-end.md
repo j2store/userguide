@@ -28,6 +28,7 @@ Enter a name for the new menu item and click on the **Select** button to select 
 As shown in the image, click on the **Articles** and you will get a list down the option. From the new list, select **Category Blog**. Now, you will get a new option below the menu item type, named ***Choose a category***. From that option, select **Product** as illustrated in the next image.
 ![](seblod-create-new-menu-item-3.png)
 
+#### Edit SEBLOD Form Article Content Section
 After you have finished, go to **Components -> SEBLOD 3.x** and in the screen that is delivered, choose **Form & Content Type Manager**. It will give you the screen that is shown in the following image:
 ![](seblod-j2s-frontend-1.png)
 
