@@ -1,5 +1,6 @@
 # Simple Product
 
+Any product available for sales without any variants or options to change the attributes, can be termed as simple product. 
 There are many tab pages with lot of options that need to be addressed to configure the **simple** product type.
 
 See the image below:
