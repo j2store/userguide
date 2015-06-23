@@ -29,7 +29,7 @@
        * [Bank Transfers](bank_transfers.md)
        * [Cash on Delivery](cash_on_delivery.md)
        * [Money Order](money_order.md)
-       * [Payment Plugins]
+       * [Payment Plugins](payment_plugins.md)
          * [Sagepay Direct](sagepay_direct.md)
          * [ETS Payment Plugin](ets_payment_plugin.md)
          * [Heartland Payment Plugin](heartland_payment_plugin.md)
