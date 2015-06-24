@@ -36,7 +36,8 @@ If the shipping cost is also taxable, you can select a tax profile here.
 ##### Geozone
 If you have limitations in applying this shipping method, you can select the areas that are eligible, by selecting the corresponding geozone here. 
 
-
+##### Debug
+If you enable this option, a log file will be maintained for error debugging. This debug file will be stored in cache folder. 
 
 
 
