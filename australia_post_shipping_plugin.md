@@ -19,6 +19,22 @@ The installation procedure is illustrated in the image below:
 
 ![](aus-post-ship-method-list.png)
 
+### Parameters
+
+##### Shipping Type
+For this option, select **Domestic Shipping Service** or **International Shipping Service**
+
+##### API Key
+This is your Australia post API key. It will be given to you once you create an Australia Post account.
+
+##### Show Delivery Time
+If you want to show the Date/Time of delivery in checkout page, you can set this option to **Yes**
+
+##### Tax Profile
+If the shipping cost is also taxable, you can select a tax profile here.
+
+##### Geozone
+If you have limitations in applying this shipping method, you can select the areas that are eligible, by selecting the corresponding geozone here. 
 
 
 
@@ -29,6 +45,34 @@ The installation procedure is illustrated in the image below:
 
 
 
+
+
+
+Params
+	1. Shipping Type:
+		Select Domestic Shipping Service or International Shipping Service
+
+	2. API Key:
+		This is your Australia Post Api key, Which you have used in Australia Post Account.
+
+	3. Show Delivery time:
+		This option used to display delivery Date/time in Checkout page.
+
+	4. Tax Class:
+		If you want to add tax rate for your shipping, Select tax profile.
+
+	5. Geo Zone:
+		By selecting a geozone here, you can restrict this Shipping method from 			showing to customers from only that geo-region. Choose All geozones to show this 		method to all customers
+
+	6. Debug:
+		Enable/Disable Log file for Debug. This Log file will place in cache folder.
+
+	7. Handling cost:
+		If you want to add handling cost for your shipping, enter your handling cost.
+
+Support
+	Still have questions? You can reach us in support@j2store.org 
+Thank you for using our extension.
 
 
 
