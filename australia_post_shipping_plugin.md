@@ -16,7 +16,7 @@ You can install this shipping plugin, using joomla installer.
 4. Configure the shipping plugin by entering the plugin parameters
 
 The installation procedure is illustrated in the image below:
-
+![](/home/weblogicx/Pictures/j2store/User Guide/Ship-Doc-images/aus-ship-plg-install.png)
 ![](aus-post-ship-method-list.png)
 
 ### Parameters
