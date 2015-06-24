@@ -39,7 +39,13 @@ If you have limitations in applying this shipping method, you can select the are
 ##### Debug
 If you enable this option, a log file will be maintained for error debugging. This debug file will be stored in cache folder. 
 
+##### Handling Cost
+If a handling cost is applicable for the shipping, you can enter the cost directly in this field. 
 
+### Support
+If you still have questions, you can reach us in support@j2store.org
+
+Thankyou for using our extension.
 
 
 
