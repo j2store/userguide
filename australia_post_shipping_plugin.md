@@ -43,7 +43,7 @@ If you enable this option, a log file will be maintained for error debugging. Th
 If a handling cost is applicable for the shipping, you can enter the cost directly in this field. 
 
 ### Support
-If you still have questions, you can reach us in support@j2store.org
+If you still have questions, you can reach us in **support@j2store.org**
 
 Thankyou for using our extension.
 
