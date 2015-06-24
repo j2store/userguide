@@ -85,6 +85,7 @@
            * [Quantity based per Order - Example](quantity_based_per_order_-_example.md)
            * [Weight based per Order - Example](weight_based_per_order_-_example.md)
        * [Shipping Plugins](shipping_plugins.md)
+           * [Australia Post Shipping Plugin]
            * [Bring Shipping Plugin](bring_shipping_plugin.md)
            * [Canadapost Shipping  Plugin](canadapost_shipping_plugin.md)
            * [DHL Shipping Plugin](dhl_shipping_plugin.md)
