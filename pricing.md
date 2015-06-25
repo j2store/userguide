@@ -12,9 +12,9 @@ Let us see how it happens. Check the image below:
 
 ![Simple Product Add Pricing](product_simple_add_pricing.png)
 
-* First select the dates, between which you wish to set the advanced price. 
+* Select the dates, between which you wish to set the advanced price. *This option is not mandatory. For instance, you can offer a special price throughout the year, for a bulk purchase.* 
 
-* Then enter the minimum quantity required to avail this special price. This is optional and if there is no minimum quantity required, just leave it as empty.
+* Then enter the minimum quantity required to avail this special price. This is also optional and if there is no minimum quantity required, just leave it as empty.
 
 * Select the customer group to which you offer this special price.
 
