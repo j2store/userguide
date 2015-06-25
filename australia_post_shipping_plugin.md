@@ -19,6 +19,7 @@ The installation procedure is illustrated in the image below:
 ![](aus-ship-plg-install.png)
 ![](aus-ship-doc-1.png)
 ![](aus-post-ship-method-list.png)
+![](aus-ship-set-param)
 
 
 ### Parameters
