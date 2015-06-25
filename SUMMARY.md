@@ -89,6 +89,7 @@
            * [Bring Shipping Plugin](bring_shipping_plugin.md)
            * [Canadapost Shipping  Plugin](canadapost_shipping_plugin.md)
            * [DHL Shipping Plugin](dhl_shipping_plugin.md)
+           * [FedEx Shipping Plugin](fedex_shipping_plugin.md)
            * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
            * [Timed Shipping Plugins](timed_shipping_plugins.md)
            * [UPS Shipping Plugin](ups_shipping_plugin.md)
