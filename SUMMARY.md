@@ -93,7 +93,7 @@
            * [Postal Code Shipping Plugin](postal_code_shipping_plugin.md)
            * [Timed Shipping Plugins](timed_shipping_plugins.md)
            * [UPS Shipping Plugin](ups_shipping_plugin.md)
-           * USPS Shipping Plugin
+           * [USPS Shipping Plugin](usps_shipping_plugin.md)
        * [Trouble Shooting Shipping Plugins Issues](trouble_shooting_shipping_plugins_issues.md)
        * [Common mistakes to avoid when setting up Standard Shipping methods in J2Store](common_mistakes_to_avoid_when_setting_up_standard_shipping_methods_in_j2store.md)
    * [Custom Fields](custom_fields.md)
