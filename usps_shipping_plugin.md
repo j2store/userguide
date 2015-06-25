@@ -65,6 +65,7 @@ If you want to limit this shipping method to particular areas, then you can sele
 
 ##### 16. Show Debug Messages
 If you set this to **Yes**, then an error log file will be maintained in the cache folder. It suitable for test account.
+>Set this option to **No** in live site
 
 ##### 17. Handling Cost
 If you need to charge a handling cost for the shipping, you can provide it here.
