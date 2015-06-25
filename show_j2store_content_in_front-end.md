@@ -33,7 +33,7 @@ After you have finished, go to **Components -> SEBLOD 3.x** and in the screen th
 ![](seblod-j2s-frontend-1.png)
 
 As shown in the image, select the **Intro** tab. Select **All App Folders** and locate **J2Store_Cart**. Add it by clicking on the **'<'** symbol. Now, click on the *pencil* symbol to edit the cart options, as shown in the image below:
-
+![](seblod-j2s-frontend-2-new.png)
 You can edit the cart options by changing the text in the field as per your wish, for time being **mainimage|cart**. Save the settings.
 
 Now, go to the front end view of the site. You will get the home page as shown below:
