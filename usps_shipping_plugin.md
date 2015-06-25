@@ -69,8 +69,13 @@ If you set this to **Yes**, then an error log file will be maintained in the cac
 ##### 17. Handling Cost
 If you need to charge a handling cost for the shipping, you can provide it here.
 
+##### 18. Use test server
+USPS Shipping offers a testing suite called test server. Before going live, you can test your store using USPS test server feature.
 
+### Support
+If you still have questions, you can reach us in **support@j2store.org**
 
+Thankyou for using our extension.
 
 
 
