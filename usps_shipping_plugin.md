@@ -15,6 +15,12 @@ You can install this shipping plugin, using joomla installer.
 3. Enable the plugin
 4. Configure the shipping plugin by entering the plugin parameters
  
+![](usps-ship-install.png)
+![](aus-ship-doc-1.png)
+![](usps-ship-method-list)
+![](usps-ship-config-1)
+![](usps-ship-config-2)
+
 
 ### Parameters
 
