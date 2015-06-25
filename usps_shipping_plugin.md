@@ -51,7 +51,14 @@ The width of the package or box, in the given units (mm, cm or inches).
 ##### 11. Height
 The height of the package or box, in the given units (mm, cm or inches).
 
+##### 12. Display Delivery Time
+If you want to display the delivery time, select **Yes** in this option.
 
+##### 13. Weight Unit
+Select the desired unit in which you want to measure the weight, like, kilograms, pounds etc.
+
+##### 14. Tax Class
+If shipping is taxable and you want to add tax rate, select a tax profile in this option.
 
 
 
