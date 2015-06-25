@@ -37,10 +37,10 @@ As shown in the image, select the **Intro** tab. Select **All App Folders** and 
 You can edit the cart options by changing the text in the field as per your wish, for time being **mainimage|cart**. Save the settings.
 
 Now, go to the front end view of the site. You will get the home page as shown below:
-![](seblod-cat-blog-view-1.png)
+![](seblod-cat-blog-view-1-new.png)
 
 Your home page will display the products in your online store. Note that the new menu item, **Category Blog View** you have created is listed in the main menu list. Click on that and you will get the view as shown in the below image:
-![](seblod-cat-blog-view-2.png)
+![](seblod-cat-blog-view-2-new.png)
 
 
 
