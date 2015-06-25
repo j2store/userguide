@@ -14,3 +14,9 @@ You can install this shipping plugin, using joomla installer.
 2. Click on the *Browse* button and select **FedEx Shipping** (type=j2store) and click on *Upload & Install*
 3. Enable the plugin
 4. Configure the shipping plugin by entering the plugin parameters
+
+![](fedex-ship-install.png)
+![](aus-ship-doc-1.png)
+![](fedex-ship-method-list)
+![](fedex-ship-config-1)
+![](fedex-ship-config-2)
