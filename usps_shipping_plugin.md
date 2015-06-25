@@ -60,12 +60,14 @@ Select the desired unit in which you want to measure the weight, like, kilograms
 ##### 14. Tax Class
 If shipping is taxable and you want to add tax rate, select a tax profile in this option.
 
+##### 15. Geozone
+If you want to limit this shipping method to particular areas, then you can select the corresponding geozone in this option. If this shipping is applicable to all areas, then set it to **All**.
 
+##### 16. Show Debug Messages
+If you set this to **Yes**, then an error log file will be maintained in the cache folder. It suitable for test account.
 
-
-
-
-
+##### 17. Handling Cost
+If you need to charge a handling cost for the shipping, you can provide it here.
 
 
 
