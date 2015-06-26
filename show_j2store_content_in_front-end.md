@@ -6,6 +6,7 @@ The display can be achieved in the following methods:
 
 * **Category Blog View**
 * **Single Article View**
+* **Search & List View**
 
 To display SEBLOD articles in the frontend, you need to create a menu exclusively and then you can display it. 
 
