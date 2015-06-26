@@ -24,7 +24,7 @@ When you download the "j2store_flexicontent_unzip" package first unzip the packa
 ### Installation 
 1. Unzip the Package "j2store_flexicontent_unzip.tar.gz" download from our site.Now, you will have two packages plg_flexicontent_fields_j2store.tar.gz, plg_system_flexicontentj2store.tar.gz.
  
-2. Use the Joomla extension manager to install both the  plugins one by one. 
+2. Use the Joomla extension manager to install both the plugins one by one. 
  
 3. Go to Extensions->Plugin Manager-> Filter : Select type "flexicontent_fields" -> Select the Plugin "FLEXIcontent - Flexicontent fields J2Store" and enable the System Plugin.
 
