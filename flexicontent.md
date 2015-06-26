@@ -30,5 +30,12 @@ When you download the "j2store_flexicontent_unzip" package first unzip the packa
 
 4. Go to Extensions->Plugin Manager-> Filter : Select type "system" -> Select the Plugin "System J2Store Flexicontent" and enable the System Plugin.
 
+##Backend 
+### Creating J2Store Field 
+1. Go to Flexicontent dashboard, there you will find list of icons.Click on the "New Field" icon. You will be taken to create field view, here you have to enter the basic required fields.
+2. Now enter the label as "J2Store Cart" and name as "j2store".
+3. Set Published "Yes", and  Choose the "Flexicontent fields J2Store" from the Dropdown list for Field type.
+4. 
+
 
 
