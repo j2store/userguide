@@ -26,6 +26,9 @@ When you download the "j2store_flexicontent_unzip" package first unzip the packa
  
 2. Use the Joomla Extension manager to install both the  plugins one by one. 
  
-#### Enable System Zoo J2Store Plugin
+3. Go to Extensions->Plugin Manager-> Filter : Select type "flexicontent_fields" -> Select the Plugin "FLEXIcontent - Flexicontent fields J2Store" and enable the System Plugin.
 
-1. Go to Extensions->Plugin Manager -> Select the Plugin "System Zoo J2Store"  and enable the System Plugin.
+4. Go to Extensions->Plugin Manager-> Filter : Select type "system" -> Select the Plugin "System J2Store Flexicontent" and enable the System Plugin.
+
+
+
