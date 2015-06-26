@@ -21,8 +21,8 @@
 
 When you download the "j2store_flexicontent_unzip" package first unzip the package you will find two zipped package.These two package are most important and need to be installed and to be enabled.
 
-
-1. Unzip the Package "j2store_zoo_unzip_first.tar.gz" download from the site.Now, you will have two packages plg_itemjtwostore.tar.gz, plg_system_zooj2store.tar.gz.
+### Installation 
+1. Unzip the Package "j2store_flexicontent_unzip.tar.gz" download from our site.Now, you will have two packages plg_flexicontent_fields_j2store.tar.gz, plg_system_flexicontentj2store.tar.gz.
  
 2. Use the Joomla Extension manager to install both the  plugins one by one. 
  
