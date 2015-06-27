@@ -57,9 +57,13 @@ Click on the **Article** and you will get the settings and configuration of **Ar
 
 ![](single-article-view-3.png)
 
-If the settings match the image above, you are done. If there is no ***J2Store_Cart*** listed on the left side, you can create on using the **+** sign on the right side. Now go to the frontend.
+If the settings match the image above, you are done. If there is no ***J2Store_Cart*** listed on the left side, you can create on using the **+** sign on the right side. Now go to the frontend. All the articles will be listed in the site, as shown in the image below:
 
+![](single-article-frontend-1.png)
 
+You will get all the articles listed here. Click on any one article's name, as shown underlined in the image. You will get the single article view.
+
+![](single-article-frontend-2.png)
 
 
 
