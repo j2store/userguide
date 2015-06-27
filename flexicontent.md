@@ -39,7 +39,7 @@ When you download the "j2store_flexicontent_unzip" package first unzip the packa
 3. Set Published "Yes", and  Choose the "Flexicontent fields J2Store" from 
  the Dropdown list for Field type.
 
-4. Now choose the types as "article".
+4. Now choose the Types as "article".
 
  
 
