@@ -35,7 +35,7 @@ Let us say, you want to treat a Blog item as product. (Zoo has a number of other
 
 3. Edit the Blog -> Article -> Click Edit Elements
 
-![](app_config.png)
+![](app-config.png)
 ![](step_1.png)
 
 	
