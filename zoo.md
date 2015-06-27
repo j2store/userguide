@@ -80,7 +80,7 @@ Save changes.
 
 2. Now edit the Blog -> Article - > your template layout-> click the Full layout   
 
-  ![](front_end_adding_element_layout.png)
+  ![](frontend-adding-element-layout.png)
 
 3. Now you can see J2Store Cart in the layout list, you have to drag the J2storecart from the right to the left side in your desired area. 
 
