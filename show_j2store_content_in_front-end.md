@@ -71,10 +71,29 @@ This is how we achieve single article view.
 
 ### SEBLOD List & Search Type View
 
+In order to acieve the SEBLOD list and search view, you need to create a new menu item of type list and search. The following images illustrate the procedure.
 
+![](list-view-backend-1.png)
 
+As shown in the image, go to **Menus -> Main Menu -> Add New Menu Item**
 
+You will get the screen to enter the menu items details. Enter a name for the menu item, say **SEBLOD List Articles** and then click on the *Select* button to choose the menu item type. You will get a pop-up window as shown below:
 
+![](list-view-backend-2.png)
+
+Click on **SEBLOD** and you will get a list below. From the list, select **List & Search**. Now you will get a new field below the one you have dealt with just before, as **Search Type(List)**. Choose **Articles** in this field, as shown in the next image. 
+
+![](list-view-backend-3.png)
+
+Leave other fields untouched. The Link will be created automatically. Now, **Save & Close** the menu item. 
+
+Go to frontend of your site.
+
+You can see the menu item **SEBLOD List Articles**. Click on that and you will get the seblod articles listed down. These are depicted with the help of the following images.
+
+![](seblod-list-frontend-1.png)
+![](seblod-list-frontend-2.png)
+![](seblod-list-frontend-3.png)
 
 
 
