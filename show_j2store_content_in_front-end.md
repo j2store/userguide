@@ -65,6 +65,11 @@ You will get all the articles listed here. Click on any one article's name, as s
 
 ![](single-article-frontend-2.png)
 
+You can see the additional images, the cart, the **Next** button etc., in the view. If you hover on the additional images, they will be displayed in the main window, with a zoom effect. 
+
+This is how we achieve single article view.
+
+### SEBLOD List & Search Type View
 
 
 
