@@ -35,6 +35,7 @@
 3. Set Published "Yes", and  Choose the "Flexicontent fields J2Store" from 
  the Dropdown list for Field type.
 4. Now choose the Types as "article".
+5. Save the changes.
 
  
 
