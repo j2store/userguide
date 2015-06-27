@@ -95,5 +95,7 @@ You can see the menu item **SEBLOD List Articles**. Click on that and you will g
 ![](seblod-list-frontend-2.png)
 ![](seblod-list-frontend-3.png)
 
+When you add the articles to your cart and click on the checkout link, the  frontend of your site will look something like this:
 
+![](checkout-page.png)
 
