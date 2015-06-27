@@ -17,7 +17,7 @@
 
 #### Installation Instructions 
 
->**Note**: *When you download the "j2store_flexicontent_unzip" package first unzip the package you will find two zipped package.These two package are most important and need to be installed and to be enabled.*
+>**Note**: *When you download the "j2store_flexicontent_unzip" package first unzip the package you will find two zipped package. These two package are most important and need to be installed and to be enabled.*
 
 ### Installation 
 1. Unzip the Package "j2store_flexicontent_unzip.tar.gz" download from our site.Now, you will have two packages plg_flexicontent_fields_j2store.tar.gz, plg_system_flexicontentj2store.tar.gz.
