@@ -17,9 +17,9 @@ You can install this shipping plugin, using joomla installer.
  
 ![](usps-ship-install.png)
 ![](aus-ship-doc-1.png)
-![](usps-ship-method-list)
-![](usps-ship-config-1)
-![](usps-ship-config-2)
+![](usps-ship-method-list.png)
+![](usps-ship-config-1.png)
+![](usps-ship-config-2.png)
 
 
 ### Parameters
