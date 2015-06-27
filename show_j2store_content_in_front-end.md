@@ -99,3 +99,4 @@ When you add the articles to your cart and click on the checkout link, the  fron
 
 ![](checkout-page.png)
 
+You can checkout with a single click. It is not necessary for you to be a registered user. You can checkout as a guest. Later if you want, you can register.
