@@ -40,6 +40,7 @@
 ###Adding Flexicontent Item
 
 1. Go to Flexiconent dashboard , Click on the "new item" icon. Now you can see j2store field added into the flexicontent item. Your flexicontent item is integrated with J2Store.Now set "Yes" to Treat as a product option and now click on Save.
+
 2. After successful save, your product is created and you can configure the product with the product specific details, change the product type, set prices, etc.
 3. Save the changes.
  
