@@ -43,8 +43,21 @@ Now, go to the front end view of the site. You will get the home page as shown b
 Your home page will display the products in your online store. Note that the new menu item, **Category Blog View** you have created is listed in the main menu list. Click on that and you will get the view as shown in the below image:
 ![](seblod-cat-blog-view-2-new.png)
 
+### Single Article View
 
+To achieve the single article view, follow the steps, as illustrated in the images below:
 
+![](single-article-view-1.png)
+
+As shown in the image, click select the **Form & Content Types** menu. You will get the screen as shown below:
+
+![](single-article-view-2.png)
+
+Click on the **Article** and you will get the settings and configuration of **Article**. Check for the settings as shown in the next image.
+
+![](single-article-view-3.png)
+
+If the settings match the image above, you are done. If there is no ***J2Store_Cart*** listed on the left side, you can create on using the **+** sign on the right side. Now go to the frontend.
 
 
 
