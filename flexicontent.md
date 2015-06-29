@@ -48,7 +48,7 @@
 ##Frontend
 ###Adding j2store custom field into the templates
 
-
+1. Go to Flexiconent dashboard,Click on the templates icon. You will find list of templates. Now you have to select the template where you want to add the "j2store cart" by Dragging the j2store  
 
 
 
