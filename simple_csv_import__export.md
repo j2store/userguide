@@ -42,7 +42,7 @@ The follwing image illustrates the actions that are involved in import and expor
 
 ![](csv-import-settings-edited.png)
 
-
+[sample.csv](sample.csv)
 
 
 
