@@ -19,7 +19,7 @@ If you import new products, then you can ingnore the product id. Otherwise, you 
 
 5. Refer this user guide before exporting excel file to .csv file. 
 
-6. Support for importing products options and / or product variants are not available.
+6. Support for importing product options and / or product variants are not available.
 
 ### Parameters
 
