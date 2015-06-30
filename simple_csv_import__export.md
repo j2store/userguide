@@ -8,7 +8,7 @@ This is an app that facilitates the import and export functionalities with regar
 Before you tend to use this app for import / export operations, you **MUST** be careful enough to take a full backup of your site. Use Akeeba backup to take the backup.
 
 2. **Export once** - 
-Export your products into .csc format once, to see how the format looks like. Check for field names. They should match. Also, the SKU of the product in the exported .csv file should be the same as the original SKU.
+Export your products into .csv format once, to see how the format looks like. Check for field names. They should match. Also, the SKU of the product in the exported .csv file should be the same as the original SKU.
 
 3. **Importing New Products** - 
 If you import new products, then you can ingnore the product id. Otherwise, you have take care of the product id. If any of the importing products has an id matching with existing id, it will result in an error. 
