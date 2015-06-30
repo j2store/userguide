@@ -42,6 +42,8 @@ The follwing image illustrates the actions that are involved in import and expor
 
 ![](csv-import-settings-edited.png)
 
+A sample .csv file is given here for your testing purposes.
+
 [sample.csv](sample.csv)
 
 
