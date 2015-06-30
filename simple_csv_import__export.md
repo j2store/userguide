@@ -26,10 +26,17 @@ If you import new products, then you can ingnore the product id. Otherwise, you 
 1. **Choose Import Type** - 
 There are two options in this parameter. If you select **Upload**, then a preset path will be used. If you select **Path**, then you have to enter the correct path. It is recommended to leave the default setting of **Upload**.
 
-2. **Upload the CSV file**
+2. **Upload the CSV file** - 
+Click on the *Browse* button to select the file for uploading.
 
+3. **Character Set** -
+There are numerous character sets listed here to select from. If you are not sure about which is the one to select, it would be safe to leave it as **Not Known**.
 
+4. **Update product if SKU already exists** -
+If you select **Yes** in this option, it will update the existing product details, if a match is found. If you are aware of the consequences, then carefully select to **Yes**. Else, to be on the safer side, leave it as **No**.
 
+5. **Export** -
+Clicking this button will export your products to csv format. But, before that, double check your SKU numbers are correct. If you have additional images, you can export them, using '|' as separator between two images.
 
 
 
