@@ -21,8 +21,12 @@ If you import new products, then you can ingnore the product id. Otherwise, you 
 
 6. Support for importing products options and / or product variants are not available.
 
+### Parameters
 
+1. **Choose Import Type** - 
+There are two options in this parameter. If you select **Upload**, then a preset path will be used. If you select **Path**, then you have to enter the correct path. It is recommended to leave the default setting of **Upload**.
 
+2. **Upload the CSV file**
 
 
 
