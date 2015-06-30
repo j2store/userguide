@@ -11,7 +11,7 @@ Before you tend to use this app for import / export operations, you **MUST** be 
 Export your products into .csv format once, to see how the format looks like. Check for field names. They should match. Also, the SKU of the product in the exported .csv file should be the same as the original SKU.
 
 3. **Importing New Products** - 
-If you import new products, then you can ingnore the product id. Otherwise, you have take care of the product id. If any of the importing products has an id matching with existing id, it will result in an error. 
+If you import new products, then you can ingnore the product id. Otherwise, you have to take care of the product id. If any of the importing products has an id matching with existing id, it will result in an error. 
 
 4. **Unique SKU**
     1. SKU of the products **MUST** be unique. If there is a match, it will result in an error.
