@@ -38,7 +38,7 @@ If you select **Yes** in this option, it will update the existing product detail
 5. **Export** -
 Clicking this button will export your products to csv format. But, before that, double check your SKU numbers are correct. If you have additional images, you can export them, using '|' as separator between two images.
 
-
+The follwing image illustrates the actions that are involved in import and export of .csv file.
 
 
 
