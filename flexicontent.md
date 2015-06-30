@@ -10,7 +10,7 @@
 * Joomla 3.x
 * J2Store 3 or above
 * Flexicontent  
-* j2store_flexicontent_unzip(Extract this package to get installation packages )
+* j2store_flexicontent_unzip (Extract this package to get installation packages )
     1. J2Store Flexicontent Fields ( plg_flexicontent_fields_j2store )
     2. System  J2Store ( plg_system_flexicontentj2store ) 
 
