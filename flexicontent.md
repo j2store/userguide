@@ -46,13 +46,18 @@
 
 ## Frontend
 
-###Creating menu 
-
-1. Go to Menus -> Main Menu -> Add New Menu Item. Now you need to select the menu item type. In this example we will show you how to make the drop-down menu link open a single Joomla article. To do this, click on the Select button next to the Menu Item Type label.
 ### Adding j2store custom field into templates
 
 1. Go to Flexiconent dashboard and click on the *templates* icon. You will find a list of templates. Now you have to select the template in which you want to add the "j2store cart" by dragging the j2store field into the template.
 
+
+###Creating menu 
+
+1. Go to Menus -> Main Menu -> Add New Menu Item. Now you need to select the menu item type. To do this, click on the Select button next to the Menu Item Type label.Select the Flexicontent, and choose Categories -> Choose the list of categories  you want to display in the front end.
+
+2. In Flexicontent layout Items Tab -> choose the layout (Make sure j2store field is added in your template) 
+
+3. Save the changes.
 
 
 
