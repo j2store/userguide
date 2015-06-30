@@ -15,7 +15,7 @@ If you import new products, then you can ingnore the product id. Otherwise, you 
 
 4. **Unique SKU**
     1. SKU of the products **MUST** be unique. If there is a match, it will result in an error.
-    2. The app depends on SKU to find a product. So, if an SKU is found when searched, the existing product will be updated with the imported product details. Else, a new product will be created with the SKU. 
+    2. The app depends on SKU to find a product. So, if an SKU is found when searched, the existing product will be updated with the imported product details. If a match is not found, a new product will be created with the SKU. 
 
 5. Refer this user guide before exporting excel file to .csv file. 
 
