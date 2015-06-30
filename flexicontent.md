@@ -31,13 +31,13 @@
 ### Creating J2Store Field 
 1. Go to Flexicontent dashboard, there you will find list of icons. Click on the "New Field" icon. You will be taken to create field view, here you have to enter the basic required fields.
 2. Now enter the label as "J2Store Cart" and name as "j2store".
-3. Set Published to **Yes**, and  Choose the "Flexicontent fields J2Store" from the Dropdown list for Field type.
+3. Set Published to **Yes**, and Choose the "Flexicontent fields J2Store" from the Dropdown list for Field type.
 4. Now choose the Types as "article".
 5. Save the changes.
 
 ### Adding Flexicontent Item
 
-1. Go to Flexiconent dashboard , Click on the "new item" icon, pop window open asking you to Select the type: Click "Article".You will be redirected to  "New Item" here you can see the Tab "Item type : Article" and inside the tab you can see the "j2store custom field added". Now you can see j2store field added into the flexicontent item. Your flexicontent item is integrated with J2Store.Now set "Yes" to Treat as a product option and now click on Save.
+1. Go to Flexicontent dashboard, Click on the "New Item" icon. A pop-up window will open asking you to Select the type. Click "Article". You will be redirected to "New Item". Here you can see the Tab "Item type : Article" and inside the tab you can see the "j2store custom field added". Now, you can see j2store field added into the flexicontent item. Your flexicontent item is integrated with J2Store. Set **Yes** to *Treat as a product* option and now click on Save.
 
 2. After successful save, your product is created and you can configure the product with the product specific details, change the product type, set prices, etc.
 3. Save the changes.
