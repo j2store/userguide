@@ -40,7 +40,7 @@ Clicking this button will export your products to csv format. But, before that, 
 
 The follwing image illustrates the actions that are involved in import and export of .csv file.
 
-
+![](csv-import-settings-edited.png)
 
 
 
