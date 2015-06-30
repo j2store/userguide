@@ -179,5 +179,6 @@
    * [Flexicontent](flexicontent.md)
 * [Apps](apps.md)
    * [Google Analytics ECommerce Tracking](google_analytics_ecommerce_tracking.md)
+   * Simple CSV Import / Export
 * [Short Codes](short_codes.md)
 
