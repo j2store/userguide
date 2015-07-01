@@ -38,6 +38,8 @@
 4. Now choose the Types as "article".
 5. Save the changes.
 
+Now you can see the "J2Store" field added and listed successfully.
+![](fc-fields-list-new.png)
 ### Adding Flexicontent Item
 
 1. Go to Flexicontent dashboard, Click on the "New Item" icon. A pop-up window will open asking you to Select the type. Click "Article". You will be redirected to "New Item". Here you can see the Tab "Item type : Article" and inside the tab you can see the "j2store custom field added". Now, you can see j2store field added into the flexicontent item. Your flexicontent item is integrated with J2Store. Set **Yes** to *Treat as a product* option and click on **Save**.
