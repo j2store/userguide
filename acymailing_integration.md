@@ -15,10 +15,18 @@ This app integrates J2Store with AcyMailing to enable option for subscription to
 4. Enter the parameters (read the explanation about each parameter given below) 
 5. Save and close it.
 
+#### Parameters
 
+1. **Acymailing List** -
+This option is used to display all your Acymailing subscribers list. You can select multiple lists in this option.
 
+2. **Acymailing List Title** -
+The text entered here will be displayed when customer is about to select payment method. If you use a muliti-lingual site, language constants can be entered here and then language over-ride can be made.
 
+3. **Auto Subscription** -
+If you enable this by choosing **Yes**, then the customer will be automatically added to subscribers' list. A confirmation email will be sent to the customer. All this will be done on successful order placement.
 
+4. 
 
 
 
