@@ -87,7 +87,7 @@ Go to frontend, click on the menu you have created to display the flexicontent i
 
 In backend, go to Flexicontent dashboard. Select fields -> J2store -> Edit. In the right side, you can see J2Store column. Below that you can see *Category view*. In that, you can set to show or hide the product options and images in the frontend, the type of images to be displayed, like, thumbnail, main or additional image. 
 
->Note: You can have the similar control method for **Item View** also.
+>Note: You can set the display options for **Item View** also.
 ![](fc-step-5.png)
 
 ### Item view 
