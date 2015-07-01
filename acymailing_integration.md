@@ -19,9 +19,9 @@ This app integrates J2Store with AcyMailing to enable option for subscription to
 The below image illustrates the settings of parameters:
 ![](acymailing_config_options.png)
 
-
 1. **Acymailing List** -
 This option is used to display all your Acymailing subscribers list. You can select multiple lists in this option.
+![](choose_the_list_from_the_dropdown.png)
 
 2. **Acymailing List Title** -
 The text entered here will be displayed when customer is about to select payment method. If you use a muliti-lingual site, language constants can be entered here and then language over-ride can be made.
