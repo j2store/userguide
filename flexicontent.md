@@ -70,8 +70,6 @@ Now you can see the "J2Store" field added and listed successfully.
 ![](item_view_after_j2store_drag.png)
 
 
-
-
 ###Creating menu 
 
 1. Go to Menus -> Main Menu -> Add New Menu Item. Now you need to select the menu item type. To do this, click on the Select button next to the Menu Item Type label.Select the Flexicontent, and choose Categories -> Choose the list of categories  you want to display in the front end.
