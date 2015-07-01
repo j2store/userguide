@@ -46,7 +46,9 @@ A sample .csv file is given here for your testing purposes.
 
 [sample.csv](sample.csv)
 
-Below is a list of fields that are supported by .csv files:
+Below is a list of fields that are supported by the app for importing.
+
+It is NOT necessary to have all these fields in your CSV. The following fields are the minimum required fields: sku, product_type
 
 * product_id
 * visibility
@@ -116,7 +118,12 @@ Below is a list of fields that are supported by .csv files:
 * notify_qty
 * use_store_config_notify_qty
 * availability
-* sold
 * allow_backorder
 * isdefault_variant
 * quantity
+
+### TIPS
+
+If you want to import more than one additional images (in the additional_images field), you can use a pipe symbol (|) to separate them.
+
+**Example:** path/to/image1.jpg | path/to/image2.jpg
