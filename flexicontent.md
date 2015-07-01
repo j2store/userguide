@@ -78,5 +78,16 @@ Now you can see the "J2Store" field added and listed successfully.
 
 3. Save the changes.
 
+###Category List 
+
+Go to frontend, click on the menu you have created to display the flexicontent items.
+
+![](fc-fe-cv-w-options.png)
+
+In backend, go to Flexicontent dashboard. Select fields -> J2store -> Edit. In the right side, you can see J2Store column. Below that you can see *Category view*. In that, you can set to show or hide the product options and images in the frontend, the type of images to be displayed, like, thumbnail, main or additional image. 
+
+you can hide the options if you don't want to show them. You can also choose the type of image you want to display.
+
+
 
 
