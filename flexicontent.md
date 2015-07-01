@@ -68,7 +68,7 @@ Now you can see the "J2Store" field added and listed successfully.
 ![](item_view_after_j2store_drag.png)
 
 
-###Creating menu 
+### Creating menu 
 
 1. Go to Menus -> Main Menu -> Add New Menu Item. Now you need to select the menu item type. To do this, click on the Select button next to the Menu Item Type label.Select the Flexicontent, and choose Categories -> Choose the list of categories  you want to display in the front end.
 ![](shop_menu.png)
@@ -78,15 +78,25 @@ Now you can see the "J2Store" field added and listed successfully.
 
 3. Save the changes.
 
-###Category List 
+### Category List 
 
 Go to frontend, click on the menu you have created to display the flexicontent items.
 
 ![](fc-fe-cv-w-options.png)
+![](fc-fe-cv-wo-options.png)
 
 In backend, go to Flexicontent dashboard. Select fields -> J2store -> Edit. In the right side, you can see J2Store column. Below that you can see *Category view*. In that, you can set to show or hide the product options and images in the frontend, the type of images to be displayed, like, thumbnail, main or additional image. 
 
-you can hide the options if you don't want to show them. You can also choose the type of image you want to display.
+### Item view 
+In Flexicontent item view, J2Store field is displayed, as shown in the image below:
+![](fc_item_detail_view.png)
+
+
+### Cart View
+
+From flexicontent, when you add items to cart, your products will be added to the cart and listed as shown in the image:
+![](item_cart.png)
+
 
 
 
