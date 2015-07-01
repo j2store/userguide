@@ -59,6 +59,7 @@ Now you can see the "J2Store" field added and listed successfully.
 1. Go to Flexiconent dashboard and click on the *templates* icon. You will find a list of templates. Now you have to select the template in which you want to add the *j2store cart* by dragging the *j2store* field into the template.
 
 
+![](templates_list.png)
 
 ###Creating menu 
 
