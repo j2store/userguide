@@ -26,7 +26,7 @@ The text entered here will be displayed when customer is about to select payment
 3. **Auto Subscription** -
 If you enable this by choosing **Yes**, then the customer will be automatically added to subscribers' list. A confirmation email will be sent to the customer. All this will be done on successful order placement.
 
-4. 
+4. **Display Auto subscription in products**
 
 
 
