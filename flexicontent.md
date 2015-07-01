@@ -30,8 +30,11 @@
 ## Backend 
 ### Creating J2Store Field 
 1. Go to Flexicontent dashboard, there you will find list of icons. Click on the "New Field" icon. You will be taken to create field view, here you have to enter the basic required fields.
+![](fc-step-1.png)
+![](fc-step-3.png)
 2. Now enter the label as "J2Store Cart" and name as "j2store".
 3. Set Published to **Yes**, and Choose the "Flexicontent fields J2Store" from the Dropdown list for Field type.
+![](fc-step-4.png)
 4. Now choose the Types as "article".
 5. Save the changes.
 
