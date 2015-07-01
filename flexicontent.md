@@ -60,10 +60,8 @@ Now you can see the "J2Store" field added and listed successfully.
 ![](templates_list.png)
 
 2. Now click on the template you want to edit, for eg., if you are using *blog* template to display the list of category items. Click on the category layout of blog item in the template folder(refer the screen shot).
-
 ![](catagory_blog_before_drag_.png)
 ![](category_blog_edit_after_drag.png)
-
 
 3. Now click on the template you want to edit, for eg., if you are using *blog* template to display the list of category items. Click on the Item layout of blog item in the template folder(refer the screen shot).
 ![](item_view_before_j2store_drag.png)
@@ -73,8 +71,10 @@ Now you can see the "J2Store" field added and listed successfully.
 ###Creating menu 
 
 1. Go to Menus -> Main Menu -> Add New Menu Item. Now you need to select the menu item type. To do this, click on the Select button next to the Menu Item Type label.Select the Flexicontent, and choose Categories -> Choose the list of categories  you want to display in the front end.
+![](shop_menu.png)
 
 2. In Flexicontent layout Items Tab -> choose the layout (Make sure j2store field is added in your template) 
+![](shop_menu-a.png)
 
 3. Save the changes.
 
