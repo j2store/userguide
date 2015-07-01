@@ -50,6 +50,7 @@ Below is a list of fields that are supported by the app for importing.
 
 It is NOT necessary to have all these fields in your CSV. The following fields are the minimum required fields: sku, product_type
 
+* sku
 * product_id
 * visibility
 * product_source
@@ -97,7 +98,6 @@ It is NOT necessary to have all these fields in your CSV. The following fields a
 * language
 * xreference
 * is_master
-* sku
 * upc
 * price
 * shipping
