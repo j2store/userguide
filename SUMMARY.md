@@ -178,8 +178,9 @@
        * [Show J2Store content in Front-end](show_j2store_content_in_front-end.md)
    * [Flexicontent](flexicontent.md)
 * [Apps](apps.md)
+   * [AcyMailing Integration](acymailing_integration.md)
    * [Google Analytics ECommerce Tracking](google_analytics_ecommerce_tracking.md)
    * [Simple CSV Import / Export](simple_csv_import__export.md)
-   * [AcyMailing Integration](acymailing_integration.md)
+   
 * [Short Codes](short_codes.md)
 
