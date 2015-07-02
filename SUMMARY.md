@@ -71,7 +71,7 @@
            * [WorldPay Payment Plugin](worldpay_payment_plugin.md)
            * [Yandex Money Payment Plugin](yandex_money_payment_plugin.md)
            * [2Checkout Plugin](2checkout_plugin.md)
-           * Virtual Merchant Payment Plugin
+           * [Virtual Merchant Payment Plugin](virtual_merchant_payment_plugin.md)
    * [Shipping Methods](shipping_methods.md)
        * [Standard Shipping Methods](standard_shipping_methods.md)
            * [Flat rate per order](flat_rate_per_order.md)
