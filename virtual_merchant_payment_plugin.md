@@ -68,15 +68,25 @@ You can enter language constant as a value here, if you are using a multi-lingua
 13. **Display text on after payment** -
     The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 
-14. 
+14. **Display text on error in payment** -
+	The text entered here is displayed to the customer when there is an error in the payment process.
+	You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param. 
 
+15. **Display text if customers cancels payment** -
+	The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). 
+	You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 
+16. **Payment button text** -
+	The text of the payment button. The button will be displayed at the final checkout step. 
 
+17. **Debug** -
+	This option is used to enable/disable log file.
 
+### Support
 
+Still have questions? You can reach us in ***support@j2store.org***
 
-
-
+Thankyou for using our extension.
 
 
 
