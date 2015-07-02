@@ -10,8 +10,8 @@ This app integrates J2Store with AcyMailing to enable option for subscription to
 
 #### Installation Instructions
 1. Use the Joomla installer to install the app. 
-2. In the backend, go to **Extensions -> Plugin Manager** and open the Acymailing plugin.	(type=j2store). 
-3. Enable the plugin 
+2. In the backend, go to **J2Store Dashboard -> Apps** as shown in the image below and click **Open** the Acymailing plugin.	(type=j2store). 
+3. Enable the app 
 4. Enter the parameters (read the explanation about each parameter given below) 
 5. Save and close it.
 
