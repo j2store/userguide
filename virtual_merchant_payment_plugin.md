@@ -19,6 +19,8 @@ This plugin integrates J2Store with Virtual Merchant payment gateway, thus facil
 
 ### Parameters
 
+You can configure the payment plugin with the help of the images below:
+![](vm-config-1.png)
 1. **Payment Option Title** - 
     Enter Option Title here. This text will be displayed while listing the payment option.
 
@@ -52,6 +54,7 @@ There are two options allowed here.
 
 10. **Thankyou Page Article ID** -
     If you want to display thankyou message, you need to enter the article id here. The message will be displayed after payment completion page.
+![](vm-config-2.png)
 
 11. **Display Text on Selection** -
     The text entered here is displayed when a customer selects this payment method. You can enter a language constant as a value here, if you are using a multi-lingual site and then write a language override. Refer the tips below:
