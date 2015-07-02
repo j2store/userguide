@@ -34,8 +34,9 @@ The text entered here will be displayed when customer is about to select payment
 If you enable this by choosing **Yes**, then the customer will be automatically added to subscribers' list. A confirmation email will be sent to the customer. All this will be done on successful order placement.
 
 4. **Display Auto subscription in products** -
-If you enable this option, then a check box will appear in both the back end and front end. This is to offer product specific subscription.
-
+If you enable this option, then a check box will appear in both the back end and front end. This is to offer product specific subscription. Consider the image below:
+![](acymail-app-5.png)
+If you check this option, then it will override the previous 'Auto Subscription' option.
 
 
 
