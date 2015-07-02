@@ -37,15 +37,15 @@ Here, you have to enter the API PIN associated with Virtual Merchant account.
 6. **Use Sandbox** -
 This is for testing purposes. Before going live, you can test your store using sandbox mode.
 There are two options allowed here.
-* **Yes** - Set in demo accounts for testing purposes
-* **No** - Set in live accounts
+    * **Yes** - Set in demo accounts for testing purposes
+    * **No** - Set in live accounts
 >**Note** - In live site, this should always be set to **NO**
 
+7. **Test Merchant ID** - Here, you need to enter the Test Merchant ID, that is associated with Virtual Merchant demo account. 
 
+8. **Test User ID** - Here, you need to enter the Test User id, that is associated with Virtual Merchant demo account. 
 
-
-
-
+9. **Test Merchant ID** - Here, you need to enter the Test PIN id, that is associated with Virtual Merchant demo account. 
 
 
 
