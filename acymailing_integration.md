@@ -38,8 +38,11 @@ If you enable this option, then a check box will appear in both the back end and
 ![](acymail-app-5.png)
 If you check this option, then it will override the previous 'Auto Subscription' option.
 
+### Front end view of Auto Subsctiption
 
+In the front end, if you add your desired product to the cart and proceed to checkout, then you will see the auto subscription status. It will reflect your settings in your product configuration. 
 
+Consider the below image:
 
 
 
