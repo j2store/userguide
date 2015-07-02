@@ -66,9 +66,9 @@ For example, enter a language constant :
 You can enter language constant as a value here, if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 
 13. **Display text on after payment** -
-    The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param
+    The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 
-
+14. 
 
 
 
