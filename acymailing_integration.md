@@ -6,7 +6,7 @@ This app integrates J2Store with AcyMailing to enable option for subscription to
 
 * PHP 5.2 or higher
 * Joomla 2.5 or above
-* J2Store 2.7.3 or above
+* J2Store 3.1.6 or above
 
 #### Installation Instructions
 1. Use the Joomla installer to install the app. 
