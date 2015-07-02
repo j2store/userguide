@@ -47,9 +47,20 @@ There are two options allowed here.
 
 9. **Test Merchant ID** - Here, you need to enter the Test PIN id, that is associated with Virtual Merchant demo account. 
 
+10. **Thankyou Page Article ID** -
+If you want to display thankyou message, you need to enter the article id here. The message will be displayed after payment completion page.
 
+11. **Display Text on Selection** -
+The text entered here is displayed when a customer selects this payment method. You can enter a language constant as a value here, if you are using a multi-lingual site and then write a language override. Refer the tips below:
 
+>Tip -
+ONLY FOR MULTI-LINGUAL SITES 
 
+>For example, enter a language constant:
+
+>**J2STORE_TEXT_TO_DISPLAY_ON_SELECTION**. 
+
+>Now you can go to **Joomla admin -> Language Manager -> Overrides** and create overrides for the language constant in all languages.  
 
 
 
