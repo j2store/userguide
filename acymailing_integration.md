@@ -15,6 +15,7 @@ This app integrates J2Store with AcyMailing to enable option for subscription to
 3. Click **Enable** in the Acymailing plugin. (type=j2store). 
 ![](acymail-app-2.png)
 4. After the app is enabled, click on **Open** to set the configuration for the app.
+![](acymail-app-4.png)
 5. Enter the parameters (read the explanation about each parameter given below) 
 6. Save and close it.
 
