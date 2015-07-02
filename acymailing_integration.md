@@ -40,12 +40,15 @@ If you check this option, then it will override the previous 'Auto Subscription'
 
 ### Front end view of Auto Subsctiption
 
+Below image illustrates the cart view, in which one can see the items that are added to the cart. If any change is needed, it can be done before checking out.
+![](acymail-app-cart-items.png)
+
 In the front end, if you add your desired product to the cart and proceed to checkout, then you will see the auto subscription status. It will reflect your settings in your product configuration. 
 
 Consider the below image:
+![](acymail-app-frontend.png)
 
-
-
+The image shows the options for subscriptions. If you have **Enabled** ***Auto Subscription***, and **Disabled** ***Display Auto Subscription in products***, then you will not get any options here.
 
 
 
