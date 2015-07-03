@@ -173,7 +173,6 @@
 * [Integrations](integrations.md)
    * [Zoo](zoo.md)
    * [SobiPro](sobipro.md)
-   * [K2](k2.md)
    * [Seblod](seblod.md)
        * [Configure J2Store in admin](configure_j2store_in_admin.md)
        * [Show J2Store content in Front-end](show_j2store_content_in_front-end.md)
