@@ -8,7 +8,7 @@ This plugin integrates the popular joomla catalog extension DJ-Catalog2 with J2S
 * Joomla v-3.x
 * J2Store v-3.1.6 or above
 * DJ-Catalog2 v-3.5.2
-* J2Store - DJ-Catalog integration plugin
+* J2Store - DJ-Catalog2 integration plugin
 
 ### Installation
 1. Go to **Extension Manager** in control panel.
