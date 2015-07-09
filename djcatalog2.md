@@ -15,7 +15,7 @@ This plugin integrates the popular joomla catalog extension DJ-Catalog with J2St
 
 2. Select the plugin using the **Browse** button and click *Upload &Install*
 
-3. 
+
 
 
 
