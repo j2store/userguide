@@ -1,7 +1,7 @@
 # DJ Catalog2
 
 ### Introduction
-This plugin integrates the popular joomla catalog extension DJ-Catalog with J2Store enabling users to create a powerfull and full fledged online store. 
+This plugin integrates the popular joomla catalog extension DJ-Catalog2 with J2Store enabling users to create a powerfull and full fledged online store. 
 
 ### Requirements
 * PHP 5.2 or higher
