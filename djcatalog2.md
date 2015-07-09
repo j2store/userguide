@@ -17,7 +17,11 @@ This plugin integrates the popular joomla catalog extension DJ-Catalog with J2St
 
 ###Creating item 
 1. Go to **DJCatalog2** Control panel, Choose **New Product** icon.
-2. 
+2. You can find J2Store as shown in the image.
+
+
+3. Enter the required fields and click on the J2Store Tab
+
 
 
 
