@@ -16,7 +16,8 @@ This plugin integrates the popular joomla catalog extension DJ-Catalog with J2St
 3. Enable the plugin.
 
 ###Creating item 
-1. Go to **DJCatalog2** Control panel, Choose **New Product**  
+1. Go to **DJCatalog2** Control panel, Choose **New Product** icon.
+2. 
 
 
 
