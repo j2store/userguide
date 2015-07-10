@@ -13,7 +13,7 @@ This plugin integrates the popular joomla catalog extension DJ-Catalog2 with J2S
 ### Installation
 1. Go to **Extension Manager** in control panel.
 2. Select the plugin using the **Browse** button and click *Upload &Install*
-3. Go to Extensions -> Plugin Manager -> Filter : Select type "content" -> Select the Plugin **J2Store - DJ-Catalog** and enable the content Plugin.
+3. Go to Extensions -> Plugin Manager -> Filter : Select type "content" -> Select the Plugin **J2Store - DJ-Catalog2** and enable the content Plugin.
 
 ###Creating item 
 1. Go to **DJCatalog2** Control panel, Choose **New Product** icon.
