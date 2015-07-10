@@ -45,8 +45,11 @@ As shown in the image below, use joomla installer to install DJ-Catalog2:
 9. Click on **DJ-Catalog2** and a list of options will be shown. From the list, select **List of items**. Now the menu item with details will look like the one below:
 ![](djc-create-menu-3.png)
 
-10. 
+10. Save the menu item and go to site. You can see the menu item displayed below the **Home** menu item.
+![](djc-site.png)
 
+11. Click on the **DJ Catalog Products** item. The products created using this extension will be displayed in the site, as shown below:
+![](djc-site-with-product.png)
 
 
 
