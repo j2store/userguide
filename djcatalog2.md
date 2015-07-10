@@ -20,12 +20,32 @@ As shown in the image below, use joomla installer to install DJ-Catalog2:
 
 ###Create a product
 1. Go to **Components -> DJ-Catalog2**.
+![](djc-create-product-1.png)
+
 2. From **DJCatalog2** Control panel, Choose **New Product** icon.
+![](djc-create-new-product-2.png)
+
 3. You can find **J2Store** Tab as shown in the image, indicating that J2Store is integrated with **DJ-Catolog2**.
+![](djc-create-new-product-3.png)
+
 4. Enter the required fields and click on the J2Store Tab, set **Yes** to **Treat as a product** option and click on **Save**. 
+![](djc-create-new-product-4.png)
 
+5. Now the product is created and will have the configuration options enabled. Enter the product details like, images, prices, options, filters, relations etc., and save the configuration.
+![](djc-create-new-product-5.png)
 
+6. The product is created using DJ-Catalog2. To display the product in the frontend, a menu is to be created. 
 
+7. To create menu, follow the illustrative steps. Go to **Menus -> Add New Menu Item**, as shown below:
+![](djc-create-menu-1.png)
+
+8. Enter a name for the menu and click on the *Select* button to select the menu item type.
+![](djc-create-menu-2.png)
+
+9. Click on **DJ-Catalog2** and a list of options will be shown. From the list, select **List of items**. Now the menu item with details will look like the one below:
+![](djc-create-menu-3.png)
+
+10. 
 
 
 
