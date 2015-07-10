@@ -6,7 +6,7 @@
 
 ### Requirements
 
-* PHP 5.2 or higher
+* PHP 5.3 or higher
 * Joomla 3.x
 * J2Store 3 or above
 * Flexicontent  
