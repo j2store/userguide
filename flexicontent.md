@@ -1,4 +1,4 @@
-# Flexicontent
+# FLEXIcontent
 
 ### Introduction 
 
