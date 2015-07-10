@@ -18,11 +18,11 @@ As shown in the image below, use joomla installer to install DJ-Catalog2:
 3. Go to **Extensions -> Plugin Manager -> Filter : Select type "content"** -> Select the Plugin **J2Store - DJCatalog2** and enable the content plugin as shown in the image:
 ![](djc-enable.png)
 
-###Creating item 
-1. From the 
-1. Go to **DJCatalog2** Control panel, Choose **New Product** icon.
-2. You can find **J2Store** Tab as shown in the image.
-3. Enter the required fields and click on the J2Store Tab, Set **Yes** Set Yes to Treat as a product option and click on **Save**. 
+###Create a product
+1. Go to **Components -> DJ-Catalog2**.
+2. From **DJCatalog2** Control panel, Choose **New Product** icon.
+3. You can find **J2Store** Tab as shown in the image, indicating that J2Store is integrated with **DJ-Catolog2**.
+4. Enter the required fields and click on the J2Store Tab, set **Yes** to **Treat as a product** option and click on **Save**. 
 
 
 
