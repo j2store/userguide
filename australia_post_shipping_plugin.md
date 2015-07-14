@@ -27,6 +27,9 @@ The installation procedure is illustrated in the image below:
 ##### Shipping Type
 For this option, select **Domestic Shipping Service** or **International Shipping Service**
 
+Check the image below and set up the shipping parameters as illustrated in the image.
+![](aus-post-ship-config.png)
+
 ##### API Key
 This is your Australia post API key. It will be given to you once you create an Australia Post account.
 
