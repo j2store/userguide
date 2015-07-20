@@ -37,7 +37,7 @@ After that, the custom field has to be added to the layout settings in configura
 
 ![](add-cus-field-to-layout.png)
 
-Now, in the checkout process, the added custom field **Title** will be displayed in before the **First Name** field, as illustrated in the following image:
+Now, in the checkout process, the added custom field **Title** will be displayed before the **First Name** field, as illustrated in the following image:
 
 ![](custom-field-in-frontend.png)
 
