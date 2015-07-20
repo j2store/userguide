@@ -80,3 +80,5 @@ You can choose the layouts to display the field. You can select all the three la
 * **Checkout Payment Method Layout**
 
 For a detailed section on how to set up the checkout layout, click [here](http://j2store.gitbooks.io/user-guide/content/checkout_layout.html)
+
+
