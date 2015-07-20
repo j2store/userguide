@@ -28,3 +28,5 @@ For a better understanding, check the image below:
 ![](checkout_layout.png)
     
     
+### Example to add a custom field
+Assume that it would be better to add a **Title** field before the **First Name**. To achieve that, create a custom field with *title* as its name, as shown in the image:
