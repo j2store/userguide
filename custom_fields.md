@@ -71,10 +71,11 @@ The remaining fields after the **Field Type** is selected, will be different bas
 * **Read-only** - If it is set to '**Yes**', it is only readable and the content cannot be changed
 
 #### Status
-* **Published** - The field has to be published by setting this to '**Yes**' to be displayed
+* **Published** - To display the field it has to be published by setting this option to '**Yes**'.
 
 #### Display Settings
 You can choose the layouts to display the field. You can select all the three layouts or any combination of layouts or only one layout. The layouts are:
 * **Checkout Billing Address Layout**
 * **Checkout Shipping Address Layout**
 * **Checkout Payment Method Layout**
+
