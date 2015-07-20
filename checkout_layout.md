@@ -36,3 +36,9 @@ Assume that it would be better to add a **Title** field before the **First Name*
 After that, the custom field has to be added to the layout settings in configuration. Go to **J2Store -> Setup -> Configuration** and select **Checkout Layout** tab.Then add the tag for the newly created custom field in the position of the desired display area. Save and close.  Check the image below:
 
 ![](add-cus-field-to-layout.png)
+
+Now, in the checkout process, the added custom field **Title** will be displayed in before the **First Name** field, as illustrated in the following image:
+
+![](custom-field-in-frontend.png)
+
+In this way, new custom fields can be added according to the needs of the user.
