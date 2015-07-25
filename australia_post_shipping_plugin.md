@@ -58,7 +58,7 @@ The length unit for this shipping method must be set to ***Centimetre***. No oth
 ##### Debug
 If you enable this option, a log file will be maintained for error debugging. This debug file will be stored in cache folder. 
 
->IMPORTANT: Apart from the parameters set here, to use **Australia Post Shipping Plugin**, it is mandatory to set the currency as **Australian Dollar - AUD** and the country of the store as **Australia**, in the store configuration setup. If it is not met, this plugin can not be used.
+>**IMPORTANT**: Apart from the parameters set here, to use **Australia Post Shipping Plugin**, it is mandatory to set the default currency as **Australian Dollar - AUD** and the country of the store as **Australia**, in the store configuration setup. If it is not met, this plugin can not be used.
 
 ### Support
 If you still have questions, you can reach us in **support@j2store.org**
