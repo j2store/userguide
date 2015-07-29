@@ -39,7 +39,7 @@ Before using content plugin, some settings need to be ensured for the plugin to 
     * Main image width & Additional image width - Set the image width in pixels
 * Save and close the window.
 
-
+Content plugin settings were made successfully. Now, it is ready to be used in the store. 
 
 
 
