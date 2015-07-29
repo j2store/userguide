@@ -99,7 +99,7 @@
        * [Common mistakes to avoid when setting up Standard Shipping methods in J2Store](common_mistakes_to_avoid_when_setting_up_standard_shipping_methods_in_j2store.md)
    * [Custom Fields](custom_fields.md)
        * Basic tax set up
-   * Content Plugin Settings
+   * [Content Plugin Settings](content_plugin_settings.md)
 * [Catalog](catalog.md)
    * [Products](products.md)
        * [Simple Product](simple_product.md)
