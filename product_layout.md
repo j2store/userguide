@@ -2,7 +2,7 @@
 
 Product Layout is a powerful feature that enables the user to customize the display options and descriptions of the product. In this section, you'll learn how to create and customize a product layout.
 
->Note: Product layout works only with Joomla articles. If you use SEBLOD / Flexicontent / or any other catlog systems, then you may need to configure the product layouts using their menu items.
+>Note: Product layout works only with Joomla articles. If you use SEBLOD / FLEXIcontent / or any other catlog systems, then you may need to configure the product layouts using their menu items.
 
 
 ### Create a Product Layout
