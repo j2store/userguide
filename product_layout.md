@@ -140,4 +140,4 @@ When you click on the product, it will be displayed with large image and additio
 
 Like this, you can set different product layouts according to your wish and needs.
 
-
+>Note: Product layout works only with Joomla articles. If you use SEBLOD / Flexicontent / or any other catlog systems, then you may need to configure the product layouts using their menu items.
