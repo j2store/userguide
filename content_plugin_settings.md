@@ -1,6 +1,6 @@
 # Content Plugin Settings
 
-Before using content plugin, some settings need to be ensured for the plugin to function properly. 
+To control the display in the cart section, to show or hide the images, enabling zoom effects etc., some settings have to made in advance to achieve the desired results. This section explains about how the settings can be made.
 
 ### Procedures
 
