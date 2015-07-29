@@ -10,7 +10,7 @@ Before using content plugin, some settings need to be ensured for the plugin to 
 
 ![](content-plugin-manager.png)
 
-* From the resulting window, select the **Category View** tab to set the values, as shown in the image below
+* From the resulting window, select the **Category View** tab to set the values, as shown in the image below:
 
 ![](content-category-view.png)
 
@@ -23,11 +23,21 @@ Before using content plugin, some settings need to be ensured for the plugin to 
     * Enable zoom effect - Select **Yes** to enable zoom effect
     * Image width & Additional image width - Set the width of the image in pixels
 
+* Save the settings and go to **Item View** tab to set the values, as shown in the image below:
 
+![](content-item-view.png)
 
-
-
-
+* Follow the steps for the settings to be made:
+    * Product block position - Select **Top** or **Bottom** for this option
+    * Display image - To display the image, select **Yes**
+    * Image block position - Three options available. selct one accordingly or leave the default selection:
+        * On top of product block (default)
+        * Attach to Before Content plugin event
+        * Attach to After Content plugin event
+    * Image type - Select **Main** or **Both main and additional images**
+    * Enable zoom effect - To enable, select **Yes**
+    * Main image width & Additional image width - Set the image width in pixels
+* Save and close the window.
 
 
 
