@@ -60,6 +60,8 @@ Also, select all other options as per your choice. Refer the next image.
 
 From the image you can see that there are many options available to set the price, image, size of the image and many more attributes.
 
+>CAUTION: SKU Show/Hide setting can be done in two places, i.e., in configuration setup and in product layout. Product layout setting will be given higher priority, i.e., if SKU is set to **Show** in configuration and again it is set to **Hide** in product layout, the configuration setting will be overridden and the SKU will be set to **Hide** as it is in product layout.
+
 Next image shows the filters.
 
 ![View_category_listing](product_layout_view_category_3.png)
