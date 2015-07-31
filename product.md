@@ -10,6 +10,8 @@ This tab contains the options that are related to products.
 
     SKU stands for **Stock Keeping Unit**. If this option is set to **'No'**, the SKU will become hidden in both product and cart views.
     
+>CAUTION: SKU Show/Hide setting can be done in two places, i.e., in configuration setup and in product layout. Product layout setting will be given higher priority, i.e., if SKU is set to **Show** in configuration and again it is set to **Hide** in product layout, the configuration setting will be overridden and the SKU will be set to **Hide** as it is in product layout.    
+    
 * ***Show Quantity Field***
 
     If it is set to 'Yes', the manual input for quantity will be visible, else quantity can not be given manually.
