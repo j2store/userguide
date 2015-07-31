@@ -42,6 +42,10 @@ Now, go to next tab, **Common Options**.
 
 This tab has the common settings for all items. If you want to show images for product options or if you want to add some custom CSS code, you can do that here. Otherwise, you can leave them as they are.
 
+If you do not want to show product option price in front end, you can set the option to **Hide** as shown in the image below:
+
+![](set_product_option_price.png)
+
 >Note: In Sub-Template option, you have to choose **bootstrap3** if your bootstrap version is 3x. Leave it as **--Default--** if bootstrap version is 2x
 
 #### Item View options in category listings
