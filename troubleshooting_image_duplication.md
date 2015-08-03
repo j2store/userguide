@@ -4,7 +4,7 @@ Products are supported with images for customers to understand the product bette
 
 ### Adding images in article creation
 
-When an article is created, usually the images are added in the **Images** section of product configuration in the J2Store tab. Images can also be added in the **Images and links** tab of article creation. Its absolutely acceptable to add images in both locations. Its illustrated in the below images.
+When an article is created, usually the images are added in the **Images** section of product configuration in the J2Store tab. Images can also be added in the **Images and links** tab of article creation. Its absolutely acceptable to add images in both locations. It is illustrated in the below images.
 
 ![](image-dup-1.png)
 
