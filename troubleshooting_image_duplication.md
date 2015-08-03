@@ -22,10 +22,23 @@ This is because, the content plugin settings are set to **Yes** for *Display ima
 
 With this settings, duplication will occur. To eliminate the duplication, follow the procedure:
 
-* Go to **Extensions -> Plugin Manager**
+* From the joomla main menu, go to **Extensions -> Plugin Manager**
 
-* 
+* From the resulting window, select **Content** from the *Select Type* filter on the left pane and click on **Content - J2Store** from the list, as illustrated in the image below
 
+![](content-plugin-manager.png)
+
+* From the resulting window, select the **Category View** tab to set the values, as shown in the image below:
+
+![](image-dup-5.png) 
+
+* After setting the **Display image** option to **No**, go to **Item View** tab to set the value as shown below:
+
+![](image-dup-6.png)
+
+* Now, click **Save & Close**.
+
+* The store will now display the products as shown the image, eliminating the duplicate image:
 
 ![](image-dup-store-1.png)
 
