@@ -138,7 +138,7 @@
            * [Filters](down_filters.md)
            * [Relations](down_relations.md)
            * [Example to Create a Downloadable Product](example_to_create_a_downloadable_product.md)
-       * Troubleshooting image duplication
+       * Troubleshooting Image Duplication
    * [Product Layout](product_layout.md)
    * [Options](options.md)
        * [Option Values](option_values.md)
