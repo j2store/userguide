@@ -47,4 +47,7 @@ Please select your product condition from this list. There are three options (Ne
 | brand                  | Manufacturer                                                                                                    |
 |  identifier_exists     | Calculated based on Google's constrains (takes two values TRUE or FALSE)                                                                                                    |
 
+#### Generate Feed and upload to Merchant center
+Click on the **Download Feed** button to download the feed. Verify the fields and upload the feed to the merchant center for publishing your products to Google Shopping service.
 
+More details on configuring your merchant account and uploading shopping feed can be found at [Google merchant Support center](https://support.google.com/merchants/)
