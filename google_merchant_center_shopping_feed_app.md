@@ -15,12 +15,14 @@ Name of CSV file used to upload in merchant center. Make sure the file name does
 3. **Product Condition** -
 Please select your product condition from this list. There are three options (New, used, refurbished)
 
+![j2s_google_shop_feed_app_1_admin_screen](j2s_google_shop_feed_app_1_admin_screen.png)
+
 ### Configure Fields
-There are a list of fields that are needed to be uploaded to the merchant center feed. You may enable or disable the fields in this section.
+* There are a list of fields to be uploaded to google merchant center feed. 
+* You may enable or disable the fields in this section.
+* The fields in **Enabled** state are considered during Feed generation.
+* Please refer [Google's Documentation for List of Fields](https://support.google.com/merchants/answer/188494?hl=en-GB) used for the Google Shopping Feed and their detailed specifications.
 
-The fields in **Enabled** state are considered during Feed generation.
-
-Please refer [Google's Documentation for List of Fields](https://support.google.com/merchants/answer/188494?hl=en-GB) used for the Google Shopping Feed and their detailed specifications.
 
 The following image illustrates the actions that are involved in import and export of .csv file.
 
