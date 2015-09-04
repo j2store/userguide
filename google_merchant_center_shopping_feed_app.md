@@ -24,12 +24,26 @@ Please select your product condition from this list. There are three options (Ne
 * Please refer [Google's Documentation for List of Fields](https://support.google.com/merchants/answer/188494?hl=en-GB) used for the Google Shopping Feed and their detailed specifications.
 
 
-The following image illustrates the actions that are involved in import and export of .csv file.
 
-![](csv-import-settings-edited.png)
+#####Below is a list of fields that are supported by the app.
 
-A sample .csv file is given here for your testing purposes.
+| Field name              | description                                                                                                    |
+|-------------------------|----------------------------------------------------------------------------------------------------------------|
+| id                      | Product id                                                                                                     |
+| title                   | Product name                                                                                                   |
+| description             | Product Short Description or article content                                                                   |
+| google_product_category | Value given in the parameters section                                                                          |
+| product_type            | Product's Category (Joomla category)                                                                           |
+| link                    | Link to the J2Store Single Product view                                                                        |
+| mobile_link             | Link to the J2Store Single Product view                                                                        |
+| image_link              | Link of the main image. Chosen under J2Store Images Section.                                                   |
+| additional_image_link   | Link of the thumbnail image. Chosen under J2Store Images Section.                                              |
+| condition               | As per settings in above parameter. (New by default)                                                           |
+| availability            | Availability is calculated and based on the product inventory (in stock, out of stock, preorder ) is supplied. |
+| price                   | Price of the product                                                                                           |
+| sale_price              | Price of the Product                                                                                           |
+| gtin                    | custom field                              
+| mpn                    | sku (product sku is supplied)                                                                                          |
+| brand                  | Manufacturer                                                                                                    |
+|  identifier_exists     | Calculated based on Google's constrains (takes two values TRUE or FALSE)                                                                                                    |
 
-[sample.csv](sample.csv)
-
-Below is a list of fields that are supported by the app.
