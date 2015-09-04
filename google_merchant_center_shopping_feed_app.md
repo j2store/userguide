@@ -20,7 +20,7 @@ There are a list of fields that are needed to be uploaded to the merchant center
 
 The fields in **Enabled** state are considered during Feed generation.
 
-Please refer Google's Documentation for List of Fields used for the Google Shopping Feed and its detailed specifications under this link. [Google Shopping Feed - List of Fields]()
+Please refer [Google's Documentation for List of Fields](https://support.google.com/merchants/answer/188494?hl=en-GB) used for the Google Shopping Feed and their detailed specifications.
 
 The following image illustrates the actions that are involved in import and export of .csv file.
 
