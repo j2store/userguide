@@ -16,6 +16,11 @@ Name of CSV file used to upload in merchant center. Make sure the file name does
 Please select your product condition from this list. This field is mandatory and should not be skipped.
 
 ### Configure Fields
+There are a list of fields that are needed to be uploaded to the merchant center feed. You may enable or disable the fields in this section.
+
+The fields in **Enabled** state are considered during Feed generation.
+
+Please refer Google's Documentation for List of Fields used for the Google Shopping Feed and its detailed specifications under this link. [Google Shopping Feed - List of Fields]()
 
 The following image illustrates the actions that are involved in import and export of .csv file.
 
