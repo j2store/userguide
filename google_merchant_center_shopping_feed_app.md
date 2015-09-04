@@ -23,7 +23,7 @@ Please select your product condition from this list. There are three options (Ne
 * The fields in **Enabled** state are considered during Feed generation.
 * Please refer [Google's Documentation for List of Fields](https://support.google.com/merchants/answer/188494?hl=en-GB) used for the Google Shopping Feed and their detailed specifications.
 
-
+![j2s_google_shop_feed_app_2_configure_fields](j2s_google_shop_feed_app_2_configure_fields.png)
 
 #####Below is a list of fields that are supported by the app.
 
@@ -46,4 +46,5 @@ Please select your product condition from this list. There are three options (Ne
 | mpn                    | sku (product sku is supplied)                                                                                          |
 | brand                  | Manufacturer                                                                                                    |
 |  identifier_exists     | Calculated based on Google's constrains (takes two values TRUE or FALSE)                                                                                                    |
+
 
