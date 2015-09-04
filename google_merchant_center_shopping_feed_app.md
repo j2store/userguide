@@ -3,7 +3,7 @@
 The app helps you export products for Google Shopping feed. 
 New to the term Google Merchant? More details can be found at [Google Merchant Center ](https://www.google.com/retail/merchant-center/)
 
-If you have any doubts or queries regarding the Merchant center service, visit [Google merchant Support center](https://support.google.com/merchants/)
+If you have any doubts or queries regarding Merchant center service, visit [Google merchant Support center](https://support.google.com/merchants/)
 
 ### Parameters
 
@@ -15,6 +15,7 @@ Name of CSV file used to upload in merchant center. Make sure the file name does
 3. **Product Condition** -
 Please select your product condition from this list. This field is mandatory and should not be skipped.
 
+### Configure Fields
 
 The following image illustrates the actions that are involved in import and export of .csv file.
 
