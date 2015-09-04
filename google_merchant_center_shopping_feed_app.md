@@ -13,7 +13,7 @@ If you have any doubts or queries regarding Merchant center service, visit [Goog
 Name of CSV file used to upload in merchant center. Make sure the file name does not contain any spaces (use underscores or hyphen symbol instead of space).
 
 3. **Product Condition** -
-Please select your product condition from this list. This field is mandatory and should not be skipped.
+Please select your product condition from this list. There are three options (New, used, refurbished)
 
 ### Configure Fields
 There are a list of fields that are needed to be uploaded to the merchant center feed. You may enable or disable the fields in this section.
