@@ -1,6 +1,6 @@
 # Installation
 
-To install J2Store, you need j2store archive downloaded or purchased from [www.j2store.org](./assets/images/http://www.j2store.org/download.htm).
+To install J2Store, you need j2store archive downloaded or purchased from [www.j2store.org](http://www.j2store.org/download.htm).
 
 ### J2Store Versions
 
@@ -14,7 +14,7 @@ There are four versions available in j2store shopping cart extension.
 Have a look at the image below:
 ![J2Store Versions](./assets/images/install_j2store_3.png)
 
-**Basic** version is free and you can download it from [www.j2store.org](./assets/images/http://www.j2store.org/download.htm).
+**Basic** version is free and you can download it from [www.j2store.org](http://www.j2store.org/download.htm).
 
 Remaining are premium versions. You can choose any of the four and get a copy of the extension.
 

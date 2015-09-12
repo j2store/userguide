@@ -2,13 +2,13 @@
 
 This is shipping plugin which is available in J2Store by default. It has seven shipping types. They are:
 
-* **[Flat rate per order](./assets/images/http://j2store.gitbooks.io/user-guide/content/flat_rate_per_order.html)**
-* **[Quantity based per order](./assets/images/http://j2store.gitbooks.io/user-guide/content/quantity_based_per_order.html)**
-* **[Weight based per order](./assets/images/http://j2store.gitbooks.io/user-guide/content/weight_based_per_order.html)**
-* **[Price based per order](./assets/images/http://j2store.gitbooks.io/user-guide/content/price_based_per_order.html)**
-* **[Flat rate per item](./assets/images/http://j2store.gitbooks.io/user-guide/content/flat_rate_per_item.html)**
-* **[Weight based per item](./assets/images/http://j2store.gitbooks.io/user-guide/content/weight_based_per_item.html)**
-* **[Price based per item](./assets/images/http://j2store.gitbooks.io/user-guide/content/price_based_per_item.html)**
+* **[Flat rate per order](http://j2store.gitbooks.io/user-guide/content/flat_rate_per_order.html)**
+* **[Quantity based per order](http://j2store.gitbooks.io/user-guide/content/quantity_based_per_order.html)**
+* **[Weight based per order](http://j2store.gitbooks.io/user-guide/content/weight_based_per_order.html)**
+* **[Price based per order](http://j2store.gitbooks.io/user-guide/content/price_based_per_order.html)**
+* **[Flat rate per item](http://j2store.gitbooks.io/user-guide/content/flat_rate_per_item.html)**
+* **[Weight based per item](http://j2store.gitbooks.io/user-guide/content/weight_based_per_item.html)**
+* **[Price based per item](http://j2store.gitbooks.io/user-guide/content/price_based_per_item.html)**
 
 See the image below:
 ![Standard Shipping Method](./assets/images/std_ship.png)

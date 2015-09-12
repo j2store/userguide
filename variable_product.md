@@ -7,8 +7,8 @@ A variable product has some features varying from other items of the same produc
 ### Create a variable product
 There are several tabs in which the details of the product have to be given under various classifications. The tabs are:
 
-* **[General](./assets/images/http://j2store.gitbooks.io/user-guide/content/variable_general.html)**
-* **[Images](./assets/images/http://j2store.gitbooks.io/user-guide/content/variable_images.html)**
-* **[Variants](./assets/images/http://j2store.gitbooks.io/user-guide/content/variable_variants.html)**
-* **[Filters](./assets/images/http://j2store.gitbooks.io/user-guide/content/variable_filters.html)**
-* **[Relations](./assets/images/http://j2store.gitbooks.io/user-guide/content/variable_relations.html)**
+* **[General](http://j2store.gitbooks.io/user-guide/content/variable_general.html)**
+* **[Images](http://j2store.gitbooks.io/user-guide/content/variable_images.html)**
+* **[Variants](http://j2store.gitbooks.io/user-guide/content/variable_variants.html)**
+* **[Filters](http://j2store.gitbooks.io/user-guide/content/variable_filters.html)**
+* **[Relations](http://j2store.gitbooks.io/user-guide/content/variable_relations.html)**
