@@ -10,4 +10,4 @@ If a store sells some particular products, then the weekly report will contain t
 
 Check the image below:
 
-![Report Itemised](report_itemised.png)
+![Report Itemised](./assets/images/report_itemised.png)

@@ -16,9 +16,9 @@ You can install this shipping plugin, using joomla installer.
 4. Configure the shipping plugin by entering the plugin parameters
 
 The installation procedure is illustrated in the image below:
-![](aus-ship-plg-install.png)
-![](aus-ship-doc-1.png)
-![](aus-post-ship-method-list.png)
+![](./assets/images/aus-ship-plg-install.png)
+![](./assets/images/aus-ship-doc-1.png)
+![](./assets/images/aus-post-ship-method-list.png)
 
 ### Parameters
 
@@ -26,7 +26,7 @@ The installation procedure is illustrated in the image below:
 For this option, select **Domestic Shipping Service** or **International Shipping Service**
 
 Check the image below and set up the shipping parameters as illustrated in the image.
-![](aus-post-ship-config.png)
+![](./assets/images/aus-post-ship-config.png)
 
 ##### API Key
 This is your Australia post API key. It will be given to you once you create an Australia Post account.

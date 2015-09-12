@@ -4,14 +4,14 @@ In this tab, you can set your preferred options for a particular product like, c
 
 See the image on how to set the option for a product.
 
-![Configurable Options](product_conf_options.png)
+![Configurable Options](./assets/images/product_conf_options.png)
 
 Once you select the option from the dropdown list, it will be added as you can see in the image below.
 
-![Configurable Options 1](product_conf_options_1.png)
+![Configurable Options 1](./assets/images/product_conf_options_1.png)
 
 Now, save the image and your option will be saved. Now, you will get a link '**Set option values**' near the option name. Click this link to get a pop-up window, where you can set values specific for the newly created options. Here is how it happens, as shown below:
 
-![Configurable Options 3](product_conf_options_3.png)
+![Configurable Options 3](./assets/images/product_conf_options_3.png)
 
 Like this, you can add as many options and values for the options as you wish.

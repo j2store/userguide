@@ -24,7 +24,7 @@ Go to **Service Settings -> Hosted Checkout Pages -> Set Up**, and make the foll
 
 * 1 - Set Transaction Process mode to TEST or LIVE depending on your requirement.
 
-![Setup Paypal Advanced](setup_paypal_advanced.png)
+![Setup Paypal Advanced](./assets/images/setup_paypal_advanced.png)
 
 * 2 - Under the Billing Information
 
@@ -34,7 +34,7 @@ Go to **Service Settings -> Hosted Checkout Pages -> Set Up**, and make the foll
 
 See the picture below
 
-![Billing Information](billing_information_paypal_advanced.png)
+![Billing Information](./assets/images/billing_information_paypal_advanced.png)
 
 
 * 3 - Under the Payment Confirmation, set
@@ -43,11 +43,11 @@ See the picture below
 
 **Return URL Method:** POST  (This is very IMPORTANT)
 
-![Payment Confirmation](payment_confirmation_paypal_advanced.png)
+![Payment Confirmation](./assets/images/payment_confirmation_paypal_advanced.png)
 
 * 4 - Under Security options, set
 
-![Security Options](security_options_paypal_advanced.png)
+![Security Options](./assets/images/security_options_paypal_advanced.png)
 
 • AVS: No
 • CSC: No
@@ -65,13 +65,13 @@ In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Ch
 
 See the screenshot below
 
-![Custom Layout C](custom_layout_paypal_advanced.png)
+![Custom Layout C](./assets/images/custom_layout_paypal_advanced.png)
 
 **If you chose, payment window type as Redirect :**
 
 In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Choose the Layout B
 
-![Custom Layout B](custom_layout_b_paypal_advanced.png)
+![Custom Layout B](./assets/images/custom_layout_b_paypal_advanced.png)
 
 Click Save and publish.
 
@@ -83,7 +83,7 @@ PayPal recommends that you set up an additional user on your account. To set up 
 3. set "Select a Predefined Role:" as "FULL_TRANSACTIONS"
 4. Save the changes. 
 
-![Account Administration](account_admin_paypal_advanced.png)
+![Account Administration](./assets/images/account_admin_paypal_advanced.png)
 
 #### Configuring the Plugin
 

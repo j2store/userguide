@@ -30,21 +30,21 @@ For Sale, a successful payment will return Status code 9 and for a Successful Au
 
 Check the image below for a clear understanding.
 
-![EPDQ Plugin](epdq_plugin_1.png)
+![EPDQ Plugin](./assets/images/epdq_plugin_1.png)
 
 The following parameters for technical information in your **ePDQ** account should be set as instructed below.
 
 ##### Hashing method (Tab: Security)
 This should be set to SHA-1, as the plugin will not function with other methods. Check the image on how to do this.
 
-![Hashing Method](hashing_method.png)
+![Hashing Method](./assets/images/hashing_method.png)
 
 ##### Checks for E-Commerce (Tab: Data and origin verifcation)
 URL of the merchant page containing the payment form that will call the page: orderstandard.asp - This should be set to http://www.yourdomain.com
 
 Also enter a SHA-IN pass pharse here. The same should be entered in the plugin as well.
 
-![Technical Information](tech_info.png)
+![Technical Information](./assets/images/tech_info.png)
 
 ##### Post sale confguration : (Tab: Transaction feedback)
 This is required to update our database after the payment is done.
@@ -55,9 +55,9 @@ http://yourdomain.com/index.php?option=com_j2store&view=callback&method=payment_
 ##### Request method: POST
 **(see the picture below with example urls)**
 
-![Server Request 1](server_request_1.png)
+![Server Request 1](./assets/images/server_request_1.png)
 
-![Server Request 2](server_request_2.png)
+![Server Request 2](./assets/images/server_request_2.png)
 
 #### Installation Instructions
 

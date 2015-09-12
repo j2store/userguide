@@ -15,4 +15,4 @@ Vouchers contain Basic and advanced information entries.
 #### Advanced
 * **Voucher email body** - the text body of the email sent along with voucher to the customer. A rich text editor is available to add the text with necessary formatting.
  
-![Vouchers](voucher_add.png)
+![Vouchers](./assets/images/voucher_add.png)

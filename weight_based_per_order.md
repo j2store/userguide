@@ -4,7 +4,7 @@ This type of shipping is calculating the cost based on the total weight of the o
 
 Configure this shipping method as explained in the image below:
 
-![Weight based per order](weight_per_order.png)
+![Weight based per order](./assets/images/weight_per_order.png)
 
 As in the previous shipping methods, you need to give a **Shipping Method Name**, select a **Tax Profile**, **Enable** the method, and more importantly, select the type to be '**Weight based per order**'. And if necessary you can select the **Override Shipping Address** option. Enter **Minimum** and **Maximum** subtotals required for shipping.
 

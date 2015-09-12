@@ -25,7 +25,7 @@ These are the basic system informations that are required to be supplied when yo
 | **Cache Settings** | {"browsercache":"0","cachetime":"15"}  |
 
 
-![Diagnostics Tool](tool_diagnostics.png)
+![Diagnostics Tool](./assets/images/tool_diagnostics.png)
 
 #### J2Store Tool Localization Data
 
@@ -37,4 +37,4 @@ This tool helps you in resetting the localization data for your cart, as and whe
 
 **Metrics** - This will reset the metric system to weigh and meausring lengths with the default data of J2Store.
 
-![Localization Tool](tool_localization.png)
+![Localization Tool](./assets/images/tool_localization.png)

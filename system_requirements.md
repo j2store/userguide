@@ -13,6 +13,6 @@ Technical requirements for J2Store:
 Thats it !
 
 ### Joomla Requirements
-Make sure you check these [minimum requirements for Joomla](https://docs.joomla.org/Technical_requirements)
+Make sure you check these [minimum requirements for Joomla](./assets/images/https://docs.joomla.org/Technical_requirements)
 
 

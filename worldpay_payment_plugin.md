@@ -11,10 +11,10 @@ Go to Extensions Manager and Install the plugin by choosing the plugin pack.
 
 Login to your Merchant Interface and go to Installation → Integration Setup 
 
-![Worldpay Plugin](worldpay_payment_plugin.png)
+![Worldpay Plugin](./assets/images/worldpay_payment_plugin.png)
 
 ##### Payment Response URL
-![Payment Response](payment_response_worldpay.png)
+![Payment Response](./assets/images/payment_response_worldpay.png)
 
 http://yourdomainname.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_worldpay&paction=process&tmpl=component
 

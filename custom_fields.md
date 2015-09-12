@@ -31,7 +31,7 @@ For example, if you want to add a custom note for your reference, you can create
 
 Check the image for a list of custom fields:
 
-![Custom Fields List](custom_fields_list.png)
+![Custom Fields List](./assets/images/custom_fields_list.png)
 
 Let us see how to create a custom field.
 
@@ -39,7 +39,7 @@ In the custom field list view, click the **New** button. You will the get a scre
 
 #### Add a Custom Field
 
-![Custom Field Add New](custom_field_addnew.png)
+![Custom Field Add New](./assets/images/custom_field_addnew.png)
 
 To add a custom field, we need to enter the following details. They are given below on by one:
 
@@ -79,6 +79,6 @@ You can choose the layouts to display the field. You can select all the three la
 * **Checkout Shipping Address Layout**
 * **Checkout Payment Method Layout**
 
-For a detailed section on how to set up the checkout layout, click [here](http://j2store.gitbooks.io/user-guide/content/checkout_layout.html)
+For a detailed section on how to set up the checkout layout, click [here](./assets/images/http://j2store.gitbooks.io/user-guide/content/checkout_layout.html)
 
 

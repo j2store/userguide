@@ -5,7 +5,7 @@ This method of shipping charges a flat shipping for every item, irrespective of 
 N.B.: In this type, only one rate can be configured per geozone and weight will not be considered for shipping cost.
 
 Consider the image below:
-![Flat rate per item](flat_per_item.png)
+![Flat rate per item](./assets/images/flat_per_item.png)
 
 Enter the necessary details as in other shipping methods, and enable the method to be listed in shipping types.
 

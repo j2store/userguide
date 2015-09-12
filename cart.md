@@ -58,7 +58,7 @@ This tab is dealing with the cart options.
     Enabling this option to **Yes** will show the login form during the checkout process, if a customer is not previously logged in during shopping. Without logging in, the customer cannot checkout, if this option is set to **Yes**.
     
 Check the image for more clarification.
-![Cart Configuration](Cart_config.png)
+![Cart Configuration](./assets/images/Cart_config.png)
 
 * ***Allow Quick New User Registration***
 
@@ -78,4 +78,4 @@ Check the image for more clarification.
     
 Check the image below for more clear understanding.
 
-![Cart Configuration1](Cart_config1.png)
+![Cart Configuration1](./assets/images/Cart_config1.png)

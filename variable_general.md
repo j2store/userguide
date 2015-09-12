@@ -2,7 +2,7 @@
 
 Variable product is a complex product type and one need to be careful in configuring this product. In this general tab, lets see how it goes with the help of an image.
 
-![Variable General](product_variable_general.png)
+![Variable General](./assets/images/product_variable_general.png)
 
 * **Visible in Storefront** - First select whether the product is to be displayed in front of the store. If it is, set the option to **'Yes'**
 * **Brand or Manufacturer** - Select the brand or manufacturer of the product from the available list

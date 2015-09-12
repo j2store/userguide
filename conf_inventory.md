@@ -4,7 +4,7 @@
 
 This tab has the configuration setup facility for inventory management. Here you can set the following details with respect to inventory. Check the image below:
 
-![Configurable Inventory](product_conf_inventory.png)
+![Configurable Inventory](./assets/images/product_conf_inventory.png)
 
 From the image you can understand the following:
 
@@ -18,4 +18,4 @@ From the image you can understand the following:
 
 If you are using the **J2Store CORE version**, your **Inventory** screen will look like this.
 
-![Inventory Core Version](product_conf_inventory_core.png)
+![Inventory Core Version](./assets/images/product_conf_inventory_core.png)

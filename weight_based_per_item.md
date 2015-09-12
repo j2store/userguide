@@ -16,7 +16,7 @@ So, for the next 100 kg, $ 2.00 X 10 = $ 20.00. And $ 20.00 + $ 20.00 = $ 40.00 
 
 For configuration refer the image below.
 
-![Weight based per item](weight_per_item.png)
+![Weight based per item](./assets/images/weight_per_item.png)
 
 Enter all the values necessary as in other shipping methods, as shown in the image.
 

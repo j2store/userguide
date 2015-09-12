@@ -4,7 +4,7 @@ This tab has the configuration setting for shipping. Any product that has been p
 
 Consider the image below:
 
-![Simple Shipping](product_simple_shipping.png)
+![Simple Shipping](./assets/images/product_simple_shipping.png)
 
 As shown in the image, you need to do the following activities to configure shipping:
 

@@ -6,4 +6,4 @@ Say for example, if a product or item falls under the price range of $ 100 to 10
 
 For configuration of this shipping method, refer the image below.
 
-![Price per item](price_per_item.png)
+![Price per item](./assets/images/price_per_item.png)

@@ -4,7 +4,7 @@ The option values are the choices that are associated with a particular option t
 
 This can be understood from the image below.
 
-![Add Option Values](option_values1.png)
+![Add Option Values](./assets/images/option_values1.png)
 
 Here, under the option 'Electronics', you have the values as
 * Television
@@ -14,4 +14,4 @@ Here, under the option 'Electronics', you have the values as
 
 For better understanding, refer the image below:
 
-![Options Add New](options_add_new.png) 
+![Options Add New](./assets/images/options_add_new.png) 

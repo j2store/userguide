@@ -10,4 +10,4 @@ If a geozone is created and saved, then an option row will be displayed to add c
 * Map the country and zone in the fields show below with United States and California
 
 See the image
-![Geozone](Geozone.png)
+![Geozone](./assets/images/Geozone.png)

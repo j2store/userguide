@@ -36,5 +36,5 @@ One of these options can be selected here.
     
 Check the image below for a visual aid.
 
-![](Tax_config.png)
+![](./assets/images/Tax_config.png)
 

@@ -2,7 +2,7 @@
 
 The customer is charged tax based on the billing or shipping address. 
 Before we go on to the details of tax rates, you should configure your store location information correctly in Set up -> Configuration -> Store tab
-![StoreSetup](Selection_031.png)
+![StoreSetup](./assets/images/Selection_031.png)
 
 * City
 * Zip / Postal code

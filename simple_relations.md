@@ -2,7 +2,7 @@
 
 Relations are used to promote sales by suggesting the customer with higher value products than the one being looked and additional products to be bought with a particular product.
 
-![Simple Product Relations](product_simple_relations.png)
+![Simple Product Relations](./assets/images/product_simple_relations.png)
 
 
 * In this tab page, relations are set for Upsells and Cross sells

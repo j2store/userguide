@@ -6,7 +6,7 @@ This tab has the configuration setup facility for inventory management. Here you
 
 To understand how to configure inventory setting, lets check the simple product inventory setting with its image, as it is exactly the same for inventory as well.
 
-![Downloadable Inventory](product_simple_inventory.png)
+![Downloadable Inventory](./assets/images/product_simple_inventory.png)
 
 From the image you can understand the following:
 

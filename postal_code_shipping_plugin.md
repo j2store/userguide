@@ -46,7 +46,7 @@ Choose the postal code format. Most of the countries follow the US based zip cod
 Quite a few commonwealth countries including **UK**, follow a different post code system. 
 
 If you are not sure about post code, do not select any format here.
-![](creating_method.png)
+![](./assets/images/creating_method.png)
 
 Now, **Save&Close** the method.
 
@@ -55,7 +55,7 @@ Now, **Save&Close** the method.
 #### Set Rates 
 **To Set Rates** click on the link  "set rates" of the postcode Shipping method.
 
-![](to_set_rate.png) 
+![](./assets/images/to_set_rate.png) 
 
 
 ##### Postcode From
@@ -139,7 +139,7 @@ If you set this to yes, then debug messages will be logged and saved in the cach
 >Set this to NO in Live websites. 
 
 *** Sample rates *** 
-  ![](setting_rates.png)
+  ![](./assets/images/setting_rates.png)
   
   
 ###Frontend
@@ -147,7 +147,7 @@ If you set this to yes, then debug messages will be logged and saved in the cach
  
 Finally you can see the shipping postcode method listed.
  
- ![](step_final.png)
+ ![](./assets/images/step_final.png)
  
 #### Support 
 You can contact ***support@j2store.org*** if you have any questions. 

@@ -34,11 +34,11 @@ You can add, edit time slots by clicking the link.
 
 Check the image below to understand how to set to time slots.
 
-![Set Time Slot](set_time_slot.png)
+![Set Time Slot](./assets/images/set_time_slot.png)
 
 The image below illustrates how a timed shipping method plugin will look like.
 
-![Timed Shipping Method](timed_shipping_methods.png)
+![Timed Shipping Method](./assets/images/timed_shipping_methods.png)
 
 ### Set Time Slot
 #### Select Days

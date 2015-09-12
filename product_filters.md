@@ -12,4 +12,4 @@ In this page, first Fiter Groups are created and in each group some Filter Names
 
 This is illustrated in the image below:
 
-![Product Filtes Add New](product_filters_add_new.png)
+![Product Filtes Add New](./assets/images/product_filters_add_new.png)

@@ -44,7 +44,7 @@ Using the short codes, you can add customer name, order no, order date, payment 
 
 Check the image below for how an invoice template can be designed for our needs. This is for example purpose only and the user can design his/her own template.
 
-![Create Invoice Template](invoice template.png)
+![Create Invoice Template](./assets/images/invoice template.png)
 
 Full articles can also be added to the content, from other external sources.
 
@@ -62,4 +62,4 @@ Keep in mind, the following, when you add a custom field to the editor:
 
 Refer the image below for more clear understanding.
 
-![](guide-to-add-custom-field.png)
+![](./assets/images/guide-to-add-custom-field.png)

@@ -29,7 +29,7 @@ There are 9 types of options available in J2Store. Of the 9, 3 options have mult
 
 If these options are selected from the list, then a new row of fields will appear to enter the option values for the selected option. Any number of option values can be added to the selected option.
 
-![Options](options1.png)
+![Options](./assets/images/options1.png)
 
 Other available options are: 
 * Text

@@ -3,7 +3,7 @@
 Relations are used to promote sales by suggesting the customer with higher value products than the one being looked and additional products to be bought with a particular product.
 
 
-![Configurable Relations](product_conf_relations.png)
+![Configurable Relations](./assets/images/product_conf_relations.png)
 
 * In this tab page, relations are set for Upsells and Cross sells
 * An ***upsell*** is to get the customer to spend more money – buy a more expensive model of the same type of product considered for purchase.

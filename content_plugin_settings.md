@@ -8,11 +8,11 @@ To control the display in the cart section, to show or hide the images, enabling
 
 * From the resulting window, select **Content** from the *Select Type* filter on the left pane and click on **Content - J2Store** from the list, as illustrated in the image below
 
-![](content-plugin-manager.png)
+![](./assets/images/content-plugin-manager.png)
 
 * From the resulting window, select the **Category View** tab to set the values, as shown in the image below:
 
-![](content-category-view.png)
+![](./assets/images/content-category-view.png)
 
 * Follow the steps for the settings to be made:
     * Product option display type - From the available two options, select either **Display the options and cart** or **Do not display. Show 'Choose option' button and take customer to detail view**
@@ -25,7 +25,7 @@ To control the display in the cart section, to show or hide the images, enabling
 
 * Save the settings and go to **Item View** tab to set the values, as shown in the image below:
 
-![](content-item-view.png)
+![](./assets/images/content-item-view.png)
 
 * Follow the steps for the settings to be made:
     * Product block position - Select **Top** or **Bottom** for this option

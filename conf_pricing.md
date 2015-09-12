@@ -4,13 +4,13 @@ Pricing section will guide you to understand how to set regular pricing and adva
 
 Consider the image below:
 
-![Configurable Pricing](product_conf_pricing_1.png)
+![Configurable Pricing](./assets/images/product_conf_pricing_1.png)
 
 As illustrated in the image, you can set the regular price by entering the value in the text box. If you want advanced pricing, click the '**Set Prices**' button and it will open up a pop-up window to allow you to set an advanced price setting.
 
 Let us see how it happens. Check the image below:
 
-![Advanced Pricing](product_configurable_pricing_2.png)
+![Advanced Pricing](./assets/images/product_configurable_pricing_2.png)
 
 * First select the dates, between which you wish to set the advanced price. 
 

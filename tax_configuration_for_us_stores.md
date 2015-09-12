@@ -79,6 +79,6 @@ Here let us just see how to choose the tax profile
 Go to J2Store Cart tab -> General tab 
 
 **Tax Profile :** Default tax class
-![](Selection_036.png)
+![](./assets/images/Selection_036.png)
 
 >**IMPORTANT** If you do not choose the tax profile, then tax will not apply in the store front.

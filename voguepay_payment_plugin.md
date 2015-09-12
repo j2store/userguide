@@ -74,7 +74,7 @@ Set  Yes to enable to debugging. NEVER AND EVER set this in Live site.
 
 **Relevant Screen Shot **
 
-![](paymenvoguepay.png)
+![](./assets/images/paymenvoguepay.png)
 
 This is Screen shot Will help you to Enable Test Mode, To test Your Store before going live.
 

@@ -12,7 +12,7 @@ In USPS shipping plugin, if the shipping server is queried, the server will retu
 
 Well, this might sound trivial. But some of us often forget to turn on the ***Enable Shipping Switch*** while creating the product. Make sure that Enable shipping is set to YES.
 
-![Enable Shipping](enable_shipping.png)
+![Enable Shipping](./assets/images/enable_shipping.png)
 
 #### Weight and Dimensions
 
@@ -24,7 +24,7 @@ IMPORTANT for those using UPS: Only KG (Kilogram) and LB (Pound) are supported b
 
 Also, make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
 
-![Weight and Dimensions](weight_and_dimensions.png)
+![Weight and Dimensions](./assets/images/weight_and_dimensions.png)
 
 #### API credentials
 
@@ -38,7 +38,7 @@ If you choose a geozone, then this shipping plugin will apply only to customers 
 
 During testing, make sure that this parameter is set to All geozones.
 
-![Geozone Setting](shipping_geozone_setting.png)
+![Geozone Setting](./assets/images/shipping_geozone_setting.png)
 
 #### Debug Mode
 
@@ -48,6 +48,6 @@ The log is stored in the /cache folder of your Joomla Root. You can use your Hos
 
 >VERY IMPORTANT: Debug mode SHOULD NOT be enabled in LIVE / PRODUCTION sites.
 
-![Debug Mode](debug_mode.png)
+![Debug Mode](./assets/images/debug_mode.png)
 
 Still not working? Please create a private ticket or email us the log file. We will help you troubleshoot the plugin.

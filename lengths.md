@@ -17,9 +17,9 @@ This is set to be 1 for default. All other measuring units for base quantity len
 
 Refer the image below.
 
-![Length List](length_list.png)
+![Length List](./assets/images/length_list.png)
 
 You can add new units, if you need, as illustrated below.
 
-![Length Add New](length_addnew.png)
+![Length Add New](./assets/images/length_addnew.png)
 

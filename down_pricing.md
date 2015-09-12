@@ -12,13 +12,13 @@ Click the button '**Set Prices**' for setting up an advanced pricing configurati
 
 Check the image below.
 
-![Downloadable Pricing](product_down_pricing_1.png)
+![Downloadable Pricing](./assets/images/product_down_pricing_1.png)
 
 Now if you click in the ***Set Prices*** button, you will see a pop-up window to set the advanced prices.
 
 Here you go...
 
-![Downloadable Pricing Advanced](product_down_pricing_2.png)
+![Downloadable Pricing Advanced](./assets/images/product_down_pricing_2.png)
 
 
 * First select the dates, between which you wish to set the advanced price. 

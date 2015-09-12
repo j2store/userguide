@@ -16,4 +16,4 @@ This tab has some options that are related to terms and conditions of the store.
     
 Check the image below for a better idea.
 
-![Others](configuration_others.png)
+![Others](./assets/images/configuration_others.png)

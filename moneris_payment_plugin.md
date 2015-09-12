@@ -35,7 +35,7 @@ Once you have successfully logged in, click on the “ADMIN” menu item on the 
 
 To create a new Hosted Paypage configuration, click on “Generate a New Configuration”.
 
-![Eselect Plus](eselectplus.png)
+![Eselect Plus](./assets/images/eselectplus.png)
 
 You will be assigned a Hosted Paypage ID (**ps_store_id** ). 
 
@@ -55,7 +55,7 @@ https://YOUR_HOST/index.php?option=com_j2store&view=checkout&task=confirmPayment
 
 See the screenshot below
 
-![Response Method](response_method.png)
+![Response Method](./assets/images/response_method.png)
 
 **Step 4.1**: Choose "Use Enhanced Cancel"if you want to return a full response to decline url. Click the *Save Changes* button.
 
@@ -82,7 +82,7 @@ https://YOUR_DOMAIN/index.php?option=com_j2store&view=checkout&task=confirmPayme
 
 See the screenshot below
 
-![Configure Security](configure_security.png)
+![Configure Security](./assets/images/configure_security.png)
 
 In the above image, click **Save Verification Settings** and then return to **Main Configuration**.
 

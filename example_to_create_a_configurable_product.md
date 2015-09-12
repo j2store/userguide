@@ -8,11 +8,11 @@ So, lets create an article.
 
 Have a look at the image below:
 
-![Add Article](add_simple.png)
+![Add Article](./assets/images/add_simple.png)
 
 As given in the above illustration, click in the top menu or in the left pane of the control panel. You will get a new screen like this.
 
-![Create a Configurable Product](conf_create_cart.png)
+![Create a Configurable Product](./assets/images/conf_create_cart.png)
 
 A configurable product is the one that can be configured by the customer who intends to purchase the product. A suitable example is, Pizza. This basic pizza is displayed as a configurable product, and the user is allowed to add toppings over the basic product. The price of the product will be changing according to the toppings added by the customer. Follow the steps to create a configurable product.
 
@@ -23,35 +23,35 @@ A configurable product is the one that can be configured by the customer who int
 
 Your product is successfully created and a message will be displayed like this.
 
-![Configurable Created](conf_create_success.png)
+![Configurable Created](./assets/images/conf_create_success.png)
 
 You can enter the description of your product as shown below:
 
-![Add Content](conf_add_content.png)
+![Add Content](./assets/images/conf_add_content.png)
 
 #### General
 Now you need to configure your product with necessary details. Begin with general tab.
 
 See the image below:
 
-![General](conf_create_general.png)
+![General](./assets/images/conf_create_general.png)
 
 Enter the details as required by the fields in the tab, like, SKU, UPC/EAN, brand, vendor, tax profile and the caption for the cart button. Once you enter them now navigate to the next tab, pricing.
 
 #### Pricing
 In Pricing you can set the price for your product. You have the option to set up advanced prices, like discount offers, as shown in the following images.
 
-![Pricing](conf_create_pricing.png)
+![Pricing](./assets/images/conf_create_pricing.png)
 
 In the above image you set up the regular price for the basic pizza. Click the set prices button to set advanced/special prices. It will pop-up a window to set the special prices.
 
 Check the image below:
 
-![Set Price 1](conf_create_set_price.png)
+![Set Price 1](./assets/images/conf_create_set_price.png)
 
 In the above image, you can set a date range for the special price, otherwise, you can leave it empty for the special price to be applied always. For example, if a customer buys 5 or more pieces of pizza, you can offer a discount in price, throughout the year. Now, you have entered the values, and click the blue 'Create' button and you will get the special price listed below, as shown in the image.
 
-![Set Price 2](conf_create_set_price_2.png)
+![Set Price 2](./assets/images/conf_create_set_price_2.png)
 
 #### Inventory
 
@@ -61,7 +61,7 @@ In this tab you set the initial stock, whether or not to allow backorders(order 
 
 Check the image below:
 
-![Inventory](conf_create_inventory.png)
+![Inventory](./assets/images/conf_create_inventory.png)
 
 #### Images
 
@@ -69,11 +69,11 @@ Now, add relevant images for your product display in the cart.
 
 Here is how it can be done.
 
-![Images](conf_create_images.png)
+![Images](./assets/images/conf_create_images.png)
 
 When you click on the 'select an image' button, you will see a pop-up window, where you can select the image for your product.
 
-![Select Images](conf_create_image_select.png)
+![Select Images](./assets/images/conf_create_image_select.png)
 
 #### Shipping
 
@@ -81,7 +81,7 @@ Move on to shipping tab. Here you set up the shipping configuration for the prod
 
 Check the image below.
 
-![Shipping](conf_create_shipping.png)
+![Shipping](./assets/images/conf_create_shipping.png)
 
 Next is options tab.
 
@@ -89,28 +89,28 @@ Next is options tab.
 
 In this tab, you empower the customer to configure the product. See how it is...
 
-![Options 1](conf_create_options_tab.png)
+![Options 1](./assets/images/conf_create_options_tab.png)
 
 When you type the characters, the available options will be listed and you can select one from the list. The options are selected and addet to the tab, as shown in the image below.
 
-![Options](conf_create_options.png)
+![Options](./assets/images/conf_create_options.png)
 
 Now, click only the green colored 'Save' button in the top left corner to get this options saved and a link will appear near the options as shown below.
 
-![Options 2](conf_create_options_set.png)
+![Options 2](./assets/images/conf_create_options_set.png)
 
 Click on the link now to set values for the options.
 
-![Veg Topping](conf_create_option_set_veg.png)
+![Veg Topping](./assets/images/conf_create_option_set_veg.png)
 
-![Non Veg Topping](conf_create_options_set_nonveg.png)
+![Non Veg Topping](./assets/images/conf_create_options_set_nonveg.png)
 
 Now, go to filtes tab. 
 
 #### Filters
 The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'Veg', the search will display only veg pizzas.
 
-![Filters](conf_create_filters.png)
+![Filters](./assets/images/conf_create_filters.png)
 
 #### Relations
 
@@ -118,7 +118,7 @@ The next tab is Relations. Here, you can add products of higher value than the o
 
 Refer the image below:
 
-![Relations](conf_create_relations.png)
+![Relations](./assets/images/conf_create_relations.png)
 
 Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
 
@@ -128,8 +128,8 @@ For more detailed explanation, refer to the **Relations** section of the **Confi
 
 In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
 
-![Apps](conf_create_apps.png)
+![Apps](./assets/images/conf_create_apps.png)
 
 Now, lets have a look on how your product is viewed in your online store. Check the image below:
 
-![Pizza on Cart](conf_pizza_on_cart.png)
+![Pizza on Cart](./assets/images/conf_pizza_on_cart.png)

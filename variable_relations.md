@@ -1,6 +1,6 @@
 # Relations
 
-![Relations](product_variable_relations.png)
+![Relations](./assets/images/product_variable_relations.png)
 
 * In this tab page, relations are set for Upsells and Cross sells
 * An ***upsell*** is to get the customer to spend more money – buy a more expensive model of the same type of product considered for purchase.

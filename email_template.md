@@ -4,11 +4,11 @@ A template, or in other terms, a predefined layout, is necessary to make things 
 
 To create an email template, follow the steps as shown with the help of images.
 
-![new](email_template_create_new.png)
+![new](./assets/images/email_template_create_new.png)
 
 From the resulting page, click on **New** in the top left corner.
 
-![](email_template_create_new_1.png)
+![](./assets/images/email_template_create_new_1.png)
 
 You will get two settings tabs to be filled up for creating an email template. They are 
 * Basic
@@ -17,7 +17,7 @@ You will get two settings tabs to be filled up for creating an email template. T
 ### Basic
 The fundamental requirements of a template. Let us see one by one.
 
-![](email_template_create_basic.png)
+![](./assets/images/email_template_create_basic.png)
 
 #### Language
 The languages for which the template is compliant, is set here. You can select **All** for all languages.
@@ -58,7 +58,7 @@ In **Template List**, you can have a list of templates in the form of .php files
 ### Advanced
 If you have selected **Simple Editor** in the **Basic Tab**, then the **Advanced Tab** will look like the below image.
 
-![Email Template](email_template.png)
+![Email Template](./assets/images/email_template.png)
 
 There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content.
 
@@ -76,13 +76,13 @@ Keep in mind, the following, when you add a custom field to the editor:
 
 Refer the image below for more clear understanding.
 
-![](guide-to-add-custom-field.png)
+![](./assets/images/guide-to-add-custom-field.png)
 
 If you have selected **Template Files** in the **Basic Tab**, then in the **Advanced Tab**, you can select the **Template File** and you can see the **Source** of the file, as shown below.
 
-![](email_template_advanced.png)
+![](./assets/images/email_template_advanced.png)
 
 The source code of the template file is shown below in the editor and if the user wants to make any changes, they can make as they wish.
 
-![](email_template_advanced_1.png)
+![](./assets/images/email_template_advanced_1.png)
 

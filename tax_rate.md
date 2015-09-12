@@ -13,4 +13,4 @@ Value Added Tax - the globally accepted and practiced tax system. Percentage may
 * This tax rate is attached to a geozone which will include all the zones/countries that practice this tax rate
 * Finally it is enabled for use by the customer
 
-![Tax rate add new](taxrate_addnew.png)
+![Tax rate add new](./assets/images/taxrate_addnew.png)

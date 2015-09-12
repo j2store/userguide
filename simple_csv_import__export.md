@@ -40,11 +40,11 @@ Clicking this button will export your products in csv format.
 
 The following image illustrates the actions that are involved in import and export of .csv file.
 
-![](csv-import-settings-edited.png)
+![](./assets/images/csv-import-settings-edited.png)
 
 A sample .csv file is given here for your testing purposes.
 
-[sample.csv](sample.csv)
+[sample.csv](./assets/images/sample.csv)
 
 Below is a list of fields that are supported by the app for importing.
 

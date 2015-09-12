@@ -55,7 +55,7 @@ Are you using your Primary Paypal Email as your merchant email? If your order st
 
 Paypal allows you to add multiple emails in an account to accept payments. With the Paypal plugin for J2Store, make sure you are using your primary Paypal account email. You can check which is your primary email by signing into your Paypal account and then going to Profile -> Add / Edit emails page.
 
-![Paypal Primary Email](paypal_primary_email1.png)
+![Paypal Primary Email](./assets/images/paypal_primary_email1.png)
 
 ### 3. Currency is wrong. Paypal payment screen shows USD while my currency is different
 
@@ -72,7 +72,7 @@ Let us assume, your store is located in India and your currency is INR. But Payp
 Here is how you can overcome the issue.
 
 ####Step 1: Enable Auto currency update
-![currency_auto_update](Selection_048.png)
+![currency_auto_update](./assets/images/Selection_048.png)
 Go to Joomla admin - j2store - set up - > configuration -> Store tab
 Set your Default Currency as INR
 Set Auto update currency to YES
@@ -83,7 +83,7 @@ Go to Joomla admin - j2store - set up - currencies
 You might have already created the INR currency. Open it and make sure its value is set to 1
 
 **Now, create a new currency**
-![currency_creation](Selection_050.png)
+![currency_creation](./assets/images/Selection_050.png)
 Currency Name: USD
 Currency Code: USD
 Currency Symbol: $
@@ -94,7 +94,7 @@ Value: 0.061 (You can enter any value less than 1. Once saved, J2Store will auto
 Status: Published
 
 Save now.
-![currency_management](Selection_049.png)
+![currency_management](./assets/images/Selection_049.png)
 
 You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD. 
 J2Store will automatically do the currency conversion depending on the prevailing exchange rate.

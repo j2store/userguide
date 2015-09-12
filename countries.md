@@ -9,8 +9,8 @@ A list of most of the countries in the world. You can choose one from the list. 
  
 Check the image below:
 
-![Countries Add](countries_loc.png)
+![Countries Add](./assets/images/countries_loc.png)
 
 The listing of countries will be like this in your J2Store.
 
-![List of countries](countries_list_loc.png)
+![List of countries](./assets/images/countries_list_loc.png)

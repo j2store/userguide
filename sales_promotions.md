@@ -14,4 +14,4 @@ The entries are:
 
 This is illustrated in the image below.
 
-![Promotions](promotions_custom.png)
+![Promotions](./assets/images/promotions_custom.png)

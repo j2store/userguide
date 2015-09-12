@@ -4,7 +4,7 @@ The total number of products that are to be shipped will determine the shipping 
 
 See the image below to configure this shipping type:
 
-![Quantity based per order](qty_per_order.png)
+![Quantity based per order](./assets/images/qty_per_order.png)
 
 Settings are common for all the shipping types except the type to be set. For this shipping type you carefully need to select 'Quantity based per order' from the list as shown in the image.
 

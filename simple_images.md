@@ -4,7 +4,7 @@ In this tab you can add images that can help the customer to understand more cle
 
 See the image below:
 
-![Simple Image](product_simple_images.png)
+![Simple Image](./assets/images/product_simple_images.png)
 
 Let us understand this with an example. 
 

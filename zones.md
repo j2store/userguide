@@ -4,11 +4,11 @@ Zones are regions that are separated by geographical area for ease of administra
 
 Just have look on the image below which displays the list of zones.
 
-![Zones List](zones_list.png)
+![Zones List](./assets/images/zones_list.png)
 
 Almost all the zones are loaded by default in J2Store but if you need to create one as and when the situation arises, you can very well do so, as illustrated in the image below.
 
-![Zone Add New](zone_add_new.png)
+![Zone Add New](./assets/images/zone_add_new.png)
 
 The required fields for a zone are as follows and are fairly self explanatory...
 * **Zone Name** - Name of the new zone

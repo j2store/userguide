@@ -4,7 +4,7 @@ The general tab has several fields, in which we need to enter the necessary and 
 
 Have a look at the image below:
 
-![Simple Product General](product_simple_general.png)
+![Simple Product General](./assets/images/product_simple_general.png)
 
 * **Visible in Storefront** - First select whether the product is to be displayed in front of the store and this is a mandatory option to be selected
 * **SKU** - Enter the SKU number of the product

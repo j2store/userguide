@@ -8,11 +8,11 @@ So, lets create an article.
 
 Have a look at the image below:
 
-![Add Article](add_simple.png)
+![Add Article](./assets/images/add_simple.png)
 
 As given in the above illustration, click in the top menu or in the left pane of the control panel. You will get a new screen like this.
 
-![Create Downloadable Product](down_create_cart.png)
+![Create Downloadable Product](./assets/images/down_create_cart.png)
 
 A downloadable product is one that has no physical existence. It can be downloaded as per the terms and conditions of the seller. It can be a book, a video, a music album or even a software extension like joomla extension. To create a downloadable product, follow the steps:
 
@@ -23,11 +23,11 @@ A downloadable product is one that has no physical existence. It can be download
 
 Your product is successfully created and a message will be displayed like this.
 
-![Downloadable product created](down_create_success.png)
+![Downloadable product created](./assets/images/down_create_success.png)
 
 Add a description for the product, as illustrated below.
 
-![Add Description](down_create_content.png)
+![Add Description](./assets/images/down_create_content.png)
 
 The Configuration process follows:
 
@@ -35,21 +35,21 @@ The Configuration process follows:
 
 Enter the details as required by the fields in the tab, like, SKU, UPC/EAN, brand, vendor, tax profile and the caption for the cart button. Once you enter them, you can navigate to the next tab, pricing.
 
-![General Tab](down_general.png)
+![General Tab](./assets/images/down_general.png)
 
 #### Pricing
 
 In Pricing you can set the price for your product. You have the option to set up advanced prices, like discount offers, as shown in the following images.
 
-![Pricing](down_pricing.png)
+![Pricing](./assets/images/down_pricing.png)
 
 In the above image you set up the regular price for the E-Book. Click the set prices button to set advanced/special prices. It will pop-up a window to set the special prices, like this.
 
-![Set Price 1](down_add_price_1.png)
+![Set Price 1](./assets/images/down_add_price_1.png)
 
 In the above image, you can set a date range for the special price, otherwise, you can leave it empty for the special price to be applied always. For example, if a customer buys 2 or more copies of the E-Book, you can offer a discount in price, throughout the year. Now, you have entered the values, and click the blue 'Create' button and you will get the special price listed below, as shown in the image.
 
-![Set Price 2](down_add_price_2.png)
+![Set Price 2](./assets/images/down_add_price_2.png)
 
 #### Inventory
 
@@ -59,21 +59,21 @@ In this tab you set the initial stock, whether or not to allow backorders(order 
 
 Consider the below image:
 
-![Inventory](down_inventory.png)
+![Inventory](./assets/images/down_inventory.png)
 
 #### Images
 
 When you select the images tab, you will get a screen like this.
 
-![Images](down_images.png)
+![Images](./assets/images/down_images.png)
 
 Click on the select an image button. You will get a pop-up window, where you can select suitable image for your ebook, as shown below:
 
-![Select an Image](down_image_select.png)
+![Select an Image](./assets/images/down_image_select.png)
 
 Once you finish the selection, your tab will be like this.
 
-![Images Selected](down_images_selected.png)
+![Images Selected](./assets/images/down_images_selected.png)
 
 #### Files
 Unlike other products, you do not have options and shipping tabs for a downloadable product. But there is a unique tab, **Files** is present here. You must have a separate folder or directory in your site to place the downloadable products. From that folder, the product will be downloaded, when the buyer fulfills the requirements for the download.
@@ -110,7 +110,7 @@ In File attachment path field, enter the name of the folder that contains your f
 
 Check the image below:
 
-![Set folder to place downloadable Products](down_upload_folder_config.png)
+![Set folder to place downloadable Products](./assets/images/down_upload_folder_config.png)
 
 Finally, save the configuration. You have created a folder to upload your digital products like ebook, pdf files, image files etc., set up protection mechanism from unauthorized access and configured the folder in your configuration page.
 
@@ -118,19 +118,19 @@ Now, Configure your **Files** tab in your downloadable product creation.
 
 The tab will look like this:
 
-![Files](down_files.png)
+![Files](./assets/images/down_files.png)
 
 When you click the set files button, you will get a pop-window to select the file to be downloaded. See the picture.
 
-![set files 1](down_set_files_1.png)
+![set files 1](./assets/images/down_set_files_1.png)
 
 And select the file and click the create button, and you will get the product listed below as shown in the picture. You can add as many files as you can to the folder. When a customer purchases the product, all the files associated with the product will be available for download.
 
-![set files 2](down_set_files_2.png)
+![set files 2](./assets/images/down_set_files_2.png)
 
 Set the download limit (0 for unlimited downloads) and expiry of the download, in days, as shown in the picture below:
 
-![Files](down_files_1.png)
+![Files](./assets/images/down_files_1.png)
 
 ##### Let us create a Downloads Area for the customers
 
@@ -143,24 +143,24 @@ Set the download limit (0 for unlimited downloads) and expiry of the download, i
 
 Check the image below.
 
-![my profile](down_my_profile.png)
+![my profile](./assets/images/down_my_profile.png)
 
 You just have to tell the customers to visit this menu to get their files after the purchase.
 
 When the customer purchases the downloadable product, and finishes the checkout process, the order is completed and the status become 'Confirmed'. If My Profile is clicked, the orders will be listed as shown below:
 
-![My Profile](down_my_profile_front_end.png)
+![My Profile](./assets/images/down_my_profile_front_end.png)
 
 And when 'Downloads' tab is clicked, it will show the download link like this:
 
-![Downloads](down_downloads_front_end.png)
+![Downloads](./assets/images/down_downloads_front_end.png)
 
 #### Filters
 The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value 'music', the search will display only music files.
 
 See the image below:
 
-![Filters](down_filters.png)
+![Filters](./assets/images/down_filters.png)
 
 #### Relations
 
@@ -168,7 +168,7 @@ The next tab is Relations. Here, you can add products of higher value than the o
 
 Refer the image below:
 
-![Relations](down_relations.png)
+![Relations](./assets/images/down_relations.png)
 
 Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
 
@@ -178,11 +178,11 @@ For more detailed explanation, refer to the **Relations** section of the **Downl
 
 In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
 
-![Apps](down_apps.png)
+![Apps](./assets/images/down_apps.png)
 
 Now, lets have a look on how your product is viewed in your online store. Check the image below:
 
-![E-Book cart View](down_product_on_cart.png)
+![E-Book cart View](./assets/images/down_product_on_cart.png)
 
 
 

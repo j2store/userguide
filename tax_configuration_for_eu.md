@@ -45,7 +45,7 @@ Click Add
 
 **Associated Address: ** Shipping
 
-![taxprofile](Selection_033.png)
+![taxprofile](./assets/images/Selection_033.png)
 
 
 #### Step 4: Configure tax settings
@@ -78,7 +78,7 @@ Go to J2Store Cart tab -> General tab
 
 **Tax Profile :** Base tax profile
 
-![](Selection_035.png)
+![](./assets/images/Selection_035.png)
 
 >**IMPORTANT**: If you do not choose the tax profile, then tax will not apply in the store front.
 

@@ -17,7 +17,7 @@ Now create a tax rate in that page by entering the sample data.
 
 Now check the Tax Rate image
 
-![Tax Rate](Tax_Rate.png)
+![Tax Rate](./assets/images/Tax_Rate.png)
 
 Now go to tax profiles and add a new profile.
 
@@ -33,6 +33,6 @@ Now you can map the taxrates by assigning one to an address type as described be
 
 Check the image below:
 
-![Tax Profile](Tax_Profile.png)
+![Tax Profile](./assets/images/Tax_Profile.png)
 
 Thats it. You have added a tax profile successfully.

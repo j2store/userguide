@@ -10,13 +10,13 @@ This post aims to help the store owners to set up the shipping methods properly.
 
 While creating a product, the **Enable Shipping** param is by default set to ***No***. Most store owners do not notice this. If the product requires shipping, make sure that you set this param to ***Yes***.
 
-![Enable Shipping](shipping_method_enable.jpg)
+![Enable Shipping](./assets/images/shipping_method_enable.jpg)
 
 ## 2. Geozones
 
 All the standard shipping methods in J2Store are bound by the Geozones. That is, you should always select a geozone while setting the rates. So, make sure that you have created the Geozones and added countries or zones inside them.
 
-![Shipping Geozone](shipping_geozone.jpg)
+![Shipping Geozone](./assets/images/shipping_geozone.jpg)
 
 The concept of Geozone is very simple. Example: You have a store in the United States, Texas.
 
@@ -30,11 +30,11 @@ Refer the User guide for more examples.
 
 After creating a shipping method (by going to J2Store admin -> Set up -> Shipping methods -> Standard Shipping Methods), you can see a link named Set Rates. Click on it to set the shipping rates for the chosen shipping type.
 
-![Set Rates](shipping_methods_set_rates.jpg)
+![Set Rates](./assets/images/shipping_methods_set_rates.jpg)
 
 While Setting Rates, make sure that you select the Geozone. If you have two or more Geozones, then you should set rates for all. 
 
-![Set Rates](shipping_setrates.jpg)
+![Set Rates](./assets/images/shipping_setrates.jpg)
 
 
 

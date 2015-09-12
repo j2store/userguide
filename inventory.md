@@ -37,4 +37,4 @@ This is a basic inventory management system offered by j2store.
     
 Check the image below for a clear understanding.
 
-![Inventory Setup](Inventory_setup.png)
+![Inventory Setup](./assets/images/Inventory_setup.png)

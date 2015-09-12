@@ -72,14 +72,14 @@ The following parameters in your Ogone account (Technical Information) should be
 
 Should be set to SHA­1. The plugin will not work with the other methods. Refer the image below.
 
-![Ogone Hashing Method](hashing_method_ogone.png)
+![Ogone Hashing Method](./assets/images/hashing_method_ogone.png)
 
 ##### Checks for E­Commerce (Tab: Data and origin verification)
 URL of the merchant page containing the payment form that will call the page: orderstandard.asp: 
 
 This should be set to http://www.yourdomain.com
 
-![Ogone Ecommerce Check](ecommerce_check_ogone.png)
+![Ogone Ecommerce Check](./assets/images/ecommerce_check_ogone.png)
 
 ##### Post sale configuration : (Tab: Transaction feedback)
 This is required to update our database after the payment is done. Under the heading “Direct HTTP server­to­server request”, set both the URLs of the merchant's post­payment page as below:
@@ -90,7 +90,7 @@ Request method: POST
 
 (see the picture below with example urls.)
 
-![Transaction Feedback](transaction_feedback_ogone.png)
+![Transaction Feedback](./assets/images/transaction_feedback_ogone.png)
 
 #### Support
 

@@ -4,7 +4,7 @@ A fixed rate will be charged for every order. For e.g., if the shipping cost is 
 
 See the image below on how to configure this shipping type.
 
-![Flat rate per order](flat_per_order.png)
+![Flat rate per order](./assets/images/flat_per_order.png)
 
 You can give a meaningful name for the **Shipping Method** so that the customer understands it easily.
 
