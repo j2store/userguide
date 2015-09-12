@@ -4,7 +4,7 @@ In this section, you will see how to create a SEBLOD article in the backend and 
 
 #### Adding J2Store Field 
 1. In the backend, go to Components -> SEBLOD 3.x, as shown in the image below:
-![step 1](./assets/images/./assets/images/step-1.png)
+![step 1](./assets/images/step-1.png)
 
 2. Click on the icon **Forms & Content Type**. Click on the admin menu link **Construction** then **Forms & Content Types**.
 ![Step 2](./assets/images/step-4.png)
