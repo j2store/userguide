@@ -10,8 +10,8 @@
 	* **[Options](#options)**
 	* **[Filters](#filters)**
 	* **[Relations](#relations)**
-	* **[Apps](#Apps)**
-- **[A step-by-step example of simple product creation](#example)**
+	* **[Apps](#apps)**
+- **[A step-by-step example to create a simple product](#example)**
 
 <a name="introduction"></a>
 ## Introduction
