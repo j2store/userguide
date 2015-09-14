@@ -4,7 +4,7 @@ To install J2Store, you need j2store archive downloaded or purchased from [www.j
 
 ### J2Store Versions
 
-There are four versions available in j2store shopping cart extension.
+There are four plans available in j2store shopping cart extension.
 
 * Basic
 * Standard
@@ -14,9 +14,9 @@ There are four versions available in j2store shopping cart extension.
 Have a look at the image below:
 ![J2Store Versions](./assets/images/install_j2store_3.png)
 
-**Basic** version is free and you can download it from [www.j2store.org](http://www.j2store.org/download.htm).
+**Basic** plan is free and gives you access to download J2Store Core version from [www.j2store.org](http://www.j2store.org/download.htm).
 
-Remaining are premium versions. You can choose any of the four and get a copy of the extension.
+Remaining are for-a-fee plans which gives access to J2Store PRO version. You can choose any of the four and get a copy of the extension.
 
 ### Installation
 In your Joomla control panel top menu, go to Extensions -> Extension Manager, as illustrated below.
