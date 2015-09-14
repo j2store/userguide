@@ -118,17 +118,7 @@
    * [Coupons](sales_coupons.md)
    * [Promotions](sales_promotions.md)
    * [Vouchers](sales_vouchers.md)
-* [Localization](localisation.md)
-   * [Countries](countries.md)
-   * [Zones](zones.md)
-   * [Geozones](geozones.md)
-   * [Tax Rate](tax_rate.md)
-   * [Tax Profiles](tax_profiles.md)
-       * Tax configuration for EU
-       * Tax Configuration for US Stores
-   * [Lengths](lengths.md)
-   * [Weights](weights.md)
-   * [Order Statuses](order_statuses.md)
+* [Localization](localisation.md)  
 * [Tax Configuration](tax_configuration.md)
    * [Tax configuration for EU](tax_configuration_for_eu.md)
    * [Tax Configuration for US Stores](tax_configuration_for_us_stores.md)
