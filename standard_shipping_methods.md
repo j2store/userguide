@@ -11,6 +11,7 @@ This is shipping plugin which is available in J2Store by default. It has seven s
 * **[Price based per item](#price_based_per_item)**
 
     - **[Examples](#standard_shipping_method_examples)** 
+    - **[Trouble Shooting](#trouble_shooting_shipping_plugins_issues)** 
     
     
 <a name="flat_rate_per_order"></a>
