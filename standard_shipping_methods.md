@@ -39,7 +39,6 @@ Finally, set the minimum and maximum subtotals that are required for availing th
  <a name="weight_based_per_order"></a>
  ## Weight based per order
 
-
 This type of shipping is calculating the cost based on the total weight of the order items. If a cost of $ 10.00 is charged for weights upto 50 Kilograms, and $ 20.00 is charged for total weights between 51 and 100 Kilograms, then an order having a total weight of 70 kilograms will attract a shipping cost of $ 20.00.
 
 Configure this shipping method as explained in the image below:
