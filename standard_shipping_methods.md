@@ -11,7 +11,8 @@ This is shipping plugin which is available in J2Store by default. It has seven s
 * **[Price based per item](#price_based_per_item)**
 
 <a name="flat_rate_per_order"></a>
- #Flat rate per order
+##Flat rate per order
+
 
 A fixed rate will be charged for every order. For e.g., if the shipping cost is levied at $ 50.00 for every order, then the shipping cost is set to $ 0.00. This type of shipping can be termed as Store Pickup Method or Free Shipping Method.
 
@@ -33,7 +34,7 @@ Finally, set the minimum and maximum subtotals that are required for availing th
  
  
  <a name="quantity_based_per_order"></a>
- ##Quantity based per order
+##Quantity based per order
  
 The total number of products that are to be shipped will determine the shipping cost. For e.g., the shipping cost will be $ 20.00 per order if the total number of products is up to 5 and $ 25.00 per order if the total number of products is from 6 upto 10.
 
@@ -46,7 +47,7 @@ Settings are common for all the shipping types except the type to be set. For th
 And make sure to **Enable** this shipping type to be available for shipping selection.
  
  <a name="weight_based_per_order"></a>
- ##Weight based per order
+##Weight based per order
 
 This type of shipping is calculating the cost based on the total weight of the order items. If a cost of $ 10.00 is charged for weights upto 50 Kilograms, and $ 20.00 is charged for total weights between 51 and 100 Kilograms, then an order having a total weight of 70 kilograms will attract a shipping cost of $ 20.00.
 
@@ -60,7 +61,7 @@ And that's it.
  
  
  <a name="price_based_per_order"></a>
- ##Price based per order
+##Price based per order
 
 The shipping cost in this type of method is calculated with price of the individual items. Some price range may be set for cost calculation and it will be followed.
 
@@ -71,7 +72,7 @@ For configuration of this shipping method, refer the image below.
 ![Price per item](./assets/images/price_per_item.png)
 
  <a name="flat_rate_per_item"></a>
- ##Flat rate per item
+##Flat rate per item
 
 This method of shipping charges a flat shipping for every item, irrespective of the price or weight or any other attribute of the item. For e.g., the price of an item may $ 100 or $ 1000, $ 20.00 will be its shipping cost. Then it will be multiplied with the total number of products i.e., if the total number of products purchased is 10 nos, then shipping cost will be $ 20.00 X 10 which is $ 200.00.
 
@@ -87,7 +88,7 @@ For this shipping method, you need to select **Flat rate per item** in shipping 
  
    
  <a name="weight_based_per_item"></a>
- ## Weight based per item
+## Weight based per item
 
 In this type of shipping method, the shipping cost calculation based on the weight of every item that is added to the cart.
 
@@ -114,7 +115,7 @@ Select the shipping type to be '**Weight based per item**' for this item to be l
  
     
  <a name="price_based_per_item"></a>
- ## Price based per item
+## Price based per item
 
 The shipping cost in this type of method is calculated with price of the individual items. Some price range may be set for cost calculation and it will be followed.
 
