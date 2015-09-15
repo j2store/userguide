@@ -21,32 +21,32 @@ This is shipping plugin which is available in J2Store by default. It has seven s
 
 
 <a name="flat_rate_per_order"></a>
- ##Flat rate per order
+ ## Flat rate per order
  
  
  <a name="quantity_based_per_order"></a>
- ##Quantity based per order
+ ## Quantity based per order
  
  
  <a name="weight_based_per_order"></a>
- ##Weight based per order
+ ## Weight based per order
  
  
  <a name="price_based_per_order"></a>
- ##Price based per order
+ ## Price based per order
   
  <a name="flat_rate_per_item"></a>
- ##Flat rate per item
+ ## Flat rate per item
  
  
    
  <a name="weight_based_per_item"></a>
- ##Weight based per item
+ ## Weight based per item
  
  
     
  <a name="price_based_per_item"></a>
- ##Price based per item
+ ## Price based per item
  
  
 See the image below:
