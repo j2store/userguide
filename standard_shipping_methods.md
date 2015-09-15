@@ -10,7 +10,8 @@ This is shipping plugin which is available in J2Store by default. It has seven s
 * **[Weight based per item](#weight_based_per_item)**
 * **[Price based per item](#price_based_per_item)**
 
-    -** [Examples](#standard_shipping_method_examples)**
+    -**[Examples](#standard_shipping_method_examples)**
+    
 <a name="flat_rate_per_order"></a>
 ##Flat rate per order
 
