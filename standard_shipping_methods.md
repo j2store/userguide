@@ -125,8 +125,8 @@ For configuration of this shipping method, refer the image below.
 ![Price per item](./assets/images/price_per_item.png)
 
 
- 
- 
+
+### Help screen shots  
 See the image below:
 ![Standard Shipping Method](./assets/images/std_ship.png)
 
