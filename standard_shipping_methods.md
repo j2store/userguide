@@ -115,8 +115,6 @@ Select the shipping type to be '**Weight based per item**' for this item to be l
     
  <a name="price_based_per_item"></a>
  ## Price based per item
- 
- # Price based per item
 
 The shipping cost in this type of method is calculated with price of the individual items. Some price range may be set for cost calculation and it will be followed.
 
