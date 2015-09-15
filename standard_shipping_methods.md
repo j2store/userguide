@@ -10,6 +10,7 @@ This is shipping plugin which is available in J2Store by default. It has seven s
 * **[Weight based per item](#weight_based_per_item)**
 * **[Price based per item](#price_based_per_item)**
 
+    - [Examples](#standard_shipping_method_examples)
 <a name="flat_rate_per_order"></a>
 ##Flat rate per order
 
@@ -141,7 +142,7 @@ After entering the data, click on the 'Create' button and you will get this:
 ![Set Rates 2](./assets/images/set_rate_ship2.png)
 
 
-
+<a name="standard_shipping_method_examples"></a>
 # Standard Shipping Method examples
 
 Let us see some examples for creating Standard Shipping Methods. 
