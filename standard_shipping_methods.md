@@ -138,3 +138,25 @@ When you click 'set rates', you will be presented with this view:
 
 After entering the data, click on the 'Create' button and you will get this:
 ![Set Rates 2](./assets/images/set_rate_ship2.png)
+
+
+
+# Standard Shipping Method examples
+
+Let us see some examples for creating Standard Shipping Methods. 
+
+* **[Flat rate per order](#flat_rate_per_order_example)**
+* **[Quantity based per order](#quantity_based_per_order_example)**
+* **[Weight based per order](#weight_based_per_order_example)**
+
+
+<a name="flat_rate_per_order_example"></a>
+## Flat rate per order
+
+
+<a name="quantity_based_per_order_example"></a>
+## Quantity based per order
+
+
+<a name="weight_based_per_order_example"></a>
+## Weight based per order
