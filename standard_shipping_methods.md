@@ -293,7 +293,7 @@ Enter the name for the geozone as **Default Geozone** and select country and zon
 
 Now all are set and your shipping method is ready for use.
 
-
+<a name="trouble_shooting_shipping_plugins_issues"></a>
 # Trouble Shooting Shipping Plugins Issues
 
 
