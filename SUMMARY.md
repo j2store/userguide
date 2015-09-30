@@ -142,5 +142,6 @@
    * [Google Analytics ECommerce Tracking](google_analytics_ecommerce_tracking.md)
    * [Simple CSV Import / Export](simple_csv_import__export.md)
    * [Google Merchant Center - Shopping Feed App](google_merchant_center_shopping_feed_app.md)
+   * [VM Import tool] app_vm_import.md
 * [Short Codes](short_codes.md)
 
