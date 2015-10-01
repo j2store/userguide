@@ -2,11 +2,6 @@
 
 This is an example setting for stores in Canada. For detailed information on tax, please consult an expert.
 
-
->**Note:** Current US law requires you to collect taxes where you have an interest/ongoing concern — that is, where you have physical stores, distribution centers, headquarters, and so on. For many online stores there is only one location. However, if you have stores that operate in many states or countries, or if you have revenues exceeding approximately $2M per year, we recommend that you use a third-party tax provider because there can be a considerable number of tax rules and tax zones to manage.
-
-**Important:** No guarantee is offered with respect to any of the information given here. Please contact an expert before you take any decisions about tax matters
-
 >**NOTE:**
 The example given below, assumes you have a store in Canada, Saskatchewan and you charge 5% GST and 5 % Saskatchewan-PST on the goods sold to customers. 
 
