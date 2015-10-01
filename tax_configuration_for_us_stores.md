@@ -47,7 +47,7 @@ Click Add
 
 **Rate:** Sales Tax
 
-**Associated Address: ** Billing
+**Associated Address: ** Shipping
 
 
 #### Step 4: Configure tax settings
