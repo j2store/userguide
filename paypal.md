@@ -14,3 +14,5 @@ You can display the 'Thanks' message in your desired location. Check the image b
 For successful payment, or if an error occurs or if the customer cancels the payment, you can set appropriate messages to alert the customer. See the image below.
 
 ![Paypal 3](./assets/images/pay_paypal3.png)
+
+
