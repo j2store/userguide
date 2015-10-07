@@ -1,13 +1,32 @@
 # Paypal Payment Plugin
 
-The Paypal Plugin for J2Store enables you to receive payments via Paypal Payment Gateway. This integrates the Paypal's Website Standard Payment API. 
+* [Requirements](#requirements)
+* [Installation Instructions](#installation)
+* [Parameters](#parameters)
+* [Troubleshooting Paypal Related Issues](#troubleshooting)
+	* [Orders not confirmed. Status shows as incomplete or new](#orders_not_confirmed)
+	* [Order status Failed](#order_status_failed)
+	* [Currency is wrong. Paypal payment screen shows USD while my currency is different](#currency_is_wrong)
+	* [Paypal duplicate invoice ID and how to solve it ](#paypal_duplicate)
+		* [Solution 1: Set the Invoice Prefix](#invoice_prefix)
+		* [Solution 2: Change settings in Paypal](#change_settings)
+* [Using the PayPal Sandbox](#using_paypal_sandbox)
+	*  [Signing up for Sandbox access](#Signing_up)
+	*  [Create a seller account](#create_selling)
+	*  [Create a buyer account](#create_buyer)
+	*  [Set up J2Store PayPal plugin for use with PayPal Sandbox](#setup_j2store)
+	*  [Testing J2Store with PayPal Sandbox](#testing_j2store)
 
-#### Requirements 
+##Introduction
+Paypal standard plugin for J2Store allows you to accept payments via Paypal Payment Gateway. This uses the Paypal's Website Standard Payment. Customer will be redirected to Paypal to make payment securely 
+<a name="requirements"></a>
+## Requirements 
 * PHP 5.2 or higher 
 * Joomla 2.5.x 
 * J2Store 2.0 or above 
+<a name="installation"></a>
 
-#### Installation Instructions 
+## Installation Instructions 
 1. Use the Joomla installer to install the plugin. 
 2. In the backend, go to Extensions->Plugin Manager and open the Paypal Payments 
 plugin. (type=**j2store**). 
@@ -16,8 +35,9 @@ plugin. (type=**j2store**).
 5. Save and close it. 
 
 Now you can see the Paypal Payments as an option during the Check out process. 
+<a name="parameters"></a>
 
-#### Parameters 
+## Parameters 
 **Paypal Merchant Email Address**
 
 This is your original paypal email/merchant email address, which you have used in Paypal. 
@@ -138,18 +158,11 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 The text of the payment button. The button will be displayed at the final checkout step.
 
-#### Support
-
-Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
-
-Thank you for using our extension.
-
-
-
-# Troubleshooting Paypal Related Issues
+<a name="troubleshooting"></a>
+## Troubleshooting Paypal Related Issues
 
 There could be many reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
-
+<a name="orders_not_confirmed"></a>
 ### 1. Orders not confirmed. Status shows as incomplete or new
 
 It means you are not getting the Instant Payment Notification (IPN) from Paypal.
@@ -160,7 +173,7 @@ The IPN may not reach your site, if :
  * You have a firewall installed either in your site or by your host
  * You have disabled IPN in your Paypal account.
 
- 
+
 ##### Solutions to above issues :
 
 1. Go to Joomla admin - Global configuration. Set **Site Offline** to No
@@ -196,7 +209,7 @@ NOTE: Replace <YOUR_DOMAIN> with your website. E.g: www.example.com
 **Still no luck, check the IPN History**
 Login to your paypal account and go to History -> IPN history. Check the recent IPN history and check the status.
 If possible take a screenshot and contact our support team.
-
+<a name="order_status_failed"></a>
 ### 2. Order status Failed
 
 Are you using your Primary Paypal Email as your merchant email? If your order status says failed, then chances are that you are using a secondary email of your Paypal account.
@@ -204,8 +217,8 @@ Are you using your Primary Paypal Email as your merchant email? If your order st
 Paypal allows you to add multiple emails in an account to accept payments. With the Paypal plugin for J2Store, make sure you are using your primary Paypal account email. You can check which is your primary email by signing into your Paypal account and then going to Profile -> Add / Edit emails page.
 
 ![Paypal Primary Email](./assets/images/paypal_primary_email1.png)
-
-### 3. Currency is wrong. Paypal payment screen shows USD while my currency is different
+<a name="currency_is_wrong"></a>
+## 3. Currency is wrong. Paypal payment screen shows USD while my currency is different
 
 Paypal supports multiple currencies. However, it does not support all currencies of the world. Please ensure that your currency is supported by checking this page: https://www.paypal.com/multicurrency
 
@@ -246,8 +259,9 @@ Save now.
 
 You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD. 
 J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
+<a name="paypal_duplicate"></a>
 
-### 4. Paypal duplicate invoice ID and how to solve it
+## 4. Paypal duplicate invoice ID and how to solve it
 Paypal by default does not allow duplicate invoices. When you try to pay for a duplicate invoice id, Paypal will produce the following error:
 
 >**The transaction was refused as a result of a duplicate invoice ID supplied. Attempt with a new invoice ID**
@@ -255,6 +269,7 @@ Paypal by default does not allow duplicate invoices. When you try to pay for a d
 If this were to happen, one of the reasons could be that the configuration in Paypal is set to not accept duplicate invoices. You may receive orders from various places and if the invoice numbers are the same, Paypal recognises there is an invoice duplication.
 
 There are two ways, by which you can fix this.
+<a name="invoice_prefix"></a>
 
 #### Solution 1: Set the Invoice Prefix
 
@@ -268,7 +283,7 @@ Please follow the steps:
 
 3. Save & Close.
 
- 
+<a name="change_settings"></a>
 
 #### Solution 2: Change settings in Paypal
 
@@ -279,3 +294,86 @@ Please try the following:
 3. Under Selling Preferences, click Payment Receiving Preferences
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
 5. Save.
+<a name="using_paypal_sandbox"></a>
+
+## Using the PayPal Sandbox
+
+Using the PayPal Sandbox is not even half as intuitive as you might think. Since most of our users think that our software is broken because they are not able to use the Sandbox, we have documented every single step you have to take in order to use the Sandbox on your site.
+<a name="Signing_up"></a>
+###A. Signing up for Sandbox access
+
+1. Go to the PayPal Sandbox site [developer.paypal.com](https://developer.paypal.com/)
+2.  Log in to the Sandbox using your paypal email and password (If you already do not have a paypal account, create one)
+<a name="create_selling"></a>
+
+###B.1. Create a seller account
+1. Go to the Applications->Sandbox accounts
+2. Click on Create Account
+	Warning
+ **MAJOR SUPER DUPER IMPORTANT PITFALL WARNING!!!** Choose a country with the same currency as your site. For example United States for transactions in USD.
+3. Set the account type to Business (merchant)
+4. Provide an email and enter a password
+5. Note down your password. This will not be visible anywhere else.
+6. Set Add Bank Account to Yes and set the Account Balance to something like 100.00 USD
+7. Click on Create account
+**Important**
+Make sure that Payment Review and Negative Test Mode are set to Disabled (that's the default)
+<a name="create_buyer"></a>
+
+###B.2. Create a buyer account
+
+1. Go to the Applicants->Sandbox Accounts again
+2. Click on Create an account. This time as buyer (personal)
+  Warning
+  **MAJOR SUPER DUPER IMPORTANT PITFALL WARNING!!!** Choose a country with the same currency as your site. For example United States for transactions in USD.<br><br>
+3. Set the account type to Personal (Buyer)
+4. Provide a different email and password
+5. Note down your password. This will not be visible anywhere else.
+6. Set Add Bank Account to Yes and set the Account Balance to something like 1000.00 USD
+7. Click on Create account
+**Important**
+Make sure that Payment Review is set to Disabled (that's the default)
+
+<a name="setup_j2store"></a>
+
+###C. Set up J2Store PayPal plugin for use with PayPal Sandbox
+
+1. Go to Extensions, Plug-in Manager
+2. Find the J2Store Paypal Payment plugin and edit it
+3. Set Sandbox to Yes
+4. In the Sandbox Merchant field enter your seller's email address
+5. Click on Save & Close
+<a name="testing_j2store"></a>
+
+###D. Testing J2Store with PayPal Sandbox
+
+1. Make sure you have at least one published article (Product) with price value of AT LEAST 1. Smaller values WILL NOT go through!
+2. Go ahead with buying the product
+3. When you click Confirm and Make Payment button, Make sure the URL begins with [www.sandbox.paypal.com](https://www.sandbox.paypal.com/). If not, you are doing something wrong and you have to set up the plugin again.
+4. Make sure that in the top left corner you see the name you registered with Paypal Sandbox followed by the words "Test Store". If not, you are doing something wrong and you have to set up the plugin again.
+5. Login using the Sandbox buyer email and password and go through with the payment.
+6. Go to your site's back-end, Components, J2store, Orders
+7. You can see the order with either a Confirmed or Pending status. If the order with the Pending status had a transaction key, it means PayPal did
+  communicate with your site!<br>
+ **If order has a pending status**<br><br>
+8. Go back to the PayPal Sandbox site
+9. Go to Applications->Sandbox Accounts. Choose the Business account you created.
+10. Click on the "Enter Sandbox Test Site" button; a new popup window displays
+11. Click on Logout. Not the one on the top right, the one right below it.
+12. Now click on Log In
+13. Log in with your Sandbox business account email and password
+14. If You will see the transaction with a "Payment status" of Unclaimed. Click on the Accept button to its right.
+15. It may ask you what to do. If it does, choose the first Accept option and then click on Submit.
+16. Wait for 1-5 minutes for the payment notification to be sent to your site
+17. Go to your site's back-end, Components, J2store, Orders
+18. The order will have confirmed status now. Awesome! You're ready to start selling! Remember to set the plugin's Sandbox to Off and enter your real email address to the Merchant ID field of the plugin.
+
+ 
+
+**If order status is not updated**
+
+Is your site resides in localhost. In that case, Paypal's Instant Payment Notification will not reach your site. So the order status will not get updated. Make sure that you host your site with a hosting service provider. Only then you will be able to receive the Notifications from Paypal and the order status will get updated.
+<br>
+Also watch this video:
+
+[![WATCH VIDEO](http://img.youtube.com/vi/CHJLyCp5PZc/0.jpg)](http://www.youtube.com/watch?v=CHJLyCp5PZc)
