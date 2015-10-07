@@ -1,10 +1,10 @@
 #eWay Payment gateway for J2Store
 
-**[Introduction](#introduction)**
-**[Installation](#installation)**
-**[Upgrade from old eWay Direct to new Rapid API](#upgrade)**
-**[Configuration - eWay Rapid](#config-rapid)**
-**[Configuration - eWay Direct](#config-direct)**
+- **[Introduction](#introduction)**
+- **[Installation](#installation)**
+- **[Upgrade from old eWay Direct to new Rapid API](#upgrade)**
+- **[Configuration - eWay Rapid](#config-rapid)**
+- **[Configuration - eWay Direct](#config-direct)**
 
 <a name="introduction"></a>
 ##Introduction
