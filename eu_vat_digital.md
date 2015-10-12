@@ -65,7 +65,7 @@ And your home country (local ) VAT is 21 %
 
  **2.1 Define Geozone**
 
-![vat 2015 home geozone]()
+![vat 2015 home geozone](./assets/images/vat_2015_home_geozone.png)
 
 Go to Joomla admin – J2Store – Localization – Geozones – New        
 
@@ -99,7 +99,7 @@ Status     : Published
 
   **3.1 Define Geozone**
   
-![vat 2015 customer geozone]()
+![vat 2015 customer geozone](./assets/images/vat_2015_customer_geozone.png)
 
    Go to Joomla admin – J2Store – Localization – Geozones – New
    Geozone Name : Germany VAT Zone ( It can be anything. It is used just as reference )
@@ -112,7 +112,7 @@ Status     : Published
    Save and close
 
    **3.2. Define Tax rate:**
-![vat 2015 customer taxrate]()
+![vat 2015 customer taxrate](./assets/images/vat_2015_customer_taxrate.png)
 
    Go to Joomla admin – J2Store – Localization – Tax Rates – New
 
@@ -124,7 +124,7 @@ Status     : Published
 <a name="setting_up_tax_profile"></a>
 **4.Setting up the tax profile**
 
-![vat 2015 taxprofile]()
+![vat 2015 taxprofile](./assets/images/vat_2015_taxprofile.png)
 
 It is sufficient to set up ONE tax profile for digital goods, in which we can associate many tax rates.
 
@@ -163,21 +163,21 @@ Now we have successfully configured the tax rules in J2Store. Let us see how the
 
 ###Example 1: Buyer  ( can be an INDIVIDUAL or company ) from the same country (Home country )
 
-![vat order same country]()
+![vat order same country](./assets/images/vat_order_same_country.png)
 
 Our shop is located in United Kingdom. And the buyer is from the same country. So local tax of 21 percent applies.
 <a name="ex_2"></a>
 
 ###Example 2: Buyer ( INDIVIDUAL ) from a different EU country (Germany )
 
-![vat order individual eu]()
+![vat order individual eu](./assets/images/vat_order_individual_eu.png)
 
 The buyer is from Germany and he is an Individual customer. So we are charging him the Germany's VAT rate of 25 %
 <a name="ex_3"></a>
  
 ###Example 3: Buyer ( COMPANY ) from a different EU country WITHOUT a valid VAT Number
 
-![vat order invalid vat]()
+![vat order invalid vat](./assets/images/vat_order_invalid_vat.png)
 
 The customer is from Germany. He has entered a company name. But his VAT number is INVALID.  So we apply the Germany's VAT rate of 25 %.
 
@@ -186,7 +186,7 @@ The customer is from Germany. He has entered a company name. But his VAT number 
 
 ###Example 4: Buyer ( COMPANY ) from a different EU country WITH a valid VAT Number
 
-![vat order valid vat]()
+![vat order valid vat](./assets/images/vat_order_valid_vat.png)
 
 The customer is from Germany.  His VAT number is VALID.  So NO tax is applied.
 <br>
