@@ -81,7 +81,7 @@ Go to Joomla admin – J2Store – Localization – Geozones – New
 
  **2.2. Define Tax rate:**
 
-![vat 2015 home taxrate]()
+![vat 2015 home taxrate](./assets/images/vat_2015_home_taxrate.png)
 
 Go to Joomla admin – J2Store – Localization – Tax Rates – New
         
