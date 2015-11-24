@@ -4,7 +4,7 @@ You can customise the email notifications sent to the customers when they place 
 
 ##Customising the template 
 
-  ### - Free version
+  ###Free version
 
 Write a language override for the following constants
 
@@ -16,7 +16,7 @@ This controls the body of the email.
 
 Refer below all the short codes that can be used in the email template
 
-  ### PRO version
+  ###PRO version
   
   In Pro version, you have the ability to create the email template from the backend. And you also have the ability to apply different restrictions for them.
   
