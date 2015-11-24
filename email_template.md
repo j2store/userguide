@@ -1,7 +1,25 @@
 # Email Template
 
-A template, or in other terms, a predefined layout, is necessary to make things easy when you're about to email a customer, the status of the order, or the invoice generated for the order, etc. The fields required for an email template are explained briefly here.
+You can customise the email notifications sent to the customers when they place an order. The email templates offer a wide range of short codes to include dynamic data like order information, customer information in the email notification.
 
+##Customising the template 
+
+  ### - Free version
+
+Write a language override for the following constants
+
+J2STORE_ORDER_EMAIL_TEMPLATE_STANDARD_SUBJECT
+This is the subject of the email
+
+J2STORE_ORDER_EMAIL_TEMPLATE_STANDARD_BODY
+This controls the body of the email.
+
+Refer below all the short codes that can be used in the email template
+
+  ### PRO version
+  
+  In Pro version, you have the ability to create the email template from the backend. And you also have the ability to apply different restrictions for them.
+  
 To create an email template, follow the steps as shown with the help of images.
 
 ![new](./assets/images/email_template_create_new.png)
@@ -86,3 +104,54 @@ The source code of the template file is shown below in the editor and if the use
 
 ![](./assets/images/email_template_advanced_1.png)
 
+
+##Short codes
+        [SITENAME]
+				[SITEURL]
+				[INVOICE_URL]
+				[ORDERID]
+
+				[INVOICENO]
+				[ORDERDATE]
+				[ORDERSTATUS]
+				[ORDERAMOUNT]
+
+				[CUSTOMER_NAME]	
+				[BILLING_FIRSTNAME]
+				[BILLING_LASTNAME]
+				[BILLING_EMAIL]	
+				[BILLING_ADDRESS_1]
+				[BILLING_ADDRESS_2]
+				[BILLING_CITY]
+				[BILLING_ZIP]	
+				[BILLING_COUNTRY]
+				[BILLING_STATE]	
+				[BILLING_COMPANY]
+				[BILLING_VATID]
+				[BILLING_PHONE]
+				[BILLING_MOBILE]
+
+				[SHIPPING_FIRSTNAME]
+				[SHIPPING_LASTNAME]
+				[SHIPPING_ADDRESS_1]
+				[SHIPPING_ADDRESS_2]
+				[SHIPPING_CITY]
+				[SHIPPING_ZIP]
+				[SHIPPING_COUNTRY]
+				[SHIPPING_STATE]
+				[SHIPPING_COMPANY]
+				[SHIPPING_VATID]
+				[SHIPPING_PHONE]
+				[SHIPPING_MOBILE]
+
+				[SHIPPING_METHOD]
+				[SHIPPING_TYPE]
+				[SHIPPING_TRACKING_ID]
+
+				[CUSTOMER_NOTE]
+				[PAYMENT_TYPE]
+				[ORDER_TOKEN]	
+						
+				[COUPON_CODE]
+        [ITEMS]  (This displays all items in the order)
+  
