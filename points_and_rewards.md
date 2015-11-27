@@ -24,10 +24,9 @@ This app used to give rewards points to user.User can use that points for purcha
 The below image illustrates the settings of parameters:
 
 * #### Points Settings
-  
- 1.Earn Points Conversion Rate 
+1. Earn Points Conversion rate:
 
-        Enter set how many points the customers, should earn for each dollar spent and set how many points can be redeemed for a specific discount amount. 
+Enter set how many points the customers, should earn for each dollar spent and set how many points can be redeemed for a specific discount amount. 
 
 ![](step3_earning_rewards_every_dollar.png)
 
