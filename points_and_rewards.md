@@ -24,9 +24,24 @@ This app used to give rewards points to user.User can use that points for purcha
 The below image illustrates the settings of parameters:
 
 * #### Points Settings
-    * ###### Earn Points Conversion rate:
-    * ###### Redeem Points Conversion rate:
-    * 
+    * ###### Earn Points Conversion rate
+        *Enter set how many points the customers, should earn for each dollar spent.*
+![](step3_earning_rewards_every_dollar.png)
+    * ###### Redeem Points Conversion rate
+    * ###### Maximum Points Discount 
+    * ###### Points Label 
+* #### Product / Cart / Checkout Messages 
+    * ###### Earn Points Conversion rate
+    * ###### Redeem Points Conversion rate
+    * ###### Maximum Points Discount 
+    * ###### Points Label 
+* #### Points Earned for Actions
+    * ###### Earn Points Conversion rate
+    * ###### Redeem Points Conversion rate
+    * ###### Maximum Points Discount 
+    * ###### Points Label 
+    
+
 
 
 Enter set how many points the customers, should earn for each dollar spent. 
