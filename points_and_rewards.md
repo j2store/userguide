@@ -48,4 +48,4 @@ The below image illustrates the settings of parameters:
 
 
 
-Points are earned for purchases based on the conversion rate you set. For example, customers could earn 1 point for every dollar spent. This conversion rate can be overridden at the category or product level, so you can encourage customers to purchase specific products. Points earned are displayed on the product page and on the cart/checkout page.
+ 
