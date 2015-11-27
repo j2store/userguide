@@ -39,9 +39,8 @@ The below image illustrates the settings of parameters:
 * #### Points Earned for Actions
     * ###### Points Earned for Account Signup
 * #### Display Category View Message Options
-    * ###### Redeem Points Conversion rate
-    * ###### Maximum Points Discount 
-    * ###### Points Label 
+    * ###### Product Page Message Enable/Disable
+    
     
 
 
