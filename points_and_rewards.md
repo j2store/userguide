@@ -20,3 +20,6 @@ This app used to give rewards points to user.User can use that points for purcha
 5. Enter the parameters (read the explanation about each parameter given below) 
 6. Save and close it.
 
+#### Parameters
+The below image illustrates the settings of parameters:
+
