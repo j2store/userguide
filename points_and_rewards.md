@@ -36,7 +36,6 @@ The below image illustrates the settings of parameters:
     * ###### Single Product Page Message
     * ###### Earn Points Cart Page Message
     * ###### Redeems Points Cart Page Message 
-    * ###### Points Label 
 * #### Points Earned for Actions
     * ###### Earn Points Conversion rate
     * ###### Redeem Points Conversion rate
