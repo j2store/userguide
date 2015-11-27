@@ -23,3 +23,6 @@ This app used to give rewards points to user.User can use that points for purcha
 #### Parameters
 The below image illustrates the settings of parameters:
 
+##### Points Settings
+
+![](step3_earning_rewards_every_dollar.png)
