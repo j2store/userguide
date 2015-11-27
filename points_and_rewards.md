@@ -40,6 +40,7 @@ The below image illustrates the settings of parameters:
     * ###### Redeems Points Cart Page Message 
 * #### Points Earned for Actions
     * ###### Points Earned for Account Signup
+![](set_signup_points.png)
 ![](singup_and_earn_points.png)
 * #### Display Category View Message Options
     * ###### Product Page Message Enable/Disable
