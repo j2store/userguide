@@ -36,10 +36,13 @@ The below image illustrates the settings of parameters:
     * ###### Points Label 
 * #### Product / Cart / Checkout Messages 
     * ###### Single Product Page Message
+    You can enter custom message you want to display in the product page about earning reward points on every purchase of the product.
 ![](product_cart_checkout_messages_1.png)
     * ###### Earn Points Cart Page Message
+    You can enter a message you want to display in the cart page about the earning of reward points when the customer complete the order.
 ![](product_cart_checkout_messages_3.png)
     * ###### Redeems Points Cart Page Message 
+    You can enter the redeem points message, So that customer can apply their points to get discount.
 ![](product_cart_checkout_messages_31.png)
 * #### Points Earned for Actions
     * ###### Points Earned for Account Signup
@@ -50,13 +53,23 @@ The below image illustrates the settings of parameters:
     ![](enable_reward_point_info_on_product_page.png)
     
     
-
+#### Custom Tags 
+  1. Adjust the message by using **{points}**, **{points_value}** and **{points_label}** to represent the points earned / available for redeemption and the label set for points.
+  
+  2. **{price_in_points}** tag used for display how much point need for particular product price. so use in Single Product Page Message.
+  
 #### Front page
+Go to J2store Product Shop 
+You can see the information displayed about the rewards and points.
+![](product_page.png)
 
 
 
 #### My Profile
-
+ Go to Myprofile Menu -> Rewards (Tabs)
+  
+  Here you can see list of points you earned.
+  
 
 
 
