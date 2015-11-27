@@ -51,7 +51,11 @@ The below image illustrates the settings of parameters:
     
     
 
+#### Front page
 
+
+
+#### My Profile
 
 
 
