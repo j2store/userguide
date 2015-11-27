@@ -33,8 +33,8 @@ The below image illustrates the settings of parameters:
     * ###### Maximum Points Discount 
     * ###### Points Label 
 * #### Product / Cart / Checkout Messages 
-    * ###### Earn Points Conversion rate
-    * ###### Redeem Points Conversion rate
+    * ###### Single Product Page Message
+    * ###### Earn Points Cart Page Message
     * ###### Maximum Points Discount 
     * ###### Points Label 
 * #### Points Earned for Actions
