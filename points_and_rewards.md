@@ -31,6 +31,7 @@ The below image illustrates the settings of parameters:
         Points are earned for purchases based on the conversion rate you set. For example, customers could earn 1 point for every dollar spent.
 ![](step3_redeem_reward_points.png)
     * ###### Maximum Points Discount 
+      you can set Maximum number of points should a customer to, apply discount to his order.
 ![](maximum_points_discount.png)
     * ###### Points Label 
 * #### Product / Cart / Checkout Messages 
