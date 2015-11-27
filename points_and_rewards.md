@@ -36,8 +36,11 @@ The below image illustrates the settings of parameters:
     * ###### Points Label 
 * #### Product / Cart / Checkout Messages 
     * ###### Single Product Page Message
+![](product_cart_checkout_messages_1.png)
     * ###### Earn Points Cart Page Message
+![](product_cart_checkout_messages_3.png)
     * ###### Redeems Points Cart Page Message 
+![](product_cart_checkout_messages_31.png)
 * #### Points Earned for Actions
     * ###### Points Earned for Account Signup
 ![](set_signup_points.png)
