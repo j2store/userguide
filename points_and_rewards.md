@@ -28,7 +28,7 @@ The below image illustrates the settings of parameters:
          Enter how many points the customers, should earn for each dollar spent.
 ![](step3_earning_rewards_every_dollar.png)
     * ###### Redeem Points Conversion rate
-        Points are earned for purchases based on the conversion rate you set. For example, customers could earn 1 point for every dollar spent. This conversion rate can be overridden at the category or product level, so you can encourage customers to purchase specific products. Points earned are displayed on the product page and on the cart/checkout page.
+        Points are earned for purchases based on the conversion rate you set. For example, customers could earn 1 point for every dollar spent.
 ![](step3_redeem_reward_points.png)
     * ###### Maximum Points Discount 
 ![](maximum_points_discount.png)
