@@ -37,7 +37,8 @@ The below image illustrates the settings of parameters:
     * ###### Earn Points Cart Page Message
     * ###### Redeems Points Cart Page Message 
 * #### Points Earned for Actions
-    * ###### Earn Points Conversion rate
+    * ###### Points Earned for Account Signup
+* #### Display Category View Message Options
     * ###### Redeem Points Conversion rate
     * ###### Maximum Points Discount 
     * ###### Points Label 
