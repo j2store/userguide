@@ -44,9 +44,6 @@ The below image illustrates the settings of parameters:
 
 
 
-Enter set how many points the customers, should earn for each dollar spent. 
-
-![](step3_earning_rewards_every_dollar.png)
 
 
 
