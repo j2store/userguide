@@ -43,6 +43,7 @@ The below image illustrates the settings of parameters:
 ![](singup_and_earn_points.png)
 * #### Display Category View Message Options
     * ###### Product Page Message Enable/Disable
+    ![](enable_reward_point_info_on_product_page.png)
     
     
 
