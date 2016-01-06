@@ -20,11 +20,11 @@ A title for the method. This will show up in the checkout steps. Default: Sofort
 
 **Config Key:**
 
-This is your Live Sofort Account Config Key, which is used in Sofort Account. 
--Register for a Merchant account at Sofort.com or log into your existing account.
--Go to: My Projects.
--Create a New Project and ensure that it is not in Test mode. Important: Use SOFORT Gateway Project; this has the correct key. DO NOT use SOFORT Classic Project.
--Copy the Configuration Key.
+This is your Live Sofort Account Config Key, which is used in Sofort Account.    
+-Register for a Merchant account at Sofort.com or log into your existing account.   
+-Go to: My Projects.   
+-Create a New Project and ensure that it is not in Test mode. Important: Use SOFORT Gateway Project; this has the correct key. DO NOT use SOFORT Classic Project.   
+-Copy the Configuration Key.   
 	
 **Sandbox Mode:**
 
