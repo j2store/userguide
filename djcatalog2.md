@@ -17,7 +17,8 @@ As shown in the image below, use joomla installer to install DJ-Catalog2:
 2. Select the plugin using the **Choose File** button and click *Upload &Install*
 3. Go to **Extensions -> Plugin Manager -> Filter : Select type "content"** -> Select the Plugin **J2Store - DJCatalog2** and enable the content plugin as shown in the image:
 ![](./assets/images/djc-enable.png)
-
+4. Hide the DJ Catalog's Add to quote button and Price. Price and cart will be displayed in J2Store cart section.
+![](./assets/images/djc-install-hide-price-2.png)
 ### Create a product
 1. Go to **Components -> DJ-Catalog2**.
 ![](./assets/images/djc-create-product-1.png)
@@ -32,6 +33,7 @@ As shown in the image below, use joomla installer to install DJ-Catalog2:
 ![](./assets/images/djc-create-new-product-4.png)
 
 5. Now the product is created and will have the configuration options enabled. Enter the product details like, images, prices, options, filters, relations etc., and save the configuration.
+![](./assets/images/djc-create-new-product-pricing-tab.png)
 ![](./assets/images/djc-create-new-product-5.png)
 
 6. The product is created using DJ-Catalog2. To display the product in the frontend, a menu is to be created. 
