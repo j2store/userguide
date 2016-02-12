@@ -26,6 +26,15 @@ As a result, when an order is placed, all the store administrators will be notif
 
 If you just want the email notifications to be controlled and made dependent on the category, 
 then a custom app could be developed that will send email for the party concerned.
-####New Line Charters (\r\n) in Checkout form
+####New Line Characters (\r\n) in Checkout form
 Go to Joomla admin - J2Store - Configuration - Checkout Layout
 Click the Populate/re-set button and Save
+####Shipping Not Working
+Make sure about two things
+1.Setting under J2Store > Configuration > Store > Weight Unit
+![alt tag](http://i.imgur.com/M4k2yE8.png)
+2.Setting under Edit Product > shipping tab
+The configured shipping rates with shipping rates does has an entry with matching rate.
+For eg: In case the item has 829 grams, you have to configure a rate between 800 and 1000 and the estimate shipping lists the rate.
+![alt tag](http://i.imgur.com/hwwqoAB.png)
+![alt tag](http://i.imgur.com/Dj25Qr4.png)
