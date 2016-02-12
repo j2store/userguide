@@ -29,6 +29,10 @@ You can create more custom fields for the users to fill in while emailing the ba
 
 It can either be based on the Guest display layout or the register layout.
 
+**Disable proceed checkout**
+
+If you set this to YES, the plugin will hide the checkout button in the cart
+
 **Empty cart after sending email**
 
 If you set this to YES, the plugin will empty the cart after emailing the cart items to store owner.
