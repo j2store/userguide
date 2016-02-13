@@ -1,4 +1,4 @@
-#Gift Vouchers
+#Gift Cards
 
 Offer Gift Card purchase to your customers. Providing Gift cards widens your window of sales. With this plugin, Store Owners will be able to create and sell Gift cards. A gift card or cashcard is aumatically generated and sent as email.
 
