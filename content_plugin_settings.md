@@ -12,10 +12,10 @@ To control the display in the cart section, to show or hide the images, enabling
 
 * From the resulting window, select the **Category View** tab to set the values, as shown in the image below:
 
-![](./assets/images/content-category-view.png)
+![](./assets/images/content_plugin_category.png)
 
 * Follow the steps for the settings to be made:
-    * Add to cart and options display - From the available three options, select either **Display the options and cart** or **Do not display. Show 'Choose option' button and take customer to detail view**
+    * Add to cart and options display - From the available three options, select **Display the options and cart**, **Display Choose options button only if product has options. If no options are there, display the cart** or **Do not display. Always take customer to detail view**
     * Product block position - Select **Top** or **Bottom**
     * Display image - To display the image, select **Yes**
     * Image type - Select from the three options : **Thumbnail**, **Main**, **Both Main and additional images**
@@ -25,10 +25,10 @@ To control the display in the cart section, to show or hide the images, enabling
 
 * Save the settings and go to **Item View** tab to set the values, as shown in the image below:
 
-![](./assets/images/content-item-view.png)
+![](./assets/images/content_plugin_item.png)
 
 * Follow the steps for the settings to be made:
-    * Product block position - Select **Top** or **Bottom** for this option
+    * Product block position - Select **Top**, **Bottom** or **afterDisplayContent** for this option.
     * Display image - To display the image, select **Yes**
     * Image block position - Three options available. selct one accordingly or leave the default selection:
         * On top of product block (default)
