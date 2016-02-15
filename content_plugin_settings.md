@@ -15,7 +15,7 @@ To control the display in the cart section, to show or hide the images, enabling
 ![](./assets/images/content-category-view.png)
 
 * Follow the steps for the settings to be made:
-    * Product option display type - From the available two options, select either **Display the options and cart** or **Do not display. Show 'Choose option' button and take customer to detail view**
+    * Add to cart and options display - From the available three options, select either **Display the options and cart** or **Do not display. Show 'Choose option' button and take customer to detail view**
     * Product block position - Select **Top** or **Bottom**
     * Display image - To display the image, select **Yes**
     * Image type - Select from the three options : **Thumbnail**, **Main**, **Both Main and additional images**
