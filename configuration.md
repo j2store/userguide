@@ -32,10 +32,17 @@ Some basic settings need to be done before you proceed. This will be handled by 
 3. **Only Backend** -> Load jQuery UI for backend only
 4. **Both frontend and backend** -> Load jQuery UI for frontend and backend
 
-* ***Load Bootstrap***
- ***(Only for joomla 2.5)***
+* ***Load jQuery UI Localisation for date picker***
+
+     The date picker will be translated in your language when you set this to **YES**.
+
+* ***Load full bootstrap css***
 
     If the template is loaded with bootstrap, and if the user does not want it to be loaded, the user may choose **NO**, otherwise choose **YES** to load the default Bootstrap CSS packed with **j2store**.
+    
+* ***Load minimal bootstrap css***
+
+     If your template does not support the bootstrap, you can consider setting this to **YES** to load a minimal bootsrap support. So that your cart, checkout and order history pages looks good.
 
 * ***Who can see 'add to cart'***
  
@@ -112,13 +119,14 @@ These are global parameters for product display. You can override some of these 
     
 >CAUTION: SKU Show/Hide setting can be done in two places, i.e., in configuration setup and in product layout. Product layout setting will be given higher priority, i.e., if SKU is set to **Show** in configuration and again it is set to **Hide** in product layout, the configuration setting will be overridden and the SKU will be set to **Hide** as it is in product layout. As a result, SKU will not be shown in frontend.   
     
+* ***Manufacturer/Brand***
+
+    If it is set to '**YES**', the manufacturer name will be visible.
+    
 * ***Show Quantity Field***
 
     If it is set to 'Yes', the manual input for quantity will be visible, else quantity can not be given manually.
     
-* ***Show Quantity Spinner***
-
-    If this option is set to **'Yes'**, a **'+'** and **'-'** signs will be displayed, by which, one can increase or decrease the quantity of selected product.
     
 * ***Show Price***
 
@@ -154,6 +162,10 @@ Setting this option to **'Show'**, will show the prefix for price modifier. i.e.
 * ***Show Image for Product Options***
     
     This will be applicable for radio button option only. Setting this will show an image near the options in products page.
+    
+* ***No of columns for related products (upsells & cross sells)***
+
+    This will be used for up-sells and cross-sells display layout when you use the shortcode for displaying up-sells and cross-sells in your article layouts.
 
 <a name="inventory"></a>
 # Inventory
@@ -224,11 +236,16 @@ Price of a product can be displayed in three formats.
 2. Price inclusive of relevant tax, as a single figure.
 3. Price and Tax separately.
 
+* ***Display tax information below the prices (in product pages)***
+
+     Set this to **YES** will display (Incl.19% tax) or (excl.19% tax) to product pages.
+     
+* ***Display prices during cart / checkout Excluding tax***
+
+     Choose how do you want to display the prices(including tax or excluding tax) during the checkout.
+     
+
 One of these options can be selected here.
-
-* ***Apply Discounts***
-
-    Since discounts are usually applied before calculating the tax, the default selection of this option is **'Before Tax'**, but if it is desired to be applied after tax calculation, then select option **'After Tax'**.
     
 Check the image below for a visual aid.
 
@@ -328,6 +345,29 @@ Check the image for more clarification.
 
     There is a facility to estimate the probable tax and shipping cost based on some preliminary details and this can be enabled by setting the option to **Yes**.
     
+* ***Make postal code required in the shipping/tax estimator***
+
+     Set this to **YES** will the make the entry of postal code mandatory while estimating shipping and tax in the cart page.
+     
+* ***Clear cart items***
+
+     Choose when to clear the cart.
+     **On confirmation :** When the order is confirmed by the payment gateways.
+     **On order placement :** cart will be emptied when the customer places the order.
+     
+* ***Default payment method***
+
+    Choose the default payment method from the list of payment available. This will be selected by default when customers checkout.
+    
+* ***Prevent customer from checking out if shipping method was not chosen***
+
+     Set this to **YES** will prevent the customer from checking out if shipping method was not selected
+     Make sure you have configured your shipping methods correct. Otherwise, shipping methods will not show up and your customers wont be able to place an order.
+     
+* ***Hide shipping costs until an address is entered***
+
+     Set this to **YES** will show the shipping methods when an address is entered.
+
 Check the image below for more clear understanding.
 
 ![Cart Configuration1](./assets/images/Cart_config1.png)
@@ -401,6 +441,15 @@ For a better understanding, check the image below.
 * ***Show Link to Order History after payment***
     
     Enabling this will show the user a link which will take to the user's order history page. This will be done only after payment.
+    
+* ***Downloads tab in My Profile***
+
+     Set this to **SHOW** will display the download tab in the myprofile section.
+     
+* ***Customers can see orders with the status of**
+
+     All, Confirmed,Processed,Failed,Pending,New,Cancelled
+
 
 <a name="update"></a>
 ## Update
