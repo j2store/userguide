@@ -231,7 +231,7 @@ The price entered initially will be the one till the end. Later alterations will
     
 * ***Price Display Options***
 
-Price of a product can be displayed in three formats.
+    Price of a product can be displayed in three formats.
 1. Only the price of the product.
 2. Price inclusive of relevant tax, as a single figure.
 3. Price and Tax separately.
@@ -249,7 +249,7 @@ One of these options can be selected here.
     
 Check the image below for a visual aid.
 
-![](./assets/images/Tax_config.png)
+![](./assets/images/tax.png)
 
 <a name="discount"></a>
 ## Discount
@@ -372,6 +372,8 @@ Check the image below for more clear understanding.
 
 ![Cart Configuration1](./assets/images/Cart_config1.png)
 
+![](./assets/images/cart.png)
+
 <a name="checkout_layout"></a>
 ## Checkout Layout
 
@@ -436,7 +438,7 @@ Likewise, in ***RBC-2015-S-000***, all are same and the extra 2015 may be added 
 Now the system generated invoice number, say 1, will be appended with this prefix, and will be displayed as **RBC/S/0001** in the invoice.
 
 For a better understanding, check the image below.
-![Order Configuration](./assets/images/Order_Config.png)
+![Order Configuration](./assets/images/order.png)
 
 * ***Show Link to Order History after payment***
     
@@ -478,6 +480,10 @@ Misc. options for the store
 
     The ID of the article that holds the Terms and conditions is to be given here.
     
+* ***Prepare content for Terms and Conditions and Thank you article?***
+
+     Set this **YES** will parse the article content
+    
 Check the image below for a better idea.
 
-![Others](./assets/images/configuration_others.png)
+![Others](./assets/images/others.png)
