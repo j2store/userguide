@@ -10,12 +10,14 @@
 ####Installation Instructions
 1. Use the Joomla installer to install the app.
 2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
+![](./assets/images/amazons3_enable.png)
+
 3. Click Enable in the Amazon S3 app.
 4. Once the app is enabled, click on Open to set the configuration for the app.
 
 ####Parameters
 
-* ***Access key ID***
+* ***API Access key***
 
      Enter the Access key ID provided by Amazon.
      
@@ -24,6 +26,8 @@
      Enter Access secret key provided by Amazon.
      
      Once you entered Access key ID and Access secret key, save it. You will get your bucket list.
+
+![](./assets/images/amazons3_parameters.png)
 
 ####How to find your AWS Access Key ID and Secret Access Key####
 
@@ -45,8 +49,13 @@
 
      Set the expiration time to download URL.
      
-####How to sell the files using Amazon S3
+![](./assets/images/amazons3_bucketlistedited.png)
+     
+####How to sell the files using Amazon S3 ?
 
 * Create a downloadable product product and start selling. Create a J2Store product with product type as "Downloadable product". Configure all basic options such as price and navigate to the Files tab.
 
 ***Note :*** Make sure you have set path to **Folder path for digital goods** in J2store configuration basic settings.
+![](./assets/images/amazons3_download_folderpath.png)
+
+![](./assets/images/amazons3_setdownloadfiles.png)
