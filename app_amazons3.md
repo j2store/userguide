@@ -4,6 +4,13 @@
 
 Never worry about your files being shared in the vastness of Internet. The app generates a temproary url which will expire within minutes (you can control its expiry from the app settings), thus effectively preventing direct access to your files. The download url is also well masked. The app is suitable for those selling PDFs, Images, Audio and Videos, Extensions, Apps and more.
    
+####Key Features
+
+* Sell any file stored in Amazon S3
+* Enables you to retrive the files from the Amazon S3 bucket remotely.
+* Generates a temproary url for the downlodable files, which expires within minutes
+* Allows you to control the expiry of the url from settings
+   
 ####Requirments####
 * PHP 5.4 or higher
 * Joomla 3.3 or above
