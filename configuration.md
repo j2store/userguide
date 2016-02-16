@@ -446,7 +446,7 @@ For a better understanding, check the image below.
 
      Set this to **SHOW** will display the download tab in the myprofile section.
      
-* ***Customers can see orders with the status of**
+* ***Customers can see orders with the status of***
 
      All, Confirmed,Processed,Failed,Pending,New,Cancelled
 
