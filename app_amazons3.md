@@ -1,6 +1,8 @@
 #Amazon S3#
 
-   The purpose of Amazon s3 app is to sell your files using amazon s3.
+   Sell your files stored in Amazon S3 drive with J2Store Joomla eCommerce platform. The app enables you to connect your Amazon S3 bucket and sell the files securely.
+
+Never worry about your files being shared in the vastness of Internet. The app generates a temproary url which will expire within minutes (you can control its expiry from the app settings), thus effectively preventing direct access to your files. The download url is also well masked. The app is suitable for those selling PDFs, Images, Audio and Videos, Extensions, Apps and more.
    
 ####Requirments####
 * PHP 5.4 or higher
