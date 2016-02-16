@@ -53,7 +53,7 @@
      
 ####How to sell the files using Amazon S3 ?
 
-* Create a downloadable product product and start selling. Create a J2Store product with product type as "Downloadable product". Configure all basic options such as price and navigate to the Files tab.
+* Create a downloadable product and start selling. Create a J2Store product with product type as "Downloadable product". Configure all basic options such as price and navigate to the Files tab.
 
 ***Note :*** Make sure you have set path to **Folder path for digital goods** in J2store configuration basic settings.
 ![](./assets/images/amazons3_download_folderpath.png)
