@@ -40,6 +40,11 @@ If you set this to YES, the plugin will empty the cart after emailing the cart i
 **Time delay in milliseconds to empty the cart**
 You can set a delay for emptying the cart. Default is 2 seconds.
 
+**Address field order in email**
+Here you can define the fields by enclosing the square bracket as well as html tags. You can re-arrange the ordering of fields.
+
+![](./assets/images/email_basket.png)
+
 #### Support
 Still have questions? You can reach us in support@j2store.org
 
