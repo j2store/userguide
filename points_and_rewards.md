@@ -9,7 +9,7 @@ This app used to give rewards points to user.User can use that points for purcha
 * J2Store 3.2.x or above
 
 #### Installation Instructions
-1.Use the Joomla installer to install the app. 
+1.Use the Joomla installer to install the app.
 2.In the backend, go to **J2Store Dashboard -> Apps** as shown in the image below. 
 3.Click **Enable** in the Point and Rewards plugin. (type=j2store). 
 
@@ -18,7 +18,8 @@ This app used to give rewards points to user.User can use that points for purcha
 4.After the app is enabled, click on **Open** to set the configuration for the app.
 ![](assets/images/pointsandrewards_open.png)
 
-5.Enter the parameters (read the explanation about each parameter given below) 
+5.Enter the parameters (read the explanation about each parameter given below)
+
 6.Save and close it.
 
 #### Parameters
