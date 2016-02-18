@@ -9,49 +9,79 @@ This app used to give rewards points to user.User can use that points for purcha
 * J2Store 3.2.x or above
 
 #### Installation Instructions
-1. Use the Joomla installer to install the app. 
-2. In the backend, go to **J2Store Dashboard -> Apps** as shown in the image below. 
-![](./assets/images/acymail-app-1.png)
-3. Click **Enable** in the Point and Rewards plugin. (type=j2store). 
+1.Use the Joomla installer to install the app. 
+2.In the backend, go to **J2Store Dashboard -> Apps** as shown in the image below. 
+3.Click **Enable** in the Point and Rewards plugin. (type=j2store). 
 
-![](step1_.png)
-4. After the app is enabled, click on **Open** to set the configuration for the app.
-![](step2.png)
-5. Enter the parameters (read the explanation about each parameter given below) 
-6. Save and close it.
+![](assets/images/pointsandrewards_enable.png)
+
+4.After the app is enabled, click on **Open** to set the configuration for the app.
+![](assets/images/pointsandrewards_open.png)
+
+5.Enter the parameters (read the explanation about each parameter given below) 
+6.Save and close it.
 
 #### Parameters
 The below image illustrates the settings of parameters:
 
-* #### Points Settings
-    * ###### Earn Points Conversion rate
-         Enter how many points the customers, should earn for each dollar spent.
-![](step3_earning_rewards_every_dollar.png)
-    * ###### Redeem Points Conversion rate
-        Points are earned for purchases based on the conversion rate you set. For example, customers could earn 1 point for every dollar spent.
-![](step3_redeem_reward_points.png)
-    * ###### Maximum Points Discount 
-      you can set Maximum number of points should a customer to, apply discount to his order.
-![](maximum_points_discount.png)
-    * ###### Points Label 
-* #### Product / Cart / Checkout Messages 
-    * ###### Single Product Page Message
-    You can enter custom message you want to display in the product page about earning reward points on every purchase of the product.
-![](product_cart_checkout_messages_1.png)
-    * ###### Earn Points Cart Page Message
-    You can enter a message you want to display in the cart page about the earning of reward points when the customer complete the order.
-![](product_cart_checkout_messages_3.png)
-    * ###### Redeems Points Cart Page Message 
-    You can enter the redeem points message, So that customer can apply their points to get discount.
-![](product_cart_checkout_messages_31.png)
-* #### Points Earned for Actions
-    * ###### Points Earned for Account Signup
-![](set_signup_points.png)
-![](singup_and_earn_points.png)
-* #### Display Category View Message Options
-    * ###### Product Page Message Enable/Disable
-    ![](enable_reward_point_info_on_product_page.png)
-    
+##### Points Settings
+* ***Earn Points Conversion rate***
+
+     Enter the points to be awarded for the money spend by the customer. For example,**1 point = $10**. The customer will be awarded 1 point for the amount($10) he spent.
+     
+* ***Redeem points conversion rate***
+
+     Enter the amount to be granted for the points earned by the customer. For example, **100 points = $10**. The customer will be granted $10 for the points he earned(100 points).
+     
+* ***Maximum Discount(Per order)***
+
+     Enter the redeem points for the discounts based on the order.
+     
+* ***Points suffix***
+
+     The text entered here will be added as suffix to the points. For example, 14 credits.
+     
+![](assets/images/pointsandrewards_setting1.png)
+
+* ***Round points***
+
+     Set this to **YES** will round the points. For example, if point is in decimal(0.60), it will change the decimal to whole number.
+     
+* ***Round discount amount?***
+
+     Set this to **YES** will round the discount amount.
+     
+* ***Add points to the customer account if the order status matches Confirmed***
+
+     Points will be added only if the order status matched the selected. For example, if you have chosen the status confirmed, then the points will be added only when the order status matched the selected. **Preferred status : Confirmed**
+     
+#####Product/Cart/Checkout/ Messages
+
+* ***Product page***
+
+     You can enter custom message you want to display in the product page about earning of reward points on every purchase of the product.
+     
+* ***Cart page: Message for earn points***
+     You can enter custom message you want to display in the cart page about earning of reward points when customer complete the order.
+     
+* ***Cart page: Message for redeeming points***
+
+     You can enter the redeem points message, so that customer can apply their points to get discount.
+     
+![](assets/images/pointsandrewards_setting2.png)
+
+#####Award points for certain actions
+
+* ***Account Signup***
+
+     Enter the number of rewards for the new customer registration.
+     
+* ***Product Page Message***
+
+     Set this **YES** will display the reward points information message in the category list view.
+     
+![](assets/images/pointsandrewards_setting3.png)
+     
     
 #### Custom Tags 
   1. Adjust the message by using **{points}**, **{points_value}** and **{points_label}** to represent the points earned / available for redeemption and the label set for points.
