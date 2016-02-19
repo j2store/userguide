@@ -79,4 +79,12 @@ Never worry about your files being shared in the vastness of Internet. The app g
 ***Note :*** Make sure you have set path to **Folder path for digital goods** in J2store configuration basic settings.
 ![](./assets/images/amazons3_download_folderpath.png)
 
-![](./assets/images/amazons3_setdownloadfiles.png)
+![](./assets/images/amazons3_setproductfiles.png)
+
+![](./assets/images/amazons3_addfile.png)
+
+![](./assets/images/amazons3_choosefile.png)
+
+![](./assets/images/amazons3_createfile.png)
+
+Save and close it
