@@ -57,4 +57,6 @@ Wishlists allows customers to create and add products to an unlimited number of 
 
     Enable this will redirect the customer to the wishlist view.
     
+**Refer the image below**
+    
 ![](assets/images/wishlist_parameters.png)
