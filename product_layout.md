@@ -149,3 +149,24 @@ When you click on the product, it will be displayed with large image and additio
 
 Like this, you can set different product layouts according to your wish and needs.
 
+####Common Problems
+* ***Grid layout not working/columns.Why?***
+
+   The issue seems to be the wrong sub-template.
+   Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3.
+   Save
+
+   This should solve the issue. If it is already set to Bootstrap 3, then try to set it as Default.
+   
+* ***Preview addictional image after click***
+
+    copy
+   /components/com_j2store/templates/default/view_images.php
+
+   to
+
+   /templates/YOUR_TEMPLATE/html/com_j2store/templates/default/view_image.php
+
+   edit the file and remove the highlighted line fully.
+   
+   ![](assets/images/avoid_mouseover.png)
