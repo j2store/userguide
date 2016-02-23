@@ -115,6 +115,14 @@ Then Go to Joomla administrator -> Components -> J2Store
 - Go to Catalog - Products - Open a product
 - Check if everything is right and save it.
 
+## No check on email-adress with guest checkout.Why?
+```language
+Once finished the migration, Please go to J2Store - Configuration - Checkout layout.
+Click Re-populate checkout layout.
+Save.
+While migrating, the email field was set to not validate on guest checkout.
+Re-setting the checkout layout and also setting the email field to YES in the J2Store - Set up custom fields solves the issue.
+```
 <a name="revert"></a>
 ## Reverting back to 2.x after the migration
 ```language
