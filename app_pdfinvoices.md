@@ -29,7 +29,7 @@ MBString extension: provides internationalization support. This extension is not
 
 3. In the backend, go to J2Store Dashboard -> Apps
 
-4. Click Enable in the Gift certificate app.
+4. Click Enable in the PDF Invoices.
 
 5. Once the app is enabled, click on Open to set the configuration for the app.
 
