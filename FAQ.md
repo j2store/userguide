@@ -1,14 +1,18 @@
 #Frequently Asked Questions
+<a name="product_options_not_working" />
 ####Product Options not working or displaying option
 This problem may happen due to Jquery.
 Check your j2store basic settings tab in Joomla admin->J2store->setup->configuration.
 You might have set Load jQuery UI to only frontend.It should be always in Both frontend and backend.
+<a name="unregistered_users_place_orders" />
 ####Unregistered users to place orders
 Go to J2Store - Configuration - Cart settings
 set Allow Guest checkout to YES.
-####Vat not apears in check out
+<a name="vat_not_appears_in_checkout" />
+####Vat not appears in check out
 In Configuration - Tax, tax is set to be applied on the shipping address
 In the tax profile, it is set to apply billing address.
+<a name="donation_plugin_empty" />
 ####Donation plugin is empty.Why
 The donation app adds a Donation option type.
 So go to j2store - catalog - options
@@ -19,6 +23,7 @@ Open your product (simple should work good)
 go to J2Store Cart - Options
 Search for the donation option you just created.
 Add it and save.
+<a name="multiplestores_differentnotification_depending_oncategory" />
 ####Multiple stores / different notification receiver depending on category
 J2Store is a B2C solution where you can maintain only one store.
 It does not support multi-store system. 
@@ -32,14 +37,16 @@ Click the Populate/re-set button and Save
 ####Shipping Not Working
 Make sure about two things
 1.Setting under J2Store > Configuration > Store > Weight Unit
-![alt tag](http://i.imgur.com/M4k2yE8.png)
+![alt tag](assets/images/faq_shipping.png)
 
 2.Setting under Edit Product > shipping tab
-The configured shipping rates with shipping rates does has an entry with matching rate.
-For eg: In case the item has 829 grams, you have to configure a rate between 800 and 1000 and the estimate shipping lists the rate.
-![alt tag](http://i.imgur.com/Dj25Qr4.png)
 
-![alt tag](http://i.imgur.com/hwwqoAB.png)
+* Enable shipping.
+* The configured shipping rates with shipping rates does has an entry with matching rate.
+For eg: In case the item has 829 grams, you have to configure a rate between 800 and 1000 and the estimate shipping lists the rate.
+![](http://i.imgur.com/Dj25Qr4.png)
+
+![](http://i.imgur.com/hwwqoAB.png)
 
 ####Why the order is listed in the backend even didnt make a payment? How to see the paid products?
 The purpose of the order status column is to differentiate between the new, paid, pending orders.
@@ -57,3 +64,36 @@ When a payment is succesfully made, the order status will be set to CONFIRMED.
 So by looking at the order status, you can differentiate which orders are paid which are not.
 
 There is a marketing opportunity as well. You can follow up with the unpaid customers and convert them.
+
+####Grid layout not working/columns.Why?
+
+The issue seems to be the wrong sub-template. Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3. Save
+
+This should solve the issue. If it is already set to Bootstrap 3, then try to set it as Default.
+
+####Preview additional image after click
+
+copy /components/com_j2store/templates/default/view_images.php
+
+to
+
+/templates/YOUR_TEMPLATE/html/com_j2store/templates/default/view_image.php
+
+edit the file and remove the highlighted line fully.
+![](assets/images/previewimage.png)
+
+####Remove Thumbnail image
+* Goto Extensions -> Plugins -> select the type content. You can find        Content_J2Store plugin.
+* Open the plugin and goto the Item view tab.
+* Set Display image to No.
+
+####How to add custom text or unit to the price field?
+
+copy
+/components/com_j2store/templates/default/default_price.php
+
+to
+
+/templates/YOUR_TEMPLATE/html/com_j2store/templates/default/default_price.php
+
+on around line no 25 you can add any word such as "FROM", "PER KG", etc
