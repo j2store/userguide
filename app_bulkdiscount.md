@@ -46,7 +46,7 @@ You can also restrict the application of the discount depending on the customer 
    Refer the below image for setting discount for the product individually
    ![](assets/images/bulkdiscount_product.png)
 
-* ***Display discounts in Products view only***
+* ***Display discounts in***
 
      Display the discount information in any one of the three options(Products view only, Category view only, Both product and category view).
      
