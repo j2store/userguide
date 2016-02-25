@@ -40,9 +40,9 @@ You can also restrict the application of the discount depending on the customer 
 
 * ***Apply Bulk discount for***
 
-  **Cart Qty : **This will apply the discount globally i.e. based on the cart quantity. This will work only when you enable the bulk discount globally in Global discount settings.
+  **Cart Qty :**This will apply the discount globally i.e. based on the cart quantity. This will work only when you enable the bulk discount globally in Global discount settings.
   
-  **Line item Qty : **This will apply the discount based on the product. You can set discount to the product individually in the apps tab on j2store cart. Once you enabled Line item Quantity, the discount will be applied to the individual products.
+  **Line item Qty :**This will apply the discount based on the product. You can set discount to the product individually in the apps tab on j2store cart. Once you enabled Line item Quantity, the discount will be applied to the individual products.
    Refer the below image for setting discount for the product individually
    ![](assets/images/bulkdiscount_product.png)
 
