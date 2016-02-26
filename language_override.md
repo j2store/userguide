@@ -1,3 +1,7 @@
+## Language overrides in Joomla (with examples using J2Store)
+
+To change text in core Joomla or in an extension (other than installing a new language) it is advised to perform a language override in Joomla. To do this you need to go into the admin backend then in the menu under "Extensions" click on "Language Manager"
+
 Let us assume that you want to change the Firstname (in billing address fields) to My Name.
 
 Step 1: Go to Joomla admin->Extensions Manager->Language Manager->Overrides.
