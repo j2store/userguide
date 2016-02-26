@@ -6,18 +6,18 @@ Let us assume that you want to change the Firstname (in billing address fields) 
 
 Step 1: Go to Joomla admin->Extensions Manager->Language Manager->Overrides.
 
-> VERY IMPORTANTANT:
+> VERY IMPORTANTANT:    
 Before creating the override, set the Filter to ADMINISTRATOR (of the language that you wanted to create override. Say, your language is german. Then you should select the German (de-DE) Administrator in the filter)
+
 ![Location Filter](./assets/images/location_filter.png)
 
 Step 2: Click new to create a override
 
-> VERY IMPORTANT
-
+> VERY IMPORTANT   
 1. Make sure you have checked the For both locations
 2. Make sure the location points to ADMINISTRATOR
 
-![Location Filter](./assets/images/language_override_.png)
+![Language override screen](./assets/images/override_screen.png)
 
 Step 3: You can either search or directly enter the constant (if you knew already) to create the override.
 
