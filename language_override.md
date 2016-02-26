@@ -14,8 +14,8 @@ Before creating the override, set the Filter to ADMINISTRATOR (of the language t
 Step 2: Click new to create a override
 
 > VERY IMPORTANT   
-1. Make sure you have checked the For both locations
-2. Make sure the location points to ADMINISTRATOR
+1. Make sure you have checked the For both locations   
+2. Make sure the location points to ADMINISTRATOR   
 
 ![Language override screen](./assets/images/override_screen.png)
 
