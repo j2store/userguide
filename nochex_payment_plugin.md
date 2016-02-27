@@ -45,6 +45,8 @@ Nochex offers a testing suite called Sandbox. Before going live, you can test yo
 
 Use your Nochex's Sandbox merchant ID.
 
+![](assets/images/nochex_parameter_one.png)
+
 **Article id for thank you message**
 
 You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
@@ -72,6 +74,8 @@ The text entered here will be displayed when customer completes the payment.
 
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
+![](assets/images/nochex_parameter_two.png)
+
 **Display text if customers cancels payment**
 
 The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
@@ -93,6 +97,8 @@ Choose **YES** to enable the debug mode. If you set this to yes, then debug mess
 Text entered here will be added as the name of the payment button.
 
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.
+
+![](assets/images/nochex_parameter_three.png)
 
 ####Support
 
