@@ -13,9 +13,9 @@ The purpose of this application is used to force the customer to select shipping
 
 2. In the backend, go to J2store Dashboard -> Apps and find the J2Store Cart Force Shipping and enable it.
 
-![](assets/images/cartforceshipping_enable.png)
-
 3. Once enabled the plugin, open it.
+
+![](assets/images/cartforceshipping_enable.png)
 
 ####Basic Settings
 **Cart Force Shipping Error Message**
