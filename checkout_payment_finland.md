@@ -1,4 +1,4 @@
-#Checkout Payment Finland
+#Payment Checkout Finland
 This plugin integrates Checkout payment Finland with J2store.
 
 ####System Requirements
@@ -31,23 +31,23 @@ This image will be displayed while payment options are listed in the checkout pa
 
 **Merchant Id**
 
-This is your merchant ID provided by Checkout Payment Finland.
+This is your merchant ID provided by Payment Checkout Finland.
 
 **Security Key**
 
-Enter your security key provided by Checkout Payment Finland.
+Enter your security key provided by Payment Checkout Finland.
 
 **Use Sandbox**
 
-Checkout Payment Finland offers a testing suite called Sandbox. Before going live, you can test your store using this payment's sandbox feature.
+Payment Checkout Finland offers a testing suite called Sandbox. Before going live, you can test your store using this payment's sandbox feature.
 
 **Sandbox Merchant Id**
 
-Use your Checkout Payment Finland's Sandbox merchant ID.
+Use your Payment Checkout Finland's Sandbox merchant ID.
 
 **Sandbox security key**
 
-Use your Checkout Payment Finland's Sandbox security key.
+Use your Payment Checkout Finland's Sandbox security key.
 
 **Article id for thank you message**
 
