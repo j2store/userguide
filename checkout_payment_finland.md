@@ -45,6 +45,8 @@ Payment Checkout Finland offers a testing suite called Sandbox. Before going liv
 
 Use your Payment Checkout Finland's Sandbox merchant ID.
 
+![](assets/images/checkout_payment_finlandone.png)
+
 **Sandbox security key**
 
 Use your Payment Checkout Finland's Sandbox security key.
@@ -76,6 +78,8 @@ The text entered here will be displayed when customer completes the payment.
 
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
+![](assets/images/checkout_payment_finlandtwo.png)
+
 **Display text if customers cancels payment**
 
 The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).
@@ -97,6 +101,8 @@ Choose **YES** to enable the debug mode. If you set this to yes, then debug mess
 Text entered here will be added as the name of the payment button.
 
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.
+
+![](assets/images/checkout_payment_finlandthree.png)
 
 ####Support
 
