@@ -24,7 +24,7 @@ Coupons hold the following information required for a successful process of purc
 * **Value Type** - Value of the coupon is fixed amount or a specific percentage of the order value
 * **Maximum Value** - Restriction of discount value to a certain limit on percentage based coupons
 * **Customer Login** - Whether customer is required to be logged in to avail the discount
-* **Valid From** & **Valid To** - The dates between which the validity of the coupon lies.
+* **Valid From** & **Valid To** The dates between which the validity of the coupon lies.
 * **Uses per coupon** - limit of using the coupon for privileges by any user, empty value is for unlimited use
 * **Uses per customer** - limit of using the coupon for privileges by one customer, empty value for unlimited use
 * **Product Categories** - coupon usage applicable product categories, separated by commas, empty for entire cart product categories
