@@ -90,35 +90,33 @@ For both the items, brand and model name may be same, but the attributes like co
 
 Lets discuss it with some image illustrations:
 
-![Variant 1](./assets/images/product_variable_variant_1.png)
+![Variant 1](./assets/images/variant_chooseoption.png)
 
-If you select 'Colour' from the list, your screen will look like this:
+If you select 'Size' from the list, your screen will look like this:
 
-![Variant 2](./assets/images/product_variable_variant_2.png)
+![Variant 2](./assets/images/variant_saveoption.png)
 
 You can see the option you have selected from the list added down there. Now, save the form to proceed.
 
-![Variant 3](./assets/images/product_variable_variant_3.png)
+![Variant 3](./assets/images/variant_setvalues.png)
 
-You can see '**Set Values**' near the option name **Colour** and click it. You will get a pop-up window to add attributes as illustrated below:
+You can see '**Set Values**' near the option name **Size** and click it. You will get a pop-up window to add attributes as illustrated below:
 
-![Variant 4](./assets/images/product_variable_variant_4.png)
+![Variant 4](./assets/images/variant_setattribute.png)
 
 Once you are done, save changes and close the pop-up window to get back to the main window. Now you have set the values for the variants to be generated. Why wait, just go and generate the variants like this:
 
-![variant 7](./assets/images/product_variable_variant_7.png)
+![variant 7](./assets/images/variant_generatevar.png)
 
 The button you have clicked for variant generation will adjust itself to show you a message, 'Generating variants... Please wait'.
 
-![Variant 8](./assets/images/product_variable_variant_8.png)
-
 And that's it. You have your variants generated! Wonder how? Just check the image below for a surprise...
 
-![Variant 5](./assets/images/product_variable_variant_5.png)
+![Variant 5](./assets/images/variants_generated.png)
 
-If you want to edit the properties of the variants, click the respective edit button of the property you wish to edit to get a pop-up window like this:
+If you want to edit the properties of the variants, click the open all button and you will get the screen like below:
 
-![Variant 6](./assets/images/product_variable_variant_6.png)
+![Variant 6](./assets/images/variant_setproperties.png)
 
 Now you know how to deal with variants, options, attributes, properties and how to edit them.
 
