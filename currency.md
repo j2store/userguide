@@ -47,3 +47,10 @@ Click the New button to start the currency creation process.
 ![Add/Edit Currency](./assets/images/Currency_Add.png)
 
 The image above indicates how to add or edit a currency.
+
+##Display the prices with comma
+
+Prices should also be entered with the . (DOT) as the decimal separator.
+In the currency settings screen, as mentioned in the below picture, you can change the formatting option. This will automatically display the prices with comma.
+
+![](assets/images/Selection_044.png)
