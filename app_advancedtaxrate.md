@@ -33,13 +33,19 @@ Once you opened the app, you will get the screen like below. Click **New** on to
   
 ####Parameters in creating Tax rate
   **Country & Zone:** Choose the country and zone available from the dropdown list.
+  
   **Postal code:** Tax will be added to the sub total when the customer's postal code matches the postal code added here.
+  
   **Address type:** Tax will be applied based on the address type you chosen here.
+  
   **Tax Rate:** Give your tax rate(like 8.5%, 9.5%)
+  
   **Name:** Name added here will be displayed in the frontend.(For example, if you add the name as Tax rate califonia, then in frontend it will display like **Tax rate california(8.5%)**)
+  
   **Priority:** Set the priority and click create button.
   ![](assets/images/advancetax_taxrate.png)
-  **Note:** You can also choose import and export to import the tax and export the tax as CSV file.
+  
+**Note:** You can also choose import and export to import the tax and export the tax as CSV file.
   
 ####Support
 
