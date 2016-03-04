@@ -1,3 +1,17 @@
+* **[Change default country in checkout](#change_default_country)**
+* **[Order products in list layout](#order_products)**
+* **[Troubleshooting update related issues](#update_related_issues)**
+* **[Migrate from version 2.x to version 3.x](#migrate)**
+* **[Options from dropdown cannot be selected](#options)**
+* **[Troubleshooting USPS, FedEx, UPS and CanadaPost shipping plugins](#troubleshoot_shipping)**
+* **[A simplified guide for New EU VAT rules 2015 and setting them up in J2Store](#eu_vat_rules)**
+* **[solve jQuery conflict with Multi-categories component](#multicateogries)**
+* **[Writing template override for the frontend order view and print layouts](#template override)**
+* **[Troubleshooting Checkout issues](#checkout_issues)**
+* **[How To Solve Mini Cart module related issues](#mini_Cart_issues)**
+* **[HOWTO make checkout address field labels language friendly](#checkout_field_language)**
+
+<a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
 
 1. Login to Joomla administrator and go to Components -> J2Store
@@ -10,6 +24,7 @@
 
 5. Clear Joomla cache and check.
 
+<a name="order_products"></a>
 ##[HOWTO] Order products in list layout
 The product list layout by default takes the ordering in the Article Manager. However, you can change this ordering (on page load / refresh) via the Menu Parameters.
 
@@ -21,6 +36,7 @@ Under the Common Options tab, you can find Article Order parameter. There you ca
 
 ![](assets/images/troubleshoot_orderproducts.png)
 
+<a name="update_related_issues"></a>
 ##Troubleshooting update related issues
 
 J2Store uses the Joomla Extension Manager for providing updates to both the free and pro users. On a few occasions, you may not be able to access the updates via the Extensions Manager. You may get a 403 access denied when you try to update in your site. It might be due to several reasons. We have listed a few that might cause this problem.
@@ -50,6 +66,7 @@ Please make sure that the Download ID is correct.
 
   If still you get the error, you can always download the latest version from our My Downloads section: http://j2store.org/my-downloads.html and install it via the Extensions manager.
   
+<a name="#migrate"></a>
 ##[HOWTO] Migrate from version 2.x to version 3.x
 
 With the release of Version 3, J2Store has emerged into a much more powerful e-commerce application for Joomla. Version 3 of J2Store is completely re-written from scratch using FOF Framework and follows a completely different table structure. It comes with quite a lot of new features and supports different product types.
@@ -58,6 +75,7 @@ As a result, you cannot install Version 3 directly over the version 2. It involv
 
 [Click here to Download the migration tool and read the guide](http://j2store.org/support/user-guide/migrating-from-2-x-to-3-x.html)
 
+<a name="options"></a>
 ##[HOWTO] Options from dropdown cannot be selected
 
 This issue occurs when your site has two instances of the Jquery UI library.
@@ -77,6 +95,7 @@ Save.
 
 Clear Joomla cache and refresh. Now try
 
+<a name="troubleshoot_shipping"></a>
 ##Troubleshooting USPS, FedEx, UPS and CanadaPost shipping plugins
 
 You have installed the shipping plugin but it doesn't show up during the checkout. Here are a list of reasons that might be preventing the plugin from fetching shipping cost real-time from the APIs of the Shipping carrier.
@@ -121,6 +140,7 @@ You have installed the shipping plugin but it doesn't show up during the checkou
  
 Still not working, please create a private ticket or email us the log file. We will help you troubleshoot the plugin.
 
+<a name="#eu_vat_rules"></a>
 ##A simplified guide for New EU VAT rules 2015 and setting them up in J2Store
 If you are a seller of digital goods and services, you would probably wondering about the new European VAT rules that came into effect from January 1, 2015.
 
@@ -197,3 +217,182 @@ Save and close
   In J2Store Tab → Item Tax , Choose My Tax Profile.
 
   Fill in other relevant fields for your product and save.
+  
+####Application of VAT rules with Examples
+
+Now we have successfully configured the tax rules in j2store. Let us see how they will get applied for different scenarios.
+
+**Example-1: Buyer (can be INDIVIDUAL or company) from the same country (Home Country)**
+
+![](assets/images/vat_order_same_country.png)
+Our shop is located in United Kingdom. And the buyer is from the same country. So local tax of 21 percent applies.
+
+**Example-2: Buyer (INDIVIDUAL) from a different EU country (Germany)**
+
+![](assets/images/vat_order_individual_eu.png)
+The buyer is from Germany and he is an individual customer. So we are charging him the Germany's VAT rate of 25%.
+
+**Example-3: Buyer (COMPANY) from a different EU country WITHOUT a valid VAT Number**
+
+![](assets/images/vat_order_invalid_vat.png)
+The customer is from Germany. He has entered a company name. But his VAT number is INVALID. So we apply the Germany's VAT rate of 25 %.
+
+(the EU VAT plugin validates the VAT number provided against the EU database )
+
+**Example 4: Buyer ( COMPANY ) from a different EU country WITH a valid VAT Number**
+
+![](assets/images/vat_order_valid_vat.png)
+The customer is from Germany.  His VAT number is VALID.  So NO tax is applied.
+
+<a name="multicateogries"></a>
+##[HOWTO] solve jQuery conflict with Multi-categories component
+
+If you are using the Multi-cateogies component (which adds the ability to choose more than one category for your articles), you might experience a jQuery conflict with J2Store. Here is a quick fix
+
+Are you using Multi-categories component ?
+If yes, then the issue comes due to loading of multiple Jquery UI instances.
+
+Here is a quick fix
+
+Open /administrator/components/com_j2store/helpers/strapper.php
+
+Around line 33, you will find
+
+$document->addScript(JURI::root(true).'/media/j2store/js/j2storejqui.js');
+
+Change this to
+
+if($mainframe->isSite()) {$document->addScript(JURI::root(true).'/media/j2store/js/j2storejqui.js');}
+
+Save.
+Logout. Clear browser cache and test.
+This should fix the issue.
+
+<a name="template override"></a>
+##Writing template override for the frontend order view and print layouts
+
+This tutorial applies to J2store 3.x versions.
+
+You will nedd to use your hosting CPanel file manager or an FTP client like filezilla to carry out the following tasks.
+
+The following two files control the display of order details in frontend
+
+<a name="checkout_issues"></a>
+##Troubleshooting Checkout issues
+
+The checkout steps in J2Store use AJAX extensively in order to provide customers with a better online shopping experience. Customers do not have to wait for the checkout pages to refresh. The entire checkout is handled within a SINGLE PAGE and the checkout steps are loaded in an accordin style.
+
+If your checkout steps are not working, then follow the checklist here to troubleshoot
+
+####Javascript conflicts
+
+Since checkout steps are loaded in real-time using Ajax, any Javascript conflict in your site might affect the process. You will see the Checkout steps not unfolding or when you press continue button, nothing will happen.
+
+**Solution:** Installing and configuring a Javascript manager like jQuery Easy plugin will solve most of the issues. If the problem remains unsolved, follow the troubleshooting method described below.
+
+**Troubleshooting Method:** Open your website in the Google Chrome browser. Open the browser menu and go to Tools -> Developer Tools
+
+You can see the Developer Tools window opening at the bottom of the browser. Navigate to the Console tab.
+
+![](assets/images/troubleshoot_developertools.png)
+
+Now Refresh your website, add a product to cart and go to checkout. The Console tab will now show you javascript conflicts, if any, in the site. It will also show you the file name and the line number that produce the error. Take a screenshot and send it to us and also send a copy to your template provider. We will check and get back to you with the solution.
+
+![](assets/images/troubleshoot_console.png)
+
+####Issue with Account Registration and FreeBSD
+
+Sometimes, customer will not be able to pass the Account Registration and Billing step. To solve this issue, please make sure that the Allow Registration is set to YES in Joomla Administration - Users - Options
+
+If the problem continues, go to Joomla admin - system - System Information tab.
+
+IMPORTANT NOTE: The following instruction applies only to those running PHP on a FreeBSD operating system.
+
+Check the value for PHP Built On. It tells you the Operating system of your hosting server.  If it says, FreeBSD, then contact your host. In FreeBSD, the Filter extension is not enabled by default. Enabling it solves the problem. More information can be found [in this thread](https://forums.freebsd.org/threads/30465/)
+
+####Checkout goes in Loop
+
+Sometimes, customers will be redirected from the Shipping and Payment step to the first step (Loop). Or you may not be able to proceed when you click Continue at the Billing or the Shipping step.
+
+Solution: Go to Users -> Options
+
+Make sure the following fields are set as per the configuration given below. And then do a purchase and see if the checkout works fine.
+
+![](assets/images/checkout_redirected.png)
+
+If you still face issues, then there could be several reasons for this behavior. Please create a private ticket (Go to the support menu ) and provide super user logins. One of our developer will help you troubleshoot and solve the problem.
+
+####Could not proceed to payment step. Stuck at the Shipping step
+
+Make sure you are not having any old template overrides. If you are using a template like JSN One, you might be having template overrides for checkout layout.
+
+Go to /templates/<YOUR_TEMPLATE>/html/com_j2store
+
+Do you see a folder named: checkout
+
+If yes, rename it as: old_checkout
+
+Now check.
+
+<a name="mini_Cart_issues"></a>
+##How To Solve Mini Cart module related issues
+J2Store's Mini Cart is a very handy tool for your customers when they shop. They can check the number of items in their order and the total. The cart module is refreshed in real-time using an AJax request. On a few occasions, the cart may not get updated on a real time. Here is a checklist that should help you solve the problem.
+
+####Cache settings
+Go to Joomla admin - Global configuration - System tab.
+
+Caching is like taking a snapshot of your pages and presenting the same to every visitor coming to your site (untill the cahce is refreshed again).
+
+Since the cart module handles dynamic data, it should be excluded from caching. In order to exclude the module from caching, your Global cache setting should be set either to Conservative Caching or Disabled. Check the screenshot below.
+
+If you use Progressive Caching, Joomla will override the Cache settings in the module. The cart module might work fine in smarller sites with Progressive Caching enabled but if you have a larger site with a large number of visitors, then it might cause issues with the module.
+
+![](assets/images/cache_settings.png)
+
+####Module settings
+
+Go to Joomla admin - Module Manager - J2Store Cart module
+
+In the Advanced tab, set the Caching to No Cache.
+![](assets/images/mod_cache_settings.png)
+
+####Javascript conflict
+
+Since the J2Store updates the cart module using an AJAX request, it is important that your site does not have any javascript conflicts.
+
+Javascript conflicts mostly occur due to loading of multiple jQuery libraries or the lack of a Javascript library. it is possible that a third party extension / module in your site might be using an older or incompatible javascript library, which might produce a conflict.
+
+Solution A:
+
+Please download and install a jQuery Script manager like jQuery Easy and configure it. This should solve most of the issues
+
+Solution B:
+
+It is not exactly a solution. Its a troubleshooting method. Open your website in the Google Chrome browser. Open the browser menu and go to Tools -> Developer Tools
+
+You can see the Developer Tools window opening at the bottom of the browser. Navigate to the Console tab.
+
+Now Refresh your website. The Console tab will show you if there are any javascript conflicts in your site. It will also show you the file name and the line number that produce the error. Take a screenshot and send it to us and also send a copy to your template provider. We will check and get back to you with the solution.
+![](assets/images/developer_tools_console.png)
+
+####JSON support
+
+While most of the hosting service providers enable the JSON support for PHP by default, some do not. It is easy to check if JSON is enabled or not in your hosting account.
+
+Go to Joomla admin - System - System Information - PHP Information
+
+You can check whether JSON support enabled or not in the PHP Information tab. if you do not find any mention of JSON, then you can assume that it is not enabled for your account. You should get in touch with hosting service provider, who can enable the JSON support for your account.
+
+You can look for something like below in the PHP Information tab.
+
+![](assets/images/json_setup.png)
+
+<a name="checkout_field_language"></a>
+##HOWTO make checkout address field labels language friendly
+
+In a multi-lingual Joomla site, the checkout step doesn't convert to other language and seems to still show in english. How to make it appear in your own language ?
+Simple, just rename the custom field labels as follows and it will quickly consider picking the language strings from your local language pack.
+
+Still if you do not see the translation, please check your language pack for the following strings and translate them in your language.
+
+language file location /administrator/language/en-GB/en-GB.com_j2store.ini
