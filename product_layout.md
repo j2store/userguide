@@ -49,7 +49,7 @@ If you do not want to show product option price in front end, you can set the op
 #### Item View options in category listings
 Check the image below:
 
-![View_category_listing](./assets/images/product_layout_view_category_1.png)
+![View_category_listing](./assets/images/product_list_view_8.png)
 
 In this tab, you are setting the configuration for how to display the product in the cart and the features and options to display with the product.
 
@@ -58,7 +58,7 @@ As the no of products increases, the image display size will be decreased.
 
 Also, select all other options as per your choice. Refer the next image.
 
-![View Category Listing](./assets/images/product_layout_view_category_2.png)
+![View Category Listing](./assets/images/product_list_view_9.png)
 
 From the image you can see that there are many options available to set the price, image, size of the image and many more attributes.
 
@@ -66,7 +66,9 @@ From the image you can see that there are many options available to set the pric
 
 Next image shows the filters.
 
-![View_category_listing](./assets/images/product_layout_view_category_3.png)
+![View_category_listing](./assets/images/product_list_view_10.png)
+
+![](./assets/images/product_list_view_11.png)
 
 Filters help narrow the search for a particular product. There are many filters available for the search. 
 
