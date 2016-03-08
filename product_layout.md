@@ -12,11 +12,11 @@ To create a product layout, go to joomla control panel and click on the menu ite
 
 You will get the list of menus that are already present as shown in the image below.
 
-![main_menu](./assets/images/product_layout_main_menu.png)
+![](./assets/images/product_list_view_2.png)
 
 To create a new item, click on the **New** button and you will get this page.
 
-![product_layout_title](./assets/images/product_layout_create_title.png)
+![](./assets/images/product_list_view_3.png)
 
 First you need to enter the title of the item you create. For example, it is entered with **Apparel**. The alias will be automatically generated based on the title.
 
@@ -25,20 +25,18 @@ Then, you have several tabs in this page. Let us see one by one. First is the **
 #### Details Tab
 Here, you choose the **Menu Item Type** by clicking on the 'Select' button. You will get a pop-up window like this:
 
-![Choose_item_type](./assets/images/product_layout_create_item_type.png)
+![](./assets/images/product_list_view_4.png)
 
 In this pop-up window, select **J2Store** and you will get a list to choose from. From the list, select **Products List View** and close the window. You will see your selection as shown in the below image.
 
-![details_tab](./assets/images/product_layout_create_details_tab.png)
+Your menu item is selected and the link is also created automatically. click on the **Choose a Category** text box to choose the product categories listed. You can add many categories in this box. Refer the image below.
 
-Your menu item is selected and the link is also created automatically. click on the **Choose a Category** text box to choose the product categories under the name Apparel, viz., T-Shirt, Kids Wear, etc. You can add many categories in this box. Refer the image below.
-
-![Choose_category](./assets/images/product_layout_create_choose_category.png)
+![](./assets/images/product_list_view_5.png)
 
 Now, go to next tab, **Common Options**.
 
 #### Common Options Tab
-![Common Options Tab](./assets/images/product_layout_create_common_options_1.png)
+![](./assets/images/product_list_view_6.png)
 
 This tab has the common settings for all items. If you want to show images for product options or if you want to add some custom CSS code, you can do that here. Otherwise, you can leave them as they are.
 
@@ -46,7 +44,7 @@ This tab has the common settings for all items. If you want to show images for p
 
 If you do not want to show product option price in front end, you can set the option to **Hide** as shown in the image below:
 
-![](./assets/images/set_product_option_price.png)
+![](./assets/images/product_list_view_7.png)
 
 #### Item View options in category listings
 Check the image below:
