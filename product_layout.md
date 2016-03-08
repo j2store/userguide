@@ -88,7 +88,7 @@ In this tab, you will set the configuration for what to display with the product
 
 See the image below:
 
-![Item view Options](./assets/images/product_layout_item_view_options_1.png)
+![Item view Options](./assets/images/product_list_view_12.png)
 
 This image shows the options you have to set the configuration for a product on what has to be displayed along with the product. The available options are: 
 
@@ -110,8 +110,10 @@ This image shows the options you have to set the configuration for a product on 
 * Cross Sells
 * No of columns for related products
 * Show Specification
+* Show description and specifications
+* Show link to product list
 
-![Item View Options](./assets/images/product_layout_item_view_options_2.png)
+![Item View Options](./assets/images/product_list_view_13.png)
 
 Using this parameters, you can determine what are the details and how they should be displayed in the online shop.
 
