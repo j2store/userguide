@@ -1,4 +1,18 @@
 #Frequently Asked Questions
+* **[Product Options not working or displaying option](#product_options_not_working)**
+* **[Unregistered users to place orders](#unregistered_users_place_orders)**
+* **[Vat not appears in check out](#vat_not_appears_in_checkout)**
+* **[Donation plugin is empty.Why](#donation_plugin_empty)**
+* **[Multiple stores / different notification receiver depending on category](#multiplestores_differentnotification_depending_oncategory)**
+* **[New Line Characters (\r\n) in Checkout form](#new_line_character)**
+* **[Shipping Not Working](#shipping_not_working)**
+* **[Why the order is listed in the backend even didnt make a payment? How to see the paid products?](#order_listed_without_payment)**
+* **[Grid layout not working/columns.Why?](#layout_problem)**
+* **[Preview additional image after click](#avoid_mouseover)**
+* **[Remove Thumbnail image](#remove_thumbnail)**
+* **[How to add custom text or unit to the price field?](#custom_text)**
+* **[How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?](#text_after_tax)**
+
 <a name="product_options_not_working" />
 ####Product Options not working or displaying option
 This problem may happen due to Jquery.
@@ -31,9 +45,13 @@ As a result, when an order is placed, all the store administrators will be notif
 
 If you just want the email notifications to be controlled and made dependent on the category, 
 then a custom app could be developed that will send email for the party concerned.
+
+<a name="new_line_character"></a>
 ####New Line Characters (\r\n) in Checkout form
 Go to Joomla admin - J2Store - Configuration - Checkout Layout
 Click the Populate/re-set button and Save
+
+<a name="shipping_not_working"></a>
 ####Shipping Not Working
 Make sure about two things
 1.Setting under J2Store > Configuration > Store > Weight Unit
@@ -48,6 +66,7 @@ For eg: In case the item has 829 grams, you have to configure a rate between 800
 
 ![](http://i.imgur.com/hwwqoAB.png)
 
+<a name="order_listed_without_payment"></a>
 ####Why the order is listed in the backend even didnt make a payment? How to see the paid products?
 The purpose of the order status column is to differentiate between the new, paid, pending orders.
 If the order status is NEW, then no payment has been made.
@@ -65,12 +84,14 @@ So by looking at the order status, you can differentiate which orders are paid w
 
 There is a marketing opportunity as well. You can follow up with the unpaid customers and convert them.
 
+<a name="layout_problem"></a>
 ####Grid layout not working/columns.Why?
 
 The issue seems to be the wrong sub-template. Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3. Save
 
 This should solve the issue. If it is already set to Bootstrap 3, then try to set it as Default.
 
+<a name="avoid_mouseover"></a>
 ####Preview additional image after click
 
 copy /components/com_j2store/templates/default/view_images.php
@@ -82,11 +103,13 @@ to
 edit the file and remove the highlighted line fully.
 ![](assets/images/previewimage.png)
 
+<a name="remove_thumbnail"></a>
 ####Remove Thumbnail image
 * Goto Extensions -> Plugins -> select the type content. You can find        Content_J2Store plugin.
 * Open the plugin and goto the Item view tab.
 * Set Display image to No.
 
+<a name="custom_text"></a>
 ####How to add custom text or unit to the price field?
 
 copy
@@ -97,3 +120,14 @@ to
 /templates/YOUR_TEMPLATE/html/com_j2store/templates/default/default_price.php
 
 on around line no 25 you can add any word such as "FROM", "PER KG", etc
+
+<a name="text_after_tax"></a>
+####How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?
+
+Go to extensions -> Language(s) -> select Overrides
+Choose your language(For example, English(en-GB-Administrator)) in filter section and click new on top left.
+Add J2STORE_PRICE_INCLUDING_TAX in Language constant text box.
+In Text box, add **Incl %s tax zzgl.Versandkosten(add the link using html anchor tag)**.
+Check For both locations.
+Location should be administrator.
+Save and close.
