@@ -70,7 +70,6 @@ It is NOT necessary to have all these fields in your CSV. The following fields a
 * modified_by
 * up_sells
 * cross_sells
-* productfilter_ids
 * main_image
 * thumb_image
 * additional_images
