@@ -124,10 +124,16 @@ on around line no 25 you can add any word such as "FROM", "PER KG", etc
 <a name="text_after_tax"></a>
 ####How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?
 
-Go to extensions -> Language(s) -> select Overrides
+Go to extensions -> Language(s) -> select Overrides.
+
 Choose your language(For example, English(en-GB-Administrator)) in filter section and click new on top left.
+
 Add J2STORE_PRICE_INCLUDING_TAX in Language constant text box.
+
 In Text box, add **Incl %s tax zzgl.Versandkosten(add the link using html anchor tag)**.
+
 Check For both locations.
+
 Location should be administrator.
+
 Save and close.
