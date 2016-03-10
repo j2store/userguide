@@ -1,4 +1,5 @@
 #Frequently Asked Questions
+
 * **[Product Options not working or displaying option](#product_options_not_working)**
 * **[Unregistered users to place orders](#unregistered_users_place_orders)**
 * **[Vat not appears in check out](#vat_not_appears_in_checkout)**
