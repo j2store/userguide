@@ -10,6 +10,7 @@
 * **[Troubleshooting Checkout issues](#checkout_issues)**
 * **[How To Solve Mini Cart module related issues](#mini_Cart_issues)**
 * **[HOWTO make checkout address field labels language friendly](#checkout_field_language)**
+* **[Troubleshooting Paypal-related issues](#paypal_related_issues)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -275,7 +276,23 @@ This tutorial applies to J2store 3.x versions.
 
 You will nedd to use your hosting CPanel file manager or an FTP client like filezilla to carry out the following tasks.
 
-The following two files control the display of order details in frontend
+The following file control the display of order details in frontend.
+
+orderitems.php = This controls the display the order details in email and invoice template(frontend order view)
+
+Let us see how to override the orderitems.php
+
+Copy /components/com_j2store/views/myprofile/tmpl/orderitems.php
+
+to
+
+/templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
+
+Edit the file /templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
+
+Make your changes / overrides. Save.
+
+You need to do the same if you want to override
 
 <a name="checkout_issues"></a>
 ##Troubleshooting Checkout issues
@@ -396,3 +413,51 @@ Simple, just rename the custom field labels as follows and it will quickly consi
 Still if you do not see the translation, please check your language pack for the following strings and translate them in your language.
 
 language file location /administrator/language/en-GB/en-GB.com_j2store.ini
+
+J2STORE_ADDRESS_TYPE="Address type"
+J2STORE_BILLING_ADDRESS="Billing Address"
+J2STORE_SHIPPING_ADDRESS="Shipping Address"
+J2STORE_ADDRESS_DETAILS="Address Details"
+J2STORE_ADDRESS_FIRSTNAME="First name"
+J2STORE_FIRST_NAME="First Name"
+J2STORE_ADDRESS_LASTNAME="Last name"
+J2STORE_LAST_NAME="Last Name"
+J2STORE_ADDRESS_USER_ID="User ID"
+J2STORE_ADDRESS_USERNAME="Username"
+J2STORE_ADDRESS_LINE1="Address Line 1"
+J2STORE_ADDRESS1="Address Line 1"
+J2STORE_ADDRESS_LINE2="Address Line 2"
+J2STORE_ADDRESS2="Address Line 2"
+J2STORE_ADDRESS_CITY="City"
+J2STORE_CITY="City"
+J2STORE_ADDRESS_ZIP="Zip / Postal code"
+J2STORE_ADDRESS_STATE="State"
+J2STORE_ADDRESS_COUNTRY="Country"
+J2STORE_ADDRESS_PHONE="Phone"
+J2STORE_ADDRESS_MOBILE="Mobile"
+J2STORE_ADDRESS_FAX="Fax"
+J2STORE_ADDRESS_COMPANY_NAME="Company"
+J2STORE_ADDRESS_TAX_NUMBER="Tax Number"
+J2STORE_ADDRESS_ZONE="Zone / Region"
+J2STORE_TELEPHONE="Telephone"
+J2STORE_ADDRESS_EDIT="View/Edit Address"
+J2STORE_SHOPPER_ADDRESSES="Shopper Addresses"
+
+<a name="paypal_related_issues"></a>
+##Troubleshooting Paypal-related issues
+
+There could be several reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
+
+####Order status Failed
+
+Are you using your Primary Paypal Email as your merchant email? If your order status is failed, then chances are that you are using a secondary email of your Paypal account.
+
+Paypal allows you to add multiple emails in an account to accept payments. With the Paypal plugin for J2Store, make sure you are using your primary Paypal account email. You can check which is your primary email by signing into your Paypal account and then going to Profile -> Add / Edit emails page.
+
+![](assets/images/paypal_primary_email1.png)
+
+####Currency is wrong. Paypal payment screen shows USD while my currency is different
+
+Paypal supports multiple currencies. However, it does not support all currencies of the world. Please ensure that your currency is supported by checking this page: https://www.paypal.com/multicurrency
+
+If your currency is not supported, Paypal will automatically assume the currency as USD.
