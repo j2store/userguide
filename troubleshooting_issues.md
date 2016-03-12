@@ -11,6 +11,9 @@
 * **[How To Solve Mini Cart module related issues](#mini_Cart_issues)**
 * **[HOWTO make checkout address field labels language friendly](#checkout_field_language)**
 * **[Troubleshooting Paypal-related issues](#paypal_related_issues)**
+* **[Selling Digital Goods Online with J2Store](#digital_folder)**
+* **[HOW TO override the layout of Add to cart block](#override_addtocart)**
+* **[How to create a new currency in J2Store?](#currency)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -385,7 +388,7 @@ Please download and install a jQuery Script manager like jQuery Easy and configu
 
 Solution B:
 
-It is not exactly a solution. Its a troubleshooting method. Open your website in the Google Chrome browser. Open the browser menu and go to Tools -> Developer Tools
+It is not exactly a solution. Its a troubleshooting method. Open your website in the Google Chrome browser. Open the browser menu and go to Tools -> Developer Tools.
 
 You can see the Developer Tools window opening at the bottom of the browser. Navigate to the Console tab.
 
@@ -461,3 +464,131 @@ Paypal allows you to add multiple emails in an account to accept payments. With 
 Paypal supports multiple currencies. However, it does not support all currencies of the world. Please ensure that your currency is supported by checking this page: https://www.paypal.com/multicurrency
 
 If your currency is not supported, Paypal will automatically assume the currency as USD.
+
+<a name="digital_folder"></a>
+##Selling Digital Goods Online with J2Store
+
+Selling ebooks, PDF, images and files online is easy with the J2Store Joomla shopping cart. Here is a step-by-step guide to set up your digital downloads.
+
+####Step 1: Let us create a folder on your site to upload the files
+
+You can use your Hosting Providers CPanel File manager or an FTP client like FileZilla to access your web root (public_html / www / httpdocs )
+
+Once you are in the web root, create a folder. Let us name it as: myfiles
+
+####Step 2: Protect the folder from outside access
+
+**We do not want people to access this folder using their browser and download files. So let us protect this folder using a .htaccess file.**
+
+Create a file called htaccess.txt in your computer and open it with your favorite text editor
+Add the following lines to it
+
+order deny, allow
+deny form all
+
+Save the file. Now upload it to the folder we just have created in our web root. In our example, it is **myfiles**
+
+**IMPORTANT:** Rename it as .htaccess
+
+All the files uploaded to this folder is now protected.
+
+####Step 3: Point J2Store to use the files in this folder.
+
+Go to Joomla admin - j2store - Configuration - Basic settings.
+
+In Folder path for digital goods, enter the name of the folder that contains your files. In our example, it is: myfiles
+
+Save the configuration.
+
+####Step 4: Creating your first digital product
+
+J2Store uses Joomla articles as products. So head to Joomla admin -> Article Manager and create an article.
+
+Fill in the title, description, add an image and set all other fields and Save.
+
+Go to J2Store cart tab and set all the fields and Save.
+
+Now go to files tab in the navigation you can see Set product files button.
+![](assets/images/product_down_files_1.png)
+![](assets/images/product_down_files_2.png)
+
+<a name="override_addtocart"></a>
+##HOW TO override the layout of Add to cart block
+
+Sometimes you need to customise the Add to cart block and style it in a way you like. With J2Store, you can achieve this by writing a template override.
+
+####To change the Add to cart block and style in category view
+
+copy /components/com_j2store/templates/default/default_cart.php
+
+to
+
+/templates/<YOUR_TEMPLATE>/html/com_j2store/templates/default/default_cart.php
+
+**IMPORTANT:** If you are using bootsrap 3 as a sub-template, replace the default with bootstrap3(/components/com_j2store/templates/bootstrap/..)
+
+####To change the Add to cart block and style in item view
+
+copy /components/com_j2store/templates/default/view_cart.php
+
+to
+
+/templates/<YOUR_TEMPLATE>/html/com_j2store/templates/default/view_cart.php
+
+Make the changes and save.
+
+<a name="currency"></a>
+##How to create a new currency in J2Store?
+
+J2Store allows you to sell in multiple currencies. You can create as many currencies as you like. You can either set the exchange value of the currency manually or allow J2Store to fetch in real-time from the Google Financial API. (In Store configuration, you should set the Auto update currency to YES)
+
+This tutorial shows you how to create a new currency in your Joomla online store.
+
+####Step 1: Create a new currency
+
+Follow this guide to create new currency http://j2store.org/support/user-guide/currency.html
+
+####Step 2: Choose your default currency
+
+Go to Joomla admin - J2Store - Setup - configuration - store
+
+Choose your Default Currency. Example: If you want to use EUR as the default currency, choose it.
+
+Set the Auto update currency to YES.
+
+Save.
+
+####Step 3: (Optional) Publish the currency switcher module
+
+This step is useful only for those using two or more currencies on their site.
+
+Go to Joomla admin - Extension - Module Manager
+
+Publish the J2Store Currency module to a position. This displays a currency switcher.
+
+<a name="missing_currency_symbol"></a>
+##Solving the missing currency symbol in your store
+
+When you install, J2Store sets USD as the default currency. When store owners change the currency code, they often forgot to update their default currency in their store profile.
+
+When you see the currency symbol missing, it is an indication that:
+
+1. You have either changed the currency code or deleted the USD and then created a new currency for your country.
+
+2. You forgot to reflect these changes in the Store profile.
+
+Solution
+Go to J2Store admin -> Set up - > -> configuration -> Store
+
+Open your Store Profile.
+
+Choose your Default Currency.
+
+**IMPORTANT:**Hit the Save button. Even if you see your currency is selected by default, it may not be saved in the store profile database. Since it is the only currency available (you deleted the USD or any other currency), the dropdown list shows the first currency available.
+
+So CLICK the SAVE button.
+
+Still not seeing the Currency symbol, open your store profile again and click SAVE again.
+
+
+
