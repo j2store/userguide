@@ -13,6 +13,7 @@
 * **[Remove Thumbnail image](#remove_thumbnail)**
 * **[How to add custom text or unit to the price field?](#custom_text)**
 * **[How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?](#text_after_tax)**
+* **[Make the product name a link to administrator panel](#product_name_link)**
 
 <a name="product_options_not_working" />
 ####Product Options not working or displaying option
@@ -137,3 +138,25 @@ Check For both locations.
 Location should be administrator.
 
 Save and close.
+
+<a name="product_name_link"></a>
+####Make the product name a link to administrator panel
+
+Copy from /components/com_j2store/views/myprofile/tmpl/ordersummary.php
+
+to
+
+/administrator/templates/<YOUR_TEMPLATE>/html/com_j2store/myprofile/ordersummary.php
+
+Open the file and add the below lines after the line no 30
+
+$product_helper = J2Store::product();
+$product = $product_helper->setId($item->product_id)->getProduct();
+
+And on around line no 42 you can find the below line
+
+<?php echo $item->orderitem_name; ?>
+
+change this with
+
+<a href="target="_blank" href="index.php?option=com_content&task=article.edit&id=<?php echo $product->product_source_id; ?>""><?php echo $item->orderitem_name; ?></a>
