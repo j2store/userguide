@@ -28,5 +28,12 @@ So, the following line (line number 576) that is added for old plugin compatibil
 
 It assigns the whole text as introtext
 // Old plugins: Use processed text as introtext
-$item->introtext = $item->text;
+ $item->introtext = $item->text;
+ 
+**In version 3**
 
+The read more break works fine.
+
+####Support
+
+Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
