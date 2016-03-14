@@ -151,6 +151,7 @@ to
 Open the file and add the below lines after the line no 30
 
 $product_helper = J2Store::product();
+
 $product = $product_helper->setId($item->product_id)->getProduct();
 
 And on around line no 42 you can find the below line
@@ -159,4 +160,6 @@ And on around line no 42 you can find the below line
 
 change this with
 
-<a href="target="_blank" href="index.php?option=com_content&task=article.edit&id=<?php echo $product->product_source_id; ?>""><?php echo $item->orderitem_name; ?></a>
+```
+<a target="_blank" href="index.php?option=com_content&task=article.edit&id=<?php echo $product->product_source_id; ?>"><?php echo $item->orderitem_name; ?></a>
+```
