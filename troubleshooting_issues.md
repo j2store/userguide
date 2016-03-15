@@ -1,3 +1,5 @@
+#Troubleshooting Common Issues
+
 * **[Change default country in checkout](#change_default_country)**
 * **[Order products in list layout](#order_products)**
 * **[Troubleshooting update related issues](#update_related_issues)**
@@ -14,6 +16,14 @@
 * **[Selling Digital Goods Online with J2Store](#digital_folder)**
 * **[HOW TO override the layout of Add to cart block](#override_addtocart)**
 * **[How to create a new currency in J2Store?](#currency)**
+* **[Common mistakes to avoid when setting up Standard Shipping methods in J2Store](#shipping)**
+* **[Joom SEF configuration for J2Store](#joomsef)**
+* **[How to Remove + and - Prefix in Product Option Price](#remove_prefix)**
+* **[I don't see Add to Cart Button. What is the problem?](#no_add_to_cart)**
+* **[Paypal duplicate invoice ID and how to solve it](#duplicate_invoice)**
+* **[HOW TO move Add to Cart Button using the Short Plugin tag](#move_cart_button)**
+* **[HOW TO upgrade from FREE version to PRO?](#free_to_pro)**
+* **[HOW TO Disable Shipping Address step and Payment Methods in Checkout](#disable_shipping_payment)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -580,15 +590,236 @@ When you see the currency symbol missing, it is an indication that:
 Solution
 Go to J2Store admin -> Set up - > -> configuration -> Store
 
-Open your Store Profile.
-
 Choose your Default Currency.
 
 **IMPORTANT:**Hit the Save button. Even if you see your currency is selected by default, it may not be saved in the store profile database. Since it is the only currency available (you deleted the USD or any other currency), the dropdown list shows the first currency available.
 
 So CLICK the SAVE button.
 
-Still not seeing the Currency symbol, open your store profile again and click SAVE again.
+Still not seeing the Currency symbol, open your store again and click SAVE again.
 
+<a name="shipping"></a>
+##Common mistakes to avoid when setting up Standard Shipping methods in J2Store
 
+A number of store owners use the standard shipping methods that come integrated with J2Store.
 
+The standard methods - flat rate, weight based, quantity based and price based - are very simple to configure and use. However, owners often make a few simple mistakes, leading to the disappearance of the shipping methods during the checkout.
+
+This post aims to help the store owners to set up the shipping methods properly.
+
+####Enable shipping in the product parameters
+
+While creating a product, the Enable Shipping param is by default set to NO. Most store owners do not notice this. If the product requires shipping, make sure that you set this param to Yes.
+
+####Geozones
+
+All the standard shipping methods in J2Store are bound by the Geozones. That is; you should always select a geozone while setting the rates. So make sure that you have created the Geozones and added countries or zones inside them.
+![](assets/images/troubleshoot_shipping_1.png)
+####Set shipping rates
+After creating a shipping method (by going to J2Store admin -> Set up -> Shipping -> Standard Shipping Methods), you can see a link named Set Rates. Click on it to set the shipping rates for the chosen shipping type.
+![](assets/images/troubleshoot_shipping_2.png)
+####Set shipping rates
+After creating a shipping method (by going to J2Store admin -> Set up -> Shipping -> Standard Shipping Methods), you can see a link named Set Rates. Click on it to set the shipping rates for the chosen shipping type.
+While Setting Rates, make sure that you select the Geozone. If you have two or more Geozones, then you should set rates for all.
+![](assets/images/troubleshoot_shipping_3.png)
+
+<a name="joomsef"></a>
+##Joom SEF configuration for J2Store
+
+If you are using JoomSEF along with J2Store, you will need to make simple change in the configuration.
+
+Go to JoomSEF configuration -> Advanced Configuration. Change the Set Page base href value to Yes - always use only base URL.
+
+<a name="remove_prefix"></a>
+##How to Remove + and - Prefix in Product Option Price
+
+Store owners sometimes want to hide the + (PLUS) and the - (MINUS) prefix that is shown along with the product options. In J2Store Version 3, you turn off the price prefix with a switch.
+
+####Default Joomla article layouts (like Category blog layout):
+
+Go to J2Store - Configuration - Product tab.
+
+Set Product option price prefix to HIDE
+
+Save
+![](assets/images/priceprefix_1.png)
+####Product list layout:
+
+If you use the J2Store's product list layout, then you will find a similar switch in the menu parameters.
+
+Open the menu that links your product list layout and go to Common Options.
+
+Set Product option price prefix to HIDE
+
+Save
+![](assets/images/priceprefix_2.png)
+
+<a name="no_add_to_cart"></a>
+##I don't see Add to Cart Button. What is the problem?
+
+Don't worry. This is often a simple configuration mistake. We have answered this question more than hundred times.
+
+This post explains the reasons behind this. Make sure you check the following points before writing to us or posting in the forums.
+
+**Step 1:**
+
+  Go to Joomla admin - > J2Store -> configuration -> product tab
+  Set the Catalog Mode to NO and save
+
+  Catalog Mode: The term itself explains that your products are just a catalog. Set this param to YES, only when you dont want your customers to purchase from the website and just provide price information. Otherwise, this param should always be set to YES.
+
+  Check your store front. Still you can't see the add to cart button? Move on to Step 2.
+  
+**Step 2:**
+
+  If you are here, then you need to check another parameter.
+
+  Go to Joomla admin - > J2Store -> Configuration  -> Cart tab.
+
+  Did you set the Add to cart placement to Within article using tag:
+
+  If yes, then go to Article Manager and open your article / product.
+
+  In the content area, did you enter the J2store plugin tag somewhere?
+
+  You can find the correct tag ( a plugin shortcode) under the J2store cart tab.  You can copy the shortcode and paste in the content area.
+
+  Now save the article. Now you will be able to see the Add to cart.
+  
+**Step 3:**
+
+  Still no luck. Then there might be a template override for the articles or some other plugin is causing an issue. 
+Post in the forums with URL to a product in your site. Our support team will take a look and help you solve the issue.
+
+<a name="duplicate_invoice"></a>
+##Paypal duplicate invoice ID and how to solve it
+
+Paypal by default does not allow duplicate invoices. When you try to pay for a duplicate invoice id, Paypal will produce the following error:
+**The transaction was refused as a result of duplicate invoice ID supplied. Attempt with a new invoice ID**
+
+If this were to happen, one of the reasons could be that the configuration in Paypal is set to not accept duplicate invoices. You may receive orders from various places and if the invoice numbers are the same, Paypal recognises there is an invoice duplication.
+
+There are two ways, by which you can fix this.
+
+**Solution 1: Set the Invoice Prefix**
+
+Please follow the steps:
+
+1. From your J2Store Dashboard, go to - Set Up -> Configuration -> Order
+
+ Note: This step is for V3. If you are using v2, then go to Set Up -> Store Profiles -> your store profile
+
+2. Set the Invoice Prefix in the textbox provided, for e.g., INV-2015- or INV/2015/
+
+3. Save & Close.
+
+**Solution 2: Change settings in Paypal**
+
+Please try the following:
+1. Log-in to your Paypal sandbox account
+
+2. Click Profile
+
+3. Under Selling Preferences, click Payment Receiving Preferences
+
+4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
+Save.
+
+<a name="move_cart_button"></a>
+##HOW TO move Add to Cart Button using the Short Plugin tag
+
+  You can move the location of the Add to cart block within the product layout using a simple plugin tag. 
+
+There are a few steps involved in using the plugin tag feature. Read on to understand.
+
+**Step 1: Change the Add to cart placement param**
+
+  By default, the Add to cart button will appear after displaying the product (article) content. You can, however, change this and take control of its placement. You first need to change the param that controls the add to cart placement.
+
+Go to Joomla admin - J2Store - Configuration - Cart tab
+
+Set the Add to cart placement to Within article using tag and save. (See the picture given below).
+![](assets/images/cart_placement.png)
+```
+NOTE: You can also set the param to BOTH. In that case, the cart block will display at two places - a place where you entered the plugin tag and its default location.
+```
+**Step 2: Using the plugin tag in product content (article)**
+
+ Now go to Joomla admin -> Content -> Article Manager.
+ Either create an article (product) and save or open an existing product.
+
+ Go to the J2Store Cart tab. You will find the plugin tag to use for the product.
+ (see the screenshot below)
+ ![](assets/images/cart_tag.png)
+ 
+ Either copy the plugin tag  and note it down. In this example, the following plugin tag is used {j2storecart 2} Here 2 is the product ID (aka, Article ID )
+
+Now go to the Content tab and enter the plugin tag
+
+Now save the article.
+
+You will now see the add to cart block placed at your preferred location.
+
+<a name="free_to_pro"></a>
+##HOW TO upgrade from FREE version to PRO?
+
+Upgrading from the Free (Core) version to the PRO version is very easy. Just two steps are involved in the process.
+
+**Step 1:**  Take a FULL BACKUP of your site using the Akeeba Backup.
+
+**Step 2:** Download the J2Store PRO version from My Downloads section of our site and install it using the Joomla Extensions Manager. (You DON'T have to uninstall the Core version to install the PRO.)
+
+<a name="disable_shipping_payment"></a>
+##HOW TO Disable Shipping Address step and Payment Methods in Checkout
+
+Many owners of small online stores have asked us how to disable the Shipping address
+
+and Shipping & Payment Method sections in the checkout. This guide explains the steps to hide the checkout steps.
+
+####Hiding Shipping Address section
+
+**Step 1**
+
+Go to J2Store -> Configuration -> Cart tab
+Set the Enable Shipping address fields to No.
+
+**Step 2**
+
+Open your products (articles) and make sure that the Enable shipping for this item is set to NO.
+
+Now shipping fields will not show.
+
+####Hiding Shipping & Payment Method blocks
+
+Go to Joomla admin -> J2Store -> Set up -> Payment
+
+Make sure that ONLY ONE payment plugin is enabled.
+```
+IMPORTANT: If you are using the Paypal as payment method, just enable the Paypal Plugin. Make sure that other payment plugins are disabled.
+
+Similarly, you should have ONLY ONE shipping method enabled.
+If you created and enabled two or more shipping methods, then you cannot disable this section.
+```
+Add the following CSS at the end of your template's CSS file to hide the Shipping and Payment Methods blocks.
+```
+#shippingcost-pane {
+display: none;
+}
+
+#onCheckoutPayment_wrapper {
+display: none;
+}
+```
+Save.
+
+Now the Shipping and Payment methods blocks won't be displayed.
+
+**NOTE:** You cannot hide or skip shipping /payment methods step. You can just hide its contents. The customer will still have to go through this step and click the continue button in order to progress to the order summary page.
+
+####Billing Address
+
+You cannot disable the Billing address entirely.  However, you can reduce the number of fields in the billing address section.
+
+You can disable the fields via the Custom Fields manager.
+
+**IMPORTANT:** You should at least have the Email field enabled. The remaining could be disabled.
