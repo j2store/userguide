@@ -79,6 +79,22 @@ You can choose the layouts to display the field. You can select all the three la
 * **Checkout Shipping Address Layout**
 * **Checkout Payment Method Layout**
 
-For a detailed section on how to set up the checkout layout, click [here](http://j2store.gitbooks.io/user-guide/content/checkout_layout.html)
+####Add the custom field in the checkout layout
 
+To add the custom field into the checkout field,
 
+Go to J2store > setup > configuration > checkout layout
+
+You can find the three layouts (billing address layout, shipping address layout, payment method layout).
+
+Here you can edit the billing and shipping layouts by re-ordering the fields or by adding new fields(custom fields).
+
+For example, if you have created the field called custom_address3 with the selection of billing address layout in custom field display settings and if you want to display it in the checkout layout, add it in the billing layout section in the J2store configuration checkout layout tab.
+
+Field name should be enclosed with [ ] (for example,**[custom_address3]**)
+
+Refer the below pictures.
+
+![](assets/images/customfield.png)
+
+![](assets/images/add_custom_field_checkout.png)
