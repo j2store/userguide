@@ -150,10 +150,11 @@ to
 
 Open the file and add the below lines after the line no 30
 
+```php
 $product_helper = J2Store::product();
 
 $product = $product_helper->setId($item->product_id)->getProduct();
-
+```
 And on around line no 42 you can find the below line
 
 <?php echo $item->orderitem_name; ?>
