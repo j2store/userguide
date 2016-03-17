@@ -1,6 +1,6 @@
-#Pagseguro Payment Plugin
+#PagSeguro Payment Plugin
 
-This plugin integrates Pagseguro payment gateway with J2store.
+This plugin integrates Pagseguro payment gateway with J2store. PagSeguro is an e-commerce tool that mediates payments for both sellers and buyers. It offers different paying methods to the buyers.
 
 ####System Requirements
 
