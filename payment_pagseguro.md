@@ -1,6 +1,6 @@
 #Pagseguro Payment Plugin
 
-This plugin integrates Nochex payment gateway with J2store.
+This plugin integrates Pagseguro payment gateway with J2store.
 
 ####System Requirements
 
