@@ -24,6 +24,7 @@
 * **[HOW TO move Add to Cart Button using the Short Plugin tag](#move_cart_button)**
 * **[HOW TO upgrade from FREE version to PRO?](#free_to_pro)**
 * **[HOW TO Disable Shipping Address step and Payment Methods in Checkout](#disable_shipping_payment)**
+* **[HOW To Translate the Address Field Labels](#translate_addr_fields)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -823,3 +824,94 @@ You cannot disable the Billing address entirely.  However, you can reduce the nu
 You can disable the fields via the Custom Fields manager.
 
 **IMPORTANT:** You should at least have the Email field enabled. The remaining could be disabled.
+
+<a name="translate_addr_fields"></a>
+##HOW To Translate the Address Field Labels
+
+If you wanted to translate the Address field labels, you can enter your translation in the respective fields.
+Go to Joomla admin -> J2Store -> Set up -> Custom Fields
+
+Open the field, the label of which you want to change, and enter your translation in the label field.
+
+####Multi-lingual sites
+
+if you are running multi-lingual site, you can enter a language constant in the label field.
+Example: J2STORE_MY_FIELD_NAME
+
+Then you can go to Language manager and create an Override
+**IMPORTANT: Set the Filter to Administrator before you create an override.**
+
+Click New
+
+Language Constant: J2STORE_MY_FIELD_NAME
+
+Text: Your translation
+
+Check the For Both locations
+
+Save.
+![](assets/images/translation_addres_fields.png)
+
+You can repeat this steps for your second, third, and other languages.
+
+You can use language strings in all the fields including Custom Error message, Option Titles (if field type is select, radio, checkbox).
+
+##HOW TO change the colour of add to cart buttons
+
+A majority of those who wanted to change the colour of the buttons are using template with a template that does not support the Twitter bootstrap framework, which helps you make your site responsive.
+
+We have added a name-spaced bootstrap css in the J2Store package. So if your template does not support bootstrap, J2Store will use the bootstrap CSS included in the package. If your template supports bootstrap, then J2Store will inherit your template style, without you changing any CSS.
+
+The following is a guide to those who want to change the button colours
+
+Open your template's css file located in /templates/YOUR_TEMPLATE/css folder.
+
+At the end of the file, add the following CSS. Save the file. Clean your browser cache and joomla cache. Refresh.
+
+####Add to cart button
+```css
+.j2store .btn-primary {background: #FF0000 !important; /*this will change your button colour to red. You can change the hex colour code based on your choice */
+
+color: #FFFFFF !important; /*this will change your text on the button to white. You can change the hex colour code based on your choice */
+
+}
+```
+
+####View cart button
+```css
+.j2store .btn-success {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+
+.j2store .btn-success:hover {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+```
+
+####Update button
+
+```css
+.j2store .btn-warning {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+
+.j2store .btn-warning:hover {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+```
