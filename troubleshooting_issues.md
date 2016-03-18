@@ -25,6 +25,12 @@
 * **[HOW TO upgrade from FREE version to PRO?](#free_to_pro)**
 * **[HOW TO Disable Shipping Address step and Payment Methods in Checkout](#disable_shipping_payment)**
 * **[HOW To Translate the Address Field Labels](#translate_addr_fields)**
+* **[HOW TO change the colour of add to cart buttons](#color_cart_button)**
+* **[Writing a Layout override for Joomla article manager - An intro image](#override_intro_image)**
+* **[HOWTO solve javascript conflict between some of RocketTheme templates and J2Store](#rocket_js_conflict)**
+* **[HOWTO create a custom thank you message](#thank_u_message)**
+* **[HOWTO translate j2store / fix language and translation related issues](#language_override)**
+* **[Installation of J2Store](#j2store_requirements)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -856,6 +862,7 @@ You can repeat this steps for your second, third, and other languages.
 
 You can use language strings in all the fields including Custom Error message, Option Titles (if field type is select, radio, checkbox).
 
+<a name="color_cart_button"></a>
 ##HOW TO change the colour of add to cart buttons
 
 A majority of those who wanted to change the colour of the buttons are using template with a template that does not support the Twitter bootstrap framework, which helps you make your site responsive.
@@ -915,3 +922,242 @@ color: #FFFFFF !important;
 
 }
 ```
+
+<a name="override_intro_image"></a>
+##Writing a Layout override for Joomla article manager - An intro image
+
+Layout overrides is a feature introduced in Joomla 3. They provide more modularity for templates across views and avoid duplication of code for a same design.
+
+Consider a situation In Joomla caregory blog layout, you have to make a Joomla Article intro image a hyperlink with the read more button link. If you are using prostar template you can use this below.
+
+####Step 1: Write a layout override
+
+You can use a file manager in your Hosting Control panel or an FTP client like FileZilla for doing the following tasks.
+
+Copy
+
+JOOMLA-ROOT/layouts/joomla/content/intro_image.php
+
+
+to
+
+JOOMLA-ROOT/templates/<YOUR_TEMPLATE>/html/layouts/joomla/content/intro_image.php
+
+####Step 2: Edit the override layout
+
+Find below code
+
+```php
+$params = $displayData->params; 
+?> 
+<?php $images = json_decode($displayData->images); ?>
+
+<?php if (isset($images->image_intro) && !empty($images->image_intro)) : ?>
+
+<?php $imgfloat = (empty($images->float_intro)) ? $params->get('float_intro') : $images->float_intro; ?>
+
+<div class="pull-<?php echo htmlspecialchars($imgfloat); ?> item-image"> <img
+
+<?php if ($images->image_intro_caption): echo 'class="caption"' . ' title="' . htmlspecialchars($images->image_intro_caption) . '"'; endif; ?> src="/<?php echo htmlspecialchars($images->image_intro); ?>" alt="<?php echo htmlspecialchars($images->image_intro_alt); ?>" itemprop="thumbnailUrl"/> </div>
+
+<?php endif; ?> 
+```
+
+Replace above code with following code
+
+```php
+$params  = $displayData->params;
+    if ($params->get('access-view')) :
+		$link = JRoute::_(ContentHelperRoute::getArticleRoute($displayData->slug, $displayData->catid));
+	else :
+		$menu = JFactory::getApplication()->getMenu();
+		$active = $menu->getActive();
+		$itemId = $active->id;
+		$link1 = JRoute::_('index.php?option=com_users&view=login&Itemid=' . $itemId);
+		$returnURL = JRoute::_(ContentHelperRoute::getArticleRoute($displayData->item->slug, $displayData->item->catid));
+		$link = new JUri($link1);
+		$link->setVar('return', base64_encode($returnURL));
+	endif;
+?>
+<?php $images = json_decode($displayData->images); ?>
+<?php if (isset($images->image_intro) && !empty($images->image_intro)) : ?>
+	<?php $imgfloat = (empty($images->float_intro)) ? $params->get('float_intro') : $images->float_intro; ?>
+	<div class="pull-<?php echo htmlspecialchars($imgfloat); ?> item-image"> 
+	<a href="/<?php echo $link; ?>">
+	<img
+	<?php if ($images->image_intro_caption):
+		echo 'class="caption"' . ' title="' . htmlspecialchars($images->image_intro_caption) . '"';
+	endif; ?> src="/<?php echo htmlspecialchars($images->image_intro); ?>" alt="<?php echo htmlspecialchars($images->image_intro_alt); ?>" itemprop="thumbnailUrl"/>
+	</a>
+	 </div>
+<?php endif; ?>
+```
+
+Once you have finished editing, save the changes. Now you are done.
+
+**NOTE:** If something went wrong, just delete.
+
+JOOMLA-ROOT/templates/<YOUR_TEMPLATE>/html/layouts/joomla/content/intro_image.php
+
+and go to Step 1.
+
+<a name="rocket_js_conflict"></a>
+####HOWTO solve javascript conflict between some of RocketTheme templates and J2Store
+
+If you are using a RocketTheme template with the RokBox plugin, then you might have experienced a javascript conflict at the checkout steps.
+
+One of our users Joe from Jgpproductions.com found the solution:
+
+The rokbox has a new version RokBox2  and there is an option to use "backward compatibility"  that can be found in the plug in settings
+```
+If users take the steps to upgrade RokBox2 "correctly" and then turn off the "backward" option then J2store checkout steps will work good.
+```
+You can find the details to update rokBox here http://www.rockettheme.com/extensions-joomla/rokbox click on the DOCUMENTATION link on the right to get all the details on how to correct rokBox in older templates
+```
+NOTE: If you are upgrading from RokBox1 and you are using the old RokBox syntax, such as {rokbox} or <a rel="rokbox" >.., you can enable the Backward Compatibility from both the System and Content plug-in. You will also have to enable Backward Compatibility if you are using the Login or Module Popup Feature in any of our templates prior to Alerion. Those templates will be updated over time to be compatible with RokBox2 over time.
+Be aware that the Backward compatibility can dramatically slow down the loading of your site. It is highly suggested to convert the old syntax into the new one.
+```
+<a name="thank_u_message"></a>
+##HOWTO create a custom thank you message
+
+You can display a thank you message, instructions or information to your customers after they have completed the purchase. For example, if you are selling digital goods, you can include a link where the customer can download the items.
+
+if you are using offline payment, then you can include instructions or bank account details in the article and display it to the customer. You can use this feature on a number of ways.
+
+####Step 1: Create an article
+
+Go to Joomla admin -> Article Manager.
+
+Create a new article and enter your message, instructions or information or any text that you want to show to the customers after the purchase.
+
+Save the article and note down its ID.
+
+####Step 2: Associating the article with the Payment Plugins
+
+All the J2Store payment plugins have a feature to display an article after the customer makes the payment and completes the purchase.
+
+Let us take the offline Payment Plugin as an example.
+
+Go to Plugin Manager and open the Offline Payment Plugin.
+
+In the Basic Options tab, you will find a param: Custom thank you Article ID
+
+(in Joomla 2.5, you can see the plugin params on the right side of the screen)
+
+Enter the ID of the article you just created with a message to the customer.
+
+Save and close the plugin.
+
+Thats it! When a customer checks out and completes the purchase, he will see this article.
+
+**TIP:** If you use more than one payment plugins, then you have to open other plugins and enter the article ID. You have the option to enter a different article ID for different payment plugins.
+
+<a name="language_override"></a>
+##HOWTO write language override
+To change text in core Joomla or in an extension (other than installing a new language) it is advised to perform a language override in Joomla. To do this you need to go into the admin backend then in the menu under "Extensions" click on "Language Manager"
+
+Let us assume that you want to change the Firstname (in billing address fields) to My Name.
+
+**Step 1:** Go to Joomla admin->Extensions Manager->Language Manager->Overrides.
+```
+VERY IMPORTANT
+Before creating the override, set the Filter to ADMINISTRATOR (of the language that you wanted to create override. Say, your language is german. Then you should select the German (de-DE) Administrator in the filter)
+```
+![](assets/images/location_filter.png)
+**Step 2:** Click new to create a override
+```
+VERY IMPORTANT
+1. Make sure you have checked the For both locations
+2. Make sure the location points to ADMINISTRATOR
+```
+![](assets/images/override_screen.png)
+**Step 3:** You can either search or directly enter the constant (if you knew already) to create the override.
+
+* ***Method 1: Searching***
+
+Under the Search text you want to change, enter the following text (as you see in the site): Firstname and hit search. You will get the constant: J2STORE_FIRST_NAME
+
+* ***Method 2: Find the constant from the language file.***
+
+Let us take J2Store as example. All the language constants of J2Store can be found in the following file /administrator/language/en-GB/en-GB.com_j2store.ini
+
+**Step 4:** Now you have the constant. Enter the constant in the Language Constant box.
+
+**Step 5:** Enter your value (in our example My Name) in the Text box.
+
+**Step 6:** Save.
+
+You can create as many overrides as you like in this method.
+
+<a name="lang-translate_issues"></a>
+##HOWTO translate j2store / fix language and translation related issues
+
+####How to translate J2store in your language?
+
+Refer the guide below
+http://j2store.org/howto-translate-j2store-in-your-language.html
+
+####Fix language and translated related issues
+
+**1. Did you download and installed the translations for your language from our website ?**
+
+ If not, go to http://j2store.org/translations.html
+
+ Do you see your language listed?
+
+ If your language is 100% complete, go head and download the language pack and install it using the Joomla installer. Yes you read it correct. Via the JOOMLA installer.
+
+ If your language is not complete, please translate the strings by following the guide at http://j2store.org/support/documentation/35-howto-translate-j2store-in-your-language.html
+ 
+**2. Did you set your site Default language to your language in Language manager?**
+
+   Go to Joomla administrator->Extensions->Language Manager
+
+   Set your language as the default one (NOTE: You should have installed your Joomla language pack (NOT J2Store language pack) before doing this)
+
+   Assuming that Spanish is your language. Set Spanish as your Default Language.
+
+   Note down the language code of yours. For example, the language code for English (UK) is en-GB, Spanish = es-ES. (Google to know your language code)
+
+   Now go to Joomla admin->Components->J2store. Does all text in your language?
+
+   If yes, you are fine and carry on with your work.
+
+   If not all strings are translated, go to step 3
+   
+**3. Translate the missing/untranslated strings**
+
+   Open the /language/yourLanguage-Code/yourLanguage-Code.com_j2store.ini
+
+   if you are using french, then your language code is fr-FR and you will be opening the /language/fr-FR/fr-FR.com_j2store.ini
+
+   you will find untranslated strings like
+
+   ;J2STORE_CHECKOUT_OPTIONS="Checkout Options"
+
+   What you have to do is:
+   Remove the semicolon and add your translation. So the translated string should    look like
+   J2STORE_CHECKOUT_OPTIONS="your translation"
+
+   NOTE: the semicolon is removed.
+   
+   Now do the same for administrator language files located in
+
+  /administrator/language/yourLanguage-Code folder
+
+  /administrator/language/yourLanguage-Code/yourLanguage-Code.com_j2store.ini handles the language for the J2store administration area.
+  
+  **IMPORTANT:** All J2store language strings will start with J2STORE_ or COM_J2STORE
+  **if you see something like ;checkout or ;orders
+  DO NOT translate them. They are comments.**
+
+<a name="j2store_requirements"></a>
+##Installation of J2Store
+
+####System requirements
+
+PHP 5.3+
+
+MySQL 5+
+
+Joomla 2.5.8+
