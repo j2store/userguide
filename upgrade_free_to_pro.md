@@ -1,4 +1,4 @@
-#Upgrade J2store Free version to Core version
+#Upgrade J2store Free version to Pro version
 
 You can check which version of J2store you are using. Just Go to J2store > Dashboard where you can find the version of J2store. Please refer the image below.
 
