@@ -14,5 +14,5 @@ Once you downloaded, now go to Joomla installer and install the J2store Pro Pack
 Very Important : Before you start installing J2store Pro package, you must take your site backup using Akeeba Backup Component.
 ```
 ```
-Note : By installing the J2store Pro version over the Free version, **your content will not be lost**
+**Note** : By installing the J2store Pro version over the Free version, your content will not be lost
 ```
