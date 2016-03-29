@@ -64,8 +64,8 @@ Make sure about two things
 * Enable shipping.
 * The configured shipping rates with shipping rates does has an entry with matching rate.
 For eg: In case the item has 829 grams, you have to configure a rate between 800 and 1000 and the estimate shipping lists the rate.
-![](http://i.imgur.com/Dj25Qr4.png)
-![](http://i.imgur.com/hwwqoAB.png)
+![](assets/images/faqshipping_1.png)
+![](assets/images/faqshipping_2.png)
 
 <a name="order_listed_without_payment"></a>
 ####Why the order is listed in the backend even didnt make a payment? How to see the paid products?
