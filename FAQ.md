@@ -14,6 +14,8 @@
 * **[How to add custom text or unit to the price field?](#custom_text)**
 * **[How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?](#text_after_tax)**
 * **[Make the product name a link to administrator panel](#product_name_link)**
+* **[Remove image from orders and invoices while the image in cart remains based on the setting](#remove_image_invoice_email)**
+* **[Logo doesn't show on PDF emailed to customer](#logo_not_showing)**
 
 <a name="product_options_not_working" />
 ####Product Options not working or displaying option
@@ -164,3 +166,37 @@ change this with
 ```php
 <a target="_blank" href="index.php?option=com_content&task=article.edit&id=<?php echo $product->product_source_id; ?>"><?php echo $item->orderitem_name; ?></a>
 ```
+<a name="remove_image_invoice_email"></a>
+####Remove image from orders and invoices while the image in cart remains based on the setting
+
+You may create a template override for the below file
+
+Copy the file from
+/components/com_j2store/views/myprofile/tmpl/orderitems.php
+
+Paste into
+/templates/<YOUR_TEMPLATE>/html/com_j2store/myprofile/orderitems.php
+
+Now edit the file and remove the following chunk of code,(around line no 68)
+```php
+<?php if($this->params->get('show_thumb_cart', 1) && !empty($thumb_image)): ?>
+							<span class="cart-thumb-image">
+								<?php if(JFile::exists(JPATH_SITE.'/'.$thumb_image)): ?>
+									<img src="<?php echo JUri::root(true). '/'.$thumb_image; ?>" >
+								<?php endif;?>
+							</span>
+						<?php endif; ?>
+```
+<a name="logo_not_showing"></a>
+####Logo doesn't show on PDF emailed to customer
+
+Sometimes you might have added the image of your company logo in your invoice template but it will not display.
+
+**Solution:**
+* Open the invoice template
+* Choose the toggle editor
+* Now change the image path
+```html
+<img src="https://example.com/images/example.png">
+```
+* Dont close the toggle editor when saving.
