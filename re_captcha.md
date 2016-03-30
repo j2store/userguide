@@ -46,3 +46,9 @@ Move to the section **Adding reCAPTCHA to your site** and click / expand on keys
 
 ####Frontend Display
 ![](assets/images/recaptcha_frontend.png)
+
+####Support
+
+Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
+
+Thank you for using our extension.
