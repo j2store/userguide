@@ -225,3 +225,23 @@ Save.
 * You might have set **YES** to Prevent customer from checking out if shipping method was not chosen option in J2store > configuration > cart.
 
 * Please make sure before choosing YES to this option you must enable and configure shipping methods. Otherwise it will display the error as **No shipping method was selected. Selection of a shipping method is mandatory** and prevent customers from placing order.
+
+####Show/Hide Filters
+
+Go to menu manager and open the menu which links to J2store > Product List View. You can find the filter settings in Item view options in category listings.
+
+Please refer the below image which shows the name of the filters.
+![](assets/images/faq_filter.png)
+
+**To hide Top bar filter completely:** Set HIDE to Top bar filters.
+**To hide search box alone in Top bar filter:** Set HIDE to Search box.
+**To hide sort filter alone in Top bar filter:** Set HIDE to Sort filter.
+**To hide price filter in sidebar:** Set HIDE to price filter.
+**To hide category filter in sidebar:** Set HIDE to Category filter.
+**To hide Manufacturer filter(Filter by Brands):** Set HIDE to Manufacturer/Brand filter.
+**To hide Product filter:** Set HIDE to Product filter.
+**To hide all filters(price filter, category filter, manufacturer filter, product filter):** Set HIDE to Sidebar filters. You can change the positon of sidebar filter by changing the postion of sidebar filters to Right and Left.
+
+![](assets/images/product_list_view_10.png)
+
+![](assets/images/product_list_view_11.png)
