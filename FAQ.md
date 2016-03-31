@@ -16,6 +16,8 @@
 * **[Make the product name a link to administrator panel](#product_name_link)**
 * **[Remove image from orders and invoices while the image in cart remains based on the setting](#remove_image_invoice_email)**
 * **[Logo doesn't show on PDF emailed to customer](#logo_not_showing)**
+* **[Clicking on cart button redirecting to home and URL contains &AMP](#remove_ &amp)**
+* **[Error: No shipping method was selected. Selection of a shipping method is mandatory](#checkout_shipping_error)**
 
 <a name="product_options_not_working" />
 ####Product Options not working or displaying option
@@ -200,3 +202,26 @@ Sometimes you might have added the image of your company logo in your invoice te
 <img src="https://example.com/images/example.png">
 ```
 * Dont close the toggle editor when saving.
+
+<a name="remove_ &amp"></a>
+####Clicking on cart button redirecting to home and URL contains &AMP
+
+**SOLUTION:**
+
+* Itseems you have set NO to SEF URLs in joomla's global configuration.
+
+* Please go to Joomla system > Global Configuration
+
+* In SEO settings, set **YES** to Search Engine Friendly URLs.
+Save.
+
+<a name=checkout_shipping_error></a>
+####Error: No shipping method was selected. Selection of a shipping method is mandatory
+
+**SOLUTION:**
+
+* Itseems due to your cart settings in J2store > configuration.
+
+* You might have set **YES** to Prevent customer from checking out if shipping method was not chosen option in J2store > configuration > cart.
+
+* Please make sure before choosing YES to this option you must enable and configure shipping methods. Otherwise it will display the error as **No shipping method was selected. Selection of a shipping method is mandatory** and prevent customers from placing order.
