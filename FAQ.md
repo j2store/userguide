@@ -18,6 +18,7 @@
 * **[Logo doesn't show on PDF emailed to customer](#logo_not_showing)**
 * **[Clicking on cart button redirecting to home and URL contains &AMP](#remove_ &amp)**
 * **[Error: No shipping method was selected. Selection of a shipping method is mandatory](#checkout_shipping_error)**
+* **[Show/Hide Filters](#show_hide_filters)**
 
 <a name="product_options_not_working" />
 ####Product Options not working or displaying option
@@ -150,7 +151,7 @@ Copy from /components/com_j2store/views/myprofile/tmpl/ordersummary.php
 
 to
 
-/administrator/templates/<YOUR_TEMPLATE>/html/com_j2store/myprofile/ordersummary.php
+/administrator/templates/YOUR_TEMPLATE/html/com_j2store/myprofile/ordersummary.php
 
 Open the file and add the below lines after the line no 30
 
@@ -177,7 +178,7 @@ Copy the file from
 /components/com_j2store/views/myprofile/tmpl/orderitems.php
 
 Paste into
-/templates/<YOUR_TEMPLATE>/html/com_j2store/myprofile/orderitems.php
+/templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
 
 Now edit the file and remove the following chunk of code,(around line no 68)
 ```php
@@ -226,6 +227,7 @@ Save.
 
 * Please make sure before choosing YES to this option you must enable and configure shipping methods. Otherwise it will display the error as **No shipping method was selected. Selection of a shipping method is mandatory** and prevent customers from placing order.
 
+<a name="show_hide_filters"></a>
 ####Show/Hide Filters
 
 Go to menu manager and open the menu which links to J2store > Product List View. You can find the filter settings in Item view options in category listings.
