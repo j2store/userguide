@@ -152,24 +152,66 @@ When you click on the product, it will be displayed with large image and additio
 Like this, you can set different product layouts according to your wish and needs.
 
 <a name="common_issues"></a>
-####Common Problems
-* ***Grid layout not working/columns.Why?***
 
-   The issue seems to be the wrong sub-template.
-   Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3.
-   Save
+##Special Module Positions
 
-   This should solve the issue. If it is already set to Bootstrap 3, then try to set it as Default.
+  J2store offers special module positions to place the Joomla's custom HTML module.Following are the custom module positions :
+
+1. j2store-single-product-top
+
+2. j2store-single-product-bottom
+
+3. j2store-product-list-top
+
+4. j2store-filter-left-top
+
+5. j2store-filter-left-bottom
+
+6. j2store-filter-right-top
+
+7. j2store-filter-right-bottom
+
+8. j2store-product-list-bottom
+
+9. j2store-cart-top
+
+10. j2store-cart-bottom
+
+11. j2store-checkout-top
+
+12. j2store-checkout-bottom
+
+##Common Problems
+
+####Grid layout not working/columns.Why?
+
+ The issue seems to be the wrong sub-template.
+ 
+ Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3.
+ 
+ Save
+
+ This should solve the issue. If it is already set to Bootstrap 3, then try to set it as Default.
    
-* ***Preview addictional image after click***
+####Preview addictional image after click
 
-    copy
-   /components/com_j2store/templates/default/view_images.php
+ copy
+ /components/com_j2store/templates/default/view_images.php
 
-   to
+ to
 
-   /templates/YOUR_TEMPLATE/html/com_j2store/templates/default/view_image.php
+ /templates/YOUR_TEMPLATE/html/com_j2store/templates/default/view_image.php
 
-   edit the file and remove the highlighted line fully.
+ edit the file and remove the highlighted line fully.
    
-   ![](assets/images/avoid_mouseover.png)
+ ![](assets/images/avoid_mouseover.png)
+   
+####How to add Category description in list view
+
+* Create custom module and assign it to the menu which links to J2store product layout.
+  
+* Set the module position to j2store-product-list-top.
+  
+* Save.
+
+Now the custom module will display the description only in list view.
