@@ -7,6 +7,7 @@ Product Layout is a powerful feature that enables the user to customize the disp
 * **[Special Module Positions](#special_positions)**
 * **[Avoid Zoom effect and open the main image in popup](#zoom_popup)**
 * **[Common Problems](#common_issues)**
+
 ### Create a Product Layout
 To create a product layout, go to joomla control panel and click on the menu item **Menus -> Main Menu** as shown in the image below.
 
