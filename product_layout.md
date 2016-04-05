@@ -4,7 +4,9 @@ Product Layout is a powerful feature that enables the user to customize the disp
 
 >Note: Product layout works only with Joomla articles. If you use SEBLOD / FLEXIcontent / or any other catlog systems, then you may need to configure the product layouts using their menu items.
 
-**Check the [common issues](#common_issues) here.**
+* **[Special Module Positions](#special_positions)**
+* **[Avoid Zoom effect and open the main image in popup](#zoom_popup)**
+* **[Common Problems](#common_issues)**
 ### Create a Product Layout
 To create a product layout, go to joomla control panel and click on the menu item **Menus -> Main Menu** as shown in the image below.
 
@@ -151,7 +153,7 @@ When you click on the product, it will be displayed with large image and additio
 
 Like this, you can set different product layouts according to your wish and needs.
 
-<a name="common_issues"></a>
+<a name="special_positions"></a>
 
 ##Special Module Positions
 
@@ -181,6 +183,7 @@ Like this, you can set different product layouts according to your wish and need
 
 12. j2store-checkout-bottom
 
+<a name="zoom_popup"></a>
 ##Avoid Zoom effect and open the main image in popup
 
 To avoid the zomm effect and to bring the image in pop up, first thing you have to do is disable the zoom effect in admin backend.
@@ -192,6 +195,7 @@ Go to menu manager and open the menu which links to J2store product layout.
 Move to Item view options tab
 
 Set **NO** to Enable Zoom effect.
+![](assets/images/zoom_popup_1.png)
 
 ####Disable zoom in Category blog layout
 
@@ -202,6 +206,7 @@ Select type **content**.
 Open the Content - J2Store plugin.
 
 Set **NO** to Enable Zoom effect in Item view tab.
+![](assets/images/zoom_popup_2.png)
 
 ####Override view_images.php
 
@@ -236,6 +241,7 @@ Change this with
 		  	 /></a>
 		  	 </span>
 ```
+<a name="common_issues"></a>
 ##Common Problems
 
 ####Grid layout not working/columns.Why?
