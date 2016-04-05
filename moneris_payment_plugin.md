@@ -51,7 +51,7 @@ Set Response Method to Sent to your server as a POST.
 
 Set Approved URL and Declined URL to:
 
-https://YOUR_HOST/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_moneris&paction=process
+https://YOUR_HOST/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_moneris&paction=cancel
 
 See the screenshot below
 
@@ -85,6 +85,10 @@ See the screenshot below
 ![Configure Security](./assets/images/configure_security.png)
 
 In the above image, click **Save Verification Settings** and then return to **Main Configuration**.
+
+![](assets/images/monerics1.png)
+
+![](assets/images/monerics2.png)
 
 **Plugin Configuration**
 
