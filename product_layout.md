@@ -181,6 +181,61 @@ Like this, you can set different product layouts according to your wish and need
 
 12. j2store-checkout-bottom
 
+##Avoid Zoom effect and open the main image in popup
+
+To avoid the zomm effect and to bring the image in pop up, first thing you have to do is disable the zoom effect in admin backend.
+
+####Disable zoom in J2store product layout
+
+Go to menu manager and open the menu which links to J2store product layout.
+
+Move to Item view options tab.
+
+Set **NO** to Enable Zoom effect.
+
+####Disable zoom in Category blog layout
+
+Go to Extensions > Plugins.
+
+Select type **content**.
+
+Open the Content - J2Store plugin.
+
+Set **NO** to Enable Zoom effect in Item view tab.
+
+####Override view_images.php
+
+Once disbaled the zoom effect, follow the override procedure given below :
+
+Copy /components/com_j2store/templates/default/view_images.php
+
+to
+
+/templates/YOUR_TEMPLATE/html/com_j2store/templates/default/view_images.php
+
+Open the file and on around line no 22 find the below code
+
+```php
+<span class="<?php echo $class; ?>" id="j2store-item-main-image-<?php echo $this->product->j2store_product_id; ?>">
+		  	 <img itemprop="image"
+		  	 alt="<?php echo $this->product->product_name ;?>"
+		  	 class="j2store-product-main-image j2store-img-responsive" src="/<?php echo $image_path.$main_image;?>"
+		  	 width="<?php echo intval($main_image_width); ?>"
+		  	 />
+		  	 </span>
+```
+Change this with
+```php
+ <span class="<?php echo $class; ?>" id="j2store-item-main-image-<?php echo $this->product->j2store_product_id; ?>">
+		   <?php JHTML::_('behavior.modal', 'a.modal'); ?>
+		  	 <a href="<?php echo $this->product->main_image;?>" class="modal"><img itemprop="image"
+		  	 alt="<?php echo $this->product->product_name ;?>"
+		  	 class="j2store-product-main-image j2store-img-responsive"
+		  	 src="<?php echo $image_path.$main_image;?>"
+		  	 width="<?php echo intval($main_image_width); ?>"
+		  	 /></a>
+		  	 </span>
+```
 ##Common Problems
 
 ####Grid layout not working/columns.Why?
