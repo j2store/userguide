@@ -189,7 +189,7 @@ To avoid the zomm effect and to bring the image in pop up, first thing you have 
 
 Go to menu manager and open the menu which links to J2store product layout.
 
-Move to Item view options tab.
+Move to Item view options tab
 
 Set **NO** to Enable Zoom effect.
 
