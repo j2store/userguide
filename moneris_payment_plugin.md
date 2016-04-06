@@ -88,7 +88,7 @@ In the above image, click **Save Verification Settings** and then return to **Ma
 
 ![](assets/images/monerics1.png)
 
-Set the cancel URL to https://YOUR_HOST/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_moneris&paction=process
+Set the cancel URL to https://YOUR_HOST/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_moneris&paction=cancel
 
 ![](assets/images/monerics2.png)
 
