@@ -1,12 +1,14 @@
 # Product Layout
 
+- **[Product Layout](#product_layout)**
+	* **[Special Module Positions](#special_positions)**
+	* **[Avoid Zoom effect and open the main image in popup](#zoom_popup)**
+	* **[Common Problems](#common_issues)**
+
+<a name="product_layout"></a>
 Product Layout is a powerful feature that enables the user to customize the display options and descriptions of the product. In this section, you'll learn how to create and customize a product layout.
 
 >Note: Product layout works only with Joomla articles. If you use SEBLOD / FLEXIcontent / or any other catlog systems, then you may need to configure the product layouts using their menu items.
-
-* **[Special Module Positions](#special_positions)**
-* **[Avoid Zoom effect and open the main image in popup](#zoom_popup)**
-* **[Common Problems](#common_issues)**
 
 ### Create a Product Layout
 To create a product layout, go to joomla control panel and click on the menu item **Menus -> Main Menu** as shown in the image below.
