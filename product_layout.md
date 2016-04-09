@@ -162,29 +162,29 @@ Like this, you can set different product layouts according to your wish and need
 
   J2store offers special module positions to place the Joomla's custom HTML module.Following are the custom module positions :
 
-1. j2store-single-product-top
+1. **j2store-single-product-top** - Top of product view layout
 
-2. j2store-single-product-bottom
+2. **j2store-single-product-bottom** - Bottom of product view layout
 
-3. j2store-product-list-top
+3. **j2store-product-list-top** - Top of product category listing page
 
-4. j2store-filter-left-top
+4. **j2store-filter-left-top** - Top of left filter
 
-5. j2store-filter-left-bottom
+5. **j2store-filter-left-bottom** - Bottom of left filter
 
-6. j2store-filter-right-top
+6. **j2store-filter-right-top** - Top of right filter
 
-7. j2store-filter-right-bottom
+7. **j2store-filter-right-bottom** - Bottom of right filter
 
-8. j2store-product-list-bottom
+8. **j2store-product-list-bottom** - Bottom of product category listing page
 
-9. j2store-cart-top
+9. **j2store-cart-top** - Top of cart page
 
-10. j2store-cart-bottom
+10. **j2store-cart-bottom** - Bottom of cart page
 
-11. j2store-checkout-top
+11. **j2store-checkout-top** - Top of checkout page
 
-12. j2store-checkout-bottom
+12. **j2store-checkout-bottom** - Bottom of checkout page
 
 <a name="zoom_popup"></a>
 ##Avoid Zoom effect and open the main image in popup
