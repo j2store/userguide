@@ -3,7 +3,6 @@
 * **[[HOW TO]Fix enter your valid Address information Error](#valid_address_error)**
 * **[Change default country in checkout](#change_default_country)**
 * **[Order products in list layout](#order_products)**
-* **[Troubleshooting update related issues](#update_related_issues)**
 * **[Options from dropdown cannot be selected](#options)**
 * **[solve jQuery conflict with Multi-categories component](#multicateogries)**
 * **[Writing template override for the frontend order view and print layouts](#template override)**
@@ -13,11 +12,9 @@
 * **[Selling Digital Goods Online with J2Store](#digital_folder)**
 * **[HOW TO override the layout of Add to cart block](#override_addtocart)**
 * **[How to create a new currency in J2Store?](#currency)**
-* **[Common mistakes to avoid when setting up Standard Shipping methods in J2Store](#shipping)**
 * **[Joom SEF configuration for J2Store](#joomsef)**
 * **[How to Remove + and - Prefix in Product Option Price](#remove_prefix)**
 * **[I don't see Add to Cart Button. What is the problem?](#no_add_to_cart)**
-* **[Paypal duplicate invoice ID and how to solve it](#duplicate_invoice)**
 * **[HOW TO move Add to Cart Button using the Short Plugin tag](#move_cart_button)**
 * **[HOW TO Disable Shipping Address step and Payment Methods in Checkout](#disable_shipping_payment)**
 * **[HOW To Translate the Address Field Labels](#translate_addr_fields)**
@@ -51,36 +48,6 @@ Login to Joomla administration and open the menu that links your product list.
 Under the Common Options tab, you can find Article Order parameter. There you can choose the ordering method.
 
 ![](assets/images/troubleshoot_orderproducts.png)
-
-<a name="update_related_issues"></a>
-##Troubleshooting update related issues
-
-J2Store uses the Joomla Extension Manager for providing updates to both the free and pro users. On a few occasions, you may not be able to access the updates via the Extensions Manager. You may get a 403 access denied when you try to update in your site. It might be due to several reasons. We have listed a few that might cause this problem.
-
-* **Download ID:**
-
-   We provide a Download ID when you subscribe. You can find this Download ID in two places.
-1.In the PDF invoice we have issued to you
-2.In our website's My Downloads section. Direct link: http://j2store.org/my-downloads.html
-
-  You should copy the Download ID and paste it in J2Store - Set up - Configuration - Update tab.
-
-  NOTE: If you have re-set your password in our site, then a new download ID will be issued (due to security reasons and prevent unauthorized access.) 
-Please make sure that the Download ID is correct.
-
-* **Time out:**
-
-  J2Store uses the Joomla Extension Update tool. A time out will occur if your connection is slow or if our server responds slower (which sometime occur if there are huge number of download requests)
-
-  In this case, just try again after a few minutes. You will usually get through.
-  
-* **Firewall:**
-
-  If you make repeated attempts or requests, then our firewall might block the access for a temporary period (usually 10 minutes).
-
-  In this case, please try after 10 minutes.
-
-  If still you get the error, you can always download the latest version from our My Downloads section: http://j2store.org/my-downloads.html and install it via the Extensions manager.
 
 <a name="options"></a>
 ##[HOWTO] Options from dropdown cannot be selected
@@ -421,31 +388,6 @@ So CLICK the SAVE button.
 
 Still not seeing the Currency symbol, open your store again and click SAVE again.
 
-<a name="shipping"></a>
-##Common mistakes to avoid when setting up Standard Shipping methods in J2Store
-
-A number of store owners use the standard shipping methods that come integrated with J2Store.
-
-The standard methods - flat rate, weight based, quantity based and price based - are very simple to configure and use. However, owners often make a few simple mistakes, leading to the disappearance of the shipping methods during the checkout.
-
-This post aims to help the store owners to set up the shipping methods properly.
-
-####Enable shipping in the product parameters
-
-While creating a product, the Enable Shipping param is by default set to NO. Most store owners do not notice this. If the product requires shipping, make sure that you set this param to Yes.
-
-####Geozones
-
-All the standard shipping methods in J2Store are bound by the Geozones. That is; you should always select a geozone while setting the rates. So make sure that you have created the Geozones and added countries or zones inside them.
-![](assets/images/troubleshoot_shipping_1.png)
-####Set shipping rates
-After creating a shipping method (by going to J2Store admin -> Set up -> Shipping -> Standard Shipping Methods), you can see a link named Set Rates. Click on it to set the shipping rates for the chosen shipping type.
-![](assets/images/troubleshoot_shipping_2.png)
-####Set shipping rates
-After creating a shipping method (by going to J2Store admin -> Set up -> Shipping -> Standard Shipping Methods), you can see a link named Set Rates. Click on it to set the shipping rates for the chosen shipping type.
-While Setting Rates, make sure that you select the Geozone. If you have two or more Geozones, then you should set rates for all.
-![](assets/images/troubleshoot_shipping_3.png)
-
 <a name="joomsef"></a>
 ##Joom SEF configuration for J2Store
 
@@ -513,40 +455,6 @@ This post explains the reasons behind this. Make sure you check the following po
 
   Still no luck. Then there might be a template override for the articles or some other plugin is causing an issue. 
 Post in the forums with URL to a product in your site. Our support team will take a look and help you solve the issue.
-
-<a name="duplicate_invoice"></a>
-##Paypal duplicate invoice ID and how to solve it
-
-Paypal by default does not allow duplicate invoices. When you try to pay for a duplicate invoice id, Paypal will produce the following error:
-**The transaction was refused as a result of duplicate invoice ID supplied. Attempt with a new invoice ID**
-
-If this were to happen, one of the reasons could be that the configuration in Paypal is set to not accept duplicate invoices. You may receive orders from various places and if the invoice numbers are the same, Paypal recognises there is an invoice duplication.
-
-There are two ways, by which you can fix this.
-
-**Solution 1: Set the Invoice Prefix**
-
-Please follow the steps:
-
-1. From your J2Store Dashboard, go to - Set Up -> Configuration -> Order
-
- Note: This step is for V3. If you are using v2, then go to Set Up -> Store Profiles -> your store profile
-
-2. Set the Invoice Prefix in the textbox provided, for e.g., INV-2015- or INV/2015/
-
-3. Save & Close.
-
-**Solution 2: Change settings in Paypal**
-
-Please try the following:
-1. Log-in to your Paypal sandbox account
-
-2. Click Profile
-
-3. Under Selling Preferences, click Payment Receiving Preferences
-
-4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
-Save.
 
 <a name="move_cart_button"></a>
 ##HOW TO move Add to Cart Button using the Short Plugin tag
