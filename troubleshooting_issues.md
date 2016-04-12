@@ -1,18 +1,15 @@
 #Troubleshooting Common Issues
 
+* **[[HOW TO]Fix enter your valid Address information Error](#valid_address_error)**
 * **[Change default country in checkout](#change_default_country)**
 * **[Order products in list layout](#order_products)**
 * **[Troubleshooting update related issues](#update_related_issues)**
-* **[Migrate from version 2.x to version 3.x](#migrate)**
 * **[Options from dropdown cannot be selected](#options)**
-* **[Troubleshooting USPS, FedEx, UPS and CanadaPost shipping plugins](#troubleshoot_shipping)**
-* **[A simplified guide for New EU VAT rules 2015 and setting them up in J2Store](#eu_vat_rules)**
 * **[solve jQuery conflict with Multi-categories component](#multicateogries)**
 * **[Writing template override for the frontend order view and print layouts](#template override)**
 * **[Troubleshooting Checkout issues](#checkout_issues)**
 * **[How To Solve Mini Cart module related issues](#mini_Cart_issues)**
 * **[HOWTO make checkout address field labels language friendly](#checkout_field_language)**
-* **[Troubleshooting Paypal-related issues](#paypal_related_issues)**
 * **[Selling Digital Goods Online with J2Store](#digital_folder)**
 * **[HOW TO override the layout of Add to cart block](#override_addtocart)**
 * **[How to create a new currency in J2Store?](#currency)**
@@ -22,7 +19,6 @@
 * **[I don't see Add to Cart Button. What is the problem?](#no_add_to_cart)**
 * **[Paypal duplicate invoice ID and how to solve it](#duplicate_invoice)**
 * **[HOW TO move Add to Cart Button using the Short Plugin tag](#move_cart_button)**
-* **[HOW TO upgrade from FREE version to PRO?](#free_to_pro)**
 * **[HOW TO Disable Shipping Address step and Payment Methods in Checkout](#disable_shipping_payment)**
 * **[HOW To Translate the Address Field Labels](#translate_addr_fields)**
 * **[HOW TO change the colour of add to cart buttons](#color_cart_button)**
@@ -30,7 +26,6 @@
 * **[HOWTO solve javascript conflict between some of RocketTheme templates and J2Store](#rocket_js_conflict)**
 * **[HOWTO create a custom thank you message](#thank_u_message)**
 * **[HOWTO translate j2store / fix language and translation related issues](#language_override)**
-* **[Installation of J2Store](#j2store_requirements)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -86,15 +81,6 @@ Please make sure that the Download ID is correct.
   In this case, please try after 10 minutes.
 
   If still you get the error, you can always download the latest version from our My Downloads section: http://j2store.org/my-downloads.html and install it via the Extensions manager.
-  
-<a name="#migrate"></a>
-##[HOWTO] Migrate from version 2.x to version 3.x
-
-With the release of Version 3, J2Store has emerged into a much more powerful e-commerce application for Joomla. Version 3 of J2Store is completely re-written from scratch using FOF Framework and follows a completely different table structure. It comes with quite a lot of new features and supports different product types.
-
-As a result, you cannot install Version 3 directly over the version 2. It involves a migration. And don't worry!. We have simplified the migration process by developing a nice tool. We have also created a step-by-step guide that will walk you through the entire migration process.
-
-[Click here to Download the migration tool and read the guide](http://j2store.org/support/user-guide/migrating-from-2-x-to-3-x.html)
 
 <a name="options"></a>
 ##[HOWTO] Options from dropdown cannot be selected
@@ -113,157 +99,6 @@ Save
 Go to J2Store - Options - Basic settings
 Set the Load Jquery UI to Only Front End.
 Save.
-
-Clear Joomla cache and refresh. Now try
-
-<a name="troubleshoot_shipping"></a>
-##Troubleshooting USPS, FedEx, UPS and CanadaPost shipping plugins
-
-You have installed the shipping plugin but it doesn't show up during the checkout. Here are a list of reasons that might be preventing the plugin from fetching shipping cost real-time from the APIs of the Shipping carrier.
-
-* **Enable Shipping**
-
-  Well. This might sound trivial. But some of us often forget to turn on the Enable shipping switch while creating the product. Make sure that Enable shipping is set to YES.
-  
-* **Weight and Dimensions**
-
-  All the shipping carriers use the weight and the dimension of your product (Length, Width & Height)to calculate the shipping cost (besides using the destination address). So make sure that you enter the Weight and the dimension of your product.
-
- You should select the weight and the length measurement unit from the drop down list.
- 
- ![](assets/images/troubleshoot_shipping_one.png)
-
- **IMPORTANT for those using UPS:** Only KG (Kilogram) and LB (Pound) are supported by UPS as the weight measurement units.  Similarly, only IN (Inch) and CM (Centimetres) are supported as length measurement units. There is more. If you use Pound (LB) as the weight measurement, then the length measurement should be Inch (IN). Similar if KG is used, then CM should be the measurement.
-
- Also make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
-
-* **API credentials**
-
-  All shipping carriers have a web service and provide credentials to access their Rate API. Some of the carriers like USPS offer TEST accounts as well. Make sure you enter these credentials correctly in the Plugin. Some of the carriers provide Customer number (like Canada Post ) and a few other parameters as well. Refer the documentation PDF that come with each plugin for more information.
-  
-* **Geozone**
-
-  All the plugin come with a geozone filter setting.
-
-  If you choose a geozone, then this shipping plugin will apply to only to customers coming from the countries/zones added under it.
-
-  During testing, make sure that this param is set All geozones.
-  
-* **Debug Mode**
-
-  In your plugin settings, set the Debug mode to YES. This will allow the plugin to log the responses sent by the APIs of the shipping carriers.
-
-  The log is stored in the /cache folder of your Joomla Root. You can use your Hosting CPanel's file manager or an FTP program like FileZilla to access the log file. The log should give you a lot of information.
-  
-  ![](assets/images/troubleshoot_shipping_two.png)
-
- ***VERY IMPORTANT: Debug mode SHOULD NOT be enabled in LIVE / PRODUCTION sites.***
- 
-Still not working, please create a private ticket or email us the log file. We will help you troubleshoot the plugin.
-
-<a name="#eu_vat_rules"></a>
-##A simplified guide for New EU VAT rules 2015 and setting them up in J2Store
-If you are a seller of digital goods and services, you would probably wondering about the new European VAT rules that came into effect from January 1, 2015.
-
-Since the rules are a bit of pain, we have come up with a simplified guide which will help you implement the new rules easily in your J2Store joomla shopping cart.
-
-####The New VAT rules
-In simple terms, the new VAT rules are:
-
-– if the company sells to any countries in the EU, they will have to charge VAT in the country of the buyer instead of the seller.
-
-– if the buyer of the digital goods is an individual, the company has to charge the VAT percentage from the country of the buyer
-
-– if the buyer of the digital goods is a company (with a valid VAT number), there is a 0 percent VAT charge.
-
-– if the buyer of the digital goods is a company without a VAT number or has an incorrect VAT number, then VAT of the country of the buyer must be charged.
-
-– if the company sells digital goods to companies or individuals in their own country, local VAT needs to be charged.
-
-####Implementing VAT rules in J2Store
-**EU VAT plugin**
-We have created a VAT plugin that helps you implement the VAT rules automatically.
-Download and install the plugin from here:
-http://j2store.org/extensions/general-plugins.html
-
-**Implementing VAT rules in J2Store**
-
-Let us assume that your company is located in : United Kingdom, Bristol And your home country (local ) VAT is 21 %
-
-* ***Store Profile***
-  Go to Joomla admin – J2Store – Set up – Configuration - > Store tab.
-
-  Set the Default Country to United Kingdom Set your Default Zone to Bristol
-
-* ***Geozone***
-  Go to Joomla admin – J2Store – Localisation – Geozones – New
-
-  Geozone Name : VAT Zone ( It can be anything. It is used just as reference ) 
-  State : Published
-
-  Add country / Zone Choose United Kingdom from the Dropdown list and add it
-
-** IMPORTANT: According to the rule, EU residents & businesses with no valid VAT number has to be charged based on the home country's rate. **
-
-** So it is advised that you add all the EU countries in this geozone itself. Choose EU Vat countries and add them. Refer this article to know all EU VAT countries. http://en.wikipedia.org/wiki/European_Union_value_added_tax **
-
-(You can also add all other European countries. or create a separate geozone. But then you will have to create tax rate and map that in the tax profile. Kind of a double work!).
-
-Save and close
-
-* ***Tax rate***
-
-  Go to Joomla admin – J2Store – Localisation – Tax Rates – New
-
-  Name : VAT Rate Tax Percent : 21 Geozone : VAT Zone
-  Status : Published
-
-  Setting up the tax profile
-  It is sufficient to set up ONE tax profile
-
-  Go to Joomla admin → J2Store – Localisation → Tax profiles → New
-
-  Tax Profile Name : My Tax Profile State : Published
-
-  Tax Rates Mapping
-
-  Choose VAT Rate 21 % and choose Billing Address as the Associated Address.
-  Save.
-
-* ***Applying tax profile to a product***
-  J2Store uses native Joomla articles as products. So go ahead and create a product.
-
-  Go to Joomla admin – Article Manager – New or open your digital product.
-
-  In J2Store Tab → Item Tax , Choose My Tax Profile.
-
-  Fill in other relevant fields for your product and save.
-  
-####Application of VAT rules with Examples
-
-Now we have successfully configured the tax rules in j2store. Let us see how they will get applied for different scenarios.
-
-**Example-1: Buyer (can be INDIVIDUAL or company) from the same country (Home Country)**
-
-![](assets/images/vat_order_same_country.png)
-Our shop is located in United Kingdom. And the buyer is from the same country. So local tax of 21 percent applies.
-
-**Example-2: Buyer (INDIVIDUAL) from a different EU country (Germany)**
-
-![](assets/images/vat_order_individual_eu.png)
-The buyer is from Germany and he is an individual customer. So we are charging him the Germany's VAT rate of 25%.
-
-**Example-3: Buyer (COMPANY) from a different EU country WITHOUT a valid VAT Number**
-
-![](assets/images/vat_order_invalid_vat.png)
-The customer is from Germany. He has entered a company name. But his VAT number is INVALID. So we apply the Germany's VAT rate of 25 %.
-
-(the EU VAT plugin validates the VAT number provided against the EU database )
-
-**Example 4: Buyer ( COMPANY ) from a different EU country WITH a valid VAT Number**
-
-![](assets/images/vat_order_valid_vat.png)
-The customer is from Germany.  His VAT number is VALID.  So NO tax is applied.
 
 <a name="multicateogries"></a>
 ##[HOWTO] solve jQuery conflict with Multi-categories component
@@ -462,25 +297,6 @@ J2STORE_ADDRESS_ZONE="Zone / Region"
 J2STORE_TELEPHONE="Telephone"
 J2STORE_ADDRESS_EDIT="View/Edit Address"
 J2STORE_SHOPPER_ADDRESSES="Shopper Addresses"
-
-<a name="paypal_related_issues"></a>
-##Troubleshooting Paypal-related issues
-
-There could be several reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
-
-####Order status Failed
-
-Are you using your Primary Paypal Email as your merchant email? If your order status is failed, then chances are that you are using a secondary email of your Paypal account.
-
-Paypal allows you to add multiple emails in an account to accept payments. With the Paypal plugin for J2Store, make sure you are using your primary Paypal account email. You can check which is your primary email by signing into your Paypal account and then going to Profile -> Add / Edit emails page.
-
-![](assets/images/paypal_primary_email1.png)
-
-####Currency is wrong. Paypal payment screen shows USD while my currency is different
-
-Paypal supports multiple currencies. However, it does not support all currencies of the world. Please ensure that your currency is supported by checking this page: https://www.paypal.com/multicurrency
-
-If your currency is not supported, Paypal will automatically assume the currency as USD.
 
 <a name="digital_folder"></a>
 ##Selling Digital Goods Online with J2Store
@@ -767,15 +583,6 @@ Now save the article.
 
 You will now see the add to cart block placed at your preferred location.
 
-<a name="free_to_pro"></a>
-##HOW TO upgrade from FREE version to PRO?
-
-Upgrading from the Free (Core) version to the PRO version is very easy. Just two steps are involved in the process.
-
-**Step 1:**  Take a FULL BACKUP of your site using the Akeeba Backup.
-
-**Step 2:** Download the J2Store PRO version from My Downloads section of our site and install it using the Joomla Extensions Manager. (You DON'T have to uninstall the Core version to install the PRO.)
-
 <a name="disable_shipping_payment"></a>
 ##HOW TO Disable Shipping Address step and Payment Methods in Checkout
 
@@ -1052,43 +859,6 @@ Thats it! When a customer checks out and completes the purchase, he will see thi
 
 **TIP:** If you use more than one payment plugins, then you have to open other plugins and enter the article ID. You have the option to enter a different article ID for different payment plugins.
 
-<a name="language_override"></a>
-##HOWTO write language override
-To change text in core Joomla or in an extension (other than installing a new language) it is advised to perform a language override in Joomla. To do this you need to go into the admin backend then in the menu under "Extensions" click on "Language Manager"
-
-Let us assume that you want to change the Firstname (in billing address fields) to My Name.
-
-**Step 1:** Go to Joomla admin->Extensions Manager->Language Manager->Overrides.
-```
-VERY IMPORTANT
-Before creating the override, set the Filter to ADMINISTRATOR (of the language that you wanted to create override. Say, your language is german. Then you should select the German (de-DE) Administrator in the filter)
-```
-![](assets/images/location_filter.png)
-**Step 2:** Click new to create a override
-```
-VERY IMPORTANT
-1. Make sure you have checked the For both locations
-2. Make sure the location points to ADMINISTRATOR
-```
-![](assets/images/override_screen.png)
-**Step 3:** You can either search or directly enter the constant (if you knew already) to create the override.
-
-* ***Method 1: Searching***
-
-Under the Search text you want to change, enter the following text (as you see in the site): Firstname and hit search. You will get the constant: J2STORE_FIRST_NAME
-
-* ***Method 2: Find the constant from the language file.***
-
-Let us take J2Store as example. All the language constants of J2Store can be found in the following file /administrator/language/en-GB/en-GB.com_j2store.ini
-
-**Step 4:** Now you have the constant. Enter the constant in the Language Constant box.
-
-**Step 5:** Enter your value (in our example My Name) in the Text box.
-
-**Step 6:** Save.
-
-You can create as many overrides as you like in this method.
-
 <a name="lang-translate_issues"></a>
 ##HOWTO translate j2store / fix language and translation related issues
 
@@ -1150,14 +920,10 @@ http://j2store.org/howto-translate-j2store-in-your-language.html
   **IMPORTANT:** All J2store language strings will start with J2STORE_ or COM_J2STORE
   **if you see something like ;checkout or ;orders
   DO NOT translate them. They are comments.**
+  
+<a name="valid_address_error"></a>
+##[HOW TO]Fix enter your valid Address information Error
+Are you using the USPS plugin ? If yes, open the USPS plugin and set the Address validation to No.
+Save.
 
-<a name="j2store_requirements"></a>
-##Installation of J2Store
-
-####System requirements
-
-PHP 5.3+
-
-MySQL 5+
-
-Joomla 2.5.8+
+If the address provided is not in the USPS API's database, then it would throw this error. (Even if an extra space or typo in the address with throw the error.)
