@@ -1,15 +1,21 @@
 # Product Layout
 
 - **[Product Layout](#product_layout)**
+	* **[Create a Product Layout](#create_layout)**
+	* **[Details Tab](#details_tab)**
+	* **[Common Options Tab](#common_options)**
+	* **[Item View options in category listings](#item_category)**
+	* **[Item View Options Tab](#item_view)**
 	* **[Special Module Positions](#special_positions)**
 	* **[Avoid Zoom effect and open the main image in popup](#zoom_popup)**
-	* **[Common Problems](#common_issues)**
+- **[Common Problems](#common_issues)**
 
 <a name="product_layout"></a>
 Product Layout is a powerful feature that enables the user to customize the display options and descriptions of the product. In this section, you'll learn how to create and customize a product layout.
 
 >Note: Product layout works only with Joomla articles. If you use SEBLOD / FLEXIcontent / or any other catlog systems, then you may need to configure the product layouts using their menu items.
 
+<a name="create_layout"></a>
 ### Create a Product Layout
 To create a product layout, go to joomla control panel and click on the menu item **Menus -> Main Menu** as shown in the image below.
 
@@ -27,6 +33,7 @@ First you need to enter the title of the item you create. For example, it is ent
 
 Then, you have several tabs in this page. Let us see one by one. First is the **Details** tab.
 
+<a name="details_tab"></a>
 #### Details Tab
 Here, you choose the **Menu Item Type** by clicking on the 'Select' button. You will get a pop-up window like this:
 
@@ -40,6 +47,7 @@ Your menu item is selected and the link is also created automatically. click on 
 
 Now, go to next tab, **Common Options**.
 
+<a name="common_options"></a>
 #### Common Options Tab
 ![](./assets/images/product_list_view_6.png)
 
@@ -51,6 +59,7 @@ If you do not want to show product option price in front end, you can set the op
 
 ![](./assets/images/product_list_view_7.png)
 
+<a name="item_category"></a>
 #### Item View options in category listings
 Check the image below:
 
@@ -87,6 +96,7 @@ Filters help narrow the search for a particular product. There are many filters 
 
 One or more filters can be applied as per the needs of the customer.
 
+<a name="item_view"></a>
 #### Item View Options Tab
 
 In this tab, you will set the configuration for what to display with the product, like price, description, image etc.
