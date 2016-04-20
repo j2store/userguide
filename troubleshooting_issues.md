@@ -23,6 +23,7 @@
 * **[HOWTO solve javascript conflict between some of RocketTheme templates and J2Store](#rocket_js_conflict)**
 * **[HOWTO create a custom thank you message](#thank_u_message)**
 * **[HOWTO translate j2store / fix language and translation related issues](#language_override)**
+* **[How to translate payment option title](#payment_option_title)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -835,3 +836,14 @@ Are you using the USPS plugin ? If yes, open the USPS plugin and set the Address
 Save.
 
 If the address provided is not in the USPS API's database, then it would throw this error. (Even if an extra space or typo in the address with throw the error.)
+
+<a name="payment_option_title"></a>
+##How to translate payment option title
+
+It is possible and very easy to translate the payment option title for multilingual site.
+
+Open your payment method and enter the language constant as a payment option title.
+
+For example, J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE
+
+Then create language override for the constant **J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE** and enter your language specific value.
