@@ -1,4 +1,4 @@
-#Paygate Payment
+#PayGate Payment
 
 The plugin integrates Paygate payment with J2Store Joomla eCommerce solution. Paygate helps webshops and online merchants to accept credit card / alternative payments and also can process online payments quickly, securely and efficiently.
 
