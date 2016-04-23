@@ -41,3 +41,8 @@ This app allows store owner to combine the products and sell it as one group pro
 * Once the products are added, save article and check in the frontend.
 
 ![](assets/images/groupproduct_05.png)
+
+####Video Tutorial
+
+You can watch the video tutorial for Group Product app by clicking the link below.
+[Click here to see the video](https://youtu.be/BNwL6AZ8eKA)
