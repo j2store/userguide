@@ -67,7 +67,6 @@ Save
 Go to J2Store - Options - Basic settings
 Set the Load Jquery UI to Only Front End.
 Save.
-[Video tutorial](https://youtu.be/AA9cLYTuXZE)
 
 <a name="multicateogries"></a>
 ##[HOWTO] solve jQuery conflict with Multi-categories component
