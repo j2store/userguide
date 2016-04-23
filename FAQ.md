@@ -26,14 +26,19 @@
 This problem may happen due to Jquery.
 Check your j2store basic settings tab in Joomla admin->J2store->setup->configuration.
 You might have set Load jQuery UI to only frontend.It should be always in Both frontend and backend.
+
+**[Video tutorial](https://youtu.be/AA9cLYTuXZE)**
+
 <a name="unregistered_users_place_orders" />
 ####Unregistered users to place orders
 Go to J2Store - Configuration - Cart settings
 set Allow Guest checkout to YES.
+
 <a name="vat_not_appears_in_checkout" />
 ####Vat not appears in check out
 In Configuration - Tax, tax is set to be applied on the shipping address
 In the tax profile, it is set to apply billing address.
+
 <a name="donation_plugin_empty" />
 ####Donation plugin is empty.Why
 The donation app adds a Donation option type.
@@ -45,6 +50,7 @@ Open your product (simple should work good)
 go to J2Store Cart - Options
 Search for the donation option you just created.
 Add it and save.
+
 <a name="multiplestores_differentnotification_depending_oncategory" />
 ####Multiple stores / different notification receiver depending on category
 J2Store is a B2C solution where you can maintain only one store.
