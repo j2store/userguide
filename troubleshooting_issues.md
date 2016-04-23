@@ -67,6 +67,7 @@ Save
 Go to J2Store - Options - Basic settings
 Set the Load Jquery UI to Only Front End.
 Save.
+[Video tutorial](https://youtu.be/AA9cLYTuXZE)
 
 <a name="multicateogries"></a>
 ##[HOWTO] solve jQuery conflict with Multi-categories component
@@ -847,3 +848,5 @@ Open your payment method and enter the language constant as a payment option tit
 For example, J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE
 
 Then create language override for the constant **J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE** and enter your language specific value.
+
+**[Video tutorial on how to translate payment title](https://youtu.be/LYh1JBhCsTg)**
