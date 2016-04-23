@@ -19,6 +19,7 @@
 * **[Clicking on cart button redirecting to home and URL contains &AMP](#remove_ &amp)**
 * **[Error: No shipping method was selected. Selection of a shipping method is mandatory](#checkout_shipping_error)**
 * **[Show/Hide Filters](#show_hide_filters)**
+* **[Re-order checkout fields](#reorder_checkout_fields)**
 
 <a name="product_options_not_working" />
 ####Product Options not working or displaying option
@@ -254,3 +255,15 @@ Please refer the below image which shows the name of the filters.
 ![](assets/images/product_list_view_10.png)
 
 ![](assets/images/product_list_view_11.png)
+
+<a name="reorder_checkout_fields"></a>
+####Re-order checkout fields
+
+Go to J2Store > Configuration > Checkout Layout where you can find the fields for both checkout billing address layout and checkout shipping address layout.
+
+The fields are enclosed with square bracket. For example, [first_name]
+
+You can re-locate the field to anywhere in the layout and you can also add the custom field there.
+
+Below video explains you briefly.
+**[Video tutorial](https://youtu.be/KLn_u3CgUzc)**
