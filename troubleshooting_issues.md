@@ -22,7 +22,7 @@
 * **[Writing a Layout override for Joomla article manager - An intro image](#override_intro_image)**
 * **[HOWTO solve javascript conflict between some of RocketTheme templates and J2Store](#rocket_js_conflict)**
 * **[HOWTO create a custom thank you message](#thank_u_message)**
-* **[HOWTO translate j2store / fix language and translation related issues](#language_override)**
+* **[HOWTO translate j2store / fix language and translation related issues](#lang-translate_issues)**
 * **[How to translate payment option title](#payment_option_title)**
 
 <a name="change_default_country"></a>
