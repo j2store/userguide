@@ -5,7 +5,7 @@
 * **[Order products in list layout](#order_products)**
 * **[Options from dropdown cannot be selected](#options)**
 * **[solve jQuery conflict with Multi-categories component](#multicateogries)**
-* **[Writing template override for the frontend order view and print layouts](#template override)**
+* **[Writing template override for the frontend order view and print layouts](#template_override)**
 * **[Troubleshooting Checkout issues](#checkout_issues)**
 * **[How To Solve Mini Cart module related issues](#mini_Cart_issues)**
 * **[HOWTO make checkout address field labels language friendly](#checkout_field_language)**
@@ -92,7 +92,7 @@ Save.
 Logout. Clear browser cache and test.
 This should fix the issue.
 
-<a name="template override"></a>
+<a name="template_override"></a>
 ##Writing template override for the frontend order view and print layouts
 
 This tutorial applies to J2store 3.x versions.
