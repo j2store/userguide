@@ -11,8 +11,10 @@
 		* [Solution 1: Set the Invoice Prefix](#invoice_prefix)
 		* [Solution 2: Change settings in Paypal](#change_settings)
 
-##Introduction
+
+## Introduction
 Paypal standard plugin for J2Store allows you to accept payments via Paypal Payment Gateway. This uses the Paypal's Website Standard Payment. Customer will be redirected to Paypal to make payment securely 
+
 <a name="requirements"></a>
 ## Requirements 
 * PHP 5.2 or higher 
