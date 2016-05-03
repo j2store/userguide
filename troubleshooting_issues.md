@@ -24,6 +24,8 @@
 * **[HOWTO create a custom thank you message](#thank_u_message)**
 * **[HOWTO translate j2store / fix language and translation related issues](#lang-translate_issues)**
 * **[How to translate payment option title](#payment_option_title)**
+* **[Hiding Product Options And Cart Button In Category View](#hide_cart_button)**
+* **[Override Product Layout](#override_product_layout)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -849,3 +851,98 @@ For example, J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE
 Then create language override for the constant **J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE** and enter your language specific value.
 
 **[Video tutorial on how to translate payment title](https://youtu.be/LYh1JBhCsTg)**
+
+<a name="hide_cart_button"></a>
+##Hiding Product Options And Cart Button In Category View
+
+#### Do a Template Override
+
+Copy
+/components/com_j2store/templates/default/default_simple.php
+/components/com_j2store/templates/default/default_variable.php
+/components/com_j2store/templates/default/default_configurable.php
+/components/com_j2store/templates/default/default_downloadable.php
+
+to
+
+/templates/YOUR-TEMPLATE/html/com_j2store/templates/default/
+
+Find the below line in all the files
+```php
+<?php echo $this->loadTemplate('options'); ?>
+<?php echo $this->loadTemplate('cart'); ?>
+```
+
+Replace this with
+```php
+<?php //echo $this->loadTemplate('options'); ?>
+<?php //echo $this->loadTemplate('cart'); ?>
+```
+<a name="override_product_layout"></a>
+##Override Product Layout
+
+####Layout file location
+
+Go to /components/com_j2store/templates which contains two folders named **bootstrap3** and **default**(bootstrap2).
+
+If you choose bootstrap3 as sub-template then you have to go with bootstrap3 folder.
+
+If you choose default as sub-template then you have to go with default folder.
+
+<a name="product_listing"></a>
+####Frontpage product listing files
+
+Open your sub-template folder(/components/com_j2store/templates/YOUR-SUB-TEMPLATE) where you can find the files with name started with default_(for example, default_simple.php, default_images.php, etc). Those files controls all the features displaying in the category listing page.
+![](assets/images/template_guide_product_detail.png)
+
+**OVERRIDE PATH**
+templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
+
+<a name="product_view"></a>
+####Product view
+
+Open your sub-template folder where you can find the files with name started with view_(for example, view_simple.php, view_images.php, view_options.php, view_notabs.php, etc). Those files controlled all the features displaying in the Product view page.
+![](assets/images/template_guide_product_view.png)
+
+**OVERRIDE PATH**
+templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
+
+<a name="product_filter"></a>
+####File location of filter
+
+Following files controls filter section,
+
+/components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_filters.php
+
+/components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_sortfilter.php
+
+**OVERRIDE PATH**
+templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
+
+<a name="cart"></a>
+####Cart page
+
+Cart page is controlled by the files located in the follwing path /components/com_j2store/views/carts/tmpl
+![](assets/images/template_guide_cart.png)
+
+**OVERRIDE PATH**
+templates/YOUR-TEMPLATE/html/com_j2store/carts/
+
+<a name="checkout"></a>
+####Checkout page
+
+Checkout is controlled by the files located in the follwing path /components/com_j2store/views/checkout/tmpl
+![](assets/images/template_guide_checkout.png)
+
+**OVERRIDE PATH**
+templates/YOUR-TEMPLATE/html/com_j2store/checkout/
+
+<a name="myprofile"></a>
+####Order history page
+
+Order history page is controlled by the files located in the follwing path
+/components/com_j2store/views/myprofile/tmpl
+![](assets/images/template_guide_myprofile.png)
+
+**OVERRIDE PATH**
+templates/YOUR-TEMPLATE/html/com_j2store/myprofile/
