@@ -21,7 +21,7 @@ This app allows store owner to combine the products and sell it as one group pro
 
 ####Group Products
 
-  Once you enabled the app, you can see **Group Products** as one of the product types listed in the product type dropdown. Refer the picture below
+*  Once you enabled the app, you can see **Group Products** as one of the product types listed in the product type dropdown. Refer the picture below
  ![](assets/images/groupproduct_02.png)
 
   Select the product type Group Products and click save.
