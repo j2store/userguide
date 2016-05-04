@@ -5,9 +5,7 @@ This app allows store owner to notify customer regarding stock availability. If 
 ####Requirements
 
 * PHP 5.4 or higher
-
 * Joomla 3.3 or above
-
 * J2Store 3.2.x or above
 
 ####Installation
