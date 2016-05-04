@@ -4,11 +4,11 @@ This app allows store owner to combine the products and sell it as one group pro
 
 #### Requirements
 
-* PHP 5.4 or higher
+1. PHP 5.4 or higher
 
-* Joomla 3.3 or above
+2. Joomla 3.3 or above
 
-* J2Store 3.2.x or above
+3. J2Store 3.2.x or above
 
 ####Installation
 
@@ -21,24 +21,24 @@ This app allows store owner to combine the products and sell it as one group pro
 
 ####Group Products
 
-  Once you enabled the app, you can see **Group Products** as one of the product types listed in the product type dropdown. Refer the picture below
+1. Once you enabled the app, you can see **Group Products** as one of the product types listed in the product type dropdown. Refer the picture below
  ![](assets/images/groupproduct_02.png)
 
-  Select the product type Group Products and click save.
+2. Select the product type Group Products and click save.
 
-  Go to J2Store cart and scroll down where you can see the navigation menus (General, images,Relations,apps)
+3. Go to J2Store cart and scroll down where you can see the navigation menus (General, images,Relations,apps)
 
-  In general tab, choose **YES** to visible in storefront and navigate to apps.
+4. In general tab, choose **YES** to visible in storefront and navigate to apps.
 
-  Go to apps tab where you can see the search box to search for the products.
+5. Go to apps tab where you can see the search box to search for the products.
  ![](assets/images/groupproduct_03.png)
 
-  Type two or three characters of your product.
+6. Type two or three characters of your product.
  ![](assets/images/groupproducts_04.png)
 
-  If the product you are searching for is not listed, the reason is that the product might have options. Since this app allows only the product without options, the product with options cannot be added into the group.
+7. If the product you are searching for is not listed, the reason is that the product might have options. Since this app allows only the product without options, the product with options cannot be added into the group.
 
-  Once the products are added, save article and check in the frontend.
+8. Once the products are added, save article and check in the frontend.
 
 ![](assets/images/groupproduct_05.png)
 
