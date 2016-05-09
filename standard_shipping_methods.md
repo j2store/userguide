@@ -35,7 +35,7 @@ Select the **Flat rate per order** in the list.
 If the shipping address needs to be overridden with store address, you can select it here.
 
 Finally, set the minimum and maximum subtotals that are required for availing this shipping type.
- 
+**[Check the video here](https://www.youtube.com/watch?v=MmI7LSjEJQc)**
  
  <a name="quantity_based_per_order"></a>
 ##Quantity based per order
@@ -49,6 +49,7 @@ See the image below to configure this shipping type:
 Settings are common for all the shipping types except the type to be set. For this shipping type you carefully need to select 'Quantity based per order' from the list as shown in the image.
 
 And make sure to **Enable** this shipping type to be available for shipping selection.
+**[Check the video here](https://www.youtube.com/watch?v=SrYxBbrA96k)**
  
  <a name="weight_based_per_order"></a>
 ##Weight based per order
@@ -62,7 +63,7 @@ Configure this shipping method as explained in the image below:
 As in the previous shipping methods, you need to give a **Shipping Method Name**, select a **Tax Profile**, **Enable** the method, and more importantly, select the type to be '**Weight based per order**'. And if necessary you can select the **Override Shipping Address** option. Enter **Minimum** and **Maximum** subtotals required for shipping.
 
 And that's it.
- 
+**[Check the video here](https://www.youtube.com/watch?v=HkSsSUrMXJY)**
  
  <a name="price_based_per_order"></a>
 ##Price based per order
@@ -74,6 +75,7 @@ Say for example, if a product or item falls under the price range of $ 100 to 10
 For configuration of this shipping method, refer the image below.
 
 ![Price per item](./assets/images/price_per_item.png)
+**[Check the video here](https://www.youtube.com/watch?v=W2bmm7SM2t8)**
 
  <a name="flat_rate_per_item"></a>
 ##Flat rate per item
@@ -115,8 +117,8 @@ For configuration refer the image below.
 Enter all the values necessary as in other shipping methods, as shown in the image.
 
 Select the shipping type to be '**Weight based per item**' for this item to be listed in the shipping methods.
- 
- 
+
+**[Check the video here](https://www.youtube.com/watch?v=r1l4X4A1s3g)**
     
  <a name="price_based_per_item"></a>
 ## Price based per item
@@ -129,7 +131,7 @@ For configuration of this shipping method, refer the image below.
 
 ![Price per item](./assets/images/price_per_item.png)
 
-
+**[Check the video here](https://www.youtube.com/watch?v=0Aru1Q4yXhs)**
 
 ### Help screen shots  
 See the image below:
