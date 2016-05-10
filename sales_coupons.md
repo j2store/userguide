@@ -37,3 +37,9 @@ Coupons hold the following information required for a successful process of purc
 ####Usage limits
 * **Uses per coupon** - limit of using the coupon for privileges by any user, empty value is for unlimited use
 * **Uses per customer** - limit of using the coupon for privileges by one customer, empty value for unlimited use
+
+####Videos
+
+**[Coupon for selected product](https://www.youtube.com/watch?v=MS6BrPdDyVk)**
+
+**[Coupon for cart wide and each cart item](https://www.youtube.com/watch?v=5Xbs8AaE3wM)**
