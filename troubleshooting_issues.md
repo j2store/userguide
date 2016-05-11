@@ -27,6 +27,7 @@
 * **[Hiding Product Options And Cart Button In Category View](#hide_cart_button)**
 * **[Override Product Layout](#override_product_layout)**
 * **[HOW TO set up and enable SSL in Joomla](#enable_ssl)**
+* **[How to solve the product link in search results](#j2store_search)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -991,3 +992,17 @@ Before experimenting with SSL, please keep in mind that it may affect your site 
 NOTE: If you are using the Yiero plugin, then you should include the J2Store component for SSL. Otherwise you might face issues.
 
 The following article published in the Joomla Magazine throws light on the advantages and disadvantages of SSL. Read it before you implement SSL in your website. [Read it](http://magazine.joomla.org/issues/issue-jan-2013/item/1023-how-ssl-can-secure-and-add-features-to-your-joomla-site)
+
+<a name="j2store_search"></a>
+##How to solve the product link in search results
+
+When you are searching product using joomla search, clicking on product name in the search results will not take you to the J2Store product view.
+
+**SOLUTION**
+By default, J2Store has Search plugin included in the package so go to **Extensions -> Plugins** and choose type **Search**.
+
+You can find the plugin Search - J2Store.
+![](assets/images/search_j2store_01.png)
+
+Enable / open the plugin and setup the configurationsas like in the below screenshot.
+![](assets/images/search_j2store_02.png)
