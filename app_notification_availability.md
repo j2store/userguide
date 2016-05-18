@@ -42,11 +42,11 @@ It is the Email subject section. Text entered here will be displayed as Subject 
 
 When Product's stock goes out of stock, you will get the screen like below
 
-![](https://www.j2store.org/assets/images/availability_notification_01.png)
+![](./assets/images/availability_notification_01.png)
 
 After sending email, you will get thank you message like below screen
 
-![](https://www.j2store.org/assets/images/availability_notification_02.png)
+![](./assets/images/availability_notification_02.png)
 
 ####Support
 
