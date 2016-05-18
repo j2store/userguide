@@ -13,7 +13,7 @@ Wishlists allows customers to create and add products to an unlimited number of 
 
 2.In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 
-![](assets/images/wishlist_enable.png)
+![](./assets/images/wishlist_enable.png)
 
 3.Click Enable in the wishlist app.
 
@@ -41,7 +41,7 @@ Wishlists allows customers to create and add products to an unlimited number of 
 
     Enter the custom text here will be shown in the product page.
     
-![](assets/images/wishlist_list.png)
+![](./assets/images/wishlist_list.png)
     
 * ***Enter link display icon (fontawsome icons eg.fa-heart )***
 
@@ -51,7 +51,7 @@ Wishlists allows customers to create and add products to an unlimited number of 
 
     Enter the custom text here will be shown to wishlist view in the product page.
     
-![](assets/images/wishlist_view.png)
+![](./assets/images/wishlist_view.png)
     
 * ***Enable redirect to wishlist view***
 
@@ -59,4 +59,4 @@ Wishlists allows customers to create and add products to an unlimited number of 
     
 **Refer the image below**
     
-![](assets/images/wishlist_parameters.png)
+![](./assets/images/wishlist_parameters.png)
