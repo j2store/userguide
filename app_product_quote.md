@@ -15,7 +15,7 @@ This app allows customer to enquire a product or to ask quote for a product thro
 2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 
 3. Click Enable in the Ask question / quote app.
-   ![](assets/images/product_quote_01.png)
+   ![](./assets/images/product_quote_01.png)
 
 4. Once the app is enabled, open the app to configure the settings.
 
@@ -32,7 +32,7 @@ This app allows customer to enquire a product or to ask quote for a product thro
 * ***Display button/link***
 
   Selecting display type here will make the text to be displayed in button / link.
-  ![](assets/images/product_quote_02.png)
+  ![](./assets/images/product_quote_02.png)
   
 * ***Display text for button/link***
 
@@ -62,7 +62,7 @@ This app allows customer to enquire a product or to ask quote for a product thro
   [PRODUCT_PRICE]
   
 ####Frontend
-![](assets/images/product_quote_03.png)
+![](./assets/images/product_quote_03.png)
 
 ####Support
 
