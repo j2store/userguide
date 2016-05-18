@@ -38,6 +38,15 @@ It is the Email body section. Text entered here will be displayed in the Body of
 
 It is the Email subject section. Text entered here will be displayed as Subject of the email.
 
+####How to track the users?
+
+With this plugin, you can able to manage the users who are requesting Stock notification via Email.
+
+On top of the app, you can see Manage user button. Click on that button to view the users.
+
+Refer the screens below
+![](./assets/images/availability_notification_04.png)
+![](./assets/images/availability_notification_05.png)
 ####Frontend
 
 When Product's stock goes out of stock, you will get the screen like below
