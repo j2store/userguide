@@ -15,10 +15,10 @@ This app used to give rewards points to user.User can use that points for purcha
 
 3.Click **Enable** in the Point and Rewards plugin. (type=j2store). 
 
-![](assets/images/pointsandrewards_enable.png)
+![](./assets/images/pointsandrewards_enable.png)
 
 4.After the app is enabled, click on **Open** to set the configuration for the app.
-![](assets/images/pointsandrewards_open.png)
+![](./assets/images/pointsandrewards_open.png)
 
 5.Enter the parameters (read the explanation about each parameter given below)
 
@@ -44,7 +44,7 @@ The below image illustrates the settings of parameters:
 
      The text entered here will be added as suffix to the points. For example, 14 credits.
      
-![](assets/images/pointsandrewards_setting1.png)
+![](./assets/images/pointsandrewards_setting1.png)
 
 * ***Round points***
 
@@ -71,7 +71,7 @@ The below image illustrates the settings of parameters:
 
      You can enter the redeem points message, so that customer can apply their points to get discount.
      
-![](assets/images/pointsandrewards_setting2.png)
+![](./assets/images/pointsandrewards_setting2.png)
 
 #####Award points for certain actions
 
@@ -83,7 +83,7 @@ The below image illustrates the settings of parameters:
 
      Set this **YES** will display the reward points information message in the category list view.
      
-![](assets/images/pointsandrewards_setting3.png)
+![](./assets/images/pointsandrewards_setting3.png)
      
     
 #### Custom Tags 
