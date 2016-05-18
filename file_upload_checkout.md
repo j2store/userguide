@@ -19,7 +19,7 @@ The store owner can download it from the app's backend and manage all the upload
 2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 
 3. Click Enable in the Upload file in checkout app.
-   ![](assets/images/file_upload_04.png)
+   ![](./assets/images/file_upload_04.png)
 
 4. Once the app is enabled, open the app to configure the settings.
 
@@ -32,13 +32,13 @@ The store owner can download it from the app's backend and manage all the upload
 ***Display Place***
 
    Choose the place where the upload field should be displayed. You can choose either **Billing** or **Shipping**.
-   ![](assets/images/file_upload_01.png)
+   ![](./assets/images/file_upload_01.png)
    
 ####Manage uploaded files
 
 By clicking **Order File List** button on top of the app's settings page, you can find all the files uploaded by the customer. It displays the file name with the path where the file locates.
-  ![](assets/images/file_upload_02.png)
+  ![](./assets/images/file_upload_02.png)
   
 ####Frontend
-![](assets/images/file_upload_03.png)
+![](./assets/images/file_upload_03.png)
 
