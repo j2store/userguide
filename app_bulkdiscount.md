@@ -20,7 +20,7 @@ You can also restrict the application of the discount depending on the customer 
 
 3. Open the Plugin Bulk Discount.
 
- ![](assets/images/bulkdiscount_enable.png)
+ ![](./assets/images/bulkdiscount_enable.png)
 
 ####Parameters
 
@@ -44,13 +44,13 @@ You can also restrict the application of the discount depending on the customer 
   
   **Line item Qty :**This will apply the discount based on the product. You can set discount to the product individually in the apps tab on j2store cart. Once you enabled Line item Quantity, the discount will be applied to the individual products.
    Refer the below image for setting discount for the product individually
-   ![](assets/images/bulkdiscount_product.png)
+   ![](./assets/images/bulkdiscount_product.png)
 
 * ***Display discounts in***
 
      Display the discount information in any one of the three options(Products view only, Category view only, Both product and category view).
      
- ![](assets/images/bulkdiscount_basic.png)
+ ![](./assets/images/bulkdiscount_basic.png)
      
 **Global discount settings**
 
@@ -71,4 +71,4 @@ You can also restrict the application of the discount depending on the customer 
 
      Here you can set the custom class, if you set the quantity for one and above.
      
- ![](assets/images/bulkdiscount_global.png)
+ ![](./assets/images/bulkdiscount_global.png)
