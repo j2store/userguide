@@ -15,7 +15,7 @@ This plugin enables you to add prefix and suffix text to the product's price. So
 2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 
 3. Click Enable in the Price Suffix Text app.
-![](assets/images/price_suffix_01.png)
+![](./assets/images/price_suffix_01.png)
 
 4. Once the app is enabled, now you are ready to add the price prefix and suffix text.
 
@@ -26,7 +26,7 @@ Using this app, you can able to add prefix / suffix text in category level and a
 **Price text in category level**
 
 Go to Category manager > YOUR_CATEGORY > price Text tab.
-![](assets/images/price_suffix_02.png)
+![](./assets/images/price_suffix_02.png)
 
 **Add price text to the particluar product**
 
@@ -37,10 +37,10 @@ Navigate to the Apps tab where you can see the Price text app.
 Now enter your price's prefix and suffix text in the text box.
 
 Save & Close.
-![](assets/images/price_suffix_03.png)
+![](./assets/images/price_suffix_03.png)
 
 ####Frontend
-![](assets/images/price_suffix_04.png)
+![](./assets/images/price_suffix_04.png)
 
 ####Support
 
