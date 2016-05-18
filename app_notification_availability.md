@@ -15,7 +15,7 @@ This app allows store owner to notify customer regarding stock availability. If 
 1. Use the joomla installer to install the app.
 
 2. Go to J2Store > Apps, find Availability Notification app and click enable to activate the app.
-![](assets/images/availability_notification_03.png)
+![](https://www.j2store.org/assets/images/availability_notification_03.png)
 
 3. Once enabled, click open to setup the Basic Settings of the app.
 
