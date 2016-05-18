@@ -12,13 +12,13 @@ The purpose of this app is to create the advanced tax rate. It will help you to 
 2. In tha backend, go to **J2store Dashboard -> Apps**.
 
 3. Click enable in the Advanced tax rate app.
-![](assets/images/advancetax_enable.png)
+![](./assets/images/advancetax_enable.png)
 4. Once the app is enabled, click an open to set the configuration for the app.
 
 ####Configuration
 
 Once you opened the app, you will get the screen like below. Click **New** on top left.
-![](assets/images/advancetax_new.png)
+![](./assets/images/advancetax_new.png)
 
 * ***TaxClass Name***
 
@@ -27,9 +27,9 @@ Once you opened the app, you will get the screen like below. Click **New** on to
 * ***Enabled***
 
   You should select enabled to enable the tax class and save.
-  ![](assets/images/advancetax_addtax.png)
+  ![](./assets/images/advancetax_addtax.png)
   Once saved, you will get the button named with **View taxrates**. Click on the button will show you the pop screen where you have to set tax rate for specific country,zone and postal code.
-  ![](assets/images/advancetax_viewtax.png)
+  ![](./assets/images/advancetax_viewtax.png)
   
 ####Parameters in creating Tax rate
   **Country & Zone:** Choose the country and zone available from the dropdown list.
@@ -43,7 +43,7 @@ Once you opened the app, you will get the screen like below. Click **New** on to
   **Name:** Name added here will be displayed in the frontend.(For example, if you add the name as Tax rate califonia, then in frontend it will display like **Tax rate california(8.5%)**)
   
   **Priority:** Set the priority and click create button.
-  ![](assets/images/advancetax_taxrate.png)
+  ![](./assets/images/advancetax_taxrate.png)
   
 **Note:** You can also choose import and export to import the tax and export the tax as CSV file.
   
