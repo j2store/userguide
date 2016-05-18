@@ -33,7 +33,7 @@ MBString extension: provides internationalization support. This extension is not
 
 5. Once the app is enabled, click on Open to set the configuration for the app.
 
-![](assets/images/pdfinvoice_enable.png)
+![](./assets/images/pdfinvoice_enable.png)
 
 ####Parameters
 
@@ -58,4 +58,4 @@ MBString extension: provides internationalization support. This extension is not
 
     Set this **YES** will display the download PDF invoice link in order history page in frontend.
     
-![](assets/images/pdfinvoice.png)
+![](./assets/images/pdfinvoice.png)
