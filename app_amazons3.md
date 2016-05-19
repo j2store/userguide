@@ -43,19 +43,19 @@ Never worry about your files being shared in the vastness of Internet. The app g
 * Login into your Amazon web services account.
 * Open the IAM console and under Security and Identity.
 
-![](assets/images/amazons3_iam.png)
+![](./assets/images/amazons3_iam.png)
 * In the navigation pane, choose Users.
 
-![](assets/images/amazons3_user.png)
+![](./assets/images/amazons3_user.png)
 * Choose your IAM user name (not the check box).
 
-![](assets/images/amazons3_userselect.png)
+![](./assets/images/amazons3_userselect.png)
 * Choose the Security Credentials tab and then choose Create Access Key.
 
-![](assets/images/amazons3_createkey.png)
+![](./assets/images/amazons3_createkey.png)
 * To see your access key, choose Show User Security Credentials.
 
-![](assets/images/amazons3_showkey.png)
+![](./assets/images/amazons3_showkey.png)
 * Choose Download Credentials, and store the keys in a secure location.
 
   Your secret key will no longer be available through the AWS Management Console; you will have the only copy. Keep it confidential in order to protect your account, and never email it. Do not share it outside your organization, even if an inquiry appears to come from AWS or Amazon.com. No one who legitimately represents Amazon will ever ask you for your secret key.
