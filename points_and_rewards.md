@@ -104,6 +104,8 @@ You can see the information displayed about the rewards and points.
   Here you can see list of points you earned.
   
 
+####Video Tutorial
 
+**[Here is the link](https://www.youtube.com/watch?v=16oKmgTbVVs)** to points and rewards video tutorial.
 
  
