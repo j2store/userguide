@@ -32,7 +32,7 @@ This app allows customer to enquire a product or to ask quote for a product thro
 * ***Display button/link***
 
   Selecting display type here will make the text to be displayed in button / link.
-  ![](./assets/images/product_quote_02.png)
+  ![](./assets/images/product_quote_new_02.png)
   
 * ***Display text for button/link***
 
