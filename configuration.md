@@ -345,6 +345,10 @@ Check the image for more clarification.
 
     There is a facility to estimate the probable tax and shipping cost based on some preliminary details and this can be enabled by setting the option to **Yes**.
     
+* ***Show Empty Cart button***
+
+     This feature allows the customer to clear the whole cart items in one click. This can be enabled by setting the option to **YES**.
+    
 * ***Make postal code required in the shipping/tax estimator***
 
      Set this to **YES** will the make the entry of postal code mandatory while estimating shipping and tax in the cart page.
@@ -372,7 +376,7 @@ Check the image below for more clear understanding.
 
 ![Cart Configuration1](./assets/images/Cart_config1.png)
 
-![](./assets/images/cart.png)
+![](./assets/images/cart_new.png)
 
 <a name="checkout_layout"></a>
 ## Checkout Layout

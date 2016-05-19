@@ -1,6 +1,6 @@
 # 2Checkout Plugin
 
-This plugin integrates 2Checkout payment gateway with J2Store.
+The plugin integrates 2Checkout payment gateway with J2Store.
 
 #### Installation
 You can install the plugin through the standard Joomla installer.

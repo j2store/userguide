@@ -88,3 +88,7 @@ Never worry about your files being shared in the vastness of Internet. The app g
 ![](./assets/images/amazons3_createfile.png)
 
 Save and close it
+
+####Video Tutorial
+
+**[Here is the link](https://www.youtube.com/watch?v=Rh7tUtI7eMI)** to Amazon S3 video tutorial.

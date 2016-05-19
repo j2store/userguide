@@ -72,3 +72,7 @@ You can also restrict the application of the discount depending on the customer 
      Here you can set the custom class, if you set the quantity for one and above.
      
  ![](./assets/images/bulkdiscount_global.png)
+ 
+####Video tutorial
+
+**[Here is the link](https://www.youtube.com/watch?v=EGW0Ol5o3jA)** to bulk discount video tutorial.

@@ -64,3 +64,7 @@ As Shown in the below screenshot you could design your own Gift card format and 
 A Customer purchases this gift card. A voucher is created for this order placed with the value of the product. For example if the gift card product price is $100, then a voucher of value $100 is generated and an email is sent to the customer. That email subject and body could be configured in above section.
 
 The Store admin should  Enable Gift Vouchers under J2Store Setup > Configurations > Discount tab > Enable Gift Vouchers, set this to Yes. Save the configurations. Store starts accepting vouchers in the cart section. The customer can enter the voucher code in the cart section to redeem the gift card value. 
+
+####Video Tutorial
+
+**[Here is the link](https://www.youtube.com/watch?v=g7epaBKOOuE)** to Gift certificate video tutorial.

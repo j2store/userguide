@@ -59,3 +59,7 @@ MBString extension: provides internationalization support. This extension is not
     Set this **YES** will display the download PDF invoice link in order history page in frontend.
     
 ![](./assets/images/pdfinvoice.png)
+
+####Video tutorial
+
+**[Here is the link](https://www.youtube.com/watch?v=5KkqoN_P508)** to PDF invoice video tutorial.
