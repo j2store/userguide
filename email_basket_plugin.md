@@ -47,6 +47,10 @@ Here you can define the fields by enclosing the square bracket as well as html t
 
 ![](./assets/images/email_basket.png)
 
+####Video Tutorial
+
+**[Here is the link](https://www.youtube.com/watch?v=IHpKrQI04Us)** to email basket video tutorial.
+
 #### Support
 Still have questions? You can reach us in support@j2store.org
 
