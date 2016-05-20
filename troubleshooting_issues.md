@@ -52,14 +52,14 @@ Login to Joomla administration and open the menu that links your product list.
 
 Under the Common Options tab, you can find Article Order parameter. There you can choose the ordering method.
 
-![](assets/images/troubleshoot_orderproducts.png)
+![](./assets/images/troubleshoot_orderproducts.png)
 
 <a name="options"></a>
 ##[HOWTO] Options from dropdown cannot be selected
 
 This issue occurs when your site has two instances of the Jquery UI library.
 
-![](assets/images/options_dropdown.png)
+![](./assets/images/options_dropdown.png)
 
 **In Version 3:**
 
@@ -138,11 +138,11 @@ Since checkout steps are loaded in real-time using Ajax, any Javascript conflict
 
 You can see the Developer Tools window opening at the bottom of the browser. Navigate to the Console tab.
 
-![](assets/images/troubleshoot_developertools.png)
+![](./assets/images/troubleshoot_developertools.png)
 
 Now Refresh your website, add a product to cart and go to checkout. The Console tab will now show you javascript conflicts, if any, in the site. It will also show you the file name and the line number that produce the error. Take a screenshot and send it to us and also send a copy to your template provider. We will check and get back to you with the solution.
 
-![](assets/images/troubleshoot_console.png)
+![](./assets/images/troubleshoot_console.png)
 
 ####Issue with Account Registration and FreeBSD
 
@@ -162,7 +162,7 @@ Solution: Go to Users -> Options
 
 Make sure the following fields are set as per the configuration given below. And then do a purchase and see if the checkout works fine.
 
-![](assets/images/checkout_redirected.png)
+![](./assets/images/checkout_redirected.png)
 
 If you still face issues, then there could be several reasons for this behavior. Please create a private ticket (Go to the support menu ) and provide super user logins. One of our developer will help you troubleshoot and solve the problem.
 
@@ -191,14 +191,14 @@ Since the cart module handles dynamic data, it should be excluded from caching. 
 
 If you use Progressive Caching, Joomla will override the Cache settings in the module. The cart module might work fine in smarller sites with Progressive Caching enabled but if you have a larger site with a large number of visitors, then it might cause issues with the module.
 
-![](assets/images/cache_settings.png)
+![](./assets/images/cache_settings.png)
 
 ####Module settings
 
 Go to Joomla admin - Module Manager - J2Store Cart module
 
 In the Advanced tab, set the Caching to No Cache.
-![](assets/images/mod_cache_settings.png)
+![](./assets/images/mod_cache_settings.png)
 
 ####Javascript conflict
 
@@ -217,7 +217,7 @@ It is not exactly a solution. Its a troubleshooting method. Open your website in
 You can see the Developer Tools window opening at the bottom of the browser. Navigate to the Console tab.
 
 Now Refresh your website. The Console tab will show you if there are any javascript conflicts in your site. It will also show you the file name and the line number that produce the error. Take a screenshot and send it to us and also send a copy to your template provider. We will check and get back to you with the solution.
-![](assets/images/developer_tools_console.png)
+![](./assets/images/developer_tools_console.png)
 
 ####JSON support
 
@@ -229,7 +229,7 @@ You can check whether JSON support enabled or not in the PHP Information tab. if
 
 You can look for something like below in the PHP Information tab.
 
-![](assets/images/json_setup.png)
+![](./assets/images/json_setup.png)
 
 <a name="checkout_field_language"></a>
 ##HOWTO make checkout address field labels language friendly
@@ -314,8 +314,8 @@ Fill in the title, description, add an image and set all other fields and Save.
 Go to J2Store cart tab and set all the fields and Save.
 
 Now go to files tab in the navigation you can see Set product files button.
-![](assets/images/product_down_files_1.png)
-![](assets/images/product_down_files_2.png)
+![](./assets/images/product_down_files_1.png)
+![](./assets/images/product_down_files_2.png)
 
 <a name="override_addtocart"></a>
 ##HOW TO override the layout of Add to cart block
@@ -412,7 +412,7 @@ Go to J2Store - Configuration - Product tab.
 Set Product option price prefix to HIDE
 
 Save
-![](assets/images/priceprefix_1.png)
+![](./assets/images/priceprefix_1.png)
 ####Product list layout:
 
 If you use the J2Store's product list layout, then you will find a similar switch in the menu parameters.
@@ -422,7 +422,7 @@ Open the menu that links your product list layout and go to Common Options.
 Set Product option price prefix to HIDE
 
 Save
-![](assets/images/priceprefix_2.png)
+![](./assets/images/priceprefix_2.png)
 
 <a name="no_add_to_cart"></a>
 ##I don't see Add to Cart Button. What is the problem?
@@ -475,7 +475,7 @@ There are a few steps involved in using the plugin tag feature. Read on to under
 Go to Joomla admin - J2Store - Configuration - Cart tab
 
 Set the Add to cart placement to Within article using tag and save. (See the picture given below).
-![](assets/images/cart_placement.png)
+![](./assets/images/cart_placement.png)
 ```
 NOTE: You can also set the param to BOTH. In that case, the cart block will display at two places - a place where you entered the plugin tag and its default location.
 ```
@@ -486,7 +486,7 @@ NOTE: You can also set the param to BOTH. In that case, the cart block will disp
 
  Go to the J2Store Cart tab. You will find the plugin tag to use for the product.
  (see the screenshot below)
- ![](assets/images/cart_tag.png)
+ ![](./assets/images/cart_tag.png)
  
  Either copy the plugin tag  and note it down. In this example, the following plugin tag is used {j2storecart 2} Here 2 is the product ID (aka, Article ID )
 
@@ -576,7 +576,7 @@ Text: Your translation
 Check the For Both locations
 
 Save.
-![](assets/images/translation_addres_fields.png)
+![](./assets/images/translation_addres_fields.png)
 
 You can repeat this steps for your second, third, and other languages.
 
@@ -904,7 +904,7 @@ templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 ####Product view
 
 Open your sub-template folder where you can find the files with name started with view_(for example, view_simple.php, view_images.php, view_options.php, view_notabs.php, etc). Those files controlled all the features displaying in the Product view page.
-![](assets/images/template_guide_product_view.png)
+![](./assets/images/template_guide_product_view.png)
 
 **OVERRIDE PATH**
 templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
@@ -925,7 +925,7 @@ templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 ####Cart page
 
 Cart page is controlled by the files located in the follwing path /components/com_j2store/views/carts/tmpl
-![](assets/images/template_guide_cart.png)
+![](./assets/images/template_guide_cart.png)
 
 **OVERRIDE PATH**
 templates/YOUR-TEMPLATE/html/com_j2store/carts/
@@ -1002,7 +1002,7 @@ When you are searching product using joomla search, clicking on product name in 
 By default, J2Store has Search plugin included in the package so go to **Extensions -> Plugins** and choose type **Search**.
 
 You can find the plugin Search - J2Store.
-![](assets/images/search_j2store_01.png)
+![](./assets/images/search_j2store_01.png)
 
 Enable / open the plugin and setup the configurationsas like in the below screenshot.
-![](assets/images/search_j2store_02.png)
+![](./assets/images/search_j2store_02.png)
