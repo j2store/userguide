@@ -91,10 +91,10 @@ Here you can edit the billing and shipping layouts by re-ordering the fields or 
 
 For example, if you have created the field called custom_address3 with the selection of billing address layout in custom field display settings and if you want to display it in the checkout layout, add it in the billing layout section in the J2store configuration checkout layout tab.
 
-Field name should be enclosed with [ ] (for example,**[custom_address3]**)
+Field name should be enclosed with square brackets (for example,**[custom_address3]**)
 
 Refer the below pictures.
 
-![](assets/images/customfield.png)
+![](./assets/images/customfield.png)
 
-![](assets/images/add_custom_field_checkout.png)
+![](./assets/images/add_custom_field_checkout.png)
