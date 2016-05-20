@@ -69,15 +69,15 @@ Click the Populate/re-set button and Save
 ####Shipping Not Working
 Make sure about two things
 1.Setting under J2Store > Configuration > Store > Weight Unit
-![alt tag](assets/images/faq_shipping.png)
+![alt tag](./assets/images/faq_shipping.png)
 
 2.Setting under Edit Product > shipping tab
 
 * Enable shipping.
 * The configured shipping rates with shipping rates does has an entry with matching rate.
 For eg: In case the item has 829 grams, you have to configure a rate between 800 and 1000 and the estimate shipping lists the rate.
-![](assets/images/faqshipping_1.png)
-![](assets/images/faqshipping_2.png)
+![](./assets/images/faqshipping_1.png)
+![](./assets/images/faqshipping_2.png)
 
 <a name="order_listed_without_payment"></a>
 ####Why the order is listed in the backend even didnt make a payment? How to see the paid products?
@@ -114,7 +114,7 @@ to
 /templates/YOUR_TEMPLATE/html/com_j2store/templates/default/view_image.php
 
 edit the file and remove the highlighted line fully.
-![](assets/images/previewimage.png)
+![](./assets/images/previewimage.png)
 
 <a name="remove_thumbnail"></a>
 ####Remove Thumbnail image
@@ -240,7 +240,7 @@ Save.
 Go to menu manager and open the menu which links to J2store > Product List View. You can find the filter settings in Item view options in category listings.
 
 Please refer the below image which shows the name of the filters.
-![](assets/images/faq_filter.png)
+![](./assets/images/faq_filter.png)
 
 **To hide Top bar filter completely:** Set HIDE to Top bar filters.
 
@@ -258,9 +258,9 @@ Please refer the below image which shows the name of the filters.
 
 **To hide all filters(price filter, category filter, manufacturer filter, product filter):** Set HIDE to Sidebar filters. You can change the positon of sidebar filter by changing the postion of sidebar filters to Right and Left.
 
-![](assets/images/product_list_view_10.png)
+![](./assets/images/product_list_view_10.png)
 
-![](assets/images/product_list_view_11.png)
+![](./assets/images/product_list_view_11.png)
 
 <a name="reorder_checkout_fields"></a>
 ####Re-order checkout fields
