@@ -5,15 +5,15 @@
 Coupons are vouchers preloaded with specific values and discount credentials that enable customers to shop online with extra privileges.
 
 
-![](assets/images/coupon_basic.png)
+![](./assets/images/coupon_basic.png)
 
 The above image shows how to create a coupon and add the details for a coupon. See the images below for a complete information on creating a coupon.
 
-![](assets/images/coupon_adv1.png)
+![](./assets/images/coupon_adv1.png)
 
-![](assets/images/coupon_adv2.png)
+![](./assets/images/coupon_adv2.png)
 
-![](assets/images/coupon_uselimit.png)
+![](./assets/images/coupon_uselimit.png)
 
 Coupons hold the following information required for a successful process of purchase.
 
