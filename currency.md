@@ -53,4 +53,4 @@ The image above indicates how to add or edit a currency.
 Prices should also be entered with the . (DOT) as the decimal separator.
 In the currency settings screen, as mentioned in the below picture, you can change the formatting option. This will automatically display the prices with comma.
 
-![](assets/images/Selection_044.png)
+![](./assets/images/Selection_044.png)
