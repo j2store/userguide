@@ -19,7 +19,7 @@ Go to http://transifex.com and create an account. Its FREE.
 **Step 2**
 
 Joomla has a group of volunteers for translation. The group works under the name of Open Translators. Its a hub project for the translation of all joomla extensions. So go to the Open Translators hub project at https://opentranslators.transifex.com
-![](./assets/images/opentranslators.png)
+![](./assets/images/translation_02.png)
 
 You will see almost all languages listed there. In case, you dont find your language, you can Request language. But that wont be necessary as all the languages are already listed.
 
@@ -28,25 +28,25 @@ So go ahead and click your language. Say, you need German translation. Click the
 **Step 3**
 
 Join the team of your language. You can find the Join team button on the top right of the page. See the image below
-![](./assets/images/j2store_select.png)
+![](./assets/images/translation_03.png)
 
 It would take some time for the co-ordinators of the language team to approval your joining request.
 
 **Step 4**
 
 Once you joined, go to https://opentranslators.transifex.com and the choose J2Store from a list of child projects. Start typing a few letters in the box and you can get to see J2Store project. See the image below.
-![](./assets/images/child_projects.png)
+![](./assets/images/translation_04.png)
 
 Once you choose J2Store you can see a list of the language resources. They are normally the standard Joomla language ini files for admin and site side of the J2Store component. We call these files in Transifex as resources.
-![](./assets/images/language_resources.png)
+![](./assets/images/translation_05.png)
 
 **Step 5**
 
 Click a resource to start translating. For example click on the J2Store →  admin_com_J2Store_menu. This will open a pop up.
-![](./assets/images/start_translate.png)
+![](./assets/images/translation_06.png)
 
 Click on the translate now. This will take you to the translations mangement window.
-![](./assets/images/translation_window.png)
+![](./assets/images/translation_07.png)
 
 In the top right corner, you can see the source language and language of file being translated.
 
