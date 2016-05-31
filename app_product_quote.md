@@ -21,6 +21,10 @@ This app allows customer to enquire a product or to ask quote for a product thro
 
 ####Configuration
 
+* ***Enable Ask quote button for all products***
+
+  Select **YES or NO** to enable and disable the Ask quote button for all products.
+
 * ***Display add to cart button ?***
 
   Select **YES or NO** to hide the Add to cart button.
@@ -32,7 +36,7 @@ This app allows customer to enquire a product or to ask quote for a product thro
 * ***Display button/link***
 
   Selecting display type here will make the text to be displayed in button / link.
-  ![](./assets/images/product_quote_new_02.png)
+  ![](./assets/images/product_quote_001.png)
   
 * ***Display text for button/link***
 
@@ -61,8 +65,23 @@ This app allows customer to enquire a product or to ask quote for a product thro
   [PRODUCT_SKU]
   [PRODUCT_PRICE]
   
+#### Enable quote for per product
+
+1. This app allows you to enable Ask quote button for specific product.
+2. Go to Article manager and open the article.
+3. Under the J2Store cart tab, navigate to the Apps menu.
+4. Enable the Ask quote button by setting **YES** to Enable ask question / quote. Refer the image below.
+![](./assets/images/product_quote_003.png)
+
 ####Frontend
-![](./assets/images/product_quote_03.png)
+
+**SINGLE PRODUCT**
+![](./assets/images/product_quote_04.png)
+
+**ALL PRODUCTS**
+![](./assets/images/product_quote_002.png)
+
+![](./assets/images/product_quote_05.png)
 
 ####Support
 
