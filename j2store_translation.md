@@ -5,7 +5,7 @@ Translating J2Store in your language is very easy. All the language files are ma
 #### Check exisiting translations
 
 Go to http://J2Store.org/translations.html to check if the translation for your language is available. If you see your language listed and the progress bar indicating 100 %, then you can click on the name of your language to download the translation pack.
-![](./assets/images/language_download.png)
+![](./assets/images/translation_01.png)
 It is an installable pack. You can install it via the Joomla installer.
 
 #### Translations for my language is not complete
