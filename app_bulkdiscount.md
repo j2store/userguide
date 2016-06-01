@@ -73,6 +73,31 @@ You can also restrict the application of the discount depending on the customer 
      
  ![](./assets/images/bulkdiscount_global.png)
  
+####Bulk Discount for category
+
+This app will allow you to set discount by category wise. Go to Content > Categories > Open the category(to which you want to set bulk discount) > Bulk Discount tab.
+
+* ***Enable Bulk Discount***
+
+     Set this **YES** to enable the bulk discount for the category.
+     
+* ***Apply Bulk discount for***
+
+  **Cart Qty :**This will apply the discount globally i.e. based on the cart quantity. This will work only when you enable the bulk discount globally in Global discount settings.
+  
+  **Line item Qty :**This will apply the discount based on the product. You can set discount to the product individually in the apps tab on j2store cart. Once you enabled Line item Quantity, the discount will be applied to the individual products.
+     
+* ***Discount type***
+
+     **Fixed amount per product : **Enable this will calculate the discount on fixed price.
+     **Cart Percentage : **Enable this will calculate the discount based on percentage.
+     
+* ***Promotional text to show under each item in the cart(only for cart page)***
+
+     Custom text entered here will be displayed under each product in the cart.
+     
+![](./assets/images/bulk_discount_category.png)
+ 
 ####Video tutorial
 
 **[Here is the link](https://www.youtube.com/watch?v=EGW0Ol5o3jA)** to bulk discount video tutorial.
