@@ -1,4 +1,4 @@
-#Payment Checkout Finland
+#Checkout.fi
 This plugin integrates Checkout payment Finland with J2store.
 
 ####System Requirements
