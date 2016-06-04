@@ -16,8 +16,10 @@ Find the language constant for the text which you want to translate.
 Once find the language constant, go to Extensions > Language > Overrides
 
 Before creating the override, set the Filter to ADMINISTRATOR (of the language that you wanted to create override. Say, your language is French. Then you should select the German (fr-FR) Administrator in the filter)
+![](./assets/images/plugin_lang_override_05.png)
 
 Click **NEW** button.
+
 ![](./assets/images/plugin_lang_override_04.png)
 
 Enter your language constant in the language constant text box and enter the value in the Text box.
