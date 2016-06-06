@@ -9,11 +9,10 @@ J2Store offers you to set advanced pricing for your product. The following steps
 * Click on J2Storecart tab and navigate to the **Pricing** menu.
 
 * Click on **Set Prices** to set advanced pricing.
-
- ![](assets/images/adv_pricing_01.png)
+![advance_price_01](assets/images/advance_price_01.png)
 
 * Clicking on set prices button will display you the pop-up screen with several options like below image
-![](assets/images/adv_pricing_02.png)
+
 
 ####Step 2 Configure the settings
 
@@ -33,10 +32,6 @@ J2Store offers you to set advanced pricing for your product. The following steps
 
   Enter your price and click create button.
   
-  ![](assets/images/adv_pricing_03.png)
+
   
 ####Frontend Demo
-
-![](assets/images/adv_pricing_04.png)
-
-![](assets/images/adv_pricing_05.png)
