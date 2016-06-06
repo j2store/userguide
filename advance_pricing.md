@@ -39,4 +39,8 @@ J2Store offers you to set advanced pricing for your product. The following steps
 
 ![](./assets/images/adv_pricing_04.png)
 
+<<<<<<< HEAD
 ![](./assets/images/adv_pricing_05.png)
+=======
+![](./assets/images/adv_pricing_05.png)
+>>>>>>> 2647af2528b7f80c7832cb1d97a689ff20b337b8
