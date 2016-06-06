@@ -9,10 +9,9 @@ J2Store offers you to set advanced pricing for your product. The following steps
 * Click on J2Storecart tab and navigate to the **Pricing** menu.
 
 * Click on **Set Prices** to set advanced pricing.
-![advance_price_01](assets/images/advance_price_01.png)
+![advance_price_01](assets/images/acymail-app-4.png)
 
 * Clicking on set prices button will display you the pop-up screen with several options like below image
-
 
 ####Step 2 Configure the settings
 
