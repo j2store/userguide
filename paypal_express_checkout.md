@@ -1,8 +1,12 @@
 # Paypal Express Checkout
 
-Buyers can checkout without leaving the merchant’s site via a PayPal in-context checkout window overlaying the merchant’s site or pay on PayPal’s secure site and return to the merchant’s site to complete the transaction; in the case of in-context checkout, the merchant’s site remains visible in the background.
+This feature saves your customer the trouble of entering billing and shipping information again and again. This is how it works.
+Once the customer saved his API credentials in plugin's configuration, the paypal express checkout button will be added in the cart page
+After the adding to cart process two options are presented to him. 
+* Confirm Order
+* Proceed to checkout (default option and you can hide this in plugin's param setting)
 
-IMPORTANT NOTE: If the customer's browser blocks the popup (in-context checkout window), then the customer will be redirected to Paypal website for making payment. Please note that we cannot bypass if customers browser blocks the popup. If the popup is blocked, customer will be automatically redirected to the paypal's website for payment.
+When the first option is selected (Confirm Order option), the customer can directly checkout without having to enter his billing/shipping details. Paypal can directly access customer information that has already been saved.
 
 ####System Requirements
 
