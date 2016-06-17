@@ -50,7 +50,7 @@ The plugin has the following parameters need to be addressed.
 **Payment Process Domain**
 
   Add Payment Process Domain provided by the CardSave when you signup.
-  ![](assets/images/cardsave_one.png)
+  ![](./assets/images/cardsave_one.png)
   
 **Payment Process Port**
 
@@ -79,7 +79,7 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 **Display text before payment**
 
   The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
-  ![](assets/images/cardsave_two.png)
+  ![](./assets/images/cardsave_two.png)
 **Display text on after payment**
 
   The text entered here will be displayed when customer completes the payment.
@@ -100,7 +100,7 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 **Debug**
 
   Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
-  ![](assets/images/cardsave_three.png)
+  ![](./assets/images/cardsave_three.png)
 ####Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
