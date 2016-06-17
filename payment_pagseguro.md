@@ -41,7 +41,7 @@ The plugin has the following parameters need to be addressed.
 **Use Sandbox**
 
   Pagseguro offers a testing suite called Sandbox. Before going live, you can test your store using the pagseguro's sandbox feature.
-  ![](assets/images/pagseguro_1.png)
+  ![](./assets/images/pagseguro_1.png)
 **Sandbox Email**
 
   Enter your pagseguro's sandbox Email ID.
@@ -69,7 +69,7 @@ The plugin has the following parameters need to be addressed.
 **Display text before payment**
 
   The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
-  ![](assets/images/pagseguro_2.png)
+  ![](./assets/images/pagseguro_2.png)
   
 **Display text on after payment**
 
@@ -98,7 +98,7 @@ The plugin has the following parameters need to be addressed.
 **Debug**
 
   Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
-  ![](assets/images/pagseguro_3.png)
+  ![](./assets/images/pagseguro_3.png)
 ####Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
