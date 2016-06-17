@@ -94,7 +94,7 @@ The below image illustrates the settings of parameters:
 #### Front page
 Go to J2store Product Shop 
 You can see the information displayed about the rewards and points.
-![](product_page.png)
+![](./assets/images/points_rewards_front.png)
 
 
 
