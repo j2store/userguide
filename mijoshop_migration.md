@@ -38,3 +38,19 @@ Select the table prefix from the dropdown list and click on **Launch Migration**
 ![](./assets/images/mijoshop_launch_migration.png)
 
 **NOTE**: When migration is under progress, the next button is disabled and please do not refresh the page and wait until the process gets completed.
+
+#### Launch Migration
+
+Click Start Migration
+
+![](./assets/images/mijo_step_01.png)
+
+Click on next will start migration step by step
+
+![](./assets/images/mijo_step_02.png)
+
+Product option migrated. Click next to initiate next migration step.
+![](./assets/images/mijo_step_03.png)
+![](./assets/images/mijo_step_04.png)
+![](./assets/images/mijo_step_05.png)
+![](./assets/images/mijo_step_06.png)
