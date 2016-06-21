@@ -19,19 +19,22 @@ plugin. (type=**j2store**).
 
 Now you can see the Email Basket button in the cart page.
 
-#### Parameters
-**Custom fields display type**
+## Parameters
 
-You can get the name and address of the customer, while he
-emails you the cart. If you need some more input from the customer, go to j2store –> set up –> custom fields.
-
-You can create more custom fields for the users to fill in while emailing the basket.
-
-It can either be based on the Guest display layout or the register layout.
+#### Basic settings
 
 **Disable proceed checkout**
 
-If you set this to YES, the plugin will hide the checkout button in the cart
+If you set this to YES, the plugin will hide the checkout button in the cart.
+
+**Enable show save cart button**
+
+Set **YES** will display the Save cart button(which is used for un-registerd users) in cart page. Clicking on this button will redirect the customer to register. After registering and loggin in, the cart items remains in the basket.
+![](./assets/images/newemail_03.png)
+
+**Send email to Admin**
+
+Set this **YES** will send the email to admin also.
 
 **Empty cart after sending email**
 
@@ -41,11 +44,33 @@ If you set this to YES, the plugin will empty the cart after emailing the cart i
 
 You can set a delay for emptying the cart. Default is 2 seconds.
 
-**Address field order in email**
+**Email Subject**
 
-Here you can define the fields by enclosing the square bracket as well as html tags. You can re-arrange the ordering of fields.
+Enter the subject of the email here.
 
-![](./assets/images/email_basket.png)
+**Email Body**
+
+In the Email body section, you can use the shortcodes to display the dynamic information such as customer's name, email, country, cart items, etc..
+![](./assets/images/newemail_01.png)
+
+#### Advanced
+
+**Modal box container Inline Style**
+
+You can add the additional inline style to the modal box container in the given text box.
+
+**Modal box container extra class**
+
+You can add the additional class names to the modal box container in the given text box.
+
+**Modal style**
+
+You can add the custom css in the given text area.
+
+**Redirect customer to this URL**
+
+Enter the URL to which the customer should be redirected on the form submission.
+![](./assets/images/newemail_02.png)
 
 ####Video Tutorial
 
