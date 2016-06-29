@@ -84,6 +84,8 @@ Open the app and click **Add New** button to create new one.
 
 #### Frontend
 
+If Auto apply additional fee in checkout is set to **NO**,
 ![front_01](./assets/images/addfee_front_01.png)
 
+If Auto apply additional fee in checkout is set to **YES**,
 ![front_02](./assets/images/addfee_front_02.png)
