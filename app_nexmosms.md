@@ -17,10 +17,10 @@ Now you can integrate Nexmo in your online store. With Nexmo app you can send SM
 2. In the backend, go to J2Store > Dashboard > Apps.
 
 3. Click **Enable** in the Nexmo SMS app as shown in the image below.
-![](./assets/images/nexmo_enable.png)
+![](./assets/images/enable_nexmo_app.png)
 
 4. Once app is enabled, click **open** to setup the Basic settings of the app.
-![](./assets/images/nexmo_open.png)
+![](./assets/images/open_nexmo_app.png)
 
 #### Basic Settings
 
