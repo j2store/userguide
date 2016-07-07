@@ -44,7 +44,7 @@ You can install this USPS shipping plugin, using joomla installer.The following 
 
 #### USPS API SETTINGS
 
-#### 1) Web Tools Username
+##### Web Tools Username
 
 Enter the valid username associated with your USPS account.
 
