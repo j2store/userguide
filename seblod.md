@@ -248,3 +248,48 @@ When you add the articles to your cart and click on the checkout link, the  fron
 ![](./assets/images/checkout-page.png)
 
 You can checkout with a single click. It is not necessary for you to be a registered user. You can checkout as a guest. Later if you want, you can register.
+
+#### Solve introtext displaying twice
+
+Sometimes you may face trouble in displaying short description and long description (i.e.) it displays the introtext twice instead of displaying the introtext and the fulltext.
+
+If you face above issue, please try below solution which will solve your problem.
+
+Copy /components/com_j2store/templates/default/view_ldesc.php
+
+to
+
+/templates/YOUR-TEMPLATE/html/com_j2store/templates/default/view_ldesc.php
+
+Edit the file and replace the content with following code snippet
+```php
+<?php if($this->params->get('item_show_ldesc', 1)): ?>
+	<div class="product-ldesc">
+		<?php // echo $this->product->product_long_desc; ?>
+	
+	<?php 
+	// query and extract the full text
+	$fulltext = '';
+	if ( $product->product_source_id > 0 ) {
+		
+		$db = JFactory::getDbo();
+		$qry = $db->getQuery(true);
+		$qry -> select('*') 
+			 -> from('#__content')
+			 -> where('id='.$product->product_source_id);
+		$db->setQuery($qry);
+		$item = $db->loadObject();
+		$raw_text = '';
+		$raw_text = $item->introtext;
+
+		$st = strpos($raw_text,"::fulltext::") + 12 ;
+		$len = strpos($raw_text,"::/fulltext::") - $st;
+		$fulltext = substr($raw_text, $st, $len );
+	}
+	
+		echo $fulltext;
+ 	?>
+
+	</div>
+<?php endif; ?>
+```
