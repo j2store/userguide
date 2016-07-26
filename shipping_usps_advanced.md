@@ -74,7 +74,7 @@ If you need to charge a handling cost for the shipping, you can enter here.
 
 Select the desired unit in which you want to measure the dimension, like, inch, milimeter and centi metre. Preferred unit **Inch**.
 
-##### weight unit
+##### Weight unit
 
 Select the desired unit in which you want to measure the weight, like, kilograms, pounds etc. Preferred unit **Pound**.
 
@@ -104,7 +104,7 @@ Refer the below image
 
 ####  Enable standard api service
 
-If you choose yes means api services gets enabed. Set no means api services are not gets activated.
+Set this to **YES** will enable the standard API service of USPS (i.e) once standard API enabled, it will pass to the USPS server and get the standard rates from USPS server.
 
 ##### Shipping rate based on ?
 
@@ -112,17 +112,17 @@ There are 2 options available
 
 1)**Commercial Rate :**
 
- Commercial Base Pricing is always cheaper than the retail rates.Commercial Base Pricing is a discounted rate offered to U.S. Postal Service (USPS) to customers.It is the common price for all the customers of USPS.
+Commercial Base Pricing is always cheaper than the retail rates. Commercial Base Pricing is a discounted rate offered to U.S. Postal Service (USPS) to customers. It is the common price for all the customers of USPS.
 
 2)**Retail rates :**
 
-shipping rate changes based on the surcharges, fees, and other factors. 
+Shipping rate changes based on the surcharges, fees, and other factors.
 
 ##### Packing type
 
 Usps offes 3 types of packing.
 
-1) Individual Packing:
+**1) Individual Packing**
 
 Each products cosider as a seperate unit and packing it into the individual boxes. Each product will be packed seperately.
 
@@ -133,9 +133,9 @@ Output will diplayed as like below image
 ![](./assets/images/out.png)
 
 
-2)Box packing :
+**2)Box packing :**
 
-The box packing included with this shipping method lets you pack all the items into sing box for which you define height, width, length, weight and max-weight. Packing is mainly volume based but also considers item size.
+The box packing included with this shipping method lets you pack all the items into single box for which you have to define height, width, length, weight and max-weight. Packing is mainly volume based but also considers item size.
 ![](./assets/images/Box.png)
 
 If you choose box packing then you will have to create/set box size.The box will have the following fields.
@@ -152,12 +152,12 @@ If you choose box packing then you will have to create/set box size.The box will
 
 + Letter: This checkbox determines whether your package is a letter (envelope) or a box.
 
-After configuring the USPS settinga, then the important thing you have to do is to enter the dimensions for your product. Refer the image below
+After configuring the USPS settings, then the important thing you have to do is to enter the dimensions for your product. Refer the image below
 ![](./assets/images/dimension.png)
 
-3)Weight Based Packing :
+**3)Weight Based Packing :**
 
-In this each product has different weight.Product having less than 70 lbs will be packed up into the single pack. If the products exceeds the 70 lbs it does not pack up.
+In this each product has different weight. Product having less than 70 lbs will be packed up into the single pack. If the products exceeds the 70 lbs it does not pack up.
 
 ![](./assets/images/weight.png)
 
@@ -216,5 +216,36 @@ Refer the below images
 
 ![](./assets/images/Express1.png)
 
+#####Advanced package handling
 
+This type of handling method applies to Box packing type and Flat rate services. For scenario, consider you are having only two boxes (Box 1, Box 2) and 7 items needs to be packed. Pack the first three items into Box 1 and second three items into Box 2. To pack the item 7, you need one more box (Box 3). So you need multiple boxes to pack the items. In this case, you can decide the cost for additonal box should be applied or not.
 
+By this Advance Package handling method you can use the following options to charge and un-charge the unpacked item.
+
+**Unpacked item handling**
+
+* **Get a quote for the unpacked item by itself**
+
+  Choosing this option will get a quote or charge for the unpacked item (i.e.) it will display the charge for multiple boxes (Box 1, Box 2, Box 3). This is the default option.
+  
+* **Ignore item - do not quote**
+
+  Choosing this option will display the charge for Box 1 and Box 2 and will ignore the Box 3.
+  
+* **Abort - do not return any quotes for the standard service**
+
+  Choosing this option will cancel sending quotes for all the boxes.
+  
+![](./assets/images/usps_adv_pack_01.png)
+  
+**If multiple boxes are required for shipping?**
+
+* **Quote by adding the cost for all boxes required for packing**
+
+  This is the default option. Choosing this option will add the cost for all the boxes (Box 1, Box 2, Box 3).
+  
+* **Abort - do not return any quotes**
+
+  Choosing this option will cancel quotes for all the boxes and will not return any cost.
+
+![](./assets/images/usps_adv_pack_02.png)
