@@ -54,3 +54,11 @@
  **j2store-checkout-bottom** - Bottom of checkout page
  ![](./assets/images/spl_mod_pos_11.png)
  ![](./assets/images/spl_mod_pos_12.png)
+ 
+#### Checkout Results page
+
+ **j2store-postpayment-top** - Top of Checkout Results page
+ 
+ **j2store-postpayment-bottom** - Bottom of Checkout Results page
+ ![](./assets/images/spl_mod_pos_13.png)
+ ![](./assets/images/spl_mod_pos_14.png)
