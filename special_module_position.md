@@ -1,6 +1,7 @@
 # Special Module Positions
 
-  J2store offers special module positions to place the Joomla's custom HTML module. 
+  J2store offers special module positions to place the Joomla's custom HTML module  or any other modules(for example, cart module) in store pages.
+  
   * Go to Extensions -> Modules and create new custom module.
   * Enter the title and set the status to **Published**.
   * Simple copy the module position from the list given below and paste it in the position search box and press **Enter**.
