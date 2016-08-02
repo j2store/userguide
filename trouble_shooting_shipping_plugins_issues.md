@@ -28,7 +28,7 @@ There are certain common issues that prevents the shipping methods from showing 
 
 Well. This might sound trivial. But some of us often forget to turn on the Enable shipping switch while creating the product. Make sure that Enable shipping is set to YES.
 By default, Enable Shipping is set to NO. So this should be your first check.
-![enable shipping in product](./assets/images/enable_shipping_in_item.png)
+![enable shipping in product](./assets/images/shipping_enable_item.png)
 
 <a name="geozone"></a>
 
