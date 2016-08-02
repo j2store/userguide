@@ -144,7 +144,7 @@ State            : Published
 
 **5. Applying tax profile to a product**
 
-![vat 2015 product]()
+![vat 2015 product](./assets/images/vat_2015_product.png)
 
 J2Store uses native Joomla articles as products. So go ahead and create a product.
 
