@@ -63,3 +63,20 @@
  **j2store-postpayment-bottom** - Bottom of Checkout Results page
  ![](./assets/images/spl_mod_pos_13.png)
  ![](./assets/images/spl_mod_pos_14.png)
+ 
+## Special Module Positions for J2Store Dashboard
+
+There is also special module positions available for customizing J2Store Cpanel(Dashboard).
+
+**j2store-module-position-1**
+**j2store-module-position-3**
+**j2store-module-position-4**
+**j2store-module-position-5**
+
+Go to Extensions > Modules
+Choose **Administrator** section
+Click New and choose custom module
+Enter the name of the module and set the position to one of J2Store backend special module positions(given above). See the screenshots below,
+![](./assets/images/spl_mod_pos_16.png)
+![](./assets/images/spl_mod_pos_15.png)
+![](./assets/images/spl_mod_pos_17.png)
