@@ -38,3 +38,9 @@ Step 5: Enter your value (in our example My Name) in the Text box.
 Step 6: Save.
 
 You can create as many overrides as you like in this method.
+
+####Video tutorials
+
+**[Method 1](https://www.j2store.org/support/video-tutorials/language-override-by-searching-language-constant.html)**
+
+**[Method 2](https://www.j2store.org/support/video-tutorials/language-override-by-referring-language-file.html)**
