@@ -70,3 +70,7 @@ You get full access to all the files and folders in a user's Dropbox.
 ![](./assets/images/dropbox_07.png)
 
 #### Support
+
+Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
+
+Thank you for using our extension.
