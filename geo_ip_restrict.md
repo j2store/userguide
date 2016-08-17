@@ -5,11 +5,8 @@ Geo IP restricts helps you restrict customers from a certain geographical region
 #### Requirements
 
 * PHP 5.4 or higher
-
 * Joomla 3.x
-
 * J2Store 3.2.14 or higher
-
 * Akeeba Geoip provider plugin
 
 #### Installation
