@@ -29,6 +29,7 @@
 * **[HOW TO set up and enable SSL in Joomla](#enable_ssl)**
 * **[How to solve the product link in search results](#j2store_search)**
 * **[How to troubleshoot email related issues](#email_troubleshoot)**
+* **[[HOW TO]Fix product you are trying to access is disabled](product_disable_error)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -1064,3 +1065,12 @@ There can be a number of reasons why a customer or the store administration has 
   
 
   Still have issues ? Post your issues in the community forums if you are a free version user. Subscribers, create a private ticket providing super user logins to your site.
+
+<a name="product_disable_error"></a>
+##[HOW TO]Fix product you are trying to access is disabled
+
+There 3 reasons behind this warning message.
+
+1. If the product you are trying to access is the variable product and you have not yet generated the variants for that product, this kind of warning message will be shown.
+2. You might be having same alias name for the two products.
+3. Alias name of the product might be in number.
