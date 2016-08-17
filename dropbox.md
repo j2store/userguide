@@ -28,7 +28,7 @@ Sell your files stored in dropbox with J2Store Joomla eCommerce platform. The ap
 **Dropbox Key:** Enter the valid app key associated with your dropbox account.
 
 **Dropbox secret key:** Enter the valid app secret key associated with your dropbox account.
-![](./assets/images/dropbox_08.png)
+![](./assets/images/dropbox_008.png)
 
 ####How to Generate access token, key and secret key?
 
