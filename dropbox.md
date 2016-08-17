@@ -42,9 +42,9 @@ Sell your files stored in dropbox with J2Store Joomla eCommerce platform. The ap
 
 * Choose your access type.
 ***App folder***
-A dedicated folder named after your app is created within the Apps folder of a user's Dropbox. Your app gets read and write access to this folder only and users can provide content to your app by moving files into this folder.
+A dedicated folder named after your app is created within the Apps folder of a user's Dropbox. Your app gets read and write access to this folder only.
 ***Full Dropbox***
-You get full access to all the files and folders in a user's Dropbox.
+You get full access to all the files and folders in a Dropbox.
 
 * Give the name for your app and agree terms and conditions and click create app.
 ![](./assets/images/dropbox_03.png)
