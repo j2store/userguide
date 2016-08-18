@@ -33,12 +33,13 @@ Go to J2Store > Dashboard > Apps and open the Geo IP Restricts app.
 ![](./assets/images/geoprod_03.png)
 
 **Step-2**
-On opening the app, you will be having the option to choose how the product should be hidden. For example, you can hide only the cart button or hide the entire product or restrict adding product to the cart.
+On opening the app, you will be having the following options:
+**Function type:** Here you have to choose the functional type of app. Choosing **NO** will hide the product visibility to the countries selected. Choosing **YES** will make the product visible to the countries you selected.
 
-Choose your option from the dropdown list and press **Save** button.
+**Hide the product for countries in the selected geozones:** This option is used to choose which part of the product should be hidden in store front. You can hide either entire product or hide only the add to cart button. There is one more option in the dropdown which will show the entire product but block the cart function(customer from the selected country cannot add the item into the cart).
 
-![](./assets/images/geoprod_04.png)
-![](./assets/images/geoprod_05.png)
+![](./assets/images/geoprod_update_01.png)
+![](./assets/images/geoprod_update_02.png)
 
 **Step-3**
 
@@ -47,7 +48,7 @@ Choose your option from the dropdown list and press **Save** button.
 * Move to J2Store cart tab and navigate to Apps tab.
 ![](./assets/images/geoprod_06.png)
 
-* Choose the customer's country to which the product should be hidden.
+* Choose the customer's country to which the product should be hidden/visible.
 ```
 NOTE: You should create geozone for the country in J2Store -> Localization -> Geozones
 ```
