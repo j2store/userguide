@@ -1,4 +1,4 @@
-# Geo IP Restricts
+# GeoIP Product Rules
 
 Geo IP restricts helps you restrict customers from a certain geographical region from purchasing your products. With this app you can restrict purchase in two ways. You can block products from being viewed on certain regions. Or you can display a customised message that informs the customer that product is not available in his gepgraphical area.
 
