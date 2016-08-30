@@ -14,6 +14,7 @@ This plugin integrates Purolator shipping API with J2Store Joomla eCommerce solu
 * In Joomla backend, go to J2Store > Setup > Shipping methods
 * Enable and open the Purolator shipping plugin to configure the basic settings.
 ![enable](./assets/images/purolator_04.png)
+
 #### Basic Settings
 
 **API key:** Enter the valid API key provided by Purolator shipping.
