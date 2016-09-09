@@ -2,6 +2,9 @@
 
 Offer Gift Card purchase to your customers. Providing Gift cards widens your window of sales. With this plugin, Store Owners will be able to create and sell Gift cards. A gift card or cashcard is aumatically generated and sent as email.
 
+Gift Card app generates PDF and attached to the order email notification. This app requires DOMPDF library to generate and send PDF. You can download the DOMPDF library plugin and install it from here: https://bitbucket.org/j2store/plg_lib_dompdf/downloads/plg_library_dompdf.zip
+
+
 #### Requirements
 
 * PHP 5.4 or higher
