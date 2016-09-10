@@ -32,10 +32,6 @@ If you set this to YES, the plugin will hide the checkout button in the cart.
 Set **YES** will display the Save cart button(which is used for un-registerd users) in cart page. Clicking on this button will redirect the customer to register. After registering and loggin in, the cart items remains in the basket.
 ![](./assets/images/newemail_03.png)
 
-**Send email to Admin**
-
-Set this **YES** will send the email to admin also.
-
 **Empty cart after sending email**
 
 If you set this to YES, the plugin will empty the cart after emailing the cart items to store owner.
@@ -43,6 +39,13 @@ If you set this to YES, the plugin will empty the cart after emailing the cart i
 **Time delay in milliseconds to empty the cart**
 
 You can set a delay for emptying the cart. Default is 2 seconds.
+![](./assets/images/newemail_01.png)
+
+#### Email Configuration
+
+**Send email to Admin**
+
+Set this **YES** will send the email to admin also.
 
 **Email Subject**
 
@@ -51,7 +54,42 @@ Enter the subject of the email here.
 **Email Body**
 
 In the Email body section, you can use the shortcodes to display the dynamic information such as customer's name, email, country, cart items, etc..
-![](./assets/images/newemail_01.png)
+[first_name]
+[last_name]
+[email]
+[phone_1]
+[phone_2]
+[company]
+[tax_number]
+[address_1]
+[address_2]
+[city]
+[zip]
+[country_id]
+[zone_id]
+[cart_item]
+[user_name]
+[site_name]
+
+To display the custom field information (enterd by the user when filling form) in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor. For example, if you are having text area as a custom field in your email form, then copy the field name(you can get it in custom field section J2Store > Setup > Custom fields) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, [message]. Refer the image below,
+![](./assets/images/newemail_04.png)
+
+#### Layout
+
+If you would like to add / remove the fields in Email form without affecting checkout form fields, it is possible in this section.
+
+In this section, you can create the custom form by adding field shortcode given in the top of the layout tab page and display that field in the form.
+
+To add any new fields, go to J2Store > Setup > Custom fields. Click NEW to create new field.
+
+Enter the label name, field name, choose field type and set the status to **Published**.
+
+If you don't want to display this new field in checkout and wants to display it only in Email form, then in custom field display settings, set **NO** to all layouts (Checkout billing address layout, Checkout shipping address layout, Checkout payment method layout).
+
+Now, in form layout add the shortcodes of fields you want to display in email form. To add custom field shortcode, copy the field name in J2Store > Setup > Custom fields section and paste it in the form. The field name should be enclosed with square braces. For example, [message].
+![](./assets/images/product_quote_08.png)
+![](./assets/images/product_quote_06.png)
+![](./assets/images/newemail_05.png)
 
 #### Advanced
 
