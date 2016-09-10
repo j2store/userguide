@@ -87,10 +87,6 @@ Now, in form layout add the shortcodes of fields you want to display in product 
 ![](./assets/images/product_quote_08.png)
 ![](./assets/images/product_quote_06.png)
 ![](./assets/images/product_quote_07.png)
-
-```
-NOTE : The form must contain J2Store required core fields such as first_name, last_name, email, phone_2, address_1, city, zip, country_id, zone_id. If the form does not have these fields, then email won't be sent.
-```
   
 #### Enable quote for per product
 
