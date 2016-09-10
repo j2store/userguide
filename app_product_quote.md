@@ -19,7 +19,7 @@ This app allows customer to enquire a product or to ask quote for a product thro
 
 4. Once the app is enabled, open the app to configure the settings.
 
-####Configuration
+#### Basic Settings
 
 * ***Enable Ask quote button for all products***
 
@@ -43,6 +43,8 @@ This app allows customer to enquire a product or to ask quote for a product thro
   Change the button text / link text by entering custom text here.
   Use the language constant **PLG_J2STORE_PRODUCTQUOTE_LINK_TEXT** to translate the text when you are using multilingual site.
   
+#### Email Configuration
+
 * ***Email Body & Email Subject***
 
   Enter the body of the email and subject of the email here. You can use the below shortcodes in the text editor.
@@ -64,6 +66,28 @@ This app allows customer to enquire a product or to ask quote for a product thro
   [PRODUCT_NAME]
   [PRODUCT_SKU]
   [PRODUCT_PRICE]
+  
+To display the custom field information enterd by the user when filling form in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor. For example, if you are having text area as a custom field in your product quote form, then copy the field name(you can get it in custom field section J2Store > Setup > Custom fields) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, [message]. Refer the image below,
+![](./assets/images/product_quote_09.png)
+
+#### Layout
+
+If you would like to add / remove the fields in product quote form without affecting checkout form fields, it is possible in this section.
+
+In this section, you can create the custom form by adding field shortcode given in the top of the layout tab page and display that field in the form.
+
+To add any new fields, go to J2Store > Setup > Custom fields. Click NEW to create new field.
+
+Enter the label name, field name, choose field type and set the status to **Published**.
+
+If you don't want to display this new field in checkout and wants to display it only in product quote form, then in custom field display settings, set **NO** to all layouts (Checkout billing address layout, Checkout shipping address layout, Checkout payment method layout).
+
+Now, in form layout add the shortcodes of fields you want to display in product quote form. To add the custom field shortcode, copy the field name in J2Store > Setup > Custom fields section and paste it in the form. The field name should be enclosed with square braces. For example, [message].
+
+![](./assets/images/product_quote_08.png)
+![](./assets/images/product_quote_06.png)
+![](./assets/images/product_quote_07.png)
+
   
 #### Enable quote for per product
 
