@@ -50,5 +50,8 @@ There can be a number of reasons why a customer or the store administration has 
 
   The problem is with the customer's or the administrator's email. Ask your customer / store administrator to check their SPAM folders. If still not there, contact your hosting service provider.
   
+* ***Is your site hosted in GoDaddy?***
 
-  Still have issues ? Post your issues in the community forums if you are a free version user. Subscribers, create a private ticket providing super user logins to your site.
+  If you are using GoDaddy as your hosting service provider and did not receive the email, then change the subject of your email template. This broken host introduced unreasonable email filters recently, which prevent sending order notification emails.
+
+Still have issues ? Post your issues in the community forums if you are a free version user. Subscribers, create a private ticket providing super user logins to your site.
