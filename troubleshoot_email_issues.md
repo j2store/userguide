@@ -52,6 +52,6 @@ There can be a number of reasons why a customer or the store administration has 
   
 * ***Is your site hosted in GoDaddy?***
 
-  If you are using GoDaddy as your hosting service provider and did not receive the email, then change the subject of your email template. This broken host introduced unreasonable email filters recently, which prevent sending order notification emails.
+  If you are using GoDaddy as your hosting service provider and did not receive the email, then change the subject of your email template. This broken host introduced unreasonable email filters recently, which prevent sending order notification emails. Refer this thread https://www.j2store.org/forum/2-general-questions/5036-solved-order-email-sending-problems-with-godaddy.html
 
 Still have issues ? Post your issues in the community forums if you are a free version user. Subscribers, create a private ticket providing super user logins to your site.
