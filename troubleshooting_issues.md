@@ -29,7 +29,7 @@
 * **[HOW TO set up and enable SSL in Joomla](#enable_ssl)**
 * **[How to solve the product link in search results](#j2store_search)**
 * **[How to troubleshoot email related issues](#email_troubleshoot)**
-* **[[HOW TO]Fix product you are trying to access is disabled](product_disable_error)**
+* **[[HOW TO]Fix product you are trying to access is disabled](#product_disable_error)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
