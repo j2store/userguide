@@ -31,6 +31,7 @@ This app allows customer to view the product images (main image and additional i
 ![basicsetting_1](./assets/images/image_popup_01.png)
 
 **Popup image width (Photo Swipe):** Set the width of the image to be displayed in Photo swipe method.
+
 **Popup image height (Photo Swipe):** Set the height of the image to displayed in Photo swipe method.
 
 ![basicsetting_2](./assets/images/image_popup_02.png)
