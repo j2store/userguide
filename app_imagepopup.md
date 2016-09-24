@@ -38,6 +38,9 @@ This app allows customer to view the product images (main image and additional i
 
 #### Frontend Demo
 ![basicsetting_3](./assets/images/image_popup_03.png)
+
 ![basicsetting_4](./assets/images/image_popup_04.png)
+
 ![basicsetting_5](./assets/images/image_popup_05.png)
+
 ![basicsetting_6](./assets/images/image_popup_06.png)
