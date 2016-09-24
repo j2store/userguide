@@ -27,9 +27,12 @@ This app allows customer to view the product images (main image and additional i
 * **Photo Swipe:** This method allows you to swipe the image in popup and you will be having the share feature to share or tweet the image in social media.
 * **Light Gallery:** This type of popup method display the image in gallery type and it has the feature of slideshow, zoom in and zoom out.
 * **Fancy Box:** This type of popup method display the image in small fancy box.
+
 ![basicsetting_1](./assets/images/image_popup_01.png)
+
 **Popup image width (Photo Swipe):** Set the width of the image to be displayed in Photo swipe method.
 **Popup image height (Photo Swipe):** Set the height of the image to displayed in Photo swipe method.
+
 ![basicsetting_2](./assets/images/image_popup_02.png)
 
 #### Frontend Demo
