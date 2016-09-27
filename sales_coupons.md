@@ -38,6 +38,10 @@ Coupons hold the following information required for a successful process of purc
 * **Uses per coupon** - limit of using the coupon for privileges by any user, empty value is for unlimited use
 * **Uses per customer** - limit of using the coupon for privileges by one customer, empty value for unlimited use
 
+#### Free shipping after coupon applied
+
+![free-shipping](./assets/images/coupon_freeshipping_01.gif)
+
 ####Videos
 
 **[Coupon for selected product](https://www.youtube.com/watch?v=MS6BrPdDyVk)**
