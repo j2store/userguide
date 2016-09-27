@@ -30,6 +30,7 @@
 * **[How to solve the product link in search results](#j2store_search)**
 * **[How to troubleshoot email related issues](#email_troubleshoot)**
 * **[[HOW TO]Fix product you are trying to access is disabled](#product_disable_error)**
+* **[Is your digital product showing NEVER in expiry column](#download-expiry-never)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -1074,3 +1075,13 @@ There 3 reasons behind this warning message.
 1. If the product you are trying to access is the variable product and you have not yet generated the variants for that product, this kind of warning message will be shown.
 2. You might be having same alias name for the two products.
 3. Alias name of the product might be in number.
+
+<a name="download-expiry-never"></a>
+##Is your digital product showing NEVER in expiry column?
+
+When you change the order status to confirmed manually, you will have to do the below,
+
+Go to J2Store > Sales > Orders
+Open the order
+On the left side of order history page, check the checkbox **Reset download access expiry date** and save.
+![](./assets/images/download_expiry.gif)
