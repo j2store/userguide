@@ -12,6 +12,7 @@
 	* **[Relations](#relations)**
 	* **[Apps](#apps)**
 - **[A step-by-step example to create a configurable product](#example)**
+- **[Frontend Demo](#frontend)**
 
 <a name="introduction"></a>
 ## Introduction
@@ -312,3 +313,8 @@ In this tab, you can add third party tools or plugins, that are available, to en
 Now, lets have a look on how your product is viewed in your online store. Check the image below:
 
 ![Pizza on Cart](./assets/images/conf_pizza_on_cart.png)
+
+<a name="frontend"></a>
+#### Frontend Demo
+
+![](./assets/images/config_frontend_01.gif)
