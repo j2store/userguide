@@ -104,6 +104,8 @@ The source code of the template file is shown below in the editor and if the use
 
 ![](./assets/images/email_template_advanced_1.png)
 
+#### How to add logo in your Email Template ?
+![](./assets/images/email_template_cropping.gif)
 
 ##Short codes
         [SITENAME]
