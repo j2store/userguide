@@ -10,6 +10,7 @@
 	* [Paypal duplicate invoice ID and how to solve it ](#paypal_duplicate)
 		* [Solution 1: Set the Invoice Prefix](#invoice_prefix)
 		* [Solution 2: Change settings in Paypal](#change_settings)
+    * [Things don't appear to be working at the moment. Please try again later](#things_don't appear to be working at the moment)
 
 
 ## Introduction
@@ -290,3 +291,23 @@ Please try the following:
 3. Under Selling Preferences, click Payment Receiving Preferences
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
 5. Save.
+
+<a name="things_don't appear to be working at the moment"></a>
+## Things don't appear to be working at the moment. Please try again later
+
+Paypal has recently rolled out their cool " New Checkout! "
+
+With this Paypal also seems to impose certain new technical restrictions
+- Specified Character length for address fields, Product name and Product options. Length varies based on fields and is specified on their integration guide.
+- Number of product options sent to paypal are limited to 7 options.
+
+It seems there are recent technical restrictions imposed by paypal: (refer below image)
+
+![paypal-technical-restriction](./assets/images/paypal-docs-arrtibutes-restriction.png)
+
+####How to fix it ?
+
+We have updated the paypal plugin with fixes for these new technical restrictions. Please make sure you update your paypal plugin to latest (v.3.4)
+With this update if you have used more than 7 options then the first 7 options are passed to paypal and others are ignored. Similarly if the product option character length is larger than allowed by paypal, those values are trimmed (cut off). This will make sure you do not get any errors and customers will continue to see checkout screen without any issues.
+
+**NOTE:** Please take a backup before updating the plugin and test after installing.
