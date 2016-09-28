@@ -10,7 +10,7 @@
 	* [Paypal duplicate invoice ID and how to solve it ](#paypal_duplicate)
 		* [Solution 1: Set the Invoice Prefix](#invoice_prefix)
 		* [Solution 2: Change settings in Paypal](#change_settings)
-    * [Things don't appear to be working at the moment. Please try again later](#things_don't appear to be working at the moment)
+    * [Things don't appear to be working at the moment. Please try again later](#things-don't-appear-to-be-working-at-the-moment)
 
 
 ## Introduction
@@ -292,7 +292,7 @@ Please try the following:
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
 5. Save.
 
-<a name="things_don't appear to be working at the moment"></a>
+<a name="things-don't-appear-to-be-working-at-the-moment"></a>
 ## Things don't appear to be working at the moment. Please try again later
 
 Paypal has recently rolled out their cool " New Checkout! "
