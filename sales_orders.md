@@ -20,3 +20,12 @@ Every order will posses some important information that explains about it. They 
 Check the image below to understand clearly.
 
 ![Order Listing](./assets/images/order_listing.png)
+
+#### Adding shipping tracking ID
+
+If you have enabled shipping in your site, in admin order history page you can see the text box to enter shipping tracking ID. Enter your shipping tracking ID and click save.
+![shipping tracking](./assets/images/sales-order-01.png)
+
+Now go to J2Store > Design > Email Templates and add the short tag [SHIPPING_TRACKING_ID] in your email template.
+
+![tracking id email](./assets/images/sales-order-02.png)
