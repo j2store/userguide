@@ -44,3 +44,9 @@ This option is used when you select quantity box display type as **Dropbox**. En
 #### Frontend Demo
 
 ![frontend](./assets/images/quanity-dropdown-03.png)
+
+#### Support
+
+Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
+
+Thank you for using our extension.
