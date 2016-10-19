@@ -2,6 +2,8 @@
 
 This Plugin enables you to receive payments via Authorize.Net Payment Gateway. Visit http://authorize.net to know more about the payment gateway.
 
+* **[[HOW TO]Solve "Error processing payment Invalid Order This transaction cannot be accepted."](#error_in_transaction)**
+
 #### Requirements
 * PHP 5.2 or higher
 * Joomla 2.5.x
@@ -61,3 +63,18 @@ You can create a Joomla Article to say thanks to the users, who purchased in you
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 
 Thank you for using our extension.
+
+<a name="error_in_transaction"></a>
+#### [HOW TO]Solve "Error processing payment Invalid Order This transaction cannot be accepted."
+
+It seems to be using of expired transaction key.
+
+**To regenerate the transaction key :**
+
+1. Log into your Merchant Interface at https://account.authorize.net.
+2. Click Account from the main toolbar.
+3. Click Settings in the main left-side menu.
+4. Click API Credentials & Keys.
+5. Enter your Secret Answer (the answer to your Secret Question configured at account setup).
+6. Select New Transaction Key.
+7. To disable the old Transaction Key, click the check box labeled Disable Old Transaction Key Immediately.
