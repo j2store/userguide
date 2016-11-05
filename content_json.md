@@ -20,7 +20,7 @@ After enabling, open the plugin to start troubleshoot.
 
 Check the check box to select the articles to which you would like to reset the data. Choose the articles and click **Reset** button.
 
-> Clicking on reset button will reset all the data you have in article and you will have to put the data again manually. You don't need to worry about **J2Store** data. J2Store data (price, varaints, etc) remains there.
+> Clicking on reset button will remove data stored in the attribs field of that article and you will have to put the data again manually. You don't need to worry about **J2Store** data. J2Store data (price, varaints, etc) is stored in J2Store's own tables.
 
 ![json-error](./assets/images/jsonfix_03.png)
 
