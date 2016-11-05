@@ -27,3 +27,5 @@ Check the check box to select the articles to which you would like to reset the 
 If you don't want to reset the data and would like to know which one causing this error, it is very simple. Just copy the value and validate it using online JSON validator tool. It will show you the data causing this issue and you can correct that data manually.
 
 ![](./assets/images/jsonfix_04.png)
+
+Another useful tool related to same Error decoding JSON data <https://github.com/robwent/joomla-json-db-check>
