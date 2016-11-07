@@ -8,9 +8,9 @@ After updating Joomla version from 3.6.2 to 3.6.3 or 3.6.4, you might be facing 
 
 To overcome this error, we have developed a plugin "**Content - Json fix**". You can download and install the plugin from below url:
 
-<https://github.com/Dhamayanthi/plg_j2store_content_jsonreset>
+<https://bitbucket.org/j2store/content_jsonreset/downloads>
 
-This pugin is a troubleshooting plugin which will list all the articles triggering above error and used to fix json data in attrib fields by resetting the data.
+This pugin is a troubleshooting plugin which will list all the articles triggering above error and used to fix invalid json data in article attrib fields by resetting the data.
 
 Download and Install this plugin using Joomla installer. Once installed, please go to Extensions > Plugin and enable the **Content - Json fix** plugin.
 
