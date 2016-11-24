@@ -138,13 +138,27 @@ Cost Brackets:
 
 > Note: You could also enter AB0000 and CX0000 for the "From" postcodes.
 
+#### Import / Export
+
+You can also use import / export feature to add shipping rates easily.
+
+Click Export to download the sample csv file and see how the csv file must be. The below three columns are the mandatory for the csv file.
+
+**j2store_shipping_postcode_rate_id** - Leave this column empty. Rate ID will be updated automatically.
+
+**shipping_postcode_method_id** - It is nothing but Shipping method ID. You must enter shipping method ID otherwise the rates will not be imported correctly into the corresponding shipping method and errors will be trigerred.
+
+**shipping_postcode_from and shipping_postcode_to** - Enter the postcode range between which the shipping charge should apply.
+
+Then, enter the weigh trange, quantity range, price range and shipping cost as your wish and import the csv file.
+
 ### Debug
 
 If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory.
 
 > Set this to NO in Live websites.
 
-**_Sample rates_**  ![](./assets/images/setting_rates.png)
+**_Sample rates_** ![](./assets/images/postal_setting_rates.png)
 
 ### Support
 
