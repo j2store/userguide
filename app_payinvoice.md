@@ -16,7 +16,6 @@ Invoice your customers and allow them to pay for the order online at a later dat
 1. Download Pay later app from our site and install it using Joomla installer.
 2. After the installating, go to J2Store > Apps and find Pay Later / Pay against Invoice app.
 3. Click Enable to activate Pay Later / Pay against Invoice app. ![](./assets/images/flexible-payment-enable.png)
-
 4. Click Open to get started with app. ![](./assets/images/flexible-payment-open.png)
 
 #### Basic settings
