@@ -1,4 +1,4 @@
-# JSON - FIX
+# [SOLVED] Joomla article error decoding json data
 
 After updating Joomla version from 3.6.2 to 3.6.3 or 3.6.4, you might be facing below error when editing article/product. Some of them had large entries, so since attribs column was limited to 5120 characters, data was truncated. So then opening any article with truncated attribs spit this error.
 
