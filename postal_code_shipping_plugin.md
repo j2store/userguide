@@ -32,6 +32,8 @@ The plugin integrates a postal code based shipping method for J2Store. It will c
 
 Open the plugin and click NEW to create new shipping method.
 
+![new](./assets/images/postal-plugin-new.png)
+
 **Shipping Name**
 
 Enter a name for this shipping method. This is what your customers will see at the checkout.
