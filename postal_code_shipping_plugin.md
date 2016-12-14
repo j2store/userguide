@@ -2,49 +2,68 @@
 
 The plugin integrates a postal code based shipping method for J2Store. It will calculate the shipping cost based on the postal code range, weight range and quantity range. You can use all three or just one of them.
 
-## Requirements
+* **[Requirements](#requirements)**
+* **[Installation](#installation)**
+* **[Creating Shipping method](#create-method)**
+* **[Set Rates](#set-rates)**
+* **[Examples](#examples)**
+* **[Import / Export](#import-export)**
+
+<a name="requirements"></a>
+### Requirements
 
 - PHP 5.3+
 - Joomla 2.5 / 3.x +
 - J2Store 2.6.8 +
 
-## Installation
+<a name="installation"></a>
+### Installation
 
-You can install the plugin through the standard Joomla installer.
+1. Download Postal code shipping plugin from our site and install it using standard Joomla installer.
+2. Once installed, go to J2Store > Setup > Shipping method and enable Postal code based shipping plugin.
+![enable](./assets/images/postal-shipping-enable.png)
 
-## Configuration
+3. After enabling this plugin, open the plugin and configure the basic settings and create a shipping method.
+![open](./assets/images/postal-shipping-open.png)
 
-### Shipping Method name
+<a name="create-method"></a>
+#### Creating Shipping method
+
+Open the plugin and click NEW to create new shipping method.
+
+**Shipping Name**
 
 Enter a name for this shipping method. This is what your customers will see at the checkout.
 
-### Tax Class
+**Tax Class**
 
-The value selected will be used in calculating tax rates.
+The value selected will be used in calculating tax rates for this shipping method.
 
-### Enabled
-
-The value selected yes will enable the shipping plugin while displaying in the checkout.
-
-### Geo zones
+**Geo zones**
 
 Choose geozones for which this shipping method is available. Choose at least one.
 
-### Override Shipping Method
+**Enabled**
+
+The value selected yes will enable the shipping plugin while displaying in the checkout.
+
+**Override Shipping Method Address**
 
 If you set this to Store address, then the shipping address provided by the customer will be ignored for calculating rates and shipping rates will be calculated based on store address.
 
-### Min SubTotal
+**Minimum SubTotal**
 
 If you enter a value here, then this method will apply only if the order subtotal is greater than or equal to the value.
 
-### Max SubTotal
+**Max SubTotal**
 
 The shipping method will apply only if the order subtotal is less than or equal to the value entered here.
 
 > Enter -1 to turn off this filter
 
-### Postal Code Format
+**Allow Free Shipping If Total is Less than / Equal to SubTotal:**
+
+**Postal Code Format**
 
 Choose the postal code format. Most of the countries follow the US based zip codes. **Example**: 95100 to 95300
 
@@ -54,41 +73,42 @@ If you are not sure about post code, do not select any format here. ![](./assets
 
 Now, **Save&Close** the method.
 
-### Set Rates
+<a name="set-rates"></a>
+#### Set Rates
 
 **To Set Rates** click on the link "set rates" of the postcode Shipping method.
 
-![](./assets/images/to_set_rate.png)
+![](./assets/images/postal-shipping-setrates.png)
 
-#### Postcode From
+**Postcode From**
 
-The starting range of the zip code
+Enter the starting range of the zip code. For example, 90001.
 
-#### Postcode To
+**Postcode To**
 
-Ending range.
+Enter the ending range of the zip code. For example, 90005.
 
-#### Weight Start
+**Weight Start**
 
 Starting weight range. Leave it empty or enter 0 if you dont want to use weight range.
 
-#### Weight End
+**Weight End**
 
 Ending range. Leave it empty or enter 0 if you are not using weight range.
 
-#### Quantity From
+**Quantity From**
 
 Starting quantity range (Based on total quantities in the order). Leave it empty or enter 0 if you dont want to use Quantity range.
 
-#### Quantity To
+**Quantity To**
 
 Ending Range. Leave it empty or enter 0 if you dont want to use the Quantity range.
 
-#### Cost
+**Cost**
 
-The shipping cost.
+Enter your shipping cost here.
 
-#### Per Item (Cost / number of Item)
+**Per Item (Cost / number of Item)**
 
 It is bit tricky. Leave this as 1 if you do not understand.
 
@@ -96,20 +116,23 @@ The cost entered per item can be 1\. If the cost is for 2 items (2 nos ) , you c
 
 Example: Shipping cost is 50 USD for 2 items. 50 / 2 = 25
 
-Example 1 : Suppose within the United States, you want to charge $3.00 for postcodes starting with 902, $5.00 for other postcodes starting with 9, weight range is 1 to 10 and qty range is 1 to 100
+![rates](./assets/images/postal-rates.png)
 
-**RATE #1** Geo Zones: United States Cost Brackets:
+<a name="examples"></a>
+#### Examples
+
+##### Example 1 : Suppose within the United States, you want to charge $3.00 for postcodes starting with 902, $5.00 for other postcodes starting with 9, weight range is 1 to 10 and qty range is 1 to 100
+
+**Rate #1** Geo Zones: United States Cost Brackets:
 
 - Postcode From: 902, To: 90299, Charge: 3.00
 - Postcode From: 9, To: 99999, Charge: 5.00
 - Weight Start: 1.000 To : 10 .000,
 - Qty From: 1 To:100
 
-Example 2:
+##### Example 2: Suppose you are based in London, and only ship to London postal districts. You charge $2.00 per item for shipping for a weight range of 1 to 10 and qty range of 1 to 100, then you would enter:
 
-Suppose you are based in London, and only ship to London postal districts. You charge $2.00 per item for shipping for a weight range of 1 to 10 and qty range of 1 to 100, then you would enter:
-
-**RATE #1** Geo Zones: United Kingdom Cost Brackets:
+**Rate #1** Geo Zones: United Kingdom Cost Brackets:
 
 - From: E1, To: E21, Charge: 2.00, Per: 1
 - From: EC1, To: EC5, Charge: 2.00, Per: 1
@@ -122,11 +145,11 @@ Suppose you are based in London, and only ship to London postal districts. You c
 - Weight Start: 1.000 To : 10 .000,
 - Qty From: 1 To:100
 
-Example 3: Suppose your postcodes are made up of 6 alphanumeric characters, and you want to charge $1.00 for shipping to postcodes beginning with AB, $2.00 for postcodes beginning with CX, and $4.00 for all other postcodes. No weight or qty ranges are used.
+##### Example 3: Suppose your postcodes are made up of 6 alphanumeric characters, and you want to charge $1.00 for shipping to postcodes beginning with AB, $2.00 for postcodes beginning with CX, and $4.00 for all other postcodes. No weight or qty ranges are used.
 
 Then you would enter:
 
-RATE #1
+**Rate #1**
 
 Cost Brackets:
 
@@ -138,19 +161,40 @@ Cost Brackets:
 
 > Note: You could also enter AB0000 and CX0000 for the "From" postcodes.
 
+<a name="import-export"></a>
 #### Import / Export
 
 You can also use import / export feature to add shipping rates easily.
 
-Click Export to download the sample csv file and see how the csv file must be. The below three columns are the mandatory for the csv file.
+Click Export to download the sample csv file and see how the csv file must be.
+
+![export](./assets/images/postal-rates-export.png)
+
+The below three columns are the mandatory for the csv file.
 
 **j2store_shipping_postcode_rate_id** - Leave this column empty. Rate ID will be updated automatically.
 
 **shipping_postcode_method_id** - It is nothing but Shipping method ID. You must enter shipping method ID otherwise the rates will not be imported correctly into the corresponding shipping method and errors will be trigerred.
 
+![method-id](./assets/images/postal-shipping-methodid.png)
+
 **shipping_postcode_from and shipping_postcode_to** - Enter the postcode range between which the shipping charge should apply.
 
 Then, enter the weigh trange, quantity range, price range and shipping cost as your wish and import the csv file.
+
+For example, the above image has the shipping method named "Shipping cost". Already this shipping method has one rate with postal range 90001 to 90005.
+
+![rate](./assets/images/postal-rates.png)
+
+Now if you would like to add two more rates using csv file, import the csv file like below image
+
+![csv](./assets/images/postal-shipping-csv.png)
+
+![import](./assets/images/postal-import.png)
+
+Now the resulting rates are
+
+![results](./assets/images/postal-import-results.png)
 
 ### Debug
 
