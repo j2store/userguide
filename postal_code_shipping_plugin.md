@@ -20,8 +20,9 @@ The plugin integrates a postal code based shipping method for J2Store. It will c
 ### Installation
 
 1. Download Postal code shipping plugin from our site and install it using standard Joomla installer.
+
 2. Once installed, go to J2Store > Setup > Shipping method and enable Postal code based shipping plugin.
-![enable](./assets/images/postal-shipping-enable.png)
+![enable](./assets/images/postal-plugin-enable.png)
 
 3. After enabling this plugin, open the plugin and configure the basic settings and create a shipping method.
 ![open](./assets/images/postal-shipping-open.png)
@@ -69,7 +70,7 @@ Choose the postal code format. Most of the countries follow the US based zip cod
 
 Quite a few commonwealth countries including **UK**, follow a different post code system.
 
-If you are not sure about post code, do not select any format here. ![](./assets/images/creating_method.png)
+If you are not sure about post code, do not select any format here. ![](./assets/images/postal-creating_method.png)
 
 Now, **Save&Close** the method.
 
