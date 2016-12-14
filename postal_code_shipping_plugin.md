@@ -25,7 +25,7 @@ The plugin integrates a postal code based shipping method for J2Store. It will c
 ![enable](./assets/images/postal-plugin-enable.png)
 
 3. After enabling this plugin, open the plugin and configure the basic settings and create a shipping method.
-![open](./assets/images/postal-shipping-open.png)
+![open](./assets/images/postal-plugin-open.png)
 
 <a name="create-method"></a>
 #### Creating Shipping method
@@ -79,7 +79,7 @@ Now, **Save&Close** the method.
 
 **To Set Rates** click on the link "set rates" of the postcode Shipping method.
 
-![](./assets/images/postal-shipping-setrates.png)
+![](./assets/images/postal-plugin-setrates.png)
 
 **Postcode From**
 
@@ -117,7 +117,7 @@ The cost entered per item can be 1\. If the cost is for 2 items (2 nos ) , you c
 
 Example: Shipping cost is 50 USD for 2 items. 50 / 2 = 25
 
-![rates](./assets/images/postal-rates.png)
+![rates](./assets/images/postal-plugin-rates.png)
 
 <a name="examples"></a>
 #### Examples
@@ -169,7 +169,7 @@ You can also use import / export feature to add shipping rates easily.
 
 Click Export to download the sample csv file and see how the csv file must be.
 
-![export](./assets/images/postal-rates-export.png)
+![export](./assets/images/postal-plugin-rates-export.png)
 
 The below three columns are the mandatory for the csv file.
 
@@ -177,7 +177,7 @@ The below three columns are the mandatory for the csv file.
 
 **shipping_postcode_method_id** - It is nothing but Shipping method ID. You must enter shipping method ID otherwise the rates will not be imported correctly into the corresponding shipping method and errors will be trigerred.
 
-![method-id](./assets/images/postal-shipping-methodid.png)
+![method-id](./assets/images/postal-plugin-methodid.png)
 
 **shipping_postcode_from and shipping_postcode_to** - Enter the postcode range between which the shipping charge should apply.
 
@@ -185,17 +185,17 @@ Then, enter the weigh trange, quantity range, price range and shipping cost as y
 
 For example, the above image has the shipping method named "Shipping cost". Already this shipping method has one rate with postal range 90001 to 90005.
 
-![rate](./assets/images/postal-rates.png)
+![rate](./assets/images/postal-plugin-rates.png)
 
 Now if you would like to add two more rates using csv file, import the csv file like below image
 
-![csv](./assets/images/postal-shipping-csv.png)
+![csv](./assets/images/postal-plugin-csv.png)
 
-![import](./assets/images/postal-import.png)
+![import](./assets/images/postal-plugin-import.png)
 
 Now the resulting rates are
 
-![results](./assets/images/postal-import-results.png)
+![results](./assets/images/postal-plugin-import-results.png)
 
 ### Debug
 
@@ -203,7 +203,7 @@ If you set this to yes, then debug messages will be logged and saved in the cach
 
 > Set this to NO in Live websites.
 
-**_Sample rates_** ![](./assets/images/postal_setting_rates.png)
+**_Sample rates_** ![](./assets/images/postal_plugin_setting_rates.png)
 
 ### Support
 
