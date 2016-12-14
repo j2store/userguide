@@ -124,7 +124,9 @@ Example: Shipping cost is 50 USD for 2 items. 50 / 2 = 25
 <a name="examples"></a>
 #### Examples
 
-##### Example 1 : Suppose within the United States, you want to charge $3.00 for postcodes starting with 902, $5.00 for other postcodes starting with 9, weight range is 1 to 10 and qty range is 1 to 100
+##### Example 1 : 
+
+Suppose within the United States, you want to charge $3.00 for postcodes starting with 902, $5.00 for other postcodes starting with 9, weight range is 1 to 10 and qty range is 1 to 100
 
 **Rate #1** Geo Zones: United States Cost Brackets:
 
@@ -133,7 +135,9 @@ Example: Shipping cost is 50 USD for 2 items. 50 / 2 = 25
 - Weight Start: 1.000 To : 10 .000,
 - Qty From: 1 To:100
 
-##### Example 2: Suppose you are based in London, and only ship to London postal districts. You charge $2.00 per item for shipping for a weight range of 1 to 10 and qty range of 1 to 100, then you would enter:
+##### Example 2: 
+
+Suppose you are based in London, and only ship to London postal districts. You charge $2.00 per item for shipping for a weight range of 1 to 10 and qty range of 1 to 100, then you would enter:
 
 **Rate #1** Geo Zones: United Kingdom Cost Brackets:
 
@@ -148,7 +152,9 @@ Example: Shipping cost is 50 USD for 2 items. 50 / 2 = 25
 - Weight Start: 1.000 To : 10 .000,
 - Qty From: 1 To:100
 
-##### Example 3: Suppose your postcodes are made up of 6 alphanumeric characters, and you want to charge $1.00 for shipping to postcodes beginning with AB, $2.00 for postcodes beginning with CX, and $4.00 for all other postcodes. No weight or qty ranges are used.
+##### Example 3: 
+
+Suppose your postcodes are made up of 6 alphanumeric characters, and you want to charge $1.00 for shipping to postcodes beginning with AB, $2.00 for postcodes beginning with CX, and $4.00 for all other postcodes. No weight or qty ranges are used.
 
 Then you would enter:
 
@@ -192,6 +198,7 @@ For example, the above image has the shipping method named "Shipping cost". Alre
 Now if you would like to add two more rates using csv file, import the csv file like below image
 
 ![csv](./assets/images/postal-plugin-csv.png)
+
 
 ![import](./assets/images/postal-plugin-import.png)
 
