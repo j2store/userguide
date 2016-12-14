@@ -205,8 +205,6 @@ If you set this to yes, then debug messages will be logged and saved in the cach
 
 > Set this to NO in Live websites.
 
-**_Sample rates_** ![](./assets/images/postal_plugin_setting_rates.png)
-
 ### Support
 
 You can contact **_support@j2store.org_** if you have any questions.
