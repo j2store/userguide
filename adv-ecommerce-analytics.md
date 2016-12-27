@@ -24,11 +24,15 @@ Login into your google account and go to Google analytics (<https://analytics.go
 
 If you have not already sign up, click Sign up button on right side of the page.
 
+![ga-signup](./assets/images/ga-signup.png)
+
 **Step 3 :**
 
 Enter your Account Name, Website Name, Website URL and choose industry category and reporting time zone.
 
 Finally click Get Tracking ID.
+
+![](./assets/images/get-tracking-id.png)
 
 Copy your Tracking ID and paste it in our app settings.
 
@@ -52,11 +56,10 @@ This feature sets Impression threshold for category page. It sends hit after the
 
 ### Behavior Analysis in Google Analytics
 
-1. After login into Google Analytics, move to **ADMIN** tab and navigate to the Ecommerce Settings menu.
-
+1. After login into Google Analytics, move to **ADMIN** tab and navigate to the Ecommerce Settings menu. ![](./assets/images/ga-ecommerce-settings.png)
 2. In the E-commerce setup page, you have to **turn on** the Enable E-commerce.
 
-3. Then, **Turn on** the Enable Enhanced Ecommerce Reporting.
+3. Then, **Turn on** the Enable Enhanced Ecommerce Reporting. ![](./assets/images/ga-enable-ecommerce.png)
 
 4. After that, it is mandatory to create following checkout lables:
 
@@ -70,13 +73,13 @@ This feature sets Impression threshold for category page. It sends hit after the
 
   e. Payment method
 
-  f. Confirm order
+  f. Confirm order ![](./assets/images/ga-checkout-labels.png)
 
 5. Once finished configuring our E-commerce Google Analytics app and enabling enhanced eCommerce reporting in your Google Analytics account, go to your site frontend and place the order.
 
 6. Now go to your Google Analytics page > move to **Reporting** tab
 
-7. In the reporting page, click Conversions > Ecommerce > Shopping Analysis > Shopping Behavior in the left panel to see the behavior analysis of your eCommerce store.
+7. In the reporting page, click Conversions > Ecommerce > Shopping Analysis > Shopping Behavior in the left panel to see the behavior analysis of your eCommerce store. ![](./assets/images/ga-behavior-analysis.png)
 
 8. Click Conversions > Ecommerce > Shopping Analysis > Checkout Behavior to see the behavior analysis of checkout process.
 
