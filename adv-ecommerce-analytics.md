@@ -87,9 +87,10 @@ This feature sets Impression threshold for category page. It sends hit after the
 
 6. Now go to your Google Analytics page > move to **Reporting** tab
 
-7. In the reporting page, click Conversions > Ecommerce > Shopping Analysis > Shopping Behavior in the left panel to see the behavior analysis of your eCommerce store. ![](./assets/images/ga-behavior-analysis.png)
+7. In the reporting page, click Conversions > Ecommerce > Shopping Analysis > Shopping Behavior in the left panel to see the behavior analysis of your eCommerce store. 
+![](./assets/images/ga-behavior-analysis.png)
 
-  ![](./assets/images/shopping_behavior_analysis.png)
+ ![](./assets/images/shopping_behavior_analysis.png)
 
 8. Click Conversions > Ecommerce > Shopping Analysis > Checkout Behavior to see the behavior analysis of checkout process. ![](./assets/images/checkout_behaviour_analysis.png)
 
