@@ -1,4 +1,4 @@
-# E-commerce Google Analytics
+# Enhanced E-commerce Google Analytics
 
 This app allows you to use Google Analytics – Enhanced Ecommerce feature. You can track the user behavior across your e-commerce store starting from product views to thank you page.
 
@@ -46,13 +46,21 @@ Enter your Google Analytics ID here. You can login into your Google Analytics ac
 
 **Set Domain Name :**
 
+Set the domain name to auto because if your site is in sub-directory (for example, www.example.com/test), it automatically detects the absolute url. You can also enter your domain name here.
+
 **Tracking code :**
 
-This feature adds Universal Analytics Tracking Code to your Store. You don't need to enable this if using a 3rd party analytics plugin.
+This feature adds Universal Analytics Tracking Code to your Store. You don't need to enable this if you are using a 3rd party analytics plugin. Read the
+
+1. **Add Universal Analytics Tracking Code** - It is nothing but page tracking which allows you to measure the number of views you had for a particular page on your website.
+2. **Add Display Advertising Feature Code** - Enabling Advertising Features in Google Analytics allows you to take advantage of Remarketing, Demographics & Interests reports, and more.
+3. **Add Enhanced Ecommerce Tracking Code** - It enables tracking every click events. Events are user interactions with content that can be tracked independently from a web page or a screen load.
 
 **Impression Threshold :**
 
 This feature sets Impression threshold for category page. It sends hit after these many numbers of products impressions.
+
+![](./assets/images/ga-app-settings.png)
 
 ### Behavior Analysis in Google Analytics
 
@@ -81,53 +89,12 @@ This feature sets Impression threshold for category page. It sends hit after the
 
 7. In the reporting page, click Conversions > Ecommerce > Shopping Analysis > Shopping Behavior in the left panel to see the behavior analysis of your eCommerce store. ![](./assets/images/ga-behavior-analysis.png)
 
-8. Click Conversions > Ecommerce > Shopping Analysis > Checkout Behavior to see the behavior analysis of checkout process.
+  ![](./assets/images/shopping_behavior_analysis.png)
 
-#### Google Calender
+8. Click Conversions > Ecommerce > Shopping Analysis > Checkout Behavior to see the behavior analysis of checkout process. ![](./assets/images/checkout_behaviour_analysis.png)
 
-Our E-commerce Google Analytics app comes with Google calendar Integration.
+#### Support
 
-To use this integration you need to create a project in Google Developers Console. Once your project has been created, you must enable the Google Calendar API in Your Project > Library, finally in Your Project > Credentials > Create Credentials you must create an OAuth Client ID for a Web application and set the Authorized redirect URIs.
+Still have questions? You can post in our support forum: <http://j2store.org/forum/index.html>
 
-**Client ID :** Enter your Google client ID
-
-**Client Secret :** Enter your Google client secret key.
-
-**Calendar ID :** Enter your google calendar ID here.
-
-**Debug Log :**
-
-### Creating a Google API Console project and client ID
-
-To create a Google API Console project and client ID, follow these steps:
-
-1. Go to the Google API Console .
-2. From the project drop-down, select an existing project , or create a new one by selecting Create a new project.
-
-  > Note: Use a single project to hold all platform instances of your app (Android, iOS, web, etc.), each with a different Client ID.
-
-3. In the sidebar under "API Manager", select Credentials, then select the OAuth consent screen tab.
-
-  a. Choose an Email Address, specify a Product Name, and press Save.
-
-4. In the Credentials tab, select the New credentials drop-down list, and choose OAuth client ID.
-
-5. Under Application type, select Web application. Register the origins from which your app is allowed to access the Google APIs, as follows. An origin is a unique combination of protocol, hostname, and port.
-
-  a. In the Authorized JavaScript origins field, enter the origin for your app. You can enter multiple origins to allow for your app to run on different protocols, domains, or subdomains. You cannot use wildcards. In the example below, the second URL could be a production URL.
-
-  <http://localhost:8080> <https://myproductionurl.example.com>
-
-  b. The Authorized redirect URI field does not require a value. Redirect URIs are not used with JavaScript APIs.
-
-  c. Press the Create button.
-
-6. From the resulting OAuth client dialog box, copy the Client ID . The Client ID lets your app access enabled Google APIs.
-
-### Finding Your Google Calendar ID
-
-1. Open your Google Calendar app page using your Google account.
-2. Navigate to your subscribed/available Google calendars list (usually bottom left side).
-3. A new page will open. Find the Calendar ID at the bottom as shown in picture and paste it in the corresponding field in the Calendar Settings.
-
-  > Note: Double check you have pasted the right text string and make sure there are no extra spaces.
+Thank you for using our extension.
