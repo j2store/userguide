@@ -2,7 +2,7 @@
 
 This app allows you to use Google Analytics – Enhanced Ecommerce feature. You can track the user behavior across your e-commerce store starting from product views to thank you page.
 
-## Requirements
+### Requirements
 
 1. PHP version 5.4 or higher
 2. Joomla version 3.x or higher
