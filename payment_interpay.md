@@ -1,8 +1,6 @@
 # Interpay
 
-This plugin integrates InterPay payment solutions with Joomla J2Store eCommerce solution.
-
-It implements using Interac online web re-director which offers you you privacy and security.
+This plugin implements Interac online web re-director which offers you privacy and security.
 
 ## System Requirements
 
