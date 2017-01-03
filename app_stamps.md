@@ -5,12 +5,12 @@ This app integrates Stamps.com API with Joomla J2Store eCommerce solution. With 
 * **[Requirements](#requirements)**
 * **[Installation](#installation)**
 * **[Configuration](#configuration)**
-   * **[Basic Settings](#basic-settings)**
-   * **[Label Settings](#label-settings)**
-   * **[Common Settings](#common-settings)**
+    * **[Basic Settings](#basic-settings)**
+    * **[Label Settings](#label-settings)**
+    * **[Common Settings](#common-settings)**
 * **[How to Print shipping labels](#print-labels)**
-   * **[Validate shipping addresses](#validate)**
-   * **[Request for rates](#request-rates)**
+    * **[Validate shipping addresses](#validate)**
+    * **[Request for rates](#request-rates)**
 
 <a name="requirements"></a>
 ## Requirements
