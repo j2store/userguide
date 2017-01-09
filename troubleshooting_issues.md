@@ -31,6 +31,7 @@
 * **[How to troubleshoot email related issues](#email_troubleshoot)**
 * **[[HOW TO]Fix product you are trying to access is disabled](#product_disable_error)**
 * **[Is your digital product showing NEVER in expiry column](#download-expiry-never)**
+* **[[HOW TO]Solve terms and conditions popup box freeze](#terms-conditions)**
 
 <a name="change_default_country"></a>
 ##[HOWTO] Change default country in checkout
@@ -1085,3 +1086,18 @@ Go to J2Store > Sales > Orders
 Open the order
 On the left side of order history page, check the checkbox **Reset download access expiry date** and save.
 ![](./assets/images/download_expiry.gif)
+
+<a name="terms-conditions"></a>
+## [HOW TO]Solve terms and conditions popup box freeze
+
+Sometimes, the terms and conditions pop up modal box gets freezed and it does not allow you to do anything with that.
+
+This issue is due to choosing of wrong layout for checkout pages. Following the solutions given below
+
+**Solution**
+
+Go to J2Store > Configuration > Basic settings tab
+Choose Bootstrap 3.x to Cart and checkout pages should use CSS classes
+Save.
+
+If it is already set to bootstrap 3.x, change to bootstrap 2.x and check.
