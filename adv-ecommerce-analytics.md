@@ -2,16 +2,22 @@
 
 This app allows you to use Google Analytics – Enhanced Ecommerce feature. You can track the user behavior across your e-commerce store starting from product views to thank you page.
 
+> YOU NEED AT LEAST J2STORE VERSION 3.2.10+ TO USE THIS APP
+
 ### Requirements
 
 1. PHP version 5.4 or higher
+
 2. Joomla version 3.x or higher
+
 3. J2Store version 3.2.10 or above
 
 ### Installation
 
 1. Download E-commerce Google Analytics app from our site's extensions section and install it using Joomla installer.
+
 2. After installing the app, go to J2Store > Apps and click Enable on E-commerce Google Analytics to activate the app.
+
 3. Once enabled, click on Open to configure the basic settings of the app.
 
 ### How to get Google Analytics ID ?
