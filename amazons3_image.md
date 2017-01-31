@@ -1,8 +1,8 @@
-#Product Images from Amazon S3
+# Product Images from Amazon S3
 
 Using this app, you can add images (Thumbnail, Main image, Additional image) to products by fetching images  from the Amazon S3.
 
-####Requirements
+#### Requirements
 
 1. PHP 5.4 or higher
 
@@ -10,9 +10,9 @@ Using this app, you can add images (Thumbnail, Main image, Additional image) to 
 
 3. J2Store 3.2.x or above
 
-####Installation
+#### Installation
 
-1. Use the joomla installer ot install the app.
+1. Use the joomla installer to install the app.
 
 2. Go to J2Store > Apps, find the Product Images from Amazon S3 app and click enable to activate the app.
 
@@ -20,13 +20,22 @@ Using this app, you can add images (Thumbnail, Main image, Additional image) to 
 ![](./assets/images/amazons3_image_10.png)
 4. Following instructions will guide you how to use this app.
 
-####Configuration and Parameters
-```
-NOTE: 
-1. The name of the image in your Amazon S3 bucket should be same as your product SKU. 
-2. The name of the folders having Main, Thumbnail, Additional images in your Amazon S3 account should be correct. The names should entered as in your Amazon S3 bucket. Otherwise, no images will be fetched 
-3. File type must be correct and should be same as in your Amazon S3 folders.
-```
+#### Configuration and Parameters
+
+**NOTE :**
+> The name of the image in your Amazon S3 bucket should be same as your product SKU.
+
+> The name of the folders having Main, Thumbnail, Additional images in your Amazon S3 account should be correct. The names should entered as in your Amazon S3 bucket. Otherwise, no images will be fetched.
+
+> File type must be correct and should be same as in your Amazon S3 folders.
+
+* ***Server type***
+
+ Select your server type here. If you would like to use Amazon s3 as your external server, choose Amazon s3.
+ 
+* ***External server url***
+
+ If you choose Other Server as server type, enter the url of the external server you wish to use.
 
 * ***API Access key***
 
@@ -37,14 +46,34 @@ NOTE:
  Enter Access secret key provided by Amazon.
 
  Once you entered Access key ID and Access secret key, save it. You will get your bucket list.
-![](./assets/images/amazons3_image_01.png)
+
+* ***Enable (CA) Certificate verfication (for Curl Requests)***
+
+ If you would like to verify CA certificate, set this option to YES. Set YES will verify your CA certificate.
+
+* ***Your CA Certificate Absolute Path***
+
+ Enter the absolute path where you have uplodaed your CA certificate.
+
+* ***Placeholder for main image***
+
+ If main image is not available in amazon s3, image given here will be used as a placeholder.
+
+* ***Placeholder for thumbnail images***
+
+  If thumbnail image is not available in amazon s3, image given here will be used as a placeholder.
+
+* ***Placeholder for additional images***
+
+  If additional images are not available in amazon s3, image given here will be used as a placeholder.
+
 * ***Choose Amazon S3 Bucket***
 
- Bucket will be listed once you entered Access key ID and Access secret key and save it.
+ Bucket will be listed once you entered Access key ID, Access secret key and saved it.
  
 * ***Name of the main image folder***
 
- Enter the name of the main image folder which contains your main images. Please enter the name as in your bucket.
+ Enter the name of the main image folder which contains your main images. The folder name entered here should be same as in your Amazon s3 bucket.
  
 * ***Main image file type***
 
@@ -61,8 +90,9 @@ NOTE:
 * ***Additional Image***
 
  Click **ADD NEW** button to add more than one folder names. Clicking add new button will ask you to enter / choose the folder name and image type.
- ![](./assets/images/amazons3_image_02.png)
-####How to create / view buckets and folders in Amazon S3
+ ![](./assets/images/amazons3-image.png)
+
+#### How to create / view buckets and folders in Amazon S3
 
 * Login into your Amazon web services account.
 * Click and open S3 under Storage and content delivery.
@@ -84,10 +114,10 @@ Note : The name of the images you uploaded here should match with SKU of the pro
 Once configured the app, open the product and choose **YES** to enable the AmazonS3 integration.
 ![](./assets/images/amazons3_image_05.png)
 
-####Frontend
+#### Frontend
 ![](./assets/images/amazons3_image_07.png)
 
-####Support
+#### Support
 
 Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html
 
