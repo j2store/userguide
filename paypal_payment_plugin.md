@@ -209,11 +209,23 @@ If possible take a screenshot and contact our support team.
 <a name="order_status_failed"></a>
 ### 2. Order status Failed
 
+**Solution - 1**
+
 Are you using your Primary Paypal Email as your merchant email? If your order status says failed, then chances are that you are using a secondary email of your Paypal account.
 
 Paypal allows you to add multiple emails in an account to accept payments. With the Paypal plugin for J2Store, make sure you are using your primary Paypal account email. You can check which is your primary email by signing into your Paypal account and then going to Profile -> Add / Edit emails page.
 
 ![Paypal Primary Email](./assets/images/paypal_primary_email1.png)
+
+**Solution-2**
+
+Go to Global configuration -> Server tab -> Database setting
+Are you using the MySQL PDO driver ?
+
+If yes, please take a backup of the site and choose the MySQLi driver.
+
+The PDO driver of Joomla has a bug. Instead of returning a boolean value on table update as mandated by the interface, it would return a record set, causing issues.
+
 <a name="currency_is_wrong"></a>
 ## 3. Currency is wrong. Paypal payment screen shows USD while my currency is different
 
@@ -305,7 +317,7 @@ It seems there are recent technical restrictions imposed by paypal: (refer below
 
 ![paypal-technical-restriction](./assets/images/paypal-docs-arrtibutes-restriction.png)
 
-####How to fix it ?
+#### How to fix it ?
 
 We have updated the paypal plugin with fixes for these new technical restrictions. Please make sure you update your paypal plugin to latest (v.3.4)
 With this update if you have used more than 7 options then the first 7 options are passed to paypal and others are ignored. Similarly if the product option character length is larger than allowed by paypal, those values are trimmed (cut off). This will make sure you do not get any errors and customers will continue to see checkout screen without any issues.
