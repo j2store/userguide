@@ -40,7 +40,7 @@ You can get commercial code and secret API keys by logging into your culqi accou
 
 Copy your Commercial Code and paste it in plugin's settings. To know your secret API key, click on **See** under the column Key. Popup will show your secret API key. Copy and paste it in plugin's settings.
 
-![](./assets/images/culqi-api-keys.png)
+![](./assets/images/culqi-api-credentials.png)
 
 **Culqi User ID / User Email**
 
