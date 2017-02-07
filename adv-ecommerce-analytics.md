@@ -80,14 +80,18 @@ This feature sets Impression threshold for category page. It sends hit after the
   a. Cart
 
   b. Checkout Options
+  
+  c. Register Address
 
-  c. Billing Address
+  d. Billing Address
 
-  d. Shipping Address
+  e. Shipping Address
 
-  e. Payment method
+  f. Payment method
 
-  f. Confirm order ![](./assets/images/ga-checkout-labels.png)
+  g. Confirm order 
+  
+  ![](./assets/images/ga-checkout-steps.png)
 
 5. Once finished configuring our E-commerce Google Analytics app and enabling enhanced eCommerce reporting in your Google Analytics account, go to your site frontend and place the order.
 
