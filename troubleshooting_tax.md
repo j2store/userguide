@@ -1,13 +1,14 @@
-#Troubleshooting Tax Issues
+# Troubleshooting Tax Issues
 
 * **[How to display Prices without including tax?](#price_without_tax)**
 * **[How to display prices with including tax?](#price_with_tax)**
 * **[Why the tax rate is not showing up for particluar zone?](#zone_not_showing)**
 * **[Configured all the things properly but still tax is not showing.Why?](#add_tax_profile)**
 * **[Why tax is not displayed when changing the setting of the tax calculation from billing address to the delivery address?](#change_shipping_address)**
+* **[Why tax information is showing as "Excl.tax even you have chosen including tax in configuration ?](wrong_tax_information)**
 
 <a name="price_without_tax"></a>
-####How to display Prices without including tax?
+#### How to display Prices without including tax?
 
 Go to J2store -> Configuration -> Tax tab.
 
@@ -16,7 +17,7 @@ Select **No, I will enter prices exclusive of tax** to Prices Entered With Tax o
 Select **Excluding tax** for both Display prices in product pages and Display prices during cart/checkout.
 
 <a name="price_with_tax"></a>
-####How to display prices with including tax?
+#### How to display prices with including tax?
 
 Go to J2store -> Configuration -> Tax tab.
 
@@ -27,7 +28,7 @@ Select **Including tax** for both Display prices in product pages and Display pr
 Set **YES** to Display tax information below the prices (in product pages).
 
 <a name="zone_not_showing"></a>
-####Why the tax rate is not showing up for particular zone?
+#### Why the tax rate is not showing up for particular zone?
 
 For example, do you want to setup the tax rate for california ?
 
@@ -50,18 +51,27 @@ For example, do you want to setup the tax rate for california ?
   Open the tax rate you have created and the geozone you have created will be listed in the Geo Zone list.
   
 <a name="add_tax_profile"></a>
-####Configured all the things properly but still tax is not showing.Why?
+#### Configured all the things properly but still tax is not showing.Why?
 
 You might have missed one most important step. You should add the tax profile to the product.
 
-Open the product, go to J2store cart and navigate to the general tab.
+Open the product, go to J2Store cart and navigate to the general tab.
 
 Add your tax profile created.
 
 <a name="change_shipping_address"></a>
-####Why tax is not displayed when changing the setting of the tax calculation from billing address to the delivery address?
+####  Why tax is not displayed when changing the setting of the tax calculation from billing address to the delivery address?
 
-If you choose shipping address in J2store configuration then you should also change the associated address to shipping address in the tax profile.
+If you choose shipping address in J2Store Tax configuration then you should also change the associated address to shipping address in the tax profile.
 
 Go to tax profile and set the associate address as shipping address.
+
+<a name="wrong_tax_information"></a>
+#### Why tax information is showing as **"Excl.tax"** even you have chosen including tax in configuration ?
+
+Seems to be choosing of wrong default customer address.
+
+In your tax configuration, you might have chosen default customer address as **"No address"**. Here should choose store address as default customer address.
+
+Because, the guest customers don't have any billing or shipping address so in this case, it will take default address as store address to display the correct tax information.
 
