@@ -1,11 +1,23 @@
 ##Troubleshoot Email Issues
 
-####Administrator / customer is not receiving order notification emails
+#### Administrator / customer is not receiving order notification emails
 
 J2Store uses the Joomla's default mail wrapper (JMail) class for sending the order notifications to the store administrator and the customers.
 
 There can be a number of reasons why a customer or the store administration has not received the emails. The following are a few scenarios and solutions.
 
+* ***Is your Joomla mail server working?***
+
+  You can check this by creating new user with valid email address. Joomla usually sends an email notification about the account creation.
+
+  Also try sending a test email from the Joomla global configuration.
+
+  If you can't get any default Joomla emails to work, the settings at your mail server are incorrect.
+
+* ***Mail not receives on placing order but receives when notifying from backend ?***
+
+ It is mainly due to Mail function is disabled in PHP setting or it is disabled by your hosting provider.
+ 
 * ***Is your site in localhost?***
 
    In this case, you won't receive any emails. Please host your site with a webhosting service provider.
