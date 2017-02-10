@@ -5,6 +5,7 @@
 	* [Enable Shipping](#enable_shipping)
 	* [Geozone](#geozone)
 * [Issues specific to Standard Shipping methods](#issues-standard-shipping)
+	* [Shipping method configuration](standard-shipping-configuration)
 	* [Set Rates](#set_rates)
 * [Issues specific to USPS, FedEx, UPS, CanadaPost, Australia Post](#specific-plugins)
 	* [Weight and Dimensions](#weight_dimension)
@@ -26,8 +27,10 @@ There are certain common issues that prevents the shipping methods from showing 
 
 ###Enable Shipping
 
-Well. This might sound trivial. But some of us often forget to turn on the Enable shipping switch while creating the product. Make sure that Enable shipping is set to YES.
-By default, Enable Shipping is set to NO. So this should be your first check.
+Well. This might sound trivial. But some of us often forget to turn on the Enable shipping switch while creating the product. Make sure that **Enable shipping** is set to YES.
+
+By default, **Enable Shipping is set to NO**. So this should be your first check.
+
 ![enable shipping in product](./assets/images/shipping_enable_item.png)
 
 <a name="geozone"></a>
@@ -48,10 +51,20 @@ Based on the shipping address provided by the customer, the system will look up 
 > If you ship your goods to the entire world and use shipping plugins like USPS, FedEx or UPS, you will have a param called: All geozones. Choosing this will allow the plugin to work for all shipping locations. Check the screenshot below
 
 ![shipping geozone setting](./assets/images/shipping_geozone_setting.png)
+
 <a name="issues-standard-shipping" />
 ##Issues specific to standard shipping methods
 
 J2Store comes with seven standard shipping methods built-in. The following are some of the common issues.
+
+<a name="standard-shipping-configuration"/>
+### Shipping method configuration
+
+1. The maximum sub-total and minimum sub-total condition does not match with your order-sub total. Check and make sure all the conditions you have in configuration page is correctly configured.
+
+2. You have accidently disabled the shipping method. But looking for shipping option to be displayed at frontend.
+
+3. Do you have weight based shipping method? But no shipping cost is showing ? The reason might be mismatching of weight range you have in **Set rates** and the weight of your product.
 
 <a name="set_rates" />
 ###Set Rates
