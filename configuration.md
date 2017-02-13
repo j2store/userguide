@@ -23,6 +23,7 @@ Some basic settings need to be done before you proceed. This will be handled by 
  * ***Enable J2Store CSS***
  
     If this option is enabled, J2store loads the **j2store.css** file for customizing the template style. First, this will look in to the template CSS file. If it is not included, then J2Store loads it own **J2Store.css** file.
+    >NOTE: Copy the original CSS file from /media/j2store/css/j2store.css to your template's css folder. Otherwise, you will have to style every element from scratch. The original j2store.css will get you started quickly. You can then append / change existing styles
     
 * ***Load jQuery UI***
     
