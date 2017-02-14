@@ -6,29 +6,24 @@
 * **[Options from dropdown cannot be selected](#options)**
 * **[solve jQuery conflict with Multi-categories component](#multicateogries)**
 * **[Writing template override for the frontend order view and print layouts](#template_override)**
-* **[Troubleshooting Checkout issues](#checkout_issues)**
 * **[How To Solve Mini Cart module related issues](#mini_Cart_issues)**
 * **[HOWTO make checkout address field labels language friendly](#checkout_field_language)**
 * **[Selling Digital Goods Online with J2Store](#digital_folder)**
 * **[HOW TO override the layout of Add to cart block](#override_addtocart)**
-* **[How to create a new currency in J2Store?](#currency)**
 * **[Joom SEF configuration for J2Store](#joomsef)**
 * **[How to Remove + and - Prefix in Product Option Price](#remove_prefix)**
 * **[I don't see Add to Cart Button. What is the problem?](#no_add_to_cart)**
 * **[HOW TO move Add to Cart Button using the Short Plugin tag](#move_cart_button)**
-* **[HOW TO Disable Shipping Address step and Payment Methods in Checkout](#disable_shipping_payment)**
 * **[HOW To Translate the Address Field Labels](#translate_addr_fields)**
 * **[HOW TO change the colour of add to cart buttons](#color_cart_button)**
 * **[Writing a Layout override for Joomla article manager - An intro image](#override_intro_image)**
 * **[HOWTO solve javascript conflict between some of RocketTheme templates and J2Store](#rocket_js_conflict)**
-* **[HOWTO create a custom thank you message](#thank_u_message)**
 * **[HOWTO translate j2store / fix language and translation related issues](#lang-translate_issues)**
 * **[How to translate payment option title](#payment_option_title)**
 * **[Hiding Product Options And Cart Button In Category View](#hide_cart_button)**
 * **[Override Product Layout](#override_product_layout)**
 * **[HOW TO set up and enable SSL in Joomla](#enable_ssl)**
 * **[How to solve the product link in search results](#j2store_search)**
-* **[How to troubleshoot email related issues](#email_troubleshoot)**
 * **[[HOW TO]Fix product you are trying to access is disabled](#product_disable_error)**
 * **[Is your digital product showing NEVER in expiry column](#download-expiry-never)**
 * **[[HOW TO]Solve terms and conditions popup box freeze](#terms-conditions)**
@@ -124,63 +119,6 @@ Edit the file /templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
 Make your changes / overrides. Save.
 
 You need to do the same if you want to override
-
-<a name="checkout_issues"></a>
-##Troubleshooting Checkout issues
-
-The checkout steps in J2Store use AJAX extensively in order to provide customers with a better online shopping experience. Customers do not have to wait for the checkout pages to refresh. The entire checkout is handled within a SINGLE PAGE and the checkout steps are loaded in an accordin style.
-
-If your checkout steps are not working, then follow the checklist here to troubleshoot
-
-####Javascript conflicts
-
-Since checkout steps are loaded in real-time using Ajax, any Javascript conflict in your site might affect the process. You will see the Checkout steps not unfolding or when you press continue button, nothing will happen.
-
-**Solution:** Installing and configuring a Javascript manager like jQuery Easy plugin will solve most of the issues. If the problem remains unsolved, follow the troubleshooting method described below.
-
-**Troubleshooting Method:** Open your website in the Google Chrome browser. Open the browser menu and go to Tools -> Developer Tools
-
-You can see the Developer Tools window opening at the bottom of the browser. Navigate to the Console tab.
-
-![](./assets/images/troubleshoot_developertools.png)
-
-Now Refresh your website, add a product to cart and go to checkout. The Console tab will now show you javascript conflicts, if any, in the site. It will also show you the file name and the line number that produce the error. Take a screenshot and send it to us and also send a copy to your template provider. We will check and get back to you with the solution.
-
-![](./assets/images/troubleshoot_console.png)
-
-####Issue with Account Registration and FreeBSD
-
-Sometimes, customer will not be able to pass the Account Registration and Billing step. To solve this issue, please make sure that the Allow Registration is set to YES in Joomla Administration - Users - Options
-
-If the problem continues, go to Joomla admin - system - System Information tab.
-
-IMPORTANT NOTE: The following instruction applies only to those running PHP on a FreeBSD operating system.
-
-Check the value for PHP Built On. It tells you the Operating system of your hosting server.  If it says, FreeBSD, then contact your host. In FreeBSD, the Filter extension is not enabled by default. Enabling it solves the problem. More information can be found [in this thread](https://forums.freebsd.org/threads/30465/)
-
-####Checkout goes in Loop
-
-Sometimes, customers will be redirected from the Shipping and Payment step to the first step (Loop). Or you may not be able to proceed when you click Continue at the Billing or the Shipping step.
-
-Solution: Go to Users -> Options
-
-Make sure the following fields are set as per the configuration given below. And then do a purchase and see if the checkout works fine.
-
-![](./assets/images/checkout_redirected.png)
-
-If you still face issues, then there could be several reasons for this behavior. Please create a private ticket (Go to the support menu ) and provide super user logins. One of our developer will help you troubleshoot and solve the problem.
-
-####Could not proceed to payment step. Stuck at the Shipping step
-
-Make sure you are not having any old template overrides. If you are using a template like JSN One, you might be having template overrides for checkout layout.
-
-Go to /templates/<YOUR_TEMPLATE>/html/com_j2store
-
-Do you see a folder named: checkout
-
-If yes, rename it as: old_checkout
-
-Now check.
 
 <a name="mini_Cart_issues"></a>
 ##How To Solve Mini Cart module related issues
@@ -346,35 +284,6 @@ to
 
 Make the changes and save.
 
-<a name="currency"></a>
-##How to create a new currency in J2Store?
-
-J2Store allows you to sell in multiple currencies. You can create as many currencies as you like. You can either set the exchange value of the currency manually or allow J2Store to fetch in real-time from the Google Financial API. (In Store configuration, you should set the Auto update currency to YES)
-
-This tutorial shows you how to create a new currency in your Joomla online store.
-
-####Step 1: Create a new currency
-
-Follow this guide to create new currency http://j2store.org/support/user-guide/currency.html
-
-####Step 2: Choose your default currency
-
-Go to Joomla admin - J2Store - Setup - configuration - store
-
-Choose your Default Currency. Example: If you want to use EUR as the default currency, choose it.
-
-Set the Auto update currency to YES.
-
-Save.
-
-####Step 3: (Optional) Publish the currency switcher module
-
-This step is useful only for those using two or more currencies on their site.
-
-Go to Joomla admin - Extension - Module Manager
-
-Publish the J2Store Currency module to a position. This displays a currency switcher.
-
 <a name="missing_currency_symbol"></a>
 ##Solving the missing currency symbol in your store
 
@@ -499,61 +408,6 @@ Now go to the Content tab and enter the plugin tag
 Now save the article.
 
 You will now see the add to cart block placed at your preferred location.
-
-<a name="disable_shipping_payment"></a>
-##HOW TO Disable Shipping Address step and Payment Methods in Checkout
-
-Many owners of small online stores have asked us how to disable the Shipping address
-
-and Shipping & Payment Method sections in the checkout. This guide explains the steps to hide the checkout steps.
-
-####Hiding Shipping Address section
-
-**Step 1**
-
-Go to J2Store -> Configuration -> Cart tab
-Set the Enable Shipping address fields to No.
-
-**Step 2**
-
-Open your products (articles) and make sure that the Enable shipping for this item is set to NO.
-
-Now shipping fields will not show.
-
-####Hiding Shipping & Payment Method blocks
-
-Go to Joomla admin -> J2Store -> Set up -> Payment
-
-Make sure that ONLY ONE payment plugin is enabled.
-```
-IMPORTANT: If you are using the Paypal as payment method, just enable the Paypal Plugin. Make sure that other payment plugins are disabled.
-
-Similarly, you should have ONLY ONE shipping method enabled.
-If you created and enabled two or more shipping methods, then you cannot disable this section.
-```
-Add the following CSS at the end of your template's CSS file to hide the Shipping and Payment Methods blocks.
-```
-#shippingcost-pane {
-display: none;
-}
-
-#onCheckoutPayment_wrapper {
-display: none;
-}
-```
-Save.
-
-Now the Shipping and Payment methods blocks won't be displayed.
-
-**NOTE:** You cannot hide or skip shipping /payment methods step. You can just hide its contents. The customer will still have to go through this step and click the continue button in order to progress to the order summary page.
-
-####Billing Address
-
-You cannot disable the Billing address entirely.  However, you can reduce the number of fields in the billing address section.
-
-You can disable the fields via the Custom Fields manager.
-
-**IMPORTANT:** You should at least have the Email field enabled. The remaining could be disabled.
 
 <a name="translate_addr_fields"></a>
 ##HOW To Translate the Address Field Labels
@@ -741,40 +595,6 @@ You can find the details to update rokBox here http://www.rockettheme.com/extens
 NOTE: If you are upgrading from RokBox1 and you are using the old RokBox syntax, such as {rokbox} or <a rel="rokbox" >.., you can enable the Backward Compatibility from both the System and Content plug-in. You will also have to enable Backward Compatibility if you are using the Login or Module Popup Feature in any of our templates prior to Alerion. Those templates will be updated over time to be compatible with RokBox2 over time.
 Be aware that the Backward compatibility can dramatically slow down the loading of your site. It is highly suggested to convert the old syntax into the new one.
 ```
-<a name="thank_u_message"></a>
-##HOWTO create a custom thank you message
-
-You can display a thank you message, instructions or information to your customers after they have completed the purchase. For example, if you are selling digital goods, you can include a link where the customer can download the items.
-
-if you are using offline payment, then you can include instructions or bank account details in the article and display it to the customer. You can use this feature on a number of ways.
-
-####Step 1: Create an article
-
-Go to Joomla admin -> Article Manager.
-
-Create a new article and enter your message, instructions or information or any text that you want to show to the customers after the purchase.
-
-Save the article and note down its ID.
-
-####Step 2: Associating the article with the Payment Plugins
-
-All the J2Store payment plugins have a feature to display an article after the customer makes the payment and completes the purchase.
-
-Let us take the offline Payment Plugin as an example.
-
-Go to Plugin Manager and open the Offline Payment Plugin.
-
-In the Basic Options tab, you will find a param: Custom thank you Article ID
-
-(in Joomla 2.5, you can see the plugin params on the right side of the screen)
-
-Enter the ID of the article you just created with a message to the customer.
-
-Save and close the plugin.
-
-Thats it! When a customer checks out and completes the purchase, he will see this article.
-
-**TIP:** If you use more than one payment plugins, then you have to open other plugins and enter the article ID. You have the option to enter a different article ID for different payment plugins.
 
 <a name="lang-translate_issues"></a>
 ##HOWTO translate j2store / fix language and translation related issues
@@ -1010,63 +830,6 @@ You can find the plugin Search - J2Store.
 
 Enable / open the plugin and setup the configurationsas like in the below screenshot.
 ![](./assets/images/search_j2store_02.png)
-
-<a name="email_troubleshoot"></a>
-##How to troubleshoot email related issues
-
-
-####Administrator / customer is not receiving order notification emails
-
-J2Store uses the Joomla's default mail wrapper (JMail) class for sending the order notifications to the store administrator and the customers.
-
-There can be a number of reasons why a customer or the store administration has not received the emails. The following are a few scenarios and solutions.
-
-* ***Is your site in localhost?***
-
-   In this case, you won't receive any emails. Please host your site with a webhosting service provider.
-   
-* ***Did you set up the 'From' email and Admin email in shop settings***
-
-  **Version 2.x:**
-  Go to Joomla admin -> J2Store - Options - Shop settings
-
-  Set your Default From email and the Admin Email there.  IMPORTANT: Make sure that your 'From' email and the Admin email are different.
-  
-  **For Version 3.x:**
-  Go to Joomla admin - Global Configuration - Server tab
-
-  Check your From email and other mail settings.
-
-  Then go to J2Store - Configuration - store settings
-
-  Make sure the Store administrator email is not same as the From email set in the global configuration.
-
-  Many email servers and clients will flag an email as spam if the 'From' email and the admin email are the same.  So using two different emails solves the problem.
-
-  **Example:** If your from email id is: myemail1@gmail.com then your Admin email could be someotheremail@gmail.com
-  
-* ***What is the status of the order?***
-
-  Most of the Payment Plugins for J2Store are configured to send an order notification to the administrator and the customer, only when the order status is CONFIRMED. However, a few plugins such as Bank transfer, Cash on Delivery, Money Transfer, Offline Payment plugins, will send the notification for all order statuses.
-
-  So if you are not receiving an email, then check the status of the order. Most of the Payment gateways send a feedback after a customer makes a payment successfully. Based on the feedback received, the Payment plugins set the order status and trigger the email. Occasionally, the payment gateways may not send the feedback or it may not reach your server for a variety of reasons. For those reasons, email might not be sent.
-  
-* ***Mail server issues***
-
-  Sometimes, your host mail server may have issues. It might not send the emails. Here is an easy way to find out if your mail server has an issue:
-
-  Go to Joomla admin -> User Manager. Create a new user by entering a valid email. If you did not receive any notification about the new user creation, then your mail server has an issue.
-
-  Contact your hosting service provider. They will help you out.
-  
-* ***Customer receiving the email, but the store administrator is not getting or vice versa.***
-
-  If this issue occurs, then J2Store is successfully sending the order notifications using Joomla mail functions. No problems with your Joomla installation.
-
-  The problem is with the customer's or the administrator's email. Ask your customer / store administrator to check their SPAM folders. If still not there, contact your hosting service provider.
-  
-
-  Still have issues ? Post your issues in the community forums if you are a free version user. Subscribers, create a private ticket providing super user logins to your site.
 
 <a name="product_disable_error"></a>
 ##[HOW TO]Fix product you are trying to access is disabled

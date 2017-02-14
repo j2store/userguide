@@ -20,6 +20,7 @@
 * **[Error: No shipping method was selected. Selection of a shipping method is mandatory](#checkout_shipping_error)**
 * **[Show/Hide Filters](#show_hide_filters)**
 * **[Re-order checkout fields](#reorder_checkout_fields)**
+* **[[WHY] payment options are not showing at checkout payment method step](#payment-options)**
 
 <a name="product_options_not_working" />
 ####Product Options not working or displaying option
@@ -273,3 +274,12 @@ You can re-locate the field to anywhere in the layout and you can also add the c
 
 Below video explains you briefly.
 **[Video tutorial](https://youtu.be/KLn_u3CgUzc)**
+
+<a name="payment-options"/>
+## [WHY] payment options are not showing at checkout payment method step
+
+Please go to J2Store -> Set up - payment methods
+Open the payment methods you are using.
+And make sure the Geozone field is set to All
+
+And make sure your order total (cart total ) is above zero. If it is zero, payment methods wont be necessary at the checkout.

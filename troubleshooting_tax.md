@@ -5,7 +5,8 @@
 * **[Why the tax rate is not showing up for particluar zone?](#zone_not_showing)**
 * **[Configured all the things properly but still tax is not showing.Why?](#add_tax_profile)**
 * **[Why tax is not displayed when changing the setting of the tax calculation from billing address to the delivery address?](#change_shipping_address)**
-* **[Why tax information is showing as "Excl.tax even you have chosen including tax in configuration ?](wrong_tax_information)**
+* **[Why tax information is showing as "Excl.tax even you have chosen including tax in configuration ?](#wrong_tax_information)**
+* **[HOW TO Apply tax to all customers comes from world wide ?](#world-wide-tax)**
 
 <a name="price_without_tax"></a>
 #### How to display Prices without including tax?
@@ -75,3 +76,16 @@ In your tax configuration, you might have chosen default customer address as **"
 
 Because, the guest customers don't have any billing or shipping address so in this case, it will take default address as store address to display the correct tax information.
 
+<a name="world-wide-tax" />
+#### HOW TO Apply tax to all customers comes from world wide?
+
+It is very simple. Just create one geozone and include all countries.
+
+Go to J2Store > Localisation > Geozones
+Click New
+Enter Geozone name and choose the status Enabled
+Save.
+
+After saving, you can see Import countries button. Click Import countries button to import all countries and save.
+
+Now assign this geozone to your tax rate.
