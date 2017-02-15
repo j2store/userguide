@@ -1,6 +1,6 @@
 # Troubleshoot cart related issues
 
-#### ####To change the Add to cart block and style in category view
+#### To change the Add to cart block and style in category view
 
 copy /components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_cart.php
 
