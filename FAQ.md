@@ -1,7 +1,6 @@
 #Frequently Asked Questions
 
 * **[Product Options not working or displaying option](#product_options_not_working)**
-* **[Unregistered users to place orders](#unregistered_users_place_orders)**
 * **[Vat not appears in check out](#vat_not_appears_in_checkout)**
 * **[Donation plugin is empty.Why](#donation_plugin_empty)**
 * **[Multiple stores / different notification receiver depending on category](#multiplestores_differentnotification_depending_oncategory)**
@@ -11,7 +10,6 @@
 * **[Grid layout not working/columns.Why?](#layout_problem)**
 * **[Preview additional image after click](#avoid_mouseover)**
 * **[Remove Thumbnail image](#remove_thumbnail)**
-* **[How to add custom text or unit to the price field?](#custom_text)**
 * **[How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?](#text_after_tax)**
 * **[Make the product name a link to administrator panel](#product_name_link)**
 * **[Remove image from orders and invoices while the image in cart remains based on the setting](#remove_image_invoice_email)**
@@ -29,11 +27,6 @@ Check your j2store basic settings tab in Joomla admin->J2store->setup->configura
 You might have set Load jQuery UI to only frontend.It should be always in Both frontend and backend.
 
 **[Video tutorial](https://youtu.be/AA9cLYTuXZE)**
-
-<a name="unregistered_users_place_orders" />
-####Unregistered users to place orders
-Go to J2Store - Configuration - Cart settings
-set Allow Guest checkout to YES.
 
 <a name="vat_not_appears_in_checkout" />
 ####Vat not appears in check out
@@ -122,18 +115,6 @@ edit the file and remove the highlighted line fully.
 * Goto Extensions -> Plugins -> select the type content. You can find        Content_J2Store plugin.
 * Open the plugin and goto the Item view tab.
 * Set Display image to No.
-
-<a name="custom_text"></a>
-####How to add custom text or unit to the price field?
-
-copy
-/components/com_j2store/templates/default/default_price.php
-
-to
-
-/templates/YOUR_TEMPLATE/html/com_j2store/templates/default/default_price.php
-
-on around line no 25 you can add any word such as "FROM", "PER KG", etc
 
 <a name="text_after_tax"></a>
 ####How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?
