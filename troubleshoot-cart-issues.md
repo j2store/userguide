@@ -1,5 +1,16 @@
 # Troubleshoot cart related issues
 
+* **[Template override for Add to cart block in category view](#template-override-category-view)**
+* **[Template override for Add to cart block in detail view](#template-override-detail-view)**
+* **[Is cart not responding when you click update or empty cart button?](#cart-not-responding)**
+* **[Minicart icon not showing up?](#minicart-icon)**
+* **[[HOW TO]Add cart module right or left below the product filter?](#cart-module-filter)**
+* **[Avoid cart items cleared](#cart-items-clear)**
+* **[How To Solve Mini Cart module related issues?](#cart-module-issues)**
+* **[I don't see Add to Cart Button. What is the problem?](#not-show-cart-button)**
+* **[HOW TO move Add to Cart Button using the Short Plugin tag](#move-cart-button)**
+
+<a name="template-override-category-view"/>
 #### To change the Add to cart block and style in category view
 
 copy /components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_cart.php
@@ -10,7 +21,8 @@ to
 
 **IMPORTANT:** If you are using bootsrap 3 as a sub-template, replace the default with bootstrap3(/components/com_j2store/templates/bootstrap/..)
 
-####To change the Add to cart block and style in item view
+<a name="template-override-detail-view"/>
+#### To change the Add to cart block and style in item view
 
 copy /components/com_j2store/templates/YOUR-SUB-TEMPLATE/view_cart.php
 
@@ -20,6 +32,7 @@ to
 
 Make the changes and save.
 
+<a name="cart-not-responding"/>
 #### Is cart not responding when you click update or empty cart button?
 
 If you enable **System - Page Cache** / SpeedCache or any thidy party cache plugins, they photo copy every page including the cart page.
@@ -34,6 +47,7 @@ Another thing:
 
 Please use the **Conservative caching**.
 
+<a name="minicart-icon"/>
 #### Minicart icon not showing up?
 
 It seems to be applying wrong font-awesome class in module settings page.
@@ -50,6 +64,7 @@ fa fa-shopping-cart
 
 Save.
 
+<a name="cart-module-filter"/>
 #### [HOW TO]Add cart module right or left below the product filter?
 
 You can use special module positions in the filter display section to display the cart module to the product filter.
@@ -64,20 +79,22 @@ You can use special module positions in the filter display section to display th
 
 For more details about special module position, please click [Here](https://www.j2store.org/support/user-guide/special-module-position.html)
 
+<a name="cart-items-clear"/>
 #### Avoid cart items cleared
 
-Sometimes customers accidently entered wrong credit card / debit card number. He came to know that he entered wrong card details only after clicking on place order. But cart items will be cleared once you clicked place order button. So you could not retry the checkout process and it makes you frustrating.
+Sometimes customers accidently entered wrong credit card / debit card details. He came to know that he entered wrong card details only after clicking on place order. But cart items will be cleared once you clicked place order button. So you could not retry the payment process and it makes you frustrating.
 
-You can restrict clearing cart items only on order confirmation.
+To overcome this, you can restrict clearing cart items only on order confirmation.
 
 Go to J2Store > Configuration > Cart tab
 Find the param "Clear cart items". Set this param to "On Confirmation" and save.
 
+<a name="cart-module-issues"/>
 #### How To Solve Mini Cart module related issues?
 
 J2Store's Mini Cart is a very handy tool for your customers when they shop. They can check the number of items in their order and the total. The cart module is refreshed in real-time using an AJax request. On a few occasions, the cart may not get updated on a real time. Here is a checklist that should help you solve the problem.
 
-####Cache settings
+##### Cache settings
 Go to Joomla admin - Global configuration - System tab.
 
 Caching is like taking a snapshot of your pages and presenting the same to every visitor coming to your site (untill the cahce is refreshed again).
@@ -88,14 +105,14 @@ If you use Progressive Caching, Joomla will override the Cache settings in the m
 
 ![](./assets/images/cache_settings.png)
 
-####Module settings
+##### Module settings
 
 Go to Joomla admin - Module Manager - J2Store Cart module
 
 In the Advanced tab, set the Caching to No Cache.
 ![](./assets/images/mod_cache_settings.png)
 
-####Javascript conflict
+##### Javascript conflict
 
 Since the J2Store updates the cart module using an AJAX request, it is important that your site does not have any javascript conflicts.
 
@@ -114,7 +131,7 @@ You can see the Developer Tools window opening at the bottom of the browser. Nav
 Now Refresh your website. The Console tab will show you if there are any javascript conflicts in your site. It will also show you the file name and the line number that produce the error. Take a screenshot and send it to us and also send a copy to your template provider. We will check and get back to you with the solution.
 ![](./assets/images/developer_tools_console.png)
 
-####JSON support
+##### JSON support
 
 While most of the hosting service providers enable the JSON support for PHP by default, some do not. It is easy to check if JSON is enabled or not in your hosting account.
 
@@ -126,6 +143,7 @@ You can look for something like below in the PHP Information tab.
 
 ![](./assets/images/json_setup.png)
 
+<a name="not-show-cart-button"/>
 #### I don't see Add to Cart Button. What is the problem?
 
 Don't worry. This is often a simple configuration mistake. We have answered this question more than hundred times.
@@ -162,6 +180,7 @@ This post explains the reasons behind this. Make sure you check the following po
   Still no luck. Then there might be a template override for the articles or some other plugin is causing an issue. 
 Post in the forums with URL to a product in your site. Our support team will take a look and help you solve the issue.
 
+<a name="move-cart-button"/>
 #### HOW TO move Add to Cart Button using the Short Plugin tag
 
   You can move the location of the Add to cart block within the product layout using a simple plugin tag. 
