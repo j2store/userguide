@@ -131,3 +131,36 @@ Please try the following:
 3. Under Selling Preferences, click Payment Receiving Preferences
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
 5. Save.
+
+### 5. Paypal option not showing at checkout?
+
+Make sure the Geozone field at paypal plugin configuration page is set to ALL.
+
+By selecting a geozone here, you can restrict this payment method to only customers of that geo-region. Choose All geozones to show this method to all customers.
+
+Go to J2Store > Setup > Payment methods
+Open Paypal payment plugin
+Set Geozone to ALL
+Save.
+
+### 6. Is your order still not auto confirming the status?
+
+Here is one more troubleshooting step
+Go to Joomla administration -> Global config -> Server -> Database settings
+Make sure your Database driver is NOT set to MySQL PDO.
+
+### 7. Make order status confirmed immediately
+
+Is your PayPal's account default currency is different from your store currency ?
+Only if the currency is different, PayPal will send the payment status as Pending.
+
+Login to your PayPal account -> profile -> Selling preferences.
+
+You will find a switch:
+
+Allow payments sent to me in a currency I do not hold:
+Set this to: Yes, accept and convert them to US Dollars. Additional charges apply.
+
+Otherwise, your PayPal account requires you to manually accept each transaction (by logging in to your Paypal Acount)
+
+If PayPal sends the payment status as Completed, J2Store will automatically mark the transaction as Confirmed.
