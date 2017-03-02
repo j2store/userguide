@@ -19,6 +19,8 @@ Production : https://www3.moneris.com/mpg
 
 Before you can send a transaction to the Hosted Paypage you will need to configure several settings through the eSELECTplus Merchant Resource Centre (MRC).
 
+**For test accounts**
+
 To log into the MRC test environment go to https://esqa.moneris.com/mpg and use one of the following login Ids.
 
 | Store ID | User Name | Password |
@@ -39,7 +41,7 @@ To create a new Hosted Paypage configuration, click on “Generate a New Configu
 
 You will be assigned a Hosted Paypage ID (**ps_store_id** ). 
 
-This is the identifier for this unique configuration. You will also be assigned a Hosted Paypage Key (**hpp_key**). Note down the **ps_store_id** and **hpp_key** . You will need these while setting up the plugin.
+This is the identifier for this unique configuration. You will also be assigned a Hosted Paypage Key (**hpp_key**). Note down the **ps_store_id** (**hpp_id** for US) and **hpp_key** . You will need these while setting up the plugin.
 
 **Step 3.1**: Set Transaction Type to Purchase (default).
 
