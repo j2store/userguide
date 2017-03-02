@@ -107,6 +107,10 @@ Go to J2Store > Catalog > Options and create a option "Subscription period" and 
 <a name="payment-subscription"/>
 #### Paypal Standard for J2Store Subscription product
 
+This payment plugin comes along with app package itself. All you need to do is go to J2Store > Setup > Payment methods and enable Paypal Standard for J2Store Subscription product plugin.
+
+After enabling the plugin, open and configure the basic details of the payment plugin.
+
 **Payment option title**
 
 Enter a title for this payment option. The value entered here will displayed at checkout payment step.
