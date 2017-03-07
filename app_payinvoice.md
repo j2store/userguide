@@ -26,7 +26,11 @@ It is very simple and easier to get started with this app. There is no complex s
 
 **Profile Reorder link expired (in days) :** Define when the re-order link should disappear from customer's order history page. For example, 5\. Re-order link will get expired after 5 days.
 
-![](./assets/images/flexible-payment-settings.png)
+**Pay button text :** Text entered here will be displayed in order history page. If you are using multilingual site, enter value as language string.
+
+![](./assets/images/pay-invoice-settings.png)
+
+**Order status for showing pay now button :** Choose order status for which the **Pay** button should be displayed.
 
 #### Use cases
 
@@ -48,7 +52,7 @@ Sometimes, customers abandon the order and leave your site without making paymen
 
 **Re-order link appears**
 
-![](./assets/images/flexible-payment-demo.png)
+![](./assets/images/pay-invoice-demo.png)
 
 **After clicking on Re-order link,**
 
