@@ -28,6 +28,10 @@ Enter the title for the payment option. The text entered here will be displayed 
 
 The image added here will be displayed while payment options are listed in the checkout page.
 
+**Card details display format**
+
+Choose whether the card detail form should be displayed in a pop form or in normal checkout form.
+
 **Commercial Code**
 
 Enter your commercial code associated with your culqi account.
@@ -97,3 +101,9 @@ You can enter a language constant as a value here if you are using a multi-lingu
 Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
 
 ![](./assets/images/culqi-plugin-config.png)
+
+#### Frontend
+
+![](./assets/images/culqi-popupform.png)
+
+![](./assets/images/culqi-demo-checkout-form.png)
