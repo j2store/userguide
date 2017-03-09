@@ -14,7 +14,6 @@
 * **[HOW TO change the colour of add to cart buttons](#color_cart_button)**
 * **[Writing a Layout override for Joomla article manager - An intro image](#override_intro_image)**
 * **[HOWTO solve javascript conflict between some of RocketTheme templates and J2Store](#rocket_js_conflict)**
-* **[HOWTO translate j2store / fix language and translation related issues](#lang-translate_issues)**
 * **[How to translate payment option title](#payment_option_title)**
 * **[Hiding Product Options And Cart Button In Category View](#hide_cart_button)**
 * **[Override Product Layout](#override_product_layout)**
@@ -127,32 +126,59 @@ Still if you do not see the translation, please check your language pack for the
 language file location /administrator/language/en-GB/en-GB.com_j2store.ini
 
 J2STORE_ADDRESS_TYPE="Address type"
+
 J2STORE_BILLING_ADDRESS="Billing Address"
+
 J2STORE_SHIPPING_ADDRESS="Shipping Address"
+
 J2STORE_ADDRESS_DETAILS="Address Details"
+
 J2STORE_ADDRESS_FIRSTNAME="First name"
+
 J2STORE_FIRST_NAME="First Name"
+
 J2STORE_ADDRESS_LASTNAME="Last name"
+
 J2STORE_LAST_NAME="Last Name"
+
 J2STORE_ADDRESS_USER_ID="User ID"
+
 J2STORE_ADDRESS_USERNAME="Username"
+
 J2STORE_ADDRESS_LINE1="Address Line 1"
+
 J2STORE_ADDRESS1="Address Line 1"
+
 J2STORE_ADDRESS_LINE2="Address Line 2"
+
 J2STORE_ADDRESS2="Address Line 2"
+
 J2STORE_ADDRESS_CITY="City"
+
 J2STORE_CITY="City"
+
 J2STORE_ADDRESS_ZIP="Zip / Postal code"
+
 J2STORE_ADDRESS_STATE="State"
+
 J2STORE_ADDRESS_COUNTRY="Country"
+
 J2STORE_ADDRESS_PHONE="Phone"
+
 J2STORE_ADDRESS_MOBILE="Mobile"
+
 J2STORE_ADDRESS_FAX="Fax"
+
 J2STORE_ADDRESS_COMPANY_NAME="Company"
+
 J2STORE_ADDRESS_TAX_NUMBER="Tax Number"
+
 J2STORE_ADDRESS_ZONE="Zone / Region"
+
 J2STORE_TELEPHONE="Telephone"
+
 J2STORE_ADDRESS_EDIT="View/Edit Address"
+
 J2STORE_SHOPPER_ADDRESSES="Shopper Addresses"
 
 <a name="digital_folder"></a>
@@ -441,68 +467,6 @@ You can find the details to update rokBox here http://www.rockettheme.com/extens
 NOTE: If you are upgrading from RokBox1 and you are using the old RokBox syntax, such as {rokbox} or <a rel="rokbox" >.., you can enable the Backward Compatibility from both the System and Content plug-in. You will also have to enable Backward Compatibility if you are using the Login or Module Popup Feature in any of our templates prior to Alerion. Those templates will be updated over time to be compatible with RokBox2 over time.
 Be aware that the Backward compatibility can dramatically slow down the loading of your site. It is highly suggested to convert the old syntax into the new one.
 ```
-
-<a name="lang-translate_issues"></a>
-##HOWTO translate j2store / fix language and translation related issues
-
-####How to translate J2store in your language?
-
-Refer the guide below
-http://j2store.org/howto-translate-j2store-in-your-language.html
-
-####Fix language and translated related issues
-
-**1. Did you download and installed the translations for your language from our website ?**
-
- If not, go to http://j2store.org/translations.html
-
- Do you see your language listed?
-
- If your language is 100% complete, go head and download the language pack and install it using the Joomla installer. Yes you read it correct. Via the JOOMLA installer.
-
- If your language is not complete, please translate the strings by following the guide at http://j2store.org/support/documentation/35-howto-translate-j2store-in-your-language.html
- 
-**2. Did you set your site Default language to your language in Language manager?**
-
-   Go to Joomla administrator->Extensions->Language Manager
-
-   Set your language as the default one (NOTE: You should have installed your Joomla language pack (NOT J2Store language pack) before doing this)
-
-   Assuming that Spanish is your language. Set Spanish as your Default Language.
-
-   Note down the language code of yours. For example, the language code for English (UK) is en-GB, Spanish = es-ES. (Google to know your language code)
-
-   Now go to Joomla admin->Components->J2store. Does all text in your language?
-
-   If yes, you are fine and carry on with your work.
-
-   If not all strings are translated, go to step 3
-   
-**3. Translate the missing/untranslated strings**
-
-   Open the /language/yourLanguage-Code/yourLanguage-Code.com_j2store.ini
-
-   if you are using french, then your language code is fr-FR and you will be opening the /language/fr-FR/fr-FR.com_j2store.ini
-
-   you will find untranslated strings like
-
-   ;J2STORE_CHECKOUT_OPTIONS="Checkout Options"
-
-   What you have to do is:
-   Remove the semicolon and add your translation. So the translated string should    look like
-   J2STORE_CHECKOUT_OPTIONS="your translation"
-
-   NOTE: the semicolon is removed.
-   
-   Now do the same for administrator language files located in
-
-  /administrator/language/yourLanguage-Code folder
-
-  /administrator/language/yourLanguage-Code/yourLanguage-Code.com_j2store.ini handles the language for the J2store administration area.
-  
-  **IMPORTANT:** All J2store language strings will start with J2STORE_ or COM_J2STORE
-  **if you see something like ;checkout or ;orders
-  DO NOT translate them. They are comments.**
   
 <a name="valid_address_error"></a>
 ##[HOW TO]Fix enter your valid Address information Error
