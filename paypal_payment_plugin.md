@@ -51,7 +51,7 @@ Enter the API password associated with your PayPal live account.
 
 Enter the API signature associated with your PayPal live account.
 
-> Follow below url to create API credentials
+> API credentials can be created by going to following url
 https://developer.paypal.com/docs/classic/api/apiCredentials/#create-an-api-signature
 
 **Surcharge Percentage**
