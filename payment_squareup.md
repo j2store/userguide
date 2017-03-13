@@ -117,3 +117,9 @@ You can enter a language constant as a value here if you are using a multi-lingu
 Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
 
 ![](./assets/images/square-03.png)
+
+![](./assets/images/squareup-step-1.png)
+
+![](./assets/images/squareup-step-2.png)
+
+![](./assets/images/squareup-step-3.png)
