@@ -39,6 +39,21 @@ Now you can see the Paypal Payments as an option during the Check out process.
 
 This is your original paypal email/merchant email address, which you have used in Paypal. 
 
+**API Username**
+
+Enter the API username associated with your PayPal live account.
+
+**API Password**
+
+Enter the API password associated with your PayPal live account.
+
+**API Signature**
+
+Enter the API signature associated with your PayPal live account.
+
+> Follow below url to create API credentials
+https://developer.paypal.com/docs/classic/api/apiCredentials/#create-an-api-signature
+
 **Surcharge Percentage**
 
 You can collect a percent of the total order value as surcharge / fee for using the Paypal option from your customers using this option.  You can enter a value here (for example: 2 ).  If you enter 2 here, then 2 % of the total order value will be added as a handling cost to the order.
@@ -70,6 +85,18 @@ Paypal offers a testing suite called Sandbox. Before going live, you can test yo
 **Paypal Sandbox Merchant Email**
 
 Your paypal sandbox email. 
+
+**Sandbox API Username**
+
+Enter API username associated with your PayPal sandbox account.
+
+**Sandbox API Password**
+
+Enter API password associated with your PayPal sandbox account.
+
+**Sandbox API Signature**
+
+Enter API signature associated with your PayPal sandbox account.
 
 **Article ID for Thanks you message**
 
