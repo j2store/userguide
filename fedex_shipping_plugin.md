@@ -37,6 +37,9 @@ This is your FedEx account number.
 ##### 4. Meter
 This is your meter number provided by FedEx.
 
+> Here is the instructions for identifying Fedex credentials (Authentication key and meter number).
+https://support.shippingeasy.com/hc/en-us/articles/203087899-How-do-I-find-my-FedEx-Meter-Number-
+
 ##### 5. Handling Cost
 If you need to charge a handling cost for the shipping, you can provide it here.
 
