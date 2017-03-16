@@ -1,22 +1,47 @@
-# Subscription Products
+# Subscriptions and Memberships
 
-Subscription Products app allows you to sell products and services with recurring payments. The following features are possible with Subscription Products app :
+If you would like to sell subscription-based products, you could do just that with our Subscriptions and Membership app. This app allows you to sell products and services with recurring payments.The following features are possible with Subscription Products app :
 
-1. Simple subscription
-2. Variable subscription
-3. Stock maintenance
-4. Manage customer user group
-5. Possible to collect sign-up fee
-6. Possible to set expiry date
-7. Renewal notification
+##### Features
+
+1. Simple subscription product type
+
+2. Variable subscription product type
+
+3. Pricing for subscription products can be defined on daily, weekly, monthly and yearly basis
+
+4. Advanced Pricing
+
+5. Allows to add image, apply tax and shipping
+
+6. Stock maintenance
+
+7. Manage customer user group
+
+8. Possible to apply sign-up fee
+
+9. Possible to set expiry date
+
+10. Renewal notification
 
 Following are the limitations in Subscription Products app
 
-1. Paypal Standard for J2Store is the only payment gateway supported by Subscription Products app.
+##### J2Store version
 
-2. Subscription Products app does not support for guest checkout.
+This app requires minimum J2Store version 3.2.20
 
-3. Variable subscription product type allows you to add only one option with multiple values.
+##### Supported Payment Gateways
+
+1. Paypal Standard for J2Store (On request)
+
+2. Mollie payment plugin
+
+##### Others
+
+1. Subscription Products app does not support for guest checkout.
+
+2. Variable subscription product type allows you to add only one option with multiple values.
+
 
 ### Requirements
 
@@ -28,7 +53,7 @@ Following are the limitations in Subscription Products app
 
 ### Installation
 
-1. Download Subscription Products package from our site and install it using Joomla installer.
+1. Download Subscription and Memberships package from our site and install it using Joomla installer.
 
 2. After installing the app, go to J2Store > Apps and enable Subscription Products app.
 
