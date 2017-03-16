@@ -7,6 +7,7 @@
 * **[Why tax is not displayed when changing the setting of the tax calculation from billing address to the delivery address?](#change_shipping_address)**
 * **[Why tax information is showing as "Excl.tax even you have chosen including tax in configuration ?](#wrong_tax_information)**
 * **[HOW TO Apply tax to all customers comes from world wide ?](#world-wide-tax)**
+* **[[How To]Display tax information with follow link text ?](#tax-info-with-link)**
 
 <a name="price_without_tax"></a>
 #### How to display Prices without including tax?
@@ -89,3 +90,48 @@ Save.
 After saving, you can see Import countries button. Click Import countries button to import all countries and save.
 
 Now assign this geozone to your tax rate.
+
+<a name="tax-info-with-link" />
+#### [How To]Display tax information with follow link text ?
+
+##### Step-1 Enable tax information to be displayed on product page
+
+Go to J2Store -> Configuration - Tax settings
+Set Display tax information below the prices (in product pages) to YES.
+See the screenshot below
+
+![](./assets/images/tax_including_text.png)
+
+It would display a text like this: (Incl. XX% tax )
+
+This might be in English.
+
+You can change this with a language override for below language constant
+Language constant is: J2STORE_PRICE_INCLUDING_TAX
+
+##### Step-2 Creating language override
+
+Go to Extensions -> Language(s) -> select Overrides.
+
+Choose your language(For example, English(en-GB-Administrator)) in filter section and click new on top left.
+
+Add J2STORE_PRICE_INCLUDING_TAX in Language constant text box.
+
+In Text box, add **Inkl %s MwSt (add the link using html anchor tag)**. For example, 
+```html
+Inkl %s MwSt. <a href="yoursite.com">See more</a>
+```
+
+Check For both locations.
+
+Location should be administrator.
+
+Save and close.
+
+Here is a screenshot showing the language override
+
+![](./assets/images/tax_override.png)
+
+Here is how it looks in the front end
+
+![](./assets/images/front_end_display.png)

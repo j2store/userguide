@@ -119,19 +119,47 @@ edit the file and remove the highlighted line fully.
 <a name="text_after_tax"></a>
 ####How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?
 
-Go to extensions -> Language(s) -> select Overrides.
+##### Step-1 Enable tax information to be displayed on product page
+
+Go to J2Store -> Configuration - Tax settings
+Set Display tax information below the prices (in product pages) to YES.
+See the screenshot below
+
+![](./assets/images/tax_including_text.png)
+
+It would display a text like this: (Incl. XX% tax )
+
+This might be in English.
+
+You can change this with a language override for below language constant
+Language constant is: J2STORE_PRICE_INCLUDING_TAX
+
+##### Step-2 Creating language override
+
+Go to Extensions -> Language(s) -> select Overrides.
 
 Choose your language(For example, English(en-GB-Administrator)) in filter section and click new on top left.
 
 Add J2STORE_PRICE_INCLUDING_TAX in Language constant text box.
 
-In Text box, add **Incl %s tax zzgl.Versandkosten(add the link using html anchor tag)**.
+In Text box, add **Inkl %s MwSt (add the link using html anchor tag)**. For example, 
+```html
+Inkl %s MwSt. <a href="yoursite.com">See more</a>
+```
 
 Check For both locations.
 
 Location should be administrator.
 
 Save and close.
+
+Here is a screenshot showing the language override
+
+![](./assets/images/tax_override.png)
+
+Here is how it looks in the front end
+
+![](./assets/images/front_end_display.png)
 
 <a name="product_name_link"></a>
 ####Make the product name a link to administrator panel
