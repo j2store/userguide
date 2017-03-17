@@ -4,39 +4,47 @@ If you would like to sell subscription-based products, you could do just that wi
 
 ##### Features
 
-1. Simple subscription product type
+**1. Billing schedules**
 
-2. Variable subscription product type
+Create any type of billing schedules. You can have memberships for days, weeks, months and years. Example: 3 months, 6 months, 1 year
 
-3. Pricing for subscription products can be defined on daily, weekly, monthly and yearly basis
+**2. Automatic renewals and payments**
 
-4. Advanced Pricing
+It is very convenient for the customers to have their membership auto-renewed with automatic payments (Current supported in 3 payment gates : PayPal, Stripe, Mollie. More gateway support is coming up)
 
-5. Allows to add image, apply tax and shipping
+**3. Sign up Fees**
 
-6. Stock maintenance
+You can now collect one-time sign -up fees or set -up fees along with the subscription. If it is a recurring subscription, the customer will only billing for the membership plan cost in the next billing automatically.
 
-7. Manage customer user group
+**4. Variable subscription**
 
-8. Possible to apply sign-up fee
+Allow your customers to choose a membership plan that suits their needs. So you can create one subscription product with multiple variants.
 
-9. Possible to set expiry date
+**5. Expiry management**
 
-10. Renewal notification
+The app automatically manages the expiration of the membership. You can set the system to notify the customers before the expiry of their subscription.
 
-Following are the limitations in Subscription Products app
+**6. Subscriptions management**
 
-##### J2Store version
+Manage all the subscriptions in one place. You can cancel the subscription, view the relavant orders and more
 
-This app requires minimum J2Store version 3.2.20
+**7. Multiple subscriptions**
+
+Customers can purchase any number of subscriptions in the same order / transaction.
+
+**8. Notification emails**
+
+Send automatic emails to the customers when the subscription is created, when a renewal payment is processed or when a subscription is cancelled or expired. You can customise the email messages as well using language overrides.
 
 ##### Supported Payment Gateways
 
-1. Paypal Standard for J2Store (On request)
+1. Paypal Standard for J2Store (Available on request)
 
-2. Mollie payment plugin
+2. Stripe (Available on request)
 
-##### Others
+3. Mollie payment plugin
+
+##### Known limitations
 
 1. Subscription Products app does not support for guest checkout.
 
@@ -49,7 +57,7 @@ This app requires minimum J2Store version 3.2.20
 
 2. J2Store 3.2.20 or above
 
-3. Joomla 3.x or above
+3. Joomla 3.4.x or above
 
 ### Installation
 
@@ -125,10 +133,11 @@ Go to J2Store > Catalog > Options and create a option "Subscription period" and 
 3. Set **YES** to Visible in storefront and navigate to **Variants** tab.
 
 4. In variants tab, search and add Subscription period option and set values.
-
-5. Generate variants and set price, subscription time period, images, shipping, filters for each variants.
+> It allows you to add one option with multiple variants. For example, Subscription period as option with following variants 3 months, 6 months, etc. See the screen shot below
 
 ![](./assets/images/subscription-variants.png)
+
+5. Generate variants and set price, subscription time period, images, shipping, filters for each variants.
 
 <a name="pricing"/>
 #### Pricing
