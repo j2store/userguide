@@ -12,11 +12,13 @@
 <a name="price_without_tax"></a>
 #### How to display Prices without including tax?
 
-Go to J2store -> Configuration -> Tax tab.
+Go to J2Store -> Configuration -> Tax tab.
 
 Select **No, I will enter prices exclusive of tax** to Prices Entered With Tax option.
 
 Select **Excluding tax** for both Display prices in product pages and Display prices during cart/checkout.
+
+![](./assets/images/tax-excl.png)
 
 <a name="price_with_tax"></a>
 #### How to display prices with including tax?
@@ -28,6 +30,8 @@ Select **Yes, I will enter prices inclusive of tax** to Prices Entered With Tax 
 Select **Including tax** for both Display prices in product pages and Display prices during cart/checkout.
 
 Set **YES** to Display tax information below the prices (in product pages).
+
+![](./assets/images/tax-incl.png)
 
 <a name="zone_not_showing"></a>
 #### Why the tax rate is not showing up for particular zone?
@@ -47,10 +51,12 @@ For example, do you want to setup the tax rate for california ?
   Choose the country name and zone name from the dropdown list.
   
   Click Save & Close.
+  ![](./assets/images/tax-geozone.png)
   
 * ***Add the Geozone to the tax rate you have created***
 
   Open the tax rate you have created and the geozone you have created will be listed in the Geo Zone list.
+![](./assets/images/tax-rate.png)
   
 <a name="add_tax_profile"></a>
 #### Configured all the things properly but still tax is not showing.Why?
@@ -60,6 +66,7 @@ You might have missed one most important step. You should add the tax profile to
 Open the product, go to J2Store cart and navigate to the general tab.
 
 Add your tax profile created.
+![](./assets/images/tax-prof.png)
 
 <a name="change_shipping_address"></a>
 ####  Why tax is not displayed when changing the setting of the tax calculation from billing address to the delivery address?

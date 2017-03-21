@@ -81,7 +81,27 @@ Choose when the expiry control should run whenever the page loads. For example, 
 
 **Cron key**
 
-Enter the Cron key here to run cron.
+Enter the Cron key here to run cron job.
+
+### Adding a cron job
+
+To add a cron job, follow these steps:
+
+1. Go and login into your cPanel
+
+2. In the Advanced section of the cPanel, Click **Crob Jobs**
+![](./assets/images/cron-job.png)
+
+3. Under Cron Email, type the e-mail address that you want to receive notifications, and then click Update Email. Every time the cron job runs, the e-mail account will receive a message.
+
+4. Under Add New Cron Job, enter the interval for the command that you want.
+
+5. If you select an interval option under Common Settings, cPanel fills in the values automatically.
+
+6. In the Command text box, type the command that you want to run.
+
+7. Click Add New Cron Job.
+
 
 Once finished configuring expiry control settings, just go to Article manager and create a new article.
 
@@ -99,6 +119,7 @@ Following are the step by step instructions to create subscription products.
 - **[Creating variable subscription product](#variable-subscription)**
 - **[Pricing](#pricing)**
 - **[Frontend Demo](#demo)**
+- **[How to write template override for subscription emails](#tpl-override-emails)**
 
 <a name="simple-subscription"/>
 #### Creating simple subscription product
@@ -174,3 +195,17 @@ Go to J2Store > Apps and Open Subscription Products app and you can see subscrip
 ![](./assets/images/subscription-button.png)
 
 ![](./assets/images/subscription-detail.png)
+
+<a name="tpl-override-emails"/>
+### How to write template override for subscription emails
+
+Copy all files in
+/plugins/j2store/app_subscriptionproduct/app_subscriptionproduct/mailtemplates
+
+to
+/template/YOUR-SITE-TEMPLATE/html/plugins/j2store/app_subscriptionproduct
+
+Now edit
+/templates/YOUR-SITE-TEMPLATE/html/plugins/j2store/app_subscriptionproduct/notify_expire.php
+
+Make changes and save.
