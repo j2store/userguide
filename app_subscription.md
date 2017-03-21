@@ -163,9 +163,9 @@ Go to J2Store > Catalog > Options and create a option "Subscription period" and 
 <a name="pricing"/>
 #### Pricing
 
-- **Subscription price :** Enter the price (for example, $29) of your subscription product and choose the duration/recurring period. For example, if your subscription product's duration period is 3 months, then choose **every 3rd month**.
+- **Subscription price :** Enter the membership price (for example, $29) based on either daily or weekly or monthly or yearly basis.
 
-- **Subscription length :** This will be listed based on the time period you selected. Choose 3 months. So the subscription will end at the  end of 3rd month.
+- **Subscription length :** The duration will be listed based on the recurring method you selected above.  For example, if your subscription product's duration period is only for 3 months, Choose 3 months. So the subscription will end at the  end of 3rd month.
 
   If you would like to give a life time price for your subscription product (i.e.) wants to collect $29 at the end of every 3 months for lifetime, choose **Never Expire** to Subscription length. So $29 for every 3rd month for lifetime.
 
