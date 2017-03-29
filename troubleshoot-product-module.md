@@ -9,7 +9,7 @@ If you have not selected a product list menu in the Product display module, then
 Please check the product module settings and make sure you have selected a product list menu there.
 Then in the respective menu, make sure that the product descriptions are set to show in the Item view options tab.
 
-#### Are you getting the error when you click to view product ?
+#### Are you getting error when you click to view product ?
 
 It seems you have not chosen source category in the module settings.
 
@@ -36,3 +36,22 @@ Below css will hide the compare and wishlist dislaying at J2Store Product Module
     display: none;
 }
 ```
+
+#### Grid layout problem in Product Display Module
+
+Some times the module does not display the products as per your settings. (i.e) you have set column as 3 but it displays the products in single column.
+
+This problem seems to be choosing of wrong sub-template.
+
+Open your module settings
+Choose Bootstrap 3 as your sub template
+Save.
+
+If it is already set to Bootstrap 3, change to Default layout and check.
+
+Still no luck ? Make sure your template has full boostrap support. Another possible reason the css might be conflicting.
+
+#### Do you want to display specific products in your site ?
+
+Choose Selected products as your product source in your module settings.
+Then, click on **Add products** button to select specific products.
