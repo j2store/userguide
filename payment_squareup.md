@@ -28,6 +28,17 @@ The plugin ONLY implements the payments API of Square. That means it does not sy
 
 3. Once enabled, open the payment plugin and configure the basic settings of the payment plugin.
 
+#### Where to find your Application ID and Access token for your sandbox account ?
+
+1. Log into Squareup application dashboard https://connect.squareup.com/apps
+2. If you don't have any existing application, click on **New Application** to create new application.
+![](./assets/images/square-create-app.png)
+
+3. If applications exists, Click the application you want sandbox credentials for, then refer to the Sandbox section at the bottom.
+![](./assets/images/square-credentials.png)
+
+4. Copy the application ID and access token and paste them in our Squareup payments plugin configuration page.
+
 #### Configuration
 
 **Payment option title**
