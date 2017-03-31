@@ -51,7 +51,7 @@ Enter the API password associated with your PayPal live account.
 
 Enter the API signature associated with your PayPal live account.
 
-> API credentials can be created by going to following url
+> Read the below documentation to create API signature
 https://developer.paypal.com/docs/classic/api/apiCredentials/#create-an-api-signature
 
 **Surcharge Percentage**
@@ -198,7 +198,7 @@ The IPN may not reach your site, if :
  * You have disabled IPN in your Paypal account.
 
 
-##### Solutions to above issues :
+#### Solutions to above issues :
 
 1. Go to Joomla admin - Global configuration. Set **Site Offline** to No
 2. Host your site
@@ -212,7 +212,7 @@ https://ppmts.custhelp.com/app/answers/detail/a_id/92
 
 Paypal makes a remote post (IPN) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
 
-5. Enable the IPN in your Paypal account. 
+##### Enable the IPN in your Paypal account. 
 
 Login to your Paypal account
 
@@ -228,11 +228,18 @@ In the Listener's url enter the following url
 http://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
 ```
 
+Still the order is not confirmed even after enabling IPN? Try setting cron job on your server. Below is the paypal cron secret url
+```
+http://example.com/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXX
+```
+Where XXXXX is the cron secret key which can be identified in your store settings (J2Store > Setup > Configuration > Store tab)
+
 NOTE: Replace <YOUR_DOMAIN> with your website. E.g: www.example.com
 
 **Still no luck, check the IPN History**
 Login to your paypal account and go to History -> IPN history. Check the recent IPN history and check the status.
 If possible take a screenshot and contact our support team.
+
 <a name="order_status_failed"></a>
 ### 2. Order status Failed
 
