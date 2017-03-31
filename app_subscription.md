@@ -67,43 +67,20 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Once enabled, open the app and configure the basic settings of the app.
 
-### Basic configuration
+### Basic settings
 
-There is nothing complex to configure this app. Open the app and navigate to **Expiry Control** tab.
+> For renewing subscriptions you should run cron job atleast every day.
+
+**Cron url**
+
+```
+http://localhost/recurring/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX
+```
+Where XXXXX is your cron secret key which can be identified in your store settings (J2Store > Setup > Configuration > Store tab)
 
 **Notify expire day before**
 
 Enter the number of days to send the remember mail to customer for notifying that their subscription will be going to end. For example, 2. So the mail will be sent before 2nd day to expire.
-
-**Run expiry control for every**
-
-Choose when the expiry control should run whenever the page loads. For example, choose 12 hours. So the expiry control will be running for every 12 hours whenever the page loads. This is applicable for cron.
-
-**Cron key**
-
-Enter the Cron key here to run cron job.
-
-### Adding a cron job
-
-To add a cron job, follow these steps:
-
-1. Go and login into your cPanel
-
-2. In the Advanced section of the cPanel, Click **Crob Jobs**
-![](./assets/images/cron-job.png)
-
-3. Under Cron Email, type the e-mail address that you want to receive notifications, and then click Update Email. Every time the cron job runs, the e-mail account will receive a message.
-
-4. Under Add New Cron Job, enter the interval for the command that you want.
-
-5. If you select an interval option under Common Settings, cPanel fills in the values automatically.
-
-6. In the Command text box, type the command that you want to run.
-
-7. Click Add New Cron Job.
-
-
-Once finished configuring expiry control settings, just go to Article manager and create a new article.
 
 ### How to create subscription based products ?
 
