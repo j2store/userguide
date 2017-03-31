@@ -46,45 +46,65 @@ The transactions are queued before being sent to quickbooks. So there is no perf
 
 3. Once enabled, click on Open to configure the Quickbook app settings and to add the credentials keys.
 
-#### How to launch a quickbook sandbox ?
+#### Where to find Company ID in sandbox ?
 
-1. Once logged in to Intuit Developer, select Sandbox from the  Docs & Tools landing page or from the dropdown arrow next to your name. 
-
-2. The Manage Sandboxes page displays. To open a QuickBooks Online sandbox, click Go to company for the desired sandbox. Sign in with your developer credentials.
-
-#### How to create a sandbox ?
+##### Step-1 Create a sandbox
 
 Create a sandbox from your total allocation via the Manage Sandboxes page.
 
-1. Once logged in to Intuit Developer, click either the Tools dropdown or the dropdown arrow next to your name from the menu on any page and choose Sandbox. 
+1. Once logged in to Intuit Developer, click either the Tools dropdown or the dropdown arrow next to your name from the menu on any page and choose Sandbox.
+![](./assets/images/qb-sandbox-menu.png)
 
 2. The Manage Sandboxes page displays. Next, select the country and the click Add from the Manage Sandboxes page.
+![](./assets/images/qb-create-sandbox.png)
 
 3. A US sandbox is provisioned automatically. You can have up to four additional sandboxes distributed as you like across the AU, CA, FR, IA, UK, and US development regions.
 
-4. Once a sandbox is created, you cannot change its country designation.
+5. Select the country from the dropdown and click **Add** button.
 
-5. A sandbox cannot be deleted. Once your allocation is exhausted, the Add button is disabled.
+5. Once a sandbox is created, you cannot change its country designation.
+
+##### Step-2 Launch a quickbook sandbox and identify your company ID
+
+1. Once logged in to Intuit Developer, select Sandbox from the  Docs & Tools landing page or from the dropdown arrow next to your name.
+![](./assets/images/qb-sandbox-menu.png)
+
+2. The Manage Sandboxes page displays. To open a QuickBooks Online sandbox, click **Go to company** for the desired sandbox.
+![](./assets/images/qb-launch-sandbox.png)
+
+3. It redirects you to the sandbox company home page where you can use ```ctrl+Alt+/``` from your keyboard to see your company ID.
+
+4. The popup window will show your company ID.
+![](./assets/images/qb-company-id.png)
 
 #### Where to find App token, consumer key, consumer secret ?
 
-1. Sign in to your Intuit Developer account.
+1. Go to https://developer.intuit.com and Sign in to your Intuit Developer account.
 
-2. From the menu on any page, click My Apps.
+2. After signing in, from the menu on any page, click My Apps.
+![](./assets/images/qb-myapp-menu.png)
 
-3. Find the app you want keys for and click it. The app opens to the Development tab.
+3. The resulted page displays you the list of app that you have created already. Find the app you want keys for and click on it. The app opens to the Development tab.
 
 4. If you don't have any app, Click the Create new app button.
+![](./assets/images/qb-create-apps.png)
 
 5. Click the Select APIs button.
+![](./assets/images/qb-select-api-btn.png)
 
-6. Select APIs.
+6. Popup window will be dispayed. Select one or both of the QuickBooks Online APIs: Accounting and/or Payments and click **Create app** button.
+![](./assets/images/qb-select-api.png)
 
-7. select one or both of the QuickBooks Online APIs: Accounting and/or Payments.
+7. Your new app opens to its Dashboard tab.
 
-8. Your new app opens to its Dashboard tab.
+8. Click the **Keys** tab on either Developement tab or Producttion tab. 
+ 
+ Development keys—use only in the sandbox environment.
 
-9. Click the **Keys** tab. You see your token and keys listed.
+ Production keys—use only in the production environment
+ 
+ You see your token and keys listed. Copy them and paste it in our Quickbooks online app's configuration.
+![](./assets/images/qb-dev-keys.png)
 
 #### Settings
 
@@ -98,7 +118,7 @@ If you want to change payment status to **PAID**, set this option to **YES**. If
 
 **Syncronize Order total is zero ? **
 
-Choose **YES**, if you want to synchronize order total zero.
+Our quickbooks allows to auto synchronize your zero price order with Quickbooks online. Choose **YES**, if you want to synchronize order total zero.
 
 **Syncronize order status list**
 
@@ -108,8 +128,11 @@ Orders with status selected here are synchronized to Quickbook. For example, cho
 
 Choose YES to enable debug mode. It will generate the log file in cache folder of joomla root. (./cache)
 > Don't enable DEBUG mode in live site.
+![](./assets/images/qb-settings.png)
 
 #### Production
+
+You will have fill all the required fields below to connect to your Quickbook production account.
 
 **Company/RealmId :**
 
@@ -134,6 +157,7 @@ Enter Access token associated with your Quickbook's live account.
 Enter access token secret key associated with your Quickbook's live account.
 
 **Quickbook production connection :** After entering all the required data such as company id, consumer key, consumer secret, Access Token, click on **connect to QuickBooks** to connect Quickbook production app.
+![](./assets/images/qb-production.png)
 
 #### Sandbox
 
@@ -160,6 +184,7 @@ Enter Access token associated with your Quickbook's sandbox account.
 Enter access token secret key associated with your Quickbook's **live** account.
 
 **Quickbook sandbox connection :** After entering all the required data such as company id, consumer key, consumer secret, Access Token, click on **connect to QuickBooks** to connect Quickbook sandbox app.
+![](./assets/images/qb-sandbox.png)
 
 #### Synchronize
 
