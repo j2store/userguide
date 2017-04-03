@@ -1,6 +1,6 @@
 ### PayPal plugin for Subscription
 
-PayPal plugin for subscription is used for subscription payment process (recurring, billing, etc)
+PayPal plugin for subscription This system makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
 
 However, there is a catch: **PayPal must enable Reference Transaction support on your PayPal account** in order to use this.
 
