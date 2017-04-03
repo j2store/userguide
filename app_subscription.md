@@ -2,19 +2,19 @@
 
 If you are using **PayPal as your payment method** for your subscription products, you should enable Reference Transaction on your paypal account. **[Read More](https://www.j2store.org/support/user-guide/paypal-reference-transactions-for-subscriptions.html)**
 
-- **[Introduction](#introduction)**
+* **[Introduction](#introduction)**
     * **[Features](#features)**
     * **[Suported Payment Gateways](#supported-payments)**
     * **[Known limitations](#known-limitations)**
-- **[Requirements](#requirements)**
-- **[Installation](#installation)**
-- **[Basic Settings](#basic-settings)**
-- **[Creating simple subscription product](#simple-subscription)**
-- **[Creating variable subscription product](#variable-subscription)**
-- **[Pricing](#pricing)**
-- **[Frontend Demo](#demo)**
-- **[PayPal Reference Transactions for Subscriptions](#payment-susbcription)**
-- **[How to write template override for subscription emails](#tpl-override-emails)**
+* **[Requirements](#requirements)**
+* **[Installation](#installation)**
+* **[Basic Settings](#basic-settings)**
+* **[Creating simple subscription product](#simple-subscription)**
+* **[Creating variable subscription product](#variable-subscription)**
+* **[Pricing](#pricing)**
+* **[Frontend Demo](#demo)**
+* **[PayPal Reference Transactions for Subscriptions](#payment-susbcription)**
+* **[How to write template override for subscription emails](#tpl-override-emails)**
 
 <a name="introduction" />
 ### Introduction
