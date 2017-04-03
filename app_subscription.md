@@ -195,7 +195,7 @@ However, there is a catch: **PayPal must enable Reference Transaction support on
 
 To request that PayPal turn on Reference Transactions, call your local PayPal Support Help Center. Find the **[phone number at Contact.](https://www.paypal.com/selfhelp/contact/call)**
 
-Tell PayPal that you are specifically calling so a PayPal Specialist can enable **Reference Transactions** on your account. They may try to help you set up recurring payments with a button — that is not want you want. They need to transfer you to a specialist who will ask you for your PayPal account information (email address), and then tell you that they filed a ticket, and you will hear back from PayPal via email on whether Reference Transactions have been enabled or not.
+Tell PayPal that you are specifically calling so a PayPal Specialist can enable **Reference Transactions** on your account. They may try to help you set up recurring payments with a button — that is not what you want. They need to transfer you to a specialist who will ask you for your PayPal account information (email address), and then tell you that they filed a ticket, and you will hear back from PayPal via email on whether Reference Transactions have been enabled or not.
 
 #### Email Application
 
