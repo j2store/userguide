@@ -1,7 +1,26 @@
 # Subscriptions and Memberships
 
+If you are using **PayPal as your payment method** for your subscription products, you should enable Reference Transaction on your paypal account. **[Read More](https://www.j2store.org/support/user-guide/paypal-reference-transactions-for-subscriptions.html)**
+
+- **[Introduction](#introduction)**
+    * **[Features](#features)**
+    * **[Suported Payment Gateways](#supported-payments)**
+    * **[Known limitations](#known-limitations)**
+- **[Requirements](#requirements)**
+- **[Installation](#installation)**
+- **[Basic Settings](#basic-settings)**
+- **[Creating simple subscription product](#simple-subscription)**
+- **[Creating variable subscription product](#variable-subscription)**
+- **[Pricing](#pricing)**
+- **[Frontend Demo](#demo)**
+- **[PayPal Reference Transactions for Subscriptions](#payment-susbcription)**
+- **[How to write template override for subscription emails](#tpl-override-emails)**
+
+<a name="introduction" />
+### Introduction
 If you would like to sell subscription-based products, you could do just that with our Subscriptions and Membership app. This app allows you to sell products and services with recurring payments.The following features are possible with Subscription Products app :
 
+<a name="features" />
 ##### Features
 
 **1. Billing schedules**
@@ -36,6 +55,7 @@ Customers can purchase any number of subscriptions in the same order / transacti
 
 Send automatic emails to the customers when the subscription is created, when a renewal payment is processed or when a subscription is cancelled or expired. You can customise the email messages as well using language overrides.
 
+<a name="supported-payments" />
 ##### Supported Payment Gateways
 
 1. Paypal Standard for J2Store (Available on request)
@@ -44,13 +64,14 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Mollie payment plugin
 
+<a name="known-limitations" />
 ##### Known limitations
 
 1. Subscription Products app does not support for guest checkout.
 
 2. Variable subscription product type allows you to add only one option with multiple values.
 
-
+<a name="Requirements"/>
 ### Requirements
 
 1. PHP 5.4+
@@ -59,6 +80,7 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Joomla 3.4.x or above
 
+<a name="installation"/>
 ### Installation
 
 1. Download Subscription and Memberships package from our site and install it using Joomla installer.
@@ -67,6 +89,7 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Once enabled, open the app and configure the basic settings of the app.
 
+<a name="basic-settings"/>
 ### Basic settings
 
 > For renewing subscriptions you should run cron job atleast every day.
@@ -78,26 +101,13 @@ http://localhost/recurring/index.php?option=com_j2store&view=cron&command=appsub
 ```
 Where XXXXX is your cron secret key which can be identified in your store settings (J2Store > Setup > Configuration > Store tab)
 
+Don't know how to set cron job ? **[Click here](https://www.j2store.org/support/user-guide/creating-cron-job-on-your-server.html)**
+
 **Notify expire day before**
 
 Enter the number of days to send the remember mail to customer for notifying that their subscription will be going to end. For example, 2. So the mail will be sent before 2nd day to expire.
 
-### How to create subscription based products ?
-
-Susbcription Products app allows you to create two types of subscription product.
-
-1. Simple subscription
-
-2. Variable subscription
-
-Following are the step by step instructions to create subscription products.
-
-- **[Creating simple subscription product](#simple-subscription)**
-- **[Creating variable subscription product](#variable-subscription)**
-- **[Pricing](#pricing)**
-- **[Frontend Demo](#demo)**
-- **[PayPal plugin for Subscription](#payment-susbcription)**
-- **[How to write template override for subscription emails](#tpl-override-emails)**
+### How to create Subscriptions based products?
 
 <a name="simple-subscription"/>
 #### Creating simple subscription product
@@ -206,7 +216,7 @@ Hello,
 
 Could you please enable Reference Transactions on my PayPal account (email: paypal@example.com)?
 
-I need this feature to sell recurring subscription products via WooCommerce.
+I need this feature to sell recurring subscription products via J2Store.
 
 Kind regards,
 

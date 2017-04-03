@@ -19,7 +19,7 @@ This security key can be used for execution of cron jobs required by apps and pl
 
 1. Go and login into your cPanel
 
-2. In the Advanced section of the cPanel, Click **Crob Jobs**
+2. In the Advanced section of the cPanel, Click **Cron Jobs**
 ![](./assets/images/cron-job.png)
 
 3. Under Cron Email, type the e-mail address that you want to receive notifications, and then click Update Email. Every time the cron job runs, the e-mail account will receive a message.

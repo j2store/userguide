@@ -34,7 +34,7 @@ Hello,
 
 Could you please enable Reference Transactions on my PayPal account (email: paypal@example.com)?
 
-I need this feature to sell recurring subscription products via WooCommerce.
+I need this feature to sell recurring subscription products via J2Store.
 
 Kind regards,
 
