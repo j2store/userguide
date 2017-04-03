@@ -177,7 +177,7 @@ Go to J2Store > Apps and Open Subscription Products app and you can see subscrip
 <a name="payment-susbcription" />
 ### PayPal plugin for Subscription
 
-PayPal plugin for subscription This system makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
+PayPal plugin for subscription makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
 
 However, there is a catch: **PayPal must enable Reference Transaction support on your PayPal account** in order to use this.
 
