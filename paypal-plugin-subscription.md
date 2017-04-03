@@ -1,4 +1,4 @@
-### PayPal plugin for Subscription
+### PayPal Reference Transactions for Subscriptions
 
 PayPal plugin for subscription makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
 
