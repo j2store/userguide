@@ -30,7 +30,6 @@ This security key can be used for execution of cron jobs required by apps and pl
 
     * **Common Settings** — This menu allows you to select a commonly-used interval. The system will configure the appropriate settings in the Minute, Hour, Day, Month, and Weekday text boxes for you.
     >If the wildcard characters (*) and intervals confuse you, this menu is an excellent way to learn how to configure the other fields.
-    
     * **Minute** — Select the number of minutes between each time the cron job runs, or the minute of each hour on which you wish to run the cron job.
     
     * **Hour** — Select the number of hours between each time the cron job runs, or the hour of each day on which you wish to run the cron job.
@@ -52,19 +51,19 @@ This security key can be used for execution of cron jobs required by apps and pl
 #### You can also use one of the following commands depending on your server:
 
 ##### Linux System
-
+```
 lynx -source "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null
-
+```
 Or
-
+```
 wget -O /dev/null "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null
-
+```
 If you access your website using an httpS protocol, you may want to use this command instead:
-
+```
 wget --no-check-certificate -O /dev/null "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null
-
+```
 Some hosting company block the lynx and wget command in which case you should use the curl one:
-
+```
 curl --silent --compressed "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null 2>&1
-
+```
 You can also contact your hosting provider and ask them to guide you to set cron job.
