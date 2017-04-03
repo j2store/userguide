@@ -11,7 +11,7 @@ You can find the cron security key in your store settings.
 Go to J2Store > Setup > Configuration > Store tab
 You can see the security key for running cron jobs. Click on Regenerate button to generate new key. Please see the below image
 
-![](./assets/images/cron-key.png)
+![](./assets/images/j2store-cron-key.png)
 
 This security key can be used for execution of cron jobs required by apps and plugins. This will ensure only legitimate requests are allowed and executed. The cron requests without this key will be denied access.
 
