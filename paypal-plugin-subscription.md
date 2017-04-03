@@ -1,6 +1,6 @@
 ### PayPal Reference Transactions for Subscriptions
 
-PayPal plugin for subscription makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
+This system makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
 
 However, there is a catch: **PayPal must enable Reference Transaction support on your PayPal account** in order to use this.
 
