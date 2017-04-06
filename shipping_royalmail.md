@@ -60,3 +60,10 @@ If you would like to charge additional charge (surcharge) or handling fee, enter
 
 Set **YES** to enable debug mode. Enabling debug mode will logged the debug messages in a file and saved in cache folder of your Joomla root directory.
 > DO NOT enable debug mode in live site.
+
+![](./assets/images/royal-shipping-settings.png)
+
+![](./assets/images/royal-product-settings.png)
+
+![](./assets/images/royal-shipping-rates.png)
+
