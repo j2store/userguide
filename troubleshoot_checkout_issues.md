@@ -1,9 +1,26 @@
 ## Troubleshooting Checkout issues
 
+* **[How to enable guest checkout only?](#guest-checkout)**
 * **[Is your layout of checkout form displaying in single column?](#checkout-layout)**
 * **[Checkout steps not working ?](#checkout-steps)**
 * **[Could not proceed to payment step. Stuck at the Shipping step](#shipping-step-stuck)**
 * **[Checkout Login and Registration not works](checkout-login-not-works)**
+
+<a name="guest-checkout"/>
+#### How to enable guest checkout only?
+
+Would you like not to allow customers to register and only want to enable guest checkout alone ?
+
+J2Store allows you to do that. It is very easy and simple to enable guest checkout.
+
+Go to J2Store > Configuration > Cart tab
+Set **NO** to show login form during checkout
+Set **NO** to Allow quick new user registration
+Set **YES** to Allow Guest Checkout.
+Save
+![](./assets/images/enable-guest-checkout.png)
+
+![](./assets/images/guest-checkout.png)
 
 <a name="checkout-layout"/>
 #### Is your layout of checkout form displaying in single column?
