@@ -11,13 +11,18 @@
 
 Would you like not to allow customers to register and only want to enable guest checkout alone ?
 
-J2Store allows you to do that. It is very easy and simple to enable guest checkout.
+J2Store allows you to do that simple steps.
 
 Go to J2Store > Configuration > Cart tab
+
 Set **NO** to show login form during checkout
+
 Set **NO** to Allow quick new user registration
+
 Set **YES** to Allow Guest Checkout.
-Save
+
+Save.
+
 ![](./assets/images/enable-guest-checkout.png)
 
 ![](./assets/images/guest-checkout.png)
