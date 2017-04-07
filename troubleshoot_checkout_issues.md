@@ -23,7 +23,7 @@ Set **YES** to Allow Guest Checkout.
 
 Save.
 
-![](./assets/images/enable-guest-checkout.png)
+![](./assets/images/enable-guest-checkout-only.png)
 
 ![](./assets/images/guest-checkout.png)
 
