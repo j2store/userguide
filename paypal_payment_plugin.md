@@ -7,6 +7,8 @@ The plugin integrates PayPal Website Payment Standard method with your J2Store s
 * [Requirements](#requirements)
 * [Installation Instructions](#installation)
 * [Parameters](#parameters)
+* [Enabling IPN notification](#enable-ipn)
+    [Still having problems receiving IPN or intermittently not receiving the IPN?](#still-ipn-problems)
 * [Troubleshooting Paypal Related Issues](#troubleshooting)
 	* [Orders not confirmed. Status shows as incomplete or new](#orders_not_confirmed)
 	* [Order status Failed](#order_status_failed)
@@ -212,8 +214,8 @@ http(s)://www.your_website.com/plugins/j2store/payment_paypal/payment_paypal/tmp
 
  >> Do not copy paste the above urls. You need to change your domain name and the http protocol
 
-
-## Still having problems receiving IPN or intermittently not receiving the IPN?
+<a name="still-ipn-problems"></a>
+### Still having problems receiving IPN or intermittently not receiving the IPN?
 
 Since J2Store 3.2.21, we have introduced a fail-safe method to collate PayPal Transactions. There could be a hundreds of reasons why PayPal did not sent the IPN or why your site did not receive the IPN.
 
