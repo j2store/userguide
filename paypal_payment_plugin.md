@@ -8,7 +8,7 @@ The plugin integrates PayPal Website Payment Standard method with your J2Store s
 * [Installation Instructions](#installation)
 * [Parameters](#parameters)
 * [Enabling IPN notification](#enable-ipn)
-    [Still having problems receiving IPN or intermittently not receiving the IPN?](#still-ipn-problems)
+   * [Still having problems receiving IPN or intermittently not receiving the IPN?](#still-ipn-problems)
 * [Troubleshooting Paypal Related Issues](#troubleshooting)
 	* [Orders not confirmed. Status shows as incomplete or new](#orders_not_confirmed)
 	* [Order status Failed](#order_status_failed)
@@ -189,7 +189,7 @@ You can enter a language constant as a value here if you are using a multi-lingu
 The text of the payment button. The button will be displayed at the final checkout step.
 
 <a name="enable-ipn"></a>
-## How to enable the IPN in your Paypal account.
+## How to enable IPN Notification in your PayPal account.
 
 Login to your Paypal account
 
