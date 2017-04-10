@@ -1,5 +1,9 @@
 # Paypal Payment Plugin
 
+The plugin integrates PayPal Website Payment Standard method with your J2Store shopping cart. You need either a PayPal account in order to take payments
+
+>Are you looking to troubleshoot your PayPal integration? We have answered most of the common problems. So read carefully
+
 * [Requirements](#requirements)
 * [Installation Instructions](#installation)
 * [Parameters](#parameters)
@@ -51,7 +55,7 @@ Enter the API password associated with your PayPal live account.
 
 Enter the API signature associated with your PayPal live account.
 
-> Read the below documentation to create API signature
+> Not sure where to find your API signature? Read the documentation below
 https://developer.paypal.com/docs/classic/api/apiCredentials/#create-an-api-signature
 
 **Surcharge Percentage**
@@ -113,7 +117,7 @@ What the button on the PayPal site reads after the user has completed his transa
 
 This is an optional parameter.
 
-**Custom Header Image **
+** Custom Header Image **
 
 The URL to your logo so. This image will be displayed on the top of PayPal's checkout page instead of your merchant name. 
 
@@ -182,37 +186,8 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 The text of the payment button. The button will be displayed at the final checkout step.
 
-<a name="troubleshooting"></a>
-## Troubleshooting Paypal Related Issues
-
-There could be many reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
-<a name="orders_not_confirmed"></a>
-### 1. Orders not confirmed. Status shows as incomplete or new
-
-It means you are not getting the Instant Payment Notification (IPN) from Paypal.
-The IPN may not reach your site, if :
- 1. The Site is offline
- * The Site is in local server / local host / live in your local machine
- * You have created a menu for the Checkout and set its access level to Registered or Special or Something other than public. 
- * You have a firewall installed either in your site or by your host
- * You have disabled IPN in your Paypal account.
-
-
-#### Solutions to above issues :
-
-1. Go to Joomla admin - Global configuration. Set **Site Offline** to No
-2. Host your site
-3. Set the Checkout menu access level to Public
-4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host. 
- 
-if your site or your hosting server has a firewall (you can check with your host), then you may have to whitelist the Paypal's server IPs
-
-Here you can get a list of IPs used by the Paypal servers
-https://ppmts.custhelp.com/app/answers/detail/a_id/92
-
-Paypal makes a remote post (IPN) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
-
-##### Enable the IPN in your Paypal account. 
+<a name="enable-ipn"></a>
+## How to enable the IPN in your Paypal account.
 
 Login to your Paypal account
 
@@ -224,21 +199,86 @@ Click Choose IPN Settings to specify your listener's URL and activate the listen
 
 In the Listener's url enter the following url
 
-```
-http://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
+```php
+http(s)://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
 ```
 
-Still the order is not confirmed even after enabling IPN? Try setting cron job on your server. Below is the paypal cron secret url
-```
-http://example.com/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXX
-```
-Where XXXXX is the cron secret key which can be identified in your store settings (J2Store > Setup > Configuration > Store tab)
+> PayPal Plugin 3.8 and above provides one more url
+So in addition to the above url, you can use the following as well 
 
-NOTE: Replace <YOUR_DOMAIN> with your website. E.g: www.example.com
+```php
+http(s)://www.your_website.com/plugins/j2store/payment_paypal/payment_paypal/tmpl/notify.php
+```
 
-**Still no luck, check the IPN History**
-Login to your paypal account and go to History -> IPN history. Check the recent IPN history and check the status.
-If possible take a screenshot and contact our support team.
+ >> Do not copy paste the above urls. You need to change your domain name and the http protocol
+
+
+## Still having problems receiving IPN or intermittently not receiving the IPN?
+
+Since J2Store 3.2.21, we have introduced a fail-safe method to collate PayPal Transactions. There could be a hundreds of reasons why PayPal did not sent the IPN or why your site did not receive the IPN.
+
+The listener in the plugin is always active and ready to listen. If Paypal sends IPN, it will listen and process. That is it's job.
+
+Since there could be many reasons why IPN has not reached or sent, we included a collation method as a fail-safe since J2Store 3.2.21
+So even if the IPN did not arrive, the plugin can now query the PayPal server and collate the transactions (triggered via a cron job)
+>NOTE: It is purely optional to implement this fail-safe mechanism. This is not a necessary step. If you are too anxious and doubt that your site is not receiving the IPN, you can implement this. 
+
+##### How do I implement this fail-safe method ?
+
+ In the event of IPN not reaching your site, you can make sure that the transactions at your site and PayPal could be collated using a cron job
+ 
+- Make sure you have J2Store 3.2.21
+- Login to your hosting cPanel and set up a cron job
+- The cron job command should be: (You can set this to run at 15 minutes intervals)
+ 
+**Non-ssl**
+```curl 
+ wget -O /dev/null "http://<YOUR_DOMAIN_NAME>/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXX" > /dev/null
+ ```
+ 
+** SSL ** 
+```curl 
+ wget --no-check-certificate -O /dev/null "https://<YOUR_DOMAIN_NAME>/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXXX" > /dev/null
+```
+ 
+>**NOTE:** Replace <YOUR_DOMAIN_NAME> with your domain name   
+> Replace XXXXXX with your cron secret key, which you can find at Joomla Administration -> J2Store -> Set up -> Configuration -> Store
+
+<a name="troubleshooting"></a>
+## Troubleshooting Paypal Related Issues
+
+There could be many reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
+<a name="orders_not_confirmed"></a>
+### 1. Orders not confirmed. Status shows as incomplete or new
+
+It means you are not getting the Instant Payment Notification (IPN) from Paypal.
+
+The IPN may not reach your site, if :
+
+1. The Site is offline
+2. The Site is in local server / local host / live in your local machine
+3. You have created a menu for the Checkout and set its access level to Registered or Special or Something other than public. 
+4. You have a firewall installed either in your site or by your host
+5. You have disabled IPN in your Paypal account. 
+
+#### Solutions to above issues :
+
+1. Go to Joomla admin - Global configuration. Set **Site Offline** to No
+2. Host your site
+3. Set the Checkout menu access level to Public
+4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host.
+    ``` 
+        If you are using the Admin Tools PRO version, you will have to exclude the [IPN urls mentioned above](#enable-ipn)
+        
+        If your site or your hosting server has a firewall (you can check with your host), then you may have to whitelist the Paypal's server IPs
+        
+        Here you can get a list of IPs used by the Paypal servers
+        https://ppmts.custhelp.com/app/answers/detail/a_id/92
+        
+        Paypal makes a remote post (IPN) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
+    ```
+
+5. See the [IPN topic above](#enable-ipn) 
 
 <a name="order_status_failed"></a>
 ### 2. Order status Failed
@@ -285,20 +325,25 @@ Set Auto update currency to YES
 Go to Joomla admin - j2store - set up - currencies
 
 You might have already created the INR currency. Open it and make sure its value is set to 1
+        
+**Now, create a new currency**     
 
-**Now, create a new currency**
-![currency_creation](./assets/images/Selection_050.png)
-Currency Name: USD
-Currency Code: USD
-Currency Symbol: $
-Decimal places: 2
-Decimal Separator: .
-Thousands separator: ,
-Value: 0.061 (You can enter any value less than 1. Once saved, J2Store will automatically contact Yahoo Financial services and update the correct exchange value )
-Status: Published
 
-Save now.
-![currency_management](./assets/images/Selection_049.png)
+![currency_creation](./assets/images/Selection_050.png)   
+
+- Currency Name: USD   
+- Currency Code: USD
+- Currency Symbol: $
+- Decimal places: 2
+- Decimal Separator: .
+- Thousands separator: ,
+- Value: 0.061 (You can enter any value less than 1. Once saved, J2Store will automatically contact Yahoo Financial services and update the correct exchange value )
+- Status: Published
+
+Save now.   
+
+![currency_management](./assets/images/Selection_049.png)    
+
 
 You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD. 
 J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
@@ -343,11 +388,12 @@ Please try the following:
 
 Paypal has recently rolled out their cool " New Checkout! "
 
-With this Paypal also seems to impose certain new technical restrictions
+With this Paypal also seems to impose certain new technical restrictions  
+
 - Specified Character length for address fields, Product name and Product options. Length varies based on fields and is specified on their integration guide.
 - Number of product options sent to paypal are limited to 7 options.
 
-It seems there are recent technical restrictions imposed by paypal: (refer below image)
+This could be due to the recent technical restrictions imposed by paypal: (refer below image)  
 
 ![paypal-technical-restriction](./assets/images/paypal-docs-arrtibutes-restriction.png)
 
