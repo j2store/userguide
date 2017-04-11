@@ -18,9 +18,9 @@ Refer the image below:
 
 ![](./assets/images/UPS1.png)
 
-
 #### Access Key
 Enter the access key provided by the UPS.
+>Not sure where to find your Access key ? Read the documentation below https://help.extensionworks.com/hc/en-us/articles/200366638-Where-do-I-find-my-UPS-license-key-or-Access-Key-
 
 #### Username
 Enter your UPS username.
