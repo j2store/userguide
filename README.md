@@ -1,6 +1,6 @@
 
 
-![Banner](./assets/images/User Guide_Banner Design.png)
+![Banner](./assets/images/userguide_banner_design.png)
 
 Welcome to J2Store
 =======
