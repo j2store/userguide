@@ -42,7 +42,7 @@ This security key can be used for execution of cron jobs required by apps and pl
 
 6. In the Command text box, type the command that you want to run. For example if you wants to run a cron job request for renewing / expire subscriptions in our Subscription and Memberships app, enter like below
   ```
-  http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX
+  wget -O /dev/null "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null
   ```
   Where XXXXX is your cron secret key. Replace www.example.com with your domain name.
 
@@ -58,7 +58,7 @@ Or
 ```
 wget -O /dev/null "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null
 ```
-If you access your website using an httpS protocol, you may want to use this command instead:
+If you access your website using an **httpS protocol**, you may want to use this command instead:
 ```
 wget --no-check-certificate -O /dev/null "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null
 ```
