@@ -5,12 +5,9 @@ The app comes with advanced features which allows you to import / export product
 Export your data in following three file formats (**.csv, .xls, .xlsx**). However, you should use only **.csv** file format for **importing**.
 
 > Error reporting must be disable. Goto system -> Global configuration -> server-> Error Reporing set to "None"
-
-> Import file format must be .csv format
-
-> Set Batch limit in setting page.
-
-> When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
+Import file format must be .csv format
+Set Batch limit in setting page.
+When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
 
 ## Requirements
 
@@ -43,10 +40,10 @@ Use this tab to update existing options and import new option to **J2Store > Cat
 
 3. Now go inside the Options tab and choose the file, set the delimiter, set character encoding and click **Import** button.
 
-![option-csv](./assets/images/adv-csv-opt-export.png) 
-![](./assets/images/adv-csv-option-file.png) 
-![](./assets/images/adv-csv-opt-addfile.png)
-![](./assets/images/adv-csv-option-import.png)
+![option-csv](./assets/images/csv-opt-export.png) 
+![](./assets/images/csv-option-file.png) 
+![](./assets/images/csv-opt-addfile.png)
+![](./assets/images/csv-option-import.png)
 
 ### How to import category ?
 
@@ -65,9 +62,9 @@ Use this tab to update existing options and import new option to **J2Store > Cat
 
 4. Click **Import** button.
 
-![category-csv](./assets/images/adv-csv-category-file.png) 
-![](./assets/images/adv-csv-category-add-file.png)
-![](./assets/images/adv-csv-category-import.png)
+![category-csv](./assets/images/csv-category-file.png) 
+![](./assets/images/csv-category-add-file.png)
+![](./assets/images/csv-category-import.png)
 
 ### How to import new Products?
 
@@ -89,9 +86,9 @@ Import / Update **Simple, Configurable, Downloadable** product types using this 
 
 4. Click **Import** button.
 
-![](./assets/images/adv-csv-product-file.png)
-![](./assets/images/adv-csv-product-addfile.png)
-![](./assets/images/adv-csv-product-import.png)
+![](./assets/images/csv-product-file.png)
+![](./assets/images/csv-product-addfile.png)
+![](./assets/images/csv-product-import.png)
 
 ### How to import product options ?
 
@@ -114,9 +111,9 @@ optionvalue_name:price prefix:price:weight prefix:weight:default value:ordering:
 
 4. Click **Import** button. 
 
-![prod-option-csv](./assets/images/adv-csv-prodopt-file.png) 
-![](./assets/images/adv-csv-prodopt-addfile.png) 
-![](./assets/images/adv-csv-prodopt-import.png)
+![prod-option-csv](./assets/images/csv-prodopt-file.png) 
+![](./assets/images/csv-prodopt-addfile.png) 
+![](./assets/images/csv-prodopt-import.png)
 
 ### How to import downloadable product files ?
 
@@ -130,7 +127,7 @@ To update downloadable files or to import new downloadable files, you should kno
 * **Product file display name** - Enter the name of the file
 * **File path** - Enter the valid path of your file.
 
-![](./assets/images/adv-csv-digital-file.png)
+![](./assets/images/csv-digital-file.png)
 
 ### How to import variable product ?
 
@@ -180,9 +177,9 @@ Use this tab to import options to the variable product.
 
 5. After importing successfully, the regenerate button will be shown to generate variants for imported options. See below image.
 
-![](./assets/images/adv-csv-add-variants-file.png)
+![](./assets/images/csv-add-variants-file.png)
 
-![](./assets/images/adv-csv-variants-import.png)
+![](./assets/images/csv-variants-import.png)
 
 #### Variable variant
 
