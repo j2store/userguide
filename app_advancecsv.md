@@ -5,8 +5,11 @@ The app comes with advanced features which allows you to import / export product
 Export your data in following three file formats (**.csv, .xls, .xlsx**). However, you should use only **.csv** file format for **importing**.
 
 > Error reporting must be disable. Goto system -> Global configuration -> server-> Error Reporing set to "None"
+> 
 Import file format must be .csv format
+>
 Set Batch limit in setting page.
+>
 When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
 
 ## Requirements
@@ -18,7 +21,9 @@ When you import products, you must import the options and variants too. Otherwis
 ## Installation
 
 1. Download the app from our site's extensions section and install it using Joomla installer.
+
 2. In Joomla backend, go to J2Store > Dashboard > Apps and click **Enable** on Import J2Store Products.
+
 3. After enabling, click **Open** to import / export the products.
 
 ### How to import new options ?
