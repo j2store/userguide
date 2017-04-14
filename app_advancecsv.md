@@ -1,6 +1,16 @@
-# Advanced CSV
+# Advanced CSV Import / Export
 
 The app comes with advanced features which allows you to import / export products and options and as well as categories into J2Store. You can import product data including options,variants,advance price etc. You can also export the products / options / categories and see the fields that are supported by the app.
+
+Export your data in following three file formats (**.csv, .xls, .xlsx**). However, you should use only **.csv** file format for **importing**.
+
+> Error reporting must be disable. Goto system -> Global configuration -> server-> Error Reporing set to "None"
+
+> Import file format must be .csv format
+
+> Set Batch limit in setting page.
+
+> When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
 
 ## Requirements
 
@@ -14,83 +24,186 @@ The app comes with advanced features which allows you to import / export product
 2. In Joomla backend, go to J2Store > Dashboard > Apps and click **Enable** on Import J2Store Products.
 3. After enabling, click **Open** to import / export the products.
 
-### Import / Export
+### How to import new options ?
 
+Open Import J2Store Products app. You can see the active and opened tab named "Options".
+
+Use this tab to update existing options and import new option to **J2Store > Catelog > Options**. Below step by step instructions help you to import new options.
+
+1. Click on **Export** button to export the options from J2Store > Catalog > Options. Exported file contains following 5 columns :
+    * **option_unique_name** - The unique name of your new option should be entered here.
+    * **option_name** - This is the place to add option name (Display / Presentation)
+    * **type** - Enter the type of option here (for example: select, radio, etc)
+    * **ordering** - You can leave this column by entering 0.
+    * **option values** - The structure of optionvalues field must be  optionvalue_name:optionvalue_image:ordering, you can add multiple option value using pipe(|) symbols.
+
+    * Eg: Red::0|Yellow::0
+
+2. Save the .csv file.
+
+3. Now go inside the Options tab and choose the file, set the delimiter, set character encoding and click **Import** button.
+
+![option-csv](./assets/images/adv-csv-opt-export.png) 
+![](./assets/images/adv-csv-option-file.png) 
+![](./assets/images/adv-csv-opt-addfile.png)
+![](./assets/images/adv-csv-option-import.png)
+
+### How to import category ?
+
+1. Click on **Export** button to export the categories from Content > Categories in .csv format or .xls format or .xlsx format.
+
+2. In the categories exported file, the following columns should be filled when importing new category.
+    * **Id** - This is the category id. You can leave this column empty when you add new category via csv file. After importing, the category id will be updated.
+    * **Parent_id** - This is the place to choose category level. Enter 1 to create a category at root.
+    * **Title** - Enter the name of the category here
+    * **Alias** - Enter the alias name of the category
+    * **Published** - Enter 1 to set the status of the category to Published. Otherwise it will be unpublished after importing.
+    * **Access** - Enter the Access level ID here
+    * **Language** - Choose your language here. Enter **'*'** for all langauge
+
+3. Save the .csv file. Now go inside the app > Category tab and choose the file / set the delimiter / set character encoding and click **Next**
+
+4. Click **Import** button.
+
+![category-csv](./assets/images/adv-csv-category-file.png) 
+![](./assets/images/adv-csv-category-add-file.png)
+![](./assets/images/adv-csv-category-import.png)
+
+### How to import new Products?
+
+Import / Update **Simple, Configurable, Downloadable** product types using this tab. Variable product type cannot be imported / updated here.
+
+1. Before importing products by creating new csv file by your own, it is better to export the existing products and see how the file structure is. Click on **Export** button to export the products from J2Store > Catalog > Products in .csv format or .xsl format or .xlsx format.
+
+2. When importing new products via csv, you need minimum **visibility, product source, sku, price, title, catid, product_type** otherwise you can't create new products.
+    * **j2store_product_id** - You can leave this column empty. The product id will be updated automatically, after importing.
+    * **product_source** - Choose your content source here. For example : com_content, com_k2.
+    * **Visibility** - This is place to enable visible in storefront. Enter **1** to make this product visible in store front.
+    * **SKU** - It is most required field. Without this the product cannot be imported or updated properly.
+    * **Price** - Enter the price of the product.
+    * **Title** - Enter the product title.
+    * **Cat ID** - Enter the ID of the category to which the product should be assigned.
+    * **product type** - It is one of most important required field. You must enter the type of product here. For example : simple, configurable, downloadable.
+
+3. Save the .csv file. Now go inside the app > Products tab and choose the file / set the delimiter / set character encoding and click **Next**.
+
+4. Click **Import** button.
+
+![](./assets/images/adv-csv-product-file.png)
+![](./assets/images/adv-csv-product-addfile.png)
+![](./assets/images/adv-csv-product-import.png)
+
+### How to import product options ?
+
+Updating and adding product options and product option values can be possible by using this tab.
+
+1. Click on **Export** button to export the product options from J2Store > Catalog > Products in .csv format.
+
+2. If you would like to add new option to any one of your products, you must set **1** to **has_options** field when importing products using products csv file.
+
+3. Now open the product_options.csv file. When importing product options via csv, you should need atleast **SKU, option_unique_name, product_optionvalue**.
+
+4. When you enter product_optionvalue field, keep in mind that field must be in following format 
 ```
-Note:
-1\. Error reporting must be disable. Goto system -> Global configuration -> server-> Error Reporing set to "None"
-2\. Import file format must be .csv format
-3\. Set Batch limit in setting page.
-4\. When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
-```
+optionvalue_name:price prefix:price:weight prefix:weight:default value:ordering:productoption params
+``` 
 
-#### Options
+5. You can add multiple product option value using pipe(|) symbol Example: Black:+:2.00000000:+:0.00000000:0:0:{}|Blue:+:3.00000000:+:0.00000000:0:0:{}
 
-**Step-1:** Click on **Export** button to export the options from J2Store > Catalog > Options in .csv format.
+3. Save the .csv file. Now go inside the app > Products tab and choose the file / set the delimiter / set character encoding and click **Next**.
 
-**Step-2:** If you would like to update/import new option via csv file, open the csv file and enter the following fields j2store_option_id, type (select, text, textarea, checkbox, etc), option_unique_name, option_name, ordering, enabled (to enable the option, enter 1) and optionvalues. Follow the instructions below when you give the option value in csv file
+4. Click **Import** button. 
 
-1. optionvalues field must be optionvalue_name:optionvalue_image:ordering, you can add multiple option value using pipe(|) symbals
-2. Eg: Red::0|Yellow::0
+![prod-option-csv](./assets/images/adv-csv-prodopt-file.png) 
+![](./assets/images/adv-csv-prodopt-addfile.png) 
+![](./assets/images/adv-csv-prodopt-import.png)
 
-**Step-3:** Save the .csv file. Now go inside the app > Options tab and choose the file / set the delimiter / set character encoding and click **Next**
+### How to import downloadable product files ?
 
-**Step-4:** Click **Import** button. ![option-csv](./assets/images/optn_csv.png) ![](./assets/images/advcsv_option_01.png) ![](./assets/images/advcsv_option_02.png)
+Do you have 100+ downloadable products and want to change downloadable files are all products ? It is very frustrating to open / edit each product for changing downloadable files right ? Don't worry about that. You can easily do this by our Advance CSV import / export app.
 
-#### Category
+Open the app and move to Downloadable Product Files tab where you can export all your downloadable files in .csv format or .xls format or .xlsx format.
 
-**Step-1:** Click on **Export** button to export the categories from Content > Categories in .csv format.
+To update downloadable files or to import new downloadable files, you should know below three things
 
-**Step-2:** If you would like to update/import new categories, open the csv file and enter the following required fields id, parent_id, path, title, alias, published, access, langauge. NOTE : If you want to create new category, set id 0 or leave empty, Other category will update.
+* **SKU** - SKU of the downloadable product
+* **Product file display name** - Enter the name of the file
+* **File path** - Enter the valid path of your file.
 
-**Step-3:** Save the .csv file. Now go inside the app > Category tab and choose the file / set the delimiter / set character encoding and click **Next**
+![](./assets/images/adv-csv-digital-file.png)
 
-**Step-4:** Click **Import** button. ![category-csv](./assets/images/category_csv.png) ![](./assets/images/adv_cat_bef.png) ![](./assets/images/advcsv_cat_01.png) ![](./assets/images/advcsv_cat_02.png) ![](./assets/images/adv_cat_aft.png)
+### How to import variable product ?
 
-#### Products
+Importing variable product possess three following steps:
 
-**Step-1:** Click on **Export** button to export the products from J2Store > Catalog > Products in .csv format.
+1. Creating variable product
+2. Importing variable product options
+3. Variable variant (update only)
 
-**Step-2:** If you would like to import / update the products, open the csv file and enter the required fields.
+#### Creating variable product
 
-NOTE : If you want to add new product, set id 0 or leave empty, Other product will update.
+1. Before importing variable products by creating your own csv file, it is better to export the existing variable products to see how the file structure is.
 
-**Step-3:** Save the .csv file. Now go inside the app > Products tab and choose the file / set the delimiter / set character encoding and click **Next**.
+2. To import variable product, you don't need any variant related fields (sku, price,etc). The following are minimum required fields to create variable product.
+    * **j2store_product_id** - You can leave this column empty. The product id will be updated automatically, after importing.
+    * **product_source** - Choose your content source here. For example : com_content, com_k2.
+    * has_options - This should be set to **1**.
+    * **Visibility** - This is place to enable visible in storefront. Enter **1** to make this product visible in store front.
+    * **Title** - Enter the product title.
+    * **Cat ID** - Enter the ID of the category to which the product should be assigned.
 
-**Step-4:** Click **Import** button. ![prod-csv](./assets/images/prod_csv_01.png) ![prod-csv](./assets/images/prod_csv_02.png) ![](./assets/images/app_advcsv_01.png) ![](./assets/images/advcsv_02.png) ![](./assets/images/advcsv_03.png)
+3. Save the .csv file. Now go inside the app > variable products tab and choose the file / set the delimiter / set character encoding and click **Next**.
 
-#### Product Options
+4. Click **Import** button. 
 
-**Step-1:** Click on **Export** button to export the product options from J2Store > Catalog > Products in .csv format.
+#### Importing variable product options
 
-**Step-2:** If you would like to import / update the products options, open the csv file and enter the required fields.
+Use this tab to import options to the variable product.
 
-NOTE : When you enter product_optionvalue field, keep in mind that field must be optionvalue_name:price prefix:price:weight prefix:weight:default value:ordering:productoption params , you can add multiple product option value using pipe(|) symbol Example: Red:+:5.00000000:+:0.00000000:0:0:|Yellow:+:6.00000000:+:0.00000000:0:0:
+1. Click on **Export** button to export the product options from J2Store > Catalog > Products in one of the following three formats (.csv, .xls, .xlsx)
 
-**Step-3:** Save the .csv file. Now go inside the app > Products tab and choose the file / set the delimiter / set character encoding and click **Next**.
+2. If you would like to import / update product variants, open the csv file and enter the following required fields.
+    * **Product Id** - Enter the ID of the variable product to which the options should be added.
+    * option unique name - Enter the unique name of the option.
+    * product option value - Add the option value. The option value should be in below format
+    ```
+    optionvalue_name:price_prefix:price:weight_prefix:weight:default_value:ordering:productoption_params
+    ```
+    For example, 
+    ```
+    L:+:0.00000000:+:0.00000000:0:0:{}|M:+:0.00000000:+:0.00000000:0:0:{}|S:+:0.00000000:+:0.00000000:0:0:{}
+    ```
+    
+3. Save the .csv file. Now go inside the app > variable product options tab and choose the file / set the delimiter / set character encoding and click **Next**.
 
-**Step-4:** Click **Import** button. ![prod-option-csv](./assets/images/prod_optn_csv.png) ![](./assets/images/advcsv_04.png) ![](./assets/images/advcsv_05.png)
+4. Click **Import** button. 
 
-#### Variants
+5. After importing successfully, the regenerate button will be shown to generate variants for imported options. See below image.
 
-**Step-1:** Click on **Export** button to export the product options from J2Store > Catalog > Products in .csv format.
+![](./assets/images/adv-csv-add-variants-file.png)
 
-**Step-2:** If you would like to import / update product variants, open the csv file and enter the required fields.
+![](./assets/images/adv-csv-variants-import.png)
 
-NOTE : If you want to add new variant, set id 0 or leave empty, Other variant will update.
+#### Variable variant
 
-**Step-3:** Save the .csv file. Now go inside the app > Variants tab and choose the file / set the delimiter / set character encoding and click **Next**.
+1. After generaing variants, use this tab to update SKU, price, stock, dimensions, image, etc for variants. New variant cannot be created here.
 
-**Step-4:** Click **Import** button. ![variant-csv](./assets/images/variant_csv.png) ![](./assets/images/advcsv_06.png) ![](./assets/images/advcsv_07.png)
+2. Click on export button to see the newly generated variants.
 
-#### Advanced Price
+3. Once exported, open the exported file and change field values(sku, price, stock, shipping dimensions, etc)
 
-**Step-1:** Click on **Export** button to export the advance pricing from your Products in .csv format.
+4. Save the .csv file. Now go inside Variants tab and choose the file / set the delimiter / set character encoding and click **Next**.
 
-**Step-2:** If you would like to import / update pricing, open the csv file and enter the required fields.
+5. Click **Import** button. 
 
-NOTE : If you want to create new advanced price, set id 0 or leave empty, Other advanced price will update.
+### Advanced Price and Base price
 
-**Step-3:** Save the .csv file. Now go inside the app > Variants tab and choose the file / set the delimiter / set character encoding and click **Next**.
+If you would like to update product's base price and advanced price alone, you can do this **Advance price tab** and **Base price tab.**
 
-**Step-4:** Click **Import** button. ![advprice-csv](./assets/images/adv_price-csv.png) ![](./assets/images/advcsv_08.png) ![](./assets/images/advcsv_09.png) ![](./assets/images/advcsv_10.png)
+1. Click on **Export** button to export the price from your Products in .csv format.
+
+2. If you would like to import / update pricing, open the csv file and change the field values. You should have the product sku to update / import price.
+
+3. Save the .csv file. Now go inside the respective tab (for importing advance price, go to Advance price tab. For importing base price, go to Base price tab) and choose the file / set the delimiter / set character encoding and click **Next**.
+
+4. Click **Import** button.
