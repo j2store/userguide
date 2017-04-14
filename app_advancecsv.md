@@ -5,12 +5,9 @@ The app comes with advanced features which allows you to import / export product
 Export your data in following three file formats (**.csv, .xls, .xlsx**). However, you should use only **.csv** file format for **importing**.
 
 > Error reporting must be disable. Goto system -> Global configuration -> server-> Error Reporing set to "None"
-> 
-Import file format must be .csv format
->
-Set Batch limit in setting page.
->
-When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
+> Import file format must be .csv format
+> Set Batch limit in setting page.
+> When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
 
 ## Requirements
 
