@@ -5,9 +5,23 @@ The app comes with advanced features which allows you to import / export product
 Export your data in following three file formats (**.csv, .xls, .xlsx**). However, you should use only **.csv** file format for **importing**.
 
 > Error reporting must be disable. Goto system -> Global configuration -> server-> Error Reporing set to "None"
+
 > Import file format must be .csv format
+
 > Set Batch limit in setting page.
+
 > When you import products, you must import the options and variants too. Otherwise, the app will not work properly.
+
+* **[How to import options](#options)**
+* **[How to import category](#category)**
+* **[How to import products (simple, configurable, downloadable)](#products)**
+* **[How to import product options](#product-options)**
+* **[How to import downloadable product files](#product-files)**
+* **[How to import variable product](#variable-product)**
+    * **[Creating variable product](#create-variable-product)**
+    * **[Importing variable product options](#import-variable-options)**
+    * **[Variable variant](#variants)**
+* **[Advanced price and Base Price](#advance-base-price)**
 
 ## Requirements
 
@@ -23,6 +37,7 @@ Export your data in following three file formats (**.csv, .xls, .xlsx**). Howeve
 
 3. After enabling, click **Open** to import / export the products.
 
+<a name="options"/>
 ### How to import new options ?
 
 Open Import J2Store Products app. You can see the active and opened tab named "Options".
@@ -35,18 +50,18 @@ Use this tab to update existing options and import new option to **J2Store > Cat
     * **type** - Enter the type of option here (for example: select, radio, etc)
     * **ordering** - You can leave this column by entering 0.
     * **option values** - The structure of optionvalues field must be  optionvalue_name:optionvalue_image:ordering, you can add multiple option value using pipe(|) symbols.
-
-    * Eg: Red::0|Yellow::0
+    * **For example :** Red::0|Yellow::0
 
 2. Save the .csv file.
 
 3. Now go inside the Options tab and choose the file, set the delimiter, set character encoding and click **Import** button.
 
-![option-csv](./assets/images/csv-opt-export.png) 
+![option-csv](./assets/images/csv-opt-export.png)
 ![](./assets/images/csv-option-file.png) 
 ![](./assets/images/csv-opt-addfile.png)
 ![](./assets/images/csv-option-import.png)
 
+<a name="category"/>
 ### How to import category ?
 
 1. Click on **Export** button to export the categories from Content > Categories in .csv format or .xls format or .xlsx format.
@@ -64,10 +79,11 @@ Use this tab to update existing options and import new option to **J2Store > Cat
 
 4. Click **Import** button.
 
-![category-csv](./assets/images/csv-category-file.png) 
+![category-csv](./assets/images/csv-category-file.png)
 ![](./assets/images/csv-category-add-file.png)
 ![](./assets/images/csv-category-import.png)
 
+<a name="products"/>
 ### How to import new Products?
 
 Import / Update **Simple, Configurable, Downloadable** product types using this tab. Variable product type cannot be imported / updated here.
@@ -92,6 +108,7 @@ Import / Update **Simple, Configurable, Downloadable** product types using this 
 ![](./assets/images/csv-product-addfile.png)
 ![](./assets/images/csv-product-import.png)
 
+<a name="product-options"/>
 ### How to import product options ?
 
 Updating and adding product options and product option values can be possible by using this tab.
@@ -113,10 +130,11 @@ optionvalue_name:price prefix:price:weight prefix:weight:default value:ordering:
 
 4. Click **Import** button. 
 
-![prod-option-csv](./assets/images/csv-prodopt-file.png) 
-![](./assets/images/csv-prodopt-addfile.png) 
+![prod-option-csv](./assets/images/csv-prodopt-file.png)
+![](./assets/images/csv-prodopt-addfile.png)
 ![](./assets/images/csv-prodopt-import.png)
 
+<a name="product-files"/>
 ### How to import downloadable product files ?
 
 Do you have 100+ downloadable products and want to change downloadable files are all products ? It is very frustrating to open / edit each product for changing downloadable files right ? Don't worry about that. You can easily do this by our Advance CSV import / export app.
@@ -131,6 +149,7 @@ To update downloadable files or to import new downloadable files, you should kno
 
 ![](./assets/images/csv-digital-file.png)
 
+<a name="variable-product"/>
 ### How to import variable product ?
 
 Importing variable product possess three following steps:
@@ -139,6 +158,7 @@ Importing variable product possess three following steps:
 2. Importing variable product options
 3. Variable variant (update only)
 
+<a name="create-variable-product"/>
 #### Creating variable product
 
 1. Before importing variable products by creating your own csv file, it is better to export the existing variable products to see how the file structure is.
@@ -155,6 +175,7 @@ Importing variable product possess three following steps:
 
 4. Click **Import** button. 
 
+<a name="import-variable-options"/>
 #### Importing variable product options
 
 Use this tab to import options to the variable product.
@@ -183,6 +204,7 @@ Use this tab to import options to the variable product.
 
 ![](./assets/images/csv-variants-import.png)
 
+<a name="variants"/>
 #### Variable variant
 
 1. After generaing variants, use this tab to update SKU, price, stock, dimensions, image, etc for variants. New variant cannot be created here.
@@ -195,14 +217,17 @@ Use this tab to import options to the variable product.
 
 5. Click **Import** button. 
 
+<a name="advance-base-price"/>
 ### Advanced Price and Base price
 
-If you would like to update product's base price and advanced price alone, you can do this **Advance price tab** and **Base price tab.**
+If you would like to update product's base price and advanced price alone, you can do this in **Advanced price tab** (to update advanced price) and **Base price tab** (to update base price).
 
-1. Click on **Export** button to export the price from your Products in .csv format.
+1. Move to respective tab. For example, if you wants to update advanced price, navigate to Advanced price tab
 
-2. If you would like to import / update pricing, open the csv file and change the field values. You should have the product sku to update / import price.
+2. Click on **Export** button to export the price from your Products in .csv format.
 
-3. Save the .csv file. Now go inside the respective tab (for importing advance price, go to Advance price tab. For importing base price, go to Base price tab) and choose the file / set the delimiter / set character encoding and click **Next**.
+3. If you would like to import / update pricing, open the csv file and change the field values. You should have the product sku to update / import price.
+
+4. Save the .csv file. Now go inside the respective tab (for importing advance price, go to Advance price tab. For importing base price, go to Base price tab) and choose the file / set the delimiter / set character encoding and click **Next**.
 
 4. Click **Import** button.
