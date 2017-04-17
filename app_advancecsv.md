@@ -175,7 +175,7 @@ Importing variable product possess three following steps:
 
 4. Click **Import** button. 
 
-<a name="import-variable-options"/>
+<a name="import-variable-options"></a>
 #### Importing variable product options
 
 After creating variable product, you should add variants to the product. Use this tab to import options to the variable product.
@@ -204,7 +204,7 @@ After creating variable product, you should add variants to the product. Use thi
 
 ![](./assets/images/csv-variants-import.png)
 
-<a name="variants"/>
+<a name="variants"></a>
 #### Variable variant
 
 1. After generaing variants, use this tab to update SKU, price, stock, dimensions, image, etc for variants. New variant cannot be created here.
@@ -217,7 +217,7 @@ After creating variable product, you should add variants to the product. Use thi
 
 5. Click **Import** button. 
 
-<a name="advance-base-price"/>
+<a name="advance-base-price"></a>
 ### Advanced Price and Base price
 
 If you would like to update product's base price and advanced price alone, you can do this in **Advanced price tab** (to update advanced price) and **Base price tab** (to update base price).
