@@ -1,4 +1,4 @@
-# Stamps
+# Stamps.com
 
 This app integrates Stamps.com API with Joomla J2Store eCommerce solution. With this app, you can automatically create shipping labels for USPS, based on ordered items. Our Stamps.com API Integration extension allows you to generate and print shipping labels for USPS via the backend order history page.
 
