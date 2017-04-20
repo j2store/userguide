@@ -16,11 +16,11 @@ If you are using **PayPal as your payment method** for your subscription product
 * **[PayPal Reference Transactions for Subscriptions](#payment-susbcription)**
 * **[How to write template override for subscription emails](#tpl-override-emails)**
 
-<a name="introduction" />
+<a name="introduction"></a>
 ### Introduction
 If you would like to sell subscription-based products, you could do just that with our Subscriptions and Membership app. This app allows you to sell products and services with recurring payments.The following features are possible with Subscription Products app :
 
-<a name="features" />
+<a name="features"></a>
 ##### Features
 
 **1. Billing schedules**
@@ -55,7 +55,7 @@ Customers can purchase any number of subscriptions in the same order / transacti
 
 Send automatic emails to the customers when the subscription is created, when a renewal payment is processed or when a subscription is cancelled or expired. You can customise the email messages as well using language overrides.
 
-<a name="supported-payments" />
+<a name="supported-payments"></a>
 ##### Supported Payment Gateways
 
 1. Paypal Standard for J2Store (Available on request)
@@ -64,14 +64,14 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Mollie payment plugin
 
-<a name="known-limitations" />
+<a name="known-limitations"></a>
 ##### Known limitations
 
 1. Subscription Products app does not support for guest checkout.
 
 2. Variable subscription product type allows you to add only one option with multiple values.
 
-<a name="Requirements"/>
+<a name="Requirements"></a>
 ### Requirements
 
 1. PHP 5.4+
@@ -80,7 +80,7 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Joomla 3.4.x or above
 
-<a name="installation"/>
+<a name="installation"></a>
 ### Installation
 
 1. Download Subscription and Memberships package from our site and install it using Joomla installer.
@@ -89,7 +89,7 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Once enabled, open the app and configure the basic settings of the app.
 
-<a name="basic-settings"/>
+<a name="basic-settings"></a>
 ### Basic settings
 
 > For renewing subscriptions you should run cron job atleast every day.
@@ -109,23 +109,26 @@ Enter the number of days to send the remember mail to customer for notifying tha
 
 ### How to create Subscriptions based products?
 
-<a name="simple-subscription"/>
+<a name="simple-subscription"></a>
 #### Creating simple subscription product
+
+**[Checkout the video tutorial for creating simple subscription product](https://www.j2store.org/support/video-tutorials/creating-simple-subscription-product.html)**
 
 1. Go to Article Manager > create new article > Move to J2Store cart tab
 
 2. Choose **YES** to Treat as a Product and select **Simple Subscription** as Product Type and click **Save and Continue**.
-
 ![](./assets/images/subscription-simple.png)
 
-1. Set **YES** to Visible in storefront and navigate to **Pricing** tab.
+3. Set **YES** to Visible in storefront and navigate to **Pricing** tab.
 
-2. Pricing tab, where you could set your subscription product's price, customer group, expiry date, etc.
+4. Pricing tab, where you could set your subscription product's price, customer group, expiry date, etc.
 
 You can set images, shipping, filters to your subscription product.
 
-<a name="variable-subscription"/>
+<a name="variable-subscription"></a>
 #### Creating variable subscription product
+
+**[Checkout the video tutorial for creating variable subscription product](https://www.j2store.org/support/video-tutorials/creating-variable-subscription-product.html)**
 
 The variable subscription product allows you to add only one option with multiple values.
 
@@ -143,12 +146,11 @@ Go to J2Store > Catalog > Options and create a option "Subscription period" and 
 
 4. In variants tab, search and add Subscription period option and set values.
 > It allows you to add one option with multiple variants. For example, Subscription period as option with following variants 3 months, 6 months, etc. See the screen shot below
-
 ![](./assets/images/subscription-variants.png)
 
 5. Generate variants and set price, subscription time period, images, shipping, filters for each variants.
 
-<a name="pricing"/>
+<a name="pricing"></a>
 #### Pricing
 
 - **Subscription price :** Enter the membership price (for example, $29) based on either daily or weekly or monthly or yearly basis.
@@ -165,7 +167,7 @@ Go to J2Store > Catalog > Options and create a option "Subscription period" and 
 
 ![](./assets/images/subscription-pricing.png)
 
-<a name="demo"/>
+<a name="demo"></a>
 #### Frontend Demo
 
 ![](./assets/images/subscription-frontend.png)
@@ -184,7 +186,7 @@ Go to J2Store > Apps and Open Subscription Products app and you can see subscrip
 
 ![](./assets/images/subscription-detail.png)
 
-<a name="payment-susbcription" />
+<a name="payment-susbcription"></a>
 ### PayPal Reference Transactions for Subscriptions
 
 This system makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
@@ -253,7 +255,7 @@ Some things that store owners have mentioned PayPal require are:
 
 In terms of revenue forecasts, we have had reports that UK based PayPal accounts may require minimum forecast of £6,000 month or more revenue.
 
-<a name="tpl-override-emails"/>
+<a name="tpl-override-emails"></a>
 ### How to write template override for subscription emails
 
 Copy all files in
