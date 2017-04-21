@@ -5,8 +5,10 @@
 * **[Checkout steps not working ?](#checkout-steps)**
 * **[Could not proceed to payment step. Stuck at the Shipping step](#shipping-step-stuck)**
 * **[Checkout Login and Registration not works](checkout-login-not-works)**
+* **[How to set default payment option in checkout payment step ?](#default-payment-option)**
+* **[Writing template override for checkout page](#template-override)**
 
-<a name="guest-checkout"/>
+<a name="guest-checkout"></a>
 #### How to enable guest checkout only?
 
 Would you like not to allow customers to register and only want to enable guest checkout alone ?
@@ -25,9 +27,9 @@ Save.
 
 ![](./assets/images/enable-guest-checkout-only.png)
 
-![](./assets/images/guest-checkout.png)
+![](./assets/images/guest-checkout-only.png)
 
-<a name="checkout-layout"/>
+<a name="checkout-layout"></a>
 #### Is your layout of checkout form displaying in single column?
 
 It seems to be choosing of wrong bootstrap class for cart and checkout pages.
@@ -57,7 +59,7 @@ Simply remove this and leave the text area empty.
 
 Save and check.
 
-<a name="checkout-steps"/>
+<a name="checkout-steps"></a>
 #### Checkout steps not working ?
 
 The checkout steps in J2Store use AJAX extensively in order to provide customers with a better online shopping experience. Customers do not have to wait for the checkout pages to refresh. The entire checkout is handled within a SINGLE PAGE and the checkout steps are loaded in an accordin style.
@@ -110,7 +112,7 @@ Make sure the following fields are set as per the configuration given below. And
 
 If you still face issues, then there could be several reasons for this behavior. Please create a private ticket (Go to the support menu ) and provide super user logins. One of our developer will help you troubleshoot and solve the problem.
 
-<a name="shipping-step-stuck"/>
+<a name="shipping-step-stuck"></a>
 #### Could not proceed to payment step. Stuck at the Shipping step
 
 Make sure you are not having any old template overrides. If you are using a template like JSN One, you might be having template overrides for checkout layout.
@@ -123,7 +125,7 @@ If yes, rename it as: old_checkout
 
 Now check.
 
-<a name="checkout-login-not-works" />
+<a name="checkout-login-not-works"</a>
 #### Checkout Login and Registration not works
 
 It is because the permission you have given at Joomla global configuration might be wrong.
@@ -134,6 +136,7 @@ Under Public, choose **Not Set** to Site Login.
 Under Registered tab, choose **Allowed** to Site Login.
 Save.
 
+<a name="default-payment-option"></a>
 #### How to set default payment option in checkout payment step ?
 
 Go to J2Store >  Configuration > Cart tab
@@ -141,6 +144,7 @@ You can see the param named "Default payment method"
 Choose your payment method from the dropdown list
 Save.
 
+<a name="template-override"></a>
 #### Writing template override for checkout page
 
 The below directory path controls the checkout page work flow.

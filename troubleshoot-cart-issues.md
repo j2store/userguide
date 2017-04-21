@@ -10,7 +10,7 @@
 * **[I don't see Add to Cart Button. What is the problem?](#not-show-cart-button)**
 * **[HOW TO move Add to Cart Button using the Short Plugin tag](#move-cart-button)**
 
-<a name="template-override-category-view"/>
+<a name="template-override-category-view"></a>
 #### To change the Add to cart block and style in category view
 
 copy /components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_cart.php
@@ -21,7 +21,7 @@ to
 
 **IMPORTANT:** If you are using bootsrap 3 as a sub-template, replace the default with bootstrap3(/components/com_j2store/templates/bootstrap/..)
 
-<a name="template-override-detail-view"/>
+<a name="template-override-detail-view"></a>
 #### To change the Add to cart block and style in item view
 
 copy /components/com_j2store/templates/YOUR-SUB-TEMPLATE/view_cart.php
@@ -32,7 +32,7 @@ to
 
 Make the changes and save.
 
-<a name="cart-not-responding"/>
+<a name="cart-not-responding"></a>
 #### Is cart not responding when you click update or empty cart button?
 
 If you enable **System - Page Cache** / SpeedCache or any thidy party cache plugins, they photo copy every page including the cart page.
@@ -47,7 +47,7 @@ Another thing:
 
 Please use the **Conservative caching**.
 
-<a name="minicart-icon"/>
+<a name="minicart-icon"></a>
 #### Minicart icon not showing up?
 
 It seems to be applying wrong font-awesome class in module settings page.
@@ -64,7 +64,7 @@ fa fa-shopping-cart
 
 Save.
 
-<a name="cart-module-filter"/>
+<a name="cart-module-filter"></a>
 #### [HOW TO]Add cart module right or left below the product filter?
 
 You can use special module positions in the filter display section to display the cart module to the product filter.
@@ -79,7 +79,7 @@ You can use special module positions in the filter display section to display th
 
 For more details about special module position, please click [Here](https://www.j2store.org/support/user-guide/special-module-position.html)
 
-<a name="cart-items-clear"/>
+<a name="cart-items-clear"></a>
 #### Avoid cart items cleared
 
 Sometimes customers accidently entered wrong credit card / debit card details. He came to know that he entered wrong card details only after clicking on place order. But cart items will be cleared once you clicked place order button. So you could not retry the payment process and it makes you frustrating.
@@ -89,7 +89,7 @@ To overcome this, you can restrict clearing cart items only on order confirmatio
 Go to J2Store > Configuration > Cart tab
 Find the param "Clear cart items". Set this param to "On Confirmation" and save.
 
-<a name="cart-module-issues"/>
+<a name="cart-module-issues"></a>
 #### How To Solve Mini Cart module related issues?
 
 J2Store's Mini Cart is a very handy tool for your customers when they shop. They can check the number of items in their order and the total. The cart module is refreshed in real-time using an AJax request. On a few occasions, the cart may not get updated on a real time. Here is a checklist that should help you solve the problem.
@@ -143,7 +143,7 @@ You can look for something like below in the PHP Information tab.
 
 ![](./assets/images/json_setup.png)
 
-<a name="not-show-cart-button"/>
+<a name="not-show-cart-button"></a>
 #### I don't see Add to Cart Button. What is the problem?
 
 Don't worry. This is often a simple configuration mistake. We have answered this question more than hundred times.
@@ -180,7 +180,7 @@ This post explains the reasons behind this. Make sure you check the following po
   Still no luck. Then there might be a template override for the articles or some other plugin is causing an issue. 
 Post in the forums with URL to a product in your site. Our support team will take a look and help you solve the issue.
 
-<a name="move-cart-button"/>
+<a name="move-cart-button"></a>
 #### HOW TO move Add to Cart Button using the Short Plugin tag
 
   You can move the location of the Add to cart block within the product layout using a simple plugin tag. 

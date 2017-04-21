@@ -1,4 +1,4 @@
-#Troubleshoot translate related issues
+# Troubleshoot translate related issues
 
 **1. Did you download and installed the translations for your language from our website ?**
 

@@ -1,11 +1,10 @@
-<a name="thank_u_message"></a>
-##HOWTO create a custom thank you message
+## HOWTO create a custom thank you message
 
 You can display a thank you message, instructions or information to your customers after they have completed the purchase. For example, if you are selling digital goods, you can include a link where the customer can download the items.
 
 if you are using offline payment, then you can include instructions or bank account details in the article and display it to the customer. You can use this feature on a number of ways.
 
-####Step 1: Create an article
+#### Step 1: Create an article
 
 Go to Joomla admin -> Article Manager.
 
@@ -13,7 +12,7 @@ Create a new article and enter your message, instructions or information or any 
 
 Save the article and note down its ID.
 
-####Step 2: Associating the article with the Payment Plugins
+#### Step 2: Associating the article with the Payment Plugins
 
 All the J2Store payment plugins have a feature to display an article after the customer makes the payment and completes the purchase.
 

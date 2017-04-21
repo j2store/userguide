@@ -10,7 +10,7 @@ There could be many reasons why your Paypal Plugin is not working. This guide li
 * **[Is your order still not auto confirming the status](#order-status-not-confirm)**
 * **[Make order status confirmed immediately](#make-status-confirm)**
 
-<a name="orders-not-confirmed"/>
+<a name="orders-not-confirmed"></a>
 ### 1. Orders not confirmed. Status shows as incomplete or new
 
 It means you are not getting the Instant Payment Notification (IPN) from Paypal.
@@ -58,7 +58,7 @@ NOTE: Replace <YOUR_DOMAIN> with your website. E.g: www.example.com
 Login to your paypal account and go to History -> IPN history. Check the recent IPN history and check the status.
 If possible take a screenshot and contact our support team.
 
-<a name="order-status-failed"/>
+<a name="order-status-failed"></a>
 ### 2. Order status Failed
 
 Are you using your Primary Paypal Email as your merchant email? If your order status says failed, then chances are that you are using a secondary email of your Paypal account.
@@ -67,7 +67,7 @@ Paypal allows you to add multiple emails in an account to accept payments. With 
 
 ![Paypal Primary Email](./assets/images/paypal_primary_email1.png)
 
-<a name="wrong-currency"/>
+<a name="wrong-currency"></a>
 ### 3. Currency is wrong. Paypal payment screen shows USD while my currency is different
 
 Paypal supports multiple currencies. However, it does not support all currencies of the world. Please ensure that your currency is supported by checking this page: https://www.paypal.com/multicurrency
@@ -82,13 +82,13 @@ Let us assume, your store is located in India and your currency is INR. But Payp
 
 Here is how you can overcome the issue.
 
-####Step 1: Enable Auto currency update
+#### Step 1: Enable Auto currency update
 ![currency_auto_update](./assets/images/Selection_048.png)
 Go to Joomla admin - j2store - set up - > configuration -> Store tab
 Set your Default Currency as INR
 Set Auto update currency to YES
 
-####Step 2: Create multiple currencies
+#### Step 2: Create multiple currencies
 Go to Joomla admin - j2store - set up - currencies
 
 You might have already created the INR currency. Open it and make sure its value is set to 1
@@ -110,7 +110,7 @@ Save now.
 You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD. 
 J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
 
-<a name="duplicate-invoice"/>
+<a name="duplicate-invoice"></a>
 ### 4. Paypal duplicate invoice ID and how to solve it
 Paypal by default does not allow duplicate invoices. When you try to pay for a duplicate invoice id, Paypal will produce the following error:
 
@@ -144,7 +144,7 @@ Please try the following:
 4. Under Block Accidental Payments choose "No, allow multiple payments per invoice ID".
 5. Save.
 
-<a name="paypal-not-showing"/>
+<a name="paypal-not-showing"></a>
 ### 5. Paypal option not showing at checkout?
 
 Make sure the Geozone field at paypal plugin configuration page is set to ALL.
@@ -156,14 +156,14 @@ Open Paypal payment plugin
 Set Geozone to ALL
 Save.
 
-<a name="order-status-not-confirm"/>
+<a name="order-status-not-confirm"></a>
 ### 6. Is your order still not auto confirming the status?
 
 Here is one more troubleshooting step
 Go to Joomla administration -> Global config -> Server -> Database settings
 Make sure your Database driver is NOT set to MySQL PDO.
 
-<a name="make-status-confirm"/>
+<a name="make-status-confirm"></a>
 ### 7. Make order status confirmed immediately
 
 Is your PayPal's account default currency is different from your store currency ?

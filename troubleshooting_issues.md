@@ -1,4 +1,4 @@
-#Troubleshooting Common Issues
+# Troubleshooting Common Issues
 
 * **[[HOW TO]Fix enter your valid Address information Error](#valid_address_error)**
 * **[Change default country in checkout](#change_default_country)**
@@ -24,7 +24,7 @@
 * **[[HOW TO]Solve terms and conditions popup box freeze](#terms-conditions)**
 
 <a name="change_default_country"></a>
-##[HOWTO] Change default country in checkout
+## [HOWTO] Change default country in checkout
 
 1. Login to Joomla administrator and go to Components -> J2Store
 
@@ -37,7 +37,7 @@
 5. Clear Joomla cache and check.
 
 <a name="order_products"></a>
-##[HOWTO] Order products in list layout
+## [HOWTO] Order products in list layout
 The product list layout by default takes the ordering in the Article Manager. However, you can change this ordering (on page load / refresh) via the Menu Parameters.
 
 NOTE: This tutorial applies only for those using the J2Store's Product List Layout in Version 3. If you use the default article layouts, refer the Joomla documentation on ordering of articles.
@@ -49,7 +49,7 @@ Under the Common Options tab, you can find Article Order parameter. There you ca
 ![](./assets/images/troubleshoot_orderproducts.png)
 
 <a name="options"></a>
-##[HOWTO] Options from dropdown cannot be selected
+## [HOWTO] Options from dropdown cannot be selected
 
 This issue occurs when your site has two instances of the Jquery UI library.
 
@@ -67,7 +67,7 @@ Set the Load Jquery UI to Only Front End.
 Save.
 
 <a name="multicateogries"></a>
-##[HOWTO] solve jQuery conflict with Multi-categories component
+## [HOWTO] solve jQuery conflict with Multi-categories component
 
 If you are using the Multi-cateogies component (which adds the ability to choose more than one category for your articles), you might experience a jQuery conflict with J2Store. Here is a quick fix
 
@@ -91,7 +91,7 @@ Logout. Clear browser cache and test.
 This should fix the issue.
 
 <a name="template_override"></a>
-##Writing template override for the frontend order view and print layouts
+## Writing template override for the frontend order view and print layouts
 
 This tutorial applies to J2store 3.x versions.
 
@@ -116,7 +116,7 @@ Make your changes / overrides. Save.
 You need to do the same if you want to override
 
 <a name="checkout_field_language"></a>
-##HOWTO make checkout address field labels language friendly
+## HOWTO make checkout address field labels language friendly
 
 In a multi-lingual Joomla site, the checkout step doesn't convert to other language and seems to still show in english. How to make it appear in your own language ?
 Simple, just rename the custom field labels as follows and it will quickly consider picking the language strings from your local language pack.
@@ -182,17 +182,17 @@ J2STORE_ADDRESS_EDIT="View/Edit Address"
 J2STORE_SHOPPER_ADDRESSES="Shopper Addresses"
 
 <a name="digital_folder"></a>
-##Selling Digital Goods Online with J2Store
+## Selling Digital Goods Online with J2Store
 
 Selling ebooks, PDF, images and files online is easy with the J2Store Joomla shopping cart. Here is a step-by-step guide to set up your digital downloads.
 
-####Step 1: Let us create a folder on your site to upload the files
+#### Step 1: Let us create a folder on your site to upload the files
 
 You can use your Hosting Providers CPanel File manager or an FTP client like FileZilla to access your web root (public_html / www / httpdocs )
 
 Once you are in the web root, create a folder. Let us name it as: myfiles
 
-####Step 2: Protect the folder from outside access
+#### Step 2: Protect the folder from outside access
 
 **We do not want people to access this folder using their browser and download files. So let us protect this folder using a .htaccess file.**
 
@@ -208,7 +208,7 @@ Save the file. Now upload it to the folder we just have created in our web root.
 
 All the files uploaded to this folder is now protected.
 
-####Step 3: Point J2Store to use the files in this folder.
+#### Step 3: Point J2Store to use the files in this folder.
 
 Go to Joomla admin - j2store - Configuration - Basic settings.
 
@@ -216,7 +216,7 @@ In Folder path for digital goods, enter the name of the folder that contains you
 
 Save the configuration.
 
-####Step 4: Creating your first digital product
+#### Step 4: Creating your first digital product
 
 J2Store uses Joomla articles as products. So head to Joomla admin -> Article Manager and create an article.
 
@@ -229,7 +229,7 @@ Now go to files tab in the navigation you can see Set product files button.
 ![](./assets/images/product_down_files_2.png)
 
 <a name="missing_currency_symbol"></a>
-##Solving the missing currency symbol in your store
+## Solving the missing currency symbol in your store
 
 When you install, J2Store sets USD as the default currency. When store owners change the currency code, they often forgot to update their default currency in their store profile.
 
@@ -251,18 +251,18 @@ So CLICK the SAVE button.
 Still not seeing the Currency symbol, open your store again and click SAVE again.
 
 <a name="joomsef"></a>
-##Joom SEF configuration for J2Store
+## Joom SEF configuration for J2Store
 
 If you are using JoomSEF along with J2Store, you will need to make simple change in the configuration.
 
 Go to JoomSEF configuration -> Advanced Configuration. Change the Set Page base href value to Yes - always use only base URL.
 
 <a name="remove_prefix"></a>
-##How to Remove + and - Prefix in Product Option Price
+## How to Remove + and - Prefix in Product Option Price
 
 Store owners sometimes want to hide the + (PLUS) and the - (MINUS) prefix that is shown along with the product options. In J2Store Version 3, you turn off the price prefix with a switch.
 
-####Default Joomla article layouts (like Category blog layout):
+#### Default Joomla article layouts (like Category blog layout):
 
 Go to J2Store - Configuration - Product tab.
 
@@ -270,7 +270,7 @@ Set Product option price prefix to HIDE
 
 Save
 ![](./assets/images/priceprefix_1.png)
-####Product list layout:
+#### Product list layout:
 
 If you use the J2Store's product list layout, then you will find a similar switch in the menu parameters.
 
@@ -282,14 +282,14 @@ Save
 ![](./assets/images/priceprefix_2.png)
 
 <a name="translate_addr_fields"></a>
-##HOW To Translate the Address Field Labels
+## HOW To Translate the Address Field Labels
 
 If you wanted to translate the Address field labels, you can enter your translation in the respective fields.
 Go to Joomla admin -> J2Store -> Set up -> Custom Fields
 
 Open the field, the label of which you want to change, and enter your translation in the label field.
 
-####Multi-lingual sites
+#### Multi-lingual sites
 
 if you are running multi-lingual site, you can enter a language constant in the label field.
 Example: J2STORE_MY_FIELD_NAME
@@ -313,7 +313,7 @@ You can repeat this steps for your second, third, and other languages.
 You can use language strings in all the fields including Custom Error message, Option Titles (if field type is select, radio, checkbox).
 
 <a name="color_cart_button"></a>
-##HOW TO change the colour of add to cart buttons
+## HOW TO change the colour of add to cart buttons
 
 A majority of those who wanted to change the colour of the buttons are using template with a template that does not support the Twitter bootstrap framework, which helps you make your site responsive.
 
@@ -325,7 +325,7 @@ Open your template's css file located in /templates/YOUR_TEMPLATE/css folder.
 
 At the end of the file, add the following CSS. Save the file. Clean your browser cache and joomla cache. Refresh.
 
-####Add to cart button
+#### Add to cart button
 ```css
 .j2store .btn-primary {background: #FF0000 !important; /*this will change your button colour to red. You can change the hex colour code based on your choice */
 
@@ -334,7 +334,7 @@ color: #FFFFFF !important; /*this will change your text on the button to white. 
 }
 ```
 
-####View cart button
+#### View cart button
 ```css
 .j2store .btn-success {
 
@@ -353,7 +353,7 @@ color: #FFFFFF !important;
 }
 ```
 
-####Update button
+#### Update button
 
 ```css
 .j2store .btn-warning {
@@ -374,13 +374,13 @@ color: #FFFFFF !important;
 ```
 
 <a name="override_intro_image"></a>
-##Writing a Layout override for Joomla article manager - An intro image
+## Writing a Layout override for Joomla article manager - An intro image
 
 Layout overrides is a feature introduced in Joomla 3. They provide more modularity for templates across views and avoid duplication of code for a same design.
 
 Consider a situation In Joomla caregory blog layout, you have to make a Joomla Article intro image a hyperlink with the read more button link. If you are using prostar template you can use this below.
 
-####Step 1: Write a layout override
+#### Step 1: Write a layout override
 
 You can use a file manager in your Hosting Control panel or an FTP client like FileZilla for doing the following tasks.
 
@@ -393,7 +393,7 @@ to
 
 JOOMLA-ROOT/templates/<YOUR_TEMPLATE>/html/layouts/joomla/content/intro_image.php
 
-####Step 2: Edit the override layout
+#### Step 2: Edit the override layout
 
 Find below code
 
@@ -452,7 +452,7 @@ JOOMLA-ROOT/templates/<YOUR_TEMPLATE>/html/layouts/joomla/content/intro_image.ph
 and go to Step 1.
 
 <a name="rocket_js_conflict"></a>
-####HOWTO solve javascript conflict between some of RocketTheme templates and J2Store
+#### HOWTO solve javascript conflict between some of RocketTheme templates and J2Store
 
 If you are using a RocketTheme template with the RokBox plugin, then you might have experienced a javascript conflict at the checkout steps.
 
@@ -469,14 +469,14 @@ Be aware that the Backward compatibility can dramatically slow down the loading 
 ```
   
 <a name="valid_address_error"></a>
-##[HOW TO]Fix enter your valid Address information Error
+## [HOW TO]Fix enter your valid Address information Error
 Are you using the USPS plugin ? If yes, open the USPS plugin and set the Address validation to No.
 Save.
 
 If the address provided is not in the USPS API's database, then it would throw this error. (Even if an extra space or typo in the address with throw the error.)
 
 <a name="payment_option_title"></a>
-##How to translate payment option title
+## How to translate payment option title
 
 It is possible and very easy to translate the payment option title for multilingual site.
 
@@ -489,7 +489,7 @@ Then create language override for the constant **J2STORE_MYCUSTOM_PAYMENTOPTION_
 **[Video tutorial on how to translate payment title](https://youtu.be/LYh1JBhCsTg)**
 
 <a name="hide_cart_button"></a>
-##Hiding Product Options And Cart Button In Category View
+## Hiding Product Options And Cart Button In Category View
 
 #### Do a Template Override
 
@@ -515,9 +515,9 @@ Replace this with
 <?php //echo $this->loadTemplate('cart'); ?>
 ```
 <a name="override_product_layout"></a>
-##Override Product Layout
+## Override Product Layout
 
-####Layout file location
+#### Layout file location
 
 Go to /components/com_j2store/templates which contains two folders named **bootstrap3** and **default**(bootstrap2).
 
@@ -526,7 +526,7 @@ If you choose bootstrap3 as sub-template then you have to go with bootstrap3 fol
 If you choose default as sub-template then you have to go with default folder.
 
 <a name="product_listing"></a>
-####Frontpage product listing files
+#### Frontpage product listing files
 
 Open your sub-template folder(/components/com_j2store/templates/YOUR-SUB-TEMPLATE) where you can find the files with name started with default_(for example, default_simple.php, default_images.php, etc). Those files controls all the features displaying in the category listing page.
 ![](assets/images/template_guide_product_detail.png)
@@ -535,7 +535,7 @@ Open your sub-template folder(/components/com_j2store/templates/YOUR-SUB-TEMPLAT
 templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 
 <a name="product_view"></a>
-####Product view
+#### Product view
 
 Open your sub-template folder where you can find the files with name started with view_(for example, view_simple.php, view_images.php, view_options.php, view_notabs.php, etc). Those files controlled all the features displaying in the Product view page.
 ![](./assets/images/template_guide_product_view.png)
@@ -544,7 +544,7 @@ Open your sub-template folder where you can find the files with name started wit
 templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 
 <a name="product_filter"></a>
-####File location of filter
+#### File location of filter
 
 Following files controls filter section,
 
@@ -556,7 +556,7 @@ Following files controls filter section,
 templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 
 <a name="cart"></a>
-####Cart page
+#### Cart page
 
 Cart page is controlled by the files located in the follwing path /components/com_j2store/views/carts/tmpl
 ![](./assets/images/template_guide_cart.png)
@@ -565,7 +565,7 @@ Cart page is controlled by the files located in the follwing path /components/co
 templates/YOUR-TEMPLATE/html/com_j2store/carts/
 
 <a name="checkout"></a>
-####Checkout page
+#### Checkout page
 
 Checkout is controlled by the files located in the follwing path /components/com_j2store/views/checkout/tmpl
 ![](assets/images/template_guide_checkout.png)
@@ -574,7 +574,7 @@ Checkout is controlled by the files located in the follwing path /components/com
 templates/YOUR-TEMPLATE/html/com_j2store/checkout/
 
 <a name="myprofile"></a>
-####Order history page
+#### Order history page
 
 Order history page is controlled by the files located in the follwing path
 /components/com_j2store/views/myprofile/tmpl
@@ -584,7 +584,7 @@ Order history page is controlled by the files located in the follwing path
 templates/YOUR-TEMPLATE/html/com_j2store/myprofile/
 
 <a name="enable_ssl"></a>
-##HOW TO set up and enable SSL in Joomla?
+## HOW TO set up and enable SSL in Joomla?
 
 Most of the Joomla web shop owners want their site to be secure. By installing and enabling SSL in Joomla,
 
@@ -594,7 +594,7 @@ Adding an SSL certificate and enabling it on your Joomla! site will allow custom
 
 **IMPORTANT**: You should request your Web Hosting Provider to install and enable the SSL certificate before you follow the steps mentioned below.
 
-####Method 1: Enabling SSL for the entire site
+#### Method 1: Enabling SSL for the entire site
 
 Navigate to Global Configuration -> Server -> Force SSL : Entire site. Click Apply/Save. This will force SSL for your entire website, both Administrator and front end.
 If you don’t have SSL enabled for your domain name, you will immediately get an error upon saving.
@@ -617,7 +617,7 @@ RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 ```
 
-####SSL for selected pages
+#### SSL for selected pages
 
 You would have to use a plugin to enable SSL for selected pages. There is a couple of plugins that makes the job easy for you. Yireo SSL Redirection plugin is one of them. You get the plugin from [here](http://extensions.joomla.org/extensions/extension/site-management/url-redirection/yireo-ssl-redirection)
 
@@ -628,7 +628,7 @@ NOTE: If you are using the Yiero plugin, then you should include the J2Store com
 The following article published in the Joomla Magazine throws light on the advantages and disadvantages of SSL. Read it before you implement SSL in your website. [Read it](http://magazine.joomla.org/issues/issue-jan-2013/item/1023-how-ssl-can-secure-and-add-features-to-your-joomla-site)
 
 <a name="j2store_search"></a>
-##How to solve the product link in search results
+## How to solve the product link in search results
 
 When you are searching product using joomla search, clicking on product name in the search results will not take you to the J2Store product view.
 
@@ -642,7 +642,7 @@ Enable / open the plugin and setup the configurationsas like in the below screen
 ![](./assets/images/search_j2store_02.png)
 
 <a name="product_disable_error"></a>
-##[HOW TO]Fix product you are trying to access is disabled
+## [HOW TO]Fix product you are trying to access is disabled
 
 There 3 reasons behind this warning message.
 
@@ -651,7 +651,7 @@ There 3 reasons behind this warning message.
 3. Alias name of the product might be in number.
 
 <a name="download-expiry-never"></a>
-##Is your digital product showing NEVER in expiry column?
+## Is your digital product showing NEVER in expiry column?
 
 When you change the order status to confirmed manually, you will have to do the below,
 
