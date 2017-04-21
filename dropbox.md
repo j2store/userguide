@@ -2,6 +2,36 @@
 
 Sell your files stored in dropbox with J2Store Joomla eCommerce platform. The app enables you to connect your dropbox and sell the files securely.
 
+### Important Note
+
+The download link sent in the email uses the Dropbox API's method to create a temporary url.
+
+The API does not allow us to set a custom expiry date (like in Amazon S3). Dropbox itself sets the expiry time. The link expires after a few hours.
+
+After the link expires, the customer cannot download using that link. He will have to visit the site, login and then click the Download. This would create another temporary download url and allow the customer to download.
+
+Now there are two ways of solving this
+
+1. You can mention in the email that the link is valid only for a few hours. if it expired, customers have to login to your site to download the file.
+
+2. Dropbox API now allows creating a permanent sharable link. Once created it is valid till your file is removed from dropbox.
+
+You can use the app's settings to choose whether to send a temporary url or permanent url.
+
+### Key features
+
+- Sell any file stored in Dropbox
+
+- Enables you to retrive the files from the Dropbox remotely.
+
+- Generates a temproary url for the downlodable files, which expires within minutes
+
+- Allows you to control the expiry of the url from settings
+
+### Known Limitations
+
+- When you are using dropbox for selling digital files, don't set Download limit and Download expire days. Because these features are not supported by Dropbox API.
+
 #### Requirements
 
 * PHP 5.4 or higher
