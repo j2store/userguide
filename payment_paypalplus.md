@@ -40,7 +40,7 @@ Paypal Plus for J2Store is compatible with dealers in the following countries
 ![](./assets/images/paypal-create-app.png)
 
 6. Click on your app name
-![](./assets/images/paypal-create-app.png)
+![](./assets/images/paypal-app-name.png)
 
 7. On clicking app name, it will show your Client ID and Secret key.
 ![](./assets/images/paypal-credentials.png)
@@ -63,27 +63,7 @@ Enter the Paypal Rest API client ID associated with your Paypal account.
 
 Enter the Paypal plus secret key associated with your Paypal account.
 
-**Transaction process method**
-
-Choose your transaction method here.
-
-**Sale :** If you choose **Sale**, you don't need to accept the payment.
-
-**Authorization only :** If you select authorize, you will have to accept the payment in Paypal dashboard.
-
-**Payment method type** 
-
-Choose whether the payment should be collected directly or redirected rto Paypal.
-
-**Direct Debit :** If you choose **Direct Debit**, it allows buyers to enter their card data directly into your website without redirecting to PayPal in order to process a payment.
-
-**Paypal account :** If you select Paypal account, then the customer will be redirected to Paypal to process the payment.
-
-**Card type**
-
-The checkout payment form will display the card types selected here.
-
-![](./assets/images/paypalplus-01.png)
+![](./assets/images/paypal-plus-config-1.png)
 
 **Use Paypal sandbox**
 
