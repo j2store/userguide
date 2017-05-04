@@ -16,7 +16,13 @@ Now there are two ways of solving this
 
 2. Dropbox API now allows creating a permanent sharable link. Once created it is valid till your file is removed from dropbox.
 
-You can use the app's settings to choose whether to send a temporary url or permanent url.
+You can use the app's settings to choose whether to send a temporary url or permanent url. In your app's settings, you can see the following parameter
+
+**Choose the type of link to be included in the email**
+
+- Choose **Send a Temporary link** if you wants to send temporary link to your customers. This url will expire in few hours.
+
+- Choose **Send a Sharable link** if you wants to send permanent link. This url never expires unless you delete the shared file in your dropbox account.
 
 ### Key features
 
