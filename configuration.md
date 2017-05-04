@@ -13,6 +13,7 @@ The configuration page has several tabs. Each one is explained in detail. They a
 * **[Checkout](#checkout_layout)**
 * **[Order](#order)**
 * **[Update](#update)**
+* **[Mail Template](#mail-template)**
 * **[Others](#others)**
 
 <a name="basic_settings"></a>
@@ -456,6 +457,10 @@ For a better understanding, check the image below.
 * ***Customers can see orders with the status of***
 
      All, Confirmed,Processed,Failed,Pending,New,Cancelled
+     
+*  ***Product Thumbnail image in email template***
+
+	Set this to **SHOW** will display the product thumbnail image in email template.
 
 
 <a name="update"></a>
@@ -467,6 +472,12 @@ This tab has a text input to enter the **Download ID** provided by **[J2Store](h
 
 ![Update Configuration](./assets/images/Update_config.png)
 
+<a name="mail-template"></a>
+## Mail Template
+
+This tab has a option to avoid sending default email template to customers and admin.
+
+In somecases, you will be like to send email template only to customers or vice versa. In this case, if there is no email template assigned to admin or to customer, the system will send a default email template. To avoid this, please choose **No. Do not use the default template to send a mail when no template matches my email template conditions (Not recommended)**
 	
 <a name="others"></a>
 ## Others
