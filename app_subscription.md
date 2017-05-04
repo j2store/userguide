@@ -130,7 +130,7 @@ The example given below, assumes you have a store and selling hosting service an
 
 Non recurring is a single term subscription in which the subscription will be terminated at the specific period and does not allow for auto renewal. Subscriber will have to subscribe for the plan next time manually.
 
-Lets see an example for single terms subscription. For example, consider you are providing service for $129 for one year.
+Lets see an example for single term subscription. For example, consider you are providing service for $129 for one year.
 
 ##### Step - 1 Creating product
 
@@ -179,7 +179,7 @@ Enter the number of days to send the remember mail to customer for notifying tha
 <a name="simple-subscription"></a>
 #### Creating simple subscription product
 
-**[Checkout the video tutorial for creating simple subscription product](https://www.j2store.org/support/video-tutorials/creating-simple-subscription-product.html)**
+**[Watch the video tutorial for creating simple subscription product](https://www.j2store.org/support/video-tutorials/creating-simple-subscription-product.html)**
 
 1. Go to Article Manager > create new article > Move to J2Store cart tab
 
@@ -195,7 +195,7 @@ You can set images, shipping, filters to your subscription product.
 <a name="variable-subscription"></a>
 #### Creating variable subscription product
 
-**[Checkout the video tutorial for creating variable subscription product](https://www.j2store.org/support/video-tutorials/creating-variable-subscription-product.html)**
+**[Watch the video tutorial for creating variable subscription product](https://www.j2store.org/support/video-tutorials/creating-variable-subscription-product.html)**
 
 The variable subscription product allows you to add only one option with multiple values.
 
