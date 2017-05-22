@@ -13,26 +13,41 @@ This plugin integrates Wirecard payment gateway integration with Joomla J2Store 
 #### Test card details
 
 **Credit card:**
+
 PAN: 9500000000000001
+
 Ex.Month: 12
+
 ex.year: 2031
+
 verify code: 123
+
 holder name: Jane Doe
+
 issue Month: 01
+
 issue Year: 2013
+
 issue Number: 1234
 
 **SEPA:**
+
 Bic : ABC1234567
+
 iban:1234123412341234
+
 accountOwner: John Doe
 
 **giropay:**
+
 accountOwner: John Doe
+
 bankAccount: 1234567890
+
 bankNumber: 99000001
 
 **paybox:**
+
 payerPayboxNumber:0123456789
 
 voucherId:0123456789
