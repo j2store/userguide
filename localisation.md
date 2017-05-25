@@ -11,7 +11,7 @@
 - **[Order statuses](#order-statuses)**
 
 <a name="introduction"></a>
-##Introduction
+## Introduction
 
 These are basically properties that help you to configure your store to your local/regional needs. Primarily for taxation purposes. You can also add/edit countries, zones, group the countries/zones as geozones, length, weight measurements. You can also create more custom order statuses
 

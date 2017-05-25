@@ -2,7 +2,7 @@
 
 Sometimes you need to translate some text (which is rendering from any apps or plugin) for your multilingual site. This guide will help you on how to translate them. Please keep following the instructions given below.
 
-####Find the language constant
+#### Find the language constant
 
 First thing, you have to find the language string for the text which you want to translate.
 
