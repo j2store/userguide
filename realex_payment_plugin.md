@@ -1,14 +1,14 @@
-#RealEx Payment Plugin
+# RealEx Payment Plugin
 
 The plugin integrates RealEx payment gateway with J2Store Joomla eCommerce solution. RealEx is a popular European payment service providing secure credit card payment processing solutions.
 
-####System Requirements
+#### System Requirements
 
 * PHP 5.4 or greater
 * Joomla 3.x
 * J2Store 3.2.x or greater
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the Joomla installer to install the plugin.
 
@@ -18,7 +18,7 @@ The plugin integrates RealEx payment gateway with J2Store Joomla eCommerce solut
 
 4. Save and close it.
 
-####Configuration
+#### Configuration
 
 The plugin has the following parameters need to be addressed.
 

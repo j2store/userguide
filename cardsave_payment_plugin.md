@@ -1,4 +1,4 @@
-#CardSave Pyament Plugin
+# CardSave Pyament Plugin
 This pulgin integrates CardSava payment plugin with J2store.
 
 ####System Requirements
@@ -7,7 +7,7 @@ This pulgin integrates CardSava payment plugin with J2store.
 * Joomla 3.x
 * J2Store 3.2.x or greater
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the Joomla installer to install the plugin.
 
@@ -17,7 +17,7 @@ This pulgin integrates CardSava payment plugin with J2store.
 
 4. Save and close it.
 
-####Configuration
+#### Configuration
 
 The plugin has the following parameters need to be addressed.
 
@@ -101,7 +101,7 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 
   Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
   ![](./assets/images/cardsave_three.png)
-####Support
+#### Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 

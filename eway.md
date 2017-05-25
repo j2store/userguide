@@ -1,4 +1,4 @@
-#eWay Payment gateway for J2Store
+# eWay Payment gateway for J2Store
 
 - **[Introduction](#introduction)**
 - **[Installation](#installation)**
@@ -7,7 +7,7 @@
 - **[Configuration - eWay Direct](#config-direct)**
 
 <a name="introduction"></a>
-##Introduction
+## Introduction
 The eWAY plugin for J2Store allows you to take credit card payments directly on your store without redirecting your customers to a third party site to make payment.
 eWay is one of the popular payment gateways in Australia, New Zealand and United Kingdom processing credit card transactions. 
 eWay helps you accept credit card payments securely in your store front.
@@ -18,18 +18,18 @@ There are two plugins available based on two methods
 2. eWay Direct (old API ) - Not recommended.
 
 <a name="installation"></a>
-##Installation
+## Installation
 Download the plugin file and install it via the Joomla Extension Manager.
 
 <a name="upgrade"></a>
-##Upgrading from old Direct method to new eWay Rapid
+## Upgrading from old Direct method to new eWay Rapid
 1. Login to your MYeWay merchant account and get the API Key. Or you can contact eWay to get your API Key and API Password from them.
 2. Download the eWay Rapid plugin from our My Downloads section and install it. 
 3. Open the plugin to enter the API Key and configure other fields.
 4. Disable the old eWay Direct plugin.
 
 <a name="config-rapid"></a>
-##Configuration - eWay Rapid
+## Configuration - eWay Rapid
 
 Go to J2Store - Payment Methods and open the eWay Rapid plugin
 
@@ -47,7 +47,7 @@ Go to J2Store - Payment Methods and open the eWay Rapid plugin
 **Article Id for Thank you Message** You can create an article with a custom message (example, thanking the customer for the order) and enter its ID here. This will show up after the customer completes the purchase.
 
 <a name="config-direct"></a>
-##Configuration - eWay Direct
+## Configuration - eWay Direct
 
 > Old method. Not recommended by eWay. Consider using the eWay Rapid
 

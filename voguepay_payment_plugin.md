@@ -1,13 +1,13 @@
-#Voguepay Payment Plugin
+# Voguepay Payment Plugin
 
 The Voguepay Plugin for J2Store enables you to receive    payments via Voguepay Payment Gateway. This integrates   the Voguepay's Website Standard Payment API. 
 
-#Requirements
+# Requirements
 * PHP 5.2 or higher
 * Joomla 2.5.x 
 * J2Store 2.0 or above 
 
-#Installation Instructions
+# Installation Instructions
 1. Use the Joomla installer to install the plugin. 
 2. In the backend, go to Extensions->Plugin Manager and open the Voguepay Payments plugin. (type=j2store). 
 3. Enable the plugin 
@@ -16,7 +16,7 @@ The Voguepay Plugin for J2Store enables you to receive    payments via Voguepay 
 
 Now you can see the Voguepay Payments as an option during the Check out process. 
 
-#Parameters
+# Parameters
 **Voguepay Merchant ID**
 
 This is your original Voguepay Merchant id, can be found on the top right hand side after you login in the Voguepay Site. 

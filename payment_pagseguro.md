@@ -1,14 +1,14 @@
-#PagSeguro Payment Plugin
+# PagSeguro Payment Plugin
 
 This plugin integrates Pagseguro payment gateway with J2store. PagSeguro is an e-commerce tool that mediates payments for both sellers and buyers. It offers different paying methods to the buyers.
 
-####System Requirements
+#### System Requirements
 
 * PHP 5.4 or greater
 * Joomla 3.x
 * J2Store 3.2.x or greater
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the Joomla installer to install the plugin.
 
@@ -18,7 +18,7 @@ This plugin integrates Pagseguro payment gateway with J2store. PagSeguro is an e
 
 4. Save and close it.
 
-####Configuration
+#### Configuration
 
 The plugin has the following parameters need to be addressed.
 
@@ -99,7 +99,7 @@ The plugin has the following parameters need to be addressed.
 
   Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
   ![](./assets/images/pagseguro_3.png)
-####Support
+#### Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 

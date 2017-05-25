@@ -1,4 +1,4 @@
-#Checkout.fi
+# Checkout.fi
 This plugin integrates Checkout payment Finland with J2store.
 
 ####System Requirements
@@ -7,7 +7,7 @@ This plugin integrates Checkout payment Finland with J2store.
 * Joomla 3.x
 * J2Store 3.2.x or greater
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the Joomla installer to install the plugin.
 
@@ -17,7 +17,7 @@ This plugin integrates Checkout payment Finland with J2store.
 
 4. Save and close it.
 
-####Configuration
+#### Configuration
 
 The plugin has the following parameters need to be addressed.
 
@@ -104,7 +104,7 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 ![](./assets/images/checkout_payment_finlandthree.png)
 
-####Support
+#### Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 
