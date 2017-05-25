@@ -1,4 +1,4 @@
-#Product Description
+# Product Description
 
 By default the joomla article considers the text as short description. When you use page break or read more, you will see red or grey line in article.
 
@@ -6,7 +6,7 @@ Under that whatever text has entered that considered as Long Description.
 ![](./assets/images/article_readmore.png)
 
 ![](./assets/images/short_long_description.png)
-####According to J2store
+#### According to J2store
 
 J2Store takes the introtext column as the short description and fulltext column as the long description.
 
@@ -34,6 +34,6 @@ It assigns the whole text as introtext
 
 The read more break works fine.
 
-####Support
+#### Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html

@@ -7,7 +7,7 @@
   * Simple copy the module position from the list given below and paste it in the position search box and press **Enter**.
   * Assign the module to the menu and save.
   
-  #####**Following are the custom module positions :**
+####Following are the custom module positions :
 
 #### Product Category listing
 

@@ -1,4 +1,4 @@
-#Troubleshooting shipping methods
+# Troubleshooting shipping methods
 
 * [Introduction](#introduction)
 * [Common Issues](#common_issues)
