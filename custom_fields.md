@@ -79,7 +79,7 @@ You can choose the layouts to display the field. You can select all the three la
 * **Checkout Shipping Address Layout**
 * **Checkout Payment Method Layout**
 
-####Add the custom field in the checkout layout
+#### Add the custom field in the checkout layout
 
 To add the custom field into the checkout field,
 

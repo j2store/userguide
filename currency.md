@@ -4,7 +4,7 @@ J2Store allows you to sell in multiple currencies. You can create as many curren
 You can either set the exchange value of the currency manually or allow J2Store to fetch in real-time from the Google Financial API. (In Store configuration, you should set the Auto update currency to YES)
 
 <a name="create-currency"><a>
-##Creating a new currency
+## Creating a new currency
 
 Click the New button to start the currency creation process.
 
@@ -48,7 +48,7 @@ Click the New button to start the currency creation process.
 
 The image above indicates how to add or edit a currency.
 
-##Display the prices with comma
+## Display the prices with comma
 
 Prices should also be entered with the . (DOT) as the decimal separator.
 In the currency settings screen, as mentioned in the below picture, you can change the formatting option. This will automatically display the prices with comma.

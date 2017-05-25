@@ -1,4 +1,4 @@
-#J2Store Multi Currency
+# J2Store Multi Currency
 
 J2Store multi currency feature allows store owner to setup multiple currencies. For example, if the location of store is  United States and the store owner wants his store to be accessed by customers from Japan and European countries, then he / she will have to create one primary currency (for united states) and two secondary currencies (one for Japan and other for European countries).
 
@@ -18,7 +18,7 @@ After choosing Auto update currency to YES, when you are going to create seconda
 
 ![](./assets/images/multi-currency_02.png)
 
-####J2Store Currency Switcher
+#### J2Store Currency Switcher
 
 Go to Extension > Modules. 
 
@@ -30,7 +30,7 @@ Assign it to the All pages or to the particular menu and Save it.
 
 ![](./assets/images/multi-currency_03.png)
 
-####Frontend
+#### Frontend
 
 ![](./assets/images/multi-currency_04.png)
 
