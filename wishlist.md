@@ -1,13 +1,13 @@
-#Wishlist
+# Wishlist
 
 Wishlists allows customers to create and add products to an unlimited number of wishlists. Wishlist adds a great value to your store.
 
-####Requirements
+#### Requirements
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-####Installation Instructions
+#### Installation Instructions
 
 1.Use the Joomla installer to install the app.
 
@@ -19,7 +19,7 @@ Wishlists allows customers to create and add products to an unlimited number of 
 
 4.Once the app is enabled, click on Open to set the configuration for the app.
 
-####Parameters
+#### Parameters
 
 * ***Remove item after adding to cart***
 

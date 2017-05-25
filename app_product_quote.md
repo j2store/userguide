@@ -1,14 +1,14 @@
-#Ask question / quote
+# Ask question / quote
 
 This app allows customer to enquire a product or to ask quote for a product through mail. Using this app itself you can use your store as catalog mode since this app has an option to hide the add to cart button. Clicking on single button will enable the communication between store owner and customer.
 
-####Requirements
+#### Requirements
 
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-####Installation
+#### Installation
 
 1. Use the Joomla installer to install the app.
 
@@ -96,7 +96,7 @@ Now, in form layout add the shortcodes of fields you want to display in product 
 4. Enable the Ask quote button by setting **YES** to Enable ask question / quote. Refer the image below.
 ![](./assets/images/product_quote_003.png)
 
-####Frontend
+#### Frontend
 
 **SINGLE PRODUCT**
 ![](./assets/images/product_quote_04.png)
@@ -106,6 +106,6 @@ Now, in form layout add the shortcodes of fields you want to display in product 
 
 ![](./assets/images/product_quote_05.png)
 
-####Support
+#### Support
 
 Still have questions? You can post your questions in our support forum: http://j2store.org/forum/index.html

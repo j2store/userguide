@@ -1,4 +1,4 @@
-#VM Migration App for J2Store
+# VM Migration App for J2Store
 
 This app imports store data from Virtuemart 2.x or 3.x to J2Store 3.x. 
 
@@ -48,7 +48,7 @@ Please make sure you select the setting 3 (table list) and save the changes. The
 5. **Terms and Conditions**
 This plugin **should not be used in live sites** They must only be used in Test sites / staging sites / local copy. Even though, please make sure to take atleast an SQL backup before migration.
 
-###Launch migration
+### Launch migration
 Click the launch migration button to start the migration and follow the on screen instructions.
 
 ![](./assets/images/app_vmmig_ss5.png)

@@ -1,4 +1,4 @@
-#Group Products
+# Group Products
 
 This app allows store owner to combine the products and sell it as one group product. When grouping product, the app will allow only simple, configurable and downloadable product types without options. Product which are having options can't be added into the group.
 
@@ -10,7 +10,7 @@ This app allows store owner to combine the products and sell it as one group pro
 
 3. J2Store 3.2.x or above
 
-####Installation
+#### Installation
 
 1. Use the joomla installer ot install the app.
 
@@ -19,7 +19,7 @@ This app allows store owner to combine the products and sell it as one group pro
 
 3. Once enabled, you dont need to configure anything in the app. Just go to article manager and click new article.
 
-####Group Products
+#### Group Products
 
 1. Once you enabled the app, you can see **Group Products** as one of the product types listed in the product type dropdown. Refer the picture below
  ![](./assets/images/groupproduct_02.png)
@@ -42,7 +42,7 @@ This app allows store owner to combine the products and sell it as one group pro
 
 ![](./assets/images/groupproduct_05.png)
 
-####Video Tutorial
+#### Video Tutorial
 
 You can watch the video tutorial for Group Product app by clicking the link below.
 [Click here to see the video](https://youtu.be/BNwL6AZ8eKA)

@@ -1,10 +1,10 @@
-#Upload file in checkout
+# Upload file in checkout
 
 Allow customers to upload one or more files during the order. The app will come in handy for store owners selling products like printed materials. The customer can upload an image or PDF to their order.
 
 The store owner can download it from the app's backend and manage all the uploaded files for an order.
 
-####Requirements
+#### Requirements
 
 * PHP 5.4 or higher
 
@@ -12,7 +12,7 @@ The store owner can download it from the app's backend and manage all the upload
 
 * J2store 3.2.x or above
 
-####Installation
+#### Installation
 
 1. Use the Joomla installer to install the app.
 
@@ -23,7 +23,7 @@ The store owner can download it from the app's backend and manage all the upload
 
 4. Once the app is enabled, open the app to configure the settings.
 
-####Configuration
+#### Configuration
 
 ***No of file field display***
 
@@ -34,11 +34,11 @@ The store owner can download it from the app's backend and manage all the upload
    Choose the place where the upload field should be displayed. You can choose either **Billing** or **Shipping**.
    ![](./assets/images/file_upload_01.png)
    
-####Manage uploaded files
+#### Manage uploaded files
 
 By clicking **Order File List** button on top of the app's settings page, you can find all the files uploaded by the customer. It displays the file name with the path where the file locates.
   ![](./assets/images/file_upload_02.png)
   
-####Frontend
+#### Frontend
 ![](./assets/images/file_upload_03.png)
 

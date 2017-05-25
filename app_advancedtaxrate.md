@@ -1,11 +1,12 @@
-#Advanced Tax Rate
+# Advanced Tax Rate
 The purpose of this app is to create the advanced tax rate. It will help you to set the tax rate for individual postal code.
-####Requirements
+
+#### Requirements
  * PHP 5.4 or higher
  * Joomla 3.3 or above
  * J2store 3.2.x or above
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the joomla installer to install the app.
 
@@ -15,7 +16,7 @@ The purpose of this app is to create the advanced tax rate. It will help you to 
 ![](./assets/images/advancetax_enable.png)
 4. Once the app is enabled, click an open to set the configuration for the app.
 
-####Configuration
+#### Configuration
 
 Once you opened the app, you will get the screen like below. Click **New** on top left.
 ![](./assets/images/advancetax_new.png)
@@ -31,7 +32,7 @@ Once you opened the app, you will get the screen like below. Click **New** on to
   Once saved, you will get the button named with **View taxrates**. Click on the button will show you the pop screen where you have to set tax rate for specific country,zone and postal code.
   ![](./assets/images/advancetax_viewtax.png)
   
-####Parameters in creating Tax rate
+#### Parameters in creating Tax rate
   **Country & Zone:** Choose the country and zone available from the dropdown list.
   
   **Postal code:** Tax will be added to the sub total when the customer's postal code matches the postal code added here.
@@ -47,7 +48,7 @@ Once you opened the app, you will get the screen like below. Click **New** on to
   
 **Note:** You can also choose import and export to import the tax and export the tax as CSV file.
   
-####Support
+#### Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 

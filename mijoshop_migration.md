@@ -1,4 +1,4 @@
-#Mijoshop Migration App for J2Store
+# Mijoshop Migration App for J2Store
 
 This app imports store data from Mijoshop to J2Store 3.x.
 
@@ -8,7 +8,7 @@ This app is compatible only with J2Store 3.x and Joomla 3.x.
 
 If you run mijoshop in a Joomla 2.5 then you may copy all the mijoshop tables to a Joomla 3 test site, install J2Store 3.x and install this migration app and start the migration process.
 
-####Requirements
+#### Requirements
 
 1. PHP 5.4 or higher
 
@@ -16,7 +16,7 @@ If you run mijoshop in a Joomla 2.5 then you may copy all the mijoshop tables to
 
 3. J2Store 3.1.10 or above
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the Joomla installer to install the app.
 
@@ -27,7 +27,7 @@ If you run mijoshop in a Joomla 2.5 then you may copy all the mijoshop tables to
 
 4. Once the app is enabled, click on Open to set the configuration for the app.
 
-####Migration
+#### Migration
 
 ```
 NOTE : Before starting migration, please set Error reporting to None in the Global configuration.

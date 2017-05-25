@@ -1,14 +1,14 @@
-#Add to User Group
+# Add to User Group
 
 The Purpose of this app is to add the users to the user group for selected order status and product selected groups.
 
-####Requirements
+#### Requirements
 
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the joomla installer to install the app.
 
@@ -19,7 +19,7 @@ The Purpose of this app is to add the users to the user group for selected order
 
 4. Once the app is enabled, click an open to select the order status.
 
-####Configuration
+#### Configuration
 
 **Order Status**
 

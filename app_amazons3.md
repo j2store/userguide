@@ -1,22 +1,22 @@
-#Amazon S3#
+# Amazon S3#
 
    Sell your files stored in Amazon S3 drive with J2Store Joomla eCommerce platform. The app enables you to connect your Amazon S3 bucket and sell the files securely.
 
 Never worry about your files being shared in the vastness of Internet. The app generates a temproary url which will expire within minutes (you can control its expiry from the app settings), thus effectively preventing direct access to your files. The download url is also well masked. The app is suitable for those selling PDFs, Images, Audio and Videos, Extensions, Apps and more.
    
-####Key Features
+#### Key Features
 
 * Sell any file stored in Amazon S3
 * Enables you to retrive the files from the Amazon S3 bucket remotely.
 * Generates a temproary url for the downlodable files, which expires within minutes
 * Allows you to control the expiry of the url from settings
    
-####Requirments####
+#### Requirments
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-####Installation Instructions
+#### Installation Instructions
 1. Use the Joomla installer to install the app.
 2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 ![](./assets/images/amazons3_enable.png)
@@ -24,7 +24,7 @@ Never worry about your files being shared in the vastness of Internet. The app g
 3. Click Enable in the Amazon S3 app.
 4. Once the app is enabled, click on Open to set the configuration for the app.
 
-####Parameters
+#### Parameters
 
 * ***API Access key***
 
@@ -89,6 +89,6 @@ Never worry about your files being shared in the vastness of Internet. The app g
 
 Save and close it
 
-####Video Tutorial
+#### Video Tutorial
 
 **[Here is the link](https://www.youtube.com/watch?v=Rh7tUtI7eMI)** to Amazon S3 video tutorial.

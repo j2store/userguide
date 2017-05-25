@@ -1,4 +1,4 @@
-#Gift Cards
+# Gift Cards
 
 Offer Gift Card purchase to your customers. Providing Gift cards widens your window of sales. With this plugin, Store Owners will be able to create and sell Gift cards. A gift card or cashcard is aumatically generated and sent as email.
 
@@ -68,6 +68,6 @@ A Customer purchases this gift card. A voucher is created for this order placed 
 
 The Store admin should  Enable Gift Vouchers under J2Store Setup > Configurations > Discount tab > Enable Gift Vouchers, set this to Yes. Save the configurations. Store starts accepting vouchers in the cart section. The customer can enter the voucher code in the cart section to redeem the gift card value. 
 
-####Video Tutorial
+#### Video Tutorial
 
 **[Here is the link](https://www.youtube.com/watch?v=g7epaBKOOuE)** to Gift certificate video tutorial.

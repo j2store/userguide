@@ -91,7 +91,7 @@ Import / Update **Simple, Configurable, Downloadable** product types using this 
 1. Before importing products by creating new csv file by your own, it is better to export the existing products and see how the file structure is. Click on **Export** button to export the products from J2Store > Catalog > Products in .csv format or .xsl format or .xlsx format.
 
 2. When importing new products via csv, you need minimum **visibility, product source, sku, price, title, catid, product_type** otherwise you can't create new products.
-    * **j2store_product_id** - You can leave this column empty. The product id will be updated automatically, after importing.
+    * **j2store_product_id** - For creating new product, you can leave this column empty. The product id will be updated automatically, after importing.
     * **product_source** - Choose your content source here. For example : com_content, com_k2.
     * **Visibility** - This is place to enable visible in storefront. Enter **1** to make this product visible in store front.
     * **SKU** - It is most required field. Without this the product cannot be imported or updated properly.

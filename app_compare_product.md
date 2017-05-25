@@ -1,14 +1,14 @@
-#Compare Product
+# Compare Product
 
 This app will add a product compare feature to your online store. It allows customers to add products to a list for comparison. Customers can view the products and compare their features in a neat table.
 
-####Requirements
+#### Requirements
 
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the joomla installer to install the app.
 
@@ -18,7 +18,7 @@ This app will add a product compare feature to your online store. It allows cust
 ![](./assets/images/compare_product_one.png)
 4. Once the app is enabled, click an open to setup the configuration.
 
-####Configuration
+#### Configuration
 
 * **Display in**
 
@@ -66,7 +66,7 @@ Please refer the below image. You can hide/show the following attributes.
 
   You can change the icon to be displayed after item added to compare.
   
-####Support
+#### Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 

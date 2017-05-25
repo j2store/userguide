@@ -1,4 +1,4 @@
-#Bulk discounts
+# Bulk discounts
 
 Encourage customers to purchase more by providing bulk discounts depending on the ordered quantity and on the specific product.
 
@@ -6,13 +6,13 @@ Bulk discounts can be defined at site-wide (globally), category wise or per prod
 
 You can also restrict the application of the discount depending on the customer groups.
 
-####Requirements
+#### Requirements
 
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-####Installation Instructions
+#### Installation Instructions
 
 1. Use the Joomla installer to install the app.
 
@@ -22,7 +22,7 @@ You can also restrict the application of the discount depending on the customer 
 
  ![](./assets/images/bulkdiscount_enable.png)
 
-####Parameters
+#### Parameters
 
 **Basic Settings**
 
@@ -73,7 +73,7 @@ You can also restrict the application of the discount depending on the customer 
      
  ![](./assets/images/bulkdiscount_global.png)
  
-####Bulk Discount for category
+#### Bulk Discount for category
 
 This app will allow you to set discount by category wise. Go to Content > Categories > Open the category(to which you want to set bulk discount) > Bulk Discount tab.
 
@@ -98,6 +98,6 @@ This app will allow you to set discount by category wise. Go to Content > Catego
      
 ![](./assets/images/bulk_discount_category.png)
  
-####Video tutorial
+#### Video tutorial
 
 **[Here is the link](https://www.youtube.com/watch?v=EGW0Ol5o3jA)** to bulk discount video tutorial.

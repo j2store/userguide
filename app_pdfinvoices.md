@@ -1,16 +1,16 @@
-#PDF Invoices
+# PDF Invoices
 Send a PDF invoice attached to the order notification email that is sent to the customer. The app dynamically generates PDF invoices and attaches it to the email. It uses the Invoice Templates feature for the PDF layout and content.
 
 The app uses DOMPDF library.
 
 You can download the DOMPDF library plugin and install it from here: https://bitbucket.org/j2store/plg_lib_dompdf/downloads/plg_library_dompdf.zip
 
-####App Requirements
+#### App Requirements
 1. J2Store 3.1.2 or later
 
 2. Joomla 3.3.x or later
 
-####DomPDF Requirements
+#### DomPDF Requirements
 
 1. PHP 5.0+ (5.3+ recommended)
 
@@ -18,11 +18,11 @@ You can download the DOMPDF library plugin and install it from here: https://bit
 
 3. GD extension
 
-####DomPDF Recommendations
+#### DomPDF Recommendations
 
 MBString extension: provides internationalization support. This extension is not enabled by default. Dompdf has limited internationalization support when this extension is not enabled. opcache (OPcache, XCache, APC, etc.): improves performance.
 
-####Installation
+#### Installation
 1. Download the DomPDF and install it using joomla installer.
 
 2. After installing DomPDF, download the PDF invoice app and install it using joomla installer.
@@ -35,7 +35,7 @@ MBString extension: provides internationalization support. This extension is not
 
 ![](./assets/images/pdfinvoice_enable.png)
 
-####Parameters
+#### Parameters
 
 * ***File Name prefix***
 
@@ -60,6 +60,6 @@ MBString extension: provides internationalization support. This extension is not
     
 ![](./assets/images/pdfinvoice.png)
 
-####Video tutorial
+#### Video tutorial
 
 **[Here is the link](https://www.youtube.com/watch?v=5KkqoN_P508)** to PDF invoice video tutorial.

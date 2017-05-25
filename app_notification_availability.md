@@ -1,8 +1,8 @@
-#Availability Notification
+# Availability Notification
 
 This app allows store owner to notify customer regarding stock availability. If product's stock goes to "OUT OF STOCK" then Notify Me button will be generated where customer can type his / her Email id and click Notify Me. So when product's stock becomes available, customer get an email notification.
 
-####Requirements
+#### Requirements
 
 1. PHP 5.4 or higher
 
@@ -10,7 +10,7 @@ This app allows store owner to notify customer regarding stock availability. If 
 
 3. J2Store 3.2.x or above
 
-####Installation
+#### Installation
 
 1. Use the joomla installer to install the app.
 
@@ -20,7 +20,7 @@ This app allows store owner to notify customer regarding stock availability. If 
 
 3. Once enabled, click open to setup the Basic Settings of the app.
 
-####Basic Settings
+#### Basic Settings
 
 **Delete Email after send email to customer ?**
 
@@ -38,7 +38,7 @@ It is the Email body section. Text entered here will be displayed in the Body of
 
 It is the Email subject section. Text entered here will be displayed as Subject of the email.
 
-####How to track the users?
+#### How to track the users?
 
 With this plugin, you can able to manage the users who are requesting Stock notification via Email.
 
@@ -47,7 +47,7 @@ On top of the app, you can see Manage user button. Click on that button to view 
 Refer the screens below
 ![](./assets/images/availability_notification_04.png)
 ![](./assets/images/availability_notification_05.png)
-####Frontend
+#### Frontend
 
 When Product's stock goes out of stock, you will get the screen like below
 
@@ -57,7 +57,7 @@ After sending email, you will get thank you message like below screen
 
 ![](./assets/images/availability_notification_02.png)
 
-####Support
+#### Support
 
 Still have questions? You can post in our support forum: http://j2store.org/forum/index.html
 
