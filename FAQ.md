@@ -1,4 +1,4 @@
-#Frequently Asked Questions
+# Frequently Asked Questions
 
 * **[Product Options not working or displaying option](#product_options_not_working)**
 * **[Vat not appears in check out](#vat_not_appears_in_checkout)**
@@ -14,14 +14,15 @@
 * **[Make the product name a link to administrator panel](#product_name_link)**
 * **[Remove image from orders and invoices while the image in cart remains based on the setting](#remove_image_invoice_email)**
 * **[Logo doesn't show on PDF emailed to customer](#logo_not_showing)**
-* **[Clicking on cart button redirecting to home and URL contains &AMP](#remove_ &amp)**
+* **[Clicking on cart button redirecting to home and URL contains "AMP"](#remove_ amp)**
 * **[Error: No shipping method was selected. Selection of a shipping method is mandatory](#checkout_shipping_error)**
 * **[Show/Hide Filters](#show_hide_filters)**
 * **[Re-order checkout fields](#reorder_checkout_fields)**
 * **[[WHY] payment options are not showing at checkout payment method step](#payment-options)**
 
 <a name="product_options_not_working" />
-####Product Options not working or displaying option
+#### Product Options not working or displaying option
+
 This problem may happen due to Jquery.
 Check your j2store basic settings tab in Joomla admin->J2store->setup->configuration.
 You might have set Load jQuery UI to only frontend.It should be always in Both frontend and backend.
@@ -29,12 +30,14 @@ You might have set Load jQuery UI to only frontend.It should be always in Both f
 **[Video tutorial](https://youtu.be/AA9cLYTuXZE)**
 
 <a name="vat_not_appears_in_checkout" />
-####Vat not appears in check out
+#### Vat not appears in check out
+
 In Configuration - Tax, tax is set to be applied on the shipping address
 In the tax profile, it is set to apply billing address.
 
 <a name="donation_plugin_empty" />
-####Donation plugin is empty.Why
+#### Donation plugin is empty.Why
+
 The donation app adds a Donation option type.
 So go to j2store - catalog - options
 Create an option. Choose the option type as donation
@@ -46,7 +49,8 @@ Search for the donation option you just created.
 Add it and save.
 
 <a name="multiplestores_differentnotification_depending_oncategory" />
-####Multiple stores / different notification receiver depending on category
+#### Multiple stores / different notification receiver depending on category
+
 J2Store is a B2C solution where you can maintain only one store.
 It does not support multi-store system. 
 As a result, when an order is placed, all the store administrators will be notified.
@@ -55,12 +59,14 @@ If you just want the email notifications to be controlled and made dependent on 
 then a custom app could be developed that will send email for the party concerned.
 
 <a name="new_line_character"></a>
-####New Line Characters (\r\n) in Checkout form
+#### New Line Characters (\r\n) in Checkout form
+
 Go to Joomla admin - J2Store - Configuration - Checkout Layout
 Click the Populate/re-set button and Save
 
 <a name="shipping_not_working"></a>
-####Shipping Not Working
+#### Shipping Not Working
+
 Make sure about two things
 1.Setting under J2Store > Configuration > Store > Weight Unit
 ![alt tag](./assets/images/faq_shipping.png)
@@ -74,7 +80,8 @@ For eg: In case the item has 829 grams, you have to configure a rate between 800
 ![](./assets/images/faqshipping_2.png)
 
 <a name="order_listed_without_payment"></a>
-####Why the order is listed in the backend even didnt make a payment? How to see the paid products?
+#### Why the order is listed in the backend even didnt make a payment? How to see the paid products?
+
 The purpose of the order status column is to differentiate between the new, paid, pending orders.
 If the order status is NEW, then no payment has been made.
 
@@ -92,14 +99,14 @@ So by looking at the order status, you can differentiate which orders are paid w
 There is a marketing opportunity as well. You can follow up with the unpaid customers and convert them.
 
 <a name="layout_problem"></a>
-####Grid layout not working/columns.Why?
+#### Grid layout not working/columns.Why?
 
 The issue seems to be the wrong sub-template. Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3. Save
 
 This should solve the issue. If it is already set to Bootstrap 3, then try to set it as Default.
 
 <a name="avoid_mouseover"></a>
-####Preview additional image after click
+#### Preview additional image after click
 
 copy /components/com_j2store/templates/default/view_images.php
 
@@ -111,13 +118,13 @@ edit the file and remove the highlighted line fully.
 ![](./assets/images/previewimage.png)
 
 <a name="remove_thumbnail"></a>
-####Remove Thumbnail image
+#### Remove Thumbnail image
 * Goto Extensions -> Plugins -> select the type content. You can find        Content_J2Store plugin.
 * Open the plugin and goto the Item view tab.
 * Set Display image to No.
 
 <a name="text_after_tax"></a>
-####How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?
+#### How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page?
 
 ##### Step-1 Enable tax information to be displayed on product page
 
@@ -162,7 +169,7 @@ Here is how it looks in the front end
 ![](./assets/images/front_end_display.png)
 
 <a name="product_name_link"></a>
-####Make the product name a link to administrator panel
+#### Make the product name a link to administrator panel
 
 Copy from /components/com_j2store/views/myprofile/tmpl/ordersummary.php
 
@@ -187,7 +194,7 @@ change this with
 <a target="_blank" href="index.php?option=com_content&task=article.edit&id=<?php echo $product->product_source_id; ?>"><?php echo $item->orderitem_name; ?></a>
 ```
 <a name="remove_image_invoice_email"></a>
-####Remove image from orders and invoices while the image in cart remains based on the setting
+#### Remove image from orders and invoices while the image in cart remains based on the setting
 
 You may create a template override for the below file
 
@@ -208,7 +215,7 @@ Now edit the file and remove the following chunk of code,(around line no 68)
 						<?php endif; ?>
 ```
 <a name="logo_not_showing"></a>
-####Logo doesn't show on PDF emailed to customer
+#### Logo doesn't show on PDF emailed to customer
 
 Sometimes you might have added the image of your company logo in your invoice template but it will not display.
 
@@ -221,8 +228,8 @@ Sometimes you might have added the image of your company logo in your invoice te
 ```
 * Dont close the toggle editor when saving.
 
-<a name="remove_ &amp"></a>
-####Clicking on cart button redirecting to home and URL contains &AMP
+<a name="remove_ amp"></a>
+#### Clicking on cart button redirecting to home and URL contains &AMP
 
 **SOLUTION:**
 
@@ -234,7 +241,7 @@ Sometimes you might have added the image of your company logo in your invoice te
 Save.
 
 <a name=checkout_shipping_error></a>
-####Error: No shipping method was selected. Selection of a shipping method is mandatory
+#### Error: No shipping method was selected. Selection of a shipping method is mandatory
 
 **SOLUTION:**
 
@@ -245,7 +252,7 @@ Save.
 * Please make sure before choosing YES to this option you must enable and configure shipping methods. Otherwise it will display the error as **No shipping method was selected. Selection of a shipping method is mandatory** and prevent customers from placing order.
 
 <a name="show_hide_filters"></a>
-####Show/Hide Filters
+#### Show/Hide Filters
 
 Go to menu manager and open the menu which links to J2store > Product List View. You can find the filter settings in Item view options in category listings.
 
@@ -273,7 +280,7 @@ Please refer the below image which shows the name of the filters.
 ![](./assets/images/product_list_view_11.png)
 
 <a name="reorder_checkout_fields"></a>
-####Re-order checkout fields
+#### Re-order checkout fields
 
 Go to J2Store > Configuration > Checkout Layout where you can find the fields for both checkout billing address layout and checkout shipping address layout.
 
@@ -292,3 +299,11 @@ Open the payment methods you are using.
 And make sure the Geozone field is set to All
 
 And make sure your order total (cart total ) is above zero. If it is zero, payment methods wont be necessary at the checkout.
+
+#### How to allow customers to see only paid orders?
+
+Go to J2Store -> Configuration -> Orders
+Choose the statuses and save.
+Now customers will only be able to see the orders that has the selected statuses.
+
+For example, if you selected Confirmed status alone, then only orders that has the confirmed status will show up.

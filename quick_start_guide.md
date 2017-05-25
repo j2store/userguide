@@ -1,17 +1,17 @@
-#J2store Quick Start Guide
+# J2store Quick Start Guide
 
 Here is the quickstart guide for setting up an online store with Joomla and J2store.
 
 The guide with screenshots walks you step-by-step to set up your Joomla shop within minutes.
 
-##Download, Installation, Configuration of J2store
+## Download, Installation, Configuration of J2store
 
-####Download
+#### Download
 
 Download your J2store Component Package from our J2store official website.
 Login into the J2store and go to My downloads tab where you can download the J2store package.
  
-####Installation
+#### Installation
 
 Use the Joomla installer to install the J2store package.
 
@@ -22,7 +22,7 @@ Use the Joomla installer to install the J2store package.
 3. Click Upload & Install.
 ![](./assets/images/j2store_install.png)
 
-####Configuration
+#### Configuration
 
 1. Once installed, you will get J2store in the Joomla component list and also separate J2store tab in Joomla backend.
 ![](./assets/images/j2store_component.png)
@@ -32,7 +32,7 @@ Use the Joomla installer to install the J2store package.
 3. Fill all the fields in the basic settings and click Save & Proceed.
 ![](./assets/images/j2store_basic_settings.png)
 
-##Creating Product
+## Creating Product
 
 1. Since J2Store uses the default Joomla articles as its products, it lets you use native content as product.
 
@@ -47,7 +47,7 @@ Use the Joomla installer to install the J2store package.
 5. After saving, again go to J2store cart tab. Now you can see the options to add image for product, set prices, add filters / Tax / Shipping.
 ![](./assets/images/j2store_product_settings.png)
 
-##Display Product
+## Display Product
 
 It is very easy and flexible to display the product in frontend via menu. Please follow the procedure given below.
 
@@ -66,7 +66,7 @@ It is very easy and flexible to display the product in frontend via menu. Please
    
    **Item view options:** Here you can choose which are the things should be displayed in product view page.
 
-##Frontend
+## Frontend
 
 Now Go to frontend of your site and check.
 
