@@ -20,7 +20,7 @@
 * **[Re-order checkout fields](#reorder_checkout_fields)**
 * **[[WHY] payment options are not showing at checkout payment method step](#payment-options)**
 
-<a name="product_options_not_working" />
+<a name="product_options_not_working"></a>
 #### Product Options not working or displaying option
 
 This problem may happen due to Jquery.
@@ -29,13 +29,13 @@ You might have set Load jQuery UI to only frontend.It should be always in Both f
 
 **[Video tutorial](https://youtu.be/AA9cLYTuXZE)**
 
-<a name="vat_not_appears_in_checkout" />
+<a name="vat_not_appears_in_checkout"></a>
 #### Vat not appears in check out
 
 In Configuration - Tax, tax is set to be applied on the shipping address
 In the tax profile, it is set to apply billing address.
 
-<a name="donation_plugin_empty" />
+<a name="donation_plugin_empty"></a>
 #### Donation plugin is empty.Why
 
 The donation app adds a Donation option type.
@@ -48,7 +48,7 @@ go to J2Store Cart - Options
 Search for the donation option you just created.
 Add it and save.
 
-<a name="multiplestores_differentnotification_depending_oncategory" />
+<a name="multiplestores_differentnotification_depending_oncategory"></a>
 #### Multiple stores / different notification receiver depending on category
 
 J2Store is a B2C solution where you can maintain only one store.
@@ -280,7 +280,7 @@ Please refer the below image which shows the name of the filters.
 ![](./assets/images/product_list_view_11.png)
 
 <a name="reorder_checkout_fields"></a>
-#### Re-order checkout fields
+####Re-order checkout fields
 
 Go to J2Store > Configuration > Checkout Layout where you can find the fields for both checkout billing address layout and checkout shipping address layout.
 
