@@ -1,8 +1,8 @@
-#Report Sales
+# Report Sales
 
 Report Sales plugin allows store owner to prepare or present a document containing order information based on payment type, customer name, coupon code, manufacturer, vendor, order status, shipping method, post code and Tax number.
 
-####Configuration
+#### Configuration
 
 Once you installed the plugin using joomla installer, go to J2Store Dashboard > Reporting > Reports.
 
@@ -16,7 +16,7 @@ Choose all the fields to be displayed **except ALL**.
 
 Save and close.
 
-####Sales Report
+#### Sales Report
 
 With this plugin, you can use filter to sort the orders. For example, choosing any one of the payment methods will display the orders which have been placed using the payment method you have chosen in the filter.
 

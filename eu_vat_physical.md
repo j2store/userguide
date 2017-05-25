@@ -1,4 +1,4 @@
-#Setting up European VAT rules for selling physical goods with J2Store
+# Setting up European VAT rules for selling physical goods with J2Store
 
 * [The VAT rules are:](#vat_rules)
 * [Implementing VAT rules in J2Store](#implement_vat_rules)
@@ -13,7 +13,7 @@ Setting up the European VAT system in J2Store is relatively easy.  We have creat
 This guide walks you through the tax configuration for EU.
 <a name="vat_rules"></a>
 
-##The VAT rules are:
+## The VAT rules are:
 
 * Home country's residents & businesses are charged VAT (Home country's rate. That is, the rate defined by you in the Tax Profile)
 
@@ -24,7 +24,7 @@ This guide walks you through the tax configuration for EU.
 * Non EU residents & businesses are charged 0% VAT
 <a name="implement_vat_rules"></a>
 
-##Implementing VAT rules in J2Store
+## Implementing VAT rules in J2Store
 
 We have created a VAT plugin that helps you implement the VAT rules automatically.
 Download and install the plugin from here:
@@ -34,7 +34,7 @@ Let us assume that your company is located in : United Kingdom, Bristol
 And your home country (local ) VAT is 21 %
 <a name="store_profile"></a>
 
-###Store Profile
+### Store Profile
 
 Go to Joomla admin – J2Store – Set up – Configuration - > Store tab.
 
@@ -42,7 +42,7 @@ Set the Default Country to United Kingdom
 Set your Default Zone to Bristol
 <a name="geozone"></a>
 
-###Geozone
+### Geozone
 Go to Joomla admin – J2Store – Localisation – Geozones – New
     
 Geozone Name : VAT Zone ( It can be anything. It is used just as reference )
@@ -60,7 +60,7 @@ Choose United Kingdom from the Dropdown list and add it
 
    Save and close
 
-###Tax rate
+### Tax rate
 <a name="tax_rate"></a>
 
 Go to Joomla admin – J2Store – Localisation – Tax Rates – New
@@ -71,7 +71,7 @@ Geozone     :  VAT Zone
 Status     : Published
 <a name="setting_tex_profile"></a>
 
-###Setting up the tax profile
+### Setting up the tax profile
 
 It is sufficient to set up ONE tax profile
 
@@ -88,7 +88,7 @@ State            : Published
 Save.
 <a name="apply_tax_product"></a>
 
-##Applying tax profile to a product
+## Applying tax profile to a product
 
 J2Store uses native Joomla articles as products. So go ahead and create a product.
 

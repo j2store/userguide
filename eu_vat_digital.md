@@ -20,7 +20,7 @@ If you are a seller of digital goods and services, you would probably wondering 
 Since the rules are a bit of pain, we have come up with a simplified guide which will help you implement the new rules easily in your J2Store joomla shopping cart.
 
 <a name="new_vat_rule"></a>
-##The New VAT rules
+## The New VAT rules
 
 In simple terms, the new VAT rules are:
 
@@ -35,10 +35,10 @@ In simple terms, the new VAT rules are:
 * if the company sells digital goods to companies or individuals in their own country, local VAT needs to be charged.
 <a name="implement_vat_rule"></a>
 
-##Implementing VAT rules in J2Store
+## Implementing VAT rules in J2Store
 <a name="eu_vat_plugin"></a>
 
-###EU VAT plugin
+### EU VAT plugin
 
 We have created a VAT plugin that helps you implement the VAT rules automatically.
 Download and install the plugin from here:
@@ -47,7 +47,7 @@ Download and install the plugin from here:
 Then go to Joomla admin -> Plugin Manager and Enable the EU VAT plugin
 <a name="implementation"></a>
 
-###Implementation
+### Implementation
 
 >Let us assume that your company is located in : United Kingdom, Bristol
 And your home country (local ) VAT is 21 %
@@ -156,26 +156,26 @@ In J2Store Tab → Item Tax , Choose Digital Goods Tax Profile.
 Fill in other relevant fields for your product and save.
 <a name="application_vat_example"></a>
 
-##Application of VAT rules with Examples:
+## Application of VAT rules with Examples:
 
 Now we have successfully configured the tax rules in J2Store. Let us see how they will get applied for different scenarios
 <a name="ex_1"></a>
 
-###Example 1: Buyer  ( can be an INDIVIDUAL or company ) from the same country (Home country )
+### Example 1: Buyer  ( can be an INDIVIDUAL or company ) from the same country (Home country )
 
 ![vat order same country](./assets/images/vat_order_same_country.png)
 
 Our shop is located in United Kingdom. And the buyer is from the same country. So local tax of 21 percent applies.
 <a name="ex_2"></a>
 
-###Example 2: Buyer ( INDIVIDUAL ) from a different EU country (Germany )
+### Example 2: Buyer ( INDIVIDUAL ) from a different EU country (Germany )
 
 ![vat order individual eu](./assets/images/vat_order_individual_eu.png)
 
 The buyer is from Germany and he is an Individual customer. So we are charging him the Germany's VAT rate of 25 %
 <a name="ex_3"></a>
  
-###Example 3: Buyer ( COMPANY ) from a different EU country WITHOUT a valid VAT Number
+### Example 3: Buyer ( COMPANY ) from a different EU country WITHOUT a valid VAT Number
 
 ![vat order invalid vat](./assets/images/vat_order_invalid_vat.png)
 
@@ -184,7 +184,7 @@ The customer is from Germany. He has entered a company name. But his VAT number 
 (the EU VAT plugin validates the VAT number provided against the EU database )
 <a name="ex_4"></a>
 
-###Example 4: Buyer ( COMPANY ) from a different EU country WITH a valid VAT Number
+### Example 4: Buyer ( COMPANY ) from a different EU country WITH a valid VAT Number
 
 ![vat order valid vat](./assets/images/vat_order_valid_vat.png)
 
