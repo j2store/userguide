@@ -89,7 +89,7 @@ It specifies the page size for PDF labels. The value entered here will be applie
 
 It specifies the print layout for label.
 
-![label-settings](./assets/images/stamp-basic.png)
+![label-settings](./assets/images/stamp-label.png)
 
 <a name="common-settings"></a>
 #### Common settings
@@ -124,7 +124,7 @@ Enter your contact number here.
 
 Choose weight and Length unit here.
 
-![common-settings](./assets/images/stamp-basic.png)
+![common-settings](./assets/images/stamp-common.png)
 
 <a name="print-labels"></a>
 ### How to Print shipping labels ?
