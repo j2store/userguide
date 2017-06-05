@@ -116,6 +116,6 @@ Requesting and printing shipping labels is done from the backend order history p
 4. **Print label**
 ![](./assets/images/ups-label-4.png)
 
-### Sample label
+### Sample Lable
 
-![](./assets/images/ups-label-sample.png)
+![](./assets/images/ups-label-sample.png){: width: 450px}
