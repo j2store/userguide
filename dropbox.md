@@ -55,18 +55,8 @@ You can use the app's settings to choose whether to send a temporary url or perm
 4. Once app is enabled, click open to setup the Basic settings of the app.
 ![](./assets/images/dropbox_10.png)
 
-#### Basic Settings
 
-**Folder Name:** Enter the name of the folder. The folder will be created(with the name entered here) in the path which you have entered in the J2Store configuration. All the files stored in your dropbox account will be fetched and stored in this folder.
-![](./assets/images/dropbox_07.png)
-**Access Token:** Enter the valid access token for your account provided by Dropbox.
-
-**Dropbox Key:** Enter the valid app key associated with your dropbox account.
-
-**Dropbox secret key:** Enter the valid app secret key associated with your dropbox account.
-![](./assets/images/dropbox_008.png)
-
-####How to Generate access token, key and secret key?
+#### How to Generate access token, key and secret key?
 
 **Step-1:** Go to https://www.dropbox.com/developers/apps and login using your dropbox account. After logging in, you wil be having the page with Create app. Click on the Create app button.
 ![](./assets/images/dropbox_01.png)
@@ -93,6 +83,17 @@ You get full access to all the files and folders in a Dropbox.
 ![](./assets/images/dropbox_06.png)
 
 **Step-5:** Copy all the credentials in your notepad and paste it in the J2Store's dropbox app basic settings.
+
+#### Basic Settings
+
+**Folder Name:** Enter the name of the folder. The folder will be created(with the name entered here) in the path which you have entered in the J2Store configuration. All the files stored in your dropbox account will be fetched and stored in this folder.
+![](./assets/images/dropbox_07.png)
+**Access Token:** Enter the valid access token for your account provided by Dropbox.
+
+**Dropbox Key:** Enter the valid app key associated with your dropbox account.
+
+**Dropbox secret key:** Enter the valid app secret key associated with your dropbox account.
+![](./assets/images/dropbox_008.png)
 
 #### Choosing files in creating digital product
 
