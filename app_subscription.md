@@ -67,6 +67,10 @@ Send automatic emails to the customers when the subscription is created, when a 
 
 3. Mollie payment plugin
 
+4. Authorize.net CIM
+
+5. BrainTree
+
 <a name="known-limitations"></a>
 ##### Known limitations
 
