@@ -34,10 +34,26 @@ The store owner can download it from the app's backend and manage all the upload
    Choose the place where the upload field should be displayed. You can choose either **Billing** or **Shipping**.
    ![](./assets/images/file_upload_01.png)
    
+***Display upload file field after?***
+
+   The upload file field will be displayed after the checkout fields selected here. For example, if you choose Last name, the field will appear after the field Last name.
+   
+***Upload file types***
+
+Add your file format types here. If you don't have any file formats added here, the app will not allow you to upload the file in that format. For example, if you would like to upload the file in .pdf, make sure that you have added this format in this field.
+   
 #### Manage uploaded files
 
 By clicking **Order File List** button on top of the app's settings page, you can find all the files uploaded by the customer. It displays the file name with the path where the file locates.
   ![](./assets/images/file_upload_02.png)
+  
+#### Shortcodes
+
+Below shortcodes helps you to notify customer that he / she has attached file in this order.
+
+1. **[ORDERFILE_NOTIFY]** - This shortcode will display just the message or information saying that order contains file attachment.
+
+2. **[ORDERFILE_LIST]** - This shortcode allows you to include download link in email. Use this shortcode in your email template so when customer receives order email, he/she can see the link to download the file that was uploaded.
   
 #### Frontend
 ![](./assets/images/file_upload_03.png)
