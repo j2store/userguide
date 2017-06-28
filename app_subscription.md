@@ -170,7 +170,7 @@ Lets see an example for single term subscription. For example, consider you are 
 > There should be minimum 15 minutes interval between each cron job.
 
 ![](./assets/images/subscription-cron.png)
-![](./assets/images/subscription-cron-common-settings.png)
+![](./assets/images/subscription-cron-once-hour.png)
 
 **Cron url**
 
