@@ -165,6 +165,13 @@ Lets see an example for single term subscription. For example, consider you are 
 
 > For renewing subscriptions you should run cron job atleast every day.
 
+> The cron job must run once an hour. While setting cron job, choose Once Per Hour under the common settings.
+
+> There should be minimum 15 minutes interval between each cron job.
+
+![](./assets/images/subscription-cron.png)
+![](./assets/images/subscription-cron-common-settings.png)
+
 **Cron url**
 
 ```
