@@ -15,7 +15,7 @@ This is shipping plugin which is available in J2Store by default. It has seven s
     
     
 <a name="flat_rate_per_order"></a>
-##Flat rate per order
+## Flat rate per order
 
 
 A fixed rate will be charged for every order. For e.g., if the shipping cost is levied at $ 50.00 for every order, then the shipping cost is set to $ 0.00. This type of shipping can be termed as Store Pickup Method or Free Shipping Method.
@@ -38,7 +38,7 @@ Finally, set the minimum and maximum subtotals that are required for availing th
 **[Check the video here](https://www.j2store.org/support/video-tutorials/flat-rate-per-order.html)**
  
  <a name="quantity_based_per_order"></a>
-##Quantity based per order
+## Quantity based per order
  
 The total number of products that are to be shipped will determine the shipping cost. For e.g., the shipping cost will be $ 20.00 per order if the total number of products is up to 5 and $ 25.00 per order if the total number of products is from 6 upto 10.
 
@@ -52,7 +52,7 @@ And make sure to **Enable** this shipping type to be available for shipping sele
 **[Check the video here](https://www.j2store.org/support/video-tutorials/quantity-based-per-order.html)**
  
  <a name="weight_based_per_order"></a>
-##Weight based per order
+## Weight based per order
 
 This type of shipping is calculating the cost based on the total weight of the order items. If a cost of $ 10.00 is charged for weights upto 50 Kilograms, and $ 20.00 is charged for total weights between 51 and 100 Kilograms, then an order having a total weight of 70 kilograms will attract a shipping cost of $ 20.00.
 
@@ -64,38 +64,13 @@ As in the previous shipping methods, you need to give a **Shipping Method Name**
 
 And that's it.
 **[Check the video here](https://www.j2store.org/support/video-tutorials/weight-based-per-order.html)**
- 
- <a name="price_based_per_order"></a>
-##Price based per order
+```
+In the standard shipping methods, no weight conversions are made.
 
-The shipping cost in this type of method is calculated with price of the individual items. Some price range may be set for cost calculation and it will be followed.
-
-Say for example, if a product or item falls under the price range of $ 100 to 1000, a shipping cost of $ 50.00 may be charged and if the item falls under the range of $ 1001 to $ 2000, the shipping cost may be fixed at $ 40.00 and so on.
-
-**[Check the video here](https://www.j2store.org/support/video-tutorials/price-based-per-order.html)**
-
-For configuration of this shipping method, refer the image below.
-
-![Price per item](./assets/images/price_per_item.png)
-
-
- <a name="flat_rate_per_item"></a>
-##Flat rate per item
-
-This method of shipping charges a flat shipping for every item, irrespective of the price or weight or any other attribute of the item. For e.g., the price of an item may $ 100 or $ 1000, $ 20.00 will be its shipping cost. Then it will be multiplied with the total number of products i.e., if the total number of products purchased is 10 nos, then shipping cost will be $ 20.00 X 10 which is $ 200.00.
-
-N.B.: In this type, only one rate can be configured per geozone and weight will not be considered for shipping cost.
-
-Consider the image below:
-![Flat rate per item](./assets/images/flat_per_item.png)
-
-Enter the necessary details as in other shipping methods, and enable the method to be listed in shipping types.
-
-For this shipping method, you need to select **Flat rate per item** in shipping options type list.
- 
- 
-   
- <a name="weight_based_per_item"></a>
+- Always make sure that you enter the weight of the products in grams (or in kg).Please do not mix.
+- In the Weight based per order -> Set rates, make sure the ranges are in Grams (or KG if all your product weight is set in kg).
+```
+<a name="weight_based_per_item"></a>
 ## Weight based per item
 
 In this type of shipping method, the shipping cost calculation based on the weight of every item that is added to the cart.
@@ -121,6 +96,38 @@ Enter all the values necessary as in other shipping methods, as shown in the ima
 Select the shipping type to be '**Weight based per item**' for this item to be listed in the shipping methods.
 
 **[Check the video here](https://www.j2store.org/support/video-tutorials/weight-based-per-item.html)**
+ 
+ <a name="price_based_per_order"></a>
+## Price based per order
+
+The shipping cost in this type of method is calculated with price of the individual items. Some price range may be set for cost calculation and it will be followed.
+
+Say for example, if a product or item falls under the price range of $ 100 to 1000, a shipping cost of $ 50.00 may be charged and if the item falls under the range of $ 1001 to $ 2000, the shipping cost may be fixed at $ 40.00 and so on.
+
+**[Check the video here](https://www.j2store.org/support/video-tutorials/price-based-per-order.html)**
+
+For configuration of this shipping method, refer the image below.
+
+![Price per item](./assets/images/price_per_item.png)
+
+
+ <a name="flat_rate_per_item"></a>
+## Flat rate per item
+
+This method of shipping charges a flat shipping for every item, irrespective of the price or weight or any other attribute of the item. For e.g., the price of an item may $ 100 or $ 1000, $ 20.00 will be its shipping cost. Then it will be multiplied with the total number of products i.e., if the total number of products purchased is 10 nos, then shipping cost will be $ 20.00 X 10 which is $ 200.00.
+
+N.B.: In this type, only one rate can be configured per geozone and weight will not be considered for shipping cost.
+
+Consider the image below:
+![Flat rate per item](./assets/images/flat_per_item.png)
+
+Enter the necessary details as in other shipping methods, and enable the method to be listed in shipping types.
+
+For this shipping method, you need to select **Flat rate per item** in shipping options type list.
+ 
+ 
+   
+ 
     
  <a name="price_based_per_item"></a>
 ## Price based per item
@@ -134,8 +141,6 @@ Say for example, if a product or item falls under the price range of $ 100 to 10
 For configuration of this shipping method, refer the image below.
 
 ![Price per item](./assets/images/price_per_item.png)
-
-
 
 ### Help screen shots  
 See the image below:
