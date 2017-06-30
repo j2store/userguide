@@ -91,6 +91,20 @@ If you want to remove that, you can do it by clicking the **Remove** button.
 * **Manage Stock** - To enable Stock Management - Select **Yes**
 * **Stock Quantity** - Enter the initial stock quantity
 * **Allow Backorders** - Choose from the options whether or not to allow backorders to customers, i.e., the customer can order a product even if there is no stock
+    * **Allow but notify customers** - The second option would allow customer to purchase a product even if it is not in stock.
+A message will appear (a notification) before the price stating that: This item can be backordered
+![](./assets/images/backorder-notify.png)
+
+This comes from the language file.
+The constant is: J2STORE_BACKORDER_NOTIFICATION
+
+You can write a language override for this constant and display a customized message.
+
+NOTE: This notification will display if:
+- Stock is 0
+
+This option is for those who sell fast moving products. So even if a product stock reaches 0, the customers could still order.
+
 * **Stock Status** - Select stock status i.e., **In stock** or **Out of stock**
 * **Notify if stock goes below** - Set minimum stock level for low stock alert
 * **Quantity Restriction** - Choose whether purchase quantity is restricted and if Yes, set the limits for minimum and maximum quantity for a purchase by entering the quantities in the fields provided
