@@ -11,6 +11,8 @@ If you are using **PayPal as your payment method** for your subscription product
 * **[Quickstart](#quickstart)**
     * **[How to create a recurring subscription plan ?](#recurring)**
     * **[How to create a non-recurring (single term) subscription plan?](#non-recurring)**
+    * **[Creating 3 months subscription plan](#three-months-plan)**
+    * **[Creating 6 months subscription plan](#six-months-plan)**
 * **[Basic Settings](#basic-settings)**
 * **[Creating simple subscription product](#simple-subscription)**
 * **[Creating variable subscription product](#variable-subscription)**
@@ -70,6 +72,8 @@ Send automatic emails to the customers when the subscription is created, when a 
 4. Authorize.net CIM
 
 5. BrainTree
+
+6. Squareup Payments
 
 <a name="known-limitations"></a>
 ##### Known limitations
@@ -159,6 +163,28 @@ Lets see an example for single term subscription. For example, consider you are 
 5. Choose your usergroups and save.
 
 ![](./assets/images/non-recurring.png)
+
+<a name="three-months-plan"></a>
+#### Creating 3 months subscription plan
+
+Refer below screen shots for setting non-recurring 3 months subscription plan
+
+##### Choosing duration
+![](./assets/images/3-months-subs-duration.png)
+
+##### On frontend
+![](./assets/images/3-months-subs-plan.png)
+
+<a name="six-months-plan"></a>
+#### Creating 6 months subbscription plan
+
+Refer below screen shots for setting non-recurring 6 months subscription plan
+
+##### Choosing duration
+![](./assets/images/6-months-subs-duration.png)
+
+##### On frontend
+![](./assets/images/6-months-subs-plan.png)
 
 <a name="basic-settings"></a>
 ### Basic settings
