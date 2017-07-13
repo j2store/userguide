@@ -1,4 +1,4 @@
-#JComments
+# JComments
 
 Get comments and reviews from usrers through this app.This app could be used to receive user comments for the products.All you have to do is just install and configure this app.
 
