@@ -19,7 +19,10 @@ If you are using **PayPal as your payment method** for your subscription product
 * **[Pricing](#pricing)**
 * **[Frontend Demo](#demo)**
 * **[PayPal Reference Transactions for Subscriptions](#payment-susbcription)**
-* **[How to write template override for subscription emails](#tpl-override-emails)**
+* **[Troubelshooting](#troubleshooting)**
+   * **[How to write template override for subscription emails](#tpl-override-emails)**
+   * **[How to edit subscription from backend?](#edit-subscription)**
+   * **[How to cancel subscription ?](#cancel-subscription)**
 
 <a name="introduction"></a>
 ### Introduction
@@ -211,6 +214,38 @@ Don't know how to set cron job ? **[Click here](https://www.j2store.org/support/
 
 Enter the number of days to send the remember mail to customer for notifying that their subscription will be going to end. For example, 2. So the mail will be sent before 2nd day to expire.
 
+### Display settings
+
+***Show Duration***
+
+This option allows you to show / hide duration displaying below the product price.
+
+***Show recurring total***
+
+Setting **NO** to this option will hide displaying recurring total column from the cart total table.
+
+***Show non recurring total***
+
+This option helps you to show / hide non recurring total displaying in cart page.
+
+***Show renewal date***
+
+If you would like to not show the next renewal date to users, just set this option NO.
+
+***Renewal date format***
+
+This is the text box allows you to change the format of renewal date displaying in  item table.
+
+***Show renew button***
+
+This option is used to show / hide renew button on profile page > Subscription tab.
+
+### Renewal settings
+
+***Renewal discount***
+
+If you would like to give customers a discount for renewing subscription, then enter your discount value in percent in this text box. The discount value applied in this text box will be applied to all subscription products.
+
 ### How to create Subscriptions based products?
 
 <a name="simple-subscription"></a>
@@ -259,13 +294,17 @@ Go to J2Store > Catalog > Options and create a option "Subscription period" and 
 
 - **Subscription price :** Enter the membership price (for example, $29) based on either daily or weekly or monthly or yearly basis.
 
-- **Subscription length :** The duration will be listed based on the recurring method you selected above.  For example, if your subscription product's duration period is only for 3 months, Choose 3 months. So the subscription will end at the  end of 3rd month.
+   For example, if you would like to give subscription price $29 for only 3 months, then enter $29 in the first text box and then choose **every 3rd** from the dropdown list and then choose **month** from third dropdown list.
+
+- **Subscription length :** The subscription length duration will be listed based on the recurring period you selected above.  For example, if your subscription product's duration period is only for 3 months, Choose 3 months. So the subscription will end at the  end of 3rd month.
 
   If you would like to give a life time price for your subscription product (i.e.) wants to collect $29 at the end of every 3 months for lifetime, choose **Never Expire** to Subscription length. So $29 for every 3rd month for lifetime.
 
 - **Add / Remove user groups :** Users will be added and removed from the Joomla user groups when their subscription to the level is enabled or disabled.
 
 - **Sign-up fee :** This app allows you to collect one time set up fee or sign up fee from your customers. Enter your sign up fee here. For example, $5 or $10.
+
+- **Renewal discount :** If you wants to give the same discount to the customer during renewals. Checking this checkbox will override any renewal discount set globally in the app settings.
 
 - **Set Advanced Pricing :** If you want advanced pricing, click the 'Set Prices' button and it will open up a pop-up window to allow you to set an advanced price setting.
 
@@ -359,6 +398,9 @@ Some things that store owners have mentioned PayPal require are:
 
 In terms of revenue forecasts, we have had reports that UK based PayPal accounts may require minimum forecast of £6,000 month or more revenue.
 
+<a name="troubleshooting"></a>
+### Troubelshooting
+
 <a name="tpl-override-emails"></a>
 ### How to write template override for subscription emails
 
@@ -372,3 +414,56 @@ Now edit
 /templates/YOUR-SITE-TEMPLATE/html/plugins/j2store/app_subscriptionproduct/notify_expire.php
 
 Make changes and save.
+
+<a name="edit-subscription"></a>
+### How to edit subscription from backend?
+
+Sometimes you may want to change renewal date or next renewal amount. To do this, you will have to edit the subscription from backend. Follow below steps to edit the subscription from backend:
+
+1. Go to J2Store > Sales > Orders
+
+2. Edit the order and open order history page
+
+3. You will see the Subscription table. Click on Subscription id (for example, 5) to edit the subscription.
+
+4. On subscription page, you will see green colored panel where you could see the **Edit** button.
+
+5. Click on this edit button to edit / change renewal price, recurring period, next renewal date.
+
+![](./assets/images/edit-subs.png)
+![](./assets/images/edit-subs-1.png)
+![](./assets/images/edit-subs-3.png)
+
+<a name="cancel-subscription"></a>
+### How to cancel subscription ?
+
+Cancelling subscription can be done by both store admin as well as subscriber.
+
+#### Cancelling subscription by subscriber
+
+* On frontend order history page , move to subscription tab. You will see the **Cancel** button on last column (named "Actions") of the table.
+
+* Clicking on Cancel button will cancel the subscription.
+![](./assets/images/cancel-subsc-3.png)
+
+#### Cancelling subscription by store owner in two ways:
+
+**First way:**
+
+* Go to J2Store > Sales > Orders
+
+* Open / Edit your order.
+
+* You will see the subscription table. Click on Subscripiton id to cancel the subscripiton.
+
+* After clicking on subscription id, you will be getting subscription page. On this page, you will see the option to update status. Choose Canceled from dropdown list and click on **Update status** button. The subscription will be cancelled.
+![](./assets/images/cancel-subsc-1.png)
+
+**Second way:**
+
+* Go to J2Store > Apps and open Subscription Products app.
+
+* On top of the page, Click on **Subscriptions** button.
+
+* You will see the subscriptions list in a table. On the last column (Actions) of the table, choose the status **Canceled** and click on Update button. The subscription will be cancelled.
+![](./assets/images/cancel-subsc-2.png)
