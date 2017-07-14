@@ -15,15 +15,17 @@ You can install this shipping plugin, using joomla installer.
 3. Enable the plugin
 4. Configure the shipping plugin by entering the plugin parameters
 
-![](./assets/images/fedex-ship-install.png)
 ![](./assets/images/aus-ship-doc-1.png)
-![](./assets/images/fedex-ship-method-list)
-![](./assets/images/fedex-ship-config-1)
-![](./assets/images/fedex-ship-config-2)
+![](./assets/images/fedex-ship-method-list.png)
+![](./assets/images/fedex-ship-config-1.png)
+![](./assets/images/fedex-ship-config-2.png)
 
 
 ### Parameters
 Consider the images for setting up the parameters.
+
+**Here is the instructions for identifying Fedex credentials** (Authentication key and meter number).
+https://support.shippingeasy.com/hc/en-us/articles/203087899-How-do-I-find-my-FedEx-Meter-Number-
 
 ##### 1. Key
 This is a unique FedEx key required to login.
@@ -32,13 +34,10 @@ This is a unique FedEx key required to login.
 This is the password provided by FedEx and not your website login password.
 
 ##### 3. Account Number
-This is your FedEx account number. 
+This is your FedEx account number.
 
 ##### 4. Meter
 This is your meter number provided by FedEx.
-
-> Here is the instructions for identifying Fedex credentials (Authentication key and meter number).
-https://support.shippingeasy.com/hc/en-us/articles/203087899-How-do-I-find-my-FedEx-Meter-Number-
 
 ##### 5. Handling Cost
 If you need to charge a handling cost for the shipping, you can provide it here.
