@@ -30,7 +30,7 @@ This is the username you have used in web tools account. You have enter it here.
 ##### 2. Web Tools Password
 Enter the web tools account password here.
 
-Don't know how to get API credentails ? Please register here:
+**Don't know how to get API credentails ?** Please register here:
 https://www.usps.com/business/web-tools-apis/welcome.htm
 
 As soon as you register, USPS will send you an email with the API keys. You need to enter them in the plugin parameters.
