@@ -63,6 +63,18 @@ Some basic settings need to be done before you proceed. This will be handled by 
 
 Configure the address, administrator email and some defaults for your storefront
     
+* ***Security keys for queues and crons***
+
+    This security key can be used for execution of queue and cron jobs required by apps and plugins. This will ensure only legitimate requests are allowed and executed. The cron / queue requests without this key will be denied access.
+    
+    You could regenerate this key by clicking on Regenarate button.
+    
+    ![](./assets/images/config-queue-key.png)
+    
+* ***Maximum Queue repeat***
+
+    Set maximum queue repeat for Queue system.
+    
 * ***Store Administrator Email(s)***
 
     This is administrator's email and can have multiple emails, separated by comma. The order notification and payment validation errors will be sent to mail ids provided here.
@@ -311,6 +323,16 @@ Cart and checkout settings for your store.
 * ***Add to cart button class***
 
     This option is used to set the **CSS class** for the **add to cart** button.
+    
+* ***Empty cart redirect URL***
+
+    Choose the url where a customer should be taken when cart is empty.
+    
+    1. Cart view
+    
+    2. To a menu
+    
+    3. To a custom url
 
 * ***Product Thumbnail***
 
@@ -380,6 +402,8 @@ Check the image below for more clear understanding.
 
 ![](./assets/images/cart_new.png)
 
+* ***Clear cart older than***
+
 <a name="checkout_layout"></a>
 ## Checkout Layout
 
@@ -444,7 +468,7 @@ Likewise, in ***RBC-2015-S-000***, all are same and the extra 2015 may be added 
 Now the system generated invoice number, say 1, will be appended with this prefix, and will be displayed as **RBC/S/0001** in the invoice.
 
 For a better understanding, check the image below.
-![Order Configuration](./assets/images/order.png)
+![Order Configuration](./assets/images/config-order.png)
 
 * ***Show Link to Order History after payment***
     
@@ -462,6 +486,9 @@ For a better understanding, check the image below.
 
 	Set this to **SHOW** will display the product thumbnail image in email template.
 
+* ***Show Logout button in Myprofile***
+
+    This option is used to show / hide logout button in myprofile.
 
 <a name="update"></a>
 ## Update
@@ -477,7 +504,11 @@ This tab has a text input to enter the **Download ID** provided by **[J2Store](h
 
 This tab has a option to avoid sending default email template to customers and admin.
 
-In somecases, you will be like to send email template only to customers or vice versa. In this case, if there is no email template assigned to admin or to customer, the system will send a default email template. To avoid this, please choose **No. Do not use the default template to send a mail when no template matches my email template conditions (Not recommended)**
+In somecases, you will be like to send email template only to customers or vice versa. In this case, if there is no email template assigned to admin or to customer, the system will send a default email template. 
+
+To avoid this, please choose **No. Do not use the default template to send a mail when no template matches my email template conditions (Not recommended)**
+
+![](./assets/images/config-mail-template.png)
 	
 <a name="others"></a>
 ## Others
@@ -499,7 +530,11 @@ Misc. options for the store
 * ***Prepare content for Terms and Conditions and Thank you article?***
 
      Set this **YES** will parse the article content
+     
+* ***Enable falang support***
+
+    This option provides support for SEF URLs used in Falang translation component. Enable if you have installed Falang.
     
 Check the image below for a better idea.
 
-![Others](./assets/images/others.png)
+![Others](./assets/images/config-others.png)
