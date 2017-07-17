@@ -32,7 +32,7 @@ In high traffic sites that manage low inventory, there is an option to auto canc
 An internal order status for store administrator. You can use it for any purpose you like depending on your business nature.
 
 Every order will possess some important information that explains about it. They are:
-* **Invoice No** - The number of the document that completes the process of that order
+* **Invoice No** - The number of the document that completes the process of that order.
 * **Order ID** - ID for reference that tracks all the processing steps
 * **Date** - The date in which the order is completed
 * **Amount** - The total value of the order after billing
@@ -43,6 +43,28 @@ Every order will possess some important information that explains about it. They
 Check the image below to understand clearly.
 
 ![Order Listing](./assets/images/order_listing.png)
+
+#### Creating order from backend
+
+J2Store allows you to send a invoice first and then collect the payment from customer. This is possible by creating an order from backend. Follow the below steps to create an order from backend:
+
+1. Go to J2Store > Sales > Orders and click new on top left of the page.
+
+2. From the resulted page, select date, user and language and then click on Save & Next at bottom of the page.
+
+3. Now you are in Billing Address tab. Under this tab, choose the billing address of the customer or create a new one and then click on Save & Next.
+
+4. Under the Shipping address tab, click on Choose alternate address if you customer's shipping address is different from billing address.
+
+5. Now you are in Items tab. Here type two or three characters of the Product's SKU. It will show you the available products. From the available products, choose your desired product and click on "Add item to order".
+
+6. The popup screen will be displayed where you should click on Add to cart button to add an item into the basket. Then, close the popup and click on Save & Next.
+
+7. Choose your payment method and shipping charge under Payment & Shipping method tab and click Save & Next.
+
+8. At last, the order summary will be displayed. At the bottom of the page, you will see calculate tax button. On clicking this button will cacluate the text for this order.
+
+9. Finally click on save order.
 
 #### Adding shipping tracking ID
 
