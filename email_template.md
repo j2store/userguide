@@ -35,7 +35,10 @@ You will get two settings tabs to be filled up for creating an email template. T
 ### Basic
 The fundamental requirements of a template. Let us see one by one.
 
-![](./assets/images/email_template_create_basic.png)
+![](./assets/images/email-template-basic.png)
+
+#### Receiver
+Choose the mail receiver to whom the mail should send. Sometimes you may want to send a mail to only customer or both admin and customer or to send store admin only. In this case, you can use this option to choose the mail receiver.
 
 #### Language
 The languages for which the template is compliant, is set here. You can select **All** for all languages.
