@@ -222,16 +222,13 @@ Click Choose IPN Settings to specify your listener's URL and activate the listen
 In the Listener's url enter the following url
 
 ```php
-http(s)://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
+http://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
 ```
-
-> PayPal Plugin 3.8 and above provides one more url
-So in addition to the above url, you can use the following as well 
+If you access your website using an httpS protocol (SSL certified), you may want to use  below url
 
 ```php
-http(s)://www.your_website.com/plugins/j2store/payment_paypal/payment_paypal/tmpl/notify.php
+https://<YOUR_DOMAIN>/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
 ```
-
  >> Do not copy paste the above urls. You need to change your domain name and the http protocol
 
 <a name="still-ipn-problems"></a>
