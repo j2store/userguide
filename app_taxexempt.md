@@ -28,4 +28,4 @@ Users of who fall out of the "tax exempt" category will be taxed as per the UK T
 
 <br/>Users who fall under the "tax exempt" category will not be taxed even if they are from UK region:
 <br/><br/>
-![](./assets/images/taxexemptfront1.png)
+![](./assets/images/taxexemptfront_1.png)
