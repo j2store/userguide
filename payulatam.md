@@ -1,4 +1,4 @@
-# Pay ULatam
+# Pay U Latam
 
 This payment plugin is a for PayU plugin for online payments in Argentina, Brazil, Chile, Colombia, Mexico, Panama, Peru.
 
@@ -12,7 +12,7 @@ Post installation, the plugin settings can be configured by the following steps:
 
 * Go to Extensions->Extension manager->Plugins.
 
-* Choose PayULatam for J2Store to configure.
+* Choose PayU Latam for J2Store to configure.
 ## Settings
 
 * **Payment Option title**
@@ -25,15 +25,15 @@ Post installation, the plugin settings can be configured by the following steps:
 
 * **Api key**
 
-   Enter the API key that is associated with your PayULatam account.
+   Enter the API key that is associated with your PayU Latam account.
 
 * ** Account Id**
 
-   Specify the account id associated with your PayULatam account.
+   Specify the account id associated with your PayU Latam account.
 
 * **Merchant id**
 
-   Mention the merchant id of your PayULatam account.
+   Mention the merchant id of your PayU Latam account.
 
 * **Sandbox Mode**
 
@@ -43,15 +43,22 @@ Post installation, the plugin settings can be configured by the following steps:
 
 * **Sandbox Api key**
 
-   Enter the API key associated with your PayULatam Sandbox account.
+   Enter the API key associated with your PayU Latam Sandbox account.
 
 * **Sandbox Account Id**
 
-   The account id of your PayULatam Sandbox account has to be provided here.
+   The account id of your PayU Latam Sandbox account has to be provided here.
 
 * **Sandbox Merchant Id**
 
    The Merchant Id of the Sandbox account should be keyed in here.
+  **Note:**
+
+  * **Merchant Id: 508029**
+  * **ApiKey: 4Vj8eK4rloUd272L48hsrarnUA**
+  * **AccountId: 512326**
+  * **Signature: ba9ffa71559580175585e45ce70b6c37**
+
 
 * **Language**
 
@@ -59,7 +66,7 @@ Post installation, the plugin settings can be configured by the following steps:
 
 * **Hashing Method**
 
-   Choose the hashing method associated with your PayULatam Sandbox account.
+   Choose the hashing method associated with your PayU Latam Sandbox account.
 
 * **Article ID for thank you message**
 

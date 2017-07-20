@@ -31,3 +31,29 @@ Click Save.
 This is how the email addresses have been fed according to the zones:
 
 ![](./assets/images/advancednotifybackend.png)
+
+## Settings
+
+If you have lot of vendors who contribute products and if you wish to notify them when their product is being ordered, you could do it here.
+
+You could find the settings option here:
+
+![](./assets/images/advancednotifybackend1.png)
+
+* **Enable Vendor Notification**
+
+  Set to Yes if you wish to notify the vendor about the order.
+
+* **Vendor Subject**
+
+  The subject of the email that has to be sent to the vendor.
+
+* **Vendor Body**
+
+  Body of the email that has to be sent to the vendor.
+
+* Click Save.
+
+**Relevant Screenshot**
+
+![](./assets/images/advancednotifybackend2.png)
