@@ -1,8 +1,8 @@
-#Product Module
+# Product Module
 
-The J2Store Product Module allows you to display the products in carousel view and in normal view. using this module you can display J2Store products anywhere in your site.
+The J2Store Product Display Module allows you to display the products in carousel view and in normal view. using this module you can display J2Store products anywhere in your site.
 
-####Requirements
+## Requirements
 
 1. PHP 5.4 or higher
 
@@ -10,7 +10,7 @@ The J2Store Product Module allows you to display the products in carousel view a
 
 3. J2Store 3.2.x or above
 
-####Installation
+## Installation
 
 1. Use the joomla installer to install the module package.
 
@@ -20,40 +20,66 @@ The J2Store Product Module allows you to display the products in carousel view a
 
 4. Open the module to configure the settings.
 
-##Configuration
+## Configuration
 
-####Module
+### Module
 
 **Sub-Template**
 
-Module will display the product using the layout chosen here. Choose the sub-template either Caraousel or Bootstrap 3.
+Module will display the products with the layout chosen here. You can choose any of the following three sub-templates.
+
+- Default - It uses bootstrap2 styles. Choose this sub-template, if your template does not have Bootstrap 3 support.
+- Bootstrap - It uses bootstrap version 3.
+- Carousel - Choose this sub-template, if you would like to display your products in carousel mode.
+
+**J2Store Menu ID**
+
+You should have atleast one menu item with type as J2Store > Product List View and chosen here. Other wise, the module does not work.
 
 **Product source**
 
-Choose the source from which the module must display the products.
+Choose any one of the following three source types to display the products.
+
+- Categories - If you would like to display your products from any specific category, choose the source type as Categories.
+- Selected products - It is possible to display specific products by using this source type.
+- Top Best selling products - Choose this source type to display top selling products in your store.
+
+![](./assets/images/module-template.png)
+
+### Select based on category
 
 **Category**
 
-Choose the category associated with your products.
+Choose the category or categories from which you would like to display the products.
 
 **Include Subcategory**
 
-Choose **YES** will include the sub-category.
+Choose **YES** will include the sub-categories.
 
 **Subcategory level**
 
 If you wants to include the sub-category please choose your sub-category level here.(For example Level 1, Level 2, etc)
 
-####Menu Assignment
+![](./assets/images/module-category.png)
 
-Choose the page where the module must display the products.
+### Select based on Product Ids
 
-####Layout Settings
+You will have to use this option when you select your source type as Selected products.
 
-**Number of columns and Number of items**
+Click Add products button. On clicking this button, the popup window will show all your products you have created. Select the products and click on Set values button.
 
-Enter the no of products to be displayed in the text box provided and the number of columns in which the product display is divided
+![](./assets/images/module-selected-products.png)
 
-Also you can see other options such as Price, image, SKU, stock, etc.. You can set HIDE /  SHOW to those options as per your choice.
+### Menu Assignment
 
-**Refer the following screens**
+Choose the page where the module should be shown your products.
+
+### Layout Settings
+
+Enter the no of products to be displayed in the text box provided and the number of columns in which the product display is divided.
+
+Also you can see other options such as Price, image, SKU, stock, etc.. You can set HIDE / SHOW to those options as per your choice.
+
+![configuration](./assets/images/product-module.png)
+
+![frontend](./assets/images/product-frontend.png)
