@@ -28,9 +28,9 @@ The J2Store Product Display Module allows you to display the products in carouse
 
 Module will display the products with the layout chosen here. You can choose any of the following three sub-templates.
 
-- Default - It uses bootstrap2 styles. Choose this sub-template, if your template does not have Bootstrap 3 support.
-- Bootstrap - It uses bootstrap version 3.
-- Carousel - Choose this sub-template, if you would like to display your products in carousel mode.
+- **Default** - It uses bootstrap2 styles. Choose this sub-template, if your template does not have Bootstrap 3 support.
+- **Bootstrap** - It uses bootstrap version 3.
+- **Carousel** - Choose this sub-template, if you would like to display your products in carousel mode.
 
 **J2Store Menu ID**
 
@@ -76,10 +76,18 @@ Choose the page where the module should be shown your products.
 
 ### Layout Settings
 
-Enter the no of products to be displayed in the text box provided and the number of columns in which the product display is divided.
+Enter the number of products to be displayed in the text box provided and the number of columns in which the product display is divided.
 
 Also you can see other options such as Price, image, SKU, stock, etc.. You can set HIDE / SHOW to those options as per your choice.
 
 ![configuration](./assets/images/product-module.png)
 
+# Frontend screen shots
+
+#### Normal layout
+
 ![frontend](./assets/images/product-frontend.png)
+
+#### Carousel layout
+
+![carousel](./assets/images/carousel.png)
