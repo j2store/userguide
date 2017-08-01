@@ -18,7 +18,7 @@ The customer would be allowed to place the order only if he/she checks this box.
 
 The basic settings category allows you to set up the following fields:
 
-* **Show Additional Terms and Conditions **
+* **Show Additional Terms and Conditions**
 
  This has to be enabled if the additional terms and conditions checkbox has to be added in the checkout page.
 
@@ -34,7 +34,7 @@ The basic settings category allows you to set up the following fields:
 
  Provide the text that has to be set as the prefix for the label.
 
-* ** 5.Label for checkbox / link**
+* **5.Label for checkbox / link**
 
  Text entered here would be shown as the text for the link or the checkbox.
 
