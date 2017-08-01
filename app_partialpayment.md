@@ -162,6 +162,6 @@ In the back end, the store owner can keep track of the orders and payment dues.T
 
 ![](./assets/images/app_partialpaymentorder1.png)
 
-Payments that are due can be found like this:
+Payments that are due can be found like the one shown below:
 
 ![](./assets/images/app_partialpaymentorder2.png)
