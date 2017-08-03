@@ -30,7 +30,7 @@ The example given below, assumes you have a store and selling hosting service an
 
 ![](./assets/images/recurring.png)
 
-#### How to create a non-recurring (single term) subscription plan?
+#### How to create a non-recurring (one term) subscription plan?
 
 Non recurring is a single term subscription in which the subscription will be terminated at the specific period and does not allow for auto renewal. Subscriber will have to subscribe for the plan next time manually.
 
@@ -60,6 +60,8 @@ Lets see an example for single term subscription. For example, consider you are 
 
 ![](./assets/images/non-recurring.png)
 
+Here is the **[Direct link to video](https://www.j2store.org/support/video-tutorials/selling-one-time-subscriptions-with-manual-renewals.html)**.
+
 #### Creating 3 months subscription plan
 
 Refer below screen shots for setting non-recurring 3 months subscription plan
@@ -70,8 +72,10 @@ Refer below screen shots for setting non-recurring 3 months subscription plan
 ##### On frontend
 ![](./assets/images/3-months-subs-plan.png)
 
+Here is the **[Direct link to video](https://www.j2store.org/support/video-tutorials/creating-3-months-subscription-plan.html)**.
+
 <a name="six-months-plan"></a>
-#### Creating 6 months subbscription plan
+#### Creating 6 months subscription plan
 
 Refer below screen shots for setting non-recurring 6 months subscription plan
 
@@ -80,3 +84,5 @@ Refer below screen shots for setting non-recurring 6 months subscription plan
 
 ##### On frontend
 ![](./assets/images/6-months-subs-plan.png)
+
+Here is the **[Direct link to video](https://www.j2store.org/support/video-tutorials/creating-6-months-subscription-plan.html)**.
