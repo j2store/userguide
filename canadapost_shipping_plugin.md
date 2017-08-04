@@ -31,6 +31,12 @@ Your CanadaPost password
 
 The customer number provided by the CanadaPost.
 
+**CanadaPost Service**
+
+Choose the services provided by CanadaPost to display in checkout.
+
+**NOTE:** This is a mandatory option for version 3.2.24.Not selecting the service will make the shipping method unavailable.
+
 **Handling cost**
 
 You can enter an amount here (without any symbols or letters). It will be added as a handling cost in addition to the shipping cost.
