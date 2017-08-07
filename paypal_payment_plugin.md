@@ -17,7 +17,7 @@ The plugin integrates PayPal Website Payment Standard method with your J2Store s
 		* [Solution 1: Set the Invoice Prefix](#invoice_prefix)
 		* [Solution 2: Change settings in Paypal](#change_settings)
     * [Things don't appear to be working at the moment. Please try again later](#things-don't-appear-to-be-working-at-the-moment)
-
+    * [Admin tools PRO exception](#admin-tools-pro)
 
 ## Introduction
 Paypal standard plugin for J2Store allows you to accept payments via Paypal Payment Gateway. This uses the Paypal's Website Standard Payment. Customer will be redirected to Paypal to make payment securely 
@@ -422,3 +422,13 @@ We have updated the paypal plugin with fixes for these new technical restriction
 With this update if you have used more than 7 options then the first 7 options are passed to paypal and others are ignored. Similarly if the product option character length is larger than allowed by paypal, those values are trimmed (cut off). This will make sure you do not get any errors and customers will continue to see checkout screen without any issues.
 
 **NOTE:** Please take a backup before updating the plugin and test after installing.
+
+<a name="admin-tools-pro"></a>
+## Admin tools PRO exception
+
+All firewalls including the Admin Tools PRO would normally block any server-to-server remote POST requests. PayPal sends the IPN callback notification as a remote POST request immediately after the customer makes the payment.
+
+In order to allow this request to pass through your firewall, you need to add an exception
+
+Here is a screenshot of the WAF Exception in Admin Tools PRO
+![](./assets/images/admin-tool-pro-exception.png)
