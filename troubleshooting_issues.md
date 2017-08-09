@@ -28,10 +28,12 @@
 ## Is making changes on product not saves ?
 
 Make sure you are not using the MySQL PDO driver of Joomla
+
 Go to Global configuration -> Server -> Database settings.
+
 Make sure the Database driver is either MySQL or MySQLi
 
-The PDO driver of Joomla has a bug (for a long time).
+> The PDO driver of Joomla has a bug (for a long time).
 
 <a name="change_default_country"></a>
 ## [HOWTO] Change default country in checkout
