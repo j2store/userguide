@@ -4,7 +4,7 @@
 * **[Is your layout of checkout form displaying in single column?](#checkout-layout)**
 * **[Checkout steps not working ?](#checkout-steps)**
 * **[Could not proceed to payment step. Stuck at the Shipping step](#shipping-step-stuck)**
-* **[Checkout Login and Registration not works](checkout-login-not-works)**
+* **[Checkout Login and Registration not works](#checkout-login-not-works)**
 * **[How to set default payment option in checkout payment step ?](#default-payment-option)**
 * **[Writing template override for checkout page](#template-override)**
 
@@ -134,6 +134,14 @@ Go to Joomla global configuration
 Move to Permissions tab
 Under Public, choose **Not Set** to Site Login.
 Under Registered tab, choose **Allowed** to Site Login.
+Save.
+
+If you are using the **content component K2**, then please make sure the K2 user profile has been disabled in confgiuration.
+
+Go to Components > K2
+Click **Parameters** on top right of the page
+Now move to **Advanced** tab
+Set **NO** Enable K2 User Profile
 Save.
 
 <a name="default-payment-option"></a>
