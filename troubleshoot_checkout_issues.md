@@ -125,7 +125,7 @@ If yes, rename it as: old_checkout
 
 Now check.
 
-<a name="checkout-login-not-works"</a>
+<a name="checkout-login-not-works"></a>
 #### Checkout Login and Registration not works
 
 It is because the permission you have given at Joomla global configuration might be wrong.
