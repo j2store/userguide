@@ -1,5 +1,6 @@
 # Troubleshooting Common Issues
 
+* **[Is making changes on product not saves ?](#article-not-saves)**
 * **[[HOW TO]Fix enter your valid Address information Error](#valid_address_error)**
 * **[Change default country in checkout](#change_default_country)**
 * **[Order products in list layout](#order_products)**
@@ -22,6 +23,15 @@
 * **[[HOW TO]Fix product you are trying to access is disabled](#product_disable_error)**
 * **[Is your digital product showing NEVER in expiry column](#download-expiry-never)**
 * **[[HOW TO]Solve terms and conditions popup box freeze](#terms-conditions)**
+
+<a name="article-not-saves"></a>
+## Is making changes on product not saves ?
+
+Make sure you are not using the MySQL PDO driver of Joomla
+Go to Global configuration -> Server -> Database settings.
+Make sure the Database driver is either MySQL or MySQLi
+
+The PDO driver of Joomla has a bug (for a long time).
 
 <a name="change_default_country"></a>
 ## [HOWTO] Change default country in checkout
@@ -674,3 +684,29 @@ Choose Bootstrap 3.x to Cart and checkout pages should use CSS classes
 Save.
 
 If it is already set to bootstrap 3.x, change to bootstrap 2.x and check.
+
+<a name="invoice-logo"></a>
+## How to add your business logo to the invoice and email template ?
+
+Many of you tried adding image in your invoice and email template text editor, but it fails to show it in order invoice and email.
+
+While inserting image, you should have to give a full url for the image source path in toggle editor. For example,
+```html
+<img src="www.example.com/image/you-image.png" alt="logo">
+```
+Edit your invoice or email template
+Turn on your toggle editor
+Give full url for your image source path
+Save and close without toggle back to text editor.
+
+**NOTE:** Please use **JCE editor** as you default editor. TinyMCE editor changes the full url when saving changes and the logo not appears.
+
+## How to create additional order statuses ?
+
+Do you want to create additional order statuses like shipped, delivered, paid, etc. ? 
+
+Go to J2Store >Localisation > Order statuses
+Click New
+Enter your status name and label class name
+Choose Enable
+Save.
