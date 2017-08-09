@@ -139,9 +139,13 @@ Save.
 If you are using the **content component K2**, then please make sure the K2 user profile has been disabled in confgiuration.
 
 Go to Components > K2
+
 Click **Parameters** on top right of the page
+
 Now move to **Advanced** tab
+
 Set **NO** Enable K2 User Profile
+
 Save.
 
 <a name="default-payment-option"></a>
