@@ -52,8 +52,8 @@ Coupons hold the following information required for a successful process of purc
 
 For any coupon to be displayed on the add to cart page, it must be enabled in the following places:
 
-*Under J2Store->Settings->Configuration->Discount tab->Enable Coupons.
+* Under J2Store->Settings->Configuration->Discount tab->Enable Coupons.
 
-*Under the main Coupon's page in J2Store->Sales->Coupons.Click on the Checkbox under the field Enabled to enable/disable individual coupon.
+* Under the main Coupon's page in J2Store->Sales->Coupons.Click on the Checkbox under the field Enabled to enable/disable individual coupon.
 
 * In the coupon's basic settings under J2Store->Sales->Coupons and choose the coupon which you want to    enable or disable.
