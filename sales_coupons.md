@@ -28,7 +28,7 @@ Coupons hold the following information required for a successful process of purc
 
 ####Advanced Settings
 * **Product Categories** - Choose the categories to which the coupon must applied.
-* **Products** - Coupon usage applicable to the products added here. 
+* **Products** - Coupon usage applicable to the products added here.
 * **Brand or Manufacturer** - Coupon usage applicable to the brands or manufacturer added here.
 * **Customer Groups** - Coupon usage will be restricted to the user groups selected here.
 * **Users** - IDs of users for whom the coupon should apply, empty for all customers
@@ -47,3 +47,13 @@ Coupons hold the following information required for a successful process of purc
 **[Coupon for selected product](https://www.youtube.com/watch?v=MS6BrPdDyVk)**
 
 **[Coupon for cart wide and each cart item](https://www.youtube.com/watch?v=5Xbs8AaE3wM)**
+
+**Additional Note**
+
+For any coupon to be displayed on the add to cart page, it must be enabled in the following places:
+
+* Under J2Store->Settings->Configuration->Discount tab->Enable Coupons.
+
+* Under the main Coupon's page in J2Store->Sales->Coupons.Click on the Checkbox under the field Enabled to enable/disable individual coupon.
+
+* In the coupon's basic settings under J2Store->Sales->Coupons and choose the coupon which you want to    enable or disable.
