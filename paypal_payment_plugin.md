@@ -18,6 +18,7 @@ The plugin integrates PayPal Website Payment Standard method with your J2Store s
 		* [Solution 2: Change settings in Paypal](#change_settings)
     * [Things don't appear to be working at the moment. Please try again later](#things-don't-appear-to-be-working-at-the-moment)
     * [Admin tools PRO exception](#admin-tools-pro)
+    * [[Why]The payment HTML form not works](#payment-form-not-works)
 
 ## Introduction
 Paypal standard plugin for J2Store allows you to accept payments via Paypal Payment Gateway. This uses the Paypal's Website Standard Payment. Customer will be redirected to Paypal to make payment securely 
@@ -432,3 +433,11 @@ In order to allow this request to pass through your firewall, you need to add an
 
 Here is a screenshot of the WAF Exception in Admin Tools PRO
 ![](./assets/images/admin-tool-pro-exception.png)
+
+## Why the paypal payment form not works ?
+
+It seems due to the param "Block non-encrypted Website Payments" has been enabled inside your paypal account settings.
+
+Disabling this param will solve this problem.
+
+**Block non-encrypted Website Payments** = disable
