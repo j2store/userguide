@@ -52,3 +52,9 @@ Step by Step procedure:
 ![](./assets/images/langsetassoart.png)
 
 ![](./assets/images/langsetassomenu.png)
+
+## Video Tutorial
+
+Here is a video that would help you with the setting up of your store in your own language:
+
+[Click here to watch the video](https://www.youtube.com/watch?v=fKT9w8eM7S4&t=2s)
