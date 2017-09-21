@@ -16,7 +16,7 @@ Offer appointments, services, bookings or rentals in your Joomla website with J2
 
 * **[Introduction](#introduction)**
    * **[Features](#features)**
-* **[Installation](#installation)**
+* **[Requirements and Installation](#installation)**
 * **[Basic settings](#basicsettings)**
 * **[Manage bookings](#managebookings)**
 * **[Creating a bookable product](#creatingabookableproduct)**
@@ -24,7 +24,7 @@ Offer appointments, services, bookings or rentals in your Joomla website with J2
    * **[Pricing tab](#pricing)**
    * **[Persons](#persons)**
    * **[Availability](#availability)**
-
+* **[Use cases](#use-cases)**
 
 <a name="introduction"></a>
 ## Introduction
@@ -71,13 +71,26 @@ Our bookable product type allows you to set up bookable products for reservation
   Manage the bookings in your site on the go with the app.
 
 <a name="installation"></a>
-## Installation
+## Requirements and Installation
+
+### Requirements
+
+1. Joomla 3.4.x and above
+
+2. J2Store 3.2.25 and above
+
+3. PHP 5.6.4 or higher.
+
+### Installation
 
  * The app could be downloaded from our site and installed using the default Joomla installer.
 
- * Once it is installed, the configuration can be done under J2Store->Apps->Bookings and reservations.
+ * After installing the app, go to J2Store > Apps and activate the app by clicking on enable button.
+ ![](./assets/images/book-app-enable.png)
 
- * Installing and configuring this app in your site would allow you to  create a product of the type "Booking".
+ * Once it is enabled, click on open button to complete the basic configuration of the app.
+
+ * Installing and configuring this app in your site would allow you to create a product of the type "Booking".
 
 <a name="basicsettings"></a>
 ## Basic Settings
@@ -86,15 +99,15 @@ Our bookable product type allows you to set up bookable products for reservation
 
  * **Date format**
 
-   Since you will be offering bookings and reservations , it is necessary that you specify the date format that you wish to use.
+   Since you will be offering bookings and reservations, it is necessary that you specify the date format that you wish to use.
 
  * ** Time format**
 
- Reservations and bookings will be based on time frames.Hence it becomes mandatory to set the time format.
+ Reservations and bookings will be based on time frames. Hence it becomes mandatory to set the time format.
 
 * **Cart expire time**
 
- This option would help manage the abandoned bookings. There might be situations where a user adds a booking to the cart but exceeds  a specific time period without proceeding to the checkout process.Since the booking process is dynamic, this option would be of great help to avoid conflicts.
+ This option would help manage the abandoned bookings. There might be situations where a user adds a booking to the cart but exceeds a specific time period without proceeding to the checkout process. Since the booking process is dynamic, this option would be of great help to avoid conflicts.
 
  Setting the cart expire minutes would make the items in the cart disappear after the specified time limit if the user does not proceed to the checkout process.
 
@@ -112,20 +125,25 @@ Our bookable product type allows you to set up bookable products for reservation
 <a name="creatingabookableproduct"></a>
 ## Creating a bookable product
 
- Once the global settings have been completed, we are all set to create a bookable product.
+Once the global settings have been completed, we are all set to create a bookable product. To create a bookable product, go to Article Manager and create a new article.
 
- Apart form the default options that are available for all the product types, these are the various parameters that distinguish the  booking type product from the other product types:
+While creating new product, choose **Booking** as a product type.
+![](./assets/images/select-bookable-product.png)
+
+Apart form the default options that are available for all the product types, these are the various parameters that distinguish the  booking type product from the other product types:
 
 <a name="general"></a>
 ### General Tab
 
- * **Booking duration**
+#### Booking duration
 
- You can define a fixed block of dates that are to be allowed for booking while the others are being disabled in the frontend or you can allow the user to choose the start dates and end dates by themselves. You can also set up the minimum and maximum number of blocks that can be chosen when you choose the Booking duration as customer-defined blocks.
+The duration can be defined by admin or by customer.
 
- For example: If you set up the booking duration parameter to be Fixed block of 1 days, then the user will be allowed to choose a single date for booking.
+**Fixed blocks**  You can define a fixed block of dates that are to be allowed for booking while the others are being disabled in the frontend. For example: If you set up the booking duration parameter to be Fixed block of 1 days, then the user will be allowed to choose a single date for booking.
 
- On the contrary, if you select the booking duration to Customer-defined blocks of 1 days, you would be prompted to choose the minimum and maximum duration allowed. If you choose 2 and 4 respectively, then the users will get a message if they choose dates that are more than 4 days or less than 2 days.
+**Customer-defined blocks** you can allow the user to choose the start dates and end dates by themselves. You can also set up the minimum and maximum number of blocks that can be chosen when you choose the Booking duration as customer-defined blocks. 
+
+If you select the booking duration to Customer-defined blocks of 1 days, you would be prompted to choose the minimum and maximum duration allowed. If you choose 2 and 4 respectively, then the users will get a message if they choose dates that are more than 4 days or less than 2 days.
 
  ![](./assets/images/app_bookingbookingdurationfixedback.png)
 
@@ -153,20 +171,26 @@ Our bookable product type allows you to set up bookable products for reservation
 
  ![](./assets/images/app_bookingbookingdurationcusfront3.png)
 
- * **Calendar display mode**
+#### Calendar display mode
 
  Choose when to display the calendar. You can choose to display the calendar by default or only after clicking.
 
  The following video demonstrates the use of the calendar display mode option:
 
  ![](./assets/images/app_bookingcalendarviewbehav.gif)
+ 
+#### Allowing booking cancellation
+
+It is possible to choose whether the store admin want his/her user to have the option to cancel their booking. Setting **YES** to **Can be cancelled?** will allow customer to cancel the booking after it has been purchased.
+
+![](./assets/images/app_bookingcanceloptionfront.png)
 
 <a name="pricing"></a>
 ### Pricing tab
 
  The pricing tab for a booking type product has one extra option in addition to the default options as follows:
 
- * **Block pricing**
+ **Block pricing**
 
  While you are able to set a price to the product, the booking type product allows block-wise price charging in addition to the regular pricing which is now an added advantage.
 
@@ -215,7 +239,7 @@ This tab controls the availability of blocks (i.e.) what blocks can be booked. A
 
 **Max bookings per block** : By using this option, you could define the number of bookings per block. For example, if you enter 2, more than 2 bookings on individual blocks are not allowed.
 
-**Minimum block bookable and maximum block bookable** : If today is March 1 and you set minimum block bookable to 1 day into the future, then the first date a customer could book would be March 2\. The same applies to the maximum date bookable. If you set maximum block bookable to 2 day into the future, then blocks avalaiable for booking are March 2, March 3.
+**Minimum block bookable and maximum block bookable** : If today is March 1 and you set minimum block bookable to 1 day into the future, then the first date a customer could book would be March 2. The same applies to the maximum date bookable. If you set maximum block bookable to 2 day into the future, then blocks avalaiable for booking are March 2, March 3.
 
 **All dates are** : This option allows you to define specific date range to be availble or not available by default. The date range can be defined based on following time frames Months, Days, Hours, Minutes.
 
@@ -237,3 +261,76 @@ For example, if you would like to make the days from March 20 to March 22 to be 
 ![](./assets/images/block-available.png)
 
 ![](./assets/images/non-available-dates.png)
+
+## Use cases
+
+### 1. Rent a party hall
+
+A person owns a party hall that people can rent for a Birthday parties. 
+
+##### Instance
+
+1. The hall will be available for only 30 days.
+1. It can accommodate upto 75 people.
+2. The party hall owner wants customers to not book a party hall on specific set of date range. 
+3. The party hall owner wants to restrict multiple bookings per block.
+4. The hall can be booked for only one day.
+
+### Booking Configuration
+
+#### Creating product
+
+1. Go to Article manager and create a new article.
+2. Move to J2Store cart tab and choose **YES** to treat as a product.
+3. Choose product type as **Booking** and save.
+
+#### General tab
+
+After creating the product, navigate to general tab.
+
+**Booking duration**
+
+To allow customers to book the party hall only for one day, set this parameter to **Fixed blocks of 1 day(s)**.
+
+**Calendar display mode**
+
+Choose whether the calendar must be opened by default or should be displayed when customer click on choose button. Setting **Display calendar on click** will hide the calendar until customer clicks on choose date.
+
+#### Pricing tab
+
+After defining booking duration, navigate to pricing tab and set the product's regular price and block price.
+
+#### Persons tab
+
+In our example, the maximum persons we allowed is 75. So set **YES** to enable person and then set
+
+```
+Min persons = 1
+
+Max persons = 75
+```
+
+If you would like to multiply the block price with person count then set **YES** to **Mutiply block price by person count**.
+
+#### Availability
+
+1. To restrict customers from multiple booking per block, give **1** (one) to the text box named **Max bookings per block**.
+
+2. **To make the hall unavailable after 30 days, set**
+
+   ```
+   Minimum block bookable = 0 or 1 day(s)
+
+   Maximum block bookable = 30 day(s)
+   ```
+
+3. **Restrict booking on specific date range**
+
+ To make specific date range to be unavailable for booking, set **All dates** parameter to **available by default** and click on **Add range** button to define specific date range.
+
+ After clicking on Add range, on the new row created, define the date range like below:
+ 
+ **Range type** - Date range
+ **Range** - 27-09-2017 to 29-09-2017
+ **Bookable** - No
+ **Priority** - 1
