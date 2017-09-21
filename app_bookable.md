@@ -262,6 +262,7 @@ For example, if you would like to make the days from March 20 to March 22 to be 
 
 ![](./assets/images/non-available-dates.png)
 
+<a name="use-cases"></a>
 ## Use cases
 
 ### 1. Rent a party hall
