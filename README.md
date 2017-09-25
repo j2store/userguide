@@ -2,8 +2,8 @@
 
 ![Banner](./assets/images/userguide_banner_design.png)
 
-Welcome to J2Store
-=======
+J2Store Documentation
+==
 
 J2Store is a native, flexible and modern ecommerce solution for Joomla Content Management System. 
 
