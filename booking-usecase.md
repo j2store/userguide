@@ -110,7 +110,7 @@ Then move to pricing tab to define the booking cost and then navigate to Person 
 
 ![](./assets/images/usecase2-booking-duration.png)
 
-**Availability**
+#### Availability
 
 1. Define the number of bookings per block. If you wish to restrict customers from multiple booking then give 1 to this option.
 
@@ -128,6 +128,6 @@ Now set the date and time range by click in **Add Range** button and set priorit
 
 ![](./assets/images/usecase2-booking-availability.png)
 
-**On frontend**
+#### On frontend
 
 ![](./assets/images/usecase2-booking-demo.png)
