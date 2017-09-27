@@ -2,6 +2,7 @@
 
 * **[Rent a party hall](#rent-party-hall)**
 * **[Block availability with date and hour range](#custom-date-time-range)**
+* **[Book for a boat ride](#boat-ride)**
 
 <a name="rent-party-hall"></a>
 ### 1. Rent a party hall
@@ -131,3 +132,48 @@ Now set the date and time range by click in **Add Range** button and set priorit
 #### On frontend
 
 ![](./assets/images/usecase2-booking-demo.png)
+
+<a name="boat-ride"></a>
+### Book for a boat ride
+
+#### Instance
+
+An owner of boat offers boat ride for daily on hourly basis. The duration of journey is 2 hours and the start times are 10:00 AM, 2:00 PM, & 6:00 PM. The booking price for Adults and Children can be vary. The maximum capacity of boat is 25.
+
+#### Configuration of bookable product
+
+1. Go to Article manager and create a new article.
+2. Move to J2Store cart tab and choose **YES** to treat as a product.
+3. Choose product type as **Booking** and save.
+
+#### General tab
+
+After creating the product, navigate to general tab.
+
+**Booking duration**
+
+In our example, the duration of boat ride is **2 hours**. So set booking duration to **Fixed blocks of 2 Hour(s)**.
+
+#### Persons tab
+
+In this example, the pricing can be vary based on person types. To set different pricing for Adults and Children, **Enable person types**.
+
+Set **YES** to Enable person types and 	click on **Add person types** button to add person type Adults and Children. And then define the base cost, block cost, minimum and maximum number for each person type.
+
+Take a look at below demo screen shot to see how the parameters under person tab are configured.
+
+![](./assets/images/usecase3-booking-person.png)
+
+#### Availability
+
+```
+Maximum bookings per block = 25
+All dates are = not available by default
+```
+**Add time range for boat ride by referring to the below picture**
+
+![](./assets/images/usecase3-booking-availability.png)
+
+#### Frontend
+
+![](./assets/images/usecase3-booking-frontend.png)
