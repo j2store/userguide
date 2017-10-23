@@ -1,5 +1,13 @@
 # Shipstation
 
+- **[Introduction](#introduction)**
+* **[Prerequisites](#Prerequisites)**
+* **[Creating an account and generating API keys](#creating_an_account)**
+* **[Webhook URL](#webhookurl)**
+* **[App settings](#appsettings)**
+
+<a name="introduction"></a>
+## Introduction
 The new J2Store integration with Shipstation helps you to integrate your J2Store site with one of the best shipping solution, Shipstation. Now import your orders and manage shipping on the go with the help of this integration. With Shipstation, you need not worry about shipping your orders using different carriers, cause you can manage everything at a one stop place using this integration.
 
 Shipstation is a multi-channel, multi-carrier shipping solution that simplifies the shipping process for online merchants. Shipstation can be integrated seamlessly with any shipping carrier and channel and your orders can be easily tracked and managed with just few clicks, regardless of the location.
@@ -11,12 +19,13 @@ Now conduct your business with more fluidity and transparency with the easy inte
 ## Installation
 
 The integration can be downloaded from our site and installed using the default joomla installer.
+<a name="Prerequisites"></a>
 
 ## Pre-requisites
 
 A shipstation account is required to use the integration.You could create one at www.shipstation.com
 
-<a name="apikeys"></a>
+<a name="creating_an_account"></a>
 ## Creating an account and generating API keys
 
 To get the API keys for the integration, it is necessary to create an account with Shipstation.Following are  the steps to be done:
@@ -57,6 +66,7 @@ The below screenshots are for reference:
 
 
 ![](./assets/images/shipstationapikeys3.png)
+<a name="webhookurl"></a>
 
 ## Webhook URL
 
@@ -79,6 +89,7 @@ Webhook notifications can be set up by following the steps given below:
 * Specify the URL in the field Webhook URL and save.
 
 ![](./assets/images/shipstationwebhookurlspec.png)
+<a name="appsettings"></a>
 
 ## App settings
 
