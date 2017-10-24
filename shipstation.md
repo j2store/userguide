@@ -16,7 +16,7 @@ Shipstation is a multi-channel, multi-carrier shipping solution that simplifies 
 
 Now conduct your business with more fluidity and transparency with the easy interfacing of shipstation.
 
->Note: Specifying the tracking id manually in the Shipstation settings and setting up notifications for Order shipped won't work because if the notifications are set up this way, the tracking numbers will not be synchronized with J2Store.
+>NOTE: Shipstation will not send any Webhook notifications when you manually mark an order as Shipped in your ShipStation console. It is treated as externally fullfilled orders. Tracking numbers for those orders should be entered manually in your ShipStation and also in J2Store.
 
 ## Installation
 
