@@ -90,7 +90,7 @@ Payment form page will be displayed in the language chosen here.
 
 **Use sandbox**
 
-Post finance offers a testing suite. Before going live, it is advised to test your store using the Ogone test server. Read more about Post finance test account at the Post finance's official website
+Post finance offers a testing suite. Before going live, it is advised to test your store using the Post finance test server. Read more about Post finance test account at the Post finance's official website
 
 > NOTE: IN LIVE SITE, THIS SHOULD BE SET TO NO.
 
