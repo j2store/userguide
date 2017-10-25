@@ -43,9 +43,9 @@ Should be set to SHA­1. The plugin will not work with the other methods. Refer 
 ##### Checks for E­Commerce (Tab: Data and origin verification)
 URL of the merchant page containing the payment form that will call the page: orderstandard.asp: 
 
-This should be set to http://www.yourdomain.com
+Leave the data origin url **empty**
 
-![Ogone Ecommerce Check](./assets/images/ecommerce_check_ogone.png)
+![Ogone Ecommerce Check](./assets/images/ecommerce_check_postfinance.png)
 
 ##### Post sale configuration : (Tab: Transaction feedback)
 This is required to update our database after the payment is done. Under the heading “Direct HTTP server­to­server request”, set both the URLs of the merchant's post­payment page as below:
