@@ -74,11 +74,11 @@ This is your Unique Merchant ID provided by the Post finance. Enter the PSPID as
 
 **SHA-IN key**
 
-This is the SHA­1 IN signature set up by you in the Post finance settings (see below for the required settings to be done at your Ogone account). This ensure security of your transaction.
+This is the SHA­1 IN signature set up by you in the Post finance settings (see below for the required settings to be done at your Post finance account). This ensure security of your transaction.
 
 **SHA-OUT key**
 
-This is the SHA­1 OUT signature set up by you in the Post finance settings (see below for the required settings to be done at your Ogone account)
+This is the SHA­1 OUT signature set up by you in the Post finance settings (see below for the required settings to be done at your Post finance account)
 
 **Hash Method**
 
