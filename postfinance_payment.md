@@ -1,10 +1,10 @@
-#Post Finance
+# Post Finance
 
 The plugin integrates Post Finance payment with J2Store Joomla eCommerce solution. 
 
 PostFinance's payment solutions offer you secure and fast payment collection. As an online shop operator, you can process all standard payment methods.
 
-####Requirements
+#### Requirements
 
 1. PHP 5.4 or greater
 
@@ -12,7 +12,7 @@ PostFinance's payment solutions offer you secure and fast payment collection. As
 
 3. J2Store 3.2.x or greater
 
-####Installation
+#### Installation
 
 1. Use the Joomla installer to install the plugin.
 
@@ -22,7 +22,43 @@ PostFinance's payment solutions offer you secure and fast payment collection. As
 
 4. Save and close it.
 
-####Configuration
+#### Required Post finance settings
+##### Default operation code
+**Sale**: This will enable you to receive instant payment.  
+**Authorisation**: This you have to either manually or automatically capture it.
+
+For Sale, a successful payment will return Status code 9 and for Successful Authorisation, the status code is 5. Both the cases will be treated as Success and Confirmed by the 
+Post finance plugin.
+
+>NOTE: If you are selling digital goods, it is advised to use SALE as operation 
+
+The following parameters in your Post finance account (Technical Information) should be set as instructed below.
+
+##### Hashing method (Tab: Global security parameters)
+
+Should be set to SHA­1. The plugin will not work with the other methods. Refer the image below.
+
+![Ogone Hashing Method](./assets/images/hashing_method_ogone.png)
+
+##### Checks for E­Commerce (Tab: Data and origin verification)
+URL of the merchant page containing the payment form that will call the page: orderstandard.asp: 
+
+This should be set to http://www.yourdomain.com
+
+![Ogone Ecommerce Check](./assets/images/ecommerce_check_ogone.png)
+
+##### Post sale configuration : (Tab: Transaction feedback)
+This is required to update our database after the payment is done. Under the heading “Direct HTTP server­to­server request”, set both the URLs of the merchant's post­payment page as below:
+
+http://www.yourdomain.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_postfinance&paction=process&tmpl=component
+
+Request method: POST
+
+(see the picture below with example urls.)
+
+![Transaction Feedback](./assets/images/transaction_feedback_ogone.png)
+
+#### Plugin Configuration
 
 **Payment option title**
 
@@ -34,19 +70,19 @@ This image will be displayed while payment options are listed in the checkout pa
 
 **PSPID**
 
-Enter the PSPID associated with your Post Finance's Account.
+This is your Unique Merchant ID provided by the Post finance. Enter the PSPID associated with your Post Finance's Account.
 
 **SHA-IN key**
 
-Enter the same SHA-IN pass phrase you configured in PostFinance Backoffice.
+This is the SHA­1 IN signature set up by you in the Post finance settings (see below for the required settings to be done at your Ogone account). This ensure security of your transaction.
 
 **SHA-OUT key**
 
-Enter the same SHA-OUT pass phrase you configured in PostFinance Backoffice.
+This is the SHA­1 OUT signature set up by you in the Post finance settings (see below for the required settings to be done at your Ogone account)
 
 **Hash Method**
 
-Select Hash method (SHA-1, SHA-256, SHA-512) associated with your postfinance account.
+Select Hash method (SHA-1, SHA-256, SHA-512) associated with your postfinance account. It should be set to SHA 1.
 
 **Language**
 
@@ -54,7 +90,10 @@ Payment form page will be displayed in the language chosen here.
 
 **Use sandbox**
 
-Choose **YES** to use the Post Finance's sandbox feature.
+Post finance offers a testing suite. Before going live, it is advised to test your store using the Ogone test server. Read more about Post finance test account at the Post finance's official website
+
+> NOTE: IN LIVE SITE, THIS SHOULD BE SET TO NO.
+
 
 **j2store_postfinance_tp**
 
