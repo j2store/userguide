@@ -65,9 +65,17 @@ Here are the screenshots that demonstrate the workflow of the above conditions:
 
 ![](./assets/images/booking-app-usecase1.png)
 
+
+
 ![](./assets/images/booking-app-usecase2.png)
 
+
+
+
 ![](./assets/images/booking-app-usecase3.png)
+
+
+
 
 ![](./assets/images/booking-app-usecase4.png)
 
