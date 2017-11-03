@@ -69,7 +69,7 @@
 
  Cron URL can be used to run crons for scheduled payments.This could be used to send notifications to users and administrators that a payment due date is approaching.
 
- Post running a cron, a Pay Now button would appear in the checkout page facilitating payment for users.
+ Post running a cron, a Pay Now button would appear in the My Profile  page under the Orders tab facilitating payment for users.
 
 #### Relevant Screenshot
 
