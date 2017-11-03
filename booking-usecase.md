@@ -2,7 +2,6 @@
 
 - **[Book a conference hall](#hallbooking)**
 * **[Book a service](#servicebooking)**
-* **[Block availability with date and hour range](#customdatetimerange)**
 * **[Book for a boat ride](#boatride)**
 
 #### Book a hall
@@ -137,55 +136,6 @@ The above settings will implement the following changes in the  frontend.
 ![](./assets/images/booking-app-usecase8.png)
 
 
-<a name="customdatetimerange"></a>
-### 2. Block availability with date and hour range
-
-This use case will show you how to make the blocks available with date and hour range.
-
-#### Instance
-
-1. Booking will be available only on **Tuesdays** from **10.00 AM to 7.00 PM**
-2. Booking will be unavailable on **03-10-2017**.
-
-#### Creating product
-
-1. Go to Article manager and create a new article.
-2. Move to J2Store cart tab and choose **YES** to treat as a product.
-3. Choose product type as **Booking** and save.
-
-#### General tab
-
-After creating the product, navigate to general tab.
-
-**Booking duration**
-
-Set this parameter to **Fixed blocks of 1 Hour(s)** to make the block available with custom time range.
-
-Then move to pricing tab to define the booking cost and then navigate to Person tab if you would like to define minimum and maximum persons.
-
-![](./assets/images/usecase2-booking-duration.png)
-
-#### Availability
-
-1. Define the number of bookings per block. If you wish to restrict customers from multiple booking then give 1 to this option.
-
-2. To make the blocks available for 12 months, you will have to set the minimum and maximum bookable block like below:
-
-```
-Minimum block bookable = 0 Day(s)
-
-Maximum block bookable = 12 Month(s)
-```
-
-Then, set all the dates to not available. Choose **not-available by default** to All dates are parameter.
-
-Now set the date and time range by click in **Add Range** button and set priority accordingly. Refer the screen shot below:
-
-![](./assets/images/usecase2-booking-availability.png)
-
-#### On frontend
-
-![](./assets/images/usecase2-booking-demo.png)
 
 <a name="boatride"></a>
 ### Book for a boat ride
