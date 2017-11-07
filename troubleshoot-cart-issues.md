@@ -1,5 +1,6 @@
 # Troubleshoot cart related issues
 
+* **[Cart cleared during registration](#cart-clear)**
 * **[Template override for Add to cart block in category view](#template-override-category-view)**
 * **[Template override for Add to cart block in detail view](#template-override-detail-view)**
 * **[Is cart not responding when you click update or empty cart button?](#cart-not-responding)**
@@ -9,6 +10,24 @@
 * **[How To Solve Mini Cart module related issues?](#cart-module-issues)**
 * **[I don't see Add to Cart Button. What is the problem?](#not-show-cart-button)**
 * **[HOW TO move Add to Cart Button using the Short Plugin tag](#move-cart-button)**
+
+<a name="cart-clear"></a>
+#### Cart cleared during registration
+
+It is beacuse the default Registered group and Guest group chosen might be wrong.
+
+Please go to User manager -> Options
+Make sure the Default Registered Group is set to: **Registered**
+Default guest user group is set to : **Guest**
+
+![](./assets/images/cart-clear-01.png)
+
+And make sure you do not have any cookie domains in Joomla admin - Global configuration.
+
+To validate if your settings are correct, try this basic Joomla feature:
+
+Try to login as a user in the frontend. If you are able to login and stay logged in, then your user settings are correct.
+If you could not login, then your user manager settings are not correct.
 
 <a name="template-override-category-view"></a>
 #### To change the Add to cart block and style in category view
