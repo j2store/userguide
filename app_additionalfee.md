@@ -34,15 +34,15 @@ You can choose whether the additional fee should be applied based on cart or per
 
 * **Line item:** This will apply the additional charge based on the product. You can set additional fee to the product individually in the apps tab on j2store cart. Once you enabled Line item, the amount / charge will be applied to the individual products.
 
+**Order price range based on**
+
+Here you can define whether the order total after applying additional fee should be calculated based on subtotal or based on subtotal including shipping price.
+
 **Auto apply additional fee in checkout ?**
 
 Set **YES** will apply the additional fee at the checkout automatically. Set **NO** will hide the additonal fee displaying in cart page and checkout and it will display the checkbox at the payment step allowing customers to choose the fees.
 
-**Checkbox Content**
-
-Add your checkbox content in the text box given here.
-
-**Display place**
+**Display a checkbox in the following checkout step**
 
 You can change the position of checkbox by selecting either **Display before shipping method** or **Display after payment methods**.
 
@@ -50,8 +50,7 @@ You can change the position of checkbox by selecting either **Display before shi
 
 Select your tax profile to display the additional fee as taxable.
 
-![settings_01](./assets/images/addfee_settings_01.png)
-![settings_02](./assets/images/addfee_settings_02.png)
+![settings_01](./assets/images/add-fee-settings.png)
 
 #### Additional Fee Setup
 
@@ -61,7 +60,19 @@ Open the app and click **Add New** button to create new one.
 
 **Name of the fee:** Enter the name for additional fee. The value given here will be displayed during checkout.
 
+**Geozone:** Restrict applying additional charge based region. If you wants to apply extra charge only for customers from United States, then create the geozone for US and assign it here.
+
+**User IDs:** You could also apply the charge only to specific customer by adding user id of the customers here. You can add multiple user ids with comma(,) separated.
+
+**User groups:** It is also possible to restrict additional fee by user group. The additional fee will be applicable to the customers belongs to the user group selected here.
+
 **Amount:** Enter the amount to be charged.
+
+**Fee value type:** Choose whether the additional charge should be the fixed price or based on percentage.
+
+**Category list:** If you would like to apply the extra charge by category wise, then all you have to do is select the category to which the additional fee should be applied.
+
+**Apply when category product quantity is greater than or equal to and Apply if category product quantity is less than or equal to:** If you wants to apply the fee for the particular quantity range of the product from the particular category chosen above, specify the quantity range here.
 
 **Apply when total order quantity is greater than or equal to:** Enter the quantity range. For example, set quantity range **2**. So additional fee will be applied when the quantity reaches **2** or **above 2**.
 
