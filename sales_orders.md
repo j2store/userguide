@@ -85,6 +85,7 @@ J2Store allows you to send a invoice first and then collect the payment from cus
 9. If you would like to apply extra charge to customers, use Add fee feature at the order summary tab. Enter the fee name, fee amount and choose the tax profile (if you wants to charge extra fee taxable) and then Finally click on save order.
 ![](./assets/images/order-backend-last-step.png)
 
+Direct link to the **[video tutorial](https://www.j2store.org/support/video-tutorials/creating-order-from-backend.html)**.
 
 #### Editing order from backend
 
