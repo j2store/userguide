@@ -37,9 +37,9 @@ This options determines how long a booking is available. The duration can be def
    * **Fixed block of 3 hours** - Take an example, a owner of conference hall allows hall booking for 3 hours. Lets see how you could setup the booking product for conference hall booking. Choose **Fixed block of 3 hours** as a booking duration.
     ![](./assets/images/booking-hour-block.png)
     
-    On frontend, the block will be displayed like,
+   On frontend, the block will be displayed like,
     
-    ![](./assets/images/booking-hour.png)
+   ![](./assets/images/booking-hour.png)
 
 **Customer-defined blocks** you can allow the user to choose the start dates and end dates by themselves. You can also set up the minimum and maximum number of blocks that can be chosen when you choose the Booking duration as customer-defined blocks. 
 
