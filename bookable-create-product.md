@@ -12,15 +12,34 @@ Apart form the default options that are available for all the product types, the
    * **[Pricing tab](#pricing)**
    * **[Persons](#persons)**
    * **[Availability](#availability)**
+       * **[Example-1: Booking on daily basis](#day-booking)**
+       * **[Example-2: Booking on monthly basis](#booking-monthly)**
+       * **[Example-3: Booking on hourly basis](#booking-hourly)**
 
 <a name="general"></a>
 ### General Tab
 
 #### Booking duration
 
-The duration can be defined by admin or by customer.
+This options determines how long a booking is available. The duration can be defined by store admin (fixed block) or by customer (they need to input on the front-end). Duration can be set based on Hours, Minutes, Days or Months.
 
-**Fixed blocks**  You can define a fixed block of dates that are to be allowed for booking while the others are being disabled in the frontend. For example: If you set up the booking duration parameter to be Fixed block of 1 days, then the user will be allowed to choose a single date for booking.
+**Fixed blocks**  You can define a fixed block of dates that are to be allowed for booking while the others are being disabled in the frontend. For example: If you set up the booking duration parameter to be Fixed block of 1 day, then the user will be allowed to choose a single date for booking. That is, if customer books Dec 28, then the start date is Dec 28 and the End date is Dec 28.
+
+![](./assets/images/booking_day.png)
+
+   * **Fixed block of 1 Month** - For example, if you are providing flats for a rent on monthly basis, you can choose the Booking duration **Fixed block of 12 months**.
+   ![](./assets/images/booking-month-block.png)
+   
+   On frontend, the blocks will be displayed like
+   
+   ![](./assets/images/booking-month.png)
+   
+   * **Fixed block of 3 hours** - Take an example, a owner of conference hall allows hall booking for 3 hours. Lets see how you could setup the booking product for conference hall booking. Choose **Fixed block of 3 hours** as a booking duration.
+    ![](./assets/images/booking-hour-block.png)
+    
+    On frontend, the block will be displayed like,
+    
+    ![](./assets/images/booking-hour.png)
 
 **Customer-defined blocks** you can allow the user to choose the start dates and end dates by themselves. You can also set up the minimum and maximum number of blocks that can be chosen when you choose the Booking duration as customer-defined blocks. 
 
@@ -98,7 +117,7 @@ For example, A car could be rented and maximum 4 persons can only travel. So if 
 
 **Multiply block price by person count**: If this option is enabled, all costs are multiplied by the number of persons the customer defines. It is also possible to enable person types. For example, Booking ticket for the journey might be having following restriction **Only 2 Adults and 3 Children allowed**. In this case, you could add person types and the pricing could be defined accordingly.
 
-![](./assets//images/booking-person-types.png)
+![](./assets/images/booking-person-types.png)
 
 Once you enabled person types, you have the option to add multiple types.
 
@@ -122,7 +141,7 @@ This tab controls the availability of blocks (i.e.) what blocks can be booked. A
 
 **Minimum block bookable and maximum block bookable** : If today is March 1 and you set minimum block bookable to 1 day into the future, then the first date a customer could book would be March 2. The same applies to the maximum date bookable. If you set maximum block bookable to 2 day into the future, then blocks avalaiable for booking are March 2, March 3.
 
-**All dates are** : This option allows you to define specific date range to be availble or not available by default. The date range can be defined based on following time frames Months, Days, Hours, Minutes.
+**All dates are** : This option allows you to define specific date range to be **availble** or **not available by default**. The date range can be defined based on following time frames Months, Days, Hours, Minutes.
 
 ### Add date range
 
@@ -142,3 +161,167 @@ For example, if you would like to make the days from March 20 to March 22 to be 
 ![](./assets/images/block-available.png)
 
 ![](./assets/images/non-available-dates.png)
+
+### More examples
+
+<a name="day-booking"></a>
+### 1. Rent a car for a day
+
+#### Scenario:
+
+1. Renting the car on a daily basis.
+2. Setting the capacity of car to 5 persons.
+3. Booking slots will be available only on week days and not on weekends.
+
+#### Creating a product
+
+1. Go to Article manager and create a new article.
+2. Move to J2Store cart tab and choose YES to treat as a product.
+3. Choose product type as Booking and save.
+
+#### General tab
+
+After creating the product, navigate to general tab.
+
+**Booking duration**
+
+In our sample scenario, we are renting the car on a daily basis. So Set the Booking duration to Fixed blocks of 1 day(s).
+
+![](./assets/images/car-rent-general.png)
+
+#### Pricing
+
+Set pricing for car renting and move to next tab.
+
+#### Persons
+
+Our instance says that we are going to restrict the capacity only to 5 Persons. So following are the criteria to be set:
+```
+Min persons = 1
+
+Max persons = 5
+```
+![](./assets/images/car-rent-persons.png)
+
+#### Availablity
+
+The car would be rented on a daily basis. The parameters should be set as follows:
+```
+Max bookings per block = 4
+
+Minimum block bookable= 1 day(s) into the future
+
+Maximum block bookable= 30 day(s) into the future
+```
+To restrict the availability of the hall only to week days and block the availability on weekends:
+```
+Range type = Range of days
+
+Range = Saturday to Sunday
+
+Bookable = No
+```
+![](./assets/images/car-rent-availability.png)
+
+Following is the screenshot of frontend:
+
+![](./assets/images/car-rent-front.png)
+
+<a name="booking-monthly"></a>
+### 2. Renting the flats on monthly basis
+
+#### Scenario:
+
+1. Renting the flats on a monthly basis.
+2. Multiple bookings per block cannot be allowed.
+
+#### Creating a product
+
+1. Go to Article manager and create a new article.
+2. Move to J2Store cart tab and choose YES to treat as a product.
+3. Choose product type as Booking and save.
+
+#### General tab 
+
+After creating the product, navigate to general tab.
+
+**Booking duration**
+
+In our sample scenario, we are renting the flats on a monthly basis. So Set the Booking duration to Fixed blocks of 12 month(s).
+
+![](./assets/images/house-rent-general.png)
+
+#### Pricing
+
+Set pricing for car renting and move to next tab.
+
+> There is no restriction for the capacity (persons) so navigate to the availability tab.
+
+#### Availability
+
+**Criteria**
+1. The flats would be rendted on monthly basis. 
+2. Restrict multiple booking per block because multiple persons could not be booked for a single flat.
+
+```
+Max bookings per block = 1
+
+Minimum block bookable= 1 month(s) into the future
+
+Maximum block bookable= 11 month(s) into the future
+```
+
+![](./assets/images/house-rent-availability.png)
+
+**Screenshot of frontend**
+
+![](./assets/images/house-rent-frontend.png)
+
+<a name="booking-hourly"></a>
+### 3. Rent a sports helmet on hourly basis
+
+#### Scenario:
+
+1. Bookings will be opened daily for hourly basis(say 3 hours).
+2. 10 bookings will only be taken per day.
+3. The availability time range is 12:00 am to 09:00 pm.
+
+#### Creating a product
+
+1. Go to Article manager and create a new article.
+2. Move to J2Store cart tab and choose YES to treat as a product.
+3. Choose product type as Booking and save.
+
+#### General tab
+
+After creating the product, navigate to general tab.
+
+**Booking duration**
+
+Set this parameter to Fixed blocks of 3 Hour(s) to make the block available with custom time range.
+
+![](./assets/images/sports-helmet-general.png)
+
+#### Pricing tab
+
+Set the pricing accordingly and navigate to the availability tab.
+
+#### Availability tab
+```
+Max bookings per block = 10
+
+Minimum block bookable = 0 days into the future
+
+Maximum block bookable = 1 month into the future
+
+Range type = Time range(all weeks)
+
+Range = 12:00 AM to 09:00 PM
+
+Bookable = Yes
+```
+![](./assets/images/sports-helmet-availability.png)
+
+**Frontend screenshot**
+
+![](./assets/images/sports-helmet-front.png)
