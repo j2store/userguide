@@ -24,7 +24,11 @@ Some basic settings need to be done before you proceed. This will be handled by 
  * ***Enable J2Store CSS***
  
     If this option is enabled, J2store loads the **j2store.css** file for customizing the template style. First, this will look in to the template CSS file. If it is not included, then J2Store loads it own **J2Store.css** file.
-    >NOTE: Copy the original CSS file from /media/j2store/css/j2store.css to your template's css folder. Otherwise, you will have to style every element from scratch. The original j2store.css will get you started quickly. You can then append / change existing styles
+    >NOTE: Copy the original CSS file from /media/j2store/css/j2store.css to your template's css folder. Otherwise, you will have to style every element from scratch. The original j2store.css will get you started quickly. You can then append / change existing styles.
+    
+* *** Load Font-Awesome UI in front end***
+
+If your template or other extensions load Font-awesome and wants to disable loading Font Awesome from J2Store, you can choose NO. Otherwise you can load either the local copy of font-awesome or remote.
     
 * ***Load jQuery UI***
     
@@ -49,6 +53,10 @@ Some basic settings need to be done before you proceed. This will be handled by 
 * ***Who can see 'add to cart'***
  
     This is an option for the user to add his/her product of choice to the cart to proceed for billing. This can be set to be viewed by **'everyone'** or for **'registered users only'**.
+    
+* ***Cart and checkout pages should use CSS classes of***
+
+   This option is used to render the cart and checkout pages in proper layout. Choose the option based on your template's bootstrap version. If your template's bootstrap version is 3, select Bootstrap 3.x and if your template's bootstrap version is 2, then select Bootstrap 2.x.
 
 * ***Date Format***
 
@@ -58,8 +66,10 @@ Some basic settings need to be done before you proceed. This will be handled by 
 
     The relative path to the folder with your corresponding files. Eg., **'/media/myfiles/xyz.css'**
 
+![](./assets/images/j2store-config.png)
+
 <a name="store"></a>
-##Store
+## Store
 
 Configure the address, administrator email and some defaults for your storefront
     
@@ -120,7 +130,8 @@ Check the image below to understand how to enter emails, store name and address 
     Select the default length measurement in use for any country from the available options. (Centimetre, Inch, Millimetre)
 
 <a name="product"></a>
-##Product
+## Product
+
 These are global parameters for product display. You can override some of these parameters if you are using the J2Store's product layout.
 
 * ***Catolog Mode***
@@ -285,7 +296,7 @@ This is for discounts that are offered to customers.
 
 Cart and checkout settings for your store.
 
-* Add to Cart Placement
+* ***Add to Cart Placement***
 
     This option is for placing the **add to cart** button. Three options are available to choose.
     

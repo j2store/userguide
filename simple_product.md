@@ -46,6 +46,7 @@ Have a look at the image below:
 * **Vendor** - Select the vendor from whom the product is available for purchase - ***Note: This feature is available in J2Store PRO version only***
 * **Tax Profile** - Specify whether the product is taxable and if so, select the tax profile relevant to the product
 * **Cart Button Text** - Enter the text to be displayed in the cart button
+* **Product css class** - Use this option add unique css class to each product.
 
 <a name="pricing"></a>
 ### Pricing

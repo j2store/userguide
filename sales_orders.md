@@ -1,6 +1,15 @@
 # Orders
 
-A customer views the product and completes the checkout process, it is transformed into an order. Orders are listed here according to their statuses. They are as follows:
+A customer views the product and completes the checkout process, it is transformed into an order. 
+
+* **[Order statuses](#order-status)**
+* **[Creating / editing an order from backend](#create-edit-order)**
+* **[Adding shipping tracking ID](#shipping-tracking-id)**
+
+<a name="order-status"></a>
+### Order statuses
+
+Orders are listed here according to their statuses. They are as follows:
 
 #### New
 
@@ -44,28 +53,61 @@ Check the image below to understand clearly.
 
 ![Order Listing](./assets/images/order_listing.png)
 
+<a name="create-edit-order"></a>
 #### Creating order from backend
 
 J2Store allows you to send a invoice first and then collect the payment from customer. This is possible by creating an order from backend. Follow the below steps to create an order from backend:
 
 1. Go to J2Store > Sales > Orders and click new on top left of the page.
+![](./assets/images/order-new-btn.png)
 
 2. From the resulted page, select date, user and language and then click on Save & Next at bottom of the page.
+![](./assets/images/order-backend-step-1.png)
 
 3. Now you are in Billing Address tab. Under this tab, choose the billing address of the customer or create a new one and then click on Save & Next.
+![](./assets/images/order-backend-step-2.png)
 
 4. Under the Shipping address tab, click on Choose alternate address if you customer's shipping address is different from billing address.
+![](./assets/images/order-backend-step-3.png)
 
 5. Now you are in Items tab. Here type two or three characters of the Product's SKU. It will show you the available products. From the available products, choose your desired product and click on "Add item to order".
+![](./assets/images/order-backend-step-4.png)
 
 6. The popup screen will be displayed where you should click on Add to cart button to add an item into the basket. Then, close the popup and click on Save & Next.
+![](./assets/images/order-backend-step-4-1.png)
+![](./assets/images/order-backend-step-5.png)
 
 7. Choose your payment method and shipping charge under Payment & Shipping method tab and click Save & Next.
+![](./assets/images/order-backend-step-6.png)
 
 8. At last, the order summary will be displayed. At the bottom of the page, you will see calculate tax button. On clicking this button will cacluate the text for this order.
 
-9. Finally click on save order.
+9. If you would like to apply extra charge to customers, use Add fee feature at the order summary tab. Enter the fee name, fee amount and choose the tax profile (if you wants to charge extra fee taxable) and then Finally click on save order.
+![](./assets/images/order-backend-last-step.png)
 
+Direct link to the **[video tutorial](https://www.j2store.org/support/video-tutorials/creating-order-from-backend.html)**.
+
+#### Editing order from backend
+
+You could edit the order by going to J2Store > Sales > Orders.
+
+Go to Sales > Orders
+You could see the orders listed in the table format. In the tabular column, select the checkbox of the corresponding order that has to be edited and then click **Edit** button at the top of the page.
+
+![](./assets/images/orders-list.png)
+
+**Another way:**
+
+Open the order by clicking on invoice no or order ID.
+
+![](./assets/images/order-link.png)
+
+You would see the page like below.
+![](./assets/images/order-history.png)
+
+Click on Edit at the top of the page and make the changes to the order.
+
+<a name="shipping-tracking-id"></a>
 #### Adding shipping tracking ID
 
 If you have enabled shipping in your site, in admin order history page you can see the text box to enter shipping tracking ID. Enter your shipping tracking ID and click save.
