@@ -2,10 +2,10 @@
 
 So, what are the uses of the new menu item Product tag view?
 Here is all what you can achieve with the tag layout of J2Store:
- * Assign a product to multiple categories.
- * Display brand-wise products.
-The following are the steps to be done:
+ *  **[Assign a product to multiple categories](#multicat)**
+ *  **[Display brand-wise products.](#brand-wise)**
 
+<a name="multicat"></a>
 ## Assigning a product to multiple categories:
 
 With the conventional list layout, it is possible to organize products based on their categories. However, there is one catch. It is not possible to assign a product to multiple categories.
@@ -27,16 +27,11 @@ Overcoming this, now we have the tag layout where it is possible for a product t
     * Gifts
     * Kitchen appliances
 * Create a product named coffee mugs.
-
 * Assign both the tags to the product article.
-
 * Create menu items of the type Product tag view:
    * Kitchen appliances associating  the tag kitchen appliances
    * Gifts associating the tag Gifts
-
-
 * Now the product coffee mugs will be available in both Kitchen appliances and Gifts.
-
 
 Likewise, we can assign products to as many categories as we wish.
 
@@ -56,11 +51,11 @@ The front end view is like this:
 
 ![](./assets/images/producttagusecase6.png)
 
+<a name="brand-wise"></a>
 ## Displaying products brand-wise
 
 If you own a multi-brand store, then this feature might help you the most.
-
-You could display your products brand-wise. All you have to do is this.
+You could display your products brand-wise. All you have to do is this:
 
   * Create tags with the brand name.
   * Create products and link them to their corresponding brands(tags).
