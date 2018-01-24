@@ -424,6 +424,18 @@ With this update if you have used more than 7 options then the first 7 options a
 
 **NOTE:** Please take a backup before updating the plugin and test after installing.
 
+### Here is another possible reason (this might also cause this error)
+
+You might have enabled the Encrypted Website Payments. Try the following steps to solve this.
+
+1. Log in to your PayPal account.
+2. Click Profile.
+3. From the Selling Preferences column, click Website Payment Preferences.
+4. In the Encrypted Website Payments section, select Off.
+5. Click Save.
+
+Also check if your PayPal account is approved to receive payments.
+
 <a name="admin-tools-pro"></a>
 ## Admin tools PRO exception
 
