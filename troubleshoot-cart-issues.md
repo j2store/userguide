@@ -1,5 +1,6 @@
 # Troubleshoot cart related issues
 
+* **[Not adding items to the cart](#items-not-added)**
 * **[Cart cleared during registration](#cart-clear)**
 * **[Template override for Add to cart block in category view](#template-override-category-view)**
 * **[Template override for Add to cart block in detail view](#template-override-detail-view)**
@@ -10,6 +11,16 @@
 * **[How To Solve Mini Cart module related issues?](#cart-module-issues)**
 * **[I don't see Add to Cart Button. What is the problem?](#not-show-cart-button)**
 * **[HOW TO move Add to Cart Button using the Short Plugin tag](#move-cart-button)**
+
+<a name="items-not-added"></a>
+#### Not adding items to the cart
+
+EU e-Privacy Directive plugin does not even allow the Joomla session cookie.
+That means, no one can login in the front end including customers.
+
+In the plugin settings, make sure the Joomla session cookie is allowed.
+J2Store saves the cart data in the Joomla session and maintains the cart record id there and also address information (if checked out as guest).
+So J2store at least requires you to allow the Joomla session cookie.
 
 <a name="cart-clear"></a>
 #### Cart cleared during registration
