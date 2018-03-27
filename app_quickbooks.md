@@ -55,14 +55,6 @@ The app could do that automatically for you. You can choose an income account to
 
 The transactions are queued before being sent to quickbooks. So there is no performance overload or delays when customers make orders. Even if the communication between quickbooks and your online store is interrupted, the transaction will be re-queued. You can also manage the transaction records in queue.
 
-#### Installation
-
-1. Download Quickbook from our site and install it using Joomla installer.
-
-2. After installing the app, go to J2Store > Apps and enable the Quickbook for J2Store.
-
-3. Once enabled, click on Open to configure the Quickbook app settings and to add the credentials keys.
-
 #### Where to find Company ID in sandbox ?
 
 ##### Step-1 Create a sandbox
