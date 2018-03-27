@@ -14,6 +14,23 @@ You should have following minimum requirements to use this app.
 
 * You must have atleast J2Store version **3.2.21** to use this app.
 
+### Installation
+
+1. Download Quickbooks Online package from our site. You will get two .zip files named:
+
+    a. Quickbooks Online OAuth 1 - plg_j2store_app_quickbook.zip
+    b. Quickbooks online OAuth 2 - plg_j2store_app_quickbook_oauth2.zip
+    
+    If you see **client ID** and **Client secret** keys on your quickbooks account dashboard, you will have to install package b (plg_j2store_app_quickbook_oauth2.zip).
+    
+    If you see **Consumer ID** and **Consument Secret** keys on your quickbooks account dashboard, you will have to install package 2 (plg_j2store_app_quickbook.zip)
+    
+2. Install the downloaded package through Joomla installer.
+
+3. After installing, go to J2Store > Apps and activate Quickbook Online.
+
+4. Once enabled, open the app and configure the basic settings.
+
 ##### Key features
 
 **Orders**
