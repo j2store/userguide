@@ -2,8 +2,18 @@
 
 You can customise the email notifications sent to the customers when they place an order. The email templates offer a wide range of short codes to include dynamic data like order information, customer information in the email notification.
 
+* **[Email template customization](#customization)**
+    * **[Free version](#free-version)**
+    * **[PRO version](#pro-version)**
+* **[How to create email template](#create-template)**
+* **[How to add custom fields inside email template](#custom-fields)**
+* **[How to add logo in your Email template](#add-logo)**
+* **[Shortcodes](#shortcodes)**
+
+<a name="customization"></a>
 ## Customising the template 
 
+<a name="free-version"></a>
 ### Free version
 
 Write a language override for the following constants
@@ -16,6 +26,7 @@ This controls the body of the email.
 
 Refer below all the short codes that can be used in the email template
 
+<a name="pro-version"></a>
 ### PRO version
   
   In Pro version, you have the ability to create the email template from the backend. And you also have the ability to apply different restrictions for them.
@@ -27,6 +38,9 @@ To create an email template, follow the steps as shown with the help of images.
 From the resulting page, click on **New** in the top left corner.
 
 ![](./assets/images/email_template_create_new_1.png)
+
+<a name="create-template"></a>
+## How to create email template?
 
 You will get two settings tabs to be filled up for creating an email template. They are 
 * Basic
@@ -83,6 +97,9 @@ If you have selected **Simple Editor** in the **Basic Tab**, then the **Advanced
 
 There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content.
 
+<a name="custom-fields"></a>
+## How to add custom fields inside email template ?
+
 Also, you can add custom fields you have created in the editor. To add a custom field in the editor for display, you need to follow the format given below:
 
 [CUSTOM_BILLING_FIELD:FIELDNAME]
@@ -107,9 +124,11 @@ The source code of the template file is shown below in the editor and if the use
 
 ![](./assets/images/email_template_advanced_1.png)
 
+<a name="add-logo"></a>
 #### How to add logo in your Email Template ?
 ![](./assets/images/email_template_cropping.gif)
 
+<a name="shortcodes"></a>
 ##Short codes
         [SITENAME]
 				[SITEURL]
