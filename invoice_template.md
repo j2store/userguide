@@ -2,6 +2,13 @@
 
 You can design how your invoice looks here. You can add  a company address, logo, and some additional information in the invoice. You can also show various order information by adding the short tags. The tags will be replaced with relevant information from the order table.
 
+* **[Customizing invoice template in free version](#free-version)**
+* **[Creating / Editing Invoice template in PRO version](#pro-version)**
+* **[How to add custom fields in invoice template](#custom-fields)**
+
+<a name="free-version"></a>
+### Free version
+
 >NOTE: In free version, the template comes from the language file.
 In the language file, you can find this constant that holds the invoice template: 
 
@@ -9,14 +16,15 @@ In the language file, you can find this constant that holds the invoice template
 
 >The constant's value has short tags and html. You can override the text by writing a language override.
 
-#### Creating / Editing Invoice template
+<a name="pro-version"></a>
+### Creating / Editing Invoice template in PRO version
 Like email template, here too we have two settings pages to be filled up for creating an invoice template. They are
 * Basic
 * Advanced
 
 The following points reveal the process of an invoice template.
 
-### Basic
+#### Basic
 The fundamental requirements of a template. Let us see one by one.
 
 #### Title
@@ -37,7 +45,7 @@ This defines the payment methods that are accepted for selling. Some payment opt
 #### Status
 For a template to be used for invoicing, it has to be published prior to that. This field will notify that status.
 
-### Advanced
+#### Advanced
 In advanced settings, we have the invoice content. The content of the invoice can be designed here. You can include a lot of information. There is a rich text editor to neatly customize the content. 
 
 Using the short codes, you can add customer name, order no, order date, payment details, shipping details, product details etc. This is can be accomplished by adding suitable tags listed in the extreme right area of the page.
@@ -47,6 +55,9 @@ Check the image below for how an invoice template can be designed for our needs.
 ![Create Invoice Template](./assets/images/invoice template.png)
 
 Full articles can also be added to the content, from other external sources.
+
+<a name="custom-fields"></a>
+### How to add custom fields in invoice template?
 
 Also, you can add custom fields you have created in the editor. To add a custom field in the editor for display, you need to follow the format given below:
 
