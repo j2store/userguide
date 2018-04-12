@@ -5,6 +5,7 @@ You can design how your invoice looks here. You can add  a company address, logo
 * **[Customizing invoice template in free version](#free-version)**
 * **[Creating / Editing Invoice template in PRO version](#pro-version)**
 * **[How to add custom fields in invoice template](#custom-fields)**
+* **[## How to create template override for items table showing in the invoice ?](#template-override)**
 
 <a name="free-version"></a>
 ### Free version
@@ -74,3 +75,24 @@ Keep in mind, the following, when you add a custom field to the editor:
 Refer the image below for more clear understanding.
 
 ![](./assets/images/guide-to-add-custom-field.png)
+
+<a name="template-override"></a>
+## How to create template override for items table showing in the invoice ?
+
+If you would like to customize the order item table showing in order invoice, that could be possible by creating template override. Carrying out customizations through template override will not overwrite the changes if you update it in future.
+
+Here are the instructions to be followed:
+
+The files that controls items table is located at
+
+/components/com_j2store/views/myprofile/tmpl/orderitems.php
+
+Copy the above file and paste it under
+
+/templates/YOUR-SITE-TEMPLATE/html/com_j2store/myprofile/orderitems.php
+
+Edit
+
+/templates/YOUR-SITE-TEMPLATE/html/com_j2store/myprofile/orderitems.php
+
+Make your changes and save.

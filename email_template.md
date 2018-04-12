@@ -7,6 +7,7 @@ You can customise the email notifications sent to the customers when they place 
     * **[PRO version](#pro-version)**
 * **[How to create email template](#create-template)**
 * **[How to add custom fields inside email template](#custom-fields)**
+* **[How to create template override for items table showing in the order email ?](#template-override)**
 * **[How to add logo in your Email template](#add-logo)**
 * **[Shortcodes](#shortcodes)**
 
@@ -124,12 +125,33 @@ The source code of the template file is shown below in the editor and if the use
 
 ![](./assets/images/email_template_advanced_1.png)
 
+<a name="template-override"></a>
+## How to create template override for items table showing in the order email ?
+
+If you would like to customize the order item table showing in order email notification, that could be possible by creating template override. Carrying out customizations through template override will not overwrite the changes if you update it in future.
+
+Here are the instructions to be followed:
+
+The files that controls items table is located at
+
+/components/com_j2store/views/myprofile/tmpl/orderitems.php
+
+Copy the above file and paste it under
+
+/templates/YOUR-SITE-TEMPLATE/html/com_j2store/myprofile/orderitems.php
+
+Edit
+
+/templates/YOUR-SITE-TEMPLATE/html/com_j2store/myprofile/orderitems.php
+
+Make your changes and save.
+
 <a name="add-logo"></a>
-#### How to add logo in your Email Template ?
+## How to add logo in your Email Template ?
 ![](./assets/images/email_template_cropping.gif)
 
 <a name="shortcodes"></a>
-##Short codes
+## Short codes
         [SITENAME]
 				[SITEURL]
 				[INVOICE_URL]
