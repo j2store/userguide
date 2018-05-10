@@ -14,7 +14,7 @@ This plugin now provides users the privilege to have control over their informat
 
 ![](./assets/images/app_gdpr_installation.png)
 
-3. Click **Enable** in the Gift certificate app.
+3. Click **Enable** in the GDPR app.
 4. Once the app is enabled, click on **Open** to set the configuration for the app.
 
 #### Parameters
