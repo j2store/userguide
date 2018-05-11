@@ -42,6 +42,25 @@ This app allows store owner to combine the products and sell it as one group pro
 
 ![](./assets/images/groupproduct_05.png)
 
+#### Usecase
+
+Let's imagine the scenario, where you own a online book store and  you wish to sell both the physical book and the digital copy of the book, then grouped products could be a boon to you.
+
+Grouped product comes handy especially when you don't want the user to go searching for the physical book in two different places and when you wish to allow the buyer to choose whether to buy the physical product or the digital copy of the product.
+Now, let us get to know how to create a grouped product for the above scenario.
+#### Procedure to be followed
+ * Create a simple product, for the physical product, specifying the images, price, discount, stock information if any.
+ * Create a downloadable product, for the digital product, mentioning the product price, file to be downloaded after purchase, download limit and link expiry limit and so on.
+ * Create a product of the type "Grouped product".
+ * Navigate to the Apps section and you will find the option to add other products to the group.
+ * Add the products that you wish to group into a bundle and save the article.
+ * Associate the grouped product to a category and link that category to a menu.
+ * Now the grouped product will be available at the frontend like this:
+
+ ![](./assets/images/app_groupedpro_usecase1.png)
+
+
+
 #### Video Tutorial
 
 You can watch the video tutorial for Group Product app by clicking the link below.
