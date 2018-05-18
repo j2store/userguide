@@ -3,7 +3,7 @@
 
 Styling is more important for all websites. Sometimes site owner may wants to organize their products in more stylish way than usual one. In that case, they will be looking to use page builder. SP Page Builder is a most popular page builder Joomla.
 
-Now are came up with the integration plugin that would integrate SP Page Builder with J2Store Joomla eCommerce solution. So that you could display the products in the page layout you designed by using SP Page builder.
+Now we came up with the integration plugin that would integrate SP Page Builder with J2Store Joomla eCommerce solution. So that you could display the products in the page layout you designed by using SP Page builder.
 
 With the help of this integration plugin, you will be able to display the J2Store products via SP Page Builder in your Joomla site. It lets you insert product shortcode in any custom widgets.
 
@@ -82,3 +82,5 @@ Follow the below step by step instructions to display the product display module
 #### Screenshot of frontend
 
 ![](./assets/images/sp-j2frontend.png)
+
+**[Direct link to the video tutorial](https://www.j2store.org/support/video-tutorials/sp-page-builder-using-product-shortcode.html)**
