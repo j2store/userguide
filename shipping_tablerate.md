@@ -21,6 +21,8 @@ You can define multiple rates based on the customer's address, have multiple rat
     * **[Create a shipping method with shipping class](#example-1)**
     * **[Applying multiple rules to the same shipping class](#example-2)**
     * **[Calculating shipping cost by weight](#example-3)**
+* **[Use cases](#usecases)**
+    * **[Shipping products based on Geozone](#usecase1)**
 
 ### Requirements
 
@@ -218,3 +220,65 @@ The shop owner decided to charge for a shipping based on weight. It’s more cos
     1kg-2kg: $9.50
 
 In this case, we are going to calculate the shipping based on the weight of the entire order so choose **Per Order** as the calculation type. He needs to create three rows, one for each rule he wishes to create. These will apply to any shipping class, with the weight condition, and a minimum and maximum weight applied.
+
+<a name="usecases"></a>
+### Use cases
+
+<a name="usecase1"></a>
+#### 1. Shipping products based on Geozone
+
+Consider that store owner would like to ship some of his products to **Mumbai** and some products to **Delhi**. Configuring this type of shipping cost could be achieved by using Shipping class.
+
+**Here is the scenario:**
+
+1. Product A will be shipped from Mumbai
+2. From Delhi warehouse, Product B should be shipped
+3. If customer adds both product A and B to cart so shipping charge of both should be summed and shown up because Product A ship from Mumbai and B from Delhi so user have to pay two shipping cost.
+
+Let me explain how to configure the table rate shipping based on above scenario.
+
+**Step-1: Create geozone**
+
+Since the products are going to be shipped from different places, the geozones have to be created separately.
+
+The below screenshot shows that we have created two geozones "Mumbai" and "Delhi".
+![](./assets/images/table-rate-usecase-1a.png)
+
+**Step-2 Creating shipping class**
+
+Since the shipping cost has to be calculated based on shipping class, there are two shipping classes needs to be created. We have created below two shipping classes
+1. Mumbai
+2. Delhi
+
+![](./assets/images/table-rate-usecase-1c.png)
+
+Then, assign the shipping class to the products accordingly.
+
+**Cap**  - We considered that this product will be shipped from Mumbai. So we assigned the shipping class "Mumbai" to this product. If you edit the product and navigate to J2Store Cart tab > Apps tab, you would see the shipping class associated.
+
+![](./assets/images/table-rate-usecase-1d.png)
+
+**T-shirt** - and considered this will be shipped from Delhi so we assigned the shipping class "Delhi" to this product.
+
+**Step-3: Creating shipping methods**
+
+We have created two shipping methods using table rate shipping plugin.
+1. Shipping cost 1 - This is to apply the shipping charge for the products to be shipped from Mumbai.
+2. Shipping cost 2 - This is to apply the shipping charge for the products to be shipped from Delhi.
+
+Now open the table rate shipping plugin and create the shipping method for Mumbai called "Shipping cost 1". Assign the geozone "Mumbai". Finally create the shipping rule using the shipping class.
+
+The shipping cost 2 has been created similar to the shipping cost 1.
+
+![](./assets/images/table-rate-usecase-1b.png)
+
+**Frontend screenshots:**
+
+Shipping charge applies when adding product A:
+![](./assets/images/table-rate-usecase-1e.png)
+
+Shipping charge applies when adding product B:
+![](./assets/images/table-rate-usecase-1f.png)
+
+When adding both products, the shipping cost calculated by adding both charge:
+![](./assets/images/table-rate-usecase-1g.png)
