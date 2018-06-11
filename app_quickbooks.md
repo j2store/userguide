@@ -14,6 +14,12 @@ You should have following minimum requirements to use this app.
 
 * You must have atleast J2Store version **3.2.21** to use this app.
 
+* The **CRON JOB** has to be created in order to perform the synchronization of orders and customers with Quickbooks properly.
+    Here is the sample cron url:
+    http://www.example.com/index.php?option=com_j2store&view=cron&command=app_quickbook&cron_secret=XXXXX
+    
+    Replace www.example.com with your domain.
+
 ### Installation
 
 1. Download Quickbooks Online package from our site. You will get two .zip files named:
