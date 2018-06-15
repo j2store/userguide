@@ -282,3 +282,101 @@ Shipping charge applies when adding product B:
 
 When adding both products, the shipping cost calculated by adding both charge:
 ![](./assets/images/table-rate-usecase-1g.png)
+
+#### 2. Applying shipping charge based on location and quantity.
+
+Consider that store owner would like to set the different shipping cost for Germany and France based on both order quantity and item quantity. Let's see the scenario below:
+
+**Scenario**
+
+1. For customers from Germany,
+
+    TOTAL of all Items from 1 to 12 = Flat shipping rate 7.20€
+
+    TOTAL of all Items from 13 to xxx = shipping rate per Item 0.60 €
+    
+    That means,
+	total of all Items =1 then the Shippng rate is 7.20 €
+	total of all Items =12 then the Shippng rate is 7.20 €
+	total of all Items =13 then the Shippng rate is 7.80 €
+	total of all Items =30 then the Shippng rate is 18.00 €
+    
+2. For customers from France,
+
+    TOTAL of all Items from 1 to 12 = Flat shipping rate 12.00€
+
+	TOTAL of all Items from 13 to xxx = shipping rate per Item 1.00 €
+
+	That means,
+	total of all Items =1 then the Shippng rate is 12.00 €
+	total of all Items =12 then the Shippng rate is 12.00 €
+	total of all Items =13 then the Shippng rate is 13.00 €
+	total of all Items =30 then the Shippng rate is 30.00 €
+    
+Here are the steps to configure the table rate shipping according to above scenario:
+
+**Step-1 Creating geozones**
+
+Since the shipping cost are going to be calculated based on Germany and France, you will have to create two different geozones.
+
+![](./assets/images/table-rate-usecase-2a.png)
+
+**Step-2 Creating a shipping method for scenario 1**
+
+1. Create a shipping method and give the name to it. For example, we named it as "Shipping cost 1"
+
+2. Then, choose Germany to the Geozone and select the usergroups.
+
+3. Choose **Per Order** as a Calculation type and save.
+
+4. Click on Add rules button to add shipping rules to the shipping method. Since the shipping cost will be different based on order quantity and item quantity, you will have to create two shipping rules.
+
+   Here is how the shipping rule has to created:
+
+   **Shipping rule 1:** 
+   
+   Shipping class - Any class
+   Condition - Item count
+   Min - Max - 1 to 12
+   Row cost - 7.2
+   
+   **Shipping rule 2:** 
+   
+   Shipping class - Any class
+   Condition - Item count
+   Min - Max - 13 to 999
+   Item cost - 0.6
+   
+Finally save.
+
+![](./assets/images/table-rate-usecase-2b.png)
+
+![](./assets/images/table-rate-usecase-2d.png)
+
+![](./assets/images/table-rate-usecase-2e.png)
+
+**Step-3 Creating a shipping method for scenario 2**
+
+Similar to the above step, create a shipping method. Then, choose France to the geozone and save.
+
+Now create two shipping rules for this method as per below:
+
+   **Shipping rule 1:**
+   
+   Shipping class - Any class
+   Condition - Item count
+   Min - Max - 1 to 12
+   Row cost - 12
+   
+   **Shipping rule 2:** 
+   
+   Shipping class - Any class
+   Condition - Item count
+   Min - Max - 13 to 999
+   Item cost - 1
+   
+![](./assets/images/table-rate-usecase-2c.png)
+
+![](./assets/images/table-rate-usecase-2f.png)
+
+![](./assets/images/table-rate-usecase-2g.png)
