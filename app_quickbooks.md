@@ -21,6 +21,7 @@ You should have following minimum requirements to use this app.
     https://www.example.com/?option=com_j2store&view=queues&task=processQueue&queue_key=<queue key>&queue_type=app_quickbook
     ```
     Queue key could be found under J2Store > Setup > Configuration > Store tab
+    
     Replace www.example.com with your domain.
 
 ### Installation
