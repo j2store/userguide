@@ -25,9 +25,7 @@ Once you’ve signed in to our website, select Join Now on the main Developr pro
 
 ##### Get your API keys
 
-Select Business Solutions > Ecommerce solutions > Developer program.
-
-You would see the API keys that are used to access Canada Post web service and Postmen API. Note down the API keys (one for development and one for production).
+You would see the API keys that are displayed on the main Developer Program page. These API keys are unique codes, used to access Canada Post web service and Postmen API. Note down the API keys (one for development and one for production).
 
 #### Configuration
 Prior to configuring the plugin, you should have an active account with the CanadaPost and received API keys. Contact CanadaPost to register and get API keys.
