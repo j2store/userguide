@@ -17,8 +17,10 @@ You should have following minimum requirements to use this app.
 * The **CRON JOB** has to be created in order to perform the synchronization of orders and customers with Quickbooks properly.
     
     Here is the sample cron url:
-    http://www.example.com/index.php?option=com_j2store&view=cron&command=app_quickbook&cron_secret=XXXXX
-    
+    ```
+    https://www.example.com/?option=com_j2store&view=queues&task=processQueue&queue_key=<queue key>&queue_type=app_quickbook
+    ```
+    Queue key could be found under J2Store > Setup > Configuration > Store tab
     Replace www.example.com with your domain.
 
 ### Installation
