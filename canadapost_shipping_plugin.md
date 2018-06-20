@@ -11,6 +11,22 @@ This plugin integrates Canada Post Shipping Rate API with J2Store. It integrates
 #### Installation
 You can install the plugin through the standard Joomla installer.
 
+#### How to Register with Canada Post ?
+
+##### Sign in or Sign up
+
+If you are lready registered with Canada Post, then [Sign in](https://sso.epost.ca/sso/lfe/ui/login?stepupId=smb_mode1,commercial_link,smb_link&templateId=cpcapps&language=en&manifestId=bizSecurity&sourceUrl=https://www.canadapost.ca%2Fcpo%2Fmc%2Fbusiness%2Fproductsservices%2Fdevelopers%2Fservices%2Fgettingstarted.jsf&targetUrl=https://www.canadapost.ca%2Fcpotools%2Fapps%2Fdrc%2Fhome%3FforceVouchFor%3Dtrue) to the Canada Post website using your registered Username and Password.
+
+Don't have an account yet ? [Sign up](https://sso.epost.ca/sso/pfe/ui/registration?stepupId=smb_mode1,commercial_link,smb_link&templateId=cpcapps&language=en&manifestId=bizSecurity&sourceUrl=https://www.canadapost.ca%2Fcpo%2Fmc%2Fbusiness%2Fproductsservices%2Fdevelopers%2Fservices%2Fgettingstarted.jsf&targetUrl=https://www.canadapost.ca%2Fcpotools%2Fapps%2Fdrc%2Fhome%3FforceVouchFor%3Dtrue#profile) now.
+
+##### Join the Developer Program
+
+Once you’ve signed in to our website, select Join Now on the main Developr program page. Read and accept the terms and conditions of the Program to become a member.
+
+##### Get your API keys
+
+You would see the API keys that are displayed on the main Developer Program page. These API keys are unique codes, used to access Canada Post web service and Postmen API. Note down the API keys (one for development and one for production).
+
 #### Configuration
 Prior to configuring the plugin, you should have an active account with the CanadaPost and received API keys. Contact CanadaPost to register and get API keys.
 1. Make sure that you have set the Default Weight Class to Kilogram (KG) or Pound (LB) in the J2Store admin –> Set up –> Store Profiles –> Your Store profile
