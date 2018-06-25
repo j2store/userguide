@@ -1,7 +1,5 @@
 # Product Tag Layout
-
-
-- **[Introduction](#introduction)**
+* **[Introduction](#introduction)**
 * **[Overview](#overview)**
 * **[Creating a tag](#creating_a_tag)**
 * **[Adding a tag to the product](#adding_a_tag_to_product)**
